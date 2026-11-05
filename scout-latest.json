@@ -1,0 +1,50 @@
+{
+  "as_of_et": "4:10 PM ET, November 4",
+  "feed_version": "scout-feed-v1",
+  "generated_at": "2026-11-05T16:05:00-05:00",
+  "items": [
+    {
+      "evidence_grade": "corroborated",
+      "id": "scout-20261104-1610-momentum-rotation",
+      "key_finding": "S&P 500 outperformed MTUM by 9.71 percentage points over five trading days, the largest five-day relative advantage in Barron's analysis.",
+      "observations": [
+        {"label": "Dow Jones", "value": "More than +1,500 points"},
+        {"label": "S&P 500", "value": "Approximately +1.6%"},
+        {"label": "Nasdaq Composite", "value": "Approximately +1.4%"},
+        {"label": "Momentum ETF (MTUM)", "value": "−2.3% in afternoon trading"},
+        {"label": "Semiconductor ETF (SMH)", "value": "−3.2% at 3:12 PM ET"},
+        {"label": "VIX volatility index", "value": "16.79, −19.4% in reported trading"}
+      ],
+      "observed_at": "2026-11-04T16:10:00-05:00",
+      "sectors": ["Semiconductors", "AI infrastructure"],
+      "sources": [
+        {"title": "Barron's", "url": "https://www.barrons.com/livecoverage/stock-market-news-today-110426/card/the-blue-wave-washed-out-risk-momentum-stocks-CBVo9WhcOK9PesmgXugj"},
+        {"title": "Associated Press", "url": "https://apnews.com/article/4d12764c0b3ce38ffde3077712811182"}
+      ],
+      "status": "new",
+      "summary": "The November 4 close confirmed a sharp split: the broad market rallied while previously favored growth sectors fell. The S&P 500 beat the momentum ETF by 9.71 points over five trading days, the widest gap in Barron's analysis.",
+      "supersedes": null,
+      "tickers": ["MTUM", "SMH", "AMD", "NVDA"],
+      "title": "EXAMPLE — Momentum stocks experience historic relative underperformance"
+    },
+    {
+      "evidence_grade": "corroborated",
+      "id": "scout-20261104-1610-oil-settlement",
+      "key_finding": "Energy markets are pricing anticipated diplomatic progress before the corresponding physical supply improvement has been demonstrated.",
+      "observations": [
+        {"label": "Brent crude", "value": "$94.62, −8.7%"},
+        {"label": "WTI crude", "value": "$88.12, −8.3%"}
+      ],
+      "observed_at": "2026-11-04T16:10:00-05:00",
+      "sectors": ["Energy", "Petroleum"],
+      "sources": [
+        {"title": "Financial Times", "url": "https://www.ft.com/content/b526f876-810a-4e74-8b8d-4ffca04b29c7"}
+      ],
+      "status": "new",
+      "summary": "Brent and WTI settled down more than 8% on November 4, a move the market reads as falling geopolitical risk premiums rather than confirmed physical supply recovery. Hormuz shipping constraints and low distillate inventories persist.",
+      "supersedes": null,
+      "tickers": ["XLE", "XOP"],
+      "title": "EXAMPLE — Oil's extraordinary decline is confirmed at settlement"
+    }
+  ]
+}
