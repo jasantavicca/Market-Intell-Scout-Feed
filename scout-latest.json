@@ -1,55 +1,110 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-06T14:23:43-05:00",
-  "as_of_et": "2:23 PM ET, November 6, 2026",
+  "generated_at": "2026-11-06T15:09:38-05:00",
+  "as_of_et": "3:09 PM ET, November 6, 2026",
   "items": [
     {
-      "id": "scout-20261106-1423-microsoft-oracle-capacity",
-      "observed_at": "2026-11-06T12:54:00-05:00",
-      "title": "Microsoft reportedly winds down rented Oracle AI computing as hardware becomes less suitable",
-      "summary": "Bloomberg, cited by Reuters, reports Microsoft has been switching off rented Oracle AI computing after declining to renew an older arrangement. The Nvidia hardware reportedly no longer meets Microsoft's evolving needs. This raises utilization and asset-obsolescence questions for AI infrastructure providers, but Microsoft has not directly confirmed the reported nonrenewal.",
+      "id": "scout-20261106-1509-mchp-supply-constraints",
+      "observed_at": "2026-11-06T14:21:00-05:00",
+      "title": "Microchip earnings beat contrasts with supply-constrained guidance and steep share decline",
+      "summary": "Microchip Technology reported strong September-quarter growth and adjusted earnings above guidance, but its shares fell sharply as the December outlook pointed to a sequential revenue decline. Lengthening manufacturing lead times, capacity limitations and delayed high-margin orders complicate near-term margins despite underlying industrial and data-center demand. These are observed market and operating signals, not proof of a lasting impairment.",
       "tickers": [
-        "ORCL",
-        "MSFT",
-        "NVDA"
+        "MCHP"
       ],
       "sectors": [
-        "AI infrastructure",
-        "Cloud computing",
-        "Semiconductors"
+        "Semiconductors",
+        "Embedded systems",
+        "Industrial automation",
+        "Automotive electronics"
       ],
-      "evidence_grade": "single-source",
+      "evidence_grade": "corroborated",
       "observations": [
         {
-          "label": "Oracle reaction in Reuters report at 12:54 PM ET November 6",
-          "value": "Approximately -3% intraday; not a closing price"
+          "label": "MCHP, November 6 at 2:21 PM ET (intraday)",
+          "value": "$58.16, -10.32% versus prior close; stockanalysis.com"
         },
         {
-          "label": "Oracle reaction in earlier Investing.com report",
-          "value": "Approximately -4% intraday, 12:47 PM ET; subsequent share-price recovery also reported"
+          "label": "September-quarter FY2027 net sales",
+          "value": "$1.622 billion, +42.2% year over year; company release November 5"
         },
         {
-          "label": "Oracle fundraising announced November 2",
-          "value": "Approximately $20 billion in combined debt and equity financing"
+          "label": "September-quarter adjusted EPS",
+          "value": "$0.97 per share; company guidance had been $0.91-$0.95"
         },
         {
-          "label": "Agreement status",
-          "value": "Reported nonrenewal of 2023 cloud compute rental; not confirmed directly by Microsoft"
+          "label": "December-quarter revenue guidance, sequential midpoint",
+          "value": "-1% versus September quarter; approximately +35.4% year over year"
+        },
+        {
+          "label": "Manufacturing outlook",
+          "value": "Longer lead times and constrained wafer/assembly/test capacity, according to company and analyst reports"
         }
       ],
-      "key_finding": "The reported nonrenewal highlights potential economic obsolescence of older AI compute hardware without proving weaker overall AI demand.",
+      "key_finding": "A double-digit share-price dislocation contrasts with revenue recovery but reflects credible supply and margin constraints.",
       "sources": [
         {
-          "title": "Reuters, November 6, 2026: Microsoft winding down rented Oracle cloud capacity (citing Bloomberg)",
-          "url": "https://www.investing.com/news/stock-market-news/microsoft-is-winding-down-oracle-deal-to-rent-ai-cloud-capacity-bloomberg-news-reports-5008946"
+          "title": "Microchip Technology fiscal Q2 2027 earnings release, November 5",
+          "url": "https://rss.globenewswire.com/news-release/2026/11/05/3397141/0/en/microchip-technology-announces-financial-results-for-second-quarter-of-fiscal-year-2027.html"
         },
         {
-          "title": "Investing.com, November 6, 2026: Oracle initial market reaction",
-          "url": "https://www.investing.com/news/stock-market-news/oracle-falls-4-as-microsoft-reportedly-winds-down-ai-cloud-capacity-deal-5008936"
+          "title": "Stock Analysis — MCHP quote observed November 6 at 2:21 PM ET",
+          "url": "https://stockanalysis.com/stocks/mchp/"
         },
         {
-          "title": "Reuters, November 2, 2026: Oracle AI infrastructure fundraising",
-          "url": "https://www.investing.com/news/stock-market-news/oracle-to-offer-10-billion-in-bonds-4991687"
+          "title": "Investing.com — Cantor Fitzgerald on Microchip supply and margin constraints, November 6",
+          "url": "https://ca.investing.com/news/stock-market-news/cantor-fitzgerald-cuts-microchip-technology-stock-price-target-on-margin-pressure-93CH-4938932"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261106-1509-mrvl-lite-deal-repricing",
+      "observed_at": "2026-11-06T15:09:38-05:00",
+      "title": "Marvell and Lumentum face extraordinary weekly losses after all-stock AI connectivity merger",
+      "summary": "Shares of both companies suffered exceptionally large weekly declines despite a Friday rebound, as investors reassessed Marvell's proposed acquisition of Lumentum. The announced $1,132 valuation is based on pre-announcement prices, not fixed cash consideration: each Lumentum share would receive 4.5 Marvell shares. Strong optical and semiconductor demand remains possible, while exchange-ratio exposure, regulatory approval and integration complicate valuation.",
+      "tickers": [
+        "MRVL",
+        "LITE"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "Optical networking",
+        "AI infrastructure",
+        "Data-center interconnect"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "LITE week-to-date share-price move, November 6 afternoon media report",
+          "value": "Approximately -37%; weekly change, not closing/settlement"
+        },
+        {
+          "label": "MRVL week-to-date share-price move, November 6 afternoon media report",
+          "value": "More than -29%; weekly change, not closing/settlement"
+        },
+        {
+          "label": "Transaction announced November 2",
+          "value": "All-stock acquisition; implied enterprise value about $115 billion at unaffected share prices"
+        },
+        {
+          "label": "Merger consideration",
+          "value": "Fixed ratio 4.500 shares of MRVL for each LITE share; not $1,132 fixed cash"
+        },
+        {
+          "label": "Expected transaction timing",
+          "value": "First half of calendar 2028, subject to shareholder and regulatory approvals"
+        }
+      ],
+      "key_finding": "A massive weekly repricing has made AI-connectivity merger economics and approval risk unusually consequential.",
+      "sources": [
+        {
+          "title": "Marvell and Lumentum definitive acquisition announcement, November 2",
+          "url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Marvell-and-Lumentum-to-Combine-Creating-a-Category-Leader-in-AI-Connectivity/default.aspx"
+        },
+        {
+          "title": "Barron's — Marvell, Lumentum headed for historically bad weeks, November 6",
+          "url": "https://www.barrons.com/articles/marvell-lumentum-stocks-tech-ai-744741c8"
         }
       ],
       "status": "new",
@@ -112,113 +167,52 @@
       "supersedes": null
     },
     {
-      "id": "scout-20261106-1321-iren-ai-cloud-rebound",
-      "observed_at": "2026-11-06T13:21:00-05:00",
-      "title": "IREN rebounds as AI cloud revenue expands despite commissioning delays",
-      "summary": "IREN rebounded on rapid growth in AI cloud revenue and new customer capacity contracts. The company continues to report losses, while Microsoft-requested networking changes have delayed commissioning at its Texas data-center campus. Strong customer demand therefore contrasts with substantial construction and financing risks.",
+      "id": "scout-20261106-1423-microsoft-oracle-capacity",
+      "observed_at": "2026-11-06T12:54:00-05:00",
+      "title": "Microsoft reportedly winds down rented Oracle AI computing as hardware becomes less suitable",
+      "summary": "Bloomberg, cited by Reuters, reports Microsoft has been switching off rented Oracle AI computing after declining to renew an older arrangement. The Nvidia hardware reportedly no longer meets Microsoft's evolving needs. This raises utilization and asset-obsolescence questions for AI infrastructure providers, but Microsoft has not directly confirmed the reported nonrenewal.",
       "tickers": [
-        "IREN"
-      ],
-      "sectors": [
-        "AI cloud infrastructure",
-        "Data centers",
-        "Computing and networking"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "IREN Nasdaq intraday, November 6 1:21 PM ET",
-          "value": "$20.79, +15.31%; intraday, not closing"
-        },
-        {
-          "label": "September-quarter 2026 revenue",
-          "value": "Approximately $228 million; +66% quarter over quarter"
-        },
-        {
-          "label": "AI cloud revenue, same quarter",
-          "value": "Approximately $200 million"
-        },
-        {
-          "label": "Quarterly net result",
-          "value": "Approximately $263 million loss"
-        },
-        {
-          "label": "Childress Texas project",
-          "value": "Microsoft-requested networking changes delayed commissioning; revised milestone pending"
-        }
-      ],
-      "key_finding": "AI cloud revenue and contracts are growing, but commissioning delays and financial losses remain material execution risks.",
-      "sources": [
-        {
-          "title": "IREN — November 5, 2026 Q1 FY27 report archive",
-          "url": "https://www.iren.com/investors/reports"
-        },
-        {
-          "title": "MarketWatch — IREN earnings and new cloud contract, updated November 5",
-          "url": "https://www.marketwatch.com/story/heres-whats-driving-irens-stock-higher-after-a-brutal-selloff-0ced09b0"
-        },
-        {
-          "title": "Business Insider — Microsoft networking changes delayed IREN Childress project, November 6",
-          "url": "https://www.businessinsider.com/iren-blames-microsoft-change-for-delay-to-texas-ai-center-2026-11"
-        },
-        {
-          "title": "Stock Analysis — IREN intraday price, November 6",
-          "url": "https://stockanalysis.com/stocks/iren/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261106-1319-cohr-optical-networking-strength",
-      "observed_at": "2026-11-06T13:19:00-05:00",
-      "title": "Coherent rises on strong optical networking earnings and guidance",
-      "summary": "Coherent reported sharply higher fiscal first-quarter revenue and better-than-expected earnings, while guiding for continued growth in optical and photonic infrastructure. Its intraday rally contrasts with broad AI capital-spending concerns. Hyperscaler spending, factory ramp costs and revenue conversion remain the critical tests.",
-      "tickers": [
-        "COHR",
+        "ORCL",
+        "MSFT",
         "NVDA"
       ],
       "sectors": [
-        "Optical networking",
         "AI infrastructure",
-        "Semiconductor photonics"
+        "Cloud computing",
+        "Semiconductors"
       ],
-      "evidence_grade": "corroborated",
+      "evidence_grade": "single-source",
       "observations": [
         {
-          "label": "COHR NYSE intraday, November 6 1:19 PM ET",
-          "value": "$190.37, +12.14%; intraday, not closing"
+          "label": "Oracle reaction in Reuters report at 12:54 PM ET November 6",
+          "value": "Approximately -3% intraday; not a closing price"
         },
         {
-          "label": "Fiscal Q1 2027 revenue",
-          "value": "$2.37 billion, +50% year over year"
+          "label": "Oracle reaction in earlier Investing.com report",
+          "value": "Approximately -4% intraday, 12:47 PM ET; subsequent share-price recovery also reported"
         },
         {
-          "label": "Fiscal Q1 2027 non-GAAP diluted EPS",
-          "value": "$2.09"
+          "label": "Oracle fundraising announced November 2",
+          "value": "Approximately $20 billion in combined debt and equity financing"
         },
         {
-          "label": "Fiscal Q2 2027 revenue guidance",
-          "value": "$2.55 billion to $2.75 billion"
-        },
-        {
-          "label": "Fiscal Q2 2027 non-GAAP EPS guidance",
-          "value": "$2.28 to $2.48"
+          "label": "Agreement status",
+          "value": "Reported nonrenewal of 2023 cloud compute rental; not confirmed directly by Microsoft"
         }
       ],
-      "key_finding": "Strong measured optical-networking demand provides evidence of ongoing AI buildout despite sector-wide repricing.",
+      "key_finding": "The reported nonrenewal highlights potential economic obsolescence of older AI compute hardware without proving weaker overall AI demand.",
       "sources": [
         {
-          "title": "Coherent — Fiscal Q1 2027 results released November 4, 2026",
-          "url": "https://coherent.gcs-web.com/news-releases/news-release-details/coherent-corp-reports-first-quarter-fiscal-2027-results"
+          "title": "Reuters, November 6, 2026: Microsoft winding down rented Oracle cloud capacity (citing Bloomberg)",
+          "url": "https://www.investing.com/news/stock-market-news/microsoft-is-winding-down-oracle-deal-to-rent-ai-cloud-capacity-bloomberg-news-reports-5008946"
         },
         {
-          "title": "Stock Analysis — COHR intraday price, November 6",
-          "url": "https://stockanalysis.com/stocks/cohr/"
+          "title": "Investing.com, November 6, 2026: Oracle initial market reaction",
+          "url": "https://www.investing.com/news/stock-market-news/oracle-falls-4-as-microsoft-reportedly-winds-down-ai-cloud-capacity-deal-5008936"
         },
         {
-          "title": "Barron's — Coherent earnings and optical data center demand, November 5",
-          "url": "https://www.barrons.com/articles/coherent-earnings-stock-price-352c4976"
+          "title": "Reuters, November 2, 2026: Oracle AI infrastructure fundraising",
+          "url": "https://www.investing.com/news/stock-market-news/oracle-to-offer-10-billion-in-bonds-4991687"
         }
       ],
       "status": "new",
