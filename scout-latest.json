@@ -1,8 +1,121 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-06T12:19:53-05:00",
-  "as_of_et": "12:19 PM ET, November 6, 2026",
+  "generated_at": "2026-11-06T13:22:41-05:00",
+  "as_of_et": "1:22 PM ET, November 6, 2026",
   "items": [
+    {
+      "id": "scout-20261106-1321-iren-ai-cloud-rebound",
+      "observed_at": "2026-11-06T13:21:00-05:00",
+      "title": "IREN rebounds as AI cloud revenue expands despite commissioning delays",
+      "summary": "IREN rebounded on rapid growth in AI cloud revenue and new customer capacity contracts. The company continues to report losses, while Microsoft-requested networking changes have delayed commissioning at its Texas data-center campus. Strong customer demand therefore contrasts with substantial construction and financing risks.",
+      "tickers": [
+        "IREN"
+      ],
+      "sectors": [
+        "AI cloud infrastructure",
+        "Data centers",
+        "Computing and networking"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "IREN Nasdaq intraday, November 6 1:21 PM ET",
+          "value": "$20.79, +15.31%; intraday, not closing"
+        },
+        {
+          "label": "September-quarter 2026 revenue",
+          "value": "Approximately $228 million; +66% quarter over quarter"
+        },
+        {
+          "label": "AI cloud revenue, same quarter",
+          "value": "Approximately $200 million"
+        },
+        {
+          "label": "Quarterly net result",
+          "value": "Approximately $263 million loss"
+        },
+        {
+          "label": "Childress Texas project",
+          "value": "Microsoft-requested networking changes delayed commissioning; revised milestone pending"
+        }
+      ],
+      "key_finding": "AI cloud revenue and contracts are growing, but commissioning delays and financial losses remain material execution risks.",
+      "sources": [
+        {
+          "title": "IREN — November 5, 2026 Q1 FY27 report archive",
+          "url": "https://www.iren.com/investors/reports"
+        },
+        {
+          "title": "MarketWatch — IREN earnings and new cloud contract, updated November 5",
+          "url": "https://www.marketwatch.com/story/heres-whats-driving-irens-stock-higher-after-a-brutal-selloff-0ced09b0"
+        },
+        {
+          "title": "Business Insider — Microsoft networking changes delayed IREN Childress project, November 6",
+          "url": "https://www.businessinsider.com/iren-blames-microsoft-change-for-delay-to-texas-ai-center-2026-11"
+        },
+        {
+          "title": "Stock Analysis — IREN intraday price, November 6",
+          "url": "https://stockanalysis.com/stocks/iren/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261106-1319-cohr-optical-networking-strength",
+      "observed_at": "2026-11-06T13:19:00-05:00",
+      "title": "Coherent rises on strong optical networking earnings and guidance",
+      "summary": "Coherent reported sharply higher fiscal first-quarter revenue and better-than-expected earnings, while guiding for continued growth in optical and photonic infrastructure. Its intraday rally contrasts with broad AI capital-spending concerns. Hyperscaler spending, factory ramp costs and revenue conversion remain the critical tests.",
+      "tickers": [
+        "COHR",
+        "NVDA"
+      ],
+      "sectors": [
+        "Optical networking",
+        "AI infrastructure",
+        "Semiconductor photonics"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "COHR NYSE intraday, November 6 1:19 PM ET",
+          "value": "$190.37, +12.14%; intraday, not closing"
+        },
+        {
+          "label": "Fiscal Q1 2027 revenue",
+          "value": "$2.37 billion, +50% year over year"
+        },
+        {
+          "label": "Fiscal Q1 2027 non-GAAP diluted EPS",
+          "value": "$2.09"
+        },
+        {
+          "label": "Fiscal Q2 2027 revenue guidance",
+          "value": "$2.55 billion to $2.75 billion"
+        },
+        {
+          "label": "Fiscal Q2 2027 non-GAAP EPS guidance",
+          "value": "$2.28 to $2.48"
+        }
+      ],
+      "key_finding": "Strong measured optical-networking demand provides evidence of ongoing AI buildout despite sector-wide repricing.",
+      "sources": [
+        {
+          "title": "Coherent — Fiscal Q1 2027 results released November 4, 2026",
+          "url": "https://coherent.gcs-web.com/news-releases/news-release-details/coherent-corp-reports-first-quarter-fiscal-2027-results"
+        },
+        {
+          "title": "Stock Analysis — COHR intraday price, November 6",
+          "url": "https://stockanalysis.com/stocks/cohr/"
+        },
+        {
+          "title": "Barron's — Coherent earnings and optical data center demand, November 5",
+          "url": "https://www.barrons.com/articles/coherent-earnings-stock-price-352c4976"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261106-1219-jmic-hormuz-traffic",
       "observed_at": "2026-11-06T12:19:00-05:00",
@@ -157,119 +270,6 @@
         {
           "title": "Stock Analysis — MRNA November 6 intraday price history",
           "url": "https://stockanalysis.com/stocks/mrna/history/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261106-1141-hormuz-tanker-explosion",
-      "observed_at": "2026-11-06T11:41:00-05:00",
-      "title": "New UKMTO warning: outbound tanker reports waterline explosion near Hormuz",
-      "summary": "UKMTO published Warning 197-26 on November 6 about an outbound tanker reporting an explosion near Khasab, Oman, on November 5. The crew is safe and the vessel continued under its own power. The warning establishes a fresh maritime security incident report but not attacker identity, a new transit shutdown, or measured lost oil supply.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and energy",
-        "Maritime transportation",
-        "Strait of Hormuz"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "UKMTO warning",
-          "value": "197-26, classified as attack; published November 6, 2026"
-        },
-        {
-          "label": "Reported incident time and location",
-          "value": "November 5, 22:00 UTC; 16 nautical miles east of Khasab, Oman"
-        },
-        {
-          "label": "Vessel and crew status",
-          "value": "Outbound tanker, waterline explosion on port side; crew safe; vessel proceeding under own power"
-        },
-        {
-          "label": "Verified physical-flow impact",
-          "value": "No confirmed wider reduction in tanker transit or petroleum throughput from this warning"
-        },
-        {
-          "label": "Related official maritime advisories",
-          "value": "MARAD 2026-011 (Hormuz) and 2026-013 (Red Sea) active"
-        }
-      ],
-      "key_finding": "An independently documented UKMTO tanker incident renews Hormuz security risk without establishing disrupted regional oil flows.",
-      "sources": [
-        {
-          "title": "UK Maritime Trade Operations — Recent incidents, Warning 197-26",
-          "url": "https://www.ukmto.org/recent-incidents"
-        },
-        {
-          "title": "UKMTO — Warning 197-26 (November 6, 2026)",
-          "url": "https://www.ukmto.org/-/media/ukmto/products/20261106-ukmto_warning-197-26.pdf?rev=c53718e903cc45659052993058647de4"
-        },
-        {
-          "title": "MARAD — Active US Maritime Advisories",
-          "url": "https://www.maritime.dot.gov/msci-advisories"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261106-1036-us-chip-rebound",
-      "observed_at": "2026-11-06T10:36:00-05:00",
-      "title": "US chip shares rebound after global rout, with breadth still mixed",
-      "summary": "US chipmakers rebounded sharply in Friday's morning trading after Thursday's extreme selling, helping lift the Nasdaq while the Dow lagged. The recovery signals a partial reversal in positioning, not verified improvement in semiconductor orders or data-center deployment economics. Higher Treasury yields and narrow leadership could challenge durability.",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "MU",
-        "SMH",
-        "QQQ"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "AI infrastructure",
-        "US equities"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Nasdaq Composite, November 6 early session",
-          "value": "Up approximately 1.8% in IBD morning coverage; intraday"
-        },
-        {
-          "label": "NVDA, November 6 morning",
-          "value": "Up approximately 7%; intraday, IBD"
-        },
-        {
-          "label": "AMD, November 6 morning",
-          "value": "Up more than 10%; intraday, IBD"
-        },
-        {
-          "label": "Dow, November 6 morning",
-          "value": "Initially lower and pared losses; broad recovery not established"
-        },
-        {
-          "label": "Thursday semiconductor ETF backdrop",
-          "value": "iShares Semiconductor ETF down about 12% on November 5, per MarketWatch"
-        }
-      ],
-      "key_finding": "The immediate semiconductor selloff has partially reversed in US trading, but cross-sector confirmation remains limited.",
-      "sources": [
-        {
-          "title": "Investor's Business Daily — Stock Market Today, updated November 6 at 10:36 AM ET",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-october-jobs-report-nvidia-stock-nvda/"
-        },
-        {
-          "title": "Reuters — Nasdaq pares losses as chips recover, November 6",
-          "url": "https://in.marketscreener.com/news/nasdaq-pares-losses-as-chips-recover-rate-hike-fears-linger-ce785fd2db8ef722"
-        },
-        {
-          "title": "MarketWatch — Nvidia and AMD rebound after semiconductor selloff",
-          "url": "https://www.marketwatch.com/story/nvidia-amd-and-other-chip-stocks-rebound-is-the-violent-ai-selloff-over-8f7df533"
         }
       ],
       "status": "new",
