@@ -1,8 +1,176 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-06T15:59:11Z",
-  "as_of_et": "9:45 AM ET, November 6, 2026",
+  "generated_at": "2026-11-06T11:41:04-05:00",
+  "as_of_et": "11:41 AM ET, November 6, 2026",
   "items": [
+    {
+      "id": "scout-20261106-1141-hormuz-tanker-explosion",
+      "observed_at": "2026-11-06T11:41:00-05:00",
+      "title": "New UKMTO warning: outbound tanker reports waterline explosion near Hormuz",
+      "summary": "UKMTO published Warning 197-26 on November 6 about an outbound tanker reporting an explosion near Khasab, Oman, on November 5. The crew is safe and the vessel continued under its own power. The warning establishes a fresh maritime security incident report but not attacker identity, a new transit shutdown, or measured lost oil supply.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and energy",
+        "Maritime transportation",
+        "Strait of Hormuz"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "UKMTO warning",
+          "value": "197-26, classified as attack; published November 6, 2026"
+        },
+        {
+          "label": "Reported incident time and location",
+          "value": "November 5, 22:00 UTC; 16 nautical miles east of Khasab, Oman"
+        },
+        {
+          "label": "Vessel and crew status",
+          "value": "Outbound tanker, waterline explosion on port side; crew safe; vessel proceeding under own power"
+        },
+        {
+          "label": "Verified physical-flow impact",
+          "value": "No confirmed wider reduction in tanker transit or petroleum throughput from this warning"
+        },
+        {
+          "label": "Related official maritime advisories",
+          "value": "MARAD 2026-011 (Hormuz) and 2026-013 (Red Sea) active"
+        }
+      ],
+      "key_finding": "An independently documented UKMTO tanker incident renews Hormuz security risk without establishing disrupted regional oil flows.",
+      "sources": [
+        {
+          "title": "UK Maritime Trade Operations — Recent incidents, Warning 197-26",
+          "url": "https://www.ukmto.org/recent-incidents"
+        },
+        {
+          "title": "UKMTO — Warning 197-26 (November 6, 2026)",
+          "url": "https://www.ukmto.org/-/media/ukmto/products/20261106-ukmto_warning-197-26.pdf?rev=c53718e903cc45659052993058647de4"
+        },
+        {
+          "title": "MARAD — Active US Maritime Advisories",
+          "url": "https://www.maritime.dot.gov/msci-advisories"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261106-1036-us-chip-rebound",
+      "observed_at": "2026-11-06T10:36:00-05:00",
+      "title": "US chip shares rebound after global rout, with breadth still mixed",
+      "summary": "US chipmakers rebounded sharply in Friday's morning trading after Thursday's extreme selling, helping lift the Nasdaq while the Dow lagged. The recovery signals a partial reversal in positioning, not verified improvement in semiconductor orders or data-center deployment economics. Higher Treasury yields and narrow leadership could challenge durability.",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "MU",
+        "SMH",
+        "QQQ"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "US equities"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Nasdaq Composite, November 6 early session",
+          "value": "Up approximately 1.8% in IBD morning coverage; intraday"
+        },
+        {
+          "label": "NVDA, November 6 morning",
+          "value": "Up approximately 7%; intraday, IBD"
+        },
+        {
+          "label": "AMD, November 6 morning",
+          "value": "Up more than 10%; intraday, IBD"
+        },
+        {
+          "label": "Dow, November 6 morning",
+          "value": "Initially lower and pared losses; broad recovery not established"
+        },
+        {
+          "label": "Thursday semiconductor ETF backdrop",
+          "value": "iShares Semiconductor ETF down about 12% on November 5, per MarketWatch"
+        }
+      ],
+      "key_finding": "The immediate semiconductor selloff has partially reversed in US trading, but cross-sector confirmation remains limited.",
+      "sources": [
+        {
+          "title": "Investor's Business Daily — Stock Market Today, updated November 6 at 10:36 AM ET",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-october-jobs-report-nvidia-stock-nvda/"
+        },
+        {
+          "title": "Reuters — Nasdaq pares losses as chips recover, November 6",
+          "url": "https://in.marketscreener.com/news/nasdaq-pares-losses-as-chips-recover-rate-hike-fears-linger-ce785fd2db8ef722"
+        },
+        {
+          "title": "MarketWatch — Nvidia and AMD rebound after semiconductor selloff",
+          "url": "https://www.marketwatch.com/story/nvidia-amd-and-other-chip-stocks-rebound-is-the-violent-ai-selloff-over-8f7df533"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261106-1036-net-earnings-resilience",
+      "observed_at": "2026-11-06T10:36:00-05:00",
+      "title": "Cloudflare surges on accelerating revenue and stronger guidance",
+      "summary": "Cloudflare reported third-quarter revenue growth of 39%, its fastest in nearly four years, and forecast fourth-quarter revenue ahead of consensus. Shares advanced sharply during Friday's early session despite broader software and AI volatility. Strong demand and improved adjusted operating income contrast with a continuing GAAP loss and valuation risk.",
+      "tickers": [
+        "NET"
+      ],
+      "sectors": [
+        "Cybersecurity",
+        "Networking",
+        "Cloud software",
+        "AI infrastructure"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "NET, November 6 early trading",
+          "value": "Reported gain around 12% to 21% across early-session coverage; time-dependent intraday range"
+        },
+        {
+          "label": "Q3 2026 revenue",
+          "value": "$782.5 million, +39% year over year"
+        },
+        {
+          "label": "Q3 2026 adjusted diluted EPS",
+          "value": "$0.38 versus approximately $0.34 expected"
+        },
+        {
+          "label": "Q4 2026 revenue guidance",
+          "value": "$845 million to $846 million versus approximately $796 million expected"
+        },
+        {
+          "label": "Q3 2026 GAAP net income",
+          "value": "Loss of approximately $34.1 million"
+        }
+      ],
+      "key_finding": "Cloudflare's earnings-backed relative strength contrasts with the broader AI infrastructure repricing.",
+      "sources": [
+        {
+          "title": "Cloudflare — Q3 2026 company earnings release, November 5",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cloudflare-announces-third-quarter-2026-211500720.html"
+        },
+        {
+          "title": "SEC filing summary — Cloudflare November 5 Form 8-K",
+          "url": "https://www.stocktitan.net/sec-filings/NET/8-k-cloudflare-inc-reports-material-event-408e8695c7fe.html"
+        },
+        {
+          "title": "Barron's — Cloudflare stock jumps after earnings, November 6",
+          "url": "https://www.barrons.com/articles/cloudflare-earnings-stock-price-2473c01e"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261106-0945-us-jobs",
       "observed_at": "2026-11-06T08:31:00-05:00",
@@ -39,93 +207,6 @@
         {
           "title": "Reuters via MarketScreener — November 6, 2026, 8:31 AM ET futures reaction",
           "url": "https://in.marketscreener.com/news/s-p-500-futures-pare-gains-after-october-non-farm-payrolls-data-ce785fd2d88ffe23"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261106-0945-asian-semiconductor-selloff",
-      "observed_at": "2026-11-06T09:45:00-05:00",
-      "title": "Semiconductor selling spreads across Asian markets",
-      "summary": "Asian semiconductor shares followed the U.S. technology rout lower. South Korea triggered a trading halt, while Japanese chip-related shares also fell sharply. These early-session observations establish international market stress; they do not establish a decline in semiconductor customer orders.",
-      "tickers": [
-        "EWY",
-        "EWJ",
-        "TSM",
-        "MU",
-        "NVDA"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "Memory",
-        "AI infrastructure",
-        "International equities"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "KOSPI — November 6 early-session low",
-          "value": "Down as much as 8.8%; 20-minute circuit-breaker halt"
-        },
-        {
-          "label": "Nikkei 225 — November 6 early trading",
-          "value": "Approximately −5% to −6%; intraday, not closing data"
-        }
-      ],
-      "key_finding": "International semiconductor selling confirms broader repricing, while underlying demand deterioration remains unproven.",
-      "sources": [
-        {
-          "title": "DW with AFP and Reuters — November 6, 2026 Asian technology selloff",
-          "url": "https://amp.dw.com/en/asian-stocks-slump-after-us-tech-rout-amid-ai-jitters/a-79871504"
-        },
-        {
-          "title": "Bloomberg via SWI — November 6, 2026 early Asian markets",
-          "url": "https://www.swissinfo.ch/eng/asian-stocks-join-us-selloff-as-ai-rout-deepens%3A-markets-wrap/92336450"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261106-0945-team-earnings-dislocation",
-      "observed_at": "2026-11-06T09:45:00-05:00",
-      "title": "Atlassian earnings strength meets growth-outlook pressure",
-      "summary": "Atlassian beat first-quarter revenue and adjusted earnings expectations, yet shares fell sharply as investors focused on slower subscription growth guidance. The Scout treats this as an earnings-related valuation dislocation; the price decline alone does not establish undervaluation. Watch subscription ARR, cloud growth and AI monetization.",
-      "tickers": [
-        "TEAM"
-      ],
-      "sectors": [
-        "Enterprise software"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Fiscal Q1 2027 revenue",
-          "value": "$1.772 billion, +24% year over year"
-        },
-        {
-          "label": "Fiscal Q1 2027 adjusted diluted EPS",
-          "value": "$1.65, versus $1.43 analyst estimate"
-        },
-        {
-          "label": "November 6 premarket indication",
-          "value": "Approximately −16%; historical premarket observation, not a live quote"
-        },
-        {
-          "label": "Fiscal 2027 subscription ARR growth outlook",
-          "value": "Approximately 18.5%, versus 23% in fiscal Q1"
-        }
-      ],
-      "key_finding": "The earnings beat did not offset investor concern over the growth outlook.",
-      "sources": [
-        {
-          "title": "Atlassian company release via FT — November 5, 2026 fiscal Q1 2027 results",
-          "url": "https://markets.ft.markitdigital.com/data/announce/detail?dockey=600-202611051605BIZWIRE_USPRX____20261105_BW890344-1"
-        },
-        {
-          "title": "Investing.com — November 5–6, 2026 earnings and premarket dislocation",
-          "url": "https://www.investing.com/news/stock-market-news/atlassian-tumbles-16-on-weaker-subscription-growth-outlook-5005613"
         }
       ],
       "status": "new",
