@@ -1,8 +1,116 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-06T13:22:41-05:00",
-  "as_of_et": "1:22 PM ET, November 6, 2026",
+  "generated_at": "2026-11-06T14:23:43-05:00",
+  "as_of_et": "2:23 PM ET, November 6, 2026",
   "items": [
+    {
+      "id": "scout-20261106-1423-microsoft-oracle-capacity",
+      "observed_at": "2026-11-06T12:54:00-05:00",
+      "title": "Microsoft reportedly winds down rented Oracle AI computing as hardware becomes less suitable",
+      "summary": "Bloomberg, cited by Reuters, reports Microsoft has been switching off rented Oracle AI computing after declining to renew an older arrangement. The Nvidia hardware reportedly no longer meets Microsoft's evolving needs. This raises utilization and asset-obsolescence questions for AI infrastructure providers, but Microsoft has not directly confirmed the reported nonrenewal.",
+      "tickers": [
+        "ORCL",
+        "MSFT",
+        "NVDA"
+      ],
+      "sectors": [
+        "AI infrastructure",
+        "Cloud computing",
+        "Semiconductors"
+      ],
+      "evidence_grade": "single-source",
+      "observations": [
+        {
+          "label": "Oracle reaction in Reuters report at 12:54 PM ET November 6",
+          "value": "Approximately -3% intraday; not a closing price"
+        },
+        {
+          "label": "Oracle reaction in earlier Investing.com report",
+          "value": "Approximately -4% intraday, 12:47 PM ET; subsequent share-price recovery also reported"
+        },
+        {
+          "label": "Oracle fundraising announced November 2",
+          "value": "Approximately $20 billion in combined debt and equity financing"
+        },
+        {
+          "label": "Agreement status",
+          "value": "Reported nonrenewal of 2023 cloud compute rental; not confirmed directly by Microsoft"
+        }
+      ],
+      "key_finding": "The reported nonrenewal highlights potential economic obsolescence of older AI compute hardware without proving weaker overall AI demand.",
+      "sources": [
+        {
+          "title": "Reuters, November 6, 2026: Microsoft winding down rented Oracle cloud capacity (citing Bloomberg)",
+          "url": "https://www.investing.com/news/stock-market-news/microsoft-is-winding-down-oracle-deal-to-rent-ai-cloud-capacity-bloomberg-news-reports-5008946"
+        },
+        {
+          "title": "Investing.com, November 6, 2026: Oracle initial market reaction",
+          "url": "https://www.investing.com/news/stock-market-news/oracle-falls-4-as-microsoft-reportedly-winds-down-ai-cloud-capacity-deal-5008936"
+        },
+        {
+          "title": "Reuters, November 2, 2026: Oracle AI infrastructure fundraising",
+          "url": "https://www.investing.com/news/stock-market-news/oracle-to-offer-10-billion-in-bonds-4991687"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261106-1423-gulf-subsea-cable-activity",
+      "observed_at": "2026-11-06T14:23:43-05:00",
+      "title": "Iran-linked vessel anomalies near Gulf of Oman subsea cables add digital-infrastructure risk",
+      "summary": "Windward's October 29 assessment documented three sanctioned tankers and an Iran-flagged fishing-support vessel making unusual movements near subsea cable corridors during October 5–28. Financial Times coverage renewed attention on November 6. Tracking anomalies are a leading security signal, not evidence that any cable was attacked or that mine placement occurred.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Maritime transportation",
+        "Energy",
+        "Networking",
+        "Digital infrastructure"
+      ],
+      "evidence_grade": "single-source",
+      "observations": [
+        {
+          "label": "Source observation period",
+          "value": "October 5–28, 2026 (historical vessel movement; not a new November 6 attack)"
+        },
+        {
+          "label": "Vessels of interest",
+          "value": "Three U.S.-sanctioned tankers plus one Iran-flagged fishing-support vessel"
+        },
+        {
+          "label": "CELESTIAL SEA AIS outage near 2Africa and BBG corridors",
+          "value": "86 hours, October 15–19 (Windward assessment)"
+        },
+        {
+          "label": "Other anomalous movements",
+          "value": "Laden gas carrier made 180-degree turn near cable route; separate tanker loitered around ten days"
+        },
+        {
+          "label": "Physical infrastructure impact",
+          "value": "No cable fault, sabotage or mine placement independently verified"
+        }
+      ],
+      "key_finding": "Gulf maritime threats may encompass regional digital connectivity, but evidence so far establishes vessel-track anomalies only.",
+      "sources": [
+        {
+          "title": "Windward maritime intelligence, October 29, 2026: Iran-linked vessels over subsea cable corridors",
+          "url": "https://windward.ai/blog/sanctioned-iran-linked-tankers-went-dark-over-gulf-of-oman-cables/"
+        },
+        {
+          "title": "Financial Times, November 6, 2026: Iran-linked ships hover over subsea cables",
+          "url": "https://www.ft.com/content/492b2c62-8e15-47b3-bf24-842ae62e7217"
+        },
+        {
+          "title": "Iran International, November 6, 2026: FT investigation details",
+          "url": "https://www.iranintl.com/en/202611067103"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261106-1321-iren-ai-cloud-rebound",
       "observed_at": "2026-11-06T13:21:00-05:00",
@@ -162,114 +270,6 @@
         {
           "title": "UKMTO official account — November 5 JMIC Update 111 announcement",
           "url": "https://x.com/UK_MTO/status/2118372398726816015"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261106-1217-frog-q3-cloud-growth",
-      "observed_at": "2026-11-06T12:17:00-05:00",
-      "title": "JFrog rallies sharply on strong cloud and AI software-supply-chain demand",
-      "summary": "JFrog reported much faster cloud growth and expanding large-enterprise adoption in its third quarter. Shares surged after the results, distinguishing demonstrated recurring software demand from the broader AI-infrastructure selloff. A large intraday price gain increases valuation and execution risks despite stronger fundamentals.",
-      "tickers": [
-        "FROG"
-      ],
-      "sectors": [
-        "Enterprise software",
-        "Cloud infrastructure",
-        "Software supply-chain security"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "FROG November 6 intraday quote, 12:17 PM ET",
-          "value": "$100.49, +34.67%; intraday, not a closing figure"
-        },
-        {
-          "label": "Q3 2026 total revenue",
-          "value": "$179.2 million, +31% year over year"
-        },
-        {
-          "label": "Q3 2026 cloud revenue",
-          "value": "$101.5 million, +60% year over year"
-        },
-        {
-          "label": "Q3 net dollar retention",
-          "value": "124%, up from 118% in prior-year period"
-        },
-        {
-          "label": "Customers exceeding $1 million ARR",
-          "value": "112, +58% year over year"
-        },
-        {
-          "label": "Q3 2026 free cash flow, company-defined",
-          "value": "$66.5 million"
-        }
-      ],
-      "key_finding": "FROG's earnings-backed relative strength reflects verifiable cloud growth while increasing valuation sensitivity.",
-      "sources": [
-        {
-          "title": "JFrog — Third Quarter 2026 results, November 5",
-          "url": "https://jfrog.com/press-room/jfrog-announces-third-quarter-2026-results/"
-        },
-        {
-          "title": "Stock Analysis — FROG November 6 intraday price history",
-          "url": "https://stockanalysis.com/stocks/frog/history/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261106-1213-mrna-profit-guidance",
-      "observed_at": "2026-11-06T12:13:00-05:00",
-      "title": "Moderna swings to quarterly profit and lifts revenue outlook",
-      "summary": "Moderna returned to profitability on stronger vaccine revenue and lower research costs, then raised its full-year sales outlook. The intraday share-price increase is supported by published company results, while its cancer-vaccine opportunity remains subject to regulatory and commercial uncertainty. COVID-vaccine sales still dominate revenue.",
-      "tickers": [
-        "MRNA"
-      ],
-      "sectors": [
-        "Biotechnology",
-        "Healthcare",
-        "Vaccines"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "MRNA November 6 intraday quote, 12:13 PM ET",
-          "value": "$263.34, +9.06%; intraday, not a closing figure"
-        },
-        {
-          "label": "Q3 2026 revenue",
-          "value": "Approximately $1.31 billion, +29% year over year"
-        },
-        {
-          "label": "Q3 2026 net income",
-          "value": "$162 million, versus $200 million net loss a year earlier"
-        },
-        {
-          "label": "Q3 2026 GAAP diluted EPS",
-          "value": "$0.38"
-        },
-        {
-          "label": "Updated full-year 2026 revenue growth outlook",
-          "value": "15%-25%, versus previously up to 10%"
-        },
-        {
-          "label": "Upcoming company event",
-          "value": "Analyst day November 12, 2026"
-        }
-      ],
-      "key_finding": "Moderna's upside earnings surprise and guidance raise are material, with a separate unproven oncology commercialization path.",
-      "sources": [
-        {
-          "title": "Moderna — Third Quarter 2026 financial results, November 6",
-          "url": "https://www.newswire.com/news/moderna-reports-third-quarter-2026-financial-results-and-provides-business"
-        },
-        {
-          "title": "Stock Analysis — MRNA November 6 intraday price history",
-          "url": "https://stockanalysis.com/stocks/mrna/history/"
         }
       ],
       "status": "new",
