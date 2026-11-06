@@ -1,8 +1,167 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-06T11:41:04-05:00",
-  "as_of_et": "11:41 AM ET, November 6, 2026",
+  "generated_at": "2026-11-06T12:19:53-05:00",
+  "as_of_et": "12:19 PM ET, November 6, 2026",
   "items": [
+    {
+      "id": "scout-20261106-1219-jmic-hormuz-traffic",
+      "observed_at": "2026-11-06T12:19:00-05:00",
+      "title": "JMIC shipping assessment documents persistent Hormuz traffic disruption",
+      "summary": "The November 5 JMIC assessment reports attacks and persistently depressed commercial vessel movements through Hormuz relative to the 2025 baseline. US-assisted passages continued but fell slightly from the prior reporting period. These measurements establish ongoing maritime stress, not a new oil-volume loss caused by Friday's reported tanker incident.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Energy",
+        "Maritime transport",
+        "Strait of Hormuz"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "JMIC reporting period and publication",
+          "value": "Update 111, November 5, 2026; covering preceding 96 hours"
+        },
+        {
+          "label": "Reported attacks in Strait of Hormuz",
+          "value": "4 across reporting period; 3 in previous period; incidents November 1-3"
+        },
+        {
+          "label": "Overall commercial transit vs historical baseline",
+          "value": "Substantially below 2025 levels; independent tracking showed single-digit to low-double-digit movements per day"
+        },
+        {
+          "label": "US-assisted vessel transits, current reporting period",
+          "value": "Approximately 31 per day, versus 34 per day during October 24-30; not equivalent to overall traffic"
+        },
+        {
+          "label": "Additional petroleum throughput lost on November 6",
+          "value": "Not independently established"
+        }
+      ],
+      "key_finding": "JMIC data support ongoing severe Hormuz shipping stress, without demonstrating a new Friday petroleum-flow shock.",
+      "sources": [
+        {
+          "title": "Gulf News — JMIC Update 111 shipping assessment, November 6, 2026",
+          "url": "https://gulfnews.com/business/energy/hormuz-attacks-rise-as-iran-steps-up-pressure-on-shipping-ukmto-warns-1.500737866"
+        },
+        {
+          "title": "UKMTO official account — November 5 JMIC Update 111 announcement",
+          "url": "https://x.com/UK_MTO/status/2118372398726816015"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261106-1217-frog-q3-cloud-growth",
+      "observed_at": "2026-11-06T12:17:00-05:00",
+      "title": "JFrog rallies sharply on strong cloud and AI software-supply-chain demand",
+      "summary": "JFrog reported much faster cloud growth and expanding large-enterprise adoption in its third quarter. Shares surged after the results, distinguishing demonstrated recurring software demand from the broader AI-infrastructure selloff. A large intraday price gain increases valuation and execution risks despite stronger fundamentals.",
+      "tickers": [
+        "FROG"
+      ],
+      "sectors": [
+        "Enterprise software",
+        "Cloud infrastructure",
+        "Software supply-chain security"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "FROG November 6 intraday quote, 12:17 PM ET",
+          "value": "$100.49, +34.67%; intraday, not a closing figure"
+        },
+        {
+          "label": "Q3 2026 total revenue",
+          "value": "$179.2 million, +31% year over year"
+        },
+        {
+          "label": "Q3 2026 cloud revenue",
+          "value": "$101.5 million, +60% year over year"
+        },
+        {
+          "label": "Q3 net dollar retention",
+          "value": "124%, up from 118% in prior-year period"
+        },
+        {
+          "label": "Customers exceeding $1 million ARR",
+          "value": "112, +58% year over year"
+        },
+        {
+          "label": "Q3 2026 free cash flow, company-defined",
+          "value": "$66.5 million"
+        }
+      ],
+      "key_finding": "FROG's earnings-backed relative strength reflects verifiable cloud growth while increasing valuation sensitivity.",
+      "sources": [
+        {
+          "title": "JFrog — Third Quarter 2026 results, November 5",
+          "url": "https://jfrog.com/press-room/jfrog-announces-third-quarter-2026-results/"
+        },
+        {
+          "title": "Stock Analysis — FROG November 6 intraday price history",
+          "url": "https://stockanalysis.com/stocks/frog/history/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261106-1213-mrna-profit-guidance",
+      "observed_at": "2026-11-06T12:13:00-05:00",
+      "title": "Moderna swings to quarterly profit and lifts revenue outlook",
+      "summary": "Moderna returned to profitability on stronger vaccine revenue and lower research costs, then raised its full-year sales outlook. The intraday share-price increase is supported by published company results, while its cancer-vaccine opportunity remains subject to regulatory and commercial uncertainty. COVID-vaccine sales still dominate revenue.",
+      "tickers": [
+        "MRNA"
+      ],
+      "sectors": [
+        "Biotechnology",
+        "Healthcare",
+        "Vaccines"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "MRNA November 6 intraday quote, 12:13 PM ET",
+          "value": "$263.34, +9.06%; intraday, not a closing figure"
+        },
+        {
+          "label": "Q3 2026 revenue",
+          "value": "Approximately $1.31 billion, +29% year over year"
+        },
+        {
+          "label": "Q3 2026 net income",
+          "value": "$162 million, versus $200 million net loss a year earlier"
+        },
+        {
+          "label": "Q3 2026 GAAP diluted EPS",
+          "value": "$0.38"
+        },
+        {
+          "label": "Updated full-year 2026 revenue growth outlook",
+          "value": "15%-25%, versus previously up to 10%"
+        },
+        {
+          "label": "Upcoming company event",
+          "value": "Analyst day November 12, 2026"
+        }
+      ],
+      "key_finding": "Moderna's upside earnings surprise and guidance raise are material, with a separate unproven oncology commercialization path.",
+      "sources": [
+        {
+          "title": "Moderna — Third Quarter 2026 financial results, November 6",
+          "url": "https://www.newswire.com/news/moderna-reports-third-quarter-2026-financial-results-and-provides-business"
+        },
+        {
+          "title": "Stock Analysis — MRNA November 6 intraday price history",
+          "url": "https://stockanalysis.com/stocks/mrna/history/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261106-1141-hormuz-tanker-explosion",
       "observed_at": "2026-11-06T11:41:00-05:00",
@@ -111,138 +270,6 @@
         {
           "title": "MarketWatch — Nvidia and AMD rebound after semiconductor selloff",
           "url": "https://www.marketwatch.com/story/nvidia-amd-and-other-chip-stocks-rebound-is-the-violent-ai-selloff-over-8f7df533"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261106-1036-net-earnings-resilience",
-      "observed_at": "2026-11-06T10:36:00-05:00",
-      "title": "Cloudflare surges on accelerating revenue and stronger guidance",
-      "summary": "Cloudflare reported third-quarter revenue growth of 39%, its fastest in nearly four years, and forecast fourth-quarter revenue ahead of consensus. Shares advanced sharply during Friday's early session despite broader software and AI volatility. Strong demand and improved adjusted operating income contrast with a continuing GAAP loss and valuation risk.",
-      "tickers": [
-        "NET"
-      ],
-      "sectors": [
-        "Cybersecurity",
-        "Networking",
-        "Cloud software",
-        "AI infrastructure"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "NET, November 6 early trading",
-          "value": "Reported gain around 12% to 21% across early-session coverage; time-dependent intraday range"
-        },
-        {
-          "label": "Q3 2026 revenue",
-          "value": "$782.5 million, +39% year over year"
-        },
-        {
-          "label": "Q3 2026 adjusted diluted EPS",
-          "value": "$0.38 versus approximately $0.34 expected"
-        },
-        {
-          "label": "Q4 2026 revenue guidance",
-          "value": "$845 million to $846 million versus approximately $796 million expected"
-        },
-        {
-          "label": "Q3 2026 GAAP net income",
-          "value": "Loss of approximately $34.1 million"
-        }
-      ],
-      "key_finding": "Cloudflare's earnings-backed relative strength contrasts with the broader AI infrastructure repricing.",
-      "sources": [
-        {
-          "title": "Cloudflare — Q3 2026 company earnings release, November 5",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cloudflare-announces-third-quarter-2026-211500720.html"
-        },
-        {
-          "title": "SEC filing summary — Cloudflare November 5 Form 8-K",
-          "url": "https://www.stocktitan.net/sec-filings/NET/8-k-cloudflare-inc-reports-material-event-408e8695c7fe.html"
-        },
-        {
-          "title": "Barron's — Cloudflare stock jumps after earnings, November 6",
-          "url": "https://www.barrons.com/articles/cloudflare-earnings-stock-price-2473c01e"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261106-0945-us-jobs",
-      "observed_at": "2026-11-06T08:31:00-05:00",
-      "title": "U.S. jobs report substantially exceeds expectations",
-      "summary": "October payroll growth exceeded the Reuters consensus, while unemployment edged lower. The report suggests greater labor-market resilience; the Scout's assessment is that persistent interest-rate pressure remains a risk to technology valuations. Watch Treasury yields, inflation data and subsequent payroll revisions.",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "TLT"
-      ],
-      "sectors": [
-        "Broad market",
-        "Technology",
-        "Financials",
-        "Industrials"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "October nonfarm payroll growth — November 6 release",
-          "value": "+165,000; Reuters consensus +65,000"
-        },
-        {
-          "label": "October unemployment rate",
-          "value": "4.1%, versus 4.2% expected"
-        }
-      ],
-      "key_finding": "Stronger-than-expected employment supports economic resilience while keeping interest-rate risk in focus.",
-      "sources": [
-        {
-          "title": "BLS — November 6, 2026 October employment report",
-          "url": "https://www.bls.gov/news.release/archives/empsit_11062026.htm"
-        },
-        {
-          "title": "Reuters via MarketScreener — November 6, 2026, 8:31 AM ET futures reaction",
-          "url": "https://in.marketscreener.com/news/s-p-500-futures-pare-gains-after-october-non-farm-payrolls-data-ce785fd2d88ffe23"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261106-0945-lrcx-buyback",
-      "observed_at": "2026-11-06T09:45:00-05:00",
-      "title": "Lam Research authorizes $25 billion in share repurchases",
-      "summary": "Lam announced a large repurchase authorization and its quarterly dividend during semiconductor-sector repricing. The Scout views the announcement as evidence of management's capital-return priorities, while customer spending remains a key risk. Authorization permits purchases but does not establish that shares have been repurchased.",
-      "tickers": [
-        "LRCX"
-      ],
-      "sectors": [
-        "Semiconductor manufacturing equipment"
-      ],
-      "evidence_grade": "single-source",
-      "observations": [
-        {
-          "label": "November 5 board announcement",
-          "value": "$25 billion share-repurchase authorization, supplementing prior remaining balances"
-        },
-        {
-          "label": "Quarterly dividend",
-          "value": "$0.33 per share; payable January 6, 2027 to holders of record December 2, 2026"
-        },
-        {
-          "label": "Repurchase conditions",
-          "value": "No termination date; may be suspended or discontinued; no obligation to purchase"
-        }
-      ],
-      "key_finding": "The authorization is a material capital-allocation announcement, not a guarantee of executed buybacks or future equipment demand.",
-      "sources": [
-        {
-          "title": "Lam Research — November 5, 2026 repurchase authorization and dividend release",
-          "url": "https://newsroom.lamresearch.com/2026-11-05-Lam-Research-Corporation-Announces-25-Billion-Share-Repurchase-Authorization-and-Declares-Quarterly-Dividend"
         }
       ],
       "status": "new",
