@@ -1,146 +1,167 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-05T18:07:39-05:00",
-  "as_of_et": "4:34 PM ET, November 5",
+  "generated_at": "2026-11-06T15:59:11Z",
+  "as_of_et": "9:45 AM ET, November 6, 2026",
   "items": [
     {
-      "id": "scout-20261105-1634-ai-market-correction",
-      "observed_at": "2026-11-05T16:34:00-05:00",
-      "title": "AI infrastructure selloff becomes a broad market correction",
-      "summary": "Selling spread from AI infrastructure into the broader equity market, with the Nasdaq closing in correction territory. The decline establishes widespread repricing, while potential construction restrictions and financing pressures remain risks to future infrastructure spending.",
+      "id": "scout-20261106-0945-us-jobs",
+      "observed_at": "2026-11-06T08:31:00-05:00",
+      "title": "U.S. jobs report substantially exceeds expectations",
+      "summary": "October payroll growth exceeded the Reuters consensus, while unemployment edged lower. The report suggests greater labor-market resilience; the Scout's assessment is that persistent interest-rate pressure remains a risk to technology valuations. Watch Treasury yields, inflation data and subsequent payroll revisions.",
       "tickers": [
+        "SPY",
         "QQQ",
-        "SMH",
-        "NVDA",
-        "AMD",
-        "GEV"
+        "TLT"
+      ],
+      "sectors": [
+        "Broad market",
+        "Technology",
+        "Financials",
+        "Industrials"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "October nonfarm payroll growth — November 6 release",
+          "value": "+165,000; Reuters consensus +65,000"
+        },
+        {
+          "label": "October unemployment rate",
+          "value": "4.1%, versus 4.2% expected"
+        }
+      ],
+      "key_finding": "Stronger-than-expected employment supports economic resilience while keeping interest-rate risk in focus.",
+      "sources": [
+        {
+          "title": "BLS — November 6, 2026 October employment report",
+          "url": "https://www.bls.gov/news.release/archives/empsit_11062026.htm"
+        },
+        {
+          "title": "Reuters via MarketScreener — November 6, 2026, 8:31 AM ET futures reaction",
+          "url": "https://in.marketscreener.com/news/s-p-500-futures-pare-gains-after-october-non-farm-payrolls-data-ce785fd2d88ffe23"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261106-0945-asian-semiconductor-selloff",
+      "observed_at": "2026-11-06T09:45:00-05:00",
+      "title": "Semiconductor selling spreads across Asian markets",
+      "summary": "Asian semiconductor shares followed the U.S. technology rout lower. South Korea triggered a trading halt, while Japanese chip-related shares also fell sharply. These early-session observations establish international market stress; they do not establish a decline in semiconductor customer orders.",
+      "tickers": [
+        "EWY",
+        "EWJ",
+        "TSM",
+        "MU",
+        "NVDA"
       ],
       "sectors": [
         "Semiconductors",
+        "Memory",
         "AI infrastructure",
-        "Networking",
-        "Data-center power"
+        "International equities"
       ],
       "evidence_grade": "corroborated",
       "observations": [
         {
-          "label": "Nasdaq Composite — November 5 close",
-          "value": "24,315.00, −5.52%"
+          "label": "KOSPI — November 6 early-session low",
+          "value": "Down as much as 8.8%; 20-minute circuit-breaker halt"
         },
         {
-          "label": "S&P 500 — November 5 close",
-          "value": "7,353.73, −4.36%"
-        },
-        {
-          "label": "Dow Jones — November 5 close",
-          "value": "51,523.06, −3.44%"
-        },
-        {
-          "label": "Nvidia — November 5 close",
-          "value": "Approximately −9.3%"
-        },
-        {
-          "label": "AMD — November 5 close",
-          "value": "Approximately −17.3%"
-        },
-        {
-          "label": "GE Vernova — November 5 close",
-          "value": "Approximately −7.5%"
+          "label": "Nikkei 225 — November 6 early trading",
+          "value": "Approximately −5% to −6%; intraday, not closing data"
         }
       ],
-      "key_finding": "The Nasdaq closed in correction territory as AI-related selling spread across the wider market.",
+      "key_finding": "International semiconductor selling confirms broader repricing, while underlying demand deterioration remains unproven.",
       "sources": [
         {
-          "title": "Associated Press — November 5, 2026 market close",
-          "url": "https://apnews.com/article/stocks-markets-ai-midterm-oil-trump-7ee9c212805aa5e70cf34d25aab7a36e"
+          "title": "DW with AFP and Reuters — November 6, 2026 Asian technology selloff",
+          "url": "https://amp.dw.com/en/asian-stocks-slump-after-us-tech-rout-amid-ai-jitters/a-79871504"
         },
         {
-          "title": "Portfolio Terminal — November 5, 2026 closing index data",
-          "url": "https://portfolio-terminal.com/markets/stock-market-close/november-5-2026"
+          "title": "Bloomberg via SWI — November 6, 2026 early Asian markets",
+          "url": "https://www.swissinfo.ch/eng/asian-stocks-join-us-selloff-as-ai-rout-deepens%3A-markets-wrap/92336450"
         }
       ],
       "status": "new",
       "supersedes": null
     },
     {
-      "id": "scout-20261105-1634-oil-rebound",
-      "observed_at": "2026-11-05T16:34:00-05:00",
-      "title": "Oil rebounds while Hormuz shipping uncertainty persists",
-      "summary": "Crude recovered part of the previous session's sharp losses as shipping threats kept supply risks in focus. The rebound does not establish safer transit or restored oil flows, and the scout's quoted prices are retained as late-trading observations.",
+      "id": "scout-20261106-0945-team-earnings-dislocation",
+      "observed_at": "2026-11-06T09:45:00-05:00",
+      "title": "Atlassian earnings strength meets growth-outlook pressure",
+      "summary": "Atlassian beat first-quarter revenue and adjusted earnings expectations, yet shares fell sharply as investors focused on slower subscription growth guidance. The Scout treats this as an earnings-related valuation dislocation; the price decline alone does not establish undervaluation. Watch subscription ARR, cloud growth and AI monetization.",
       "tickers": [
-        "XLE",
-        "XOP"
+        "TEAM"
       ],
       "sectors": [
-        "Energy",
-        "Petroleum",
-        "Maritime transportation"
+        "Enterprise software"
       ],
       "evidence_grade": "corroborated",
       "observations": [
         {
-          "label": "Brent crude — November 5 late trading",
-          "value": "$98.29, approximately +3.9%"
+          "label": "Fiscal Q1 2027 revenue",
+          "value": "$1.772 billion, +24% year over year"
         },
         {
-          "label": "WTI crude — November 5 late trading",
-          "value": "$90.52, approximately +2.7%"
+          "label": "Fiscal Q1 2027 adjusted diluted EPS",
+          "value": "$1.65, versus $1.43 analyst estimate"
+        },
+        {
+          "label": "November 6 premarket indication",
+          "value": "Approximately −16%; historical premarket observation, not a live quote"
+        },
+        {
+          "label": "Fiscal 2027 subscription ARR growth outlook",
+          "value": "Approximately 18.5%, versus 23% in fiscal Q1"
         }
       ],
-      "key_finding": "Oil's rebound signals renewed supply-risk pricing; improved physical shipping conditions remain unestablished.",
+      "key_finding": "The earnings beat did not offset investor concern over the growth outlook.",
       "sources": [
         {
-          "title": "Reuters via Investing.com — November 5, 2026 oil and tanker-risk report",
-          "url": "https://www.investing.com/news/commodities-news/oil-falls-for-a-fourth-day-on-expectations-for-lower-risk-of-iran-war-escalation-5002042"
+          "title": "Atlassian company release via FT — November 5, 2026 fiscal Q1 2027 results",
+          "url": "https://markets.ft.markitdigital.com/data/announce/detail?dockey=600-202611051605BIZWIRE_USPRX____20261105_BW890344-1"
         },
         {
-          "title": "Associated Press — November 5, 2026 market close",
-          "url": "https://apnews.com/article/stocks-markets-ai-midterm-oil-trump-7ee9c212805aa5e70cf34d25aab7a36e"
+          "title": "Investing.com — November 5–6, 2026 earnings and premarket dislocation",
+          "url": "https://www.investing.com/news/stock-market-news/atlassian-tumbles-16-on-weaker-subscription-growth-outlook-5005613"
         }
       ],
       "status": "new",
       "supersedes": null
     },
     {
-      "id": "scout-20261105-1634-applovin-relative-strength",
-      "observed_at": "2026-11-05T16:34:00-05:00",
-      "title": "AppLovin demonstrates exceptional relative strength",
-      "summary": "AppLovin rose against the technology rout after reporting rapid revenue growth, substantial free cash flow and a larger repurchase authorization. Its earnings-backed strength stands out, though sustaining advertising growth and meeting valuation expectations remain risks.",
+      "id": "scout-20261106-0945-lrcx-buyback",
+      "observed_at": "2026-11-06T09:45:00-05:00",
+      "title": "Lam Research authorizes $25 billion in share repurchases",
+      "summary": "Lam announced a large repurchase authorization and its quarterly dividend during semiconductor-sector repricing. The Scout views the announcement as evidence of management's capital-return priorities, while customer spending remains a key risk. Authorization permits purchases but does not establish that shares have been repurchased.",
       "tickers": [
-        "APP"
+        "LRCX"
       ],
       "sectors": [
-        "Software",
-        "Advertising technology"
+        "Semiconductor manufacturing equipment"
       ],
-      "evidence_grade": "corroborated",
+      "evidence_grade": "single-source",
       "observations": [
         {
-          "label": "AppLovin — November 5 close",
-          "value": "Approximately +31%"
+          "label": "November 5 board announcement",
+          "value": "$25 billion share-repurchase authorization, supplementing prior remaining balances"
         },
         {
-          "label": "Q3 2026 revenue",
-          "value": "$2.185 billion, +55% year over year"
+          "label": "Quarterly dividend",
+          "value": "$0.33 per share; payable January 6, 2027 to holders of record December 2, 2026"
         },
         {
-          "label": "Q3 2026 free cash flow",
-          "value": "Approximately $1.4 billion (company-defined non-GAAP measure)"
-        },
-        {
-          "label": "Share-repurchase authorization increase",
-          "value": "$3.2 billion, bringing total authorization to $3.6 billion"
+          "label": "Repurchase conditions",
+          "value": "No termination date; may be suspended or discontinued; no obligation to purchase"
         }
       ],
-      "key_finding": "Strong reported earnings supported exceptional relative strength during the broader technology selloff.",
+      "key_finding": "The authorization is a material capital-allocation announcement, not a guarantee of executed buybacks or future equipment demand.",
       "sources": [
         {
-          "title": "AppLovin — November 4, 2026 Q3 earnings release",
-          "url": "https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Third-Quarter-2026-Financial-Results/default.aspx"
-        },
-        {
-          "title": "Associated Press — November 5, 2026 market close",
-          "url": "https://apnews.com/article/stocks-markets-ai-midterm-oil-trump-7ee9c212805aa5e70cf34d25aab7a36e"
+          "title": "Lam Research — November 5, 2026 repurchase authorization and dividend release",
+          "url": "https://newsroom.lamresearch.com/2026-11-05-Lam-Research-Corporation-Announces-25-Billion-Share-Repurchase-Authorization-and-Declares-Quarterly-Dividend"
         }
       ],
       "status": "new",
