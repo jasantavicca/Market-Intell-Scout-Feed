@@ -1,8 +1,110 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-06T15:09:38-05:00",
-  "as_of_et": "3:09 PM ET, November 6, 2026",
+  "generated_at": "2026-11-06T16:11:49-05:00",
+  "as_of_et": "4:11 PM ET, November 6, 2026",
   "items": [
+    {
+      "id": "scout-20261106-1611-narrow-tech-rebound",
+      "observed_at": "2026-11-06T16:11:49-05:00",
+      "title": "Technology rebounds at close, but weak breadth limits market recovery",
+      "summary": "Following Thursday's severe AI-led selloff, preliminary Friday closes show the Nasdaq recovering while the Dow remained negative. The S&P 500's modest rise concealed more declining constituents than advancing ones. This confirms a narrowly concentrated market rebound, not improved semiconductor orders or a broad-based recovery.",
+      "tickers": [
+        "QQQ",
+        "SPY",
+        "DIA",
+        "NVDA",
+        "AMD",
+        "SMH"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "US equities"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Nasdaq Composite, Nov 6 preliminary close",
+          "value": "+1.1%; corroborated by AP and MarketWatch/FactSet"
+        },
+        {
+          "label": "S&P 500, Nov 6 preliminary close",
+          "value": "+0.3%; corroborated by AP and MarketWatch/FactSet"
+        },
+        {
+          "label": "Dow Jones, Nov 6 preliminary close",
+          "value": "-0.5%; corroborated by AP and MarketWatch/FactSet"
+        },
+        {
+          "label": "S&P 500 technology sector, Nov 6 preliminary close",
+          "value": "+1.3%, MarketWatch/FactSet"
+        },
+        {
+          "label": "S&P 500 advance-decline participation",
+          "value": "More decliners than advancers, AP"
+        }
+      ],
+      "key_finding": "The technology rebound recovered a fraction of Thursday's losses, while market breadth stayed negative.",
+      "sources": [
+        {
+          "title": "Associated Press — AI stocks halt global selloff, November 6, 2026",
+          "url": "https://apnews.com/article/bba6f0bf9035a6e6b1c4fef3e8230b89"
+        },
+        {
+          "title": "MarketWatch — US stocks end mixed, preliminary FactSet closes, November 6, 2026",
+          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-tech-stocks-worst-day-since-2020-employment-report/card/u-s-stocks-end-mixed-as-tech-rebound-propels-s-p-500-and-nasdaq-to-gains-6YcDeyzTn0IvlPj7EPRK"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261106-1611-oil-weekly-drop",
+      "observed_at": "2026-11-06T16:11:49-05:00",
+      "title": "Brent and WTI shed about 13 percent in a week despite ongoing Gulf shipping risk",
+      "summary": "Crude benchmarks finished a turbulent week about thirteen percent lower as markets priced possible Middle East diplomacy and softer demand. The Wall Street Journal reported Friday settlements, while a separate Reuters report earlier documented the large weekly decline. Neither price action nor diplomatic expectations establishes restored Hormuz shipping throughput.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Energy",
+        "Petroleum",
+        "Maritime transportation"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Brent January futures settlement, November 6",
+          "value": "$98.32 per barrel, WSJ-reported; settlement figure not independently confirmed by second source"
+        },
+        {
+          "label": "WTI futures settlement, November 6",
+          "value": "$90.83 per barrel, WSJ-reported; settlement figure not independently confirmed by second source"
+        },
+        {
+          "label": "Weekly oil benchmark moves",
+          "value": "Approximately -13% for Brent and WTI; direction and magnitude corroborated by Reuters pre-settlement reporting"
+        },
+        {
+          "label": "Hormuz shipping status",
+          "value": "No newly verified restoration of normal physical petroleum flow"
+        }
+      ],
+      "key_finding": "A sharp weekly oil-risk-premium unwind is market confirmation of diplomatic expectations, not verified restored transit.",
+      "sources": [
+        {
+          "title": "Wall Street Journal — Oil futures slide as market holds out hopes for Middle East diplomacy, November 6, 2026",
+          "url": "https://www.wsj.com/business/energy-oil/brent-crude-climbs-above-100-as-middle-east-oil-supply-risks-persist-caaf64bb"
+        },
+        {
+          "title": "Reuters via Euronext — Oil set for sharp weekly fall, November 6, 2026",
+          "url": "https://live.euronext.com/en/financial-news/oil-set-sharp-weekly-drop-after-us-midterms-raise-hopes-more-mideast-crude-exports"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261106-1509-mchp-supply-constraints",
       "observed_at": "2026-11-06T14:21:00-05:00",
@@ -105,114 +207,6 @@
         {
           "title": "Barron's — Marvell, Lumentum headed for historically bad weeks, November 6",
           "url": "https://www.barrons.com/articles/marvell-lumentum-stocks-tech-ai-744741c8"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261106-1423-gulf-subsea-cable-activity",
-      "observed_at": "2026-11-06T14:23:43-05:00",
-      "title": "Iran-linked vessel anomalies near Gulf of Oman subsea cables add digital-infrastructure risk",
-      "summary": "Windward's October 29 assessment documented three sanctioned tankers and an Iran-flagged fishing-support vessel making unusual movements near subsea cable corridors during October 5–28. Financial Times coverage renewed attention on November 6. Tracking anomalies are a leading security signal, not evidence that any cable was attacked or that mine placement occurred.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Maritime transportation",
-        "Energy",
-        "Networking",
-        "Digital infrastructure"
-      ],
-      "evidence_grade": "single-source",
-      "observations": [
-        {
-          "label": "Source observation period",
-          "value": "October 5–28, 2026 (historical vessel movement; not a new November 6 attack)"
-        },
-        {
-          "label": "Vessels of interest",
-          "value": "Three U.S.-sanctioned tankers plus one Iran-flagged fishing-support vessel"
-        },
-        {
-          "label": "CELESTIAL SEA AIS outage near 2Africa and BBG corridors",
-          "value": "86 hours, October 15–19 (Windward assessment)"
-        },
-        {
-          "label": "Other anomalous movements",
-          "value": "Laden gas carrier made 180-degree turn near cable route; separate tanker loitered around ten days"
-        },
-        {
-          "label": "Physical infrastructure impact",
-          "value": "No cable fault, sabotage or mine placement independently verified"
-        }
-      ],
-      "key_finding": "Gulf maritime threats may encompass regional digital connectivity, but evidence so far establishes vessel-track anomalies only.",
-      "sources": [
-        {
-          "title": "Windward maritime intelligence, October 29, 2026: Iran-linked vessels over subsea cable corridors",
-          "url": "https://windward.ai/blog/sanctioned-iran-linked-tankers-went-dark-over-gulf-of-oman-cables/"
-        },
-        {
-          "title": "Financial Times, November 6, 2026: Iran-linked ships hover over subsea cables",
-          "url": "https://www.ft.com/content/492b2c62-8e15-47b3-bf24-842ae62e7217"
-        },
-        {
-          "title": "Iran International, November 6, 2026: FT investigation details",
-          "url": "https://www.iranintl.com/en/202611067103"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261106-1423-microsoft-oracle-capacity",
-      "observed_at": "2026-11-06T12:54:00-05:00",
-      "title": "Microsoft reportedly winds down rented Oracle AI computing as hardware becomes less suitable",
-      "summary": "Bloomberg, cited by Reuters, reports Microsoft has been switching off rented Oracle AI computing after declining to renew an older arrangement. The Nvidia hardware reportedly no longer meets Microsoft's evolving needs. This raises utilization and asset-obsolescence questions for AI infrastructure providers, but Microsoft has not directly confirmed the reported nonrenewal.",
-      "tickers": [
-        "ORCL",
-        "MSFT",
-        "NVDA"
-      ],
-      "sectors": [
-        "AI infrastructure",
-        "Cloud computing",
-        "Semiconductors"
-      ],
-      "evidence_grade": "single-source",
-      "observations": [
-        {
-          "label": "Oracle reaction in Reuters report at 12:54 PM ET November 6",
-          "value": "Approximately -3% intraday; not a closing price"
-        },
-        {
-          "label": "Oracle reaction in earlier Investing.com report",
-          "value": "Approximately -4% intraday, 12:47 PM ET; subsequent share-price recovery also reported"
-        },
-        {
-          "label": "Oracle fundraising announced November 2",
-          "value": "Approximately $20 billion in combined debt and equity financing"
-        },
-        {
-          "label": "Agreement status",
-          "value": "Reported nonrenewal of 2023 cloud compute rental; not confirmed directly by Microsoft"
-        }
-      ],
-      "key_finding": "The reported nonrenewal highlights potential economic obsolescence of older AI compute hardware without proving weaker overall AI demand.",
-      "sources": [
-        {
-          "title": "Reuters, November 6, 2026: Microsoft winding down rented Oracle cloud capacity (citing Bloomberg)",
-          "url": "https://www.investing.com/news/stock-market-news/microsoft-is-winding-down-oracle-deal-to-rent-ai-cloud-capacity-bloomberg-news-reports-5008946"
-        },
-        {
-          "title": "Investing.com, November 6, 2026: Oracle initial market reaction",
-          "url": "https://www.investing.com/news/stock-market-news/oracle-falls-4-as-microsoft-reportedly-winds-down-ai-cloud-capacity-deal-5008936"
-        },
-        {
-          "title": "Reuters, November 2, 2026: Oracle AI infrastructure fundraising",
-          "url": "https://www.investing.com/news/stock-market-news/oracle-to-offer-10-billion-in-bonds-4991687"
         }
       ],
       "status": "new",
