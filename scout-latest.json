@@ -1,8 +1,68 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-07T09:36:23-05:00",
-  "as_of_et": "9:36 AM ET, November 7, 2026",
+  "generated_at": "2026-11-07T10:07:42-05:00",
+  "as_of_et": "November 7, 2026 at 10:07 AM ET",
   "items": [
+    {
+      "id": "scout-20261107-1007-berkshire-q3-buybacks",
+      "observed_at": "2026-11-07T10:07:42-05:00",
+      "title": "Berkshire increases quarterly repurchases to $9.6 billion despite lower operating profit",
+      "summary": "Berkshire Hathaway reported a nearly six-percent year-over-year decline in quarterly operating earnings, driven partly by weaker insurance underwriting, while spending $9.6 billion on share repurchases. Its railroad and utility businesses delivered stronger results. The large capital-return commitment is a defensive-sector watch-list signal, but Monday's price response is not yet observable.",
+      "tickers": [
+        "BRK.A",
+        "BRK.B"
+      ],
+      "sectors": [
+        "Financials",
+        "Insurance",
+        "Utilities",
+        "Industrials"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Q3 2026 operating earnings, company release 8:00 AM ET November 7",
+          "value": "$12.705 billion, approximately -5.8% year over year"
+        },
+        {
+          "label": "Q3 share repurchases",
+          "value": "$9.6 billion; first nine months total approximately $14.4 billion"
+        },
+        {
+          "label": "Q3 attributable net earnings",
+          "value": "$22.112 billion, versus $30.796 billion in Q3 2025"
+        },
+        {
+          "label": "BRK.B November 6 closing price (pre-announcement)",
+          "value": "$570.89, -0.25%; no Saturday regular-session price reaction"
+        },
+        {
+          "label": "Berkshire Hathaway Energy earnings",
+          "value": "Utility profits reported approximately +8% year over year"
+        }
+      ],
+      "key_finding": "A large, documented buyback commitment contrasts with softer insurance earnings and improving utility/rail performance.",
+      "sources": [
+        {
+          "title": "Berkshire Hathaway — November 7, 2026 third-quarter earnings release",
+          "url": "https://www.berkshirehathaway.com/news/nov0726.pdf"
+        },
+        {
+          "title": "Associated Press — Berkshire Q3 earnings and $9.6 billion repurchases, November 7",
+          "url": "https://apnews.com/article/berkshire-hathaway-earnings-815275690be3053d772802d97415ff26"
+        },
+        {
+          "title": "Barron's — Berkshire operating earnings, repurchases, and utility results, November 7",
+          "url": "https://www.barrons.com/articles/berkshire-hathaway-earnings-stock-price-46969b67"
+        },
+        {
+          "title": "StockAnalysis — BRK.B November 6 closing price",
+          "url": "https://stockanalysis.com/stocks/brk.b/history/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261107-0936-qeshm-airstrike",
       "observed_at": "2026-11-07T09:36:23-05:00",
@@ -92,61 +152,6 @@
         {
           "title": "The Guardian — Strait of Hormuz could reopen under Qatar plan, November 7",
           "url": "https://www.theguardian.com/world/2026/nov/07/strait-of-hormuz-qatar-plan-iran-nuclear-inspections"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261106-1611-narrow-tech-rebound",
-      "observed_at": "2026-11-06T16:11:49-05:00",
-      "title": "Technology rebounds at close, but weak breadth limits market recovery",
-      "summary": "Following Thursday's severe AI-led selloff, preliminary Friday closes show the Nasdaq recovering while the Dow remained negative. The S&P 500's modest rise concealed more declining constituents than advancing ones. This confirms a narrowly concentrated market rebound, not improved semiconductor orders or a broad-based recovery.",
-      "tickers": [
-        "QQQ",
-        "SPY",
-        "DIA",
-        "NVDA",
-        "AMD",
-        "SMH"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "AI infrastructure",
-        "US equities"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Nasdaq Composite, Nov 6 preliminary close",
-          "value": "+1.1%; corroborated by AP and MarketWatch/FactSet"
-        },
-        {
-          "label": "S&P 500, Nov 6 preliminary close",
-          "value": "+0.3%; corroborated by AP and MarketWatch/FactSet"
-        },
-        {
-          "label": "Dow Jones, Nov 6 preliminary close",
-          "value": "-0.5%; corroborated by AP and MarketWatch/FactSet"
-        },
-        {
-          "label": "S&P 500 technology sector, Nov 6 preliminary close",
-          "value": "+1.3%, MarketWatch/FactSet"
-        },
-        {
-          "label": "S&P 500 advance-decline participation",
-          "value": "More decliners than advancers, AP"
-        }
-      ],
-      "key_finding": "The technology rebound recovered a fraction of Thursday's losses, while market breadth stayed negative.",
-      "sources": [
-        {
-          "title": "Associated Press — AI stocks halt global selloff, November 6, 2026",
-          "url": "https://apnews.com/article/bba6f0bf9035a6e6b1c4fef3e8230b89"
-        },
-        {
-          "title": "MarketWatch — US stocks end mixed, preliminary FactSet closes, November 6, 2026",
-          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-tech-stocks-worst-day-since-2020-employment-report/card/u-s-stocks-end-mixed-as-tech-rebound-propels-s-p-500-and-nasdaq-to-gains-6YcDeyzTn0IvlPj7EPRK"
         }
       ],
       "status": "new",
