@@ -1,8 +1,102 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-06T16:11:49-05:00",
-  "as_of_et": "4:11 PM ET, November 6, 2026",
+  "generated_at": "2026-11-07T09:36:23-05:00",
+  "as_of_et": "9:36 AM ET, November 7, 2026",
   "items": [
+    {
+      "id": "scout-20261107-0936-qeshm-airstrike",
+      "observed_at": "2026-11-07T09:36:23-05:00",
+      "title": "New US strikes on Qeshm Island raise Hormuz escalation risk",
+      "summary": "President Trump said US forces struck an Iranian air-defense installation on Qeshm Island on November 6; Iranian state media separately reported explosions nearby. The announcement raises the risk of retaliation around a major shipping chokepoint. No additional tanker damage, lost petroleum throughput or post-event market reaction has been independently verified.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Energy",
+        "Maritime transportation",
+        "Geopolitics"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Event timing",
+          "value": "Friday evening, November 6, 2026 (ET)"
+        },
+        {
+          "label": "Reported target",
+          "value": "Air-defense installation near Qeshm Island, per President Trump; damage not independently established"
+        },
+        {
+          "label": "Physical petroleum-flow impact",
+          "value": "No additional disruption verified"
+        },
+        {
+          "label": "Market reaction",
+          "value": "No post-event regular-session quote; Saturday market closure"
+        }
+      ],
+      "key_finding": "New reported military activity near Hormuz creates escalation risk without verified oil-flow disruption.",
+      "sources": [
+        {
+          "title": "Associated Press — US targeted strikes and Iran negotiations, November 7",
+          "url": "https://apnews.com/article/iran-war-nuclear-program-negotiations-trump-53ed5d271b9aef6f880aebc133ea6a55"
+        },
+        {
+          "title": "The Guardian — President confirms limited Iran strikes, November 6",
+          "url": "https://www.theguardian.com/world/2026/nov/07/us-carries-out-another-round-of-minor-strikes-on-iran-trump-says"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261107-0936-qatar-hormuz-framework",
+      "observed_at": "2026-11-07T09:36:23-05:00",
+      "title": "Qatari two-day framework proposes reopening Hormuz, but remains unsigned",
+      "summary": "Regional officials describe a two-day diplomatic proposal involving US blockade relief and partial release of Iranian assets in exchange for access by international nuclear inspectors. Iran would reopen Hormuz on the second day through a route negotiated with Oman. Iran's additional demands remain unresolved, and no restoration of physical tanker traffic has been verified.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Energy",
+        "Maritime transportation",
+        "International trade"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Publication/observation",
+          "value": "November 7, 2026, 9:36 AM ET scout review"
+        },
+        {
+          "label": "Proposed sequencing",
+          "value": "US blockade relief and partial asset release / IAEA access; Hormuz reopening on day 2 of implemented agreement"
+        },
+        {
+          "label": "Agreement status",
+          "value": "Not signed or accepted by both governments"
+        },
+        {
+          "label": "Verified transit recovery",
+          "value": "Not established"
+        }
+      ],
+      "key_finding": "The diplomatic pathway could materially affect oil-risk premiums, but normal shipping has not resumed.",
+      "sources": [
+        {
+          "title": "Associated Press — Qatari proposal and unresolved Iranian conditions, November 7",
+          "url": "https://apnews.com/article/iran-war-nuclear-program-negotiations-trump-53ed5d271b9aef6f880aebc133ea6a55"
+        },
+        {
+          "title": "The Guardian — Strait of Hormuz could reopen under Qatar plan, November 7",
+          "url": "https://www.theguardian.com/world/2026/nov/07/strait-of-hormuz-qatar-plan-iran-nuclear-inspections"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261106-1611-narrow-tech-rebound",
       "observed_at": "2026-11-06T16:11:49-05:00",
@@ -100,113 +194,6 @@
         {
           "title": "Reuters via Euronext — Oil set for sharp weekly fall, November 6, 2026",
           "url": "https://live.euronext.com/en/financial-news/oil-set-sharp-weekly-drop-after-us-midterms-raise-hopes-more-mideast-crude-exports"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261106-1509-mchp-supply-constraints",
-      "observed_at": "2026-11-06T14:21:00-05:00",
-      "title": "Microchip earnings beat contrasts with supply-constrained guidance and steep share decline",
-      "summary": "Microchip Technology reported strong September-quarter growth and adjusted earnings above guidance, but its shares fell sharply as the December outlook pointed to a sequential revenue decline. Lengthening manufacturing lead times, capacity limitations and delayed high-margin orders complicate near-term margins despite underlying industrial and data-center demand. These are observed market and operating signals, not proof of a lasting impairment.",
-      "tickers": [
-        "MCHP"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "Embedded systems",
-        "Industrial automation",
-        "Automotive electronics"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "MCHP, November 6 at 2:21 PM ET (intraday)",
-          "value": "$58.16, -10.32% versus prior close; stockanalysis.com"
-        },
-        {
-          "label": "September-quarter FY2027 net sales",
-          "value": "$1.622 billion, +42.2% year over year; company release November 5"
-        },
-        {
-          "label": "September-quarter adjusted EPS",
-          "value": "$0.97 per share; company guidance had been $0.91-$0.95"
-        },
-        {
-          "label": "December-quarter revenue guidance, sequential midpoint",
-          "value": "-1% versus September quarter; approximately +35.4% year over year"
-        },
-        {
-          "label": "Manufacturing outlook",
-          "value": "Longer lead times and constrained wafer/assembly/test capacity, according to company and analyst reports"
-        }
-      ],
-      "key_finding": "A double-digit share-price dislocation contrasts with revenue recovery but reflects credible supply and margin constraints.",
-      "sources": [
-        {
-          "title": "Microchip Technology fiscal Q2 2027 earnings release, November 5",
-          "url": "https://rss.globenewswire.com/news-release/2026/11/05/3397141/0/en/microchip-technology-announces-financial-results-for-second-quarter-of-fiscal-year-2027.html"
-        },
-        {
-          "title": "Stock Analysis — MCHP quote observed November 6 at 2:21 PM ET",
-          "url": "https://stockanalysis.com/stocks/mchp/"
-        },
-        {
-          "title": "Investing.com — Cantor Fitzgerald on Microchip supply and margin constraints, November 6",
-          "url": "https://ca.investing.com/news/stock-market-news/cantor-fitzgerald-cuts-microchip-technology-stock-price-target-on-margin-pressure-93CH-4938932"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261106-1509-mrvl-lite-deal-repricing",
-      "observed_at": "2026-11-06T15:09:38-05:00",
-      "title": "Marvell and Lumentum face extraordinary weekly losses after all-stock AI connectivity merger",
-      "summary": "Shares of both companies suffered exceptionally large weekly declines despite a Friday rebound, as investors reassessed Marvell's proposed acquisition of Lumentum. The announced $1,132 valuation is based on pre-announcement prices, not fixed cash consideration: each Lumentum share would receive 4.5 Marvell shares. Strong optical and semiconductor demand remains possible, while exchange-ratio exposure, regulatory approval and integration complicate valuation.",
-      "tickers": [
-        "MRVL",
-        "LITE"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "Optical networking",
-        "AI infrastructure",
-        "Data-center interconnect"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "LITE week-to-date share-price move, November 6 afternoon media report",
-          "value": "Approximately -37%; weekly change, not closing/settlement"
-        },
-        {
-          "label": "MRVL week-to-date share-price move, November 6 afternoon media report",
-          "value": "More than -29%; weekly change, not closing/settlement"
-        },
-        {
-          "label": "Transaction announced November 2",
-          "value": "All-stock acquisition; implied enterprise value about $115 billion at unaffected share prices"
-        },
-        {
-          "label": "Merger consideration",
-          "value": "Fixed ratio 4.500 shares of MRVL for each LITE share; not $1,132 fixed cash"
-        },
-        {
-          "label": "Expected transaction timing",
-          "value": "First half of calendar 2028, subject to shareholder and regulatory approvals"
-        }
-      ],
-      "key_finding": "A massive weekly repricing has made AI-connectivity merger economics and approval risk unusually consequential.",
-      "sources": [
-        {
-          "title": "Marvell and Lumentum definitive acquisition announcement, November 2",
-          "url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Marvell-and-Lumentum-to-Combine-Creating-a-Category-Leader-in-AI-Connectivity/default.aspx"
-        },
-        {
-          "title": "Barron's — Marvell, Lumentum headed for historically bad weeks, November 6",
-          "url": "https://www.barrons.com/articles/marvell-lumentum-stocks-tech-ai-744741c8"
         }
       ],
       "status": "new",
