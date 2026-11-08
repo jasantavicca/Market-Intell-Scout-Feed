@@ -1,8 +1,106 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-07T10:07:42-05:00",
-  "as_of_et": "November 7, 2026 at 10:07 AM ET",
+  "generated_at": "2026-11-08T08:12:00-05:00",
+  "as_of_et": "November 8, 2026 at 8:12 AM ET",
   "items": [
+    {
+      "id": "scout-20261108-0812-us-blockade-bulker",
+      "observed_at": "2026-11-08T08:12:00-05:00",
+      "title": "US military disables commercial bulk carrier attempting to cross Iran blockade",
+      "summary": "US Central Command says it disabled the St Kitts and Nevis-flagged bulk carrier Huda in the Gulf of Oman on November 7 after repeated warnings during an attempted departure following a visit to an Iranian port. This is a material escalation in direct enforcement of the US maritime blockade. The event does not establish an additional oil-supply outage; monitor retaliatory action, ship routing and insurance costs.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Maritime transportation",
+        "Energy",
+        "Geopolitics"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Event date",
+          "value": "November 7, 2026"
+        },
+        {
+          "label": "Vessel and location",
+          "value": "Bulk carrier Huda; Gulf of Oman; St Kitts and Nevis flag, per maritime reporting"
+        },
+        {
+          "label": "US military action",
+          "value": "CENTCOM says precision munitions disabled vessel after ignored warnings"
+        },
+        {
+          "label": "Confirmed additional oil-flow loss",
+          "value": "Not established; vessel described as bulk carrier"
+        }
+      ],
+      "key_finding": "Direct US military enforcement against a commercial vessel heightens shipping-risk uncertainty without confirmed incremental oil disruption.",
+      "sources": [
+        {
+          "title": "Associated Press — US military disables commercial vessel in Gulf of Oman, November 8",
+          "url": "https://apnews.com/article/bc902d3400cb5d022f8bafd247ef975b"
+        },
+        {
+          "title": "Seatrade Maritime — Crew abandon tanker in Hormuz, US strikes bulker in Gulf of Oman, November 8",
+          "url": "https://www.seatrade-maritime.com/security/crew-abandon-tanker-in-hormuz-us-strikes-bulker-in-gulf-of-oman"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261108-0812-khasab-tanker-fire",
+      "observed_at": "2026-11-08T08:12:00-05:00",
+      "title": "Tanker fire near Khasab prompts crew evacuation amid persistent Hormuz shipping risk",
+      "summary": "UKMTO Warning 199-26 reports a tanker on fire approximately eight nautical miles northwest of Khasab, Oman, on November 7; military authorities reported that the crew evacuated. The warning was issued on November 8 as a delayed report. The cause, vessel identity, casualties, pollution and any additional oil-throughput loss are not confirmed; avoid attributing the fire to a particular belligerent without evidence.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Energy",
+        "Maritime transportation",
+        "Strait of Hormuz"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Incident timing",
+          "value": "November 7, 2026, approximately 19:20 UTC, per UKMTO warning reports"
+        },
+        {
+          "label": "Location",
+          "value": "Approximately 8 nautical miles northwest of Khasab, Oman"
+        },
+        {
+          "label": "Reported vessel condition",
+          "value": "Tanker on fire; crew evacuated"
+        },
+        {
+          "label": "Cause and physical petroleum-flow impact",
+          "value": "Unconfirmed; no independently established incremental throughput loss"
+        }
+      ],
+      "key_finding": "A new tanker evacuation demonstrates ongoing acute vessel risk near Hormuz, but does not establish a new oil-volume shock.",
+      "sources": [
+        {
+          "title": "Seatrade Maritime — UKMTO tanker fire and crew evacuation, November 8",
+          "url": "https://www.seatrade-maritime.com/security/crew-abandon-tanker-in-hormuz-us-strikes-bulker-in-gulf-of-oman"
+        },
+        {
+          "title": "Crewboard — UKMTO Warning 199-26 details, November 8",
+          "url": "https://crew-board.net/news/strait-hormuz-tanker-fire-khasab-ukmto-199-26"
+        },
+        {
+          "title": "UKMTO — Recent incidents and advisories",
+          "url": "https://www.ukmto.org/recent-incidents"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261107-1007-berkshire-q3-buybacks",
       "observed_at": "2026-11-07T10:07:42-05:00",
@@ -152,104 +250,6 @@
         {
           "title": "The Guardian — Strait of Hormuz could reopen under Qatar plan, November 7",
           "url": "https://www.theguardian.com/world/2026/nov/07/strait-of-hormuz-qatar-plan-iran-nuclear-inspections"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261106-1611-oil-weekly-drop",
-      "observed_at": "2026-11-06T16:11:49-05:00",
-      "title": "Brent and WTI shed about 13 percent in a week despite ongoing Gulf shipping risk",
-      "summary": "Crude benchmarks finished a turbulent week about thirteen percent lower as markets priced possible Middle East diplomacy and softer demand. The Wall Street Journal reported Friday settlements, while a separate Reuters report earlier documented the large weekly decline. Neither price action nor diplomatic expectations establishes restored Hormuz shipping throughput.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Energy",
-        "Petroleum",
-        "Maritime transportation"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Brent January futures settlement, November 6",
-          "value": "$98.32 per barrel, WSJ-reported; settlement figure not independently confirmed by second source"
-        },
-        {
-          "label": "WTI futures settlement, November 6",
-          "value": "$90.83 per barrel, WSJ-reported; settlement figure not independently confirmed by second source"
-        },
-        {
-          "label": "Weekly oil benchmark moves",
-          "value": "Approximately -13% for Brent and WTI; direction and magnitude corroborated by Reuters pre-settlement reporting"
-        },
-        {
-          "label": "Hormuz shipping status",
-          "value": "No newly verified restoration of normal physical petroleum flow"
-        }
-      ],
-      "key_finding": "A sharp weekly oil-risk-premium unwind is market confirmation of diplomatic expectations, not verified restored transit.",
-      "sources": [
-        {
-          "title": "Wall Street Journal — Oil futures slide as market holds out hopes for Middle East diplomacy, November 6, 2026",
-          "url": "https://www.wsj.com/business/energy-oil/brent-crude-climbs-above-100-as-middle-east-oil-supply-risks-persist-caaf64bb"
-        },
-        {
-          "title": "Reuters via Euronext — Oil set for sharp weekly fall, November 6, 2026",
-          "url": "https://live.euronext.com/en/financial-news/oil-set-sharp-weekly-drop-after-us-midterms-raise-hopes-more-mideast-crude-exports"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261106-1219-jmic-hormuz-traffic",
-      "observed_at": "2026-11-06T12:19:00-05:00",
-      "title": "JMIC shipping assessment documents persistent Hormuz traffic disruption",
-      "summary": "The November 5 JMIC assessment reports attacks and persistently depressed commercial vessel movements through Hormuz relative to the 2025 baseline. US-assisted passages continued but fell slightly from the prior reporting period. These measurements establish ongoing maritime stress, not a new oil-volume loss caused by Friday's reported tanker incident.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Energy",
-        "Maritime transport",
-        "Strait of Hormuz"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "JMIC reporting period and publication",
-          "value": "Update 111, November 5, 2026; covering preceding 96 hours"
-        },
-        {
-          "label": "Reported attacks in Strait of Hormuz",
-          "value": "4 across reporting period; 3 in previous period; incidents November 1-3"
-        },
-        {
-          "label": "Overall commercial transit vs historical baseline",
-          "value": "Substantially below 2025 levels; independent tracking showed single-digit to low-double-digit movements per day"
-        },
-        {
-          "label": "US-assisted vessel transits, current reporting period",
-          "value": "Approximately 31 per day, versus 34 per day during October 24-30; not equivalent to overall traffic"
-        },
-        {
-          "label": "Additional petroleum throughput lost on November 6",
-          "value": "Not independently established"
-        }
-      ],
-      "key_finding": "JMIC data support ongoing severe Hormuz shipping stress, without demonstrating a new Friday petroleum-flow shock.",
-      "sources": [
-        {
-          "title": "Gulf News — JMIC Update 111 shipping assessment, November 6, 2026",
-          "url": "https://gulfnews.com/business/energy/hormuz-attacks-rise-as-iran-steps-up-pressure-on-shipping-ukmto-warns-1.500737866"
-        },
-        {
-          "title": "UKMTO official account — November 5 JMIC Update 111 announcement",
-          "url": "https://x.com/UK_MTO/status/2118372398726816015"
         }
       ],
       "status": "new",
