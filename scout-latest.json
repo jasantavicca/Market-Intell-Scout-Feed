@@ -1,8 +1,65 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-08T09:14:44-05:00",
-  "as_of_et": "November 8, 2026 at 9:14 AM ET",
+  "generated_at": "2026-11-08T10:08:28-05:00",
+  "as_of_et": "November 8, 2026 at 10:08 AM EST",
   "items": [
+    {
+      "id": "scout-20261108-1008-aramco-riyadh-missiles",
+      "observed_at": "2026-11-08T10:08:28-05:00",
+      "title": "Houthi missile attack damages Aramco administration building in Riyadh",
+      "summary": "Saudi Arabia says it intercepted ballistic and cruise missiles early Sunday, but falling debris damaged an Aramco office building in Riyadh; the Houthis claimed the attack. Saudi officials reported no casualties, and no refinery, pipeline or crude-production outage has been established. This widens regional infrastructure risk alongside Hormuz shipping attacks, but does not yet demonstrate an additional physical oil-supply loss.",
+      "tickers": [
+        "2222.SR",
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and gas infrastructure",
+        "Saudi Arabia",
+        "Middle East geopolitical risk"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Incident and scout observation",
+          "value": "Early Sunday November 8, 2026; observed 10:08 AM EST"
+        },
+        {
+          "label": "Saudi-led coalition reported interceptions",
+          "value": "2 ballistic missiles and 2 cruise missiles targeting Riyadh and other regions; attribution to Houthis"
+        },
+        {
+          "label": "Confirmed damage",
+          "value": "Aramco administrative building in Riyadh financial district; Saudi Energy Ministry described falling debris damage; no reported casualties"
+        },
+        {
+          "label": "Production/refining/pipeline throughput impact",
+          "value": "No disruption verified; administrative facility, not confirmed production installation"
+        },
+        {
+          "label": "Market move at observation time",
+          "value": "No corroborated post-incident oil or equity-price response established; US regular-session markets closed Sunday"
+        }
+      ],
+      "key_finding": "Direct damage to an Aramco office highlights Houthi escalation risk, but there is no evidence yet of additional oil-production disruption.",
+      "sources": [
+        {
+          "title": "Associated Press — Aramco building damaged in Riyadh after missile interceptions, Nov 8",
+          "url": "https://apnews.com/article/090d96e25872f5c63e105b9dd3e5dc60"
+        },
+        {
+          "title": "Reuters via MarketScreener — Saudi-led coalition intercepts two Houthi missiles fired towards Riyadh, Nov 8",
+          "url": "https://www.marketscreener.com/news/saudi-led-coalition-intercepts-two-houthi-missiles-fired-towards-riyadh-ce785fd2d08af02c"
+        },
+        {
+          "title": "Financial Times — Saudi Aramco office in Riyadh damaged in latest Houthi strikes, Nov 8",
+          "url": "https://www.ft.com/content/eeadc13e-b915-4591-ab85-54db81030996"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261108-0914-anthropic-gas-generators",
       "observed_at": "2026-11-08T09:14:44-05:00",
@@ -210,53 +267,6 @@
         {
           "title": "UKMTO — Recent incidents and advisories",
           "url": "https://www.ukmto.org/recent-incidents"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261107-0936-qatar-hormuz-framework",
-      "observed_at": "2026-11-07T09:36:23-05:00",
-      "title": "Qatari two-day framework proposes reopening Hormuz, but remains unsigned",
-      "summary": "Regional officials describe a two-day diplomatic proposal involving US blockade relief and partial release of Iranian assets in exchange for access by international nuclear inspectors. Iran would reopen Hormuz on the second day through a route negotiated with Oman. Iran's additional demands remain unresolved, and no restoration of physical tanker traffic has been verified.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Energy",
-        "Maritime transportation",
-        "International trade"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Publication/observation",
-          "value": "November 7, 2026, 9:36 AM ET scout review"
-        },
-        {
-          "label": "Proposed sequencing",
-          "value": "US blockade relief and partial asset release / IAEA access; Hormuz reopening on day 2 of implemented agreement"
-        },
-        {
-          "label": "Agreement status",
-          "value": "Not signed or accepted by both governments"
-        },
-        {
-          "label": "Verified transit recovery",
-          "value": "Not established"
-        }
-      ],
-      "key_finding": "The diplomatic pathway could materially affect oil-risk premiums, but normal shipping has not resumed.",
-      "sources": [
-        {
-          "title": "Associated Press — Qatari proposal and unresolved Iranian conditions, November 7",
-          "url": "https://apnews.com/article/iran-war-nuclear-program-negotiations-trump-53ed5d271b9aef6f880aebc133ea6a55"
-        },
-        {
-          "title": "The Guardian — Strait of Hormuz could reopen under Qatar plan, November 7",
-          "url": "https://www.theguardian.com/world/2026/nov/07/strait-of-hormuz-qatar-plan-iran-nuclear-inspections"
         }
       ],
       "status": "new",
