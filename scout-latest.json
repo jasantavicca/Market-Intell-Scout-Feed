@@ -1,8 +1,122 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-08T08:12:00-05:00",
-  "as_of_et": "November 8, 2026 at 8:12 AM ET",
+  "generated_at": "2026-11-08T09:14:44-05:00",
+  "as_of_et": "November 8, 2026 at 9:14 AM ET",
   "items": [
+    {
+      "id": "scout-20261108-0914-anthropic-gas-generators",
+      "observed_at": "2026-11-08T09:14:44-05:00",
+      "title": "Anthropic reportedly secures $3.4 billion of gas-fired generation commitments for AI data centers",
+      "summary": "The Financial Times reports Anthropic took over commitments for 1.7 GW of Caterpillar gas-fired generators originally ordered by OnePWR, in a deal agreed in late September and disclosed November 8. Reuters independently reported the FT account but said it could not verify it. This is a significant power-supply bottleneck signal, not evidence of a new Caterpillar equipment order.",
+      "tickers": [
+        "CAT"
+      ],
+      "sectors": [
+        "AI infrastructure",
+        "Data-center power",
+        "Industrial equipment",
+        "Natural gas"
+      ],
+      "evidence_grade": "single-source",
+      "observations": [
+        {
+          "label": "New report date",
+          "value": "Sunday, November 8, 2026; transaction reportedly agreed in late September"
+        },
+        {
+          "label": "Reported deal size",
+          "value": "Approximately $3.4 billion"
+        },
+        {
+          "label": "Reported generator capacity",
+          "value": "1.7 GW of gas-fired generation commitments"
+        },
+        {
+          "label": "Equipment manufacturer and order provenance",
+          "value": "Existing Caterpillar generator orders placed by OnePWR around 2024; not demonstrated to be incremental CAT orders"
+        },
+        {
+          "label": "Independent transaction confirmation",
+          "value": "Not established; Reuters explicitly could not immediately verify the FT report"
+        },
+        {
+          "label": "Public equity price response",
+          "value": "No new US regular-session trading on Sunday"
+        }
+      ],
+      "key_finding": "AI developers may be assuming direct power-equipment procurement to bypass multi-year grid and generator lead times; reported deal remains single-source.",
+      "sources": [
+        {
+          "title": "Financial Times — Anthropic strikes $3.4bn deal for gas-fired power (Nov 8)",
+          "url": "https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0"
+        },
+        {
+          "title": "Reuters via Channel NewsAsia — report not independently verified (Nov 8)",
+          "url": "https://www.channelnewsasia.com/business/anthropic-secures-34-billion-generator-deal-ai-data-centers-ft-reports-6534256"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261108-0914-hormuz-tanker-projectile",
+      "observed_at": "2026-11-08T09:14:44-05:00",
+      "title": "Separate outbound tanker reportedly struck by unknown projectile in Strait of Hormuz",
+      "summary": "UKMTO Warning 200-26, reported November 8, describes a tanker struck by an unknown projectile while sailing outbound through the Strait of Hormuz on November 7. The company security officer reported that the crew were safe and no environmental impact was known. This is distinct from the Khasab tanker fire and Gulf of Oman bulker strike already in the feed; the attacker and incremental oil-flow impact remain unverified.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Energy",
+        "Maritime transportation",
+        "Strait of Hormuz"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Source notice",
+          "value": "UKMTO Warning 200-26, published November 8; time-late report"
+        },
+        {
+          "label": "Incident clock",
+          "value": "November 7, 2026 at 20:20 UTC (3:20 PM ET)"
+        },
+        {
+          "label": "Vessel and voyage",
+          "value": "Unnamed tanker, outbound through Strait of Hormuz"
+        },
+        {
+          "label": "Reported damage mechanism",
+          "value": "Impact by unknown projectile; attribution unverified"
+        },
+        {
+          "label": "Crew and environment",
+          "value": "Crew safe and accounted for; no reported environmental impact at time of warning"
+        },
+        {
+          "label": "Verified additional oil throughput lost",
+          "value": "Not established"
+        }
+      ],
+      "key_finding": "A further distinct tanker strike sustains severe Hormuz transit risk even though physical oil-flow losses and perpetrator remain unverified.",
+      "sources": [
+        {
+          "title": "Seatrade Maritime — second Nov 7 tanker strike described in UKMTO warning (Nov 8)",
+          "url": "https://www.seatrade-maritime.com/security/crew-abandon-tanker-in-hormuz-us-strikes-bulker-in-gulf-of-oman"
+        },
+        {
+          "title": "Clearwater Dynamics — UKMTO tanker attack alert, incident Nov 7",
+          "url": "https://www.cwdynamics.com/alerts/alert/33590"
+        },
+        {
+          "title": "Regulas Shipping — description of UKMTO Warning 200-26 (Nov 8)",
+          "url": "https://regulasshipping.com/blog/ukmto-200-26-records-a-tanker-projectile-hit-on-an-outbound-hormuz-transit/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261108-0812-us-blockade-bulker",
       "observed_at": "2026-11-08T08:12:00-05:00",
@@ -96,113 +210,6 @@
         {
           "title": "UKMTO — Recent incidents and advisories",
           "url": "https://www.ukmto.org/recent-incidents"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261107-1007-berkshire-q3-buybacks",
-      "observed_at": "2026-11-07T10:07:42-05:00",
-      "title": "Berkshire increases quarterly repurchases to $9.6 billion despite lower operating profit",
-      "summary": "Berkshire Hathaway reported a nearly six-percent year-over-year decline in quarterly operating earnings, driven partly by weaker insurance underwriting, while spending $9.6 billion on share repurchases. Its railroad and utility businesses delivered stronger results. The large capital-return commitment is a defensive-sector watch-list signal, but Monday's price response is not yet observable.",
-      "tickers": [
-        "BRK.A",
-        "BRK.B"
-      ],
-      "sectors": [
-        "Financials",
-        "Insurance",
-        "Utilities",
-        "Industrials"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Q3 2026 operating earnings, company release 8:00 AM ET November 7",
-          "value": "$12.705 billion, approximately -5.8% year over year"
-        },
-        {
-          "label": "Q3 share repurchases",
-          "value": "$9.6 billion; first nine months total approximately $14.4 billion"
-        },
-        {
-          "label": "Q3 attributable net earnings",
-          "value": "$22.112 billion, versus $30.796 billion in Q3 2025"
-        },
-        {
-          "label": "BRK.B November 6 closing price (pre-announcement)",
-          "value": "$570.89, -0.25%; no Saturday regular-session price reaction"
-        },
-        {
-          "label": "Berkshire Hathaway Energy earnings",
-          "value": "Utility profits reported approximately +8% year over year"
-        }
-      ],
-      "key_finding": "A large, documented buyback commitment contrasts with softer insurance earnings and improving utility/rail performance.",
-      "sources": [
-        {
-          "title": "Berkshire Hathaway — November 7, 2026 third-quarter earnings release",
-          "url": "https://www.berkshirehathaway.com/news/nov0726.pdf"
-        },
-        {
-          "title": "Associated Press — Berkshire Q3 earnings and $9.6 billion repurchases, November 7",
-          "url": "https://apnews.com/article/berkshire-hathaway-earnings-815275690be3053d772802d97415ff26"
-        },
-        {
-          "title": "Barron's — Berkshire operating earnings, repurchases, and utility results, November 7",
-          "url": "https://www.barrons.com/articles/berkshire-hathaway-earnings-stock-price-46969b67"
-        },
-        {
-          "title": "StockAnalysis — BRK.B November 6 closing price",
-          "url": "https://stockanalysis.com/stocks/brk.b/history/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261107-0936-qeshm-airstrike",
-      "observed_at": "2026-11-07T09:36:23-05:00",
-      "title": "New US strikes on Qeshm Island raise Hormuz escalation risk",
-      "summary": "President Trump said US forces struck an Iranian air-defense installation on Qeshm Island on November 6; Iranian state media separately reported explosions nearby. The announcement raises the risk of retaliation around a major shipping chokepoint. No additional tanker damage, lost petroleum throughput or post-event market reaction has been independently verified.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Energy",
-        "Maritime transportation",
-        "Geopolitics"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Event timing",
-          "value": "Friday evening, November 6, 2026 (ET)"
-        },
-        {
-          "label": "Reported target",
-          "value": "Air-defense installation near Qeshm Island, per President Trump; damage not independently established"
-        },
-        {
-          "label": "Physical petroleum-flow impact",
-          "value": "No additional disruption verified"
-        },
-        {
-          "label": "Market reaction",
-          "value": "No post-event regular-session quote; Saturday market closure"
-        }
-      ],
-      "key_finding": "New reported military activity near Hormuz creates escalation risk without verified oil-flow disruption.",
-      "sources": [
-        {
-          "title": "Associated Press — US targeted strikes and Iran negotiations, November 7",
-          "url": "https://apnews.com/article/iran-war-nuclear-program-negotiations-trump-53ed5d271b9aef6f880aebc133ea6a55"
-        },
-        {
-          "title": "The Guardian — President confirms limited Iran strikes, November 6",
-          "url": "https://www.theguardian.com/world/2026/nov/07/us-carries-out-another-round-of-minor-strikes-on-iran-trump-says"
         }
       ],
       "status": "new",
