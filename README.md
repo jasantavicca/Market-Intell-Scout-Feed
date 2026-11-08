@@ -8,7 +8,7 @@ minutes after that. No site rebuild is needed when new scout items land.
 ## What lives here
 
 - `scout-latest.json` — the current feed. Latest scout items only
-  (max 5). Rewritten after each hourly scout run.
+  (max 5). A successful completed research run updates check metadata, even when findings are unchanged.
 - Nothing else belongs here. No private content, no internal notes, no
   subscriber or financial data. Scout items only, each with its sources.
 
@@ -52,11 +52,7 @@ Rules:
   dated source link.
 - No raw markdown, no tables in the feed. Long analysis stays in the
   scout's archive record, never here.
-- "No meaningful change" hours write nothing new: the feed keeps its
-  previous `generated_at`.
+- Successful research always updates `last_checked_at` (ISO 8601 with America/Detroit offset) and `last_check_status` (`new_findings` or `no_new_findings`). No-change runs preserve `items`, `generated_at`, and `as_of_et` exactly. These fields record research completion, not browser fetches, connection probes, starts, failures, or the time of a later metadata repair. Verify the GitHub write by readback; failed delivery must fail the heartbeat.
+- `generated_at` and `as_of_et` describe the latest published findings; `last_checked_at` describes the last successfully completed research pass. Missing check metadata means unknown, never infer it from findings or a probe.
 
-## Current content
-
-The items in `scout-latest.json` right now are EXAMPLE data (from the
-November 4 scout, labeled EXAMPLE) for the staging prototype. They will
-be replaced by the live hourly feed once the writer is running.
+## Check metadata migration\n\nThe initial `last_checked_at` of `2026-11-08T13:33-05:00` comes from the documented November 8 1:33 PM ET completed Scout pass with no new findings. It does not claim that research was rerun when this metadata was added. Existing findings and publication timestamps are preserved.\n

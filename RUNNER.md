@@ -1,6 +1,6 @@
 # Tactical Scout scheduled runner
 
-The public `scout-feed-v1` contract and website URL are unchanged. Only meaningful findings change `scout-latest.json`. Successful no-change research writes `.scout/heartbeat.json` separately.
+The public `scout-feed-v1` contract and website URL are unchanged. Only meaningful findings change the findings and their publication timestamps. Every successful research pass writes `last_checked_at` and `last_check_status` in `scout-latest.json`, alongside `.scout/heartbeat.json` in the same commit. No-change research preserves `items`, `generated_at`, and `as_of_et`. Probes and failures never advance the feed check time.
 
 ## Activation
 
@@ -23,7 +23,7 @@ GitHub scheduled starts are best effort and may be delayed or dropped. Repeated 
 ## Recovery and verification
 
 - Missing key, incomplete output, empty text, missing web searches, incomplete sector coverage, malformed JSON, unreachable sources, or a concurrent feed edit fail closed and preserve the feed.
-- Publishing atomically commits heartbeat and any new feed together, then reads main and compares every changed object. Non-fast-forward updates are rejected. Only `scout-latest.json` and `.scout/heartbeat.json` are allowed write targets.
+- Publishing atomically commits heartbeat and the feed check metadata (plus any new findings) together, then reads main and compares every changed object. Non-fast-forward updates are rejected. Only `scout-latest.json` and `.scout/heartbeat.json` are allowed write targets.
 - Probe success is marked separately and never represented as completed research.
 - Tests: `python3 -m unittest discover -s tests -v`. Tests use fixtures and never publish simulated findings.
 - Rollback: set `SCOUT_RUNNER_ENABLED=false`, wait for any active runner to finish, then re-enable the old task. Preserve the last good public feed. Do not run both publishers.

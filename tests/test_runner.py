@@ -38,6 +38,25 @@ class RunnerTests(unittest.TestCase):
         self.assertIsNone(r.compose(current, result([]), CLOCK))
         self.assertEqual(current, FEED)
 
+    def test_success_check_preserves_findings_and_old_publication_time(self):
+        current = dict(FEED, items=[ITEM])
+        original = copy.deepcopy(current)
+        checked = r.checked_feed(current, None, CLOCK)
+        self.assertEqual(current, original)
+        self.assertEqual(checked['items'], original['items'])
+        self.assertEqual(checked['generated_at'], original['generated_at'])
+        self.assertEqual(checked['as_of_et'], original['as_of_et'])
+        self.assertEqual(checked['last_checked_at'], CLOCK.isoformat(timespec='seconds'))
+        self.assertEqual(checked['last_check_status'], 'no_new_findings')
+
+    def test_new_findings_have_separate_completion_time(self):
+        updated = r.compose(FEED, result([ITEM]), CLOCK, False)
+        completed = CLOCK + dt.timedelta(minutes=4)
+        checked = r.checked_feed(FEED, updated, completed)
+        self.assertEqual(checked['generated_at'], CLOCK.isoformat(timespec='seconds'))
+        self.assertEqual(checked['last_checked_at'], completed.isoformat(timespec='seconds'))
+        self.assertEqual(checked['last_check_status'], 'new_findings')
+
     def test_empty_or_partial_research_is_failure(self):
         for bad in ({}, {'items': []}, {'coverage': {}, 'items': []}):
             with self.assertRaises(ValueError):

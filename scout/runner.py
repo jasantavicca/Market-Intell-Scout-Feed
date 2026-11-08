@@ -89,7 +89,7 @@ class GitHub:
              'content': json.dumps(value, indent=2, ensure_ascii=False) + '\n'}
             for path, value in files.items()]})
         commit = self.call('/git/commits', {'message': 'Scout: verified run heartbeat' +
-                          (' and material findings' if FEED in files else ''),
+                          (' and feed check timestamp' if FEED in files else ''),
                           'tree': tree['sha'], 'parents': [expected]})
         try:
             self.call('/git/refs/heads/main', {'sha': commit['sha'], 'force': False}, 'PATCH')
@@ -208,6 +208,14 @@ def compose(current, result, clock, check_sources=True):
             'items': (fresh + current['items'])[:5]}
 
 
+def checked_feed(current, updated, completed_at):
+    """Record successful research separately from the age of published findings."""
+    feed = copy.deepcopy(updated if updated is not None else current)
+    feed['last_checked_at'] = completed_at.isoformat(timespec='seconds')
+    feed['last_check_status'] = 'new_findings' if updated is not None else 'no_new_findings'
+    return feed
+
+
 def research(current, clock):
     key = os.environ.get('OPENAI_API_KEY')
     if not key:
@@ -308,11 +316,10 @@ def main():
         head = gh.head()
         if gh.read(FEED, head) != current:
             raise RuntimeError('Concurrent feed change; retry with fresh research context')
-        state.update({'completed_slot': slot.isoformat(), 'last_success_at': now().isoformat(),
+        completed_at = now()
+        state.update({'completed_slot': slot.isoformat(), 'last_success_at': completed_at.isoformat(),
                       'outcome': 'published' if updated else 'no_meaningful_change', **evidence})
-        files = {STATE: state}
-        if updated:
-            files[FEED] = updated
+        files = {STATE: state, FEED: checked_feed(current, updated, completed_at)}
         sha = gh.publish(head, files)
         print('Verified run:', state['outcome'], 'commit:', sha)
         # Ping only after successful research AND GitHub readback, including no-change runs.
