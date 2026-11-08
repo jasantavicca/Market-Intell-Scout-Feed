@@ -1,0 +1,51 @@
+name: Tactical Scout
+on:
+  push:
+    paths: ['scout/**', 'tests/**', '.github/workflows/scout.yml']
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'probe verifies GitHub write/readback; research runs a due slot'
+        type: choice
+        options: [probe, research]
+        default: probe
+  schedule:
+    # UTC envelope covers EST and EDT; Python applies America/Detroit slots.
+    # Repeated wakeups recover delayed/dropped triggers without repeating research.
+    - cron: '2,7,12,17,22,27,30,37,42,47,52,57 13-22 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: tactical-scout-production
+  cancel-in-progress: false
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m unittest discover -s tests -v
+  scout:
+    needs: validate
+    if: github.event_name != 'push' && (github.event.inputs.mode == 'probe' || vars.SCOUT_RUNNER_ENABLED == 'true')
+    runs-on: ubuntu-latest
+    timeout-minutes: 24
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Research, publish and verify
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.SCOUT_MODEL || 'gpt-6-astra' }}
+          HEALTHCHECK_URL: ${{ secrets.SCOUT_HEALTHCHECK_URL }}
+          SCOUT_MODE: ${{ github.event.inputs.mode || 'research' }}
+        run: python3 scout/runner.py
+      - name: Escalate failed or timed-out run
+        if: failure()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          SCOUT_MODE: alert
+        run: python3 scout/runner.py

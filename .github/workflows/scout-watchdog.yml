@@ -1,0 +1,22 @@
+name: Scout watchdog
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4,14,24,34,44,54 13-22 * * *'
+permissions:
+  contents: read
+  issues: write
+concurrency:
+  group: tactical-scout-watchdog
+  cancel-in-progress: false
+jobs:
+  heartbeat:
+    if: vars.SCOUT_RUNNER_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - env:
+          GITHUB_TOKEN: ${{ github.token }}
+          SCOUT_MODE: watchdog
+        run: python3 scout/runner.py
