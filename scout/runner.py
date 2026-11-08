@@ -229,6 +229,8 @@ def research(current, clock):
             'include': ['web_search_call.action.sources'],
             'reasoning': {'effort': 'high'}, 'max_output_tokens': 14000,
             'input': prompt}
+    if os.environ.get('SCOUT_TEST') == '1':
+        body['max_tool_calls'] = 20
     response = request('https://api.openai.com/v1/responses', key, body, timeout=90)
     deadline = time.monotonic() + 1000
     while response.get('status') in ('queued', 'in_progress'):
@@ -237,6 +239,13 @@ def research(current, clock):
             raise RuntimeError('Research timed out; feed preserved')
         time.sleep(10)
         response = request('https://api.openai.com/v1/responses/' + response['id'], key)
+    usage = {'response_id': response.get('id'), 'model': response.get('model'),
+             'status': response.get('status'), 'usage': response.get('usage', {}),
+             'search_calls': sum(x.get('type') == 'web_search_call' for x in response.get('output', []))}
+    print('API usage: ' + json.dumps(usage), flush=True)
+    if os.environ.get('GITHUB_STEP_SUMMARY'):
+        with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as summary:
+            summary.write('### Scout API usage\\n\\n```json\\n' + json.dumps(usage, indent=2) + '\\n```\\n')
     if response.get('status') != 'completed':
         raise RuntimeError('Research did not complete; feed preserved')
     calls = [x for x in response.get('output', []) if x.get('type') == 'web_search_call' and x.get('status') == 'completed']

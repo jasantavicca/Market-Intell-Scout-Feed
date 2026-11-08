@@ -4,9 +4,10 @@ import json
 from pathlib import Path
 import sys
 import unittest
-from unittest.mock import patch
+from unittest.mock import patch, MagicMock
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scout'))
 import runner as r
+import test_run
 
 CLOCK = dt.datetime(2026, 11, 8, 10, 30, tzinfo=r.ET)
 ITEM = {'id': 'scout-20261108-1030-example', 'observed_at': CLOCK.isoformat(),
@@ -32,6 +33,19 @@ class RunnerTests(unittest.TestCase):
         self.assertIsNone(r.slot_at(CLOCK.replace(hour=9, minute=29)))
         self.assertEqual(r.slot_at(CLOCK.replace(hour=17, minute=29)).hour, 16)
         self.assertIsNone(r.slot_at(CLOCK.replace(hour=17, minute=30)))
+
+    def test_manual_trial_does_not_publish_and_researches_once(self):
+        gh = MagicMock()
+        gh.head.return_value = 'head'
+        gh.read.return_value = FEED
+        with patch.object(r, 'GitHub', return_value=gh), \
+             patch.object(r, 'research', return_value=(result([]), {})) as research, \
+             patch.object(test_run.Path, 'write_text'), patch.dict(r.os.environ):
+            test_run.main()
+        research.assert_called_once()
+        gh.publish.assert_not_called()
+        gh.call.assert_not_called()
+        self.assertEqual(gh.read.call_count, 2)
 
     def test_no_change_preserves_timestamp_and_input(self):
         current = copy.deepcopy(FEED)

@@ -1,0 +1,29 @@
+name: Scout — one manual cost test
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: tactical-scout-manual-cost-test
+  cancel-in-progress: false
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 24
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate runner
+        run: python3 -m unittest discover -s tests -v
+      - name: One research request — no publication
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.SCOUT_MODEL || 'gpt-6-astra' }}
+          SCOUT_TEST: '1'
+        run: python3 scout/test_run.py
+      - uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: scout-manual-test-results
+          path: scout-test-result.json
+          retention-days: 7
