@@ -83,7 +83,8 @@ class GitHub:
     def publish(self, expected, files):
         if set(files) - {FEED, STATE}:
             raise RuntimeError('Write path outside Scout allowlist')
-        tree = self.call('/git/trees', {'base_tree': expected, 'tree': [
+        base_tree = self.call('/git/commits/' + expected)['tree']['sha']
+        tree = self.call('/git/trees', {'base_tree': base_tree, 'tree': [
             {'path': path, 'mode': '100644', 'type': 'blob',
              'content': json.dumps(value, indent=2, ensure_ascii=False) + '\n'}
             for path, value in files.items()]})
@@ -188,7 +189,7 @@ def compose(current, result, clock, check_sources=True):
         if item['id'] in {x['id'] for x in fresh}:
             raise ValueError('Duplicate new ID')
         stamp = dt.datetime.fromisoformat(item['observed_at'])
-        if abs((stamp - clock).total_seconds()) > 1800:
+        if stamp.utcoffset() is None or abs((stamp - clock).total_seconds()) > 1800:
             raise ValueError('Observation timestamp outside this run')
         if check_sources:
             verified = False

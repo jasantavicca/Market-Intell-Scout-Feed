@@ -80,16 +80,19 @@ class RunnerTests(unittest.TestCase):
         calls = []
         def call(path, payload=None, method=None):
             calls.append((path, payload, method))
+            if path.startswith('/git/commits/'):
+                return {'tree': {'sha': 'base-tree'}}
             return {'sha': 'commit' if path == '/git/commits' else 'tree'}
         gh.call = call
         gh.read = lambda path: FEED if path == r.FEED else {'outcome': 'published'}
         self.assertEqual(gh.publish('old', {r.FEED: FEED, r.STATE: {'outcome': 'published'}}), 'commit')
         self.assertEqual(calls[-1][1], {'sha': 'commit', 'force': False})
-        self.assertEqual(len(calls[0][1]['tree']), 2)
+        self.assertEqual(calls[1][1]['base_tree'], 'base-tree')
+        self.assertEqual(len(calls[1][1]['tree']), 2)
 
     def test_readback_failure_never_reports_success(self):
         gh = object.__new__(r.GitHub)
-        gh.call = lambda *a, **kw: {'sha': 'new'}
+        gh.call = lambda *a, **kw: {'sha': 'new', 'tree': {'sha': 'base'}}
         gh.read = lambda path: {}
         with self.assertRaises(RuntimeError):
             gh.publish('old', {r.FEED: FEED})
