@@ -1,8 +1,178 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-09T08:38:02-05:00",
-  "as_of_et": "November 9, 2026 at 8:38 AM EST",
+  "generated_at": "2026-11-09T10:39:39-05:00",
+  "as_of_et": "November 9, 2026 at 10:39 AM EST",
   "items": [
+    {
+      "id": "scout-20261109-1039-nvda-amd-divergence",
+      "observed_at": "2026-11-09T10:39:39-05:00",
+      "title": "Nvidia declines roughly 7.5% while AMD rallies 5.6% in AI-chip divergence",
+      "summary": "Nvidia fell approximately 7.5% to $172.75 at 9:34 AM EST after its board opened an inquiry into allegations involving its CEO. AMD rose about 5.6% to $473.73 in early trading following an Oppenheimer upgrade. The sector split is a material repricing signal, though no change in Nvidia's underlying chip demand or output has been established.",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "SOXX"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Research observation",
+          "value": "November 9, 2026 at 10:39 AM EST"
+        },
+        {
+          "label": "Nvidia cash-session observation",
+          "value": "Nov 9 at 9:34 AM EST, approximately $172.75 / -7.5% versus Friday close $186.64; intraday"
+        },
+        {
+          "label": "AMD cash-session observation",
+          "value": "Nov 9 early session, approximately $473.73 / +5.6%; intraday, time of quote not independently specified"
+        },
+        {
+          "label": "AMD analyst catalyst",
+          "value": "Oppenheimer upgrade to Outperform and $600 target, an analyst forecast, not confirmed operating growth"
+        },
+        {
+          "label": "Nvidia operating impact",
+          "value": "No established disruption to production, customers or guidance"
+        }
+      ],
+      "key_finding": "Severe NVDA-specific selling contrasts with rising AMD, demonstrating company-specific AI-chip repricing rather than uniform sector weakness.",
+      "sources": [
+        {
+          "title": "The Guardian live — 9:34 AM EST Nvidia price and market cap",
+          "url": "https://www.theguardian.com/business/live/2026/nov/09/nvidia-jensen-huang-scandal-investigation-ai-industry-tech-stocks-recovery-slump-latest-news-updates"
+        },
+        {
+          "title": "Barron's — AMD early-session rise and Oppenheimer upgrade",
+          "url": "https://www.barrons.com/articles/amd-stock-upgrade-nvidia-jensen-huang-probe-3fabd3f8"
+        },
+        {
+          "title": "Associated Press — Nvidia investigation and opening decline",
+          "url": "https://apnews.com/article/63531dec0fe5c145afaac94dde31d478"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261109-0735-nvda-board-inquiry"
+    },
+    {
+      "id": "scout-20261109-1039-oil-deescalation-accelerates",
+      "observed_at": "2026-11-09T10:39:39-05:00",
+      "title": "Brent loss widens to about 3.9% while Hormuz security warnings remain active",
+      "summary": "Brent dropped to approximately $94.48 per barrel, down 3.91% at 10:15 AM EST, extending the earlier 1.7% slide as traders reacted to conditional U.S.–Iran de-escalation remarks. Reuters earlier recorded WTI at $88.17, down 2.9%, at 7:19 AM EST. Maritime security risk remains elevated; no fresh physical oil-flow loss or verified normal transit restoration was established.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Energy",
+        "Maritime shipping",
+        "Middle East geopolitics"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Research observation",
+          "value": "November 9, 2026 at 10:39 AM EST"
+        },
+        {
+          "label": "Brent price observation",
+          "value": "November 9, 10:15 AM EST: $94.48/barrel, -3.91% (intraday; UOL report)"
+        },
+        {
+          "label": "WTI earlier observation",
+          "value": "November 9, 7:19 AM EST: $88.17/barrel, -2.9% (Reuters, noncontemporaneous quote)"
+        },
+        {
+          "label": "Physical crude indicators",
+          "value": "Reuters/WSJ cited easing physical-market tightness and still-elevated Middle East flows; no independently quantified new throughput restoration"
+        },
+        {
+          "label": "Maritime risk",
+          "value": "MARAD advisory 2026-011 remains active; recent UKMTO incidents unresolved; no new incident confirmed in this check"
+        }
+      ],
+      "key_finding": "Crude's accelerated price decline is market confirmation of de-escalation expectations, not evidence that shipping and physical oil supplies have normalized.",
+      "sources": [
+        {
+          "title": "UOL Economia — 10:15 AM Brent quote, November 9",
+          "url": "https://economia.uol.com.br/cotacoes/noticias/redacao/2026/11/09/petroleo-9-de-novembro-de-2026.ghtm"
+        },
+        {
+          "title": "Reuters / Euronext — Oil slides and physical-market commentary",
+          "url": "https://live.euronext.com/en/financial-news/oil-slides-trump-signals-restraint-iran-despite-fresh-shipping-attacks"
+        },
+        {
+          "title": "MARAD — Active advisory 2026-011, maritime threat",
+          "url": "https://www.maritime.dot.gov/msci/2026-011-persian-gulf-strait-hormuz-and-gulf-oman-iranian-attacks-commercial-vessels"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261109-0735-oil-diplomacy-divergence"
+    },
+    {
+      "id": "scout-20261109-1039-google-tpu-systems",
+      "observed_at": "2026-11-09T10:39:39-05:00",
+      "title": "Google introduces TPU 8tx and TPU 8i Max AI infrastructure systems",
+      "summary": "Google announced two specialized configurations in its eighth-generation TPU portfolio: 8tx for confidential inference and 8i Max for large-context and memory-intensive agent workloads. These are system designs using existing TPU silicon, not wholly new chip architectures. Google cites nearly 100 TPU customers, but availability dates, incremental orders and market share gains were not established.",
+      "tickers": [
+        "GOOGL",
+        "GOOG",
+        "AMD",
+        "NVDA"
+      ],
+      "sectors": [
+        "AI infrastructure",
+        "Semiconductors",
+        "Cloud computing",
+        "Networking",
+        "Hardware security"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Announcement and observation",
+          "value": "Google published November 9, 2026; reviewed November 9, 2026 at 10:39 AM EST"
+        },
+        {
+          "label": "TPU 8tx capability",
+          "value": "Confidential computing/inference using existing TPU 8t silicon and AMD CPU hosts, per Google"
+        },
+        {
+          "label": "TPU 8i Max capability",
+          "value": "Paired TPU 8i chips within the existing rack footprint; Google claims approximately double compute, SRAM and HBM bandwidth vs TPU 8i"
+        },
+        {
+          "label": "Commercial verification",
+          "value": "Availability date, volume orders and incremental revenue not established"
+        },
+        {
+          "label": "Share-price confirmation",
+          "value": "No independently attributable price movement verified"
+        }
+      ],
+      "key_finding": "Google broadens AI accelerator specialization around security and memory bottlenecks; actual customer adoption and economics remain to be verified.",
+      "sources": [
+        {
+          "title": "Google official announcement — New TPU systems",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/"
+        },
+        {
+          "title": "Google Cloud technical blog — TPU 8tx and TPU 8i Max",
+          "url": "https://cloud.google.com/blog/topics/ai-infrastructure/tpu-8tx-and-tpu-8i-max"
+        },
+        {
+          "title": "UOL Technology — independent announcement coverage",
+          "url": "https://www.uol.com.br/tilt/colunas/helton-simoes-gomes/2026/11/09/google-ignora-repudio-a-data-centers-e-lanca-dois-chips-para-o-futuro-da-ia.ghtm"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261109-0838-ceg-nuclear-google-doe",
       "observed_at": "2026-11-09T08:38:02-05:00",
@@ -58,64 +228,6 @@
       "supersedes": null
     },
     {
-      "id": "scout-20261109-0838-nrg-4b-gas-sale",
-      "observed_at": "2026-11-09T08:38:02-05:00",
-      "title": "NRG announces $4 billion sale of 4.9 GW gas generation",
-      "summary": "NRG agreed to sell six gas-fired generation assets totaling 4.9 GW to LS Power for $4 billion, subject to regulatory approvals and a targeted Q2 2027 closing. It reported Q3 adjusted EPS of $4.68 and said its separate 1.2 GW data-center power project remains on track. The sale reallocates capital rather than shutting down generation.",
-      "tickers": [
-        "NRG"
-      ],
-      "sectors": [
-        "Utilities",
-        "Gas generation",
-        "Data-center power"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Research observation",
-          "value": "November 9, 2026 at 8:38 AM EST; premarket"
-        },
-        {
-          "label": "Sale value",
-          "value": "$4 billion"
-        },
-        {
-          "label": "Capacity",
-          "value": "4.9 GW, six plants"
-        },
-        {
-          "label": "Q3 adjusted EPS",
-          "value": "$4.68"
-        },
-        {
-          "label": "Premarket price response",
-          "value": "Approximately +6.4%, media report; not official close"
-        },
-        {
-          "label": "Expected closing",
-          "value": "Q2 2027, conditional"
-        }
-      ],
-      "key_finding": "Material power-asset monetization with an intact data-center project; regulatory closing remains the principal uncertainty.",
-      "sources": [
-        {
-          "title": "NRG asset-sale SEC exhibit",
-          "url": "https://www.sec.gov/Archives/edgar/data/1013871/000110465926124147/tm2629302d1_ex99-1.htm"
-        },
-        {
-          "title": "NRG earnings SEC exhibit",
-          "url": "https://www.sec.gov/Archives/edgar/data/1013871/000101387126000022/nrgq32026ex991.htm"
-        },
-        {
-          "title": "Wall Street Journal earnings and price reaction",
-          "url": "https://www.wsj.com/business/earnings/nrg-energy-signs-4-billion-asset-sale-agreement-posts-higher-quarterly-earnings-457b3efe"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
       "id": "scout-20261109-0838-imvt-ra-primary-endpoint",
       "observed_at": "2026-11-09T08:38:02-05:00",
       "title": "Immunovant meets 600 mg rheumatoid arthritis trial primary endpoint",
@@ -165,110 +277,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261109-0838-ions-tryngolza-guide-cut",
-      "observed_at": "2026-11-09T08:38:02-05:00",
-      "title": "Ionis cuts Tryngolza annual sales guidance",
-      "summary": "Ionis reduced 2026 Tryngolza sales guidance from $100–110 million to approximately $50 million as commercialization ramps more slowly than expected. Company-wide revenue guidance remains $875–900 million. The product-specific miss is material despite offsets elsewhere, and the next prescription and sales data will test whether it is temporary.",
-      "tickers": [
-        "IONS"
-      ],
-      "sectors": [
-        "Biotechnology",
-        "Healthcare",
-        "Specialty pharmaceuticals"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Research observation",
-          "value": "November 9, 2026 at 8:38 AM EST; premarket"
-        },
-        {
-          "label": "Tryngolza 2026 outlook",
-          "value": "Approximately $50 million; previously $100–110 million"
-        },
-        {
-          "label": "Company revenue guidance",
-          "value": "$875–900 million, unchanged"
-        },
-        {
-          "label": "Premarket price response",
-          "value": "Approximately -9.8% in early report; not official close"
-        }
-      ],
-      "key_finding": "Tryngolza launch underperformance is a material fundamental negative, partially offset by unchanged group guidance.",
-      "sources": [
-        {
-          "title": "Ionis Q3 SEC release",
-          "url": "https://www.sec.gov/Archives/edgar/data/874015/000114036126042598/ef20085128_ex99-1.htm"
-        },
-        {
-          "title": "Ionis premarket report",
-          "url": "https://www.investing.com/news/stock-market-news/why-is-ionis-pharmaceuticals-stock-tumbling-today-93CH-5011647"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261109-0735-oil-diplomacy-divergence",
-      "observed_at": "2026-11-09T07:35:33-05:00",
-      "title": "Brent and WTI decline on Iran de-escalation talk despite serious Hormuz security warnings",
-      "summary": "Reuters reported Brent down 1.7% to $96.67 and WTI down 1.0% to $89.87 at 08:30 GMT as U.S. comments lowered expectations of renewed Iran strikes. UKMTO's November 8 notices document tanker security incidents, but no new physical oil-volume loss was established. Last week's approximately 16% Brent decline underscores the market's de-escalation pricing despite unresolved maritime risk.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Energy",
-        "Maritime transportation",
-        "Middle East geopolitics"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Price observation time",
-          "value": "November 9, 2026 at 08:30 GMT / 3:30 AM EST; intraday futures quote"
-        },
-        {
-          "label": "Brent",
-          "value": "$96.67 per barrel, -$1.65 (-1.7%)"
-        },
-        {
-          "label": "WTI",
-          "value": "$89.87 per barrel, -$0.96 (-1.0%)"
-        },
-        {
-          "label": "Brent preceding-week change",
-          "value": "Approximately -16% per Reuters"
-        },
-        {
-          "label": "Physical oil supply loss",
-          "value": "No new incremental loss verified from the reviewed shipping incidents"
-        }
-      ],
-      "key_finding": "Oil prices are responding to diplomatic signals while confirmed shipping-security risks persist; physical transit normalization is not yet demonstrated.",
-      "sources": [
-        {
-          "title": "Reuters via Euronext — Oil falls as Trump signals restraint, Nov 9",
-          "url": "https://live.euronext.com/en/financial-news/oil-falls-trump-signals-restraint-iran-despite-fresh-shipping-attacks"
-        },
-        {
-          "title": "UKMTO — Maritime recent incidents",
-          "url": "https://www.ukmto.org/recent-incidents"
-        },
-        {
-          "title": "Reuters via Euronext — Early oil-price update, Nov 9",
-          "url": "https://live.euronext.com/en/financial-news/oil-falls-trump-signals-restraint-iran-amid-fresh-hormuz-shipping-attacks"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-09T08:38:02-05:00",
+  "last_checked_at": "2026-11-09T10:39:39-05:00",
   "last_check_status": "new_findings"
 }
