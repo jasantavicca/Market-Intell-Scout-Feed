@@ -1,53 +1,212 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-09T07:35:33-05:00",
-  "as_of_et": "November 9, 2026 at 7:35 AM EST",
+  "generated_at": "2026-11-09T08:38:02-05:00",
+  "as_of_et": "November 9, 2026 at 8:38 AM EST",
   "items": [
     {
-      "id": "scout-20261109-0735-nvda-board-inquiry",
-      "observed_at": "2026-11-09T07:35:33-05:00",
-      "title": "Nvidia board launches independent inquiry; shares under premarket pressure",
-      "summary": "Nvidia confirmed an independent board inquiry into reports CEO Jensen Huang was targeted by a foreign intelligence effort. The board said it has no reason to believe secrets or national security were compromised. Early premarket accounts indicate NVDA down roughly 4–6%, adding governance uncertainty to an already weak semiconductor tape; no operating impairment has been established.",
+      "id": "scout-20261109-0838-ceg-nuclear-google-doe",
+      "observed_at": "2026-11-09T08:38:02-05:00",
+      "title": "Constellation reports Q3 results and new nuclear power agreements",
+      "summary": "Constellation reported Q3 adjusted operating EPS of $5.06 and narrowed 2026 guidance to $12.50–$12.80. It disclosed a Google nuclear collaboration, a 20-year 270 MW agreement and a conditional DOE commitment up to $5 billion. These strengthen long-duration power demand visibility, while financing and execution remain conditional.",
       "tickers": [
-        "NVDA",
-        "SOXX"
+        "CEG"
       ],
       "sectors": [
-        "Semiconductors",
+        "Utilities",
+        "Nuclear power",
         "AI infrastructure"
       ],
       "evidence_grade": "corroborated",
       "observations": [
         {
-          "label": "Observation",
-          "value": "November 9, 2026, approximately 7:35 AM EST; premarket, not official close"
+          "label": "Research observation",
+          "value": "November 9, 2026 at 8:38 AM EST; premarket"
         },
         {
-          "label": "NVDA early premarket indication",
-          "value": "Approximately -4% to -6% in early market reports; timing and liquidity differ"
+          "label": "Q3 adjusted operating EPS",
+          "value": "$5.06"
         },
         {
-          "label": "Company announcement",
-          "value": "Independent inquiry announced November 8; no evidence of compromised corporate secrets identified by board"
+          "label": "2026 guidance",
+          "value": "$12.50–$12.80"
         },
         {
-          "label": "Fundamental impact",
-          "value": "No confirmed change to chip production, demand, guidance or financial results"
+          "label": "Power agreement",
+          "value": "270 MW for 20 years"
+        },
+        {
+          "label": "DOE commitment",
+          "value": "Up to $5 billion, conditional"
+        },
+        {
+          "label": "Share-price response",
+          "value": "Not independently established at observation"
         }
       ],
-      "key_finding": "Board-confirmed governance investigation produces significant premarket repricing, but operational damage remains unverified.",
+      "key_finding": "Power contracting and conditional financing support the nuclear growth pipeline; delivery remains subject to execution.",
       "sources": [
         {
-          "title": "Nvidia Investor Relations — Board statement, Nov 8",
-          "url": "https://investor.nvidia.com/news/press-release-details/2026/Statement-from-NVIDIA-Board-of-Directors/default.aspx"
+          "title": "Constellation Q3 SEC release",
+          "url": "https://www.sec.gov/Archives/edgar/data/1168165/000186827526000116/ceg-20261109991.htm"
         },
         {
-          "title": "Reuters — Nvidia shares fall in out-of-hours trading, Nov 9",
-          "url": "https://www.investing.com/news/economy-news/nvidias-outofhour-shares-fall-as-firm-probes-ceo-jensen-huang-5010476"
+          "title": "Constellation investor presentation",
+          "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000116/ceg-20261109992.htm"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261109-0838-nrg-4b-gas-sale",
+      "observed_at": "2026-11-09T08:38:02-05:00",
+      "title": "NRG announces $4 billion sale of 4.9 GW gas generation",
+      "summary": "NRG agreed to sell six gas-fired generation assets totaling 4.9 GW to LS Power for $4 billion, subject to regulatory approvals and a targeted Q2 2027 closing. It reported Q3 adjusted EPS of $4.68 and said its separate 1.2 GW data-center power project remains on track. The sale reallocates capital rather than shutting down generation.",
+      "tickers": [
+        "NRG"
+      ],
+      "sectors": [
+        "Utilities",
+        "Gas generation",
+        "Data-center power"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Research observation",
+          "value": "November 9, 2026 at 8:38 AM EST; premarket"
         },
         {
-          "title": "AP — Nvidia investigation and company response, Nov 9",
-          "url": "https://apnews.com/article/68839e7ca6ba2b121529f7e475e501d6"
+          "label": "Sale value",
+          "value": "$4 billion"
+        },
+        {
+          "label": "Capacity",
+          "value": "4.9 GW, six plants"
+        },
+        {
+          "label": "Q3 adjusted EPS",
+          "value": "$4.68"
+        },
+        {
+          "label": "Premarket price response",
+          "value": "Approximately +6.4%, media report; not official close"
+        },
+        {
+          "label": "Expected closing",
+          "value": "Q2 2027, conditional"
+        }
+      ],
+      "key_finding": "Material power-asset monetization with an intact data-center project; regulatory closing remains the principal uncertainty.",
+      "sources": [
+        {
+          "title": "NRG asset-sale SEC exhibit",
+          "url": "https://www.sec.gov/Archives/edgar/data/1013871/000110465926124147/tm2629302d1_ex99-1.htm"
+        },
+        {
+          "title": "NRG earnings SEC exhibit",
+          "url": "https://www.sec.gov/Archives/edgar/data/1013871/000101387126000022/nrgq32026ex991.htm"
+        },
+        {
+          "title": "Wall Street Journal earnings and price reaction",
+          "url": "https://www.wsj.com/business/earnings/nrg-energy-signs-4-billion-asset-sale-agreement-posts-higher-quarterly-earnings-457b3efe"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261109-0838-imvt-ra-primary-endpoint",
+      "observed_at": "2026-11-09T08:38:02-05:00",
+      "title": "Immunovant meets 600 mg rheumatoid arthritis trial primary endpoint",
+      "summary": "IMVT-1402 at 600 mg met its Week 28 primary endpoint with 92.5% ACR20 response versus 75.6% placebo (p=0.0139) after an open-label lead-in. The 300 mg arm did not significantly outperform placebo. The result supports development, but the enriched withdrawal design and pending FDA discussions limit certainty.",
+      "tickers": [
+        "IMVT",
+        "ROIV"
+      ],
+      "sectors": [
+        "Biotechnology",
+        "Healthcare",
+        "Autoimmune therapies"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Research observation",
+          "value": "November 9, 2026 at 8:38 AM EST; premarket"
+        },
+        {
+          "label": "Week 28 ACR20",
+          "value": "92.5% versus 75.6%; p=0.0139"
+        },
+        {
+          "label": "Randomized analysis",
+          "value": "117 patients after open-label lead-in"
+        },
+        {
+          "label": "300 mg result",
+          "value": "75.0%; p=0.9426"
+        },
+        {
+          "label": "Premarket response",
+          "value": "Approximately +14%, early report; not official close"
+        }
+      ],
+      "key_finding": "Positive higher-dose clinical signal with important study-design and dose-response caveats.",
+      "sources": [
+        {
+          "title": "Immunovant clinical announcement",
+          "url": "https://www.immunovant.com/investors/news-events/press-releases/detail/88/immunovant-provides-corporate-updates-and-reports-financial"
+        },
+        {
+          "title": "Roivant investor release",
+          "url": "https://investor.roivant.com/news-releases/news-release-details/roivant-reports-financial-results-second-quarter-ended-2/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261109-0838-ions-tryngolza-guide-cut",
+      "observed_at": "2026-11-09T08:38:02-05:00",
+      "title": "Ionis cuts Tryngolza annual sales guidance",
+      "summary": "Ionis reduced 2026 Tryngolza sales guidance from $100–110 million to approximately $50 million as commercialization ramps more slowly than expected. Company-wide revenue guidance remains $875–900 million. The product-specific miss is material despite offsets elsewhere, and the next prescription and sales data will test whether it is temporary.",
+      "tickers": [
+        "IONS"
+      ],
+      "sectors": [
+        "Biotechnology",
+        "Healthcare",
+        "Specialty pharmaceuticals"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Research observation",
+          "value": "November 9, 2026 at 8:38 AM EST; premarket"
+        },
+        {
+          "label": "Tryngolza 2026 outlook",
+          "value": "Approximately $50 million; previously $100–110 million"
+        },
+        {
+          "label": "Company revenue guidance",
+          "value": "$875–900 million, unchanged"
+        },
+        {
+          "label": "Premarket price response",
+          "value": "Approximately -9.8% in early report; not official close"
+        }
+      ],
+      "key_finding": "Tryngolza launch underperformance is a material fundamental negative, partially offset by unchanged group guidance.",
+      "sources": [
+        {
+          "title": "Ionis Q3 SEC release",
+          "url": "https://www.sec.gov/Archives/edgar/data/874015/000114036126042598/ef20085128_ex99-1.htm"
+        },
+        {
+          "title": "Ionis premarket report",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-ionis-pharmaceuticals-stock-tumbling-today-93CH-5011647"
         }
       ],
       "status": "new",
@@ -108,179 +267,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261108-1008-aramco-riyadh-missiles",
-      "observed_at": "2026-11-08T10:08:28-05:00",
-      "title": "Houthi missile attack damages Aramco administration building in Riyadh",
-      "summary": "Saudi Arabia says it intercepted ballistic and cruise missiles early Sunday, but falling debris damaged an Aramco office building in Riyadh; the Houthis claimed the attack. Saudi officials reported no casualties, and no refinery, pipeline or crude-production outage has been established. This widens regional infrastructure risk alongside Hormuz shipping attacks, but does not yet demonstrate an additional physical oil-supply loss.",
-      "tickers": [
-        "2222.SR",
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Energy",
-        "Oil and gas infrastructure",
-        "Saudi Arabia",
-        "Middle East geopolitical risk"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Incident and scout observation",
-          "value": "Early Sunday November 8, 2026; observed 10:08 AM EST"
-        },
-        {
-          "label": "Saudi-led coalition reported interceptions",
-          "value": "2 ballistic missiles and 2 cruise missiles targeting Riyadh and other regions; attribution to Houthis"
-        },
-        {
-          "label": "Confirmed damage",
-          "value": "Aramco administrative building in Riyadh financial district; Saudi Energy Ministry described falling debris damage; no reported casualties"
-        },
-        {
-          "label": "Production/refining/pipeline throughput impact",
-          "value": "No disruption verified; administrative facility, not confirmed production installation"
-        },
-        {
-          "label": "Market move at observation time",
-          "value": "No corroborated post-incident oil or equity-price response established; US regular-session markets closed Sunday"
-        }
-      ],
-      "key_finding": "Direct damage to an Aramco office highlights Houthi escalation risk, but there is no evidence yet of additional oil-production disruption.",
-      "sources": [
-        {
-          "title": "Associated Press — Aramco building damaged in Riyadh after missile interceptions, Nov 8",
-          "url": "https://apnews.com/article/090d96e25872f5c63e105b9dd3e5dc60"
-        },
-        {
-          "title": "Reuters via MarketScreener — Saudi-led coalition intercepts two Houthi missiles fired towards Riyadh, Nov 8",
-          "url": "https://www.marketscreener.com/news/saudi-led-coalition-intercepts-two-houthi-missiles-fired-towards-riyadh-ce785fd2d08af02c"
-        },
-        {
-          "title": "Financial Times — Saudi Aramco office in Riyadh damaged in latest Houthi strikes, Nov 8",
-          "url": "https://www.ft.com/content/eeadc13e-b915-4591-ab85-54db81030996"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261108-0914-anthropic-gas-generators",
-      "observed_at": "2026-11-08T09:14:44-05:00",
-      "title": "Anthropic reportedly secures $3.4 billion of gas-fired generation commitments for AI data centers",
-      "summary": "The Financial Times reports Anthropic took over commitments for 1.7 GW of Caterpillar gas-fired generators originally ordered by OnePWR, in a deal agreed in late September and disclosed November 8. Reuters independently reported the FT account but said it could not verify it. This is a significant power-supply bottleneck signal, not evidence of a new Caterpillar equipment order.",
-      "tickers": [
-        "CAT"
-      ],
-      "sectors": [
-        "AI infrastructure",
-        "Data-center power",
-        "Industrial equipment",
-        "Natural gas"
-      ],
-      "evidence_grade": "single-source",
-      "observations": [
-        {
-          "label": "New report date",
-          "value": "Sunday, November 8, 2026; transaction reportedly agreed in late September"
-        },
-        {
-          "label": "Reported deal size",
-          "value": "Approximately $3.4 billion"
-        },
-        {
-          "label": "Reported generator capacity",
-          "value": "1.7 GW of gas-fired generation commitments"
-        },
-        {
-          "label": "Equipment manufacturer and order provenance",
-          "value": "Existing Caterpillar generator orders placed by OnePWR around 2024; not demonstrated to be incremental CAT orders"
-        },
-        {
-          "label": "Independent transaction confirmation",
-          "value": "Not established; Reuters explicitly could not immediately verify the FT report"
-        },
-        {
-          "label": "Public equity price response",
-          "value": "No new US regular-session trading on Sunday"
-        }
-      ],
-      "key_finding": "AI developers may be assuming direct power-equipment procurement to bypass multi-year grid and generator lead times; reported deal remains single-source.",
-      "sources": [
-        {
-          "title": "Financial Times — Anthropic strikes $3.4bn deal for gas-fired power (Nov 8)",
-          "url": "https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0"
-        },
-        {
-          "title": "Reuters via Channel NewsAsia — report not independently verified (Nov 8)",
-          "url": "https://www.channelnewsasia.com/business/anthropic-secures-34-billion-generator-deal-ai-data-centers-ft-reports-6534256"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261108-0914-hormuz-tanker-projectile",
-      "observed_at": "2026-11-08T09:14:44-05:00",
-      "title": "Separate outbound tanker reportedly struck by unknown projectile in Strait of Hormuz",
-      "summary": "UKMTO Warning 200-26, reported November 8, describes a tanker struck by an unknown projectile while sailing outbound through the Strait of Hormuz on November 7. The company security officer reported that the crew were safe and no environmental impact was known. This is distinct from the Khasab tanker fire and Gulf of Oman bulker strike already in the feed; the attacker and incremental oil-flow impact remain unverified.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Energy",
-        "Maritime transportation",
-        "Strait of Hormuz"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Source notice",
-          "value": "UKMTO Warning 200-26, published November 8; time-late report"
-        },
-        {
-          "label": "Incident clock",
-          "value": "November 7, 2026 at 20:20 UTC (3:20 PM ET)"
-        },
-        {
-          "label": "Vessel and voyage",
-          "value": "Unnamed tanker, outbound through Strait of Hormuz"
-        },
-        {
-          "label": "Reported damage mechanism",
-          "value": "Impact by unknown projectile; attribution unverified"
-        },
-        {
-          "label": "Crew and environment",
-          "value": "Crew safe and accounted for; no reported environmental impact at time of warning"
-        },
-        {
-          "label": "Verified additional oil throughput lost",
-          "value": "Not established"
-        }
-      ],
-      "key_finding": "A further distinct tanker strike sustains severe Hormuz transit risk even though physical oil-flow losses and perpetrator remain unverified.",
-      "sources": [
-        {
-          "title": "Seatrade Maritime — second Nov 7 tanker strike described in UKMTO warning (Nov 8)",
-          "url": "https://www.seatrade-maritime.com/security/crew-abandon-tanker-in-hormuz-us-strikes-bulker-in-gulf-of-oman"
-        },
-        {
-          "title": "Clearwater Dynamics — UKMTO tanker attack alert, incident Nov 7",
-          "url": "https://www.cwdynamics.com/alerts/alert/33590"
-        },
-        {
-          "title": "Regulas Shipping — description of UKMTO Warning 200-26 (Nov 8)",
-          "url": "https://regulasshipping.com/blog/ukmto-200-26-records-a-tanker-projectile-hit-on-an-outbound-hormuz-transit/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-09T07:35:33-05:00",
+  "last_checked_at": "2026-11-09T08:38:02-05:00",
   "last_check_status": "new_findings"
 }
