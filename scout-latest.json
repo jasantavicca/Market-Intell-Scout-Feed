@@ -1,8 +1,170 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-09T10:39:39-05:00",
-  "as_of_et": "November 9, 2026 at 10:39 AM EST",
+  "generated_at": "2026-11-09T11:36:47-05:00",
+  "as_of_et": "November 9, 2026 at 11:36 AM EST",
   "items": [
+    {
+      "id": "scout-20261109-1136-ions-selloff-deepens",
+      "observed_at": "2026-11-09T11:36:47-05:00",
+      "title": "Ionis drops nearly 28% as Tryngolza forecast halving hits commercialization outlook",
+      "summary": "Ionis fell 27.83% to $28.45 at 10:35 AM EST, versus roughly 10% lower in earlier premarket reports. The company reduced Tryngolza 2026 product revenue guidance to about $50 million from $100–110 million, while reaffirming consolidated revenue guidance. The product shortfall is material; durability of prescriptions and reimbursement remain uncertain.",
+      "tickers": [
+        "IONS"
+      ],
+      "sectors": [
+        "Biotechnology",
+        "Healthcare",
+        "Specialty pharmaceuticals"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Share move, timed intraday",
+          "value": "$28.45, -27.83%, Nov 9 2026 at 10:35 AM EST; not a closing price"
+        },
+        {
+          "label": "Follow-up quote",
+          "value": "$28.71, -27.17%, Nov 9 at 11:22 AM EST; not a closing price"
+        },
+        {
+          "label": "Tryngolza FY2026 sales guidance",
+          "value": "Approximately $50 million versus prior $100–110 million"
+        },
+        {
+          "label": "Total FY2026 revenue guidance",
+          "value": "$875–900 million, reaffirmed"
+        },
+        {
+          "label": "Next test",
+          "value": "Prescriptions, payer access, launch pace, European approval process"
+        }
+      ],
+      "key_finding": "Substantially deeper verified intraday reaction exposes a meaningful commercial adoption risk, not proof of terminal pipeline failure.",
+      "sources": [
+        {
+          "title": "Ionis official financial results in SEC exhibit",
+          "url": "https://www.sec.gov/Archives/edgar/data/874015/000114036126042598/ef20085128_ex99-1.htm"
+        },
+        {
+          "title": "Stock Analysis timed intraday quote",
+          "url": "https://stockanalysis.com/stocks/ions/"
+        },
+        {
+          "title": "Barron's coverage of 29% selloff",
+          "url": "https://www.barrons.com/articles/ionis-earnings-stock-price-dea3238e"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261109-0838-ions-tryngolza-guide-cut"
+    },
+    {
+      "id": "scout-20261109-1136-amd-epyc-google-tpu",
+      "observed_at": "2026-11-09T11:36:47-05:00",
+      "title": "AMD fifth-generation EPYC confirmed as Google TPU 8tx host CPU; chip rebound broadens",
+      "summary": "AMD and Google confirmed fifth-generation EPYC CPUs host Google Cloud's confidential-computing TPU 8tx system. AMD rose around 9–10% during observed morning trading, aided also by an Oppenheimer upgrade. This validates AMD's AI-host role alongside Google's custom accelerators, but adds no disclosed incremental order value or guaranteed sales.",
+      "tickers": [
+        "AMD",
+        "GOOGL",
+        "SOXX"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "Cloud computing"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "AMD timed intraday move",
+          "value": "Approximately +9.89% at 10:20 AM EST; other reports approximately +9% to +10% later in the morning; not a close"
+        },
+        {
+          "label": "System",
+          "value": "Google Cloud TPU 8tx with AMD fifth-generation EPYC host processors"
+        },
+        {
+          "label": "Commercial impact",
+          "value": "No incremental volume, order value or guidance disclosed"
+        },
+        {
+          "label": "Next test",
+          "value": "TPU system deployment volume; EPYC data-center shipments; competitive pricing"
+        }
+      ],
+      "key_finding": "Google's TPU expansion includes a confirmed AMD CPU content win, not a demonstration of new AMD accelerator revenue.",
+      "sources": [
+        {
+          "title": "AMD official investor release Nov 9",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1304/amd-epyc-expands-its-leadership-at-the-foundation-of-ai"
+        },
+        {
+          "title": "Google Cloud TPU technical announcement Nov 9",
+          "url": "https://cloud.google.com/blog/topics/ai-infrastructure/tpu-8tx-and-tpu-8i-max"
+        },
+        {
+          "title": "Quantisnow timestamped Nov 9 market observation",
+          "url": "https://www.quantisnow.com/articles/chip-rebound-mostly-bounce-amd-jumped-before-oppenheimer-upgrade-broadcom-no-news"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261109-1039-google-tpu-systems"
+    },
+    {
+      "id": "scout-20261109-1136-iraq-hormuz-lane",
+      "observed_at": "2026-11-09T11:36:47-05:00",
+      "title": "Iraq says U.S. understanding enables oil exports via Oman-side Hormuz lane",
+      "summary": "Iraqi Foreign Minister Fuad Hussein said Baghdad reached understandings with Washington allowing crude shipments through a lane near Oman. Iraqi officials separately reported October exports near 3.5 million barrels/day versus 2.65 million in September. The diplomatic statement is a leading signal, not independently verified fresh traffic through the proposed lane; active MARAD advisories still describe high shipping threats.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil logistics",
+        "Strait of Hormuz",
+        "Geopolitics"
+      ],
+      "evidence_grade": "single-source",
+      "observations": [
+        {
+          "label": "Statement originally reported",
+          "value": "Nov 8 2026 by Reuters citing Iraqi foreign minister"
+        },
+        {
+          "label": "October vs September exports",
+          "value": "About 3.5 million barrels/day versus 2.65 million, per Iraqi energy officials; not proof of traffic newly enabled by arrangement"
+        },
+        {
+          "label": "New route physical flow",
+          "value": "No incremental tanker passages/volumes independently established"
+        },
+        {
+          "label": "U.S. government confirmation",
+          "value": "Not located in reviewed sources"
+        },
+        {
+          "label": "Current maritime risk",
+          "value": "MARAD 2026-011 remains active, warns of attacks on commercial vessels"
+        }
+      ],
+      "key_finding": "Reported Iraq-U.S. shipping understanding is an early potential de-escalation mechanism; physical Hormuz throughput normalization remains unverified.",
+      "sources": [
+        {
+          "title": "Reuters via Al-Monitor, Nov 8",
+          "url": "https://www.al-monitor.com/originals/2026/11/iraq-has-reached-understandings-us-allow-oil-exports-through-hormuz-minister-says"
+        },
+        {
+          "title": "Reuters via Investing.com, Nov 8",
+          "url": "https://www.investing.com/news/economic-indicators/iraq-has-reached-understandings-with-us-to-allow-oil-exports-through-hormuz-minister-says-5010300"
+        },
+        {
+          "title": "MARAD active advisory 2026-011",
+          "url": "https://www.maritime.dot.gov/msci/2026-011-persian-gulf-strait-hormuz-and-gulf-oman-iranian-attacks-commercial-vessels"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261109-1039-oil-deescalation-accelerates"
+    },
     {
       "id": "scout-20261109-1039-nvda-amd-divergence",
       "observed_at": "2026-11-09T10:39:39-05:00",
@@ -59,121 +221,6 @@
       "supersedes": "scout-20261109-0735-nvda-board-inquiry"
     },
     {
-      "id": "scout-20261109-1039-oil-deescalation-accelerates",
-      "observed_at": "2026-11-09T10:39:39-05:00",
-      "title": "Brent loss widens to about 3.9% while Hormuz security warnings remain active",
-      "summary": "Brent dropped to approximately $94.48 per barrel, down 3.91% at 10:15 AM EST, extending the earlier 1.7% slide as traders reacted to conditional U.S.–Iran de-escalation remarks. Reuters earlier recorded WTI at $88.17, down 2.9%, at 7:19 AM EST. Maritime security risk remains elevated; no fresh physical oil-flow loss or verified normal transit restoration was established.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Energy",
-        "Maritime shipping",
-        "Middle East geopolitics"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Research observation",
-          "value": "November 9, 2026 at 10:39 AM EST"
-        },
-        {
-          "label": "Brent price observation",
-          "value": "November 9, 10:15 AM EST: $94.48/barrel, -3.91% (intraday; UOL report)"
-        },
-        {
-          "label": "WTI earlier observation",
-          "value": "November 9, 7:19 AM EST: $88.17/barrel, -2.9% (Reuters, noncontemporaneous quote)"
-        },
-        {
-          "label": "Physical crude indicators",
-          "value": "Reuters/WSJ cited easing physical-market tightness and still-elevated Middle East flows; no independently quantified new throughput restoration"
-        },
-        {
-          "label": "Maritime risk",
-          "value": "MARAD advisory 2026-011 remains active; recent UKMTO incidents unresolved; no new incident confirmed in this check"
-        }
-      ],
-      "key_finding": "Crude's accelerated price decline is market confirmation of de-escalation expectations, not evidence that shipping and physical oil supplies have normalized.",
-      "sources": [
-        {
-          "title": "UOL Economia — 10:15 AM Brent quote, November 9",
-          "url": "https://economia.uol.com.br/cotacoes/noticias/redacao/2026/11/09/petroleo-9-de-novembro-de-2026.ghtm"
-        },
-        {
-          "title": "Reuters / Euronext — Oil slides and physical-market commentary",
-          "url": "https://live.euronext.com/en/financial-news/oil-slides-trump-signals-restraint-iran-despite-fresh-shipping-attacks"
-        },
-        {
-          "title": "MARAD — Active advisory 2026-011, maritime threat",
-          "url": "https://www.maritime.dot.gov/msci/2026-011-persian-gulf-strait-hormuz-and-gulf-oman-iranian-attacks-commercial-vessels"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261109-0735-oil-diplomacy-divergence"
-    },
-    {
-      "id": "scout-20261109-1039-google-tpu-systems",
-      "observed_at": "2026-11-09T10:39:39-05:00",
-      "title": "Google introduces TPU 8tx and TPU 8i Max AI infrastructure systems",
-      "summary": "Google announced two specialized configurations in its eighth-generation TPU portfolio: 8tx for confidential inference and 8i Max for large-context and memory-intensive agent workloads. These are system designs using existing TPU silicon, not wholly new chip architectures. Google cites nearly 100 TPU customers, but availability dates, incremental orders and market share gains were not established.",
-      "tickers": [
-        "GOOGL",
-        "GOOG",
-        "AMD",
-        "NVDA"
-      ],
-      "sectors": [
-        "AI infrastructure",
-        "Semiconductors",
-        "Cloud computing",
-        "Networking",
-        "Hardware security"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Announcement and observation",
-          "value": "Google published November 9, 2026; reviewed November 9, 2026 at 10:39 AM EST"
-        },
-        {
-          "label": "TPU 8tx capability",
-          "value": "Confidential computing/inference using existing TPU 8t silicon and AMD CPU hosts, per Google"
-        },
-        {
-          "label": "TPU 8i Max capability",
-          "value": "Paired TPU 8i chips within the existing rack footprint; Google claims approximately double compute, SRAM and HBM bandwidth vs TPU 8i"
-        },
-        {
-          "label": "Commercial verification",
-          "value": "Availability date, volume orders and incremental revenue not established"
-        },
-        {
-          "label": "Share-price confirmation",
-          "value": "No independently attributable price movement verified"
-        }
-      ],
-      "key_finding": "Google broadens AI accelerator specialization around security and memory bottlenecks; actual customer adoption and economics remain to be verified.",
-      "sources": [
-        {
-          "title": "Google official announcement — New TPU systems",
-          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/"
-        },
-        {
-          "title": "Google Cloud technical blog — TPU 8tx and TPU 8i Max",
-          "url": "https://cloud.google.com/blog/topics/ai-infrastructure/tpu-8tx-and-tpu-8i-max"
-        },
-        {
-          "title": "UOL Technology — independent announcement coverage",
-          "url": "https://www.uol.com.br/tilt/colunas/helton-simoes-gomes/2026/11/09/google-ignora-repudio-a-data-centers-e-lanca-dois-chips-para-o-futuro-da-ia.ghtm"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
       "id": "scout-20261109-0838-ceg-nuclear-google-doe",
       "observed_at": "2026-11-09T08:38:02-05:00",
       "title": "Constellation reports Q3 results and new nuclear power agreements",
@@ -226,59 +273,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261109-0838-imvt-ra-primary-endpoint",
-      "observed_at": "2026-11-09T08:38:02-05:00",
-      "title": "Immunovant meets 600 mg rheumatoid arthritis trial primary endpoint",
-      "summary": "IMVT-1402 at 600 mg met its Week 28 primary endpoint with 92.5% ACR20 response versus 75.6% placebo (p=0.0139) after an open-label lead-in. The 300 mg arm did not significantly outperform placebo. The result supports development, but the enriched withdrawal design and pending FDA discussions limit certainty.",
-      "tickers": [
-        "IMVT",
-        "ROIV"
-      ],
-      "sectors": [
-        "Biotechnology",
-        "Healthcare",
-        "Autoimmune therapies"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Research observation",
-          "value": "November 9, 2026 at 8:38 AM EST; premarket"
-        },
-        {
-          "label": "Week 28 ACR20",
-          "value": "92.5% versus 75.6%; p=0.0139"
-        },
-        {
-          "label": "Randomized analysis",
-          "value": "117 patients after open-label lead-in"
-        },
-        {
-          "label": "300 mg result",
-          "value": "75.0%; p=0.9426"
-        },
-        {
-          "label": "Premarket response",
-          "value": "Approximately +14%, early report; not official close"
-        }
-      ],
-      "key_finding": "Positive higher-dose clinical signal with important study-design and dose-response caveats.",
-      "sources": [
-        {
-          "title": "Immunovant clinical announcement",
-          "url": "https://www.immunovant.com/investors/news-events/press-releases/detail/88/immunovant-provides-corporate-updates-and-reports-financial"
-        },
-        {
-          "title": "Roivant investor release",
-          "url": "https://investor.roivant.com/news-releases/news-release-details/roivant-reports-financial-results-second-quarter-ended-2/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-09T10:39:39-05:00",
+  "last_checked_at": "2026-11-09T11:36:47-05:00",
   "last_check_status": "new_findings"
 }
