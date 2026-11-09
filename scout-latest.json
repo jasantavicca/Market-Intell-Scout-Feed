@@ -1,8 +1,114 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-08T10:08:28-05:00",
-  "as_of_et": "November 8, 2026 at 10:08 AM EST",
+  "generated_at": "2026-11-09T07:35:33-05:00",
+  "as_of_et": "November 9, 2026 at 7:35 AM EST",
   "items": [
+    {
+      "id": "scout-20261109-0735-nvda-board-inquiry",
+      "observed_at": "2026-11-09T07:35:33-05:00",
+      "title": "Nvidia board launches independent inquiry; shares under premarket pressure",
+      "summary": "Nvidia confirmed an independent board inquiry into reports CEO Jensen Huang was targeted by a foreign intelligence effort. The board said it has no reason to believe secrets or national security were compromised. Early premarket accounts indicate NVDA down roughly 4–6%, adding governance uncertainty to an already weak semiconductor tape; no operating impairment has been established.",
+      "tickers": [
+        "NVDA",
+        "SOXX"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Observation",
+          "value": "November 9, 2026, approximately 7:35 AM EST; premarket, not official close"
+        },
+        {
+          "label": "NVDA early premarket indication",
+          "value": "Approximately -4% to -6% in early market reports; timing and liquidity differ"
+        },
+        {
+          "label": "Company announcement",
+          "value": "Independent inquiry announced November 8; no evidence of compromised corporate secrets identified by board"
+        },
+        {
+          "label": "Fundamental impact",
+          "value": "No confirmed change to chip production, demand, guidance or financial results"
+        }
+      ],
+      "key_finding": "Board-confirmed governance investigation produces significant premarket repricing, but operational damage remains unverified.",
+      "sources": [
+        {
+          "title": "Nvidia Investor Relations — Board statement, Nov 8",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/Statement-from-NVIDIA-Board-of-Directors/default.aspx"
+        },
+        {
+          "title": "Reuters — Nvidia shares fall in out-of-hours trading, Nov 9",
+          "url": "https://www.investing.com/news/economy-news/nvidias-outofhour-shares-fall-as-firm-probes-ceo-jensen-huang-5010476"
+        },
+        {
+          "title": "AP — Nvidia investigation and company response, Nov 9",
+          "url": "https://apnews.com/article/68839e7ca6ba2b121529f7e475e501d6"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261109-0735-oil-diplomacy-divergence",
+      "observed_at": "2026-11-09T07:35:33-05:00",
+      "title": "Brent and WTI decline on Iran de-escalation talk despite serious Hormuz security warnings",
+      "summary": "Reuters reported Brent down 1.7% to $96.67 and WTI down 1.0% to $89.87 at 08:30 GMT as U.S. comments lowered expectations of renewed Iran strikes. UKMTO's November 8 notices document tanker security incidents, but no new physical oil-volume loss was established. Last week's approximately 16% Brent decline underscores the market's de-escalation pricing despite unresolved maritime risk.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Energy",
+        "Maritime transportation",
+        "Middle East geopolitics"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Price observation time",
+          "value": "November 9, 2026 at 08:30 GMT / 3:30 AM EST; intraday futures quote"
+        },
+        {
+          "label": "Brent",
+          "value": "$96.67 per barrel, -$1.65 (-1.7%)"
+        },
+        {
+          "label": "WTI",
+          "value": "$89.87 per barrel, -$0.96 (-1.0%)"
+        },
+        {
+          "label": "Brent preceding-week change",
+          "value": "Approximately -16% per Reuters"
+        },
+        {
+          "label": "Physical oil supply loss",
+          "value": "No new incremental loss verified from the reviewed shipping incidents"
+        }
+      ],
+      "key_finding": "Oil prices are responding to diplomatic signals while confirmed shipping-security risks persist; physical transit normalization is not yet demonstrated.",
+      "sources": [
+        {
+          "title": "Reuters via Euronext — Oil falls as Trump signals restraint, Nov 9",
+          "url": "https://live.euronext.com/en/financial-news/oil-falls-trump-signals-restraint-iran-despite-fresh-shipping-attacks"
+        },
+        {
+          "title": "UKMTO — Maritime recent incidents",
+          "url": "https://www.ukmto.org/recent-incidents"
+        },
+        {
+          "title": "Reuters via Euronext — Early oil-price update, Nov 9",
+          "url": "https://live.euronext.com/en/financial-news/oil-falls-trump-signals-restraint-iran-amid-fresh-hormuz-shipping-attacks"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261108-1008-aramco-riyadh-missiles",
       "observed_at": "2026-11-08T10:08:28-05:00",
@@ -173,106 +279,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261108-0812-us-blockade-bulker",
-      "observed_at": "2026-11-08T08:12:00-05:00",
-      "title": "US military disables commercial bulk carrier attempting to cross Iran blockade",
-      "summary": "US Central Command says it disabled the St Kitts and Nevis-flagged bulk carrier Huda in the Gulf of Oman on November 7 after repeated warnings during an attempted departure following a visit to an Iranian port. This is a material escalation in direct enforcement of the US maritime blockade. The event does not establish an additional oil-supply outage; monitor retaliatory action, ship routing and insurance costs.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Maritime transportation",
-        "Energy",
-        "Geopolitics"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Event date",
-          "value": "November 7, 2026"
-        },
-        {
-          "label": "Vessel and location",
-          "value": "Bulk carrier Huda; Gulf of Oman; St Kitts and Nevis flag, per maritime reporting"
-        },
-        {
-          "label": "US military action",
-          "value": "CENTCOM says precision munitions disabled vessel after ignored warnings"
-        },
-        {
-          "label": "Confirmed additional oil-flow loss",
-          "value": "Not established; vessel described as bulk carrier"
-        }
-      ],
-      "key_finding": "Direct US military enforcement against a commercial vessel heightens shipping-risk uncertainty without confirmed incremental oil disruption.",
-      "sources": [
-        {
-          "title": "Associated Press — US military disables commercial vessel in Gulf of Oman, November 8",
-          "url": "https://apnews.com/article/bc902d3400cb5d022f8bafd247ef975b"
-        },
-        {
-          "title": "Seatrade Maritime — Crew abandon tanker in Hormuz, US strikes bulker in Gulf of Oman, November 8",
-          "url": "https://www.seatrade-maritime.com/security/crew-abandon-tanker-in-hormuz-us-strikes-bulker-in-gulf-of-oman"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261108-0812-khasab-tanker-fire",
-      "observed_at": "2026-11-08T08:12:00-05:00",
-      "title": "Tanker fire near Khasab prompts crew evacuation amid persistent Hormuz shipping risk",
-      "summary": "UKMTO Warning 199-26 reports a tanker on fire approximately eight nautical miles northwest of Khasab, Oman, on November 7; military authorities reported that the crew evacuated. The warning was issued on November 8 as a delayed report. The cause, vessel identity, casualties, pollution and any additional oil-throughput loss are not confirmed; avoid attributing the fire to a particular belligerent without evidence.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Energy",
-        "Maritime transportation",
-        "Strait of Hormuz"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Incident timing",
-          "value": "November 7, 2026, approximately 19:20 UTC, per UKMTO warning reports"
-        },
-        {
-          "label": "Location",
-          "value": "Approximately 8 nautical miles northwest of Khasab, Oman"
-        },
-        {
-          "label": "Reported vessel condition",
-          "value": "Tanker on fire; crew evacuated"
-        },
-        {
-          "label": "Cause and physical petroleum-flow impact",
-          "value": "Unconfirmed; no independently established incremental throughput loss"
-        }
-      ],
-      "key_finding": "A new tanker evacuation demonstrates ongoing acute vessel risk near Hormuz, but does not establish a new oil-volume shock.",
-      "sources": [
-        {
-          "title": "Seatrade Maritime — UKMTO tanker fire and crew evacuation, November 8",
-          "url": "https://www.seatrade-maritime.com/security/crew-abandon-tanker-in-hormuz-us-strikes-bulker-in-gulf-of-oman"
-        },
-        {
-          "title": "Crewboard — UKMTO Warning 199-26 details, November 8",
-          "url": "https://crew-board.net/news/strait-hormuz-tanker-fire-khasab-ukmto-199-26"
-        },
-        {
-          "title": "UKMTO — Recent incidents and advisories",
-          "url": "https://www.ukmto.org/recent-incidents"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-08T16:32:01-05:00",
-  "last_check_status": "no_new_findings"
+  "last_checked_at": "2026-11-09T07:35:33-05:00",
+  "last_check_status": "new_findings"
 }
