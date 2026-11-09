@@ -1,8 +1,133 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-09T13:34:17-05:00",
-  "as_of_et": "November 9, 2026 at 1:34 PM EST",
+  "generated_at": "2026-11-09T14:30:41-05:00",
+  "as_of_et": "November 9, 2026 at 2:30 PM EST",
   "items": [
+    {
+      "id": "scout-20261109-1430-qxo-preliminary-results",
+      "observed_at": "2026-11-09T14:30:41-05:00",
+      "title": "QXO rallies about 21% on preliminary acquisition-driven Q3 growth",
+      "summary": "QXO reported preliminary third-quarter net sales of about $4.90 billion, up 79%, and adjusted EBITDA of about $557 million, up 85%. The increases include newly acquired businesses absent from last year's comparison, and QXO still expects a GAAP loss of about $123 million. The strong intraday response is meaningful but final results, integration and cash flow remain critical.",
+      "tickers": [
+        "QXO"
+      ],
+      "sectors": [
+        "Industrials",
+        "Building products distribution",
+        "Acquisition-led consolidation"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Research completion",
+          "value": "November 9, 2026 at 2:30 PM EST"
+        },
+        {
+          "label": "Intraday QXO share quote",
+          "value": "$13.94, +20.59% at 2:12 PM EST; not a confirmed closing price"
+        },
+        {
+          "label": "Preliminary Q3 net sales",
+          "value": "Approximately $4.90 billion, +79% year over year"
+        },
+        {
+          "label": "Preliminary Q3 adjusted EBITDA",
+          "value": "Approximately $557 million, +85% year over year"
+        },
+        {
+          "label": "Preliminary GAAP result",
+          "value": "Approximately $123 million net loss"
+        },
+        {
+          "label": "Growth comparability",
+          "value": "Kodiak Building Partners and TopBuild acquired in 2026 were not in the prior-year comparison"
+        },
+        {
+          "label": "Next catalyst",
+          "value": "Final Q3 results scheduled November 12, 2026"
+        }
+      ],
+      "key_finding": "A large share-price rally accompanies higher acquisition-led preliminary sales and EBITDA, but the company remains GAAP loss-making and organic growth is not established.",
+      "sources": [
+        {
+          "title": "QXO SEC-filed preliminary Q3 results, Nov 9",
+          "url": "https://www.sec.gov/Archives/edgar/data/1236275/000162828026071846/qxoq3-26preliminaryresults.htm"
+        },
+        {
+          "title": "Stock Analysis timestamped QXO quote, Nov 9",
+          "url": "https://stockanalysis.com/stocks/qxo/forecast/"
+        },
+        {
+          "title": "Reuters QXO earnings preview and market reaction, Nov 9",
+          "url": "https://www.boursorama.com/bourse/actualites/qxo-en-hausse-apres-la-publication-de-ses-resultats-preliminaires-du-troisieme-trimestre-bc9317c32edc7507d40e6395bb4b70b8"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261109-1430-cnh-kobelco-results",
+      "observed_at": "2026-11-09T14:30:41-05:00",
+      "title": "CNH jumps nearly 13% after earnings improvement and Kobelco joint-venture deal",
+      "summary": "CNH reported Q3 adjusted net income of $205 million versus $109 million a year earlier and increased full-year adjusted EPS guidance to $0.44–$0.48. It agreed to sell a 70% interest in its construction-equipment operations to Kobelco for approximately $700 million, subject to adjustments and approvals. Tariff refunds aided results, and the transaction is not expected to close until 2027.",
+      "tickers": [
+        "CNH"
+      ],
+      "sectors": [
+        "Industrials",
+        "Agricultural equipment",
+        "Precision agriculture",
+        "International equities"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Research completion",
+          "value": "November 9, 2026 at 2:30 PM EST"
+        },
+        {
+          "label": "Intraday CNH share quote",
+          "value": "$13.05, +12.85% at 2:08 PM EST; not a confirmed closing price"
+        },
+        {
+          "label": "Q3 adjusted earnings",
+          "value": "$0.16 per share; adjusted net income $205 million vs $109 million in Q3 2025"
+        },
+        {
+          "label": "FY2026 adjusted EPS guidance",
+          "value": "$0.44–$0.48, raised from $0.41–$0.46"
+        },
+        {
+          "label": "Proposed construction JV",
+          "value": "Kobelco to own 70%; CNH retains 30%; CNH expected cash consideration approximately $700 million"
+        },
+        {
+          "label": "Transaction timing",
+          "value": "Expected close by end of 2027, subject to approvals"
+        },
+        {
+          "label": "Earnings quality",
+          "value": "Included $109 million of pre-tax IEEPA tariff refunds in Q3; reported GAAP net income only $35 million"
+        }
+      ],
+      "key_finding": "CNH's profit improvement, higher guidance and strategic portfolio change have clear intraday market confirmation; tariffs and agricultural cycle complicate durability.",
+      "sources": [
+        {
+          "title": "CNH SEC earnings exhibit, Nov 9",
+          "url": "https://www.sec.gov/Archives/edgar/data/1567094/000156709426000020/ex991q326.htm"
+        },
+        {
+          "title": "CNH SEC Q3 presentation with Kobelco joint-venture terms, Nov 9",
+          "url": "https://www.sec.gov/Archives/edgar/data/1567094/000156709426000020/cnh_q32026final.htm"
+        },
+        {
+          "title": "Stock Analysis timestamped CNH share quote, Nov 9",
+          "url": "https://stockanalysis.com/stocks/cnh/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261109-1334-broad-market-rotation",
       "observed_at": "2026-11-09T13:34:17-05:00",
@@ -61,110 +186,6 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261109-1227-china-trade-extension",
-      "observed_at": "2026-11-09T12:27:34-05:00",
-      "title": "China formally extends US tariff and critical-material export-control suspensions to January",
-      "summary": "China extended the suspension of an additional 24% tariff on US imports for two months while retaining a 10% tariff. Its commerce ministry also extended selected rare-earth, battery-material and related technology export-control waivers through January 10, 2027; port-fee suspensions were extended as well. The measures reduce immediate supply-chain policy risk but do not verify higher physical exports or permanent liberalization.",
-      "tickers": [],
-      "sectors": [
-        "International trade",
-        "Critical minerals",
-        "Semiconductors",
-        "Industrial supply chains",
-        "Automotive"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Research observation",
-          "value": "November 9, 2026 at 12:27 PM EST"
-        },
-        {
-          "label": "24% additional US-import tariff",
-          "value": "Suspension extended two months from November 10; 10% tariff retained"
-        },
-        {
-          "label": "Selected export-control restrictions",
-          "value": "Suspended through January 10, 2027 under MOFCOM/GACC Announcement 58 of 2026"
-        },
-        {
-          "label": "Shipping port fees",
-          "value": "Special charges on US-linked ships remain suspended to January 10, 2027"
-        },
-        {
-          "label": "Physical trade changes",
-          "value": "No incremental physical export volume established by the policy announcement"
-        }
-      ],
-      "key_finding": "Official two-month suspension extensions reduce near-term China-US supply-chain policy uncertainty but leave the underlying tariff and control regimes unresolved.",
-      "sources": [
-        {
-          "title": "Chinese Ministry of Commerce and Customs Announcement 58 (Nov 9)",
-          "url": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_91466027f465467985942a639a9485f4.html"
-        },
-        {
-          "title": "Reuters — China tariff and port-fee suspension extension, Nov 9",
-          "url": "https://uk.marketscreener.com/news/china-extends-suspension-of-24-tariff-on-us-imports-for-two-months-ce785fd3d98bf325"
-        },
-        {
-          "title": "Chinese Embassy — official tariff suspension report, Nov 9",
-          "url": "https://la.china-embassy.gov.cn/eng/news/202611/t20261109_12056051.htm"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261109-1227-nrg-rally",
-      "observed_at": "2026-11-09T12:27:34-05:00",
-      "title": "NRG rises roughly 9% as $4 billion gas generation sale and earnings gain market confirmation",
-      "summary": "NRG advanced 9.30% to $96.50 by 11:41 AM EST after reporting adjusted EPS of $4.68 and agreeing to sell 4.9 GW of generation to LS Power for $4 billion. This is market confirmation of previously reported fundamentals, not a completed sale. Regulatory approvals, debt reduction, buybacks and 2027 earnings delivery remain key uncertainties.",
-      "tickers": [
-        "NRG"
-      ],
-      "sectors": [
-        "Power utilities",
-        "Gas generation",
-        "Data-center power"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Intraday price observation",
-          "value": "November 9, 2026, 11:41 AM EST; $96.50, +9.30%; not an official closing price"
-        },
-        {
-          "label": "Asset sale",
-          "value": "$4 billion for six gas-fired generation assets totaling 4.9 GW"
-        },
-        {
-          "label": "Q3 adjusted EPS",
-          "value": "$4.68 per share"
-        },
-        {
-          "label": "Transaction status",
-          "value": "Proposed closing Q2 2027, subject to regulatory approvals"
-        }
-      ],
-      "key_finding": "Power-company earnings and major portfolio monetization are receiving strong intraday confirmation, with substantial regulatory and allocation risks.",
-      "sources": [
-        {
-          "title": "Stock Analysis — NRG timestamped intraday quote Nov 9",
-          "url": "https://stockanalysis.com/stocks/nrg/history/"
-        },
-        {
-          "title": "NRG SEC exhibit — $4 billion asset-sale agreement",
-          "url": "https://www.sec.gov/Archives/edgar/data/1013871/000110465926124147/tm2629302d1_ex99-1.htm"
-        },
-        {
-          "title": "Reuters and market reporting — NRG earnings and cash asset sale via Wall Street Journal",
-          "url": "https://www.wsj.com/business/earnings/nrg-energy-signs-4-billion-asset-sale-agreement-posts-higher-quarterly-earnings-457b3efe"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261109-0838-nrg-4b-gas-sale"
     },
     {
       "id": "scout-20261109-1136-ions-selloff-deepens",
@@ -277,6 +298,6 @@
       "supersedes": "scout-20261109-1039-oil-deescalation-accelerates"
     }
   ],
-  "last_checked_at": "2026-11-09T13:34:17-05:00",
+  "last_checked_at": "2026-11-09T14:30:41-05:00",
   "last_check_status": "new_findings"
 }
