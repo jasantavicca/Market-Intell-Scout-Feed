@@ -1,210 +1,240 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-09T17:27:51-05:00",
-  "as_of_et": "November 9, 2026 at 5:27 PM EST",
+  "generated_at": "2026-11-09T18:31:22-05:00",
+  "as_of_et": "November 9, 2026 at 6:31 PM EST",
   "items": [
     {
-      "id": "scout-20261109-1727-sanm-earnings-beat",
-      "observed_at": "2026-11-09T17:27:51-05:00",
-      "title": "Sanmina beats quarterly expectations and guides to strong FY2027 EMS and AI-infrastructure growth",
-      "summary": "Sanmina reported fiscal Q4 revenue of $3.86 billion and adjusted EPS of $4.43, beating published estimates. Management forecasts $17.5–19.5 billion in FY2027 revenue after integrating ZT Systems. Early after-hours reports described a roughly 20% share-price jump; the move is not a confirmed close. Acquisition effects and leverage warrant scrutiny.",
+      "id": "scout-20261109-1831-aaon-cooling-earnings",
+      "observed_at": "2026-11-09T18:31:22-05:00",
+      "title": "AAON posts major data-center cooling growth but identifies material control weakness",
+      "summary": "AAON reported Q3 revenue up 84.1% and BASX data-center-linked sales up 218.3%, with total backlog up 40.5% year over year. The company raised 2026 guidance but restated its first two quarters and disclosed a material weakness in financial controls. Strong conversion and reporting reliability must both be assessed.",
       "tickers": [
-        "SANM"
+        "AAON"
       ],
       "sectors": [
-        "Electronics manufacturing services",
-        "AI infrastructure",
-        "Data-center servers"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Event/research time",
-          "value": "Nov 9, 2026; earnings release 4:01 PM EST; reviewed 5:27 PM EST"
-        },
-        {
-          "label": "Fiscal Q4 revenue",
-          "value": "$3.86 billion versus $3.48 billion consensus"
-        },
-        {
-          "label": "Fiscal Q4 adjusted EPS",
-          "value": "$4.43 versus $3.27 consensus"
-        },
-        {
-          "label": "FY2027 revenue guidance",
-          "value": "$17.5 billion–$19.5 billion"
-        },
-        {
-          "label": "FY2027 adjusted EPS guidance",
-          "value": "$15.50–$17.50"
-        },
-        {
-          "label": "Early after-hours response",
-          "value": "Approximately +20% reported; thin after-hours market, not official closing return"
-        },
-        {
-          "label": "Balance-sheet consideration",
-          "value": "Long-term debt approximately $1.92 billion at fiscal year end, versus $283 million prior year"
-        }
-      ],
-      "key_finding": "Strong earnings and AI-server manufacturing guidance support the EMS growth thesis, but acquisition-driven comparisons and debt create execution risk.",
-      "sources": [
-        {
-          "title": "Sanmina official FY2026 Q4 release",
-          "url": "https://www.prnewswire.com/news-releases/sanmina-reports-fourth-quarter-and-fiscal-2026-financial-results-302933746.html"
-        },
-        {
-          "title": "24/7 Wall St. results and consensus comparison",
-          "url": "https://247wallst.com/cards/sanmina-q4-2026-earnings-sanm-01m712449ecew2p24ks2wcrgzg"
-        },
-        {
-          "title": "Investor's Business Daily aftermarket movers",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-amazon-tesla-nvidia-cpi-inflation-report/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261109-1727-hims-q3-margin-compression",
-      "observed_at": "2026-11-09T17:27:51-05:00",
-      "title": "Hims & Hers reports 49% revenue growth but profit and margin deterioration",
-      "summary": "Hims & Hers reported Q3 revenue of $890.4 million, up 49%, but gross margin fell to 57% from 74% and it posted a $33 million net loss. Management reduced adjusted EBITDA guidance and narrowed revenue expectations. Shares lost about 11.8% in regular trading and reportedly slipped further after hours. The margins and subscriber growth challenge the growth premium.",
-      "tickers": [
-        "HIMS"
-      ],
-      "sectors": [
-        "Healthcare",
-        "Digital health",
-        "Telehealth"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Event/research time",
-          "value": "Nov 9, 2026; earnings after 4 PM EST; reviewed 5:27 PM EST"
-        },
-        {
-          "label": "Regular-session close",
-          "value": "$22.94, approximately -11.8%, according to Barron's"
-        },
-        {
-          "label": "After-hours indication",
-          "value": "Approximately -3% after earnings, early report; not closing figure"
-        },
-        {
-          "label": "Q3 revenue",
-          "value": "$890.4 million, +49% year on year"
-        },
-        {
-          "label": "Gross margin",
-          "value": "57%, down from 74%"
-        },
-        {
-          "label": "Net income",
-          "value": "-$33 million, versus +$15.8 million year ago"
-        },
-        {
-          "label": "FY2026 revenue guidance",
-          "value": "$3.13 billion–$3.15 billion"
-        },
-        {
-          "label": "FY2026 adjusted EBITDA guidance",
-          "value": "Reduced to $257 million–$277 million"
-        }
-      ],
-      "key_finding": "Growth continues, but margin compression, the earnings miss and reduced adjusted EBITDA guidance challenge profitability assumptions.",
-      "sources": [
-        {
-          "title": "Hims & Hers official Q3 results",
-          "url": "https://investors.hims.com/news/news-details/2026/Hims--Hers-Health-Inc--Reports-Third-Quarter-2026-Financial-Results/default.aspx"
-        },
-        {
-          "title": "Wall Street Journal: Hims guidance narrowing",
-          "url": "https://www.wsj.com/business/earnings/hims-hers-narrows-sales-outlook-2091854d"
-        },
-        {
-          "title": "Barron's: Hims market reaction",
-          "url": "https://www.barrons.com/articles/hims-hers-earnings-stock-price-7869b1b3"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261109-1727-semis-rally-closed",
-      "observed_at": "2026-11-09T17:27:51-05:00",
-      "title": "U.S. rebound holds into close as AMD and chipmakers rally while Nvidia declines",
-      "summary": "The S&P 500 closed up 2.35% and Nasdaq 2.74%, confirming the earlier broad-market recovery. AMD gained about 13%, Broadcom roughly 9%, while Nvidia closed down 4.27% at $178.67 amid its board inquiry. The striking dispersion supports company-specific risk differentiation rather than an across-the-board AI demand collapse.",
-      "tickers": [
-        "AMD",
-        "NVDA",
-        "AVGO",
-        "SOXX",
-        "SPY",
-        "QQQ"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "AI infrastructure",
-        "U.S. equities"
+        "Data-center cooling",
+        "Industrial HVAC",
+        "AI infrastructure"
       ],
       "evidence_grade": "corroborated",
       "observations": [
         {
           "label": "Observation",
-          "value": "Nov 9, 2026, regular-session close confirmed after 4 PM EST; reviewed 5:27 PM EST"
+          "value": "November 9, 2026 6:31 PM EST review; after-hours indication is not a closing price"
         },
         {
-          "label": "S&P 500",
-          "value": "7,549.94, +2.35%"
+          "label": "After-hours move",
+          "value": "Approximately +13% to +15% in early after-hours reports; quote timing varies"
         },
         {
-          "label": "Nasdaq Composite",
-          "value": "25,253.14, +2.74%"
+          "label": "Q3 revenue",
+          "value": "$707.4 million, +84.1% year over year"
         },
         {
-          "label": "Dow Jones",
-          "value": "52,389.75, +2.15%"
+          "label": "BASX-branded sales",
+          "value": "$397.2 million, +218.3% year over year"
         },
         {
-          "label": "Russell 2000",
-          "value": "2,840.81, +3.15%"
+          "label": "Total backlog",
+          "value": "$1.854 billion, +40.5% year over year"
         },
         {
-          "label": "AMD",
-          "value": "Approximately +13% at close"
+          "label": "Restatement and controls",
+          "value": "Q1/Q2 2026 restated; material weakness disclosed"
         },
         {
-          "label": "AVGO",
-          "value": "Approximately +9% at close"
-        },
-        {
-          "label": "NVDA",
-          "value": "$178.67, -4.27% at close"
-        },
-        {
-          "label": "SOXX",
-          "value": "Approximately +7.5% in Investopedia close report; other quote providers may differ"
+          "label": "Next indicators",
+          "value": "Backlog conversion, liquid-cooling margin, internal-control remediation"
         }
       ],
-      "key_finding": "Broad rebound and chip leadership survived the close despite Nvidia's governance-driven divergence; next CPI release and chip guidance remain tests.",
+      "key_finding": "Cooling order demand and earnings are strong, but an acknowledged reporting-control weakness qualifies the positive signal.",
       "sources": [
         {
-          "title": "Associated Press: Nov 9 confirmed index closes",
-          "url": "https://apnews.com/article/f7ec9680fc858e3c2505913e7b3a54e2"
+          "title": "AAON investor relations — November 9 Q3 results",
+          "url": "https://investors.theaaongroup.com/news/news-details/2026/The-Aaon-Group-Reports-Record-Third-Quarter-2026-Results-Restates-First-and-Second-Quarter-2026-Financial-Statements-and-Raises-Full-Year-Outlook/default.aspx"
         },
         {
-          "title": "Investopedia: 4:16 PM market recap",
-          "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11092026-12244409"
+          "title": "AAON SEC quarterly filing summary",
+          "url": "https://www.stocktitan.net/sec-filings/AAON/10-q-aaon-inc-quarterly-earnings-report-3cc038d34bfc.html"
         },
         {
-          "title": "MarketWatch: Nvidia and Broadcom confirmed closes",
-          "url": "https://www.marketwatch.com/data-news/texas-instruments-inc-stock-outperforms-competitors-on-strong-trading-day-2cefaa40-c78e3998064b"
+          "title": "AAON after-hours quote",
+          "url": "https://finance.yahoo.com/quote/AAON/"
         }
       ],
-      "status": "updated",
-      "supersedes": "scout-20261109-1334-broad-market-rotation"
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261109-1831-ttd-afterhours-rebound",
+      "observed_at": "2026-11-09T18:31:22-05:00",
+      "title": "Trade Desk rallies after outlook beat despite ongoing revenue contraction",
+      "summary": "Trade Desk's Q3 revenue slipped 0.5% year over year to $736 million while adjusted earnings beat estimates. Management projects at least $755 million in Q4 revenue and increased available share-repurchase authorization to $1 billion. A sharp extended-hours rebound follows steep 2026 losses, but customer retention and sustained organic growth remain unproven.",
+      "tickers": [
+        "TTD"
+      ],
+      "sectors": [
+        "Software",
+        "Advertising technology",
+        "Digital media"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Observation",
+          "value": "November 9, 2026 6:31 PM EST review; extended-hours prices vary"
+        },
+        {
+          "label": "After-hours move",
+          "value": "Approximately +20% in late-trading media reporting, not confirmed closing return"
+        },
+        {
+          "label": "Q3 revenue",
+          "value": "$736 million, -0.5% year over year"
+        },
+        {
+          "label": "Q3 adjusted EPS",
+          "value": "$0.33 versus roughly $0.25 consensus"
+        },
+        {
+          "label": "Q4 revenue guide",
+          "value": "At least $755 million"
+        },
+        {
+          "label": "Buyback authorization",
+          "value": "$1 billion available after board increase"
+        },
+        {
+          "label": "Next indicators",
+          "value": "Advertiser retention, organic growth, GAAP margin and guidance delivery"
+        }
+      ],
+      "key_finding": "Earnings and guidance exceeded reduced expectations, but a durable revenue-growth recovery has not been demonstrated.",
+      "sources": [
+        {
+          "title": "Trade Desk — official Q3 results",
+          "url": "https://investors.thetradedesk.com/news-and-events/news/news-details/2026/The-Trade-Desk-Reports-Third-Quarter-2026-Financial-Results/default.aspx"
+        },
+        {
+          "title": "Barron's — after-hours rebound and commercial risks",
+          "url": "https://www.barrons.com/articles/trade-desk-earnings-stock-price-7ac7ae25"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261109-1831-xe-dow-nuclear-permit",
+      "observed_at": "2026-11-09T18:31:22-05:00",
+      "title": "X-energy and Dow announce construction permit for four advanced reactors",
+      "summary": "X-energy and Dow announced NRC construction-permit approval for four Xe-100 reactors at Dow's Texas industrial facility. The proposed plant would produce power and process steam, but Dow has not made a final investment decision. An operating license, financing, supply chain and construction remain outstanding, with initial operation targeted for the early 2030s.",
+      "tickers": [
+        "XE",
+        "DOW"
+      ],
+      "sectors": [
+        "Advanced nuclear",
+        "Industrial power",
+        "Grid infrastructure"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Announcement",
+          "value": "November 9, 2026 at 4:15 PM EST; reviewed 6:31 PM EST"
+        },
+        {
+          "label": "After-hours XE move",
+          "value": "Approximately +1.2% in Barron's reporting; not official close"
+        },
+        {
+          "label": "Project",
+          "value": "Four Xe-100 units at Seadrift, Texas"
+        },
+        {
+          "label": "Potential electricity capacity",
+          "value": "Up to approximately 320 MWe, subject to final configuration"
+        },
+        {
+          "label": "Permit scope",
+          "value": "Construction permit announced; no operating license or final investment decision"
+        },
+        {
+          "label": "Next indicators",
+          "value": "Dow investment decision, operating license, fuel procurement, construction schedule"
+        }
+      ],
+      "key_finding": "An advanced-reactor regulatory milestone is real, but cash flows and actual generation remain years away.",
+      "sources": [
+        {
+          "title": "X-energy — construction-permit announcement",
+          "url": "https://x-energy.com/news/dow-x-energy-proposed-smr-project-receives-historic-construction-permit-for-nuclear-powered-industrial-site/"
+        },
+        {
+          "title": "Barron's — permit and after-hours reaction",
+          "url": "https://www.barrons.com/articles/x-energy-stock-nuclear-28dee48d"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261109-1831-qlys-earnings-dislocation",
+      "observed_at": "2026-11-09T18:31:22-05:00",
+      "title": "Qualys slips after hours despite stronger earnings and raised annual guidance",
+      "summary": "Qualys reported Q3 revenue of $188 million, up 11%, and non-GAAP EPS of $2.12, while raising full-year guidance. Shares nevertheless fell around 7% after hours. The company remains profitable with strong cash generation, but slower projected Q4 revenue growth and valuation expectations may explain the market reaction; durable mispricing is not established.",
+      "tickers": [
+        "QLYS"
+      ],
+      "sectors": [
+        "Cybersecurity software",
+        "Cloud security",
+        "Enterprise software"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Observation",
+          "value": "November 9, 2026 6:31 PM EST review; early after-hours report"
+        },
+        {
+          "label": "After-hours move",
+          "value": "Approximately -7% in media reporting; not an official closing return"
+        },
+        {
+          "label": "Q3 revenue",
+          "value": "$188.0 million, +11% year over year"
+        },
+        {
+          "label": "Q3 non-GAAP EPS",
+          "value": "$2.12"
+        },
+        {
+          "label": "2026 revenue outlook",
+          "value": "$736.9 million to $738.9 million, raised"
+        },
+        {
+          "label": "Q4 revenue outlook",
+          "value": "$191 million to $193 million; 9%-10% growth"
+        },
+        {
+          "label": "Next indicators",
+          "value": "Renewals, Q4 growth, cash conversion and next regular-session pricing"
+        }
+      ],
+      "key_finding": "A profitable cybersecurity provider faces negative repricing despite stronger reported results; future growth is the key test.",
+      "sources": [
+        {
+          "title": "Qualys — official Q3 earnings release",
+          "url": "https://investor.qualys.com/news-releases/news-release-details/qualys-announces-third-quarter-2026-financial-results"
+        },
+        {
+          "title": "Investor's Business Daily — reaction and estimates",
+          "url": "https://www.investors.com/news/technology/qualys-stock-q32026-earnings-qlys/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
     },
     {
       "id": "scout-20261109-1627-oil-settlement-deescalation",
@@ -273,62 +303,8 @@
       ],
       "status": "updated",
       "supersedes": "scout-20261109-1039-oil-deescalation-accelerates"
-    },
-    {
-      "id": "scout-20261109-1136-ions-selloff-deepens",
-      "observed_at": "2026-11-09T11:36:47-05:00",
-      "title": "Ionis drops nearly 28% as Tryngolza forecast halving hits commercialization outlook",
-      "summary": "Ionis fell 27.83% to $28.45 at 10:35 AM EST, versus roughly 10% lower in earlier premarket reports. The company reduced Tryngolza 2026 product revenue guidance to about $50 million from $100–110 million, while reaffirming consolidated revenue guidance. The product shortfall is material; durability of prescriptions and reimbursement remain uncertain.",
-      "tickers": [
-        "IONS"
-      ],
-      "sectors": [
-        "Biotechnology",
-        "Healthcare",
-        "Specialty pharmaceuticals"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Share move, timed intraday",
-          "value": "$28.45, -27.83%, Nov 9 2026 at 10:35 AM EST; not a closing price"
-        },
-        {
-          "label": "Follow-up quote",
-          "value": "$28.71, -27.17%, Nov 9 at 11:22 AM EST; not a closing price"
-        },
-        {
-          "label": "Tryngolza FY2026 sales guidance",
-          "value": "Approximately $50 million versus prior $100–110 million"
-        },
-        {
-          "label": "Total FY2026 revenue guidance",
-          "value": "$875–900 million, reaffirmed"
-        },
-        {
-          "label": "Next test",
-          "value": "Prescriptions, payer access, launch pace, European approval process"
-        }
-      ],
-      "key_finding": "Substantially deeper verified intraday reaction exposes a meaningful commercial adoption risk, not proof of terminal pipeline failure.",
-      "sources": [
-        {
-          "title": "Ionis official financial results in SEC exhibit",
-          "url": "https://www.sec.gov/Archives/edgar/data/874015/000114036126042598/ef20085128_ex99-1.htm"
-        },
-        {
-          "title": "Stock Analysis timed intraday quote",
-          "url": "https://stockanalysis.com/stocks/ions/"
-        },
-        {
-          "title": "Barron's coverage of 29% selloff",
-          "url": "https://www.barrons.com/articles/ionis-earnings-stock-price-dea3238e"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261109-0838-ions-tryngolza-guide-cut"
     }
   ],
-  "last_checked_at": "2026-11-09T17:27:51-05:00",
+  "last_checked_at": "2026-11-09T18:31:22-05:00",
   "last_check_status": "new_findings"
 }
