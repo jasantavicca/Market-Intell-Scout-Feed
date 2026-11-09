@@ -1,8 +1,67 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-09T12:27:34-05:00",
-  "as_of_et": "November 9, 2026 at 12:27 PM EST",
+  "generated_at": "2026-11-09T13:34:17-05:00",
+  "as_of_et": "November 9, 2026 at 1:34 PM EST",
   "items": [
+    {
+      "id": "scout-20261109-1334-broad-market-rotation",
+      "observed_at": "2026-11-09T13:34:17-05:00",
+      "title": "Broad U.S. equity rally coexists with extraordinary Nvidia-versus-semiconductor divergence",
+      "summary": "Barron's reported the S&P 500 up 2.3%, Nasdaq up 2.7%, and all 11 sectors positive, while Nvidia fell about 4.5% and the Philadelphia semiconductor index gained 6.6%. MarketWatch independently reported 391 S&P 500 constituents advancing. The breadth suggests a broad rebound after last week's rout, not a generalized rejection of AI infrastructure; the divergence is intraday and may narrow.",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "SOXX",
+        "SPY",
+        "QQQ"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "U.S. equity market",
+        "Industrials"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Observation",
+          "value": "November 9, 2026, around 1:34 PM EST; cited articles contain intraday snapshots, not official closes"
+        },
+        {
+          "label": "Broad market",
+          "value": "S&P 500 approximately +2.3%; Nasdaq approximately +2.7%; Dow approximately +2.1% in Barron's live report"
+        },
+        {
+          "label": "Breadth",
+          "value": "All 11 S&P 500 sectors advancing; MarketWatch cited 391 S&P 500 stocks rising (~78%)"
+        },
+        {
+          "label": "Semiconductor divergence",
+          "value": "Philadelphia Semiconductor Index approximately +6.6% while Nvidia approximately -4.5%, per Barron's"
+        },
+        {
+          "label": "Historical context",
+          "value": "Barron's citing Dow Jones Market Data: widest Nvidia-versus-semiconductor index underperformance since January 2019"
+        },
+        {
+          "label": "Confirmed close or market-wide causality",
+          "value": "Not established; values are intraday and rebound drivers are multifactor"
+        }
+      ],
+      "key_finding": "Broad participation and semiconductor strength despite Nvidia's company-specific drop show unusually sharp rotation, but no durable trend reversal is confirmed.",
+      "sources": [
+        {
+          "title": "Barron's — Nvidia's Loss Is the Rest of the Stock Market's Gain (Nov 9)",
+          "url": "https://www.barrons.com/livecoverage/stock-market-news-today-110926/card/nvidia-s-loss-is-the-rest-of-the-stock-market-s-gain-QGAD1V64BVYHUmhgB1Pn"
+        },
+        {
+          "title": "MarketWatch — Market breadth is firmly bullish (Nov 9)",
+          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-s-p-500-nasdaq-nvidia-investigation-ceo-jensen-huang-relationship-chinese-spy/card/market-breadth-is-firmly-bullish-with-more-than-75-of-s-p-500-stocks-rising-38kYunJeaNzCPTmz7aiF"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261109-1227-china-trade-extension",
       "observed_at": "2026-11-09T12:27:34-05:00",
@@ -106,61 +165,6 @@
       ],
       "status": "updated",
       "supersedes": "scout-20261109-0838-nrg-4b-gas-sale"
-    },
-    {
-      "id": "scout-20261109-1227-ceg-rally",
-      "observed_at": "2026-11-09T12:27:34-05:00",
-      "title": "Constellation advances approximately 7% as nuclear contracting and earnings receive market confirmation",
-      "summary": "Late-morning reporting put CEG roughly 7% higher following adjusted EPS of $5.06, a raised guidance midpoint, Google-related nuclear collaboration, a 270 MW long-term contract, and a conditional DOE commitment of up to $5 billion. The equity response supports investor recognition of durable power demand; funding, permits and project execution are not yet assured.",
-      "tickers": [
-        "CEG"
-      ],
-      "sectors": [
-        "Power utilities",
-        "Nuclear generation",
-        "AI infrastructure",
-        "Data-center power"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Market observation",
-          "value": "November 9, 2026, late morning EST: approximately +7% in market reporting; intraday, not closing"
-        },
-        {
-          "label": "Q3 adjusted operating EPS",
-          "value": "$5.06"
-        },
-        {
-          "label": "2026 adjusted EPS guidance",
-          "value": "$12.50–$12.80"
-        },
-        {
-          "label": "Power contract",
-          "value": "20 years, 270 MW"
-        },
-        {
-          "label": "Federal financing",
-          "value": "Conditional DOE commitment up to $5 billion"
-        }
-      ],
-      "key_finding": "CEG's strong intraday reaction adds market confirmation to already announced long-term nuclear power commitments; realization remains conditional.",
-      "sources": [
-        {
-          "title": "Constellation — Q3 results and nuclear agreements, Nov 9",
-          "url": "https://www.constellationenergy.com/news/2026/11/constellation-reports-third-quarter-2026-results.html"
-        },
-        {
-          "title": "Investor's Business Daily — CEG and NRG intraday gains, Nov 9",
-          "url": "https://www.investors.com/news/constellation-energy-ceg-stock-nrg-energy-q3-earnings-asset-sales-buybacks/"
-        },
-        {
-          "title": "Associated Press — Nov 9 late-morning US market report",
-          "url": "https://apnews.com/article/d938f8e6ff42b3706e1d36e6245ec56b"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261109-0838-ceg-nuclear-google-doe"
     },
     {
       "id": "scout-20261109-1136-ions-selloff-deepens",
@@ -273,6 +277,6 @@
       "supersedes": "scout-20261109-1039-oil-deescalation-accelerates"
     }
   ],
-  "last_checked_at": "2026-11-09T12:27:34-05:00",
+  "last_checked_at": "2026-11-09T13:34:17-05:00",
   "last_check_status": "new_findings"
 }
