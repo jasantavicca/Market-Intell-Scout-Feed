@@ -1,8 +1,211 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-09T16:27:47-05:00",
-  "as_of_et": "November 9, 2026 at 4:27 PM EST",
+  "generated_at": "2026-11-09T17:27:51-05:00",
+  "as_of_et": "November 9, 2026 at 5:27 PM EST",
   "items": [
+    {
+      "id": "scout-20261109-1727-sanm-earnings-beat",
+      "observed_at": "2026-11-09T17:27:51-05:00",
+      "title": "Sanmina beats quarterly expectations and guides to strong FY2027 EMS and AI-infrastructure growth",
+      "summary": "Sanmina reported fiscal Q4 revenue of $3.86 billion and adjusted EPS of $4.43, beating published estimates. Management forecasts $17.5–19.5 billion in FY2027 revenue after integrating ZT Systems. Early after-hours reports described a roughly 20% share-price jump; the move is not a confirmed close. Acquisition effects and leverage warrant scrutiny.",
+      "tickers": [
+        "SANM"
+      ],
+      "sectors": [
+        "Electronics manufacturing services",
+        "AI infrastructure",
+        "Data-center servers"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Event/research time",
+          "value": "Nov 9, 2026; earnings release 4:01 PM EST; reviewed 5:27 PM EST"
+        },
+        {
+          "label": "Fiscal Q4 revenue",
+          "value": "$3.86 billion versus $3.48 billion consensus"
+        },
+        {
+          "label": "Fiscal Q4 adjusted EPS",
+          "value": "$4.43 versus $3.27 consensus"
+        },
+        {
+          "label": "FY2027 revenue guidance",
+          "value": "$17.5 billion–$19.5 billion"
+        },
+        {
+          "label": "FY2027 adjusted EPS guidance",
+          "value": "$15.50–$17.50"
+        },
+        {
+          "label": "Early after-hours response",
+          "value": "Approximately +20% reported; thin after-hours market, not official closing return"
+        },
+        {
+          "label": "Balance-sheet consideration",
+          "value": "Long-term debt approximately $1.92 billion at fiscal year end, versus $283 million prior year"
+        }
+      ],
+      "key_finding": "Strong earnings and AI-server manufacturing guidance support the EMS growth thesis, but acquisition-driven comparisons and debt create execution risk.",
+      "sources": [
+        {
+          "title": "Sanmina official FY2026 Q4 release",
+          "url": "https://www.prnewswire.com/news-releases/sanmina-reports-fourth-quarter-and-fiscal-2026-financial-results-302933746.html"
+        },
+        {
+          "title": "24/7 Wall St. results and consensus comparison",
+          "url": "https://247wallst.com/cards/sanmina-q4-2026-earnings-sanm-01m712449ecew2p24ks2wcrgzg"
+        },
+        {
+          "title": "Investor's Business Daily aftermarket movers",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-amazon-tesla-nvidia-cpi-inflation-report/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261109-1727-hims-q3-margin-compression",
+      "observed_at": "2026-11-09T17:27:51-05:00",
+      "title": "Hims & Hers reports 49% revenue growth but profit and margin deterioration",
+      "summary": "Hims & Hers reported Q3 revenue of $890.4 million, up 49%, but gross margin fell to 57% from 74% and it posted a $33 million net loss. Management reduced adjusted EBITDA guidance and narrowed revenue expectations. Shares lost about 11.8% in regular trading and reportedly slipped further after hours. The margins and subscriber growth challenge the growth premium.",
+      "tickers": [
+        "HIMS"
+      ],
+      "sectors": [
+        "Healthcare",
+        "Digital health",
+        "Telehealth"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Event/research time",
+          "value": "Nov 9, 2026; earnings after 4 PM EST; reviewed 5:27 PM EST"
+        },
+        {
+          "label": "Regular-session close",
+          "value": "$22.94, approximately -11.8%, according to Barron's"
+        },
+        {
+          "label": "After-hours indication",
+          "value": "Approximately -3% after earnings, early report; not closing figure"
+        },
+        {
+          "label": "Q3 revenue",
+          "value": "$890.4 million, +49% year on year"
+        },
+        {
+          "label": "Gross margin",
+          "value": "57%, down from 74%"
+        },
+        {
+          "label": "Net income",
+          "value": "-$33 million, versus +$15.8 million year ago"
+        },
+        {
+          "label": "FY2026 revenue guidance",
+          "value": "$3.13 billion–$3.15 billion"
+        },
+        {
+          "label": "FY2026 adjusted EBITDA guidance",
+          "value": "Reduced to $257 million–$277 million"
+        }
+      ],
+      "key_finding": "Growth continues, but margin compression, the earnings miss and reduced adjusted EBITDA guidance challenge profitability assumptions.",
+      "sources": [
+        {
+          "title": "Hims & Hers official Q3 results",
+          "url": "https://investors.hims.com/news/news-details/2026/Hims--Hers-Health-Inc--Reports-Third-Quarter-2026-Financial-Results/default.aspx"
+        },
+        {
+          "title": "Wall Street Journal: Hims guidance narrowing",
+          "url": "https://www.wsj.com/business/earnings/hims-hers-narrows-sales-outlook-2091854d"
+        },
+        {
+          "title": "Barron's: Hims market reaction",
+          "url": "https://www.barrons.com/articles/hims-hers-earnings-stock-price-7869b1b3"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261109-1727-semis-rally-closed",
+      "observed_at": "2026-11-09T17:27:51-05:00",
+      "title": "U.S. rebound holds into close as AMD and chipmakers rally while Nvidia declines",
+      "summary": "The S&P 500 closed up 2.35% and Nasdaq 2.74%, confirming the earlier broad-market recovery. AMD gained about 13%, Broadcom roughly 9%, while Nvidia closed down 4.27% at $178.67 amid its board inquiry. The striking dispersion supports company-specific risk differentiation rather than an across-the-board AI demand collapse.",
+      "tickers": [
+        "AMD",
+        "NVDA",
+        "AVGO",
+        "SOXX",
+        "SPY",
+        "QQQ"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "U.S. equities"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Observation",
+          "value": "Nov 9, 2026, regular-session close confirmed after 4 PM EST; reviewed 5:27 PM EST"
+        },
+        {
+          "label": "S&P 500",
+          "value": "7,549.94, +2.35%"
+        },
+        {
+          "label": "Nasdaq Composite",
+          "value": "25,253.14, +2.74%"
+        },
+        {
+          "label": "Dow Jones",
+          "value": "52,389.75, +2.15%"
+        },
+        {
+          "label": "Russell 2000",
+          "value": "2,840.81, +3.15%"
+        },
+        {
+          "label": "AMD",
+          "value": "Approximately +13% at close"
+        },
+        {
+          "label": "AVGO",
+          "value": "Approximately +9% at close"
+        },
+        {
+          "label": "NVDA",
+          "value": "$178.67, -4.27% at close"
+        },
+        {
+          "label": "SOXX",
+          "value": "Approximately +7.5% in Investopedia close report; other quote providers may differ"
+        }
+      ],
+      "key_finding": "Broad rebound and chip leadership survived the close despite Nvidia's governance-driven divergence; next CPI release and chip guidance remain tests.",
+      "sources": [
+        {
+          "title": "Associated Press: Nov 9 confirmed index closes",
+          "url": "https://apnews.com/article/f7ec9680fc858e3c2505913e7b3a54e2"
+        },
+        {
+          "title": "Investopedia: 4:16 PM market recap",
+          "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11092026-12244409"
+        },
+        {
+          "title": "MarketWatch: Nvidia and Broadcom confirmed closes",
+          "url": "https://www.marketwatch.com/data-news/texas-instruments-inc-stock-outperforms-competitors-on-strong-trading-day-2cefaa40-c78e3998064b"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261109-1334-broad-market-rotation"
+    },
     {
       "id": "scout-20261109-1627-oil-settlement-deescalation",
       "observed_at": "2026-11-09T16:27:47-05:00",
@@ -72,132 +275,6 @@
       "supersedes": "scout-20261109-1039-oil-deescalation-accelerates"
     },
     {
-      "id": "scout-20261109-1627-ceco-orders-surprise",
-      "observed_at": "2026-11-09T16:27:47-05:00",
-      "title": "CECO jumps on record orders and backlog following Thermon integration",
-      "summary": "CECO reported third-quarter orders of $777.6 million, up 234%, and backlog of $2.19 billion, up 205%; shares advanced roughly 23% during Monday's trading. Management raised its 2026 order forecast above $2.5 billion and introduced $2.1–$2.3 billion of 2027 revenue guidance. The Thermon acquisition contributes materially to comparisons, so organic order growth and backlog conversion still require scrutiny.",
-      "tickers": [
-        "CECO"
-      ],
-      "sectors": [
-        "Industrial infrastructure",
-        "Data-center power",
-        "Environmental systems",
-        "Thermal management"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Publication / observation",
-          "value": "November 9, 2026; company Q3 release at 7:00 AM EST, assessed 4:27 PM EST"
-        },
-        {
-          "label": "Reported share move",
-          "value": "Approximately +23% during November 9 trading in Barron's report; do not treat as independently verified closing price"
-        },
-        {
-          "label": "Q3 orders",
-          "value": "$777.6 million, +234% year-over-year"
-        },
-        {
-          "label": "Q3 backlog",
-          "value": "$2.1935 billion, +205% year-over-year"
-        },
-        {
-          "label": "Q3 adjusted EBITDA",
-          "value": "$70.1 million, +202% year-over-year"
-        },
-        {
-          "label": "2026 order outlook",
-          "value": "Greater than $2.5 billion, raised from at least $2.0 billion"
-        },
-        {
-          "label": "2027 revenue outlook",
-          "value": "$2.1 billion to $2.3 billion"
-        },
-        {
-          "label": "Comparison caution",
-          "value": "Thermon acquisition from June 2026 materially increases reported consolidated results"
-        }
-      ],
-      "key_finding": "Record funded-project pipeline supports industrial and data-center power exposure, but acquired growth should not be mistaken for organic expansion.",
-      "sources": [
-        {
-          "title": "CECO Environmental — Q3 2026 results and 2027 outlook, Nov 9",
-          "url": "https://investors.cecoenviro.com/news-releases/news-release-details/ceco-environmental-reports-third-quarter-2026-results"
-        },
-        {
-          "title": "Barron's — CECO earnings reaction and project pipeline, Nov 9",
-          "url": "https://www.barrons.com/articles/ceco-environmental-earnings-stock-price-1ecf07e4"
-        },
-        {
-          "title": "SEC filing digest — CECO Q3 reported results, Nov 9",
-          "url": "https://www.stocktitan.net/sec-filings/CECO/8-k-ceco-environmental-corp-reports-material-event-d81dc8f44ae4.html"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261109-1334-broad-market-rotation",
-      "observed_at": "2026-11-09T13:34:17-05:00",
-      "title": "Broad U.S. equity rally coexists with extraordinary Nvidia-versus-semiconductor divergence",
-      "summary": "Barron's reported the S&P 500 up 2.3%, Nasdaq up 2.7%, and all 11 sectors positive, while Nvidia fell about 4.5% and the Philadelphia semiconductor index gained 6.6%. MarketWatch independently reported 391 S&P 500 constituents advancing. The breadth suggests a broad rebound after last week's rout, not a generalized rejection of AI infrastructure; the divergence is intraday and may narrow.",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "SOXX",
-        "SPY",
-        "QQQ"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "AI infrastructure",
-        "U.S. equity market",
-        "Industrials"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Observation",
-          "value": "November 9, 2026, around 1:34 PM EST; cited articles contain intraday snapshots, not official closes"
-        },
-        {
-          "label": "Broad market",
-          "value": "S&P 500 approximately +2.3%; Nasdaq approximately +2.7%; Dow approximately +2.1% in Barron's live report"
-        },
-        {
-          "label": "Breadth",
-          "value": "All 11 S&P 500 sectors advancing; MarketWatch cited 391 S&P 500 stocks rising (~78%)"
-        },
-        {
-          "label": "Semiconductor divergence",
-          "value": "Philadelphia Semiconductor Index approximately +6.6% while Nvidia approximately -4.5%, per Barron's"
-        },
-        {
-          "label": "Historical context",
-          "value": "Barron's citing Dow Jones Market Data: widest Nvidia-versus-semiconductor index underperformance since January 2019"
-        },
-        {
-          "label": "Confirmed close or market-wide causality",
-          "value": "Not established; values are intraday and rebound drivers are multifactor"
-        }
-      ],
-      "key_finding": "Broad participation and semiconductor strength despite Nvidia's company-specific drop show unusually sharp rotation, but no durable trend reversal is confirmed.",
-      "sources": [
-        {
-          "title": "Barron's — Nvidia's Loss Is the Rest of the Stock Market's Gain (Nov 9)",
-          "url": "https://www.barrons.com/livecoverage/stock-market-news-today-110926/card/nvidia-s-loss-is-the-rest-of-the-stock-market-s-gain-QGAD1V64BVYHUmhgB1Pn"
-        },
-        {
-          "title": "MarketWatch — Market breadth is firmly bullish (Nov 9)",
-          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-s-p-500-nasdaq-nvidia-investigation-ceo-jensen-huang-relationship-chinese-spy/card/market-breadth-is-firmly-bullish-with-more-than-75-of-s-p-500-stocks-rising-38kYunJeaNzCPTmz7aiF"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
       "id": "scout-20261109-1136-ions-selloff-deepens",
       "observed_at": "2026-11-09T11:36:47-05:00",
       "title": "Ionis drops nearly 28% as Tryngolza forecast halving hits commercialization outlook",
@@ -250,64 +327,8 @@
       ],
       "status": "updated",
       "supersedes": "scout-20261109-0838-ions-tryngolza-guide-cut"
-    },
-    {
-      "id": "scout-20261109-1136-iraq-hormuz-lane",
-      "observed_at": "2026-11-09T11:36:47-05:00",
-      "title": "Iraq says U.S. understanding enables oil exports via Oman-side Hormuz lane",
-      "summary": "Iraqi Foreign Minister Fuad Hussein said Baghdad reached understandings with Washington allowing crude shipments through a lane near Oman. Iraqi officials separately reported October exports near 3.5 million barrels/day versus 2.65 million in September. The diplomatic statement is a leading signal, not independently verified fresh traffic through the proposed lane; active MARAD advisories still describe high shipping threats.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Energy",
-        "Oil logistics",
-        "Strait of Hormuz",
-        "Geopolitics"
-      ],
-      "evidence_grade": "single-source",
-      "observations": [
-        {
-          "label": "Statement originally reported",
-          "value": "Nov 8 2026 by Reuters citing Iraqi foreign minister"
-        },
-        {
-          "label": "October vs September exports",
-          "value": "About 3.5 million barrels/day versus 2.65 million, per Iraqi energy officials; not proof of traffic newly enabled by arrangement"
-        },
-        {
-          "label": "New route physical flow",
-          "value": "No incremental tanker passages/volumes independently established"
-        },
-        {
-          "label": "U.S. government confirmation",
-          "value": "Not located in reviewed sources"
-        },
-        {
-          "label": "Current maritime risk",
-          "value": "MARAD 2026-011 remains active, warns of attacks on commercial vessels"
-        }
-      ],
-      "key_finding": "Reported Iraq-U.S. shipping understanding is an early potential de-escalation mechanism; physical Hormuz throughput normalization remains unverified.",
-      "sources": [
-        {
-          "title": "Reuters via Al-Monitor, Nov 8",
-          "url": "https://www.al-monitor.com/originals/2026/11/iraq-has-reached-understandings-us-allow-oil-exports-through-hormuz-minister-says"
-        },
-        {
-          "title": "Reuters via Investing.com, Nov 8",
-          "url": "https://www.investing.com/news/economic-indicators/iraq-has-reached-understandings-with-us-to-allow-oil-exports-through-hormuz-minister-says-5010300"
-        },
-        {
-          "title": "MARAD active advisory 2026-011",
-          "url": "https://www.maritime.dot.gov/msci/2026-011-persian-gulf-strait-hormuz-and-gulf-oman-iranian-attacks-commercial-vessels"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261109-1039-oil-deescalation-accelerates"
     }
   ],
-  "last_checked_at": "2026-11-09T16:27:47-05:00",
+  "last_checked_at": "2026-11-09T17:27:51-05:00",
   "last_check_status": "new_findings"
 }
