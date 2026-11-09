@@ -1,8 +1,167 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-09T11:36:47-05:00",
-  "as_of_et": "November 9, 2026 at 11:36 AM EST",
+  "generated_at": "2026-11-09T12:27:34-05:00",
+  "as_of_et": "November 9, 2026 at 12:27 PM EST",
   "items": [
+    {
+      "id": "scout-20261109-1227-china-trade-extension",
+      "observed_at": "2026-11-09T12:27:34-05:00",
+      "title": "China formally extends US tariff and critical-material export-control suspensions to January",
+      "summary": "China extended the suspension of an additional 24% tariff on US imports for two months while retaining a 10% tariff. Its commerce ministry also extended selected rare-earth, battery-material and related technology export-control waivers through January 10, 2027; port-fee suspensions were extended as well. The measures reduce immediate supply-chain policy risk but do not verify higher physical exports or permanent liberalization.",
+      "tickers": [],
+      "sectors": [
+        "International trade",
+        "Critical minerals",
+        "Semiconductors",
+        "Industrial supply chains",
+        "Automotive"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Research observation",
+          "value": "November 9, 2026 at 12:27 PM EST"
+        },
+        {
+          "label": "24% additional US-import tariff",
+          "value": "Suspension extended two months from November 10; 10% tariff retained"
+        },
+        {
+          "label": "Selected export-control restrictions",
+          "value": "Suspended through January 10, 2027 under MOFCOM/GACC Announcement 58 of 2026"
+        },
+        {
+          "label": "Shipping port fees",
+          "value": "Special charges on US-linked ships remain suspended to January 10, 2027"
+        },
+        {
+          "label": "Physical trade changes",
+          "value": "No incremental physical export volume established by the policy announcement"
+        }
+      ],
+      "key_finding": "Official two-month suspension extensions reduce near-term China-US supply-chain policy uncertainty but leave the underlying tariff and control regimes unresolved.",
+      "sources": [
+        {
+          "title": "Chinese Ministry of Commerce and Customs Announcement 58 (Nov 9)",
+          "url": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_91466027f465467985942a639a9485f4.html"
+        },
+        {
+          "title": "Reuters — China tariff and port-fee suspension extension, Nov 9",
+          "url": "https://uk.marketscreener.com/news/china-extends-suspension-of-24-tariff-on-us-imports-for-two-months-ce785fd3d98bf325"
+        },
+        {
+          "title": "Chinese Embassy — official tariff suspension report, Nov 9",
+          "url": "https://la.china-embassy.gov.cn/eng/news/202611/t20261109_12056051.htm"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261109-1227-nrg-rally",
+      "observed_at": "2026-11-09T12:27:34-05:00",
+      "title": "NRG rises roughly 9% as $4 billion gas generation sale and earnings gain market confirmation",
+      "summary": "NRG advanced 9.30% to $96.50 by 11:41 AM EST after reporting adjusted EPS of $4.68 and agreeing to sell 4.9 GW of generation to LS Power for $4 billion. This is market confirmation of previously reported fundamentals, not a completed sale. Regulatory approvals, debt reduction, buybacks and 2027 earnings delivery remain key uncertainties.",
+      "tickers": [
+        "NRG"
+      ],
+      "sectors": [
+        "Power utilities",
+        "Gas generation",
+        "Data-center power"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Intraday price observation",
+          "value": "November 9, 2026, 11:41 AM EST; $96.50, +9.30%; not an official closing price"
+        },
+        {
+          "label": "Asset sale",
+          "value": "$4 billion for six gas-fired generation assets totaling 4.9 GW"
+        },
+        {
+          "label": "Q3 adjusted EPS",
+          "value": "$4.68 per share"
+        },
+        {
+          "label": "Transaction status",
+          "value": "Proposed closing Q2 2027, subject to regulatory approvals"
+        }
+      ],
+      "key_finding": "Power-company earnings and major portfolio monetization are receiving strong intraday confirmation, with substantial regulatory and allocation risks.",
+      "sources": [
+        {
+          "title": "Stock Analysis — NRG timestamped intraday quote Nov 9",
+          "url": "https://stockanalysis.com/stocks/nrg/history/"
+        },
+        {
+          "title": "NRG SEC exhibit — $4 billion asset-sale agreement",
+          "url": "https://www.sec.gov/Archives/edgar/data/1013871/000110465926124147/tm2629302d1_ex99-1.htm"
+        },
+        {
+          "title": "Reuters and market reporting — NRG earnings and cash asset sale via Wall Street Journal",
+          "url": "https://www.wsj.com/business/earnings/nrg-energy-signs-4-billion-asset-sale-agreement-posts-higher-quarterly-earnings-457b3efe"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261109-0838-nrg-4b-gas-sale"
+    },
+    {
+      "id": "scout-20261109-1227-ceg-rally",
+      "observed_at": "2026-11-09T12:27:34-05:00",
+      "title": "Constellation advances approximately 7% as nuclear contracting and earnings receive market confirmation",
+      "summary": "Late-morning reporting put CEG roughly 7% higher following adjusted EPS of $5.06, a raised guidance midpoint, Google-related nuclear collaboration, a 270 MW long-term contract, and a conditional DOE commitment of up to $5 billion. The equity response supports investor recognition of durable power demand; funding, permits and project execution are not yet assured.",
+      "tickers": [
+        "CEG"
+      ],
+      "sectors": [
+        "Power utilities",
+        "Nuclear generation",
+        "AI infrastructure",
+        "Data-center power"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Market observation",
+          "value": "November 9, 2026, late morning EST: approximately +7% in market reporting; intraday, not closing"
+        },
+        {
+          "label": "Q3 adjusted operating EPS",
+          "value": "$5.06"
+        },
+        {
+          "label": "2026 adjusted EPS guidance",
+          "value": "$12.50–$12.80"
+        },
+        {
+          "label": "Power contract",
+          "value": "20 years, 270 MW"
+        },
+        {
+          "label": "Federal financing",
+          "value": "Conditional DOE commitment up to $5 billion"
+        }
+      ],
+      "key_finding": "CEG's strong intraday reaction adds market confirmation to already announced long-term nuclear power commitments; realization remains conditional.",
+      "sources": [
+        {
+          "title": "Constellation — Q3 results and nuclear agreements, Nov 9",
+          "url": "https://www.constellationenergy.com/news/2026/11/constellation-reports-third-quarter-2026-results.html"
+        },
+        {
+          "title": "Investor's Business Daily — CEG and NRG intraday gains, Nov 9",
+          "url": "https://www.investors.com/news/constellation-energy-ceg-stock-nrg-energy-q3-earnings-asset-sales-buybacks/"
+        },
+        {
+          "title": "Associated Press — Nov 9 late-morning US market report",
+          "url": "https://apnews.com/article/d938f8e6ff42b3706e1d36e6245ec56b"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261109-0838-ceg-nuclear-google-doe"
+    },
     {
       "id": "scout-20261109-1136-ions-selloff-deepens",
       "observed_at": "2026-11-09T11:36:47-05:00",
@@ -56,58 +215,6 @@
       ],
       "status": "updated",
       "supersedes": "scout-20261109-0838-ions-tryngolza-guide-cut"
-    },
-    {
-      "id": "scout-20261109-1136-amd-epyc-google-tpu",
-      "observed_at": "2026-11-09T11:36:47-05:00",
-      "title": "AMD fifth-generation EPYC confirmed as Google TPU 8tx host CPU; chip rebound broadens",
-      "summary": "AMD and Google confirmed fifth-generation EPYC CPUs host Google Cloud's confidential-computing TPU 8tx system. AMD rose around 9–10% during observed morning trading, aided also by an Oppenheimer upgrade. This validates AMD's AI-host role alongside Google's custom accelerators, but adds no disclosed incremental order value or guaranteed sales.",
-      "tickers": [
-        "AMD",
-        "GOOGL",
-        "SOXX"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "AI infrastructure",
-        "Cloud computing"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "AMD timed intraday move",
-          "value": "Approximately +9.89% at 10:20 AM EST; other reports approximately +9% to +10% later in the morning; not a close"
-        },
-        {
-          "label": "System",
-          "value": "Google Cloud TPU 8tx with AMD fifth-generation EPYC host processors"
-        },
-        {
-          "label": "Commercial impact",
-          "value": "No incremental volume, order value or guidance disclosed"
-        },
-        {
-          "label": "Next test",
-          "value": "TPU system deployment volume; EPYC data-center shipments; competitive pricing"
-        }
-      ],
-      "key_finding": "Google's TPU expansion includes a confirmed AMD CPU content win, not a demonstration of new AMD accelerator revenue.",
-      "sources": [
-        {
-          "title": "AMD official investor release Nov 9",
-          "url": "https://ir.amd.com/news-events/press-releases/detail/1304/amd-epyc-expands-its-leadership-at-the-foundation-of-ai"
-        },
-        {
-          "title": "Google Cloud TPU technical announcement Nov 9",
-          "url": "https://cloud.google.com/blog/topics/ai-infrastructure/tpu-8tx-and-tpu-8i-max"
-        },
-        {
-          "title": "Quantisnow timestamped Nov 9 market observation",
-          "url": "https://www.quantisnow.com/articles/chip-rebound-mostly-bounce-amd-jumped-before-oppenheimer-upgrade-broadcom-no-news"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261109-1039-google-tpu-systems"
     },
     {
       "id": "scout-20261109-1136-iraq-hormuz-lane",
@@ -164,117 +271,8 @@
       ],
       "status": "updated",
       "supersedes": "scout-20261109-1039-oil-deescalation-accelerates"
-    },
-    {
-      "id": "scout-20261109-1039-nvda-amd-divergence",
-      "observed_at": "2026-11-09T10:39:39-05:00",
-      "title": "Nvidia declines roughly 7.5% while AMD rallies 5.6% in AI-chip divergence",
-      "summary": "Nvidia fell approximately 7.5% to $172.75 at 9:34 AM EST after its board opened an inquiry into allegations involving its CEO. AMD rose about 5.6% to $473.73 in early trading following an Oppenheimer upgrade. The sector split is a material repricing signal, though no change in Nvidia's underlying chip demand or output has been established.",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "SOXX"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "AI infrastructure"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Research observation",
-          "value": "November 9, 2026 at 10:39 AM EST"
-        },
-        {
-          "label": "Nvidia cash-session observation",
-          "value": "Nov 9 at 9:34 AM EST, approximately $172.75 / -7.5% versus Friday close $186.64; intraday"
-        },
-        {
-          "label": "AMD cash-session observation",
-          "value": "Nov 9 early session, approximately $473.73 / +5.6%; intraday, time of quote not independently specified"
-        },
-        {
-          "label": "AMD analyst catalyst",
-          "value": "Oppenheimer upgrade to Outperform and $600 target, an analyst forecast, not confirmed operating growth"
-        },
-        {
-          "label": "Nvidia operating impact",
-          "value": "No established disruption to production, customers or guidance"
-        }
-      ],
-      "key_finding": "Severe NVDA-specific selling contrasts with rising AMD, demonstrating company-specific AI-chip repricing rather than uniform sector weakness.",
-      "sources": [
-        {
-          "title": "The Guardian live — 9:34 AM EST Nvidia price and market cap",
-          "url": "https://www.theguardian.com/business/live/2026/nov/09/nvidia-jensen-huang-scandal-investigation-ai-industry-tech-stocks-recovery-slump-latest-news-updates"
-        },
-        {
-          "title": "Barron's — AMD early-session rise and Oppenheimer upgrade",
-          "url": "https://www.barrons.com/articles/amd-stock-upgrade-nvidia-jensen-huang-probe-3fabd3f8"
-        },
-        {
-          "title": "Associated Press — Nvidia investigation and opening decline",
-          "url": "https://apnews.com/article/63531dec0fe5c145afaac94dde31d478"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261109-0735-nvda-board-inquiry"
-    },
-    {
-      "id": "scout-20261109-0838-ceg-nuclear-google-doe",
-      "observed_at": "2026-11-09T08:38:02-05:00",
-      "title": "Constellation reports Q3 results and new nuclear power agreements",
-      "summary": "Constellation reported Q3 adjusted operating EPS of $5.06 and narrowed 2026 guidance to $12.50–$12.80. It disclosed a Google nuclear collaboration, a 20-year 270 MW agreement and a conditional DOE commitment up to $5 billion. These strengthen long-duration power demand visibility, while financing and execution remain conditional.",
-      "tickers": [
-        "CEG"
-      ],
-      "sectors": [
-        "Utilities",
-        "Nuclear power",
-        "AI infrastructure"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Research observation",
-          "value": "November 9, 2026 at 8:38 AM EST; premarket"
-        },
-        {
-          "label": "Q3 adjusted operating EPS",
-          "value": "$5.06"
-        },
-        {
-          "label": "2026 guidance",
-          "value": "$12.50–$12.80"
-        },
-        {
-          "label": "Power agreement",
-          "value": "270 MW for 20 years"
-        },
-        {
-          "label": "DOE commitment",
-          "value": "Up to $5 billion, conditional"
-        },
-        {
-          "label": "Share-price response",
-          "value": "Not independently established at observation"
-        }
-      ],
-      "key_finding": "Power contracting and conditional financing support the nuclear growth pipeline; delivery remains subject to execution.",
-      "sources": [
-        {
-          "title": "Constellation Q3 SEC release",
-          "url": "https://www.sec.gov/Archives/edgar/data/1168165/000186827526000116/ceg-20261109991.htm"
-        },
-        {
-          "title": "Constellation investor presentation",
-          "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000116/ceg-20261109992.htm"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-09T11:36:47-05:00",
+  "last_checked_at": "2026-11-09T12:27:34-05:00",
   "last_check_status": "new_findings"
 }
