@@ -1,8 +1,139 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-10T15:29:40-05:00",
-  "as_of_et": "November 10, 2026 at 3:29 PM EST",
+  "generated_at": "2026-11-10T16:31:52-05:00",
+  "as_of_et": "November 10, 2026 at 4:31 PM EST",
   "items": [
+    {
+      "id": "scout-20261110-1631-coreweave-q3-financing",
+      "observed_at": "2026-11-10T16:31:52-05:00",
+      "title": "CoreWeave revenue jumps 168% while interest costs overshadow operating profit",
+      "summary": "CoreWeave reported $3.661 billion Q3 revenue, up 168% year over year, and lifted full-year guidance as its AI-cloud backlog reached $132.5 billion. Shares rose about 6% in initial after-hours reporting. However, quarterly interest expense of $846 million substantially exceeded GAAP operating income of $207 million, underscoring capital-market and execution risks.",
+      "tickers": [
+        "CRWV",
+        "NVDA"
+      ],
+      "sectors": [
+        "AI cloud infrastructure",
+        "Data centers",
+        "Semiconductors"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Announcement and research observation",
+          "value": "November 10, 2026 after 4:00 PM EST; research completed 4:31:52 PM EST"
+        },
+        {
+          "label": "Early extended-hours equity response",
+          "value": "Approximately +6% after a $48.73 regular-session close; preliminary, not confirmed settlement"
+        },
+        {
+          "label": "Q3 revenue",
+          "value": "$3.661 billion; +168% year over year; approximately $3.54 billion consensus"
+        },
+        {
+          "label": "Revenue backlog",
+          "value": "Approximately $132.5 billion"
+        },
+        {
+          "label": "Quarterly GAAP operating income / net interest expense",
+          "value": "$207 million operating income; $846 million net interest expense"
+        },
+        {
+          "label": "Quarterly GAAP net loss",
+          "value": "$709 million"
+        },
+        {
+          "label": "Full-year 2026 guidance",
+          "value": "Revenue $13.0–13.3 billion; capital expenditure $37–39 billion"
+        },
+        {
+          "label": "Active power",
+          "value": "More than 1.7 GW as of September 30, 2026"
+        },
+        {
+          "label": "Next verification",
+          "value": "Customer prepayments, 5 PM earnings call, financing costs, project-delivery schedule"
+        }
+      ],
+      "key_finding": "Strong compute demand and backlog coexist with interest costs far above GAAP operating profit and substantial future capital requirements.",
+      "sources": [
+        {
+          "title": "CoreWeave Q3 2026 results, SEC Exhibit 99.1, November 10",
+          "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm"
+        },
+        {
+          "title": "Barron's — CoreWeave earnings beat and early after-hours response, November 10",
+          "url": "https://www.barrons.com/articles/coreweave-earnings-stock-price-7c0a24d8"
+        },
+        {
+          "title": "Wall Street Journal — CoreWeave Q3 earnings and financing, November 10",
+          "url": "https://www.wsj.com/business/earnings/coreweave-crwv-3q-2026-earnings-report-stock-9c109753"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261110-1631-anthropic-office-software",
+      "observed_at": "2026-11-10T16:31:52-05:00",
+      "title": "Anthropic launches native AI work tools, increasing competitive pressure on Microsoft 365",
+      "summary": "Anthropic launched Claude Sheets and Whiteboards in beta and made Claude Data generally available on November 10. Microsoft shares fell around 2% during the regular session as reports identified the launches as one factor, alongside hotter inflation and wider tech weakness. The products increase long-run office-software competition, but customer migration or revenue impact has not been established.",
+      "tickers": [
+        "MSFT",
+        "GOOGL",
+        "IGV"
+      ],
+      "sectors": [
+        "Enterprise software",
+        "Artificial intelligence",
+        "Productivity applications"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Product announcement",
+          "value": "November 10, 2026; reviewed 4:31:52 PM EST"
+        },
+        {
+          "label": "Microsoft market move",
+          "value": "Approximately -2% in November 10 regular-session reporting; exact independent official close not established"
+        },
+        {
+          "label": "New products and status",
+          "value": "Claude Sheets and Whiteboards beta; Claude Data generally available"
+        },
+        {
+          "label": "Functionality limitation",
+          "value": "Claude Sheets currently supports simpler spreadsheet tasks; full-featured Excel equivalence unproven"
+        },
+        {
+          "label": "Fundamental impact",
+          "value": "No independently established Microsoft 365 customer churn or revenue loss"
+        },
+        {
+          "label": "Other market drivers",
+          "value": "October CPI surprise and rising bond yields also pressured software equities"
+        }
+      ],
+      "key_finding": "AI developers are entering productivity software directly, creating a measurable competitive signal but no yet-verified change in incumbent economics.",
+      "sources": [
+        {
+          "title": "Anthropic — Introducing Claude Sheets, Whiteboards and Data, November 10",
+          "url": "https://claude.com/resources/articles/sheets-whiteboards-data"
+        },
+        {
+          "title": "Business Insider — Microsoft shares retreat on Anthropic challenge, November 10",
+          "url": "https://www.businessinsider.com/microsoft-stock-price-anthropic-claude-sheets-office365-2026-11"
+        },
+        {
+          "title": "Investor's Business Daily — Microsoft stock falls on Anthropic challenge, November 10",
+          "url": "https://www.investors.com/news/technology/microsoft-stock-anthropic-challenge-office-software/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261110-1529-hormuz-adnoc-vessel-attacks",
       "observed_at": "2026-11-10T15:29:40-05:00",
@@ -197,140 +328,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261110-1434-qlys-billings-repricing",
-      "observed_at": "2026-11-10T14:34:09-05:00",
-      "title": "Qualys drops sharply despite earnings beat as forward calculated billings slow",
-      "summary": "Qualys reported Q3 revenue of $188 million and adjusted EPS of $2.12, beating consensus, but guided to approximately 8% Q4 calculated current billings growth versus 14% in Q3. Shares were down 12.36% at a 12:37 PM EST market observation. Full-year revenue guidance increased; whether billings deceleration persists is the critical fundamental test.",
-      "tickers": [
-        "QLYS"
-      ],
-      "sectors": [
-        "Cybersecurity",
-        "Software",
-        "Enterprise technology"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Company results published",
-          "value": "November 9, 2026, 4:05 PM EST"
-        },
-        {
-          "label": "Q3 revenue",
-          "value": "$188.0 million; +11% year over year"
-        },
-        {
-          "label": "Q3 adjusted EPS",
-          "value": "$2.12, versus analyst estimate about $1.96"
-        },
-        {
-          "label": "Q3 calculated current billings growth",
-          "value": "+14% year over year"
-        },
-        {
-          "label": "Q4 calculated current billings outlook",
-          "value": "About +8% year over year, per earnings coverage"
-        },
-        {
-          "label": "2026 revenue guidance",
-          "value": "$736.9 million to $738.9 million, increased"
-        },
-        {
-          "label": "Equity price observation",
-          "value": "$177.43, -12.36%, at 12:37 PM EST November 10; intraday, not confirmed closing price"
-        }
-      ],
-      "key_finding": "Large earnings-day repricing reflects weaker expected forward billings, not an earnings miss; renewal trends and cash conversion require monitoring.",
-      "sources": [
-        {
-          "title": "Qualys official third-quarter 2026 release, November 9",
-          "url": "https://qualys.gcs-web.com/news-releases/news-release-details/qualys-announces-third-quarter-2026-financial-results"
-        },
-        {
-          "title": "Investor's Business Daily, November 10: Qualys earnings and weaker billings outlook",
-          "url": "https://www.investors.com/news/technology/qualys-stock-q32026-earnings-qlys/"
-        },
-        {
-          "title": "StockAnalysis: QLYS November 10 market observation",
-          "url": "https://stockanalysis.com/stocks/qlys/history/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261110-1334-eia-steo-diesel-supply",
-      "observed_at": "2026-11-10T13:34:12-05:00",
-      "title": "EIA projects persistent diesel and tanker tightness despite November oil-price slide",
-      "summary": "EIA's November 10 outlook raised its 2027 U.S. diesel price forecast by 12% to $5.03/gallon and expects Brent around $100/barrel in November–December. It estimates October Middle East shut-in production at 2.5 million barrels/day, down from 10.9 million at May's peak. Forecast inputs were finalized November 5 and exclude subsequent diplomatic developments and oil-price declines.",
-      "tickers": [
-        "XLE",
-        "XOP",
-        "VLO",
-        "MPC"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Refining",
-        "Maritime transportation",
-        "Energy supply chains"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Source and observation time",
-          "value": "EIA November 10, 2026 STEO; scout review 1:34 PM EST"
-        },
-        {
-          "label": "2027 retail diesel forecast revision",
-          "value": "$5.03/gallon versus October forecast of $4.49; +12.0%"
-        },
-        {
-          "label": "Near-term Brent forecast",
-          "value": "Around $100/barrel for November–December; EIA assumption, not today's market price"
-        },
-        {
-          "label": "November 10 Brent market contrast",
-          "value": "Traded below $90 earlier on Tuesday; intraday, not closing price"
-        },
-        {
-          "label": "October Middle East curtailed production",
-          "value": "EIA estimate 2.5 million barrels/day; down from 10.9 million barrels/day in May"
-        },
-        {
-          "label": "End-October US commercial crude inventories",
-          "value": "Approximately 410 million barrels; lowest October-end since 2014"
-        },
-        {
-          "label": "Forecast data cutoff",
-          "value": "November 5, 2026; subsequent events not incorporated"
-        },
-        {
-          "label": "Physical flow evidence",
-          "value": "EIA cites increased October exports after Saudi East-West pipeline restart and use of Oman-coast ship-to-ship transfers; not a November 10 transit observation"
-        }
-      ],
-      "key_finding": "EIA's newly released outlook forecasts persistent diesel/refining constraints even as crude prices discount de-escalation; November 5 input cutoff limits immediacy.",
-      "sources": [
-        {
-          "title": "EIA — November 10, 2026 Short-Term Energy Outlook",
-          "url": "https://www.eia.gov/outlooks/steo/report/"
-        },
-        {
-          "title": "EIA — November 2026 global oil markets",
-          "url": "https://www.eia.gov/outlooks/steo/report/global_oil.php"
-        },
-        {
-          "title": "Financial Times — November 10 oil prices and Iran de-escalation",
-          "url": "https://www.ft.com/content/07bdb58c-4557-4def-b8cb-db9be304fd72"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-10T15:29:40-05:00",
+  "last_checked_at": "2026-11-10T16:31:52-05:00",
   "last_check_status": "new_findings"
 }
