@@ -1,8 +1,119 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-09T19:34:32-05:00",
-  "as_of_et": "November 9, 2026 at 7:34 PM EST",
+  "generated_at": "2026-11-10T11:35:00-05:00",
+  "as_of_et": "November 10, 2026 at 11:35 AM EST",
   "items": [
+    {
+      "id": "scout-20261110-1135-october-cpi-hotter",
+      "observed_at": "2026-11-10T11:35:00-05:00",
+      "title": "October headline CPI rises 0.4% month on month, pressuring growth equities",
+      "summary": "The BLS reported October headline CPI up 0.4% month on month, core up 0.3%, and shelter up 0.3%. The headline reading exceeded a widely reported 0.3% consensus, while equities weakened amid renewed interest-rate concerns. Because October 2025 observations were unavailable, the BLS cannot publish most October 2026 year-over-year CPI changes.",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "XLK"
+      ],
+      "sectors": [
+        "Macroeconomics",
+        "Technology",
+        "Interest rates"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Release",
+          "value": "November 10, 2026, 8:30 AM EST"
+        },
+        {
+          "label": "Headline CPI monthly",
+          "value": "+0.4%; consensus reported around +0.3%"
+        },
+        {
+          "label": "Core CPI monthly",
+          "value": "+0.3%"
+        },
+        {
+          "label": "Shelter monthly",
+          "value": "+0.3%"
+        },
+        {
+          "label": "Annual CPI",
+          "value": "Most 12-month comparisons unavailable because October 2025 collection was suspended"
+        },
+        {
+          "label": "Market response",
+          "value": "Tuesday equities lower in contemporaneous reporting; no independently verified timestamped index percentage"
+        }
+      ],
+      "key_finding": "Inflation surprise increases rate sensitivity of growth equities; missing year-earlier data constrain annual comparisons.",
+      "sources": [
+        {
+          "title": "BLS October 2026 CPI release",
+          "url": "https://www.bls.gov/news.release/archives/cpi_11102026.htm"
+        },
+        {
+          "title": "Barron's November 10 market movers",
+          "url": "https://www.barrons.com/articles/stock-movers-9ff7ace7"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261110-1135-brent-below-90",
+      "observed_at": "2026-11-10T11:35:00-05:00",
+      "title": "Brent breaks below $90 amid Iran de-escalation despite persistent Hormuz security risk",
+      "summary": "Reuters reported Brent at $89.65 and WTI at $84.52 at 13:34 GMT on November 10, extending Monday's sharp oil selloff. Presidential restraint comments reduced escalation fears, while UKMTO's latest displayed incidents remained dated November 8. Neither newly restored normal tanker transit nor incremental physical oil supply loss was verified.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Energy",
+        "Maritime security"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Price observation",
+          "value": "November 10, 2026, 13:34 GMT / 8:34 AM EST; intraday futures"
+        },
+        {
+          "label": "Brent",
+          "value": "$89.65/bbl; -3.15%"
+        },
+        {
+          "label": "WTI",
+          "value": "$84.52/bbl; -2.68%"
+        },
+        {
+          "label": "Previous session Brent move",
+          "value": "Approximately -5.9% on November 9"
+        },
+        {
+          "label": "UKMTO latest listed incidents",
+          "value": "November 8, 2026; no newer incident established"
+        },
+        {
+          "label": "Physical transit and supply change",
+          "value": "No new verified normalization or incremental loss established"
+        }
+      ],
+      "key_finding": "Oil risk premium is compressing despite unresolved maritime threats; monitor actual tanker flows and EIA/API inventories.",
+      "sources": [
+        {
+          "title": "Reuters November 10 oil report",
+          "url": "https://uk.marketscreener.com/news/oil-falls-as-trump-downplays-prospect-of-escalation-with-iran-ce785fd3d08ef323"
+        },
+        {
+          "title": "UKMTO recent incidents",
+          "url": "https://www.ukmto.org/recent-incidents"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261109-1627-oil-settlement-deescalation"
+    },
     {
       "id": "scout-20261109-1934-apps-margin-repricing",
       "observed_at": "2026-11-09T19:34:32-05:00",
@@ -191,134 +302,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261109-1831-ttd-afterhours-rebound",
-      "observed_at": "2026-11-09T18:31:22-05:00",
-      "title": "Trade Desk rallies after outlook beat despite ongoing revenue contraction",
-      "summary": "Trade Desk's Q3 revenue slipped 0.5% year over year to $736 million while adjusted earnings beat estimates. Management projects at least $755 million in Q4 revenue and increased available share-repurchase authorization to $1 billion. A sharp extended-hours rebound follows steep 2026 losses, but customer retention and sustained organic growth remain unproven.",
-      "tickers": [
-        "TTD"
-      ],
-      "sectors": [
-        "Software",
-        "Advertising technology",
-        "Digital media"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Observation",
-          "value": "November 9, 2026 6:31 PM EST review; extended-hours prices vary"
-        },
-        {
-          "label": "After-hours move",
-          "value": "Approximately +20% in late-trading media reporting, not confirmed closing return"
-        },
-        {
-          "label": "Q3 revenue",
-          "value": "$736 million, -0.5% year over year"
-        },
-        {
-          "label": "Q3 adjusted EPS",
-          "value": "$0.33 versus roughly $0.25 consensus"
-        },
-        {
-          "label": "Q4 revenue guide",
-          "value": "At least $755 million"
-        },
-        {
-          "label": "Buyback authorization",
-          "value": "$1 billion available after board increase"
-        },
-        {
-          "label": "Next indicators",
-          "value": "Advertiser retention, organic growth, GAAP margin and guidance delivery"
-        }
-      ],
-      "key_finding": "Earnings and guidance exceeded reduced expectations, but a durable revenue-growth recovery has not been demonstrated.",
-      "sources": [
-        {
-          "title": "Trade Desk — official Q3 results",
-          "url": "https://investors.thetradedesk.com/news-and-events/news/news-details/2026/The-Trade-Desk-Reports-Third-Quarter-2026-Financial-Results/default.aspx"
-        },
-        {
-          "title": "Barron's — after-hours rebound and commercial risks",
-          "url": "https://www.barrons.com/articles/trade-desk-earnings-stock-price-7ac7ae25"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261109-1627-oil-settlement-deescalation",
-      "observed_at": "2026-11-09T16:27:47-05:00",
-      "title": "Brent settles down 5.85% at 10-week low despite continuing Hormuz vessel risk",
-      "summary": "Brent settled November 9 at $92.57, down 5.85%, and WTI at $86.85, down 4.38%, extending the earlier intraday retreat. U.S. comments lowered expectations of renewed Iran strikes even as maritime attacks remain a risk. Physical Dated Brent weakness suggests reduced near-term tightness; no newly verified normal transit or additional production interruption was established.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Energy",
-        "Maritime transportation",
-        "Strait of Hormuz"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Settlement and scout observation",
-          "value": "November 9, 2026 settlement; assessed 4:27 PM EST"
-        },
-        {
-          "label": "Brent confirmed settlement",
-          "value": "$92.57/barrel, -$5.75 (-5.85%); Reuters and Financial Times"
-        },
-        {
-          "label": "WTI confirmed settlement",
-          "value": "$86.85/barrel, -$3.98 (-4.38%); Reuters and Financial Times"
-        },
-        {
-          "label": "Brent session low",
-          "value": "$90.56/barrel (approximately -7.9% intraday), per Financial Times"
-        },
-        {
-          "label": "Physical Dated Brent",
-          "value": "$92.25, reported below January-delivery oil by Financial Times; single independent price report"
-        },
-        {
-          "label": "Maritime risk and throughput",
-          "value": "Earlier Hormuz tanker incidents remain reported; no further incremental confirmed oil-flow loss in this scan"
-        },
-        {
-          "label": "Next indicators",
-          "value": "UKMTO advisories, verified Hormuz passages, freight/insurance, Brent spreads and diplomatic developments"
-        }
-      ],
-      "key_finding": "Corroborated deep oil-price settlement decline and softer physical-market pricing contrast with unresolved Hormuz shipping disruption.",
-      "sources": [
-        {
-          "title": "Reuters — Brent/WTI settlement and post-settlement decline, Nov 9",
-          "url": "https://www.streetinsider.com/Commodities/Oil%2Bdown%2Bmore%2Bthan%2B%247%2Ba%2Bbarrel%2Bin%2Bpost%2Bsettlement%2Btrade%2Bas%2BTrump%2Bsignals%2Brestraint%2Bon%2BIran/27309531.html"
-        },
-        {
-          "title": "Financial Times — Oil drops to 10-week low, Nov 9",
-          "url": "https://www.ft.com/content/1b818c16-5197-45f4-857a-49f99a10252f"
-        },
-        {
-          "title": "Associated Press — Wall Street rally and Brent settlement, Nov 9",
-          "url": "https://apnews.com/article/stocks-markets-ai-trump-oil-d938f8e6ff42b3706e1d36e6245ec56b"
-        },
-        {
-          "title": "UKMTO — Recent security incidents",
-          "url": "https://www.ukmto.org/recent-incidents"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261109-1039-oil-deescalation-accelerates"
     }
   ],
-  "last_checked_at": "2026-11-09T19:34:32-05:00",
+  "last_checked_at": "2026-11-10T11:35:00-05:00",
   "last_check_status": "new_findings"
 }
