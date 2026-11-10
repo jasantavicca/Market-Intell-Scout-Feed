@@ -1,8 +1,78 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-10T12:31:58-05:00",
-  "as_of_et": "November 10, 2026 at 12:31 PM EST",
+  "generated_at": "2026-11-10T13:34:12-05:00",
+  "as_of_et": "November 10, 2026 at 1:34 PM EST",
   "items": [
+    {
+      "id": "scout-20261110-1334-eia-steo-diesel-supply",
+      "observed_at": "2026-11-10T13:34:12-05:00",
+      "title": "EIA projects persistent diesel and tanker tightness despite November oil-price slide",
+      "summary": "EIA's November 10 outlook raised its 2027 U.S. diesel price forecast by 12% to $5.03/gallon and expects Brent around $100/barrel in November–December. It estimates October Middle East shut-in production at 2.5 million barrels/day, down from 10.9 million at May's peak. Forecast inputs were finalized November 5 and exclude subsequent diplomatic developments and oil-price declines.",
+      "tickers": [
+        "XLE",
+        "XOP",
+        "VLO",
+        "MPC"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Refining",
+        "Maritime transportation",
+        "Energy supply chains"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Source and observation time",
+          "value": "EIA November 10, 2026 STEO; scout review 1:34 PM EST"
+        },
+        {
+          "label": "2027 retail diesel forecast revision",
+          "value": "$5.03/gallon versus October forecast of $4.49; +12.0%"
+        },
+        {
+          "label": "Near-term Brent forecast",
+          "value": "Around $100/barrel for November–December; EIA assumption, not today's market price"
+        },
+        {
+          "label": "November 10 Brent market contrast",
+          "value": "Traded below $90 earlier on Tuesday; intraday, not closing price"
+        },
+        {
+          "label": "October Middle East curtailed production",
+          "value": "EIA estimate 2.5 million barrels/day; down from 10.9 million barrels/day in May"
+        },
+        {
+          "label": "End-October US commercial crude inventories",
+          "value": "Approximately 410 million barrels; lowest October-end since 2014"
+        },
+        {
+          "label": "Forecast data cutoff",
+          "value": "November 5, 2026; subsequent events not incorporated"
+        },
+        {
+          "label": "Physical flow evidence",
+          "value": "EIA cites increased October exports after Saudi East-West pipeline restart and use of Oman-coast ship-to-ship transfers; not a November 10 transit observation"
+        }
+      ],
+      "key_finding": "EIA's newly released outlook forecasts persistent diesel/refining constraints even as crude prices discount de-escalation; November 5 input cutoff limits immediacy.",
+      "sources": [
+        {
+          "title": "EIA — November 10, 2026 Short-Term Energy Outlook",
+          "url": "https://www.eia.gov/outlooks/steo/report/"
+        },
+        {
+          "title": "EIA — November 2026 global oil markets",
+          "url": "https://www.eia.gov/outlooks/steo/report/global_oil.php"
+        },
+        {
+          "title": "Financial Times — November 10 oil prices and Iran de-escalation",
+          "url": "https://www.ft.com/content/07bdb58c-4557-4def-b8cb-db9be304fd72"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261110-1231-sanm-ai-manufacturing",
       "observed_at": "2026-11-10T12:31:58-05:00",
@@ -239,69 +309,8 @@
       ],
       "status": "updated",
       "supersedes": "scout-20261109-1627-oil-settlement-deescalation"
-    },
-    {
-      "id": "scout-20261109-1934-apps-margin-repricing",
-      "observed_at": "2026-11-09T19:34:32-05:00",
-      "title": "Digital Turbine drops sharply after earnings despite sales growth",
-      "summary": "Digital Turbine shares fell sharply after hours despite strong reported revenue and adjusted EBITDA growth. Rising revenue-sharing costs cut non-GAAP gross margin, and management disclosed a prior-period expense correction assessed as immaterial. The selloff highlights uncertainty over partner economics and durable cash conversion.",
-      "tickers": [
-        "APPS"
-      ],
-      "sectors": [
-        "Mobile software",
-        "Advertising technology"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "After-hours observation",
-          "value": "November 9, 2026 at 7:15 PM EST; extended-hours, not official close"
-        },
-        {
-          "label": "After-hours indicated price",
-          "value": "$8.61, -24.07% vs regular-session close, StockSetups delayed quote"
-        },
-        {
-          "label": "Fiscal Q2 2027 revenue",
-          "value": "$178.7 million, +27% year over year"
-        },
-        {
-          "label": "Adjusted EBITDA",
-          "value": "$39.8 million, +46% year over year"
-        },
-        {
-          "label": "Non-GAAP gross profit margin",
-          "value": "43%, versus 47% one year earlier"
-        },
-        {
-          "label": "Revenue-sharing expenses",
-          "value": "$87.7 million versus $63.1 million year earlier"
-        },
-        {
-          "label": "Prior-period correction",
-          "value": "$3.5 million understated revenue-share expense in fiscal Q1 2027, deemed immaterial by company"
-        }
-      ],
-      "key_finding": "Material after-hours repricing centers on margin quality and partner payouts despite improving reported revenue.",
-      "sources": [
-        {
-          "title": "Digital Turbine November 9 fiscal Q2 2027 earnings release",
-          "url": "https://ir.digitalturbine.com/news-events/press-releases/detail/709/digital-turbine-reports-strong-fiscal-2027-second-quarter"
-        },
-        {
-          "title": "StockSetups November 9 after-hours movers at 7:15 PM ET",
-          "url": "https://stocksetups.com/movers/after-hours"
-        },
-        {
-          "title": "Investing.com November 9 coverage of margin reaction",
-          "url": "https://uk.investing.com/news/earnings/digital-turbine-tumbles-as-margins-disappoint-4969565"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-10T12:31:58-05:00",
+  "last_checked_at": "2026-11-10T13:34:12-05:00",
   "last_check_status": "new_findings"
 }
