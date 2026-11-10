@@ -1,8 +1,134 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-10T11:35:00-05:00",
-  "as_of_et": "November 10, 2026 at 11:35 AM EST",
+  "generated_at": "2026-11-10T12:31:58-05:00",
+  "as_of_et": "November 10, 2026 at 12:31 PM EST",
   "items": [
+    {
+      "id": "scout-20261110-1231-sanm-ai-manufacturing",
+      "observed_at": "2026-11-10T12:31:58-05:00",
+      "title": "Sanmina beats earnings estimates as AI and cloud manufacturing expands",
+      "summary": "Sanmina reported fiscal Q4 revenue of $3.86 billion and adjusted EPS of $4.43, exceeding analyst estimates. AI and cloud revenue expanded 179% year over year, supported by ZT Systems integration. Shares rose sharply in premarket trading, but acquisition-driven growth, concentration and margins remain key durability tests.",
+      "tickers": [
+        "SANM"
+      ],
+      "sectors": [
+        "Electronics manufacturing services",
+        "AI infrastructure",
+        "Semiconductors and computing systems"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Research observation",
+          "value": "November 10, 2026 at 12:31 PM EST"
+        },
+        {
+          "label": "Reported fiscal Q4 revenue",
+          "value": "$3.86 billion"
+        },
+        {
+          "label": "Reported fiscal Q4 adjusted EPS",
+          "value": "$4.43"
+        },
+        {
+          "label": "AI and cloud systems revenue",
+          "value": "$2.37 billion, +179% year over year (Barron's)"
+        },
+        {
+          "label": "Fiscal 2027 revenue guidance",
+          "value": "$17.5 billion to $19.5 billion"
+        },
+        {
+          "label": "Market move",
+          "value": "SANM approximately +15.9% in Nov 10 premarket report; not verified at research completion"
+        },
+        {
+          "label": "Fiscal 2027 non-GAAP operating margin guidance",
+          "value": "7.0% to 7.5%"
+        }
+      ],
+      "key_finding": "The AI infrastructure spending cycle is translating into strong EMS earnings, although acquisition integration and margin durability matter.",
+      "sources": [
+        {
+          "title": "Sanmina official earnings release, Nov 9",
+          "url": "https://www.prnewswire.com/news-releases/sanmina-reports-fourth-quarter-and-fiscal-2026-financial-results-302933746.html"
+        },
+        {
+          "title": "Barron's Sanmina earnings and AI growth, Nov 10",
+          "url": "https://www.barrons.com/articles/sanmina-earnings-stock-price-ai-8add1e82"
+        },
+        {
+          "title": "Barron's Nov 10 premarket movers",
+          "url": "https://www.barrons.com/articles/s-p-500-futures-steady-in-premarket-trading-intercorp-finl-svcs-sanmina-lead-8dccafad"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261110-1231-ifx-power-chips",
+      "observed_at": "2026-11-10T12:31:58-05:00",
+      "title": "Infineon raises FY2027 data-center power chip revenue forecast to nearly EUR 4 billion",
+      "summary": "Infineon guided to nearly EUR 4 billion of FY2027 data-center power-supply revenue, up from an earlier roughly EUR 2.5 billion outlook. It forecasts approximately EUR 20 billion total revenue versus EUR 16.35 billion in FY2026. Shares rose on the announcement, while auto demand, manufacturing expansion and spending requirements remain execution risks.",
+      "tickers": [
+        "IFX.DE",
+        "IFNNY"
+      ],
+      "sectors": [
+        "Power semiconductors",
+        "Data-center infrastructure",
+        "Grid and industrial power",
+        "Automotive electronics"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Research observation",
+          "value": "November 10, 2026 at 12:31 PM EST"
+        },
+        {
+          "label": "FY2027 data-center power revenue forecast",
+          "value": "Close to EUR 4 billion; previous outlook approximately EUR 2.5 billion"
+        },
+        {
+          "label": "FY2027 total company revenue outlook",
+          "value": "Approximately EUR 20 billion"
+        },
+        {
+          "label": "FY2026 revenue",
+          "value": "EUR 16.353 billion"
+        },
+        {
+          "label": "FY2026 Q4 segment result margin",
+          "value": "23.8%"
+        },
+        {
+          "label": "FY2027 planned investments",
+          "value": "EUR 3.0 to 3.5 billion"
+        },
+        {
+          "label": "Market move",
+          "value": "IFX.DE approximately +6.47% at Nov 10 10:55 CET (4:55 AM EST); not current market quote"
+        }
+      ],
+      "key_finding": "Infineon's materially higher data-center power target reinforces demand for power electronics behind AI and grid buildouts.",
+      "sources": [
+        {
+          "title": "Infineon FY2026 results and FY2027 outlook, Nov 10",
+          "url": "https://www.infineon.com/press-release/2026/infpr202611-025"
+        },
+        {
+          "title": "Wall Street Journal, Nov 10 data-center forecast",
+          "url": "https://www.wsj.com/business/earnings/chip-maker-infineon-lifts-ai-sales-goal-signaling-confidence-in-demand-80ba33f3"
+        },
+        {
+          "title": "WELT Nov 10 intraday IFX share response",
+          "url": "https://www.welt.de/article6af2eb6cf0b67a4b24662d79"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261110-1135-october-cpi-hotter",
       "observed_at": "2026-11-10T11:35:00-05:00",
@@ -174,136 +300,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261109-1934-qmco-hyperscale-storage",
-      "observed_at": "2026-11-09T19:34:32-05:00",
-      "title": "Quantum rises on strong data-storage sales and record backlog",
-      "summary": "Quantum reported rapid revenue growth, margin expansion, near-record order momentum and a major hyperscale storage commitment. Shares rose strongly after hours. A large reported GAAP loss was predominantly affected by a noncash warrant revaluation, so backlog conversion, storage supply and recurring profitability remain central tests.",
-      "tickers": [
-        "QMCO"
-      ],
-      "sectors": [
-        "AI infrastructure",
-        "Data storage",
-        "Enterprise technology"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "After-hours observation",
-          "value": "November 9, 2026 at 7:15 PM EST; extended-hours, not official close"
-        },
-        {
-          "label": "After-hours indicated price",
-          "value": "$19.80, +16.40% vs regular-session close, StockSetups delayed quote"
-        },
-        {
-          "label": "Fiscal Q2 2027 revenue",
-          "value": "$89.6 million, +42.9% year over year"
-        },
-        {
-          "label": "Gross margin",
-          "value": "41.0%, up 340 basis points year over year"
-        },
-        {
-          "label": "Order backlog",
-          "value": "Nearly $100 million, company-reported record"
-        },
-        {
-          "label": "Adjusted EBITDA",
-          "value": "$11.1 million"
-        },
-        {
-          "label": "GAAP net loss",
-          "value": "$44.8 million, including $51.6 million noncash change in warrant liability value"
-        },
-        {
-          "label": "Debt",
-          "value": "No outstanding debt at September 30, 2026"
-        }
-      ],
-      "key_finding": "Hyperscale archival-storage demand is translating into orders and improving operating metrics, though GAAP results remain volatile.",
-      "sources": [
-        {
-          "title": "Quantum November 9 fiscal Q2 2027 earnings release",
-          "url": "https://investors.quantum.com/news-events/press-releases/detail/274/quantum-reports-fiscal-second-quarter-2027-financial-results"
-        },
-        {
-          "title": "StockSetups November 9 after-hours movers at 7:15 PM ET",
-          "url": "https://stocksetups.com/movers/after-hours"
-        },
-        {
-          "title": "StockAnalysis November 9 after-hours price snapshot",
-          "url": "https://stockanalysis.com/markets/afterhours/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261109-1831-aaon-cooling-earnings",
-      "observed_at": "2026-11-09T18:31:22-05:00",
-      "title": "AAON posts major data-center cooling growth but identifies material control weakness",
-      "summary": "AAON reported Q3 revenue up 84.1% and BASX data-center-linked sales up 218.3%, with total backlog up 40.5% year over year. The company raised 2026 guidance but restated its first two quarters and disclosed a material weakness in financial controls. Strong conversion and reporting reliability must both be assessed.",
-      "tickers": [
-        "AAON"
-      ],
-      "sectors": [
-        "Data-center cooling",
-        "Industrial HVAC",
-        "AI infrastructure"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Observation",
-          "value": "November 9, 2026 6:31 PM EST review; after-hours indication is not a closing price"
-        },
-        {
-          "label": "After-hours move",
-          "value": "Approximately +13% to +15% in early after-hours reports; quote timing varies"
-        },
-        {
-          "label": "Q3 revenue",
-          "value": "$707.4 million, +84.1% year over year"
-        },
-        {
-          "label": "BASX-branded sales",
-          "value": "$397.2 million, +218.3% year over year"
-        },
-        {
-          "label": "Total backlog",
-          "value": "$1.854 billion, +40.5% year over year"
-        },
-        {
-          "label": "Restatement and controls",
-          "value": "Q1/Q2 2026 restated; material weakness disclosed"
-        },
-        {
-          "label": "Next indicators",
-          "value": "Backlog conversion, liquid-cooling margin, internal-control remediation"
-        }
-      ],
-      "key_finding": "Cooling order demand and earnings are strong, but an acknowledged reporting-control weakness qualifies the positive signal.",
-      "sources": [
-        {
-          "title": "AAON investor relations — November 9 Q3 results",
-          "url": "https://investors.theaaongroup.com/news/news-details/2026/The-Aaon-Group-Reports-Record-Third-Quarter-2026-Results-Restates-First-and-Second-Quarter-2026-Financial-Statements-and-Raises-Full-Year-Outlook/default.aspx"
-        },
-        {
-          "title": "AAON SEC quarterly filing summary",
-          "url": "https://www.stocktitan.net/sec-filings/AAON/10-q-aaon-inc-quarterly-earnings-report-3cc038d34bfc.html"
-        },
-        {
-          "title": "AAON after-hours quote",
-          "url": "https://finance.yahoo.com/quote/AAON/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-10T11:35:00-05:00",
+  "last_checked_at": "2026-11-10T12:31:58-05:00",
   "last_check_status": "new_findings"
 }
