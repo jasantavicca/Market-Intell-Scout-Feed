@@ -1,8 +1,84 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-10T16:31:52-05:00",
-  "as_of_et": "November 10, 2026 at 4:31 PM EST",
+  "generated_at": "2026-11-10T18:27:10-05:00",
+  "as_of_et": "November 10, 2026 at 6:27 PM EST",
   "items": [
+    {
+      "id": "scout-20261110-1827-pepgen-dm1-data",
+      "observed_at": "2026-11-10T18:27:10-05:00",
+      "title": "PepGen surges on Phase 2 myotonic dystrophy clinical signal; FDA partial hold remains",
+      "summary": "PepGen reported 46.5% mean RNA splicing correction in six treated patients in its Phase 2 DM1 10 mg/kg cohort, alongside improvements in several functional measures. Shares more than doubled intraday and ended roughly 90% higher by vendor estimates, which differ on the exact close. Small sample size, durability questions and an unresolved FDA partial hold remain material risks.",
+      "tickers": [
+        "PEPG",
+        "DYN",
+        "SRPT"
+      ],
+      "sectors": [
+        "Biotechnology",
+        "Healthcare",
+        "Rare disease therapeutics"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Clinical announcement",
+          "value": "November 10, 2026 at 7:01 AM EST; reviewed November 10 at 6:27 PM EST"
+        },
+        {
+          "label": "RNA splicing correction",
+          "value": "Mean 46.5% at Week 13, 10 mg/kg; n=6 active-treatment patients"
+        },
+        {
+          "label": "Responder distribution",
+          "value": "5 of 6 treated patients >20% correction; 4 of 6 >50%"
+        },
+        {
+          "label": "Functional outcome",
+          "value": "Video hand-opening time improved 3.9 seconds (52.7%) from baseline at Week 16"
+        },
+        {
+          "label": "Equity market reaction",
+          "value": "More than doubled intraday on November 10; indicative end-of-session gain around +90%, exact close not confirmed due vendor disagreement"
+        },
+        {
+          "label": "Indicative end-session quotes",
+          "value": "Stock Analysis: $4.52, +89.12%; Investing.com historical: $4.565, +91.00%; conflicting figures, not a confirmed close"
+        },
+        {
+          "label": "FDA regulatory status",
+          "value": "US partial clinical hold dating to March 2026 remains unresolved"
+        },
+        {
+          "label": "Next trial checkpoints",
+          "value": "Extension study data January 2027; 12.5 mg/kg results expected first half of 2027"
+        }
+      ],
+      "key_finding": "A large clinical-data-driven repricing highlights potential DM1 efficacy, but the six-patient cohort and unresolved US regulatory hold demand caution.",
+      "sources": [
+        {
+          "title": "PepGen November 10 clinical data (SEC exhibit)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1835597/000119312526454469/pepg-ex99_2.htm"
+        },
+        {
+          "title": "PepGen earnings, trial updates and partial hold (investor filing)",
+          "url": "https://investors.pepgen.com/node/9531/html"
+        },
+        {
+          "title": "Fierce Biotech November 10 independent clinical and market coverage",
+          "url": "https://www.fiercebiotech.com/biotech/pepgens-stock-doubles-midphase-dm1-data-wow-analysts"
+        },
+        {
+          "title": "Stock Analysis November 10 historical PEPG prices",
+          "url": "https://stockanalysis.com/stocks/pepg/history/"
+        },
+        {
+          "title": "Investing.com PEPG historical price information",
+          "url": "https://www.investing.com/equities/pepgen-historical-data"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261110-1631-coreweave-q3-financing",
       "observed_at": "2026-11-10T16:31:52-05:00",
@@ -268,68 +344,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261110-1434-softbank-power-writeoff",
-      "observed_at": "2026-11-10T14:34:09-05:00",
-      "title": "SoftBank takes $3.7 billion data-center power-equipment charge as GE Vernova shares fall",
-      "summary": "SoftBank disclosed a $3.7 billion charge after revising procurement plans for U.S. AI-data-center power equipment. GE Vernova fell about 6.8% in Tuesday morning trading amid concerns about future gas-turbine orders. SoftBank said the charge was unrelated to its Ports-Pike campus; the specific affected suppliers have not been confirmed.",
-      "tickers": [
-        "9984.T",
-        "GEV"
-      ],
-      "sectors": [
-        "AI infrastructure",
-        "Power generation",
-        "Data-center power",
-        "Industrial equipment"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Disclosure date",
-          "value": "November 10, 2026"
-        },
-        {
-          "label": "SoftBank equipment-related charge",
-          "value": "Approximately $3.7 billion"
-        },
-        {
-          "label": "SoftBank September-quarter net result",
-          "value": "Approximately $7 billion loss"
-        },
-        {
-          "label": "GEV intraday reaction",
-          "value": "Approximately -6.84% at 10:42 AM EST November 10; not a confirmed close"
-        },
-        {
-          "label": "GEV order cancellation",
-          "value": "Not confirmed; specific affected suppliers not disclosed"
-        },
-        {
-          "label": "Project distinction",
-          "value": "SoftBank said equipment charge was unrelated to its Ports-Pike campus"
-        }
-      ],
-      "key_finding": "A material advance-procurement write-down exposes execution risks in AI power equipment, but direct GEV order losses are unverified.",
-      "sources": [
-        {
-          "title": "SoftBank official Q2 FY2026 earnings results, November 10",
-          "url": "https://group.softbank/en/event/earnings_2026q2"
-        },
-        {
-          "title": "Financial Times, November 10: SoftBank slumps to $7bn loss on US data centre writedown",
-          "url": "https://www.ft.com/content/5ceed157-0016-4822-a272-8b607911da5e"
-        },
-        {
-          "title": "Motley Fool, 11:00 AM EST November 10: AI power selloff and GEV intraday quote",
-          "url": "https://www.fool.com/investing/2026/11/10/ge-vernova-vertiv-and-bloom-energy-just-lost-10-to/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-10T17:35:27-05:00",
-  "last_check_status": "no_new_findings"
+  "last_checked_at": "2026-11-10T18:27:10-05:00",
+  "last_check_status": "new_findings"
 }
