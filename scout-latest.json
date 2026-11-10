@@ -1,8 +1,135 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-09T18:31:22-05:00",
-  "as_of_et": "November 9, 2026 at 6:31 PM EST",
+  "generated_at": "2026-11-09T19:34:32-05:00",
+  "as_of_et": "November 9, 2026 at 7:34 PM EST",
   "items": [
+    {
+      "id": "scout-20261109-1934-apps-margin-repricing",
+      "observed_at": "2026-11-09T19:34:32-05:00",
+      "title": "Digital Turbine drops sharply after earnings despite sales growth",
+      "summary": "Digital Turbine shares fell sharply after hours despite strong reported revenue and adjusted EBITDA growth. Rising revenue-sharing costs cut non-GAAP gross margin, and management disclosed a prior-period expense correction assessed as immaterial. The selloff highlights uncertainty over partner economics and durable cash conversion.",
+      "tickers": [
+        "APPS"
+      ],
+      "sectors": [
+        "Mobile software",
+        "Advertising technology"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "After-hours observation",
+          "value": "November 9, 2026 at 7:15 PM EST; extended-hours, not official close"
+        },
+        {
+          "label": "After-hours indicated price",
+          "value": "$8.61, -24.07% vs regular-session close, StockSetups delayed quote"
+        },
+        {
+          "label": "Fiscal Q2 2027 revenue",
+          "value": "$178.7 million, +27% year over year"
+        },
+        {
+          "label": "Adjusted EBITDA",
+          "value": "$39.8 million, +46% year over year"
+        },
+        {
+          "label": "Non-GAAP gross profit margin",
+          "value": "43%, versus 47% one year earlier"
+        },
+        {
+          "label": "Revenue-sharing expenses",
+          "value": "$87.7 million versus $63.1 million year earlier"
+        },
+        {
+          "label": "Prior-period correction",
+          "value": "$3.5 million understated revenue-share expense in fiscal Q1 2027, deemed immaterial by company"
+        }
+      ],
+      "key_finding": "Material after-hours repricing centers on margin quality and partner payouts despite improving reported revenue.",
+      "sources": [
+        {
+          "title": "Digital Turbine November 9 fiscal Q2 2027 earnings release",
+          "url": "https://ir.digitalturbine.com/news-events/press-releases/detail/709/digital-turbine-reports-strong-fiscal-2027-second-quarter"
+        },
+        {
+          "title": "StockSetups November 9 after-hours movers at 7:15 PM ET",
+          "url": "https://stocksetups.com/movers/after-hours"
+        },
+        {
+          "title": "Investing.com November 9 coverage of margin reaction",
+          "url": "https://uk.investing.com/news/earnings/digital-turbine-tumbles-as-margins-disappoint-4969565"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261109-1934-qmco-hyperscale-storage",
+      "observed_at": "2026-11-09T19:34:32-05:00",
+      "title": "Quantum rises on strong data-storage sales and record backlog",
+      "summary": "Quantum reported rapid revenue growth, margin expansion, near-record order momentum and a major hyperscale storage commitment. Shares rose strongly after hours. A large reported GAAP loss was predominantly affected by a noncash warrant revaluation, so backlog conversion, storage supply and recurring profitability remain central tests.",
+      "tickers": [
+        "QMCO"
+      ],
+      "sectors": [
+        "AI infrastructure",
+        "Data storage",
+        "Enterprise technology"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "After-hours observation",
+          "value": "November 9, 2026 at 7:15 PM EST; extended-hours, not official close"
+        },
+        {
+          "label": "After-hours indicated price",
+          "value": "$19.80, +16.40% vs regular-session close, StockSetups delayed quote"
+        },
+        {
+          "label": "Fiscal Q2 2027 revenue",
+          "value": "$89.6 million, +42.9% year over year"
+        },
+        {
+          "label": "Gross margin",
+          "value": "41.0%, up 340 basis points year over year"
+        },
+        {
+          "label": "Order backlog",
+          "value": "Nearly $100 million, company-reported record"
+        },
+        {
+          "label": "Adjusted EBITDA",
+          "value": "$11.1 million"
+        },
+        {
+          "label": "GAAP net loss",
+          "value": "$44.8 million, including $51.6 million noncash change in warrant liability value"
+        },
+        {
+          "label": "Debt",
+          "value": "No outstanding debt at September 30, 2026"
+        }
+      ],
+      "key_finding": "Hyperscale archival-storage demand is translating into orders and improving operating metrics, though GAAP results remain volatile.",
+      "sources": [
+        {
+          "title": "Quantum November 9 fiscal Q2 2027 earnings release",
+          "url": "https://investors.quantum.com/news-events/press-releases/detail/274/quantum-reports-fiscal-second-quarter-2027-financial-results"
+        },
+        {
+          "title": "StockSetups November 9 after-hours movers at 7:15 PM ET",
+          "url": "https://stocksetups.com/movers/after-hours"
+        },
+        {
+          "title": "StockAnalysis November 9 after-hours price snapshot",
+          "url": "https://stockanalysis.com/markets/afterhours/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261109-1831-aaon-cooling-earnings",
       "observed_at": "2026-11-09T18:31:22-05:00",
@@ -124,119 +251,6 @@
       "supersedes": null
     },
     {
-      "id": "scout-20261109-1831-xe-dow-nuclear-permit",
-      "observed_at": "2026-11-09T18:31:22-05:00",
-      "title": "X-energy and Dow announce construction permit for four advanced reactors",
-      "summary": "X-energy and Dow announced NRC construction-permit approval for four Xe-100 reactors at Dow's Texas industrial facility. The proposed plant would produce power and process steam, but Dow has not made a final investment decision. An operating license, financing, supply chain and construction remain outstanding, with initial operation targeted for the early 2030s.",
-      "tickers": [
-        "XE",
-        "DOW"
-      ],
-      "sectors": [
-        "Advanced nuclear",
-        "Industrial power",
-        "Grid infrastructure"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Announcement",
-          "value": "November 9, 2026 at 4:15 PM EST; reviewed 6:31 PM EST"
-        },
-        {
-          "label": "After-hours XE move",
-          "value": "Approximately +1.2% in Barron's reporting; not official close"
-        },
-        {
-          "label": "Project",
-          "value": "Four Xe-100 units at Seadrift, Texas"
-        },
-        {
-          "label": "Potential electricity capacity",
-          "value": "Up to approximately 320 MWe, subject to final configuration"
-        },
-        {
-          "label": "Permit scope",
-          "value": "Construction permit announced; no operating license or final investment decision"
-        },
-        {
-          "label": "Next indicators",
-          "value": "Dow investment decision, operating license, fuel procurement, construction schedule"
-        }
-      ],
-      "key_finding": "An advanced-reactor regulatory milestone is real, but cash flows and actual generation remain years away.",
-      "sources": [
-        {
-          "title": "X-energy — construction-permit announcement",
-          "url": "https://x-energy.com/news/dow-x-energy-proposed-smr-project-receives-historic-construction-permit-for-nuclear-powered-industrial-site/"
-        },
-        {
-          "title": "Barron's — permit and after-hours reaction",
-          "url": "https://www.barrons.com/articles/x-energy-stock-nuclear-28dee48d"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261109-1831-qlys-earnings-dislocation",
-      "observed_at": "2026-11-09T18:31:22-05:00",
-      "title": "Qualys slips after hours despite stronger earnings and raised annual guidance",
-      "summary": "Qualys reported Q3 revenue of $188 million, up 11%, and non-GAAP EPS of $2.12, while raising full-year guidance. Shares nevertheless fell around 7% after hours. The company remains profitable with strong cash generation, but slower projected Q4 revenue growth and valuation expectations may explain the market reaction; durable mispricing is not established.",
-      "tickers": [
-        "QLYS"
-      ],
-      "sectors": [
-        "Cybersecurity software",
-        "Cloud security",
-        "Enterprise software"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Observation",
-          "value": "November 9, 2026 6:31 PM EST review; early after-hours report"
-        },
-        {
-          "label": "After-hours move",
-          "value": "Approximately -7% in media reporting; not an official closing return"
-        },
-        {
-          "label": "Q3 revenue",
-          "value": "$188.0 million, +11% year over year"
-        },
-        {
-          "label": "Q3 non-GAAP EPS",
-          "value": "$2.12"
-        },
-        {
-          "label": "2026 revenue outlook",
-          "value": "$736.9 million to $738.9 million, raised"
-        },
-        {
-          "label": "Q4 revenue outlook",
-          "value": "$191 million to $193 million; 9%-10% growth"
-        },
-        {
-          "label": "Next indicators",
-          "value": "Renewals, Q4 growth, cash conversion and next regular-session pricing"
-        }
-      ],
-      "key_finding": "A profitable cybersecurity provider faces negative repricing despite stronger reported results; future growth is the key test.",
-      "sources": [
-        {
-          "title": "Qualys — official Q3 earnings release",
-          "url": "https://investor.qualys.com/news-releases/news-release-details/qualys-announces-third-quarter-2026-financial-results"
-        },
-        {
-          "title": "Investor's Business Daily — reaction and estimates",
-          "url": "https://www.investors.com/news/technology/qualys-stock-q32026-earnings-qlys/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
       "id": "scout-20261109-1627-oil-settlement-deescalation",
       "observed_at": "2026-11-09T16:27:47-05:00",
       "title": "Brent settles down 5.85% at 10-week low despite continuing Hormuz vessel risk",
@@ -305,6 +319,6 @@
       "supersedes": "scout-20261109-1039-oil-deescalation-accelerates"
     }
   ],
-  "last_checked_at": "2026-11-09T18:31:22-05:00",
+  "last_checked_at": "2026-11-09T19:34:32-05:00",
   "last_check_status": "new_findings"
 }
