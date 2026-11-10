@@ -1,8 +1,130 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-10T13:34:12-05:00",
-  "as_of_et": "November 10, 2026 at 1:34 PM EST",
+  "generated_at": "2026-11-10T14:34:09-05:00",
+  "as_of_et": "November 10, 2026 at 2:34 PM EST",
   "items": [
+    {
+      "id": "scout-20261110-1434-softbank-power-writeoff",
+      "observed_at": "2026-11-10T14:34:09-05:00",
+      "title": "SoftBank takes $3.7 billion data-center power-equipment charge as GE Vernova shares fall",
+      "summary": "SoftBank disclosed a $3.7 billion charge after revising procurement plans for U.S. AI-data-center power equipment. GE Vernova fell about 6.8% in Tuesday morning trading amid concerns about future gas-turbine orders. SoftBank said the charge was unrelated to its Ports-Pike campus; the specific affected suppliers have not been confirmed.",
+      "tickers": [
+        "9984.T",
+        "GEV"
+      ],
+      "sectors": [
+        "AI infrastructure",
+        "Power generation",
+        "Data-center power",
+        "Industrial equipment"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Disclosure date",
+          "value": "November 10, 2026"
+        },
+        {
+          "label": "SoftBank equipment-related charge",
+          "value": "Approximately $3.7 billion"
+        },
+        {
+          "label": "SoftBank September-quarter net result",
+          "value": "Approximately $7 billion loss"
+        },
+        {
+          "label": "GEV intraday reaction",
+          "value": "Approximately -6.84% at 10:42 AM EST November 10; not a confirmed close"
+        },
+        {
+          "label": "GEV order cancellation",
+          "value": "Not confirmed; specific affected suppliers not disclosed"
+        },
+        {
+          "label": "Project distinction",
+          "value": "SoftBank said equipment charge was unrelated to its Ports-Pike campus"
+        }
+      ],
+      "key_finding": "A material advance-procurement write-down exposes execution risks in AI power equipment, but direct GEV order losses are unverified.",
+      "sources": [
+        {
+          "title": "SoftBank official Q2 FY2026 earnings results, November 10",
+          "url": "https://group.softbank/en/event/earnings_2026q2"
+        },
+        {
+          "title": "Financial Times, November 10: SoftBank slumps to $7bn loss on US data centre writedown",
+          "url": "https://www.ft.com/content/5ceed157-0016-4822-a272-8b607911da5e"
+        },
+        {
+          "title": "Motley Fool, 11:00 AM EST November 10: AI power selloff and GEV intraday quote",
+          "url": "https://www.fool.com/investing/2026/11/10/ge-vernova-vertiv-and-bloom-energy-just-lost-10-to/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261110-1434-qlys-billings-repricing",
+      "observed_at": "2026-11-10T14:34:09-05:00",
+      "title": "Qualys drops sharply despite earnings beat as forward calculated billings slow",
+      "summary": "Qualys reported Q3 revenue of $188 million and adjusted EPS of $2.12, beating consensus, but guided to approximately 8% Q4 calculated current billings growth versus 14% in Q3. Shares were down 12.36% at a 12:37 PM EST market observation. Full-year revenue guidance increased; whether billings deceleration persists is the critical fundamental test.",
+      "tickers": [
+        "QLYS"
+      ],
+      "sectors": [
+        "Cybersecurity",
+        "Software",
+        "Enterprise technology"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Company results published",
+          "value": "November 9, 2026, 4:05 PM EST"
+        },
+        {
+          "label": "Q3 revenue",
+          "value": "$188.0 million; +11% year over year"
+        },
+        {
+          "label": "Q3 adjusted EPS",
+          "value": "$2.12, versus analyst estimate about $1.96"
+        },
+        {
+          "label": "Q3 calculated current billings growth",
+          "value": "+14% year over year"
+        },
+        {
+          "label": "Q4 calculated current billings outlook",
+          "value": "About +8% year over year, per earnings coverage"
+        },
+        {
+          "label": "2026 revenue guidance",
+          "value": "$736.9 million to $738.9 million, increased"
+        },
+        {
+          "label": "Equity price observation",
+          "value": "$177.43, -12.36%, at 12:37 PM EST November 10; intraday, not confirmed closing price"
+        }
+      ],
+      "key_finding": "Large earnings-day repricing reflects weaker expected forward billings, not an earnings miss; renewal trends and cash conversion require monitoring.",
+      "sources": [
+        {
+          "title": "Qualys official third-quarter 2026 release, November 9",
+          "url": "https://qualys.gcs-web.com/news-releases/news-release-details/qualys-announces-third-quarter-2026-financial-results"
+        },
+        {
+          "title": "Investor's Business Daily, November 10: Qualys earnings and weaker billings outlook",
+          "url": "https://www.investors.com/news/technology/qualys-stock-q32026-earnings-qlys/"
+        },
+        {
+          "title": "StockAnalysis: QLYS November 10 market observation",
+          "url": "https://stockanalysis.com/stocks/qlys/history/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261110-1334-eia-steo-diesel-supply",
       "observed_at": "2026-11-10T13:34:12-05:00",
@@ -68,132 +190,6 @@
         {
           "title": "Financial Times — November 10 oil prices and Iran de-escalation",
           "url": "https://www.ft.com/content/07bdb58c-4557-4def-b8cb-db9be304fd72"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261110-1231-sanm-ai-manufacturing",
-      "observed_at": "2026-11-10T12:31:58-05:00",
-      "title": "Sanmina beats earnings estimates as AI and cloud manufacturing expands",
-      "summary": "Sanmina reported fiscal Q4 revenue of $3.86 billion and adjusted EPS of $4.43, exceeding analyst estimates. AI and cloud revenue expanded 179% year over year, supported by ZT Systems integration. Shares rose sharply in premarket trading, but acquisition-driven growth, concentration and margins remain key durability tests.",
-      "tickers": [
-        "SANM"
-      ],
-      "sectors": [
-        "Electronics manufacturing services",
-        "AI infrastructure",
-        "Semiconductors and computing systems"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Research observation",
-          "value": "November 10, 2026 at 12:31 PM EST"
-        },
-        {
-          "label": "Reported fiscal Q4 revenue",
-          "value": "$3.86 billion"
-        },
-        {
-          "label": "Reported fiscal Q4 adjusted EPS",
-          "value": "$4.43"
-        },
-        {
-          "label": "AI and cloud systems revenue",
-          "value": "$2.37 billion, +179% year over year (Barron's)"
-        },
-        {
-          "label": "Fiscal 2027 revenue guidance",
-          "value": "$17.5 billion to $19.5 billion"
-        },
-        {
-          "label": "Market move",
-          "value": "SANM approximately +15.9% in Nov 10 premarket report; not verified at research completion"
-        },
-        {
-          "label": "Fiscal 2027 non-GAAP operating margin guidance",
-          "value": "7.0% to 7.5%"
-        }
-      ],
-      "key_finding": "The AI infrastructure spending cycle is translating into strong EMS earnings, although acquisition integration and margin durability matter.",
-      "sources": [
-        {
-          "title": "Sanmina official earnings release, Nov 9",
-          "url": "https://www.prnewswire.com/news-releases/sanmina-reports-fourth-quarter-and-fiscal-2026-financial-results-302933746.html"
-        },
-        {
-          "title": "Barron's Sanmina earnings and AI growth, Nov 10",
-          "url": "https://www.barrons.com/articles/sanmina-earnings-stock-price-ai-8add1e82"
-        },
-        {
-          "title": "Barron's Nov 10 premarket movers",
-          "url": "https://www.barrons.com/articles/s-p-500-futures-steady-in-premarket-trading-intercorp-finl-svcs-sanmina-lead-8dccafad"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261110-1231-ifx-power-chips",
-      "observed_at": "2026-11-10T12:31:58-05:00",
-      "title": "Infineon raises FY2027 data-center power chip revenue forecast to nearly EUR 4 billion",
-      "summary": "Infineon guided to nearly EUR 4 billion of FY2027 data-center power-supply revenue, up from an earlier roughly EUR 2.5 billion outlook. It forecasts approximately EUR 20 billion total revenue versus EUR 16.35 billion in FY2026. Shares rose on the announcement, while auto demand, manufacturing expansion and spending requirements remain execution risks.",
-      "tickers": [
-        "IFX.DE",
-        "IFNNY"
-      ],
-      "sectors": [
-        "Power semiconductors",
-        "Data-center infrastructure",
-        "Grid and industrial power",
-        "Automotive electronics"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Research observation",
-          "value": "November 10, 2026 at 12:31 PM EST"
-        },
-        {
-          "label": "FY2027 data-center power revenue forecast",
-          "value": "Close to EUR 4 billion; previous outlook approximately EUR 2.5 billion"
-        },
-        {
-          "label": "FY2027 total company revenue outlook",
-          "value": "Approximately EUR 20 billion"
-        },
-        {
-          "label": "FY2026 revenue",
-          "value": "EUR 16.353 billion"
-        },
-        {
-          "label": "FY2026 Q4 segment result margin",
-          "value": "23.8%"
-        },
-        {
-          "label": "FY2027 planned investments",
-          "value": "EUR 3.0 to 3.5 billion"
-        },
-        {
-          "label": "Market move",
-          "value": "IFX.DE approximately +6.47% at Nov 10 10:55 CET (4:55 AM EST); not current market quote"
-        }
-      ],
-      "key_finding": "Infineon's materially higher data-center power target reinforces demand for power electronics behind AI and grid buildouts.",
-      "sources": [
-        {
-          "title": "Infineon FY2026 results and FY2027 outlook, Nov 10",
-          "url": "https://www.infineon.com/press-release/2026/infpr202611-025"
-        },
-        {
-          "title": "Wall Street Journal, Nov 10 data-center forecast",
-          "url": "https://www.wsj.com/business/earnings/chip-maker-infineon-lifts-ai-sales-goal-signaling-confidence-in-demand-80ba33f3"
-        },
-        {
-          "title": "WELT Nov 10 intraday IFX share response",
-          "url": "https://www.welt.de/article6af2eb6cf0b67a4b24662d79"
         }
       ],
       "status": "new",
@@ -311,6 +307,6 @@
       "supersedes": "scout-20261109-1627-oil-settlement-deescalation"
     }
   ],
-  "last_checked_at": "2026-11-10T13:34:12-05:00",
+  "last_checked_at": "2026-11-10T14:34:09-05:00",
   "last_check_status": "new_findings"
 }
