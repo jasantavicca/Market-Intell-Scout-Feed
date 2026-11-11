@@ -1,8 +1,161 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-10T20:27:59-05:00",
-  "as_of_et": "November 10, 2026 at 8:27 PM EST",
+  "generated_at": "2026-11-11T07:28:51-05:00",
+  "as_of_et": "November 11, 2026 at 7:28 AM EST",
   "items": [
+    {
+      "id": "scout-20261111-0728-coreweave-earnings",
+      "observed_at": "2026-11-11T07:28:51-05:00",
+      "title": "CoreWeave Q3 revenue jumps 168% and backlog reaches $132.5 billion",
+      "summary": "CoreWeave reported $3.66 billion of Q3 revenue, up 168% year over year, beating estimates, and raised full-year guidance to $13.0–$13.3 billion. Shares rose more than 7% in November 10 extended trading after a severe monthly decline. Its $132.5 billion backlog supports demand visibility, while debt and spending create significant execution risk.",
+      "tickers": [
+        "CRWV",
+        "SOXX"
+      ],
+      "sectors": [
+        "AI infrastructure",
+        "Cloud computing",
+        "Semiconductors"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Results release",
+          "value": "November 10, 2026 after market close"
+        },
+        {
+          "label": "Revenue",
+          "value": "$3.66 billion; +168% year over year"
+        },
+        {
+          "label": "Backlog",
+          "value": "$132.5 billion"
+        },
+        {
+          "label": "FY2026 revenue guidance",
+          "value": "$13.0–$13.3 billion"
+        },
+        {
+          "label": "Capital expenditures outlook",
+          "value": "$37–$39 billion"
+        },
+        {
+          "label": "Market move",
+          "value": "More than +7% November 10 after hours; not a confirmed November 11 close"
+        }
+      ],
+      "key_finding": "Strong customer demand contrasts with elevated leverage, capital intensity and backlog conversion risk.",
+      "sources": [
+        {
+          "title": "CoreWeave Q3 earnings release",
+          "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx"
+        },
+        {
+          "title": "Reuters CoreWeave earnings coverage",
+          "url": "https://www.investing.com/news/economy-news/coreweave-beats-quarterly-revenue-estimates-as-ai-demand-defies-growing-doubts-5016823"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261111-0728-ust-luga-port-fire",
+      "observed_at": "2026-11-11T07:28:51-05:00",
+      "title": "Reported drone strike causes fire at Russia's Ust-Luga export port",
+      "summary": "Russia's Leningrad governor reported a drone strike and fire at Ust-Luga port, three injured workers and a local power disruption. Ust-Luga handles oil and petroleum-product exports, but the damaged terminal and export-flow impact remain unverified. This is a leading infrastructure-risk signal rather than a confirmed crude-supply outage.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Maritime infrastructure",
+        "Russia"
+      ],
+      "evidence_grade": "single-source",
+      "observations": [
+        {
+          "label": "Incident",
+          "value": "Overnight November 10–11, 2026"
+        },
+        {
+          "label": "Reported physical effect",
+          "value": "Port-area fire; three injured workers; local power disruption"
+        },
+        {
+          "label": "Oil throughput effect",
+          "value": "No verified loss or duration"
+        },
+        {
+          "label": "Market price response",
+          "value": "Not independently established as attributable to this incident"
+        }
+      ],
+      "key_finding": "Ust-Luga port fire warrants monitoring of tanker loading and terminal status, without assuming an oil-flow interruption.",
+      "sources": [
+        {
+          "title": "Reuters Ust-Luga report",
+          "url": "https://www.marketscreener.com/news/drone-attack-causes-fire-in-russia-s-baltic-sea-port-of-ust-luga-governor-says-ce785edbd889f32c"
+        },
+        {
+          "title": "BNE IntelliNews independent incident context",
+          "url": "https://www.intellinews.com/missile-war-monitor-ukrainian-drones-set-fire-to-russia-s-ust-luga-port-russian-strikes-cut-power-to-135-000-in-ukraine-s-odesa-region-483846/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261111-0728-hormuz-oil-stabilizes",
+      "observed_at": "2026-11-11T07:28:51-05:00",
+      "title": "Oil futures stabilize despite persistent Strait of Hormuz shipping attacks",
+      "summary": "Reuters reported Brent at $92.01 and WTI at $86.20 by 07:30 GMT November 11, modestly above prior two-month lows. A Washington Institute tally cited by Reuters counted 37 vessel attacks in October. Continued attacks are a credible leading risk, but neither a new oil-volume outage nor normalization of transit was verified.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and gas",
+        "Maritime shipping"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Oil quote time",
+          "value": "November 11, 2026, 07:30 GMT / 2:30 AM EST; intraday"
+        },
+        {
+          "label": "Brent",
+          "value": "$92.01/bbl; +0.6%"
+        },
+        {
+          "label": "WTI",
+          "value": "$86.20/bbl; +0.2%"
+        },
+        {
+          "label": "Reported October vessel attacks",
+          "value": "37 in Hormuz and surrounding waterways; Washington Institute tally cited by Reuters"
+        },
+        {
+          "label": "Physical supply interruption",
+          "value": "No new incremental loss verified"
+        }
+      ],
+      "key_finding": "Crude stabilization reflects competing diplomatic and security signals, not proof of restored safe shipping.",
+      "sources": [
+        {
+          "title": "Reuters oil report",
+          "url": "https://www.marketscreener.com/news/oil-rises-from-two-month-low-as-hormuz-shipping-attacks-offset-iran-truce-hopes-ce785edbd981f725"
+        },
+        {
+          "title": "UKMTO recent incidents",
+          "url": "https://www.ukmto.org/recent-incidents"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261110-2027-api-inventory-correction",
       "observed_at": "2026-11-10T20:27:59-05:00",
@@ -133,216 +286,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261110-1928-rgti-earnings-miss",
-      "observed_at": "2026-11-10T19:28:02-05:00",
-      "title": "Rigetti slides after hours following revenue miss despite 108-qubit fidelity milestone",
-      "summary": "Rigetti reported third-quarter revenue of $1.4 million against a market estimate near $3.7 million and a non-GAAP loss of $0.06 per share. An early after-hours account reported shares down approximately 8.7%. The company achieved 99.5% median two-qubit fidelity on its 108-qubit system, but its full-year revenue outlook depends on fourth-quarter customer acceptance.",
-      "tickers": [
-        "RGTI"
-      ],
-      "sectors": [
-        "Quantum computing",
-        "Advanced electronics",
-        "Emerging computing infrastructure"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Scout observation",
-          "value": "November 10, 2026 at 7:28 PM EST"
-        },
-        {
-          "label": "After-hours share indication",
-          "value": "Approximately -8.7%, reported November 10 at 5:24 PM EST; not an official close"
-        },
-        {
-          "label": "Q3 revenue",
-          "value": "$1.4 million, against approximately $3.7 million consensus"
-        },
-        {
-          "label": "Non-GAAP EPS",
-          "value": "-$0.06, versus -$0.05 consensus"
-        },
-        {
-          "label": "Technical milestone",
-          "value": "99.5% median two-qubit gate fidelity on 108-qubit processor"
-        },
-        {
-          "label": "Year-end revenue outlook",
-          "value": "Approximately $20 million, conditional on Q4 C-DAC acceptance"
-        },
-        {
-          "label": "Cash and securities",
-          "value": "Approximately $497.1 million; no debt"
-        },
-        {
-          "label": "Next indicators",
-          "value": "C-DAC acceptance, commercial bookings, operating losses and product reliability"
-        }
-      ],
-      "key_finding": "Rigetti's technical progress has yet to translate into predictable near-term commercialization or revenue recognition.",
-      "sources": [
-        {
-          "title": "Rigetti official Q3 2026 results, November 10",
-          "url": "https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-reports-third-quarter-2026-financial-results"
-        },
-        {
-          "title": "Yahoo Finance / Investing.com after-hours earnings response",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/rigetti-computing-falls-revenue-miss-222446082.html"
-        },
-        {
-          "title": "Rigetti SEC earnings exhibit",
-          "url": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926125152/rgti-ex99d1.htm"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261110-1928-pbr-earnings-miss",
-      "observed_at": "2026-11-10T19:28:02-05:00",
-      "title": "Petrobras profit grows but misses expectations and raises 2026 capital spending plan",
-      "summary": "Petrobras reported third-quarter net income of approximately R$39.75 billion, up 21.5% year over year but below the R$47.02 billion LSEG analyst consensus cited by Reuters. Revenue rose 32.4% on strong production and exports. The company authorized about R$15.3 billion in distributions and raised planned 2026 capital expenditures to $24–25.5 billion.",
-      "tickers": [
-        "PBR"
-      ],
-      "sectors": [
-        "International ADRs",
-        "Oil and gas",
-        "Brazil"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Scout observation",
-          "value": "November 10, 2026 at 7:28 PM EST"
-        },
-        {
-          "label": "Announcement",
-          "value": "November 10, 2026, after regular US session"
-        },
-        {
-          "label": "Q3 reported net income",
-          "value": "R$39.75 billion, up 21.5% year over year"
-        },
-        {
-          "label": "Analyst comparison",
-          "value": "R$47.02 billion LSEG consensus, Reuters report"
-        },
-        {
-          "label": "Quarterly revenue",
-          "value": "R$169.35 billion, +32.4% year over year"
-        },
-        {
-          "label": "Distribution authorization",
-          "value": "About R$15.3 billion"
-        },
-        {
-          "label": "2026 capital spending plan",
-          "value": "US$24–25.5 billion"
-        },
-        {
-          "label": "Post-release ADR price move",
-          "value": "Not established from a timestamped reliable quote"
-        },
-        {
-          "label": "Next indicators",
-          "value": "November 11 webcast, cash flow, investment plans and oil prices"
-        }
-      ],
-      "key_finding": "Petrobras operating growth is robust, but profits fell short of consensus as capital-spending expectations increased.",
-      "sources": [
-        {
-          "title": "Reuters on Petrobras Q3 results, November 10",
-          "url": "https://br.investing.com/news/stock-market-news/petrobras-tem-lucro-de-r3975-bi-no-3o-tri-2123144"
-        },
-        {
-          "title": "UOL Petrobras Q3 report, November 10",
-          "url": "https://economia.uol.com.br/noticias/redacao/2026/11/10/petrobras-balanco-terceiro-trimestre-de-2026.ghtm"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261110-1827-pepgen-dm1-data",
-      "observed_at": "2026-11-10T18:27:10-05:00",
-      "title": "PepGen surges on Phase 2 myotonic dystrophy clinical signal; FDA partial hold remains",
-      "summary": "PepGen reported 46.5% mean RNA splicing correction in six treated patients in its Phase 2 DM1 10 mg/kg cohort, alongside improvements in several functional measures. Shares more than doubled intraday and ended roughly 90% higher by vendor estimates, which differ on the exact close. Small sample size, durability questions and an unresolved FDA partial hold remain material risks.",
-      "tickers": [
-        "PEPG",
-        "DYN",
-        "SRPT"
-      ],
-      "sectors": [
-        "Biotechnology",
-        "Healthcare",
-        "Rare disease therapeutics"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Clinical announcement",
-          "value": "November 10, 2026 at 7:01 AM EST; reviewed November 10 at 6:27 PM EST"
-        },
-        {
-          "label": "RNA splicing correction",
-          "value": "Mean 46.5% at Week 13, 10 mg/kg; n=6 active-treatment patients"
-        },
-        {
-          "label": "Responder distribution",
-          "value": "5 of 6 treated patients >20% correction; 4 of 6 >50%"
-        },
-        {
-          "label": "Functional outcome",
-          "value": "Video hand-opening time improved 3.9 seconds (52.7%) from baseline at Week 16"
-        },
-        {
-          "label": "Equity market reaction",
-          "value": "More than doubled intraday on November 10; indicative end-of-session gain around +90%, exact close not confirmed due vendor disagreement"
-        },
-        {
-          "label": "Indicative end-session quotes",
-          "value": "Stock Analysis: $4.52, +89.12%; Investing.com historical: $4.565, +91.00%; conflicting figures, not a confirmed close"
-        },
-        {
-          "label": "FDA regulatory status",
-          "value": "US partial clinical hold dating to March 2026 remains unresolved"
-        },
-        {
-          "label": "Next trial checkpoints",
-          "value": "Extension study data January 2027; 12.5 mg/kg results expected first half of 2027"
-        }
-      ],
-      "key_finding": "A large clinical-data-driven repricing highlights potential DM1 efficacy, but the six-patient cohort and unresolved US regulatory hold demand caution.",
-      "sources": [
-        {
-          "title": "PepGen November 10 clinical data (SEC exhibit)",
-          "url": "https://www.sec.gov/Archives/edgar/data/1835597/000119312526454469/pepg-ex99_2.htm"
-        },
-        {
-          "title": "PepGen earnings, trial updates and partial hold (investor filing)",
-          "url": "https://investors.pepgen.com/node/9531/html"
-        },
-        {
-          "title": "Fierce Biotech November 10 independent clinical and market coverage",
-          "url": "https://www.fiercebiotech.com/biotech/pepgens-stock-doubles-midphase-dm1-data-wow-analysts"
-        },
-        {
-          "title": "Stock Analysis November 10 historical PEPG prices",
-          "url": "https://stockanalysis.com/stocks/pepg/history/"
-        },
-        {
-          "title": "Investing.com PEPG historical price information",
-          "url": "https://www.investing.com/equities/pepgen-historical-data"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-10T20:27:59-05:00",
+  "last_checked_at": "2026-11-11T07:28:51-05:00",
   "last_check_status": "new_findings"
 }
