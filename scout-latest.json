@@ -1,8 +1,77 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-11T07:28:51-05:00",
-  "as_of_et": "November 11, 2026 at 7:28 AM EST",
+  "generated_at": "2026-11-11T07:32:31-05:00",
+  "as_of_et": "November 11, 2026 at 7:32 AM EST",
   "items": [
+    {
+      "id": "scout-20261111-0732-tsmc-revenue-board-capital",
+      "observed_at": "2026-11-11T07:32:31-05:00",
+      "title": "TSMC October revenue jumps 59.7%; board approves $40.93 billion capacity appropriations",
+      "summary": "TSMC reported record October revenue of NT$586.89 billion, up 59.7% year over year and 14.7% from September. Its board approved $40.93 billion in capital appropriations and up to $500 million each for investments in Anthropic and OpenAI. The approvals are not evidence that funds have been spent or equity purchases closed.",
+      "tickers": [
+        "TSM",
+        "2330.TW",
+        "SOXX"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "Advanced chip manufacturing",
+        "Advanced packaging"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Source release",
+          "value": "November 10, 2026; TSMC monthly revenue and board resolutions"
+        },
+        {
+          "label": "October consolidated revenue",
+          "value": "NT$586.89 billion; +59.7% year over year; +14.7% month over month"
+        },
+        {
+          "label": "January-October consolidated revenue",
+          "value": "NT$4,485.62 billion; +43.3% year over year"
+        },
+        {
+          "label": "Board capital appropriations",
+          "value": "US$40.9267 billion; authorization for capacity, facilities, advanced packaging and 2027 R&D, not newly spent capex"
+        },
+        {
+          "label": "AI developer investment authorizations",
+          "value": "Up to US$500 million Anthropic common shares and up to US$500 million OpenAI preferred shares; closings not established"
+        },
+        {
+          "label": "Market price observation",
+          "value": "TSM ADR roughly +2% in November 10 market report; November 11 U.S. premarket reaction not independently confirmed"
+        },
+        {
+          "label": "Scout observation",
+          "value": "November 11, 2026, 7:32 AM EST"
+        }
+      ],
+      "key_finding": "Record foundry revenue and substantial capacity authorizations signal strong AI demand, subject to manufacturing utilization and capital-intensity risks.",
+      "sources": [
+        {
+          "title": "TSMC — October 2026 Revenue Report, November 10",
+          "url": "https://pr.tsmc.com/english/news/3349"
+        },
+        {
+          "title": "TSMC — November 10 Board of Directors Resolutions",
+          "url": "https://pr.tsmc.com/schinese/news/3352"
+        },
+        {
+          "title": "Reuters — TSMC board approves up to $1 billion in AI developer stakes",
+          "url": "https://www.investing.com/news/stock-market-news/tsmc-to-invest-up-to-1-billion-in-anthropic-openai-5015908"
+        },
+        {
+          "title": "TSMC — 2026 monthly consolidated revenue history",
+          "url": "https://investor.tsmc.com/english/monthly-revenue/2026"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261111-0728-coreweave-earnings",
       "observed_at": "2026-11-11T07:28:51-05:00",
@@ -227,67 +296,8 @@
       ],
       "status": "invalidated",
       "supersedes": "scout-20261110-1928-api-crude-build"
-    },
-    {
-      "id": "scout-20261110-1928-russia-refinery-drone",
-      "observed_at": "2026-11-10T19:28:02-05:00",
-      "title": "Ukraine drone strikes affect Russian refineries representing about 30% of national capacity",
-      "summary": "Reuters reported that Ukrainian attacks since late October disrupted nine major Russian refineries, with affected installations representing approximately 30% of national nameplate processing capacity. Industry sources estimate an actual crude-processing reduction of up to 200,000 metric tons per day, which is not equivalent to 30% of output. Repairs and actual throughput require further confirmation.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Energy",
-        "Refined products",
-        "Geopolitical supply risk"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Scout observation",
-          "value": "November 10, 2026 at 7:28 PM EST"
-        },
-        {
-          "label": "Source observation",
-          "value": "Reuters report November 10, 2026, 7:11 AM EST"
-        },
-        {
-          "label": "Affected nameplate capacity",
-          "value": "About 300,000 metric tons/day, or 2.2 million barrels/day; ~30% of installed national capacity"
-        },
-        {
-          "label": "Estimated actual throughput reduction",
-          "value": "Up to 200,000 metric tons/day, industry-source estimate"
-        },
-        {
-          "label": "Refineries affected",
-          "value": "9 of 35 major Russian facilities, previous week"
-        },
-        {
-          "label": "Market attribution",
-          "value": "No distinct corroborated oil-futures response assigned to the refinery report"
-        },
-        {
-          "label": "Next indicators",
-          "value": "Restart timing, measured throughput, diesel exports and refinery margins"
-        }
-      ],
-      "key_finding": "Large physical refinery interruptions raise refined-product supply risk, but affected nameplate capacity must not be confused with verified output losses.",
-      "sources": [
-        {
-          "title": "Reuters via MarketScreener November 10 refinery disruption",
-          "url": "https://www.marketscreener.com/news/recent-ukrainian-attacks-have-reduced-russia-s-oil-processing-capacity-by-30-sources-say-ce785edadd81f527"
-        },
-        {
-          "title": "Washington Post refinery-damage investigation October 11",
-          "url": "https://www.washingtonpost.com/investigations/interactive/2026/10/11/how-ukraine-uses-precision-drone-strikes-hobble-russian-oil-refineries/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-11T07:28:51-05:00",
+  "last_checked_at": "2026-11-11T07:32:31-05:00",
   "last_check_status": "new_findings"
 }
