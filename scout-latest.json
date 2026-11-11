@@ -1,308 +1,232 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-11T16:38:11-05:00",
-  "as_of_et": "November 11, 2026, 4:38 PM EST",
+  "generated_at": "2026-11-11T16:43:32-05:00",
+  "as_of_et": "November 11, 2026, 4:43:32 PM EST",
   "items": [
     {
-      "id": "scout-20261111-1638-ai-infrastructure-breadth",
-      "observed_at": "2026-11-11T16:38:11-05:00",
-      "title": "CoreWeave earnings spark broad AI infrastructure rebound across memory, optics and power",
-      "summary": "CoreWeave's earnings-driven recovery broadened to AI cloud, memory, optical networking and data-center power names on November 11. At 10:30 AM ET, an intraday market snapshot showed CRWV up 21.9%, NBIS 16.3%, BE 15.0%, SNDK 14.7% and LITE 12.7%. The broad response supports renewed AI demand confidence, but financing and capital intensity remain risks.",
+      "id": "scout-20261111-1643-semiconductor-breadth",
+      "observed_at": "2026-11-11T16:43:32-05:00",
+      "title": "Semiconductor rally finishes with every index component advancing",
+      "summary": "Chip participation broadened beyond the largest AI names. Reuters' closing report replaces the earlier intraday breadth narrative; repeat participation and earnings delivery are the next tests.",
+      "tickers": [
+        "SOXX",
+        "SMH"
+      ],
+      "sectors": [
+        "Semiconductors"
+      ],
+      "evidence_grade": "single-source",
+      "observations": [
+        {
+          "label": "November 11 regular-session close, 4:00 PM EST",
+          "value": "Philadelphia Semiconductor Index +5.7%; every component advanced; Reuters-reported close, not independently confirmed"
+        },
+        {
+          "label": "Timestamp qualification",
+          "value": "Syndicated page retains a 5:42 AM EST initial-publication header; its current text explicitly reports the completed November 11 session. No exact final revision time is supplied."
+        }
+      ],
+      "key_finding": "Broad chip participation strengthens the recovery signal; one session does not establish durability.",
+      "sources": [
+        {
+          "title": "Reuters closing market report via StreetInsider",
+          "url": "https://www.streetinsider.com/General%2BNews/Stocks%2Bclimb%2Bas%2BCoreWeave%2Bresults%2Bease%2BAI%2Bspending%2Bconcerns/27325904.html"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261111-1643-ai-infrastructure-close",
+      "observed_at": "2026-11-11T16:43:32-05:00",
+      "title": "CoreWeave rally carries into the close as demand meets financing risk",
+      "summary": "CoreWeave's earnings prompted gains across AI infrastructure. Contracted demand supports the recovery, while heavy interest costs and service-delivery conditions temper the backlog signal. Watch cash generation, financing and backlog conversion.",
       "tickers": [
         "CRWV",
         "NBIS",
-        "BE",
-        "SNDK",
-        "LITE"
+        "APLD"
       ],
       "sectors": [
         "AI infrastructure",
-        "Semiconductors and memory",
-        "Optical networking",
-        "Data-center power"
+        "Cloud computing"
       ],
       "evidence_grade": "corroborated",
       "observations": [
         {
-          "label": "Intraday observation time",
-          "value": "November 11, 2026 at approximately 10:30 AM EST; not closing prices"
+          "label": "CRWV November 11 regular-session close, 4:00 PM EST",
+          "value": "+24.7% Reuters; +24.71% Stock Titan closing update"
         },
         {
-          "label": "CRWV",
-          "value": "+21.9% intraday"
+          "label": "Source timing",
+          "value": "Stock Titan identifies CNBC's 4:10 PM EST closing update; company results were released November 10"
         },
         {
-          "label": "NBIS",
-          "value": "+16.3% intraday"
+          "label": "Q3 company results",
+          "value": "Revenue $3.661 billion versus $1.365 billion a year earlier; backlog approximately $132.5 billion at September 30"
         },
         {
-          "label": "BE",
-          "value": "+15.0% intraday"
-        },
-        {
-          "label": "SNDK",
-          "value": "+14.7% intraday"
-        },
-        {
-          "label": "LITE",
-          "value": "+12.7% intraday"
+          "label": "Financing constraint",
+          "value": "Q3 net interest expense $846 million; GAAP net loss $709 million; backlog subject to delivery and availability requirements"
         }
       ],
-      "key_finding": "AI demand repricing broadened across infrastructure suppliers; financing risks and persistence of breadth remain key tests.",
+      "key_finding": "Earnings support demand resilience, with financing and execution still central risks.",
       "sources": [
         {
-          "title": "November 11 intraday stock market snapshot",
-          "url": "https://moneyheap.ai/stock-market-today/2026-11-11"
+          "title": "CoreWeave official Q3 results",
+          "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx"
         },
         {
-          "title": "Investor's Business Daily AI infrastructure rebound coverage",
-          "url": "https://www.investors.com/news/softbank-coreweave-earnings-ai-neocloud-rally-demand-fears-ai-stocks/"
+          "title": "Reuters closing market report",
+          "url": "https://www.streetinsider.com/General%2BNews/Stocks%2Bclimb%2Bas%2BCoreWeave%2Bresults%2Bease%2BAI%2Bspending%2Bconcerns/27325904.html"
+        },
+        {
+          "title": "Stock Titan timestamped closing update",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-11-2026"
         }
       ],
-      "status": "new",
-      "supersedes": null
+      "status": "updated",
+      "supersedes": "scout-20261111-1638-ai-infrastructure-breadth"
     },
     {
-      "id": "scout-20261111-1337-rskd-earnings-repricing",
-      "observed_at": "2026-11-11T13:37:05-05:00",
-      "title": "Riskified surges following 41% Q3 revenue growth and higher outlook",
-      "summary": "Riskified reported $115.2 million in Q3 revenue, up 41% year over year, and raised 2026 revenue guidance to $427–433 million. Shares traded 20.4% higher at 12:37 PM EST. Cash and deposits are strong and free cash flow positive, but gross margin narrowed sharply; merchant retention and agentic-fraud product adoption remain tests.",
+      "id": "scout-20261111-1643-capr-fda-catalyst",
+      "observed_at": "2026-11-11T16:43:32-05:00",
+      "title": "Capricor stands out ahead of FDA target date; approval remains uncertain",
+      "summary": "Capricor's reported intraday surge coincided with its regulatory update. The company reiterates the FDA target date for deramiocel, with an amended application and inspection response still under review. Approval, label scope and manufacturing feedback remain binary risks; the stock move is not a verified close.",
       "tickers": [
-        "RSKD"
+        "CAPR"
       ],
       "sectors": [
-        "Software",
-        "E-commerce fraud detection",
-        "AI applications"
+        "Healthcare",
+        "Biotechnology"
       ],
       "evidence_grade": "corroborated",
       "observations": [
         {
-          "label": "Earnings release",
-          "value": "November 11, 2026 at 6:45 AM EST"
+          "label": "Share observation, November 11 at 1:04 PM EST",
+          "value": "+19.70% reported by Stock Titan; intraday, single-source price observation, not a closing quote"
         },
         {
-          "label": "Share observation",
-          "value": "November 11, 2026 at 12:37 PM EST; intraday, not official close"
+          "label": "Company release date",
+          "value": "November 10, 2026; rechecked November 11"
         },
         {
-          "label": "RSKD quoted price",
-          "value": "$10.21; +20.40% versus prior close"
+          "label": "FDA target action date",
+          "value": "November 22, 2026; target date is not approval"
         },
         {
-          "label": "Q3 revenue",
-          "value": "$115.2 million; +41% year over year"
-        },
-        {
-          "label": "FY2026 revenue outlook",
-          "value": "$427–433 million; previously $400–410 million"
-        },
-        {
-          "label": "Free cash flow",
-          "value": "$15.2 million Q3"
-        },
-        {
-          "label": "Cash and equivalents plus investments",
-          "value": "Approximately $234.9 million; no debt"
-        },
-        {
-          "label": "GAAP gross margin",
-          "value": "43% versus 50% prior year"
+          "label": "Regulatory qualification",
+          "value": "Company says major BLA amendment extended review three months; July inspection produced one Form 483 observation; response submitted, FDA feedback awaited"
         }
       ],
-      "key_finding": "Accelerating software sales and cash generation support earnings repricing, but lower gross margins and growth durability warrant scrutiny.",
+      "key_finding": "The catalyst is documented, while approval odds cannot be inferred from the intraday rally.",
       "sources": [
         {
-          "title": "Riskified Q3 company earnings release",
-          "url": "https://ir.riskified.com/news-releases/news-release-details/riskified-reports-strong-third-quarter-2026-accelerating-revenue"
+          "title": "Capricor official Q3 regulatory update",
+          "url": "https://www.capricor.com/investors/news-events/press-releases/detail/359/capricor-therapeutics-reports-third-quarter-2026-financial"
         },
         {
-          "title": "MarketMinute RSKD timestamped intraday quotation",
-          "url": "https://vva.marketminute.com/quote/NY%3ARSKD/historical"
-        },
-        {
-          "title": "Investing.com early share reaction and consensus",
-          "url": "https://www.investing.com/news/stock-market-news/why-is-riskified-stock-surging-today-93CH-5019171"
+          "title": "Stock Titan timestamped CAPR observation",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-11-2026"
         }
       ],
       "status": "new",
       "supersedes": null
     },
     {
-      "id": "scout-20261111-1337-fujairah-energy-crew-injured",
-      "observed_at": "2026-11-11T13:37:05-05:00",
-      "title": "India identifies Fujairah Energy tanker strike and four injured crew",
-      "summary": "India's shipping minister said a projectile struck the Liberia-flagged VLCC Fujairah Energy on November 10 while sailing between Al Ruwais and Dubai, injuring four crew. One Indian seafarer had minor injuries and the remaining 18 crew were reported safe. The incident may overlap earlier Gulf tanker warnings; cargo damage and incremental oil throughput loss remain unverified.",
+      "id": "scout-20261111-1643-oil-hormuz-settlement",
+      "observed_at": "2026-11-11T16:43:32-05:00",
+      "title": "Oil rebounds at settlement while Hormuz flow risk stays unresolved",
+      "summary": "Oil recovered as diplomatic uncertainty supported supply concerns. The new settlement report updates the earlier shipping-risk watch without establishing additional lost oil volume. Watch transit evidence, insurance costs and official inventories; security warnings alone do not measure throughput.",
       "tickers": [
         "XLE",
         "XOP"
       ],
       "sectors": [
+        "Energy",
         "Oil transportation",
-        "Maritime security",
-        "Energy"
+        "Maritime security"
       ],
-      "evidence_grade": "single-source",
+      "evidence_grade": "corroborated",
       "observations": [
         {
-          "label": "Incident date",
-          "value": "November 10, 2026; statement November 11"
+          "label": "November 11 settlement reported by Reuters",
+          "value": "Brent $92.76, +1.39%; WTI $86.53, +0.57%; Reuters update timestamp 3:09 PM EST"
         },
         {
-          "label": "Vessel",
-          "value": "Liberia-flagged VLCC MT Fujairah Energy"
+          "label": "Independent settlement check",
+          "value": "AP separately reports Brent $92.76, +1.4%; WTI remains single-source and is not labeled confirmed"
         },
         {
-          "label": "Route",
-          "value": "Al Ruwais to Dubai, Persian Gulf"
+          "label": "Physical-flow distinction",
+          "value": "No incremental volume loss independently established in this pass; recovery in production and security risk can coexist"
         },
         {
-          "label": "Crew",
-          "value": "Four injured including one Indian national; 18 others reported safe"
+          "label": "UKMTO retrieval limitation",
+          "value": "Public recent-incidents page returned 0 reports; insufficient to verify or disprove earlier Warning 202-26 or establish incident resolution"
         },
         {
-          "label": "Distinctness from UKMTO/ADNOC reports",
-          "value": "Not established; do not add to independent incident count"
-        },
-        {
-          "label": "Oil-flow impact",
-          "value": "No confirmed cargo loss or incremental throughput reduction"
-        },
-        {
-          "label": "Market attribution",
-          "value": "No separate vessel-specific oil price move established"
+          "label": "Next scheduled confirmation",
+          "value": "Reuters says official US inventory data due Thursday, November 12, delayed for Veterans Day"
         }
       ],
-      "key_finding": "Government identification and crew injuries confirm tangible maritime damage, while overlap with previous warnings and oil-flow impact remain unresolved.",
+      "key_finding": "Settlement recovery is market evidence; a new physical-flow interruption remains unverified.",
       "sources": [
         {
-          "title": "India government broadcaster relaying minister's report",
-          "url": "https://newsonair.gov.in/minister-sonowal-says-all-six-indian-seafarers-safe-after-projectile-attack-in-persian-gulf/"
+          "title": "Reuters oil settlement and Hormuz assessment, updated 3:09 PM EST",
+          "url": "https://www.marketscreener.com/news/oil-rises-from-two-month-low-as-hormuz-shipping-attacks-offset-iran-truce-hopes-ce785edbd981f725"
         },
         {
-          "title": "SAFETY4SEA maritime reporting",
-          "url": "https://safety4sea.com/four-seafarers-injured-as-attacks-on-vessels-continue-in-the-persian-gulf/"
+          "title": "AP independent Brent closing coverage",
+          "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-297d040c83844a9563327340b370c24e"
         },
         {
-          "title": "Anadolu Agency reporting minister statement",
-          "url": "https://www.aa.com.tr/en/asia-pacific/4-wounded-as-projectile-hits-liberia-flagged-vessel-in-gulf/4119767"
+          "title": "UKMTO recent incidents, checked November 11",
+          "url": "https://www.ukmto.org/recent-incidents"
         }
       ],
-      "status": "new",
-      "supersedes": null
+      "status": "updated",
+      "supersedes": "scout-20261111-1228-hormuz-ukmto-202"
     },
     {
-      "id": "scout-20261111-1228-russia-refining-disruption",
-      "observed_at": "2026-11-11T12:28:09-05:00",
-      "title": "Russian refineries representing 30% of nameplate capacity affected by drone strikes",
-      "summary": "Reuters reported that attacks since late October have disrupted nine major Russian refineries whose combined nameplate capacity represents about 30% of national capacity. This is not a confirmed 30% fall in throughput: industry sources estimate an actual possible crude-processing reduction of up to 200,000 tonnes per day. Repair progress and fuel exports will determine the lasting physical impact.",
+      "id": "scout-20261111-1643-market-close",
+      "observed_at": "2026-11-11T16:43:32-05:00",
+      "title": "US indexes close higher, with Nasdaq leading",
+      "summary": "The closing recovery confirms a meaningful equity-market rebound. Cash Treasury trading was closed for Veterans Day, limiting same-day rate confirmation. Follow-through when the bond market reopens will test the strength of the move.",
       "tickers": [
-        "XLE",
-        "XOP"
+        "SPY",
+        "QQQ",
+        "DIA"
       ],
       "sectors": [
-        "Oil and gas",
-        "Refining",
-        "Energy infrastructure",
-        "Russia"
+        "Broad market",
+        "Macro"
       ],
-      "evidence_grade": "single-source",
+      "evidence_grade": "confirmed",
       "observations": [
         {
-          "label": "Source release",
-          "value": "Reuters, November 10, 2026, 7:11 AM EST; reviewed November 11 at midday"
+          "label": "November 11 official regular-session close, 4:00 PM EST",
+          "value": "S&P 500 7,619.38; Nasdaq Composite 25,466.19; Dow 52,486.49; matching levels in Reuters and AP"
         },
         {
-          "label": "Major refineries disrupted",
-          "value": "9 of Russia's 35 largest"
-        },
-        {
-          "label": "Affected nameplate capacity",
-          "value": "Approximately 300,000 metric tonnes per day (~2.2 million barrels per day); around 30% of national nameplate"
-        },
-        {
-          "label": "Potential actual crude-processing shortfall",
-          "value": "Up to 200,000 metric tonnes per day (~1.47 million barrels per day), industry-source estimate; not verified measured loss"
-        },
-        {
-          "label": "Independent market-price response",
-          "value": "No Russia-specific Brent, WTI, XLE or XOP effect isolated"
+          "label": "Evidence scope",
+          "value": "Confirmed applies to independently matching index closing levels; no current or after-hours quote is implied"
         }
       ],
-      "key_finding": "Widespread refinery operating disruptions are reported, but capacity affected must not be confused with verified lost production.",
+      "key_finding": "The broad-market close corroborates the AI-led recovery.",
       "sources": [
         {
-          "title": "Reuters via MarketScreener — recent attacks reduce Russian refining capacity, November 10",
-          "url": "https://www.marketscreener.com/news/recent-ukrainian-attacks-have-reduced-russia-s-oil-processing-capacity-by-30-sources-say-ce785edadd81f527"
+          "title": "AP closing market report",
+          "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-297d040c83844a9563327340b370c24e"
         },
         {
-          "title": "bne IntelliNews — affected refinery capacity and estimated throughput effects, November 11",
-          "url": "https://www.intellinews.com/ukraine-s-strikes-hit-russian-refineries-representing-30-of-capacity-as-abu-dhabi-talks-open-483858/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261111-1228-hormuz-ukmto-202",
-      "observed_at": "2026-11-11T12:28:09-05:00",
-      "title": "UKMTO Warning 202-26 flags another unresolved Hormuz tanker incident",
-      "summary": "Reports of UKMTO Warning 202-26 describe suspicious activity involving a tanker in the Strait of Hormuz, with military authorities as the source. The vessel, incident date and time, crew condition, damage and environmental effects are unknown. This is a separate warning from 201-26, but it is neither a confirmed attack nor a verified physical oil-flow loss.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Maritime security",
-        "Oil and gas",
-        "Strait of Hormuz"
-      ],
-      "evidence_grade": "single-source",
-      "observations": [
-        {
-          "label": "Notice",
-          "value": "UKMTO Warning 202-26, identified November 11, 2026"
-        },
-        {
-          "label": "Classification",
-          "value": "Suspicious activity; not classified as confirmed attack"
-        },
-        {
-          "label": "Incident date and time",
-          "value": "To be confirmed"
-        },
-        {
-          "label": "Location",
-          "value": "Strait of Hormuz; no coordinates supplied"
-        },
-        {
-          "label": "Crew/damage/environmental status",
-          "value": "Unknown"
-        },
-        {
-          "label": "Physical supply impact",
-          "value": "No verified interruption or lost oil volume"
-        }
-      ],
-      "key_finding": "A new numbered tanker security warning adds unresolved risk but must not be conflated with an attack or a mine claim.",
-      "sources": [
-        {
-          "title": "Arab Times — UKMTO 202-26 and separate Iranian mine claim, November 11",
-          "url": "https://www.arabtimesonline.com/news/tanker-catches-fire-after-hitting-sea-mine-east-of-strait-of-hormuz/"
-        },
-        {
-          "title": "Regulas Shipping — detailed UKMTO Warning 202-26 description, November 11",
-          "url": "https://regulasshipping.com/blog/ukmto-202-26-records-a-tanker-incident-in-the-strait-of-hormuz/"
-        },
-        {
-          "title": "MARAD — active maritime security advisories",
-          "url": "https://www.maritime.dot.gov/msci-advisories"
+          "title": "Reuters closing market report",
+          "url": "https://www.streetinsider.com/General%2BNews/Stocks%2Bclimb%2Bas%2BCoreWeave%2Bresults%2Bease%2BAI%2Bspending%2Bconcerns/27325904.html"
         }
       ],
       "status": "new",
       "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-11T16:40:17-05:00",
-  "last_check_status": "no_new_findings"
+  "last_checked_at": "2026-11-11T16:43:32-05:00",
+  "last_check_status": "new_findings"
 }
