@@ -1,8 +1,133 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-11T07:32:31-05:00",
-  "as_of_et": "November 11, 2026 at 7:32 AM EST",
+  "generated_at": "2026-11-11T08:36:48-05:00",
+  "as_of_et": "November 11, 2026 at 8:36 AM EST",
   "items": [
+    {
+      "id": "scout-20261111-0836-softbank-ai-equipment-writeoff",
+      "observed_at": "2026-11-11T08:36:48-05:00",
+      "title": "SoftBank reports $7.1bn quarterly loss including $3.7bn U.S. AI data-center equipment charges",
+      "summary": "SoftBank reported a roughly ¥1.12 trillion quarterly loss, including $3.7 billion in charges on prepaid U.S. data-center power equipment after project changes. Its Tokyo shares fell as much as 10.5% on November 11, but recovered to close down 0.44%. The result highlights financing and execution pressure rather than a demonstrated collapse in AI compute demand.",
+      "tickers": [
+        "9984.T",
+        "SFTBY",
+        "ARM"
+      ],
+      "sectors": [
+        "International equities",
+        "AI infrastructure",
+        "Data-center power",
+        "Technology investment"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Financial disclosure",
+          "value": "Quarter ended September 30, 2026; results reported November 10, 2026"
+        },
+        {
+          "label": "Quarterly net loss",
+          "value": "Approximately ¥1.12 trillion (US$7.1 billion)"
+        },
+        {
+          "label": "Equipment-related charge",
+          "value": "Approximately US$3.7 billion in prepaid U.S. AI data-center power equipment following project revisions"
+        },
+        {
+          "label": "Tokyo stock low November 11",
+          "value": "¥3,465; approximately -10.5% versus November 10 close (intraday)"
+        },
+        {
+          "label": "Tokyo close November 11",
+          "value": "¥3,855, -0.44%, confirmed by Yahoo Finance and Investing.com daily history"
+        },
+        {
+          "label": "Potential equipment rebates",
+          "value": "Up to US$2.1 billion conditional on future purchases, reported by Financial Times"
+        }
+      ],
+      "key_finding": "Large equipment charges and financing costs expose AI-infrastructure execution risk despite strong demand reported elsewhere.",
+      "sources": [
+        {
+          "title": "SoftBank official financial reports",
+          "url": "https://group.softbank/en/ir/financials"
+        },
+        {
+          "title": "Financial Times — SoftBank $7bn loss on data center equipment, November 10",
+          "url": "https://www.ft.com/content/5ceed157-0016-4822-a272-8b607911da5e"
+        },
+        {
+          "title": "Yahoo Finance — SoftBank 9984.T daily closing history",
+          "url": "https://finance.yahoo.com/quote/9984.T/history/"
+        },
+        {
+          "title": "Investing.com — SoftBank Tokyo historical close",
+          "url": "https://ca.investing.com/equities/softbank-corp.-historical-data"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261111-0836-ukmto-201-lima-tanker",
+      "observed_at": "2026-11-11T08:36:48-05:00",
+      "title": "UKMTO Warning 201-26 reports distinct November 10 tanker projectile strike near Lima, Oman",
+      "summary": "UKMTO Warning 201-26 records a tanker struck by an unidentified projectile 19 nautical miles northeast of Lima, Oman, on November 10 at 13:38 UTC. The master reported the crew safe and no environmental impact, with damage inspection deferred until first light. The vessel, attacker and incremental oil-throughput impact remain unverified; this is distinct from November 7 tanker incidents.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Energy",
+        "Maritime transportation",
+        "Strait of Hormuz"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Event clock",
+          "value": "November 10, 2026, 13:38 UTC / 8:38 AM EST"
+        },
+        {
+          "label": "Primary notice",
+          "value": "UKMTO Warning 201-26, ATTACK"
+        },
+        {
+          "label": "Location",
+          "value": "19 nautical miles northeast of Lima, Oman"
+        },
+        {
+          "label": "Reported mechanism",
+          "value": "Unnamed tanker struck by unknown projectile; attribution unverified"
+        },
+        {
+          "label": "Personnel and environment",
+          "value": "Crew safe; no environmental impact reported at the time of notice"
+        },
+        {
+          "label": "Physical oil supply consequence",
+          "value": "No independently verified tanker cargo, refinery impact or incremental petroleum-throughput loss"
+        }
+      ],
+      "key_finding": "Another distinct tanker strike sustains high Hormuz transit risk without proving incremental physical oil supply disruption.",
+      "sources": [
+        {
+          "title": "UKMTO notices — November 10, 2026, Warning 201-26",
+          "url": "https://www.ukmto.org/ukmto-products/notices"
+        },
+        {
+          "title": "Clearwater Dynamics — November 10 tanker attack alert",
+          "url": "https://www.cwdynamics.com/alerts/alert/33605"
+        },
+        {
+          "title": "Dawn — UK maritime agency tanker report, November 10",
+          "url": "https://www.dawn.com/news/2043565"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261111-0732-tsmc-revenue-board-capital",
       "observed_at": "2026-11-11T07:32:31-05:00",
@@ -173,131 +298,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261111-0728-hormuz-oil-stabilizes",
-      "observed_at": "2026-11-11T07:28:51-05:00",
-      "title": "Oil futures stabilize despite persistent Strait of Hormuz shipping attacks",
-      "summary": "Reuters reported Brent at $92.01 and WTI at $86.20 by 07:30 GMT November 11, modestly above prior two-month lows. A Washington Institute tally cited by Reuters counted 37 vessel attacks in October. Continued attacks are a credible leading risk, but neither a new oil-volume outage nor normalization of transit was verified.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Energy",
-        "Oil and gas",
-        "Maritime shipping"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Oil quote time",
-          "value": "November 11, 2026, 07:30 GMT / 2:30 AM EST; intraday"
-        },
-        {
-          "label": "Brent",
-          "value": "$92.01/bbl; +0.6%"
-        },
-        {
-          "label": "WTI",
-          "value": "$86.20/bbl; +0.2%"
-        },
-        {
-          "label": "Reported October vessel attacks",
-          "value": "37 in Hormuz and surrounding waterways; Washington Institute tally cited by Reuters"
-        },
-        {
-          "label": "Physical supply interruption",
-          "value": "No new incremental loss verified"
-        }
-      ],
-      "key_finding": "Crude stabilization reflects competing diplomatic and security signals, not proof of restored safe shipping.",
-      "sources": [
-        {
-          "title": "Reuters oil report",
-          "url": "https://www.marketscreener.com/news/oil-rises-from-two-month-low-as-hormuz-shipping-attacks-offset-iran-truce-hopes-ce785edbd981f725"
-        },
-        {
-          "title": "UKMTO recent incidents",
-          "url": "https://www.ukmto.org/recent-incidents"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261110-2027-api-inventory-correction",
-      "observed_at": "2026-11-10T20:27:59-05:00",
-      "title": "Correction: earlier 9.0-million-barrel API crude build alert invalidated",
-      "summary": "An earlier Scout item reported a 9.0-million-barrel US crude inventory build for the week ended November 6. Later OilPrice reporting, a live Trading Economics series and another contemporaneous account instead show a 9.8-million-barrel draw. The earlier build interpretation is invalidated; the competing accounts require verification against the EIA release November 12.",
-      "tickers": [
-        "XLE",
-        "XOP",
-        "USO"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Energy",
-        "Petroleum inventories"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Observation time",
-          "value": "November 10, 2026 at 8:27:59 PM EST; reporting reconciliation, not an intraday price confirmation"
-        },
-        {
-          "label": "Invalidated previous report",
-          "value": "API crude inventories +9.0 million barrels for week ending November 6, as reported in prior Scout item"
-        },
-        {
-          "label": "Newer reported API crude figure",
-          "value": "-9.8 million barrels, i.e. draw rather than build; provisional industry estimate"
-        },
-        {
-          "label": "Reported distillate change",
-          "value": "-8.0 million barrels"
-        },
-        {
-          "label": "Reported gasoline change",
-          "value": "+2.7 million barrels"
-        },
-        {
-          "label": "Reported Cushing change",
-          "value": "+5.1 million barrels"
-        },
-        {
-          "label": "Price reaction",
-          "value": "Not independently established after the publication of these API figures"
-        },
-        {
-          "label": "Official EIA check",
-          "value": "November 12, 2026 at 12:00 PM EST (Veterans Day schedule); not yet released"
-        }
-      ],
-      "key_finding": "Material source contradiction reverses the earlier API crude-build interpretation; treat the original Scout alert as invalid pending official reconciliation.",
-      "sources": [
-        {
-          "title": "OilPrice: API Shows Sharp Drop in US Crude Oil, Distillate Inventories (November 10)",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/API-Shows-Sharp-Drop-in-US-Crude-Oil-Distillate-Inventories.html"
-        },
-        {
-          "title": "Trading Economics: Live US API Crude Oil Stock Change (November 10)",
-          "url": "https://tradingeconomics.com/united-states/api-crude-oil-stock-change"
-        },
-        {
-          "title": "Investing.com: API Reports Larger-Than-Expected Drop (November 10 release)",
-          "url": "https://in.investing.com/news/stock-market-news/api-reports-largerthanexpected-drop-in-us-crude-inventories-93CH-5695246"
-        },
-        {
-          "title": "EIA official weekly petroleum release schedule",
-          "url": "https://www.eia.gov/petroleum/supply/weekly/schedule.php"
-        }
-      ],
-      "status": "invalidated",
-      "supersedes": "scout-20261110-1928-api-crude-build"
     }
   ],
-  "last_checked_at": "2026-11-11T07:32:31-05:00",
+  "last_checked_at": "2026-11-11T08:36:48-05:00",
   "last_check_status": "new_findings"
 }
