@@ -1,8 +1,119 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-11T11:35:41-05:00",
-  "as_of_et": "November 11, 2026 at 11:35 AM EST",
+  "generated_at": "2026-11-11T12:28:09-05:00",
+  "as_of_et": "November 11, 2026 at 12:28 PM EST",
   "items": [
+    {
+      "id": "scout-20261111-1228-russia-refining-disruption",
+      "observed_at": "2026-11-11T12:28:09-05:00",
+      "title": "Russian refineries representing 30% of nameplate capacity affected by drone strikes",
+      "summary": "Reuters reported that attacks since late October have disrupted nine major Russian refineries whose combined nameplate capacity represents about 30% of national capacity. This is not a confirmed 30% fall in throughput: industry sources estimate an actual possible crude-processing reduction of up to 200,000 tonnes per day. Repair progress and fuel exports will determine the lasting physical impact.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Refining",
+        "Energy infrastructure",
+        "Russia"
+      ],
+      "evidence_grade": "single-source",
+      "observations": [
+        {
+          "label": "Source release",
+          "value": "Reuters, November 10, 2026, 7:11 AM EST; reviewed November 11 at midday"
+        },
+        {
+          "label": "Major refineries disrupted",
+          "value": "9 of Russia's 35 largest"
+        },
+        {
+          "label": "Affected nameplate capacity",
+          "value": "Approximately 300,000 metric tonnes per day (~2.2 million barrels per day); around 30% of national nameplate"
+        },
+        {
+          "label": "Potential actual crude-processing shortfall",
+          "value": "Up to 200,000 metric tonnes per day (~1.47 million barrels per day), industry-source estimate; not verified measured loss"
+        },
+        {
+          "label": "Independent market-price response",
+          "value": "No Russia-specific Brent, WTI, XLE or XOP effect isolated"
+        }
+      ],
+      "key_finding": "Widespread refinery operating disruptions are reported, but capacity affected must not be confused with verified lost production.",
+      "sources": [
+        {
+          "title": "Reuters via MarketScreener — recent attacks reduce Russian refining capacity, November 10",
+          "url": "https://www.marketscreener.com/news/recent-ukrainian-attacks-have-reduced-russia-s-oil-processing-capacity-by-30-sources-say-ce785edadd81f527"
+        },
+        {
+          "title": "bne IntelliNews — affected refinery capacity and estimated throughput effects, November 11",
+          "url": "https://www.intellinews.com/ukraine-s-strikes-hit-russian-refineries-representing-30-of-capacity-as-abu-dhabi-talks-open-483858/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261111-1228-hormuz-ukmto-202",
+      "observed_at": "2026-11-11T12:28:09-05:00",
+      "title": "UKMTO Warning 202-26 flags another unresolved Hormuz tanker incident",
+      "summary": "Reports of UKMTO Warning 202-26 describe suspicious activity involving a tanker in the Strait of Hormuz, with military authorities as the source. The vessel, incident date and time, crew condition, damage and environmental effects are unknown. This is a separate warning from 201-26, but it is neither a confirmed attack nor a verified physical oil-flow loss.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Maritime security",
+        "Oil and gas",
+        "Strait of Hormuz"
+      ],
+      "evidence_grade": "single-source",
+      "observations": [
+        {
+          "label": "Notice",
+          "value": "UKMTO Warning 202-26, identified November 11, 2026"
+        },
+        {
+          "label": "Classification",
+          "value": "Suspicious activity; not classified as confirmed attack"
+        },
+        {
+          "label": "Incident date and time",
+          "value": "To be confirmed"
+        },
+        {
+          "label": "Location",
+          "value": "Strait of Hormuz; no coordinates supplied"
+        },
+        {
+          "label": "Crew/damage/environmental status",
+          "value": "Unknown"
+        },
+        {
+          "label": "Physical supply impact",
+          "value": "No verified interruption or lost oil volume"
+        }
+      ],
+      "key_finding": "A new numbered tanker security warning adds unresolved risk but must not be conflated with an attack or a mine claim.",
+      "sources": [
+        {
+          "title": "Arab Times — UKMTO 202-26 and separate Iranian mine claim, November 11",
+          "url": "https://www.arabtimesonline.com/news/tanker-catches-fire-after-hitting-sea-mine-east-of-strait-of-hormuz/"
+        },
+        {
+          "title": "Regulas Shipping — detailed UKMTO Warning 202-26 description, November 11",
+          "url": "https://regulasshipping.com/blog/ukmto-202-26-records-a-tanker-incident-in-the-strait-of-hormuz/"
+        },
+        {
+          "title": "MARAD — active maritime security advisories",
+          "url": "https://www.maritime.dot.gov/msci-advisories"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261111-1135-talen-pjm-capacity",
       "observed_at": "2026-11-11T11:35:41-05:00",
@@ -197,136 +308,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261111-0931-valens-auto-connectivity-beat",
-      "observed_at": "2026-11-11T09:31:22-05:00",
-      "title": "Valens Semiconductor exceeds Q3 guidance as automotive connectivity sales grow",
-      "summary": "Valens reported Q3 revenue of $21.9 million, up about 26% year over year and above guidance, with automotive revenue reaching $7.9 million. A reported 6.79% premarket gain followed the release. Its onsemi automotive-camera collaboration supports a growth pathway, but the business remains loss-making and cash balances declined.",
-      "tickers": [
-        "VLN",
-        "ON"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "Automotive electronics",
-        "Embedded connectivity"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Company release",
-          "value": "November 11, 2026 at 6:30 AM EST"
-        },
-        {
-          "label": "Premarket price reaction",
-          "value": "Approximately +6.79% in report published 6:44 AM EST; not a confirmed close"
-        },
-        {
-          "label": "Q3 revenue",
-          "value": "$21.9 million vs $21.3–21.7 million guidance; +26% year on year"
-        },
-        {
-          "label": "Automotive revenue",
-          "value": "$7.9 million vs $5.0 million Q2 2026"
-        },
-        {
-          "label": "GAAP / non-GAAP gross margin",
-          "value": "62.2% / 64.4%"
-        },
-        {
-          "label": "Adjusted EBITDA loss",
-          "value": "$2.7 million"
-        },
-        {
-          "label": "Cash and short-term deposits",
-          "value": "$74.7 million as of September 30, down from $83.4 million on June 30"
-        }
-      ],
-      "key_finding": "Automotive-chip revenue acceleration and new camera partnership are concrete progress, not proof of future program wins or profitability.",
-      "sources": [
-        {
-          "title": "Valens official Q3 earnings, Nov 11",
-          "url": "https://www.prnewswire.com/news-releases/valens-semiconductor-reports-strong-third-quarter-2026-results-302936347.html"
-        },
-        {
-          "title": "Investing.com premarket VLN mover Nov 11",
-          "url": "https://www.investing.com/news/stock-market-news/why-is-valens-semiconductor-stock-surging-today-93CH-5018436"
-        },
-        {
-          "title": "StreetInsider VLN earnings estimates, Nov 11",
-          "url": "https://www.streetinsider.com/Earnings/Valens%2BSemiconductor%2B%28VLN%29%2BReports%2BIn-Line%2BQ3%2BEPS%3B%2BOffers%2BGuidance/27326066.html"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261111-0836-softbank-ai-equipment-writeoff",
-      "observed_at": "2026-11-11T08:36:48-05:00",
-      "title": "SoftBank reports $7.1bn quarterly loss including $3.7bn U.S. AI data-center equipment charges",
-      "summary": "SoftBank reported a roughly ¥1.12 trillion quarterly loss, including $3.7 billion in charges on prepaid U.S. data-center power equipment after project changes. Its Tokyo shares fell as much as 10.5% on November 11, but recovered to close down 0.44%. The result highlights financing and execution pressure rather than a demonstrated collapse in AI compute demand.",
-      "tickers": [
-        "9984.T",
-        "SFTBY",
-        "ARM"
-      ],
-      "sectors": [
-        "International equities",
-        "AI infrastructure",
-        "Data-center power",
-        "Technology investment"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Financial disclosure",
-          "value": "Quarter ended September 30, 2026; results reported November 10, 2026"
-        },
-        {
-          "label": "Quarterly net loss",
-          "value": "Approximately ¥1.12 trillion (US$7.1 billion)"
-        },
-        {
-          "label": "Equipment-related charge",
-          "value": "Approximately US$3.7 billion in prepaid U.S. AI data-center power equipment following project revisions"
-        },
-        {
-          "label": "Tokyo stock low November 11",
-          "value": "¥3,465; approximately -10.5% versus November 10 close (intraday)"
-        },
-        {
-          "label": "Tokyo close November 11",
-          "value": "¥3,855, -0.44%, confirmed by Yahoo Finance and Investing.com daily history"
-        },
-        {
-          "label": "Potential equipment rebates",
-          "value": "Up to US$2.1 billion conditional on future purchases, reported by Financial Times"
-        }
-      ],
-      "key_finding": "Large equipment charges and financing costs expose AI-infrastructure execution risk despite strong demand reported elsewhere.",
-      "sources": [
-        {
-          "title": "SoftBank official financial reports",
-          "url": "https://group.softbank/en/ir/financials"
-        },
-        {
-          "title": "Financial Times — SoftBank $7bn loss on data center equipment, November 10",
-          "url": "https://www.ft.com/content/5ceed157-0016-4822-a272-8b607911da5e"
-        },
-        {
-          "title": "Yahoo Finance — SoftBank 9984.T daily closing history",
-          "url": "https://finance.yahoo.com/quote/9984.T/history/"
-        },
-        {
-          "title": "Investing.com — SoftBank Tokyo historical close",
-          "url": "https://ca.investing.com/equities/softbank-corp.-historical-data"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-11T11:35:41-05:00",
+  "last_checked_at": "2026-11-11T12:28:09-05:00",
   "last_check_status": "new_findings"
 }
