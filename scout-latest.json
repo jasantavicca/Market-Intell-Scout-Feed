@@ -1,8 +1,135 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-11T08:36:48-05:00",
-  "as_of_et": "November 11, 2026 at 8:36 AM EST",
+  "generated_at": "2026-11-11T09:31:22-05:00",
+  "as_of_et": "November 11, 2026 at 9:31 AM EST",
   "items": [
+    {
+      "id": "scout-20261111-0931-siemens-energy-record-backlog",
+      "observed_at": "2026-11-11T09:31:22-05:00",
+      "title": "Siemens Energy records EUR164bn backlog and lifts power-equipment growth outlook",
+      "summary": "Siemens Energy reported a record €164 billion order backlog, approximately €15 billion of it linked to data centers. It targets 14–16% comparable revenue growth and a 14–16% operating margin before special items in FY2027. Shares rose roughly 7–8% in early European trading; revenue conversion, costs, and an earnings forecast below consensus remain risks.",
+      "tickers": [
+        "ENR.DE",
+        "SMNEY"
+      ],
+      "sectors": [
+        "Data-center power",
+        "Grid infrastructure",
+        "Gas turbines",
+        "International equities"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Observation",
+          "value": "November 11, 2026; research checked 9:31 AM EST"
+        },
+        {
+          "label": "European equity move",
+          "value": "Approximately +7–8% in early November 11 Frankfurt trading; not an official close"
+        },
+        {
+          "label": "Year-end order backlog",
+          "value": "€164 billion"
+        },
+        {
+          "label": "Data-center-linked orders in backlog",
+          "value": "Approximately €15 billion, according to Reuters citing CEO"
+        },
+        {
+          "label": "FY2027 comparable revenue growth outlook",
+          "value": "14–16%"
+        },
+        {
+          "label": "FY2027 pre-special-items profit margin",
+          "value": "14–16%; FY2026 achieved 12.4%"
+        },
+        {
+          "label": "FY2027 net income vs consensus",
+          "value": "Approximately €5 billion forecast vs €5.5 billion analyst estimate, Investing.com"
+        }
+      ],
+      "key_finding": "Record order backlog demonstrates tangible demand for gas turbines and grid equipment, while profitability and execution remain uncertain.",
+      "sources": [
+        {
+          "title": "Siemens Energy official FY2026 results and outlook",
+          "url": "https://www.siemens-energy.com/content/siemensenergy-aem/global/en/home/press-releases/earnings-release-q4-fy-2026--siemens-energy-reports-a-record-yea.html"
+        },
+        {
+          "title": "Reuters via Euronext, November 11",
+          "url": "https://live.euronext.com/en/financial-news/siemens-energy-expects-margin-boost-2027-data-centres-fuel-turbine-grid-demand"
+        },
+        {
+          "title": "WSJ Siemens Energy November 11 market response",
+          "url": "https://www.wsj.com/business/earnings/siemens-energy-targets-steeper-profit-gains-through-2030-269212e1"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261111-0931-valens-auto-connectivity-beat",
+      "observed_at": "2026-11-11T09:31:22-05:00",
+      "title": "Valens Semiconductor exceeds Q3 guidance as automotive connectivity sales grow",
+      "summary": "Valens reported Q3 revenue of $21.9 million, up about 26% year over year and above guidance, with automotive revenue reaching $7.9 million. A reported 6.79% premarket gain followed the release. Its onsemi automotive-camera collaboration supports a growth pathway, but the business remains loss-making and cash balances declined.",
+      "tickers": [
+        "VLN",
+        "ON"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "Automotive electronics",
+        "Embedded connectivity"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Company release",
+          "value": "November 11, 2026 at 6:30 AM EST"
+        },
+        {
+          "label": "Premarket price reaction",
+          "value": "Approximately +6.79% in report published 6:44 AM EST; not a confirmed close"
+        },
+        {
+          "label": "Q3 revenue",
+          "value": "$21.9 million vs $21.3–21.7 million guidance; +26% year on year"
+        },
+        {
+          "label": "Automotive revenue",
+          "value": "$7.9 million vs $5.0 million Q2 2026"
+        },
+        {
+          "label": "GAAP / non-GAAP gross margin",
+          "value": "62.2% / 64.4%"
+        },
+        {
+          "label": "Adjusted EBITDA loss",
+          "value": "$2.7 million"
+        },
+        {
+          "label": "Cash and short-term deposits",
+          "value": "$74.7 million as of September 30, down from $83.4 million on June 30"
+        }
+      ],
+      "key_finding": "Automotive-chip revenue acceleration and new camera partnership are concrete progress, not proof of future program wins or profitability.",
+      "sources": [
+        {
+          "title": "Valens official Q3 earnings, Nov 11",
+          "url": "https://www.prnewswire.com/news-releases/valens-semiconductor-reports-strong-third-quarter-2026-results-302936347.html"
+        },
+        {
+          "title": "Investing.com premarket VLN mover Nov 11",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-valens-semiconductor-stock-surging-today-93CH-5018436"
+        },
+        {
+          "title": "StreetInsider VLN earnings estimates, Nov 11",
+          "url": "https://www.streetinsider.com/Earnings/Valens%2BSemiconductor%2B%28VLN%29%2BReports%2BIn-Line%2BQ3%2BEPS%3B%2BOffers%2BGuidance/27326066.html"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261111-0836-softbank-ai-equipment-writeoff",
       "observed_at": "2026-11-11T08:36:48-05:00",
@@ -196,110 +323,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261111-0728-coreweave-earnings",
-      "observed_at": "2026-11-11T07:28:51-05:00",
-      "title": "CoreWeave Q3 revenue jumps 168% and backlog reaches $132.5 billion",
-      "summary": "CoreWeave reported $3.66 billion of Q3 revenue, up 168% year over year, beating estimates, and raised full-year guidance to $13.0–$13.3 billion. Shares rose more than 7% in November 10 extended trading after a severe monthly decline. Its $132.5 billion backlog supports demand visibility, while debt and spending create significant execution risk.",
-      "tickers": [
-        "CRWV",
-        "SOXX"
-      ],
-      "sectors": [
-        "AI infrastructure",
-        "Cloud computing",
-        "Semiconductors"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Results release",
-          "value": "November 10, 2026 after market close"
-        },
-        {
-          "label": "Revenue",
-          "value": "$3.66 billion; +168% year over year"
-        },
-        {
-          "label": "Backlog",
-          "value": "$132.5 billion"
-        },
-        {
-          "label": "FY2026 revenue guidance",
-          "value": "$13.0–$13.3 billion"
-        },
-        {
-          "label": "Capital expenditures outlook",
-          "value": "$37–$39 billion"
-        },
-        {
-          "label": "Market move",
-          "value": "More than +7% November 10 after hours; not a confirmed November 11 close"
-        }
-      ],
-      "key_finding": "Strong customer demand contrasts with elevated leverage, capital intensity and backlog conversion risk.",
-      "sources": [
-        {
-          "title": "CoreWeave Q3 earnings release",
-          "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx"
-        },
-        {
-          "title": "Reuters CoreWeave earnings coverage",
-          "url": "https://www.investing.com/news/economy-news/coreweave-beats-quarterly-revenue-estimates-as-ai-demand-defies-growing-doubts-5016823"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261111-0728-ust-luga-port-fire",
-      "observed_at": "2026-11-11T07:28:51-05:00",
-      "title": "Reported drone strike causes fire at Russia's Ust-Luga export port",
-      "summary": "Russia's Leningrad governor reported a drone strike and fire at Ust-Luga port, three injured workers and a local power disruption. Ust-Luga handles oil and petroleum-product exports, but the damaged terminal and export-flow impact remain unverified. This is a leading infrastructure-risk signal rather than a confirmed crude-supply outage.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Maritime infrastructure",
-        "Russia"
-      ],
-      "evidence_grade": "single-source",
-      "observations": [
-        {
-          "label": "Incident",
-          "value": "Overnight November 10–11, 2026"
-        },
-        {
-          "label": "Reported physical effect",
-          "value": "Port-area fire; three injured workers; local power disruption"
-        },
-        {
-          "label": "Oil throughput effect",
-          "value": "No verified loss or duration"
-        },
-        {
-          "label": "Market price response",
-          "value": "Not independently established as attributable to this incident"
-        }
-      ],
-      "key_finding": "Ust-Luga port fire warrants monitoring of tanker loading and terminal status, without assuming an oil-flow interruption.",
-      "sources": [
-        {
-          "title": "Reuters Ust-Luga report",
-          "url": "https://www.marketscreener.com/news/drone-attack-causes-fire-in-russia-s-baltic-sea-port-of-ust-luga-governor-says-ce785edbd889f32c"
-        },
-        {
-          "title": "BNE IntelliNews independent incident context",
-          "url": "https://www.intellinews.com/missile-war-monitor-ukrainian-drones-set-fire-to-russia-s-ust-luga-port-russian-strikes-cut-power-to-135-000-in-ukraine-s-odesa-region-483846/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-11T08:36:48-05:00",
+  "last_checked_at": "2026-11-11T09:31:22-05:00",
   "last_check_status": "new_findings"
 }
