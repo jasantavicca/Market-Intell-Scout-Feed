@@ -1,8 +1,75 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-11T10:27:38-05:00",
-  "as_of_et": "November 11, 2026 at 10:27 AM EST",
+  "generated_at": "2026-11-11T11:35:41-05:00",
+  "as_of_et": "November 11, 2026 at 11:35 AM EST",
   "items": [
+    {
+      "id": "scout-20261111-1135-talen-pjm-capacity",
+      "observed_at": "2026-11-11T11:35:41-05:00",
+      "title": "Talen Energy secures seven-year 750 MW PJM capacity contract with expected $100M annual revenue",
+      "summary": "Talen Energy announced a seven-year agreement covering 750 MW of accredited capacity at Guernsey Power Station, expected to generate approximately $100 million a year beginning in the 2029/30 PJM delivery year. Combined with existing capacity arrangements, these megawatts provide about $1 billion of ten-year capacity-revenue visibility. TLN advanced in morning trading; PJM rules, delivery obligations and operations remain risks.",
+      "tickers": [
+        "TLN"
+      ],
+      "sectors": [
+        "Electric power",
+        "Grid infrastructure",
+        "Data-center power",
+        "Utilities"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Company announcement",
+          "value": "November 11, 2026, 6:30 AM EST"
+        },
+        {
+          "label": "Observed TLN intraday market reaction",
+          "value": "+4.55% at $377.63 as of 9:31 AM EST, November 11; not an official closing result"
+        },
+        {
+          "label": "Contracted capacity",
+          "value": "750 MW, Guernsey Power Station, PJM"
+        },
+        {
+          "label": "Term",
+          "value": "Seven years, PJM 2029/30 through 2035/36 delivery years"
+        },
+        {
+          "label": "Expected revenue",
+          "value": "Approximately $100 million per year, company estimate"
+        },
+        {
+          "label": "Combined capacity visibility",
+          "value": "Approximately $1 billion over ten years including prior capacity auction arrangements"
+        },
+        {
+          "label": "Contracted gross margin",
+          "value": "Talen says 40% through 2036 together with AWS power agreement"
+        },
+        {
+          "label": "Nature of agreement",
+          "value": "Capacity payments, not verified newly generated electricity"
+        }
+      ],
+      "key_finding": "Long-term contracted PJM capacity payments improve cash-flow visibility for dispatchable power assets amid data-center electricity demand.",
+      "sources": [
+        {
+          "title": "Talen Energy — November 11, 2026 official capacity agreement",
+          "url": "https://talenenergy.gcs-web.com/news-releases/news-release-details/talen-signs-750-mw-long-term-capacity-agreement"
+        },
+        {
+          "title": "Barron's — Talen shares rise following power-capacity agreement",
+          "url": "https://www.barrons.com/articles/talen-energy-stock-power-deal-0b4479a2"
+        },
+        {
+          "title": "Stock Analysis — TLN intraday price observation",
+          "url": "https://stockanalysis.com/stocks/tln/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261111-1027-memory-optics-relief-rally",
       "observed_at": "2026-11-11T10:27:38-05:00",
@@ -258,68 +325,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261111-0836-ukmto-201-lima-tanker",
-      "observed_at": "2026-11-11T08:36:48-05:00",
-      "title": "UKMTO Warning 201-26 reports distinct November 10 tanker projectile strike near Lima, Oman",
-      "summary": "UKMTO Warning 201-26 records a tanker struck by an unidentified projectile 19 nautical miles northeast of Lima, Oman, on November 10 at 13:38 UTC. The master reported the crew safe and no environmental impact, with damage inspection deferred until first light. The vessel, attacker and incremental oil-throughput impact remain unverified; this is distinct from November 7 tanker incidents.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Energy",
-        "Maritime transportation",
-        "Strait of Hormuz"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Event clock",
-          "value": "November 10, 2026, 13:38 UTC / 8:38 AM EST"
-        },
-        {
-          "label": "Primary notice",
-          "value": "UKMTO Warning 201-26, ATTACK"
-        },
-        {
-          "label": "Location",
-          "value": "19 nautical miles northeast of Lima, Oman"
-        },
-        {
-          "label": "Reported mechanism",
-          "value": "Unnamed tanker struck by unknown projectile; attribution unverified"
-        },
-        {
-          "label": "Personnel and environment",
-          "value": "Crew safe; no environmental impact reported at the time of notice"
-        },
-        {
-          "label": "Physical oil supply consequence",
-          "value": "No independently verified tanker cargo, refinery impact or incremental petroleum-throughput loss"
-        }
-      ],
-      "key_finding": "Another distinct tanker strike sustains high Hormuz transit risk without proving incremental physical oil supply disruption.",
-      "sources": [
-        {
-          "title": "UKMTO notices — November 10, 2026, Warning 201-26",
-          "url": "https://www.ukmto.org/ukmto-products/notices"
-        },
-        {
-          "title": "Clearwater Dynamics — November 10 tanker attack alert",
-          "url": "https://www.cwdynamics.com/alerts/alert/33605"
-        },
-        {
-          "title": "Dawn — UK maritime agency tanker report, November 10",
-          "url": "https://www.dawn.com/news/2043565"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-11T10:27:38-05:00",
+  "last_checked_at": "2026-11-11T11:35:41-05:00",
   "last_check_status": "new_findings"
 }
