@@ -1,8 +1,67 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-11T13:37:05-05:00",
-  "as_of_et": "November 11, 2026 at 1:37 PM EST",
+  "generated_at": "2026-11-11T16:38:11-05:00",
+  "as_of_et": "November 11, 2026, 4:38 PM EST",
   "items": [
+    {
+      "id": "scout-20261111-1638-ai-infrastructure-breadth",
+      "observed_at": "2026-11-11T16:38:11-05:00",
+      "title": "CoreWeave earnings spark broad AI infrastructure rebound across memory, optics and power",
+      "summary": "CoreWeave's earnings-driven recovery broadened to AI cloud, memory, optical networking and data-center power names on November 11. At 10:30 AM ET, an intraday market snapshot showed CRWV up 21.9%, NBIS 16.3%, BE 15.0%, SNDK 14.7% and LITE 12.7%. The broad response supports renewed AI demand confidence, but financing and capital intensity remain risks.",
+      "tickers": [
+        "CRWV",
+        "NBIS",
+        "BE",
+        "SNDK",
+        "LITE"
+      ],
+      "sectors": [
+        "AI infrastructure",
+        "Semiconductors and memory",
+        "Optical networking",
+        "Data-center power"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Intraday observation time",
+          "value": "November 11, 2026 at approximately 10:30 AM EST; not closing prices"
+        },
+        {
+          "label": "CRWV",
+          "value": "+21.9% intraday"
+        },
+        {
+          "label": "NBIS",
+          "value": "+16.3% intraday"
+        },
+        {
+          "label": "BE",
+          "value": "+15.0% intraday"
+        },
+        {
+          "label": "SNDK",
+          "value": "+14.7% intraday"
+        },
+        {
+          "label": "LITE",
+          "value": "+12.7% intraday"
+        }
+      ],
+      "key_finding": "AI demand repricing broadened across infrastructure suppliers; financing risks and persistence of breadth remain key tests.",
+      "sources": [
+        {
+          "title": "November 11 intraday stock market snapshot",
+          "url": "https://moneyheap.ai/stock-market-today/2026-11-11"
+        },
+        {
+          "title": "Investor's Business Daily AI infrastructure rebound coverage",
+          "url": "https://www.investors.com/news/softbank-coreweave-earnings-ai-neocloud-rally-demand-fears-ai-stocks/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261111-1337-rskd-earnings-repricing",
       "observed_at": "2026-11-11T13:37:05-05:00",
@@ -242,75 +301,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261111-1135-talen-pjm-capacity",
-      "observed_at": "2026-11-11T11:35:41-05:00",
-      "title": "Talen Energy secures seven-year 750 MW PJM capacity contract with expected $100M annual revenue",
-      "summary": "Talen Energy announced a seven-year agreement covering 750 MW of accredited capacity at Guernsey Power Station, expected to generate approximately $100 million a year beginning in the 2029/30 PJM delivery year. Combined with existing capacity arrangements, these megawatts provide about $1 billion of ten-year capacity-revenue visibility. TLN advanced in morning trading; PJM rules, delivery obligations and operations remain risks.",
-      "tickers": [
-        "TLN"
-      ],
-      "sectors": [
-        "Electric power",
-        "Grid infrastructure",
-        "Data-center power",
-        "Utilities"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Company announcement",
-          "value": "November 11, 2026, 6:30 AM EST"
-        },
-        {
-          "label": "Observed TLN intraday market reaction",
-          "value": "+4.55% at $377.63 as of 9:31 AM EST, November 11; not an official closing result"
-        },
-        {
-          "label": "Contracted capacity",
-          "value": "750 MW, Guernsey Power Station, PJM"
-        },
-        {
-          "label": "Term",
-          "value": "Seven years, PJM 2029/30 through 2035/36 delivery years"
-        },
-        {
-          "label": "Expected revenue",
-          "value": "Approximately $100 million per year, company estimate"
-        },
-        {
-          "label": "Combined capacity visibility",
-          "value": "Approximately $1 billion over ten years including prior capacity auction arrangements"
-        },
-        {
-          "label": "Contracted gross margin",
-          "value": "Talen says 40% through 2036 together with AWS power agreement"
-        },
-        {
-          "label": "Nature of agreement",
-          "value": "Capacity payments, not verified newly generated electricity"
-        }
-      ],
-      "key_finding": "Long-term contracted PJM capacity payments improve cash-flow visibility for dispatchable power assets amid data-center electricity demand.",
-      "sources": [
-        {
-          "title": "Talen Energy — November 11, 2026 official capacity agreement",
-          "url": "https://talenenergy.gcs-web.com/news-releases/news-release-details/talen-signs-750-mw-long-term-capacity-agreement"
-        },
-        {
-          "title": "Barron's — Talen shares rise following power-capacity agreement",
-          "url": "https://www.barrons.com/articles/talen-energy-stock-power-deal-0b4479a2"
-        },
-        {
-          "title": "Stock Analysis — TLN intraday price observation",
-          "url": "https://stockanalysis.com/stocks/tln/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-11T14:31:22-05:00",
-  "last_check_status": "no_new_findings"
+  "last_checked_at": "2026-11-11T16:38:11-05:00",
+  "last_check_status": "new_findings"
 }
