@@ -1,72 +1,79 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-10T19:28:02-05:00",
-  "as_of_et": "November 10, 2026 at 7:28 PM EST",
+  "generated_at": "2026-11-10T20:27:59-05:00",
+  "as_of_et": "November 10, 2026 at 8:27 PM EST",
   "items": [
     {
-      "id": "scout-20261110-1928-api-crude-build",
-      "observed_at": "2026-11-10T19:28:02-05:00",
-      "title": "API reports unexpected 9.0 million-barrel US crude inventory build",
-      "summary": "A corrected API estimate shows US crude inventories increased 9.0 million barrels in the week ended November 6, reversing a 5.267 million-barrel decline in the prior week. Distillate inventories also rose 1.5 million barrels. Earlier indexed accounts incorrectly showed a 9.8 million-barrel draw; this corrected industry estimate awaits EIA verification.",
+      "id": "scout-20261110-2027-api-inventory-correction",
+      "observed_at": "2026-11-10T20:27:59-05:00",
+      "title": "Correction: earlier 9.0-million-barrel API crude build alert invalidated",
+      "summary": "An earlier Scout item reported a 9.0-million-barrel US crude inventory build for the week ended November 6. Later OilPrice reporting, a live Trading Economics series and another contemporaneous account instead show a 9.8-million-barrel draw. The earlier build interpretation is invalidated; the competing accounts require verification against the EIA release November 12.",
       "tickers": [
         "XLE",
         "XOP",
-        "VLO",
-        "MPC"
+        "USO"
       ],
       "sectors": [
+        "Oil and gas",
         "Energy",
-        "Oil inventories",
-        "Refining"
+        "Petroleum inventories"
       ],
       "evidence_grade": "corroborated",
       "observations": [
         {
-          "label": "Scout observation",
-          "value": "November 10, 2026 at 7:28 PM EST"
+          "label": "Observation time",
+          "value": "November 10, 2026 at 8:27:59 PM EST; reporting reconciliation, not an intraday price confirmation"
         },
         {
-          "label": "API report period",
-          "value": "Week ended November 6, 2026"
+          "label": "Invalidated previous report",
+          "value": "API crude inventories +9.0 million barrels for week ending November 6, as reported in prior Scout item"
         },
         {
-          "label": "US crude change",
-          "value": "+9.0 million barrels, API estimate; corrected after erroneous early -9.8 million report"
+          "label": "Newer reported API crude figure",
+          "value": "-9.8 million barrels, i.e. draw rather than build; provisional industry estimate"
         },
         {
-          "label": "Reported consensus",
-          "value": "Approximately -1.0 million barrels"
+          "label": "Reported distillate change",
+          "value": "-8.0 million barrels"
         },
         {
-          "label": "Distillates",
-          "value": "+1.5 million barrels"
+          "label": "Reported gasoline change",
+          "value": "+2.7 million barrels"
         },
         {
-          "label": "Cushing",
-          "value": "+182,000 barrels"
+          "label": "Reported Cushing change",
+          "value": "+5.1 million barrels"
         },
         {
-          "label": "Oil market comparison",
-          "value": "WTI December contract settled near $86.04, -0.9%, before API report; no verified after-release response"
+          "label": "Price reaction",
+          "value": "Not independently established after the publication of these API figures"
         },
         {
-          "label": "Next verification",
-          "value": "Next EIA Weekly Petroleum Status Report"
+          "label": "Official EIA check",
+          "value": "November 12, 2026 at 12:00 PM EST (Veterans Day schedule); not yet released"
         }
       ],
-      "key_finding": "Unexpected API inventory build changes the near-term oil balance signal; await official EIA corroboration and watch crude and distillate futures.",
+      "key_finding": "Material source contradiction reverses the earlier API crude-build interpretation; treat the original Scout alert as invalid pending official reconciliation.",
       "sources": [
         {
-          "title": "OilPrice.com corrected November 10 API inventory report",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/API-Shows-Sharp-Build-in-US-Crude-Oil-Distillate-Inventories.html"
+          "title": "OilPrice: API Shows Sharp Drop in US Crude Oil, Distillate Inventories (November 10)",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/API-Shows-Sharp-Drop-in-US-Crude-Oil-Distillate-Inventories.html"
         },
         {
-          "title": "Trading Economics API crude stock change",
+          "title": "Trading Economics: Live US API Crude Oil Stock Change (November 10)",
           "url": "https://tradingeconomics.com/united-states/api-crude-oil-stock-change"
+        },
+        {
+          "title": "Investing.com: API Reports Larger-Than-Expected Drop (November 10 release)",
+          "url": "https://in.investing.com/news/stock-market-news/api-reports-largerthanexpected-drop-in-us-crude-inventories-93CH-5695246"
+        },
+        {
+          "title": "EIA official weekly petroleum release schedule",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/schedule.php"
         }
       ],
-      "status": "new",
-      "supersedes": null
+      "status": "invalidated",
+      "supersedes": "scout-20261110-1928-api-crude-build"
     },
     {
       "id": "scout-20261110-1928-russia-refinery-drone",
@@ -336,6 +343,6 @@
       "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-10T19:28:02-05:00",
+  "last_checked_at": "2026-11-10T20:27:59-05:00",
   "last_check_status": "new_findings"
 }
