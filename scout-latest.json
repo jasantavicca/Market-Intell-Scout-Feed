@@ -1,8 +1,264 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-10T18:27:10-05:00",
-  "as_of_et": "November 10, 2026 at 6:27 PM EST",
+  "generated_at": "2026-11-10T19:28:02-05:00",
+  "as_of_et": "November 10, 2026 at 7:28 PM EST",
   "items": [
+    {
+      "id": "scout-20261110-1928-api-crude-build",
+      "observed_at": "2026-11-10T19:28:02-05:00",
+      "title": "API reports unexpected 9.0 million-barrel US crude inventory build",
+      "summary": "A corrected API estimate shows US crude inventories increased 9.0 million barrels in the week ended November 6, reversing a 5.267 million-barrel decline in the prior week. Distillate inventories also rose 1.5 million barrels. Earlier indexed accounts incorrectly showed a 9.8 million-barrel draw; this corrected industry estimate awaits EIA verification.",
+      "tickers": [
+        "XLE",
+        "XOP",
+        "VLO",
+        "MPC"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil inventories",
+        "Refining"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Scout observation",
+          "value": "November 10, 2026 at 7:28 PM EST"
+        },
+        {
+          "label": "API report period",
+          "value": "Week ended November 6, 2026"
+        },
+        {
+          "label": "US crude change",
+          "value": "+9.0 million barrels, API estimate; corrected after erroneous early -9.8 million report"
+        },
+        {
+          "label": "Reported consensus",
+          "value": "Approximately -1.0 million barrels"
+        },
+        {
+          "label": "Distillates",
+          "value": "+1.5 million barrels"
+        },
+        {
+          "label": "Cushing",
+          "value": "+182,000 barrels"
+        },
+        {
+          "label": "Oil market comparison",
+          "value": "WTI December contract settled near $86.04, -0.9%, before API report; no verified after-release response"
+        },
+        {
+          "label": "Next verification",
+          "value": "Next EIA Weekly Petroleum Status Report"
+        }
+      ],
+      "key_finding": "Unexpected API inventory build changes the near-term oil balance signal; await official EIA corroboration and watch crude and distillate futures.",
+      "sources": [
+        {
+          "title": "OilPrice.com corrected November 10 API inventory report",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/API-Shows-Sharp-Build-in-US-Crude-Oil-Distillate-Inventories.html"
+        },
+        {
+          "title": "Trading Economics API crude stock change",
+          "url": "https://tradingeconomics.com/united-states/api-crude-oil-stock-change"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261110-1928-russia-refinery-drone",
+      "observed_at": "2026-11-10T19:28:02-05:00",
+      "title": "Ukraine drone strikes affect Russian refineries representing about 30% of national capacity",
+      "summary": "Reuters reported that Ukrainian attacks since late October disrupted nine major Russian refineries, with affected installations representing approximately 30% of national nameplate processing capacity. Industry sources estimate an actual crude-processing reduction of up to 200,000 metric tons per day, which is not equivalent to 30% of output. Repairs and actual throughput require further confirmation.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Energy",
+        "Refined products",
+        "Geopolitical supply risk"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Scout observation",
+          "value": "November 10, 2026 at 7:28 PM EST"
+        },
+        {
+          "label": "Source observation",
+          "value": "Reuters report November 10, 2026, 7:11 AM EST"
+        },
+        {
+          "label": "Affected nameplate capacity",
+          "value": "About 300,000 metric tons/day, or 2.2 million barrels/day; ~30% of installed national capacity"
+        },
+        {
+          "label": "Estimated actual throughput reduction",
+          "value": "Up to 200,000 metric tons/day, industry-source estimate"
+        },
+        {
+          "label": "Refineries affected",
+          "value": "9 of 35 major Russian facilities, previous week"
+        },
+        {
+          "label": "Market attribution",
+          "value": "No distinct corroborated oil-futures response assigned to the refinery report"
+        },
+        {
+          "label": "Next indicators",
+          "value": "Restart timing, measured throughput, diesel exports and refinery margins"
+        }
+      ],
+      "key_finding": "Large physical refinery interruptions raise refined-product supply risk, but affected nameplate capacity must not be confused with verified output losses.",
+      "sources": [
+        {
+          "title": "Reuters via MarketScreener November 10 refinery disruption",
+          "url": "https://www.marketscreener.com/news/recent-ukrainian-attacks-have-reduced-russia-s-oil-processing-capacity-by-30-sources-say-ce785edadd81f527"
+        },
+        {
+          "title": "Washington Post refinery-damage investigation October 11",
+          "url": "https://www.washingtonpost.com/investigations/interactive/2026/10/11/how-ukraine-uses-precision-drone-strikes-hobble-russian-oil-refineries/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261110-1928-rgti-earnings-miss",
+      "observed_at": "2026-11-10T19:28:02-05:00",
+      "title": "Rigetti slides after hours following revenue miss despite 108-qubit fidelity milestone",
+      "summary": "Rigetti reported third-quarter revenue of $1.4 million against a market estimate near $3.7 million and a non-GAAP loss of $0.06 per share. An early after-hours account reported shares down approximately 8.7%. The company achieved 99.5% median two-qubit fidelity on its 108-qubit system, but its full-year revenue outlook depends on fourth-quarter customer acceptance.",
+      "tickers": [
+        "RGTI"
+      ],
+      "sectors": [
+        "Quantum computing",
+        "Advanced electronics",
+        "Emerging computing infrastructure"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Scout observation",
+          "value": "November 10, 2026 at 7:28 PM EST"
+        },
+        {
+          "label": "After-hours share indication",
+          "value": "Approximately -8.7%, reported November 10 at 5:24 PM EST; not an official close"
+        },
+        {
+          "label": "Q3 revenue",
+          "value": "$1.4 million, against approximately $3.7 million consensus"
+        },
+        {
+          "label": "Non-GAAP EPS",
+          "value": "-$0.06, versus -$0.05 consensus"
+        },
+        {
+          "label": "Technical milestone",
+          "value": "99.5% median two-qubit gate fidelity on 108-qubit processor"
+        },
+        {
+          "label": "Year-end revenue outlook",
+          "value": "Approximately $20 million, conditional on Q4 C-DAC acceptance"
+        },
+        {
+          "label": "Cash and securities",
+          "value": "Approximately $497.1 million; no debt"
+        },
+        {
+          "label": "Next indicators",
+          "value": "C-DAC acceptance, commercial bookings, operating losses and product reliability"
+        }
+      ],
+      "key_finding": "Rigetti's technical progress has yet to translate into predictable near-term commercialization or revenue recognition.",
+      "sources": [
+        {
+          "title": "Rigetti official Q3 2026 results, November 10",
+          "url": "https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-reports-third-quarter-2026-financial-results"
+        },
+        {
+          "title": "Yahoo Finance / Investing.com after-hours earnings response",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/rigetti-computing-falls-revenue-miss-222446082.html"
+        },
+        {
+          "title": "Rigetti SEC earnings exhibit",
+          "url": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926125152/rgti-ex99d1.htm"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261110-1928-pbr-earnings-miss",
+      "observed_at": "2026-11-10T19:28:02-05:00",
+      "title": "Petrobras profit grows but misses expectations and raises 2026 capital spending plan",
+      "summary": "Petrobras reported third-quarter net income of approximately R$39.75 billion, up 21.5% year over year but below the R$47.02 billion LSEG analyst consensus cited by Reuters. Revenue rose 32.4% on strong production and exports. The company authorized about R$15.3 billion in distributions and raised planned 2026 capital expenditures to $24–25.5 billion.",
+      "tickers": [
+        "PBR"
+      ],
+      "sectors": [
+        "International ADRs",
+        "Oil and gas",
+        "Brazil"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Scout observation",
+          "value": "November 10, 2026 at 7:28 PM EST"
+        },
+        {
+          "label": "Announcement",
+          "value": "November 10, 2026, after regular US session"
+        },
+        {
+          "label": "Q3 reported net income",
+          "value": "R$39.75 billion, up 21.5% year over year"
+        },
+        {
+          "label": "Analyst comparison",
+          "value": "R$47.02 billion LSEG consensus, Reuters report"
+        },
+        {
+          "label": "Quarterly revenue",
+          "value": "R$169.35 billion, +32.4% year over year"
+        },
+        {
+          "label": "Distribution authorization",
+          "value": "About R$15.3 billion"
+        },
+        {
+          "label": "2026 capital spending plan",
+          "value": "US$24–25.5 billion"
+        },
+        {
+          "label": "Post-release ADR price move",
+          "value": "Not established from a timestamped reliable quote"
+        },
+        {
+          "label": "Next indicators",
+          "value": "November 11 webcast, cash flow, investment plans and oil prices"
+        }
+      ],
+      "key_finding": "Petrobras operating growth is robust, but profits fell short of consensus as capital-spending expectations increased.",
+      "sources": [
+        {
+          "title": "Reuters on Petrobras Q3 results, November 10",
+          "url": "https://br.investing.com/news/stock-market-news/petrobras-tem-lucro-de-r3975-bi-no-3o-tri-2123144"
+        },
+        {
+          "title": "UOL Petrobras Q3 report, November 10",
+          "url": "https://economia.uol.com.br/noticias/redacao/2026/11/10/petrobras-balanco-terceiro-trimestre-de-2026.ghtm"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261110-1827-pepgen-dm1-data",
       "observed_at": "2026-11-10T18:27:10-05:00",
@@ -78,274 +334,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261110-1631-coreweave-q3-financing",
-      "observed_at": "2026-11-10T16:31:52-05:00",
-      "title": "CoreWeave revenue jumps 168% while interest costs overshadow operating profit",
-      "summary": "CoreWeave reported $3.661 billion Q3 revenue, up 168% year over year, and lifted full-year guidance as its AI-cloud backlog reached $132.5 billion. Shares rose about 6% in initial after-hours reporting. However, quarterly interest expense of $846 million substantially exceeded GAAP operating income of $207 million, underscoring capital-market and execution risks.",
-      "tickers": [
-        "CRWV",
-        "NVDA"
-      ],
-      "sectors": [
-        "AI cloud infrastructure",
-        "Data centers",
-        "Semiconductors"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Announcement and research observation",
-          "value": "November 10, 2026 after 4:00 PM EST; research completed 4:31:52 PM EST"
-        },
-        {
-          "label": "Early extended-hours equity response",
-          "value": "Approximately +6% after a $48.73 regular-session close; preliminary, not confirmed settlement"
-        },
-        {
-          "label": "Q3 revenue",
-          "value": "$3.661 billion; +168% year over year; approximately $3.54 billion consensus"
-        },
-        {
-          "label": "Revenue backlog",
-          "value": "Approximately $132.5 billion"
-        },
-        {
-          "label": "Quarterly GAAP operating income / net interest expense",
-          "value": "$207 million operating income; $846 million net interest expense"
-        },
-        {
-          "label": "Quarterly GAAP net loss",
-          "value": "$709 million"
-        },
-        {
-          "label": "Full-year 2026 guidance",
-          "value": "Revenue $13.0–13.3 billion; capital expenditure $37–39 billion"
-        },
-        {
-          "label": "Active power",
-          "value": "More than 1.7 GW as of September 30, 2026"
-        },
-        {
-          "label": "Next verification",
-          "value": "Customer prepayments, 5 PM earnings call, financing costs, project-delivery schedule"
-        }
-      ],
-      "key_finding": "Strong compute demand and backlog coexist with interest costs far above GAAP operating profit and substantial future capital requirements.",
-      "sources": [
-        {
-          "title": "CoreWeave Q3 2026 results, SEC Exhibit 99.1, November 10",
-          "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm"
-        },
-        {
-          "title": "Barron's — CoreWeave earnings beat and early after-hours response, November 10",
-          "url": "https://www.barrons.com/articles/coreweave-earnings-stock-price-7c0a24d8"
-        },
-        {
-          "title": "Wall Street Journal — CoreWeave Q3 earnings and financing, November 10",
-          "url": "https://www.wsj.com/business/earnings/coreweave-crwv-3q-2026-earnings-report-stock-9c109753"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261110-1631-anthropic-office-software",
-      "observed_at": "2026-11-10T16:31:52-05:00",
-      "title": "Anthropic launches native AI work tools, increasing competitive pressure on Microsoft 365",
-      "summary": "Anthropic launched Claude Sheets and Whiteboards in beta and made Claude Data generally available on November 10. Microsoft shares fell around 2% during the regular session as reports identified the launches as one factor, alongside hotter inflation and wider tech weakness. The products increase long-run office-software competition, but customer migration or revenue impact has not been established.",
-      "tickers": [
-        "MSFT",
-        "GOOGL",
-        "IGV"
-      ],
-      "sectors": [
-        "Enterprise software",
-        "Artificial intelligence",
-        "Productivity applications"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Product announcement",
-          "value": "November 10, 2026; reviewed 4:31:52 PM EST"
-        },
-        {
-          "label": "Microsoft market move",
-          "value": "Approximately -2% in November 10 regular-session reporting; exact independent official close not established"
-        },
-        {
-          "label": "New products and status",
-          "value": "Claude Sheets and Whiteboards beta; Claude Data generally available"
-        },
-        {
-          "label": "Functionality limitation",
-          "value": "Claude Sheets currently supports simpler spreadsheet tasks; full-featured Excel equivalence unproven"
-        },
-        {
-          "label": "Fundamental impact",
-          "value": "No independently established Microsoft 365 customer churn or revenue loss"
-        },
-        {
-          "label": "Other market drivers",
-          "value": "October CPI surprise and rising bond yields also pressured software equities"
-        }
-      ],
-      "key_finding": "AI developers are entering productivity software directly, creating a measurable competitive signal but no yet-verified change in incumbent economics.",
-      "sources": [
-        {
-          "title": "Anthropic — Introducing Claude Sheets, Whiteboards and Data, November 10",
-          "url": "https://claude.com/resources/articles/sheets-whiteboards-data"
-        },
-        {
-          "title": "Business Insider — Microsoft shares retreat on Anthropic challenge, November 10",
-          "url": "https://www.businessinsider.com/microsoft-stock-price-anthropic-claude-sheets-office365-2026-11"
-        },
-        {
-          "title": "Investor's Business Daily — Microsoft stock falls on Anthropic challenge, November 10",
-          "url": "https://www.investors.com/news/technology/microsoft-stock-anthropic-challenge-office-software/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261110-1529-hormuz-adnoc-vessel-attacks",
-      "observed_at": "2026-11-10T15:29:40-05:00",
-      "title": "UKMTO reports new tanker strike while ADNOC confirms damage to a vessel",
-      "summary": "UKMTO Warning 201-26 reports a tanker struck by an unknown projectile 19 nautical miles northeast of Lima, Oman, with crew safe and no reported pollution. ADNOC Logistics & Services separately confirmed attack damage to one of its vessels in UAE waters. Whether these refer to the same ship, the attacker, and any incremental oil-flow loss remain unverified.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Maritime transportation",
-        "Strait of Hormuz",
-        "Middle East security"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "UKMTO warning",
-          "value": "201-26, November 10, 2026; tanker struck at 13:38 UTC (8:38 AM EST)"
-        },
-        {
-          "label": "UKMTO location",
-          "value": "19 nautical miles northeast of Lima, Oman"
-        },
-        {
-          "label": "UKMTO vessel status",
-          "value": "Crew safe; no reported environmental impact; assessment pending"
-        },
-        {
-          "label": "ADNOC announcement",
-          "value": "Nov 10 at 18:42 Gulf Standard Time (9:42 AM EST); attack damaged a vessel in UAE territorial waters"
-        },
-        {
-          "label": "Attribution and event overlap",
-          "value": "Unknown attacker; no confirmation incidents involve separate hulls"
-        },
-        {
-          "label": "Market reaction",
-          "value": "No independently corroborated price change attributable to these incidents"
-        },
-        {
-          "label": "New petroleum throughput lost",
-          "value": "Not established"
-        }
-      ],
-      "key_finding": "A fresh tanker strike and an ADNOC damage report contradict assumptions that falling oil prices mean Hormuz vessel risks have ended.",
-      "sources": [
-        {
-          "title": "UKMTO official November 10 incident bulletin",
-          "url": "https://www.ukmto.org/"
-        },
-        {
-          "title": "Emirates News Agency - ADNOC Logistics & Services statement Nov 10",
-          "url": "https://www.wam.ae/en/article/c36ot7v-adnoc-logistics-services-vessel-sustained-damage"
-        },
-        {
-          "title": "gCaptain - Nov 10 tanker/ADNOC incident comparison",
-          "url": "https://gcaptain.com/adnoc-vessel-damaged-in-gulf-attack-as-ukmto-reports-fresh-tanker-strike-near-hormuz/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261110-1529-anthropic-ipo-filing",
-      "observed_at": "2026-11-10T15:29:40-05:00",
-      "title": "Anthropic files IPO price range and $26 billion strategic partner placement",
-      "summary": "Anthropic's November 10 S-1 amendment sets a proposed 825 million-share IPO at $70–$78 per share, including existing-holder shares. Seven chip and cloud partners agreed to purchase $26 billion of non-voting stock in a concurrent private placement, subject to closing conditions. The filing underscores major AI-compute financing needs while valuation and capital efficiency remain unresolved.",
-      "tickers": [
-        "GOOG",
-        "GOOGL",
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "MU",
-        "MSFT",
-        "TSM"
-      ],
-      "sectors": [
-        "AI infrastructure",
-        "Software",
-        "Semiconductors",
-        "Cloud computing",
-        "Capital markets"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Filing",
-          "value": "SEC S-1/A Amendment No. 2, filed Nov 10, 2026"
-        },
-        {
-          "label": "Offering",
-          "value": "825 million Class A shares; anticipated $70–$78 price range"
-        },
-        {
-          "label": "Public sale gross size",
-          "value": "Approximately $57.75–$64.35 billion across company and selling shareholders; pricing pending"
-        },
-        {
-          "label": "Strategic placement",
-          "value": "$26.0 billion Class N non-voting shares, conditional on IPO closing"
-        },
-        {
-          "label": "Strategic parties",
-          "value": "Google, Nvidia, AMD, Broadcom, Micron, Microsoft, TSMC-related entity"
-        },
-        {
-          "label": "Current market move",
-          "value": "ANT not yet listed; no verified attributable listed-partner price response"
-        },
-        {
-          "label": "Potential invalidation",
-          "value": "IPO repriced, delayed or withdrawn; strategic placement fails conditions"
-        }
-      ],
-      "key_finding": "The financing plan and strategic commitments are material AI-infrastructure signals, but the IPO has not priced or closed.",
-      "sources": [
-        {
-          "title": "Anthropic SEC S-1/A November 10",
-          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm"
-        },
-        {
-          "title": "Anthropic official IPO roadshow release",
-          "url": "https://www.anthropic.com/news/roadshow-launch"
-        },
-        {
-          "title": "TechCrunch November 10 terms and investor coverage",
-          "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-10T18:27:10-05:00",
+  "last_checked_at": "2026-11-10T19:28:02-05:00",
   "last_check_status": "new_findings"
 }
