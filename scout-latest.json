@@ -1,8 +1,137 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-11T12:28:09-05:00",
-  "as_of_et": "November 11, 2026 at 12:28 PM EST",
+  "generated_at": "2026-11-11T13:37:05-05:00",
+  "as_of_et": "November 11, 2026 at 1:37 PM EST",
   "items": [
+    {
+      "id": "scout-20261111-1337-rskd-earnings-repricing",
+      "observed_at": "2026-11-11T13:37:05-05:00",
+      "title": "Riskified surges following 41% Q3 revenue growth and higher outlook",
+      "summary": "Riskified reported $115.2 million in Q3 revenue, up 41% year over year, and raised 2026 revenue guidance to $427–433 million. Shares traded 20.4% higher at 12:37 PM EST. Cash and deposits are strong and free cash flow positive, but gross margin narrowed sharply; merchant retention and agentic-fraud product adoption remain tests.",
+      "tickers": [
+        "RSKD"
+      ],
+      "sectors": [
+        "Software",
+        "E-commerce fraud detection",
+        "AI applications"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Earnings release",
+          "value": "November 11, 2026 at 6:45 AM EST"
+        },
+        {
+          "label": "Share observation",
+          "value": "November 11, 2026 at 12:37 PM EST; intraday, not official close"
+        },
+        {
+          "label": "RSKD quoted price",
+          "value": "$10.21; +20.40% versus prior close"
+        },
+        {
+          "label": "Q3 revenue",
+          "value": "$115.2 million; +41% year over year"
+        },
+        {
+          "label": "FY2026 revenue outlook",
+          "value": "$427–433 million; previously $400–410 million"
+        },
+        {
+          "label": "Free cash flow",
+          "value": "$15.2 million Q3"
+        },
+        {
+          "label": "Cash and equivalents plus investments",
+          "value": "Approximately $234.9 million; no debt"
+        },
+        {
+          "label": "GAAP gross margin",
+          "value": "43% versus 50% prior year"
+        }
+      ],
+      "key_finding": "Accelerating software sales and cash generation support earnings repricing, but lower gross margins and growth durability warrant scrutiny.",
+      "sources": [
+        {
+          "title": "Riskified Q3 company earnings release",
+          "url": "https://ir.riskified.com/news-releases/news-release-details/riskified-reports-strong-third-quarter-2026-accelerating-revenue"
+        },
+        {
+          "title": "MarketMinute RSKD timestamped intraday quotation",
+          "url": "https://vva.marketminute.com/quote/NY%3ARSKD/historical"
+        },
+        {
+          "title": "Investing.com early share reaction and consensus",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-riskified-stock-surging-today-93CH-5019171"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261111-1337-fujairah-energy-crew-injured",
+      "observed_at": "2026-11-11T13:37:05-05:00",
+      "title": "India identifies Fujairah Energy tanker strike and four injured crew",
+      "summary": "India's shipping minister said a projectile struck the Liberia-flagged VLCC Fujairah Energy on November 10 while sailing between Al Ruwais and Dubai, injuring four crew. One Indian seafarer had minor injuries and the remaining 18 crew were reported safe. The incident may overlap earlier Gulf tanker warnings; cargo damage and incremental oil throughput loss remain unverified.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil transportation",
+        "Maritime security",
+        "Energy"
+      ],
+      "evidence_grade": "single-source",
+      "observations": [
+        {
+          "label": "Incident date",
+          "value": "November 10, 2026; statement November 11"
+        },
+        {
+          "label": "Vessel",
+          "value": "Liberia-flagged VLCC MT Fujairah Energy"
+        },
+        {
+          "label": "Route",
+          "value": "Al Ruwais to Dubai, Persian Gulf"
+        },
+        {
+          "label": "Crew",
+          "value": "Four injured including one Indian national; 18 others reported safe"
+        },
+        {
+          "label": "Distinctness from UKMTO/ADNOC reports",
+          "value": "Not established; do not add to independent incident count"
+        },
+        {
+          "label": "Oil-flow impact",
+          "value": "No confirmed cargo loss or incremental throughput reduction"
+        },
+        {
+          "label": "Market attribution",
+          "value": "No separate vessel-specific oil price move established"
+        }
+      ],
+      "key_finding": "Government identification and crew injuries confirm tangible maritime damage, while overlap with previous warnings and oil-flow impact remain unresolved.",
+      "sources": [
+        {
+          "title": "India government broadcaster relaying minister's report",
+          "url": "https://newsonair.gov.in/minister-sonowal-says-all-six-indian-seafarers-safe-after-projectile-attack-in-persian-gulf/"
+        },
+        {
+          "title": "SAFETY4SEA maritime reporting",
+          "url": "https://safety4sea.com/four-seafarers-injured-as-attacks-on-vessels-continue-in-the-persian-gulf/"
+        },
+        {
+          "title": "Anadolu Agency reporting minister statement",
+          "url": "https://www.aa.com.tr/en/asia-pacific/4-wounded-as-projectile-hits-liberia-flagged-vessel-in-gulf/4119767"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261111-1228-russia-refining-disruption",
       "observed_at": "2026-11-11T12:28:09-05:00",
@@ -180,136 +309,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261111-1027-memory-optics-relief-rally",
-      "observed_at": "2026-11-11T10:27:38-05:00",
-      "title": "AI memory, storage and optical networking shares rebound broadly after CoreWeave outlook",
-      "summary": "CoreWeave's strong third-quarter results and customer-backed financing narrative triggered a broad recovery across previously battered AI hardware suppliers. Reports published around 9:03-9:08 AM EST showed Sandisk, Seagate, Micron, Coherent and Lumentum up roughly 7-9%, with CoreWeave up about 17% premarket. The move suggests renewed confidence in infrastructure demand but does not confirm durable financing or price recovery.",
-      "tickers": [
-        "SNDK",
-        "STX",
-        "MU",
-        "COHR",
-        "LITE",
-        "CRWV"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "Data storage",
-        "Optical networking",
-        "AI infrastructure"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Reported observations",
-          "value": "November 11, 2026, approx. 9:03-9:08 AM EST; primarily premarket reports; not closing prices"
-        },
-        {
-          "label": "Morning reported share changes",
-          "value": "STX ~+9%; SNDK ~+8%; MU ~+7%; COHR ~+9%; LITE ~+8%; CRWV ~+17% premarket. Quotes may vary by time."
-        },
-        {
-          "label": "Sandisk fiscal Q1 2027 revenue",
-          "value": "$11.03 billion; datacenter revenue $4.80 billion, +61% quarter over quarter, per Sandisk October 29 release"
-        },
-        {
-          "label": "Seagate fiscal Q1 2027 revenue",
-          "value": "$4.23 billion; next-quarter outlook $4.7-$4.9 billion, per October earnings reporting"
-        },
-        {
-          "label": "Prior-month drawdown",
-          "value": "Several AI memory/optical names suffered large declines, with varying comparison windows; exact recovery from lows not established"
-        },
-        {
-          "label": "Risks and market confirmation",
-          "value": "Intraday rotation not a confirmed close; financing rates, power constraints and data-center project schedules remain material"
-        }
-      ],
-      "key_finding": "CoreWeave's financing and sales outlook is producing a cross-company memory and optical rally; persistence and volume need confirmation.",
-      "sources": [
-        {
-          "title": "Wallstreetcn via Longbridge — AI memory and optical stocks rise, November 11 9:03 AM",
-          "url": "https://longbridge.com/en/news/305139737"
-        },
-        {
-          "title": "24/7 Wall St. — Seagate, Sandisk and Micron rise, November 11 9:08 AM",
-          "url": "https://247wallst.com/investing/2026/11/11/seagate-spikes-9-sandisk-surges-8-as-coreweaves-results-revive-ai-trade-micron-climbs-7/"
-        },
-        {
-          "title": "Sandisk — Fiscal Q1 2027 financial results, October 29",
-          "url": "https://sandisk.gcs-web.com/news-releases/news-release-details/sandisk-reports-fiscal-first-quarter-2027-financial-results"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261111-0931-siemens-energy-record-backlog",
-      "observed_at": "2026-11-11T09:31:22-05:00",
-      "title": "Siemens Energy records EUR164bn backlog and lifts power-equipment growth outlook",
-      "summary": "Siemens Energy reported a record €164 billion order backlog, approximately €15 billion of it linked to data centers. It targets 14–16% comparable revenue growth and a 14–16% operating margin before special items in FY2027. Shares rose roughly 7–8% in early European trading; revenue conversion, costs, and an earnings forecast below consensus remain risks.",
-      "tickers": [
-        "ENR.DE",
-        "SMNEY"
-      ],
-      "sectors": [
-        "Data-center power",
-        "Grid infrastructure",
-        "Gas turbines",
-        "International equities"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Observation",
-          "value": "November 11, 2026; research checked 9:31 AM EST"
-        },
-        {
-          "label": "European equity move",
-          "value": "Approximately +7–8% in early November 11 Frankfurt trading; not an official close"
-        },
-        {
-          "label": "Year-end order backlog",
-          "value": "€164 billion"
-        },
-        {
-          "label": "Data-center-linked orders in backlog",
-          "value": "Approximately €15 billion, according to Reuters citing CEO"
-        },
-        {
-          "label": "FY2027 comparable revenue growth outlook",
-          "value": "14–16%"
-        },
-        {
-          "label": "FY2027 pre-special-items profit margin",
-          "value": "14–16%; FY2026 achieved 12.4%"
-        },
-        {
-          "label": "FY2027 net income vs consensus",
-          "value": "Approximately €5 billion forecast vs €5.5 billion analyst estimate, Investing.com"
-        }
-      ],
-      "key_finding": "Record order backlog demonstrates tangible demand for gas turbines and grid equipment, while profitability and execution remain uncertain.",
-      "sources": [
-        {
-          "title": "Siemens Energy official FY2026 results and outlook",
-          "url": "https://www.siemens-energy.com/content/siemensenergy-aem/global/en/home/press-releases/earnings-release-q4-fy-2026--siemens-energy-reports-a-record-yea.html"
-        },
-        {
-          "title": "Reuters via Euronext, November 11",
-          "url": "https://live.euronext.com/en/financial-news/siemens-energy-expects-margin-boost-2027-data-centres-fuel-turbine-grid-demand"
-        },
-        {
-          "title": "WSJ Siemens Energy November 11 market response",
-          "url": "https://www.wsj.com/business/earnings/siemens-energy-targets-steeper-profit-gains-through-2030-269212e1"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-11T12:28:09-05:00",
+  "last_checked_at": "2026-11-11T13:37:05-05:00",
   "last_check_status": "new_findings"
 }
