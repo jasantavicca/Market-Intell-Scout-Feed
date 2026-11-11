@@ -1,8 +1,64 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-11T16:43:32-05:00",
-  "as_of_et": "November 11, 2026, 4:43:32 PM EST",
+  "generated_at": "2026-11-11T18:44:00-05:00",
+  "as_of_et": "November 11, 2026, 6:44 PM EST",
   "items": [
+    {
+      "id": "scout-20261111-1844-anthropic-ipo-demand",
+      "observed_at": "2026-11-11T18:44:00-05:00",
+      "title": "Anthropic IPO bankers consider higher pricing amid reported strong demand",
+      "summary": "Anthropic's November 10 SEC filing sets a proposed $70–$78 IPO range. Financial Times reports bankers are considering a higher price after strong demand, potentially lifting the fully diluted valuation above $1.5 trillion. No revised range has been filed or pricing completed; infrastructure spending and future cash generation remain major risks.",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "GOOGL",
+        "MSFT",
+        "MU",
+        "TSM"
+      ],
+      "sectors": [
+        "AI infrastructure",
+        "AI software",
+        "Capital markets"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "SEC preliminary filing, November 10",
+          "value": "825 million Class A shares offered at proposed $70–$78; Nasdaq ticker ANT proposed, not yet trading"
+        },
+        {
+          "label": "Reported banker consideration, November 11",
+          "value": "FT reports potential $1.5 trillion or higher fully diluted valuation; not filed or finalized"
+        },
+        {
+          "label": "Conditional strategic financing",
+          "value": "SEC filing describes $26 billion concurrent private placement by Google, Nvidia, AMD, Broadcom, Micron, Microsoft and TSMC"
+        },
+        {
+          "label": "Fundamental risk and next verification",
+          "value": "Approximately $900.9 billion committed future compute/infrastructure spend in SEC filing; watch amended prospectus, final price, financing and cash generation"
+        }
+      ],
+      "key_finding": "Reported strong IPO demand signals AI capital-market appetite, but higher pricing remains unconfirmed.",
+      "sources": [
+        {
+          "title": "SEC Anthropic amended S-1, November 10",
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm"
+        },
+        {
+          "title": "Financial Times November 11 IPO demand report",
+          "url": "https://www.ft.com/content/68bcba57-0575-44ee-80f4-2e5ea23a431e"
+        },
+        {
+          "title": "Bloomberg November 11 IPO pricing coverage",
+          "url": "https://news.bloomberglaw.com/ip-law/anthropic-targets-64-4-billion-ipo-nearing-spacexs-record"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261111-1643-semiconductor-breadth",
       "observed_at": "2026-11-11T16:43:32-05:00",
@@ -186,47 +242,8 @@
       ],
       "status": "updated",
       "supersedes": "scout-20261111-1228-hormuz-ukmto-202"
-    },
-    {
-      "id": "scout-20261111-1643-market-close",
-      "observed_at": "2026-11-11T16:43:32-05:00",
-      "title": "US indexes close higher, with Nasdaq leading",
-      "summary": "The closing recovery confirms a meaningful equity-market rebound. Cash Treasury trading was closed for Veterans Day, limiting same-day rate confirmation. Follow-through when the bond market reopens will test the strength of the move.",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "DIA"
-      ],
-      "sectors": [
-        "Broad market",
-        "Macro"
-      ],
-      "evidence_grade": "confirmed",
-      "observations": [
-        {
-          "label": "November 11 official regular-session close, 4:00 PM EST",
-          "value": "S&P 500 7,619.38; Nasdaq Composite 25,466.19; Dow 52,486.49; matching levels in Reuters and AP"
-        },
-        {
-          "label": "Evidence scope",
-          "value": "Confirmed applies to independently matching index closing levels; no current or after-hours quote is implied"
-        }
-      ],
-      "key_finding": "The broad-market close corroborates the AI-led recovery.",
-      "sources": [
-        {
-          "title": "AP closing market report",
-          "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-297d040c83844a9563327340b370c24e"
-        },
-        {
-          "title": "Reuters closing market report",
-          "url": "https://www.streetinsider.com/General%2BNews/Stocks%2Bclimb%2Bas%2BCoreWeave%2Bresults%2Bease%2BAI%2Bspending%2Bconcerns/27325904.html"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-11T17:33:59-05:00",
-  "last_check_status": "no_new_findings"
+  "last_checked_at": "2026-11-11T18:44:00-05:00",
+  "last_check_status": "new_findings"
 }
