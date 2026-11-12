@@ -1,8 +1,64 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-12T13:26:17-05:00",
-  "as_of_et": "November 12, 2026, 1:26 PM EST",
+  "generated_at": "2026-11-12T14:29:34-05:00",
+  "as_of_et": "November 12, 2026, 2:29 PM EST",
   "items": [
+    {
+      "id": "scout-20261112-1429-us-home-sales-slump",
+      "observed_at": "2026-11-12T14:29:34-05:00",
+      "title": "October U.S. existing-home sales plunge 5.5% to 16-year low amid elevated mortgage rates",
+      "summary": "The National Association of Realtors reported a 5.5% monthly fall in October existing-home sales to a 3.75 million seasonally adjusted annual rate, the weakest since August 2010. The decline underscores interest-rate pressure on housing transactions, even as median prices held higher year over year. Housing-related stocks are watch indicators; no company-share price change is attributed to this release.",
+      "tickers": [
+        "XHB",
+        "ITB",
+        "Z"
+      ],
+      "sectors": [
+        "U.S. housing",
+        "Housing-linked equities",
+        "Rates and macroeconomics"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Official release, November 12 at 10:00 AM EST",
+          "value": "October existing-home sales -5.5% month over month, -8.8% year over year, at 3.75 million seasonally adjusted annual rate; lowest since August 2010"
+        },
+        {
+          "label": "Inventory and price",
+          "value": "1.59 million existing homes available, 5.1 months supply; median sale price $416,700, +0.4% year over year"
+        },
+        {
+          "label": "Mortgage/rate context",
+          "value": "NAR cites 30-year fixed-rate mortgage averaging 7.33% in October, versus 6.86% in September; higher financing cost weighs on turnover"
+        },
+        {
+          "label": "Market confirmation boundary",
+          "value": "Data confirmed by original NAR release and independent AP/WSJ coverage. No verified intraday XHB, ITB or Z move linked to the report; those tickers are exposure watch indicators, not asserted movers"
+        },
+        {
+          "label": "Watch/invalidation",
+          "value": "October pending-home-sales release November 18, weekly mortgage-rate trend, housing inventory, regional sales, affordability, housing-linked earnings, 10-year Treasury yields; a sustained mortgage-rate decline with pending-sales recovery would soften the concern"
+        }
+      ],
+      "key_finding": "Housing transaction volume reached a 16-year low, a verified macro deterioration that amplifies sensitivity to high rates.",
+      "sources": [
+        {
+          "title": "National Association of Realtors, November 12 existing-home sales report",
+          "url": "https://www.nar.realtor/newsroom/existing-home-sales-decreased-5-5-percent-october-nar-report"
+        },
+        {
+          "title": "Associated Press, November 12 housing market report",
+          "url": "https://apnews.com/article/dbd54bc897a443dc0fc9668911977864"
+        },
+        {
+          "title": "Wall Street Journal, November 12 existing-home sales",
+          "url": "https://www.wsj.com/economy/housing/home-sales-in-october-plummet-to-16-year-low-16adebc0"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261112-1326-eia-inventory-surprise",
       "observed_at": "2026-11-12T13:26:17-05:00",
@@ -225,63 +281,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261112-0835-fermi-hyperscaler",
-      "observed_at": "2026-11-12T08:35:31-05:00",
-      "title": "Fermi jumps on $200 million AI-campus prepayment, but 600 MW long-term lease is unsigned",
-      "summary": "Fermi reported a roughly 18% premarket jump after an unnamed investment-grade hyperscaler agreed to a $200 million prepayment toward its 600 MW Texas AI-campus buildout. It remains pre-revenue and posted a $141.6 million Q3 loss, while a previous TensorWave lease and AMD support ended. A definitive new lease and dependable financing remain the tests.",
-      "tickers": [
-        "FRMI",
-        "AMD"
-      ],
-      "sectors": [
-        "AI infrastructure",
-        "Data-center power",
-        "Energy infrastructure"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Customer commitments, November 12",
-          "value": "$200 million prepayment toward 600 MW starting 2027; $15 million early construction agreement; $90 million materials agreement being finalized"
-        },
-        {
-          "label": "Market reaction, November 12 premarket",
-          "value": "FRMI up around 18% according to Barron's; premarket observation, not confirmed close"
-        },
-        {
-          "label": "Lease qualification",
-          "value": "Customer unnamed; long-term lease not yet signed; earlier TensorWave lease and related AMD credit support terminated"
-        },
-        {
-          "label": "Q3 balance and results",
-          "value": "Net loss $141.6 million; $315.5 million cash and restricted cash; $958.4 million outstanding net debt"
-        },
-        {
-          "label": "Watch/invalidation",
-          "value": "Signed lease, power delivery milestones, counterparty commitments, new equity/debt financing and site permitting"
-        }
-      ],
-      "key_finding": "An upfront payment offers tangible demand evidence, but Fermi is still pre-lease and capital intensive.",
-      "sources": [
-        {
-          "title": "Fermi November 12 earnings and hyperscaler announcement",
-          "url": "https://www.stocktitan.net/news/FRMI/fermi-announces-new-agreements-with-investment-grade-hyperscaler-and-v8y6q4naxtno.html"
-        },
-        {
-          "title": "Fermi November 12 SEC 8-K exhibit",
-          "url": "https://www.stocktitan.net/sec-filings/FRMI/8-k-fermi-inc-reports-material-event-9f2b9c997ebe.html"
-        },
-        {
-          "title": "Barron's November 12 premarket coverage",
-          "url": "https://www.barrons.com/articles/fermi-earnings-stock-price-ai-a77dfba4"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-12T13:26:17-05:00",
+  "last_checked_at": "2026-11-12T14:29:34-05:00",
   "last_check_status": "new_findings"
 }
