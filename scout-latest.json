@@ -1,13 +1,13 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-12T10:54:52-05:00",
-  "as_of_et": "November 12, 2026, 10:54 AM EST",
+  "generated_at": "2026-11-12T12:35:36-05:00",
+  "as_of_et": "November 12, 2026, 12:35 PM EST",
   "items": [
     {
-      "id": "scout-20261112-1054-oil-iran-diplomacy",
-      "observed_at": "2026-11-12T10:54:52-05:00",
-      "title": "Oil reverses early losses as Trump comments dampen Iran diplomacy hopes",
-      "summary": "Crude reversed early losses on November 12 after President Trump said the United States did not need a deal with Iran, according to the Wall Street Journal. Brent was reported near $93.37 and WTI near $86.76 during the reversal, not at settlement. The repricing is a diplomatic-risk signal, not proof of a new physical shipping interruption.",
+      "id": "scout-20261112-1235-tanker-dominica-prosperity",
+      "observed_at": "2026-11-12T12:35:36-05:00",
+      "title": "Indian shipping minister confirms separate November 11 tanker strike off UAE",
+      "summary": "India's shipping minister confirmed that the Liberia-flagged crude tanker MT Dominica Prosperity was struck while drifting off Mina Saqr on November 11. UAE Coast Guard evacuated its entire crew without injuries. This adds specific physical maritime-security evidence, but neither the attacker's identity nor a new export-volume interruption has been established.",
       "tickers": [
         "XLE",
         "XOP"
@@ -17,94 +17,100 @@
         "Maritime shipping",
         "Geopolitical risk"
       ],
-      "evidence_grade": "single-source",
+      "evidence_grade": "corroborated",
       "observations": [
         {
-          "label": "Intraday crude, November 12",
-          "value": "WSJ reported Brent +0.7% to $93.37 and WTI +0.3% to $86.76 during the reversal; not settlement"
+          "label": "Physical incident, November 11; minister confirmation November 12",
+          "value": "MT Dominica Prosperity targeted by projectile off Mina Saqr, UAE; 22 crew evacuated, including 19 Indian nationals; no injuries reported"
         },
         {
-          "label": "Catalyst",
-          "value": "Trump said the U.S. did not need an Iran deal, dampening expectations of near-term negotiations"
+          "label": "Distinction from previous incidents",
+          "value": "Separate from November 10 MT Fujairah Energy strike, where four crew were injured; officials had also monitored a possible November 11 NCC Fajr incident"
         },
         {
-          "label": "Physical-flow evidence",
-          "value": "No newly verified shipping closure or export disruption established by this report"
+          "label": "Market context, November 12 late morning",
+          "value": "AP reported Brent near $93.89 (+1.2%) after moving from about $92 to above $94 on US-Iran diplomacy comments; intraday, not settlement"
         },
         {
-          "label": "Watch/invalidation",
-          "value": "MARAD/UKMTO incident notices, verified tanker transit, Gulf exports, freight, further diplomatic statements, EIA inventories and XLE/XOP breadth"
+          "label": "Evidence limits",
+          "value": "Incident confirmed in Indian minister's statement; attacker, damage, export volume affected and latest AIS status not independently established"
+        },
+        {
+          "label": "Next indicators and invalidation",
+          "value": "New UKMTO warnings, MARAD 2026-011 and 2026-013, verified Gulf transit/export counts, freight and war-risk premiums, EIA weekly report and physical vessel status"
         }
       ],
-      "key_finding": "Diplomatic rhetoric moved oil intraday; no additional physical-flow disruption was verified.",
+      "key_finding": "Another specifically identified tanker strike reinforces maritime risk, without proof of an incremental oil export shutdown.",
       "sources": [
         {
-          "title": "Wall Street Journal, Oil Picks Up As Trump Post Dampens Hopes for U.S.-Iran Deal, November 12",
-          "url": "https://www.wsj.com/finance/commodities-futures/oil-resumes-decline-as-risk-premium-fades-bcdc7fc5"
+          "title": "Press Trust of India, November 12 report carried by Rediff",
+          "url": "https://money.rediff.com/news/market/oil-tanker-with-19-indian-crew-attacked-off-mina-saqr/57971620261112"
+        },
+        {
+          "title": "Times of India, November 12, shipping minister confirmation",
+          "url": "https://timesofindia.indiatimes.com/india/tanker-with-19-indian-seafarers-on-board-attacked-off-uae-all-safe-shipping-minister/articleshow/135771491.cms"
+        },
+        {
+          "title": "US MARAD, active maritime advisories",
+          "url": "https://www.maritime.dot.gov/msci-advisories"
         }
       ],
       "status": "updated",
-      "supersedes": "scout-20261112-0726-hormuz-tanker-strike"
+      "supersedes": "scout-20261112-1054-oil-iran-diplomacy"
     },
     {
-      "id": "scout-20261112-0936-nvidia-ceo-transition",
-      "observed_at": "2026-11-12T09:36:41-05:00",
-      "title": "Nvidia confirms Jensen Huang resignation; CFO Colette Kress becomes interim CEO",
-      "summary": "Nvidia's board announced founder Jensen Huang's immediate resignation as CEO, president and director on November 12, naming CFO Colette Kress interim chief executive. This turns an earlier leadership possibility into a confirmed governance change at the center of the AI supply chain. Investors face succession and export-control uncertainty, while chip demand and existing customer commitments remain central to the fundamental outlook.",
+      "id": "scout-20261112-1235-amd-avgo-divergence",
+      "observed_at": "2026-11-12T12:35:36-05:00",
+      "title": "AMD and Broadcom become S&P 500 leaders as Nvidia recovers from opening plunge",
+      "summary": "Late-morning trading showed AMD and Broadcom leading the S&P 500 while Nvidia remained lower following its confirmed leadership change. The dispersion supports a provisional rotation toward competing AI silicon rather than a uniformly weaker AI sector. The relative performance is intraday and could reverse before the close.",
       "tickers": [
-        "NVDA",
-        "SOXX",
-        "SMH",
-        "CRWV",
         "AMD",
-        "AVGO"
+        "AVGO",
+        "NVDA",
+        "CRWV",
+        "SOXX"
       ],
       "sectors": [
         "Semiconductors",
         "AI infrastructure",
-        "Networking",
-        "Global equities"
+        "Networking"
       ],
-      "evidence_grade": "confirmed",
+      "evidence_grade": "corroborated",
       "observations": [
         {
-          "label": "Corporate announcement, November 12, 8:48 AM ET",
-          "value": "Nvidia states Jensen Huang resigned effective immediately; CFO Colette Kress is interim CEO and keeps CFO duties; Harvey C. Jones named board chair"
+          "label": "Late morning November 12, FactSet data cited by MarketWatch",
+          "value": "AMD +7.4%, AVGO +7.1%, NVDA down more than 4%; intraday indications, not settlement or closing prices"
         },
         {
-          "label": "Shares, November 12 premarket",
-          "value": "AP reported roughly -10%; Barron's reported up to -12.5% and $152.02 premarket. Changing indications, not official closing prices"
+          "label": "AP, 11:45 AM ET market snapshot",
+          "value": "NVDA -5.3% after a -14% opening drop; AMD +5.8%, AVGO +5.6%, CRWV -7.2%, MU -3%; S&P 500 +0.1%, Nasdaq roughly flat"
         },
         {
-          "label": "Fundamental assessment",
-          "value": "Nvidia remains a key provider of AI accelerators and interconnect, but founder-led technical roadmap, customer relationships and US-China export oversight face additional transition risk"
+          "label": "Catalyst",
+          "value": "Nvidia confirmed Jensen Huang's departure and Colette Kress as interim CEO; management transition and China-related scrutiny remain company-specific risks"
         },
         {
-          "label": "Near-term follow-through",
-          "value": "Watch official succession updates, management continuity, US regular-session breadth and customer/supplier reactions; fiscal Q3 earnings due November 17"
+          "label": "Fundamental distinction",
+          "value": "Custom silicon and alternative accelerators could see stronger interest, but no verified evidence of immediate hyperscaler order reallocations or decreased overall AI chip demand"
         },
         {
-          "label": "Invalidation/watch conditions",
-          "value": "Evidence of uninterrupted product shipments, hyperscaler order cadence and leadership continuity would limit operating-risk concerns; unexpected delivery or export disruption would deepen them"
+          "label": "Risks and indicators",
+          "value": "Relative performance through closing bell, NVDA product/customer commitments and November 17 earnings, AVGO/AMD execution, sector breadth, Treasury yields and financing conditions"
         }
       ],
-      "key_finding": "A confirmed CEO departure increases execution and governance risk in a central AI infrastructure supplier.",
+      "key_finding": "Large intraday outperformance by rival chip suppliers marks a meaningful but not yet sustained semiconductor divergence.",
       "sources": [
         {
-          "title": "Nvidia official announcement distributed by GlobeNewswire, November 12",
-          "url": "https://www.streetinsider.com/Globe%2BNewswire/NVIDIA%2BAnnounces%2BCEO%2BTransition/27331726.html"
+          "title": "MarketWatch / FactSet, late-morning November 12 semiconductor movers",
+          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-nasdaq-sp500-down-nvidia-dive-huang-affair-ouster-dow-flat/card/chip-stocks-amd-and-broadcom-are-the-top-performers-in-the-s-p-500-7DzmFJFIB592ms6IV4Wj"
         },
         {
-          "title": "Associated Press, Nvidia leadership transition, November 12",
-          "url": "https://apnews.com/article/5403f152a601cf82ce939f1d24fffa0f"
-        },
-        {
-          "title": "TechCrunch, Nvidia CEO transition, November 12",
-          "url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/"
+          "title": "Associated Press, November 12 market swings as of 11:45 a.m. ET",
+          "url": "https://apnews.com/article/stock-markets-oil-ai-earnings-nvidia-8bf08407eafe1655ed73112f7494029a"
         }
       ],
       "status": "updated",
-      "supersedes": "scout-20261112-0726-nvidia-leadership-risk"
+      "supersedes": "scout-20261112-0936-nvidia-ceo-transition"
     },
     {
       "id": "scout-20261112-0835-nebius-capacity-delay",
@@ -268,6 +274,6 @@
       "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-12T10:54:52-05:00",
+  "last_checked_at": "2026-11-12T12:35:36-05:00",
   "last_check_status": "new_findings"
 }
