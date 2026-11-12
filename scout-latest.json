@@ -1,8 +1,182 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-11T18:44:00-05:00",
-  "as_of_et": "November 11, 2026, 6:44 PM EST",
+  "generated_at": "2026-11-12T07:26:07-05:00",
+  "as_of_et": "November 12, 2026, 7:26 AM EST",
   "items": [
+    {
+      "id": "scout-20261112-0726-nvidia-leadership-risk",
+      "observed_at": "2026-11-12T07:26:07-05:00",
+      "title": "Nvidia leadership crisis drives roughly 7% premarket slide and global chip pressure",
+      "summary": "Nvidia dropped roughly 7% in early Thursday trading after Reuters confirmed its board met to consider CEO Jensen Huang's future. No removal has been announced. Founder-dependence, China export scrutiny and AI-infrastructure financing amplify the spillover risk; a formal board decision would be the next decisive signal.",
+      "tickers": [
+        "NVDA",
+        "SOXX",
+        "SMH",
+        "CRWV",
+        "AMD",
+        "AVGO"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "Global equities"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "NVDA early Thursday trading",
+          "value": "Approximately -7% premarket/Frankfurt; intraday indication, not an official close"
+        },
+        {
+          "label": "Asian equity spillover",
+          "value": "Taiwan benchmark -2.6%; MSCI Asia-Pacific ex-Japan -1.2% in Reuters early-November-12 report"
+        },
+        {
+          "label": "Leadership status",
+          "value": "Reuters confirmed board met November 11; no dismissal announcement verified"
+        },
+        {
+          "label": "Fundamental assessment / risk",
+          "value": "Nvidia retains a critical AI-compute franchise, but concentrated leadership and export controls threaten execution and customers' infrastructure plans"
+        },
+        {
+          "label": "Next indicators",
+          "value": "Official board/company statement, SEC disclosure, export rules, US open and chip-sector breadth"
+        }
+      ],
+      "key_finding": "An unconfirmed leadership outcome is producing a confirmed cross-market risk signal, not a fundamental-demand collapse.",
+      "sources": [
+        {
+          "title": "Reuters, Nvidia board weighs CEO Huang's future, November 12",
+          "url": "https://www.investing.com/news/stock-market-news/nvidia-is-preparing-to-oust-ceo-jensen-huang-wsj-reports-5019991"
+        },
+        {
+          "title": "Reuters, global stocks and rates, November 12",
+          "url": "https://ca.investing.com/news/economy-news/asian-stocks-tumble-nvidia-stings-as-board-to-decide-ceos-fate-4951581"
+        },
+        {
+          "title": "The Guardian live coverage, November 12",
+          "url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261112-0726-hormuz-tanker-strike",
+      "observed_at": "2026-11-12T07:26:07-05:00",
+      "title": "Verified VLCC strike injures four in Gulf as Hormuz attacks persist despite softer crude",
+      "summary": "India's shipping minister confirmed a projectile hit VLCC Fujairah Energy on November 10, injuring four crew members. Maritime reporting identifies other November 10–11 tanker incidents, with some details still preliminary. This is physical shipping disruption rather than a market rumor, even as oil prices soften on hopes of diplomacy.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Maritime shipping",
+        "Geopolitical risk"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Confirmed vessel incident",
+          "value": "MT Fujairah Energy struck November 10 en route Al Ruwais to Dubai; four of 22 crew injured; Indian shipping minister reported November 11"
+        },
+        {
+          "label": "Other vessel reports",
+          "value": "Seatrade Maritime reports Sea 1 hit November 10 and possible NCC Fajr incident November 11; details vary in certainty"
+        },
+        {
+          "label": "Thursday crude price observation",
+          "value": "WSJ reported front-month Brent $91.79 (-1%) and WTI $85.69 (-1%) early November 12; not settlement"
+        },
+        {
+          "label": "Safety authority context",
+          "value": "IMO November 11 statement reports more than 130 attacks on commercial shipping in and around Hormuz during the conflict"
+        },
+        {
+          "label": "Next indicators / invalidation",
+          "value": "UKMTO notices, verified tanker transits and exports, additional vessel damage, US-Iran negotiations, EIA petroleum data noon ET"
+        }
+      ],
+      "key_finding": "Physical-flow risk remains elevated even though oil prices are repricing diplomatic optimism.",
+      "sources": [
+        {
+          "title": "India minister report via Anadolu Agency, November 11",
+          "url": "https://www.aa.com.tr/en/asia-pacific/4-wounded-as-projectile-hits-liberia-flagged-vessel-in-gulf/4119767"
+        },
+        {
+          "title": "Seatrade Maritime, November 12",
+          "url": "https://www.seatrade-maritime.com/security/four-injured-on-sinokor-vlcc-as-multiple-tankers-attacked-in-hormuz"
+        },
+        {
+          "title": "IMO maritime rules warning, November 11",
+          "url": "https://www.imo.org/en/mediacentre/pressbriefings/pages/imo-secretary-general-calls-for-enforcement-of-maritime-rules.aspx"
+        },
+        {
+          "title": "Wall Street Journal, oil and Iran talks November 12",
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-investors-weigh-u-s-iran-diplomacy-296e2847"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261111-1643-oil-hormuz-settlement"
+    },
+    {
+      "id": "scout-20261112-0726-treasury-five-percent",
+      "observed_at": "2026-11-12T07:26:07-05:00",
+      "title": "US 10-year yield tests 5% as December Fed tightening expectations jump",
+      "summary": "The US 10-year Treasury yield touched about 5% Thursday as investors absorbed hotter October inflation. Reuters reported markets pricing about a 90% probability of a quarter-point December hike, while the dollar reached a 19-month high. Higher financing costs particularly pressure leveraged AI infrastructure and other long-duration assets; declining yields would weaken this risk signal.",
+      "tickers": [
+        "TLT",
+        "QQQ",
+        "CRWV"
+      ],
+      "sectors": [
+        "Rates and macro",
+        "AI infrastructure",
+        "Technology"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "US Treasury 10-year yield",
+          "value": "Briefly about 5.0% early November 12; MarketWatch cited 5.004%"
+        },
+        {
+          "label": "December Fed probabilities",
+          "value": "Reuters quoted CME FedWatch around 90% for +25 basis points, about 9.2% for +50 basis points"
+        },
+        {
+          "label": "Dollar trend",
+          "value": "Reuters described dollar at 19-month high early November 12"
+        },
+        {
+          "label": "Fundamental significance",
+          "value": "Higher funding costs compound capex and debt burdens of high-growth datacenter and cloud-buildout businesses"
+        },
+        {
+          "label": "Next indicators",
+          "value": "Treasury yields into US cash open, Fed commentary, inflation revisions, US dollar, credit spreads"
+        }
+      ],
+      "key_finding": "The rate shock raises the cost of financing AI and grid infrastructure independent of chip-demand strength.",
+      "sources": [
+        {
+          "title": "Reuters global markets update, November 12",
+          "url": "https://ca.investing.com/news/economy-news/asian-stocks-tumble-nvidia-stings-as-board-to-decide-ceos-fate-4951581"
+        },
+        {
+          "title": "MarketWatch Treasury yields, November 12",
+          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-nasdaq-sp500-down-nvidia-dive-huang-affair-ouster-dow-flat/card/treasury-yields-inch-higher-as-inflation-concerns-linger-TfJ40r0uz85vSkXp5mfz"
+        },
+        {
+          "title": "Wall Street Journal October CPI and Treasury yields, November 11",
+          "url": "https://www.wsj.com/economy/central-banking/treasury-yields-edge-up-ahead-of-u-s-inflation-data-7a55db79"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261111-1844-anthropic-ipo-demand",
       "observed_at": "2026-11-11T18:44:00-05:00",
@@ -91,159 +265,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261111-1643-ai-infrastructure-close",
-      "observed_at": "2026-11-11T16:43:32-05:00",
-      "title": "CoreWeave rally carries into the close as demand meets financing risk",
-      "summary": "CoreWeave's earnings prompted gains across AI infrastructure. Contracted demand supports the recovery, while heavy interest costs and service-delivery conditions temper the backlog signal. Watch cash generation, financing and backlog conversion.",
-      "tickers": [
-        "CRWV",
-        "NBIS",
-        "APLD"
-      ],
-      "sectors": [
-        "AI infrastructure",
-        "Cloud computing"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "CRWV November 11 regular-session close, 4:00 PM EST",
-          "value": "+24.7% Reuters; +24.71% Stock Titan closing update"
-        },
-        {
-          "label": "Source timing",
-          "value": "Stock Titan identifies CNBC's 4:10 PM EST closing update; company results were released November 10"
-        },
-        {
-          "label": "Q3 company results",
-          "value": "Revenue $3.661 billion versus $1.365 billion a year earlier; backlog approximately $132.5 billion at September 30"
-        },
-        {
-          "label": "Financing constraint",
-          "value": "Q3 net interest expense $846 million; GAAP net loss $709 million; backlog subject to delivery and availability requirements"
-        }
-      ],
-      "key_finding": "Earnings support demand resilience, with financing and execution still central risks.",
-      "sources": [
-        {
-          "title": "CoreWeave official Q3 results",
-          "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx"
-        },
-        {
-          "title": "Reuters closing market report",
-          "url": "https://www.streetinsider.com/General%2BNews/Stocks%2Bclimb%2Bas%2BCoreWeave%2Bresults%2Bease%2BAI%2Bspending%2Bconcerns/27325904.html"
-        },
-        {
-          "title": "Stock Titan timestamped closing update",
-          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-11-2026"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261111-1638-ai-infrastructure-breadth"
-    },
-    {
-      "id": "scout-20261111-1643-capr-fda-catalyst",
-      "observed_at": "2026-11-11T16:43:32-05:00",
-      "title": "Capricor stands out ahead of FDA target date; approval remains uncertain",
-      "summary": "Capricor's reported intraday surge coincided with its regulatory update. The company reiterates the FDA target date for deramiocel, with an amended application and inspection response still under review. Approval, label scope and manufacturing feedback remain binary risks; the stock move is not a verified close.",
-      "tickers": [
-        "CAPR"
-      ],
-      "sectors": [
-        "Healthcare",
-        "Biotechnology"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Share observation, November 11 at 1:04 PM EST",
-          "value": "+19.70% reported by Stock Titan; intraday, single-source price observation, not a closing quote"
-        },
-        {
-          "label": "Company release date",
-          "value": "November 10, 2026; rechecked November 11"
-        },
-        {
-          "label": "FDA target action date",
-          "value": "November 22, 2026; target date is not approval"
-        },
-        {
-          "label": "Regulatory qualification",
-          "value": "Company says major BLA amendment extended review three months; July inspection produced one Form 483 observation; response submitted, FDA feedback awaited"
-        }
-      ],
-      "key_finding": "The catalyst is documented, while approval odds cannot be inferred from the intraday rally.",
-      "sources": [
-        {
-          "title": "Capricor official Q3 regulatory update",
-          "url": "https://www.capricor.com/investors/news-events/press-releases/detail/359/capricor-therapeutics-reports-third-quarter-2026-financial"
-        },
-        {
-          "title": "Stock Titan timestamped CAPR observation",
-          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-11-2026"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261111-1643-oil-hormuz-settlement",
-      "observed_at": "2026-11-11T16:43:32-05:00",
-      "title": "Oil rebounds at settlement while Hormuz flow risk stays unresolved",
-      "summary": "Oil recovered as diplomatic uncertainty supported supply concerns. The new settlement report updates the earlier shipping-risk watch without establishing additional lost oil volume. Watch transit evidence, insurance costs and official inventories; security warnings alone do not measure throughput.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Energy",
-        "Oil transportation",
-        "Maritime security"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 11 settlement reported by Reuters",
-          "value": "Brent $92.76, +1.39%; WTI $86.53, +0.57%; Reuters update timestamp 3:09 PM EST"
-        },
-        {
-          "label": "Independent settlement check",
-          "value": "AP separately reports Brent $92.76, +1.4%; WTI remains single-source and is not labeled confirmed"
-        },
-        {
-          "label": "Physical-flow distinction",
-          "value": "No incremental volume loss independently established in this pass; recovery in production and security risk can coexist"
-        },
-        {
-          "label": "UKMTO retrieval limitation",
-          "value": "Public recent-incidents page returned 0 reports; insufficient to verify or disprove earlier Warning 202-26 or establish incident resolution"
-        },
-        {
-          "label": "Next scheduled confirmation",
-          "value": "Reuters says official US inventory data due Thursday, November 12, delayed for Veterans Day"
-        }
-      ],
-      "key_finding": "Settlement recovery is market evidence; a new physical-flow interruption remains unverified.",
-      "sources": [
-        {
-          "title": "Reuters oil settlement and Hormuz assessment, updated 3:09 PM EST",
-          "url": "https://www.marketscreener.com/news/oil-rises-from-two-month-low-as-hormuz-shipping-attacks-offset-iran-truce-hopes-ce785edbd981f725"
-        },
-        {
-          "title": "AP independent Brent closing coverage",
-          "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-297d040c83844a9563327340b370c24e"
-        },
-        {
-          "title": "UKMTO recent incidents, checked November 11",
-          "url": "https://www.ukmto.org/recent-incidents"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261111-1228-hormuz-ukmto-202"
     }
   ],
-  "last_checked_at": "2026-11-11T18:44:00-05:00",
+  "last_checked_at": "2026-11-12T07:26:07-05:00",
   "last_check_status": "new_findings"
 }
