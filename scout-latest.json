@@ -1,8 +1,71 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-12T17:36:00-05:00",
-  "as_of_et": "November 12, 2026, 5:36 PM EST",
+  "generated_at": "2026-11-12T18:30:43-05:00",
+  "as_of_et": "November 12, 2026, 6:30 PM EST",
   "items": [
+    {
+      "id": "scout-20261112-1830-cerebras-inference-earnings",
+      "observed_at": "2026-11-12T18:30:43-05:00",
+      "title": "Cerebras surges after stronger AI inference cloud earnings and expanded hyperscaler demand",
+      "summary": "Cerebras reported third-quarter core revenue of $230.9 million, up 70%, and raised its 2026 core-revenue outlook to $940 million-$960 million. Independent reports described a roughly 14%-16% after-hours rise after new hyperscaler contracts and strong fourth-quarter guidance. Growth and $26.1 billion of obligations are substantial, but GAAP losses, customer concentration and data-center deployment remain risks.",
+      "tickers": [
+        "CBRS",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MSFT"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "Cloud computing",
+        "Data-center power"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "After-hours CBRS observed November 12 at 5:17 PM ET",
+          "value": "StockTitan reported $111.61 after hours versus $97.75 regular-session close, approximately +14.2%; IBD separately reported a move exceeding 16% at another after-hours observation. Indicative only, not a confirmed after-hours closing price."
+        },
+        {
+          "label": "Third-quarter revenue, reported November 12 after close",
+          "value": "GAAP $210.8 million (+55% year on year); core non-GAAP $230.9 million (+70%). Cloud services GAAP revenue $141.9 million (+265%). Do not conflate GAAP and core."
+        },
+        {
+          "label": "Guidance and customers",
+          "value": "Core Q4 revenue $310-$330 million, 47%-49% core gross margin; FY2026 core revenue $940-$960 million. Company reported two new hyperscaler wins; WSJ and IBD separately identify Microsoft among new customers."
+        },
+        {
+          "label": "Fundamentals and downside",
+          "value": "$26.1 billion remaining performance obligations as of September 30; $7.8 billion cash/restricted cash/short-term investments; GAAP net loss $161.2 million versus $22.2 million year earlier. Hardware revenue declined; backlog concentration remains material."
+        },
+        {
+          "label": "Capacity, next evidence and invalidation",
+          "value": "700 MW of data-center capacity under contract for delivery by end-2027, not yet operating. Watch signed customer commitments, actual utilization, 2027 deliveries, GAAP margin and cash use; delayed capacity or weaker contract conversion would undermine outlook."
+        }
+      ],
+      "key_finding": "Confirmed growth in AI inference-cloud demand is translating into higher Cerebras guidance and an outsized after-hours response, but cash conversion is still unproven.",
+      "sources": [
+        {
+          "title": "Cerebras official Q3 2026 earnings release, November 12",
+          "url": "https://investors.cerebras.ai/news-releases/news-release-details/cerebras-systems-delivers-record-revenue-third-quarter-2026"
+        },
+        {
+          "title": "Wall Street Journal, Cerebras lifts outlook November 12",
+          "url": "https://www.wsj.com/business/earnings/cerebras-lifts-outlook-as-cloud-revenue-surges-in-third-quarter-87d7cba2"
+        },
+        {
+          "title": "Investor's Business Daily, November 12 Cerebras earnings and extended-trading response",
+          "url": "https://www.investors.com/news/technology/cerebras-stock-cbrs-q3-2026-earnings/"
+        },
+        {
+          "title": "StockTitan, after-hours Cerebras quote at 5:17 PM ET",
+          "url": "https://www.stocktitan.net/articles/cerebras-cbrs-third-quarter-2026-results"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261112-1736-cisco-ai-networking",
       "observed_at": "2026-11-12T17:36:00-05:00",
@@ -176,54 +239,6 @@
       "supersedes": "scout-20261112-1326-eia-inventory-surprise"
     },
     {
-      "id": "scout-20261112-1631-gpn-buyout-falls",
-      "observed_at": "2026-11-12T16:31:54-05:00",
-      "title": "Global Payments falls sharply as CD&R and GTCR abandon take-private talks",
-      "summary": "Global Payments fell roughly 9% to 11% in November 12 trading after Reuters reported that CD&R and GTCR dropped early takeover talks. Sources cited the complexity of arranging financing for a major leveraged transaction. The lost buyout catalyst adds pressure to the payments company, but the business remains operating and another bidder or renewed discussions cannot be ruled out.",
-      "tickers": [
-        "GPN",
-        "FIS"
-      ],
-      "sectors": [
-        "Financial technology",
-        "Payments",
-        "Software",
-        "Private credit"
-      ],
-      "evidence_grade": "single-source",
-      "observations": [
-        {
-          "label": "Share reaction, November 12 afternoon",
-          "value": "Barron's reported around -10.7% near $90.90; Reuters report appeared about 12:12 PM ET. Intraday indication, not independently confirmed closing quote"
-        },
-        {
-          "label": "Catalyst",
-          "value": "Reuters, citing two people familiar, said CD&R and GTCR withdrew from early-stage acquisition discussions"
-        },
-        {
-          "label": "Fundamental interpretation",
-          "value": "Take-private financing appears difficult at current debt costs; this does not establish deterioration in Global Payments merchant-processing volumes"
-        },
-        {
-          "label": "Watch / invalidation",
-          "value": "Company statement, revised M&A interest, leverage/credit costs, payment volume growth and merchant margins; a new credible bidder would counter the lost catalyst"
-        }
-      ],
-      "key_finding": "A financing-constrained take-private withdrawal removed a major potential catalyst for GPN.",
-      "sources": [
-        {
-          "title": "Reuters exclusive, CD&R and GTCR drop pursuit of Global Payments, November 12",
-          "url": "https://www.investing.com/news/stock-market-news/exclusivecdr-gtcr-drop-pursuit-of-global-payments-sources-say-5022862"
-        },
-        {
-          "title": "Barron's, Global Payments declines after reported buyout talks withdrawal",
-          "url": "https://www.barrons.com/articles/global-payments-stock-fintech-take-private-bid-a83a757c"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
       "id": "scout-20261112-1631-smci-export-probe",
       "observed_at": "2026-11-12T16:31:54-05:00",
       "title": "Super Micro slumps on reported DOJ export-control scrutiny tied to Megaspeed",
@@ -281,6 +296,6 @@
       "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-12T17:36:00-05:00",
+  "last_checked_at": "2026-11-12T18:30:43-05:00",
   "last_check_status": "new_findings"
 }
