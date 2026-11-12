@@ -1,8 +1,230 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-12T15:29:32-05:00",
-  "as_of_et": "November 12, 2026, 3:29 PM EST",
+  "generated_at": "2026-11-12T16:31:54-05:00",
+  "as_of_et": "November 12, 2026, 4:31 PM EST",
   "items": [
+    {
+      "id": "scout-20261112-1631-oil-iran-close",
+      "observed_at": "2026-11-12T16:31:54-05:00",
+      "title": "Brent rises 3.3% to $95.82 as Iran diplomatic hopes fade despite bearish EIA inventories",
+      "summary": "Brent finished November 12 near $95.82, up 3.3%, and WTI was reported at $88.74, up 2.6%, after President Trump said the United States did not need an Iran deal. The rally overwhelmed a 4.7-million-barrel U.S. crude inventory build. This confirms a market risk-premium repricing, not a newly verified shipping closure.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Geopolitical risk",
+        "Maritime shipping"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 12 benchmark close, Brent",
+          "value": "$95.82 a barrel, +3.3%, independently reported by Associated Press and Wall Street Journal"
+        },
+        {
+          "label": "November 12 WTI reported by Wall Street Journal",
+          "value": "$88.74, +2.6%; second independent closing-price confirmation not obtained for WTI"
+        },
+        {
+          "label": "EIA November 12",
+          "value": "Commercial crude stocks +4.7 million barrels to 414.4 million; inventories roughly 4% below five-year seasonal norm"
+        },
+        {
+          "label": "Physical-flow differentiation",
+          "value": "Previously documented Hormuz tanker attacks persist; no new closing of a route, stoppage of exports or vessel strike independently verified in this pass. MARAD regional advisories 2026-011 and 2026-013 remain active"
+        },
+        {
+          "label": "Watch / invalidation",
+          "value": "UKMTO and MARAD notices, actual vessel transits, Gulf exports, tanker freight, IEA monthly report November 13, Brent-WTI spread and XLE/XOP strength. Credible diplomatic progress would reduce the premium"
+        }
+      ],
+      "key_finding": "Diplomatic-risk repricing outweighed bearish inventories at the oil close, without new proof of reduced physical flows.",
+      "sources": [
+        {
+          "title": "Associated Press, U.S. markets and oil November 12",
+          "url": "https://apnews.com/article/8bf08407eafe1655ed73112f7494029a"
+        },
+        {
+          "title": "Wall Street Journal, November 12 oil reversal",
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-investors-weigh-u-s-iran-diplomacy-296e2847"
+        },
+        {
+          "title": "US MARAD, active maritime advisories",
+          "url": "https://www.maritime.dot.gov/msci-advisories"
+        },
+        {
+          "title": "EIA official weekly petroleum summary",
+          "url": "https://ir.eia.gov/wpsr/summary.txt"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261112-1326-eia-inventory-surprise"
+    },
+    {
+      "id": "scout-20261112-1631-gpn-buyout-falls",
+      "observed_at": "2026-11-12T16:31:54-05:00",
+      "title": "Global Payments falls sharply as CD&R and GTCR abandon take-private talks",
+      "summary": "Global Payments fell roughly 9% to 11% in November 12 trading after Reuters reported that CD&R and GTCR dropped early takeover talks. Sources cited the complexity of arranging financing for a major leveraged transaction. The lost buyout catalyst adds pressure to the payments company, but the business remains operating and another bidder or renewed discussions cannot be ruled out.",
+      "tickers": [
+        "GPN",
+        "FIS"
+      ],
+      "sectors": [
+        "Financial technology",
+        "Payments",
+        "Software",
+        "Private credit"
+      ],
+      "evidence_grade": "single-source",
+      "observations": [
+        {
+          "label": "Share reaction, November 12 afternoon",
+          "value": "Barron's reported around -10.7% near $90.90; Reuters report appeared about 12:12 PM ET. Intraday indication, not independently confirmed closing quote"
+        },
+        {
+          "label": "Catalyst",
+          "value": "Reuters, citing two people familiar, said CD&R and GTCR withdrew from early-stage acquisition discussions"
+        },
+        {
+          "label": "Fundamental interpretation",
+          "value": "Take-private financing appears difficult at current debt costs; this does not establish deterioration in Global Payments merchant-processing volumes"
+        },
+        {
+          "label": "Watch / invalidation",
+          "value": "Company statement, revised M&A interest, leverage/credit costs, payment volume growth and merchant margins; a new credible bidder would counter the lost catalyst"
+        }
+      ],
+      "key_finding": "A financing-constrained take-private withdrawal removed a major potential catalyst for GPN.",
+      "sources": [
+        {
+          "title": "Reuters exclusive, CD&R and GTCR drop pursuit of Global Payments, November 12",
+          "url": "https://www.investing.com/news/stock-market-news/exclusivecdr-gtcr-drop-pursuit-of-global-payments-sources-say-5022862"
+        },
+        {
+          "title": "Barron's, Global Payments declines after reported buyout talks withdrawal",
+          "url": "https://www.barrons.com/articles/global-payments-stock-fintech-take-private-bid-a83a757c"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261112-1631-smci-export-probe",
+      "observed_at": "2026-11-12T16:31:54-05:00",
+      "title": "Super Micro slumps on reported DOJ export-control scrutiny tied to Megaspeed",
+      "summary": "Super Micro shares dropped about 9% to 12% on November 12 as Bloomberg and Semafor reported federal inquiries concerning possible diversion of AI servers to China. Super Micro says it has cooperated with authorities, and the Justice Department has not publicly confirmed a new charge against the company. Strong AI-server demand does not remove compliance, concentration and margin risks.",
+      "tickers": [
+        "SMCI",
+        "NVDA",
+        "DELL"
+      ],
+      "sectors": [
+        "AI infrastructure",
+        "Server hardware",
+        "Export controls",
+        "Semiconductors"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Share reaction, November 12 regular trading",
+          "value": "Barron's reported SMCI down about 9.2%; other intraday reports showed declines of 10%-12%. Not independently confirmed closing figures"
+        },
+        {
+          "label": "Investigative status",
+          "value": "Bloomberg reported DOJ inquiry into links between Megaspeed-related entities and alleged China server diversions; Semafor separately reported inquiries citing administration officials. Allegations are not findings of guilt"
+        },
+        {
+          "label": "Company position",
+          "value": "Super Micro says it cooperated with US and Taiwan authorities, that Megaspeed never was its customer, and an internal review found no current senior-management knowledge of an alleged scheme"
+        },
+        {
+          "label": "Fundamental assessment",
+          "value": "Demand for AI servers remains strong, but export-control risk, customer concentration and low-margin hardware assembly can complicate growth"
+        },
+        {
+          "label": "Watch / invalidation",
+          "value": "Official DOJ statements or filings, export-control rule changes, customer orders, product shipments, cash flow and gross margin; formal clearance would reduce legal uncertainty"
+        }
+      ],
+      "key_finding": "Fresh independently reported probe allegations raise AI-server execution and compliance risk, but have not been adjudicated.",
+      "sources": [
+        {
+          "title": "Barron's, Super Micro falls on reported DOJ probe, November 12",
+          "url": "https://www.barrons.com/articles/super-micro-stock-falls-doj-probe-43f8d63d"
+        },
+        {
+          "title": "Semafor report covered by Investing.com, November 12",
+          "url": "https://www.streetinsider.com/General%2BNews/Super%2BMicro%2Bshares%2Btumble%2Bas%2BDOJ%2Bprobes%2Bwiden%2Bto%2BNvidia%2C%2BSemafor%2Breports/27333939.html"
+        },
+        {
+          "title": "Financial Times, Singapore's Megaspeed investigation, November 12",
+          "url": "https://www.ft.com/content/fa23a8ad-29bf-4971-aa44-6b25b247c193"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261112-1631-ai-close-divergence",
+      "observed_at": "2026-11-12T16:31:54-05:00",
+      "title": "Nvidia pares 14% intraday fall to about 5.4% as AMD and Broadcom advance",
+      "summary": "Nvidia declined about 5.4% at the November 12 close after sliding as much as 14% following its CEO transition. AMD and Broadcom gained roughly 4% to 5% while Nvidia-linked CoreWeave remained weak. The split suggests selective repricing of leadership, supplier and financing exposure rather than proof of collapsing AI infrastructure demand.",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "CRWV",
+        "SMH"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "Networking"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Nvidia close, November 12",
+          "value": "AP and ChartMill independently reported about -5.4%; intraday low was roughly -14%"
+        },
+        {
+          "label": "Competitor and customer moves",
+          "value": "Late-session ChartMill: AMD around +4.7%, AVGO around +5.1%; Barron's reported CoreWeave down about 6.8% intraday. Exact closes not independently confirmed for all"
+        },
+        {
+          "label": "Broad-market close",
+          "value": "AP reported S&P 500 roughly -0.3% to -0.4%, Dow -0.4%, Nasdaq -0.4%; small-caps were weaker"
+        },
+        {
+          "label": "Fundamentals / risks",
+          "value": "AI accelerator demand remains supported, but Nvidia succession, potential export-policy shifts and CoreWeave credit/customer concentration create differentiated risks"
+        },
+        {
+          "label": "Watch / invalidation",
+          "value": "NVDA succession, November 17 earnings, hyperscaler orders, official export policy, CoreWeave financing and semiconductor breadth; broad-based chip weakness would undermine the selective-rotation interpretation"
+        }
+      ],
+      "key_finding": "The session closed with Nvidia-specific selling but competitor strength, distinguishing company risk from general AI-demand weakness.",
+      "sources": [
+        {
+          "title": "Associated Press, closing market recap November 12",
+          "url": "https://apnews.com/article/8bf08407eafe1655ed73112f7494029a"
+        },
+        {
+          "title": "ChartMill, November 12 S&P 500 stock movers",
+          "url": "https://www.chartmill.com/news/GOOGL/Chartmill-58621-SP-500-Top-Movers-Gainers-and-Losers-on-Nov-12-2026"
+        },
+        {
+          "title": "Barron's, Nvidia-connected companies under pressure",
+          "url": "https://www.barrons.com/articles/coreweave-stock-drops-nvidia-huang-ai-3b3bbc9b"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261112-1235-amd-avgo-divergence"
+    },
     {
       "id": "scout-20261112-1529-treasury-bond-auction",
       "observed_at": "2026-11-12T15:29:32-05:00",
@@ -63,232 +285,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261112-1429-us-home-sales-slump",
-      "observed_at": "2026-11-12T14:29:34-05:00",
-      "title": "October U.S. existing-home sales plunge 5.5% to 16-year low amid elevated mortgage rates",
-      "summary": "The National Association of Realtors reported a 5.5% monthly fall in October existing-home sales to a 3.75 million seasonally adjusted annual rate, the weakest since August 2010. The decline underscores interest-rate pressure on housing transactions, even as median prices held higher year over year. Housing-related stocks are watch indicators; no company-share price change is attributed to this release.",
-      "tickers": [
-        "XHB",
-        "ITB",
-        "Z"
-      ],
-      "sectors": [
-        "U.S. housing",
-        "Housing-linked equities",
-        "Rates and macroeconomics"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Official release, November 12 at 10:00 AM EST",
-          "value": "October existing-home sales -5.5% month over month, -8.8% year over year, at 3.75 million seasonally adjusted annual rate; lowest since August 2010"
-        },
-        {
-          "label": "Inventory and price",
-          "value": "1.59 million existing homes available, 5.1 months supply; median sale price $416,700, +0.4% year over year"
-        },
-        {
-          "label": "Mortgage/rate context",
-          "value": "NAR cites 30-year fixed-rate mortgage averaging 7.33% in October, versus 6.86% in September; higher financing cost weighs on turnover"
-        },
-        {
-          "label": "Market confirmation boundary",
-          "value": "Data confirmed by original NAR release and independent AP/WSJ coverage. No verified intraday XHB, ITB or Z move linked to the report; those tickers are exposure watch indicators, not asserted movers"
-        },
-        {
-          "label": "Watch/invalidation",
-          "value": "October pending-home-sales release November 18, weekly mortgage-rate trend, housing inventory, regional sales, affordability, housing-linked earnings, 10-year Treasury yields; a sustained mortgage-rate decline with pending-sales recovery would soften the concern"
-        }
-      ],
-      "key_finding": "Housing transaction volume reached a 16-year low, a verified macro deterioration that amplifies sensitivity to high rates.",
-      "sources": [
-        {
-          "title": "National Association of Realtors, November 12 existing-home sales report",
-          "url": "https://www.nar.realtor/newsroom/existing-home-sales-decreased-5-5-percent-october-nar-report"
-        },
-        {
-          "title": "Associated Press, November 12 housing market report",
-          "url": "https://apnews.com/article/dbd54bc897a443dc0fc9668911977864"
-        },
-        {
-          "title": "Wall Street Journal, November 12 existing-home sales",
-          "url": "https://www.wsj.com/economy/housing/home-sales-in-october-plummet-to-16-year-low-16adebc0"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261112-1326-eia-inventory-surprise",
-      "observed_at": "2026-11-12T13:26:17-05:00",
-      "title": "EIA reports surprise 4.7 million-barrel U.S. crude build as oil remains geopolitical",
-      "summary": "The EIA reported U.S. commercial crude inventories rising 4.7 million barrels in the week ended November 6, versus market expectations for a roughly 0.6–0.7 million-barrel draw. Gasoline and distillate stocks also increased. Domestic stock growth argues against a uniformly tight U.S. supply picture, even while the Hormuz security premium remains influential.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Petroleum inventories",
-        "Energy markets"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "EIA release, November 12 at noon ET; week ended November 6",
-          "value": "Commercial crude +4.7 million barrels to 414.4 million; approximately 4% below seasonal five-year average"
-        },
-        {
-          "label": "Expectation and surprise",
-          "value": "Consensus near -0.6 million barrels (Investing.com) to -0.7 million (WSJ); actual build roughly 5.3–5.4 million barrels above expected change"
-        },
-        {
-          "label": "Refined product inventories",
-          "value": "Gasoline +1.8 million barrels; distillates +4.1 million; total commercial petroleum inventories +11.4 million barrels"
-        },
-        {
-          "label": "Physical drivers",
-          "value": "Imports +325,000 barrels/day to 6.7 million; refinery utilization 95.2%; average refinery inputs 17.0 million barrels/day"
-        },
-        {
-          "label": "Context, not a verified causal claim",
-          "value": "AP observed Brent $94.47 (+1.8%) at 12:46 PM ET following U.S.-Iran diplomatic comments; oil reaction to inventories alone is not established"
-        },
-        {
-          "label": "Next evidence / invalidation",
-          "value": "Watch ensuing EIA export/import changes, gasoline and distillate demand, crude price settlement on independently confirmed feeds, XLE/XOP breadth, UKMTO/MARAD ship advisories and verified Hormuz transit"
-        }
-      ],
-      "key_finding": "An official large U.S. inventory build complicates the supply-tightness narrative despite persistent geopolitical oil risk.",
-      "sources": [
-        {
-          "title": "U.S. EIA Weekly Petroleum Status Report summary, released November 12, 2026",
-          "url": "https://ir.eia.gov/wpsr/summary.txt"
-        },
-        {
-          "title": "Wall Street Journal, U.S. Crude-Oil Stockpiles Post Unexpected Weekly Build, November 12",
-          "url": "https://www.wsj.com/business/energy-oil/u-s-crude-oil-stockpiles-post-unexpected-weekly-build-9058e7ae"
-        },
-        {
-          "title": "Associated Press, November 12 midday market and Brent oil reaction",
-          "url": "https://apnews.com/article/stock-markets-oil-ai-earnings-nvidia-8bf08407eafe1655ed73112f7494029a"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261112-1235-tanker-dominica-prosperity",
-      "observed_at": "2026-11-12T12:35:36-05:00",
-      "title": "Indian shipping minister confirms separate November 11 tanker strike off UAE",
-      "summary": "India's shipping minister confirmed that the Liberia-flagged crude tanker MT Dominica Prosperity was struck while drifting off Mina Saqr on November 11. UAE Coast Guard evacuated its entire crew without injuries. This adds specific physical maritime-security evidence, but neither the attacker's identity nor a new export-volume interruption has been established.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Maritime shipping",
-        "Geopolitical risk"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Physical incident, November 11; minister confirmation November 12",
-          "value": "MT Dominica Prosperity targeted by projectile off Mina Saqr, UAE; 22 crew evacuated, including 19 Indian nationals; no injuries reported"
-        },
-        {
-          "label": "Distinction from previous incidents",
-          "value": "Separate from November 10 MT Fujairah Energy strike, where four crew were injured; officials had also monitored a possible November 11 NCC Fajr incident"
-        },
-        {
-          "label": "Market context, November 12 late morning",
-          "value": "AP reported Brent near $93.89 (+1.2%) after moving from about $92 to above $94 on US-Iran diplomacy comments; intraday, not settlement"
-        },
-        {
-          "label": "Evidence limits",
-          "value": "Incident confirmed in Indian minister's statement; attacker, damage, export volume affected and latest AIS status not independently established"
-        },
-        {
-          "label": "Next indicators and invalidation",
-          "value": "New UKMTO warnings, MARAD 2026-011 and 2026-013, verified Gulf transit/export counts, freight and war-risk premiums, EIA weekly report and physical vessel status"
-        }
-      ],
-      "key_finding": "Another specifically identified tanker strike reinforces maritime risk, without proof of an incremental oil export shutdown.",
-      "sources": [
-        {
-          "title": "Press Trust of India, November 12 report carried by Rediff",
-          "url": "https://money.rediff.com/news/market/oil-tanker-with-19-indian-crew-attacked-off-mina-saqr/57971620261112"
-        },
-        {
-          "title": "Times of India, November 12, shipping minister confirmation",
-          "url": "https://timesofindia.indiatimes.com/india/tanker-with-19-indian-seafarers-on-board-attacked-off-uae-all-safe-shipping-minister/articleshow/135771491.cms"
-        },
-        {
-          "title": "US MARAD, active maritime advisories",
-          "url": "https://www.maritime.dot.gov/msci-advisories"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261112-1054-oil-iran-diplomacy"
-    },
-    {
-      "id": "scout-20261112-1235-amd-avgo-divergence",
-      "observed_at": "2026-11-12T12:35:36-05:00",
-      "title": "AMD and Broadcom become S&P 500 leaders as Nvidia recovers from opening plunge",
-      "summary": "Late-morning trading showed AMD and Broadcom leading the S&P 500 while Nvidia remained lower following its confirmed leadership change. The dispersion supports a provisional rotation toward competing AI silicon rather than a uniformly weaker AI sector. The relative performance is intraday and could reverse before the close.",
-      "tickers": [
-        "AMD",
-        "AVGO",
-        "NVDA",
-        "CRWV",
-        "SOXX"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "AI infrastructure",
-        "Networking"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Late morning November 12, FactSet data cited by MarketWatch",
-          "value": "AMD +7.4%, AVGO +7.1%, NVDA down more than 4%; intraday indications, not settlement or closing prices"
-        },
-        {
-          "label": "AP, 11:45 AM ET market snapshot",
-          "value": "NVDA -5.3% after a -14% opening drop; AMD +5.8%, AVGO +5.6%, CRWV -7.2%, MU -3%; S&P 500 +0.1%, Nasdaq roughly flat"
-        },
-        {
-          "label": "Catalyst",
-          "value": "Nvidia confirmed Jensen Huang's departure and Colette Kress as interim CEO; management transition and China-related scrutiny remain company-specific risks"
-        },
-        {
-          "label": "Fundamental distinction",
-          "value": "Custom silicon and alternative accelerators could see stronger interest, but no verified evidence of immediate hyperscaler order reallocations or decreased overall AI chip demand"
-        },
-        {
-          "label": "Risks and indicators",
-          "value": "Relative performance through closing bell, NVDA product/customer commitments and November 17 earnings, AVGO/AMD execution, sector breadth, Treasury yields and financing conditions"
-        }
-      ],
-      "key_finding": "Large intraday outperformance by rival chip suppliers marks a meaningful but not yet sustained semiconductor divergence.",
-      "sources": [
-        {
-          "title": "MarketWatch / FactSet, late-morning November 12 semiconductor movers",
-          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-nasdaq-sp500-down-nvidia-dive-huang-affair-ouster-dow-flat/card/chip-stocks-amd-and-broadcom-are-the-top-performers-in-the-s-p-500-7DzmFJFIB592ms6IV4Wj"
-        },
-        {
-          "title": "Associated Press, November 12 market swings as of 11:45 a.m. ET",
-          "url": "https://apnews.com/article/stock-markets-oil-ai-earnings-nvidia-8bf08407eafe1655ed73112f7494029a"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261112-0936-nvidia-ceo-transition"
     }
   ],
-  "last_checked_at": "2026-11-12T15:29:32-05:00",
+  "last_checked_at": "2026-11-12T16:31:54-05:00",
   "last_check_status": "new_findings"
 }
