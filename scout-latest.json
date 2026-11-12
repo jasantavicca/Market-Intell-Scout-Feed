@@ -1,8 +1,67 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-12T12:35:36-05:00",
-  "as_of_et": "November 12, 2026, 12:35 PM EST",
+  "generated_at": "2026-11-12T13:26:17-05:00",
+  "as_of_et": "November 12, 2026, 1:26 PM EST",
   "items": [
+    {
+      "id": "scout-20261112-1326-eia-inventory-surprise",
+      "observed_at": "2026-11-12T13:26:17-05:00",
+      "title": "EIA reports surprise 4.7 million-barrel U.S. crude build as oil remains geopolitical",
+      "summary": "The EIA reported U.S. commercial crude inventories rising 4.7 million barrels in the week ended November 6, versus market expectations for a roughly 0.6–0.7 million-barrel draw. Gasoline and distillate stocks also increased. Domestic stock growth argues against a uniformly tight U.S. supply picture, even while the Hormuz security premium remains influential.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Petroleum inventories",
+        "Energy markets"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "EIA release, November 12 at noon ET; week ended November 6",
+          "value": "Commercial crude +4.7 million barrels to 414.4 million; approximately 4% below seasonal five-year average"
+        },
+        {
+          "label": "Expectation and surprise",
+          "value": "Consensus near -0.6 million barrels (Investing.com) to -0.7 million (WSJ); actual build roughly 5.3–5.4 million barrels above expected change"
+        },
+        {
+          "label": "Refined product inventories",
+          "value": "Gasoline +1.8 million barrels; distillates +4.1 million; total commercial petroleum inventories +11.4 million barrels"
+        },
+        {
+          "label": "Physical drivers",
+          "value": "Imports +325,000 barrels/day to 6.7 million; refinery utilization 95.2%; average refinery inputs 17.0 million barrels/day"
+        },
+        {
+          "label": "Context, not a verified causal claim",
+          "value": "AP observed Brent $94.47 (+1.8%) at 12:46 PM ET following U.S.-Iran diplomatic comments; oil reaction to inventories alone is not established"
+        },
+        {
+          "label": "Next evidence / invalidation",
+          "value": "Watch ensuing EIA export/import changes, gasoline and distillate demand, crude price settlement on independently confirmed feeds, XLE/XOP breadth, UKMTO/MARAD ship advisories and verified Hormuz transit"
+        }
+      ],
+      "key_finding": "An official large U.S. inventory build complicates the supply-tightness narrative despite persistent geopolitical oil risk.",
+      "sources": [
+        {
+          "title": "U.S. EIA Weekly Petroleum Status Report summary, released November 12, 2026",
+          "url": "https://ir.eia.gov/wpsr/summary.txt"
+        },
+        {
+          "title": "Wall Street Journal, U.S. Crude-Oil Stockpiles Post Unexpected Weekly Build, November 12",
+          "url": "https://www.wsj.com/business/energy-oil/u-s-crude-oil-stockpiles-post-unexpected-weekly-build-9058e7ae"
+        },
+        {
+          "title": "Associated Press, November 12 midday market and Brent oil reaction",
+          "url": "https://apnews.com/article/stock-markets-oil-ai-earnings-nvidia-8bf08407eafe1655ed73112f7494029a"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261112-1235-tanker-dominica-prosperity",
       "observed_at": "2026-11-12T12:35:36-05:00",
@@ -221,59 +280,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261112-0835-lilly-china-approval",
-      "observed_at": "2026-11-12T08:35:31-05:00",
-      "title": "China approves Eli Lilly's oral weight-loss medicine orforglipron",
-      "summary": "China's medicine regulator approved Lilly's oral GLP-1 weight-management medicine on November 12, a significant regulatory expansion in a large obesity market. Early premarket reporting put LLY up around 2.8%, though quotes were fluid. The commercial impact depends on launch timing, pricing, reimbursement, competition, and supply.",
-      "tickers": [
-        "LLY",
-        "NVO"
-      ],
-      "sectors": [
-        "Healthcare",
-        "Biopharma",
-        "Metabolic disease"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Regulatory decision, November 12",
-          "value": "China National Medical Products Administration approved orforglipron for weight management in adults"
-        },
-        {
-          "label": "Premarket response, November 12 at 5:07 AM ET report",
-          "value": "Investing.com reported LLY around +2.8%; not a closing price"
-        },
-        {
-          "label": "Commercial opportunity",
-          "value": "Oral small-molecule GLP-1 option in China alongside established injectable products; Novo Nordisk oral Wegovy application remains a competitor"
-        },
-        {
-          "label": "Watch/invalidation",
-          "value": "Official label, launch date, reimbursement, access, supply and actual prescription uptake"
-        }
-      ],
-      "key_finding": "The China approval is confirmed, while its sales impact and sustained price response are not.",
-      "sources": [
-        {
-          "title": "Reuters November 12 China drug approval",
-          "url": "https://www.investing.com/news/stock-market-news/china-approves-eli-lillys-weight-loss-pill-orforglipron-5020481"
-        },
-        {
-          "title": "China Daily Business News November 12 regulator report",
-          "url": "https://www.nbd.com.cn/articles/2026-11-12/4646034.html"
-        },
-        {
-          "title": "Investing.com November 12 premarket Lilly reaction",
-          "url": "https://www.investing.com/news/stock-market-news/eli-lilly-stock-rises-after-china-approves-weightloss-pill-5020801"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-12T12:35:36-05:00",
+  "last_checked_at": "2026-11-12T13:26:17-05:00",
   "last_check_status": "new_findings"
 }
