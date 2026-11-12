@@ -1,8 +1,68 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-12T08:35:31-05:00",
-  "as_of_et": "November 12, 2026, 8:35 AM EST",
+  "generated_at": "2026-11-12T09:36:41-05:00",
+  "as_of_et": "November 12, 2026, 9:36 AM EST",
   "items": [
+    {
+      "id": "scout-20261112-0936-nvidia-ceo-transition",
+      "observed_at": "2026-11-12T09:36:41-05:00",
+      "title": "Nvidia confirms Jensen Huang resignation; CFO Colette Kress becomes interim CEO",
+      "summary": "Nvidia's board announced founder Jensen Huang's immediate resignation as CEO, president and director on November 12, naming CFO Colette Kress interim chief executive. This turns an earlier leadership possibility into a confirmed governance change at the center of the AI supply chain. Investors face succession and export-control uncertainty, while chip demand and existing customer commitments remain central to the fundamental outlook.",
+      "tickers": [
+        "NVDA",
+        "SOXX",
+        "SMH",
+        "CRWV",
+        "AMD",
+        "AVGO"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "Networking",
+        "Global equities"
+      ],
+      "evidence_grade": "confirmed",
+      "observations": [
+        {
+          "label": "Corporate announcement, November 12, 8:48 AM ET",
+          "value": "Nvidia states Jensen Huang resigned effective immediately; CFO Colette Kress is interim CEO and keeps CFO duties; Harvey C. Jones named board chair"
+        },
+        {
+          "label": "Shares, November 12 premarket",
+          "value": "AP reported roughly -10%; Barron's reported up to -12.5% and $152.02 premarket. Changing indications, not official closing prices"
+        },
+        {
+          "label": "Fundamental assessment",
+          "value": "Nvidia remains a key provider of AI accelerators and interconnect, but founder-led technical roadmap, customer relationships and US-China export oversight face additional transition risk"
+        },
+        {
+          "label": "Near-term follow-through",
+          "value": "Watch official succession updates, management continuity, US regular-session breadth and customer/supplier reactions; fiscal Q3 earnings due November 17"
+        },
+        {
+          "label": "Invalidation/watch conditions",
+          "value": "Evidence of uninterrupted product shipments, hyperscaler order cadence and leadership continuity would limit operating-risk concerns; unexpected delivery or export disruption would deepen them"
+        }
+      ],
+      "key_finding": "A confirmed CEO departure increases execution and governance risk in a central AI infrastructure supplier.",
+      "sources": [
+        {
+          "title": "Nvidia official announcement distributed by GlobeNewswire, November 12",
+          "url": "https://www.streetinsider.com/Globe%2BNewswire/NVIDIA%2BAnnounces%2BCEO%2BTransition/27331726.html"
+        },
+        {
+          "title": "Associated Press, Nvidia leadership transition, November 12",
+          "url": "https://apnews.com/article/5403f152a601cf82ce939f1d24fffa0f"
+        },
+        {
+          "title": "TechCrunch, Nvidia CEO transition, November 12",
+          "url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261112-0726-nvidia-leadership-risk"
+    },
     {
       "id": "scout-20261112-0835-nebius-capacity-delay",
       "observed_at": "2026-11-12T08:35:31-05:00",
@@ -165,65 +225,6 @@
       "supersedes": null
     },
     {
-      "id": "scout-20261112-0726-nvidia-leadership-risk",
-      "observed_at": "2026-11-12T07:26:07-05:00",
-      "title": "Nvidia leadership crisis drives roughly 7% premarket slide and global chip pressure",
-      "summary": "Nvidia dropped roughly 7% in early Thursday trading after Reuters confirmed its board met to consider CEO Jensen Huang's future. No removal has been announced. Founder-dependence, China export scrutiny and AI-infrastructure financing amplify the spillover risk; a formal board decision would be the next decisive signal.",
-      "tickers": [
-        "NVDA",
-        "SOXX",
-        "SMH",
-        "CRWV",
-        "AMD",
-        "AVGO"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "AI infrastructure",
-        "Global equities"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "NVDA early Thursday trading",
-          "value": "Approximately -7% premarket/Frankfurt; intraday indication, not an official close"
-        },
-        {
-          "label": "Asian equity spillover",
-          "value": "Taiwan benchmark -2.6%; MSCI Asia-Pacific ex-Japan -1.2% in Reuters early-November-12 report"
-        },
-        {
-          "label": "Leadership status",
-          "value": "Reuters confirmed board met November 11; no dismissal announcement verified"
-        },
-        {
-          "label": "Fundamental assessment / risk",
-          "value": "Nvidia retains a critical AI-compute franchise, but concentrated leadership and export controls threaten execution and customers' infrastructure plans"
-        },
-        {
-          "label": "Next indicators",
-          "value": "Official board/company statement, SEC disclosure, export rules, US open and chip-sector breadth"
-        }
-      ],
-      "key_finding": "An unconfirmed leadership outcome is producing a confirmed cross-market risk signal, not a fundamental-demand collapse.",
-      "sources": [
-        {
-          "title": "Reuters, Nvidia board weighs CEO Huang's future, November 12",
-          "url": "https://www.investing.com/news/stock-market-news/nvidia-is-preparing-to-oust-ceo-jensen-huang-wsj-reports-5019991"
-        },
-        {
-          "title": "Reuters, global stocks and rates, November 12",
-          "url": "https://ca.investing.com/news/economy-news/asian-stocks-tumble-nvidia-stings-as-board-to-decide-ceos-fate-4951581"
-        },
-        {
-          "title": "The Guardian live coverage, November 12",
-          "url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
       "id": "scout-20261112-0726-hormuz-tanker-strike",
       "observed_at": "2026-11-12T07:26:07-05:00",
       "title": "Verified VLCC strike injures four in Gulf as Hormuz attacks persist despite softer crude",
@@ -283,6 +284,6 @@
       "supersedes": "scout-20261111-1643-oil-hormuz-settlement"
     }
   ],
-  "last_checked_at": "2026-11-12T08:35:31-05:00",
+  "last_checked_at": "2026-11-12T09:36:41-05:00",
   "last_check_status": "new_findings"
 }
