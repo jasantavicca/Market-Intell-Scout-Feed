@@ -1,8 +1,69 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-12T14:29:34-05:00",
-  "as_of_et": "November 12, 2026, 2:29 PM EST",
+  "generated_at": "2026-11-12T15:29:32-05:00",
+  "as_of_et": "November 12, 2026, 3:29 PM EST",
   "items": [
+    {
+      "id": "scout-20261112-1529-treasury-bond-auction",
+      "observed_at": "2026-11-12T15:29:32-05:00",
+      "title": "Soft U.S. 30-year Treasury auction underscores long-term financing risk",
+      "summary": "The November 12 U.S. Treasury 30-year auction attracted weaker demand than October's sale despite a lower high yield. Its bid-to-cover fell to 2.36 from 2.54 and the sale tailed the when-issued yield by 0.4 basis point. The result adds to borrowing-cost scrutiny for capital-intensive AI infrastructure and housing, but one auction cannot establish a sustained funding squeeze.",
+      "tickers": [
+        "CRWV",
+        "NBIS",
+        "GEV",
+        "VRT",
+        "XLU",
+        "XHB"
+      ],
+      "sectors": [
+        "U.S. Treasuries",
+        "Rates and macroeconomics",
+        "AI infrastructure",
+        "Data-center power",
+        "Housing"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "U.S. Treasury auction, November 12 approximately 1:00-1:50 PM ET",
+          "value": "$25 billion new 30-year bonds priced at 5.441% high yield; when-issued 5.437%, a 0.4 basis-point tail"
+        },
+        {
+          "label": "Demand versus October",
+          "value": "Bid-to-cover 2.36 versus 2.54 prior and about 2.44 recent average; indirect bidder share about 68% versus 72% in October"
+        },
+        {
+          "label": "Price qualification",
+          "value": "High yield was lower than October's 5.618% despite softer bidding; do not infer rates rose solely because of the auction"
+        },
+        {
+          "label": "Concurrent rates and oil, November 12 afternoon",
+          "value": "AP reported the 10-year Treasury yield near 5.10% versus 4.98% Tuesday and Brent around $95.82 (+3.3%) intraday, amid uncertainty around Iran diplomacy; these are changing observations, not settlements"
+        },
+        {
+          "label": "Watch/invalidation",
+          "value": "Treasury secondary yields and auction-demand follow-through, inflation and oil risk, corporate credit spreads, data-center project financing, housing mortgage rates; stronger future auctions or easing yields would temper the signal"
+        }
+      ],
+      "key_finding": "Softer long-bond demand is a timely funding-cost warning, not proof of a systemic credit problem.",
+      "sources": [
+        {
+          "title": "Dow Jones Newswires, November 12 1:50 PM ET, carried by MarketScreener",
+          "url": "https://ca.marketscreener.com/news/u-s-30-year-treasury-auction-shows-softer-demand-ce785ed8d08cf725"
+        },
+        {
+          "title": "Fed Gazette, November 12 Treasury auction data sourced from U.S. Treasury Fiscal Data",
+          "url": "https://fedgazette.com/treasury-auction-results/"
+        },
+        {
+          "title": "Associated Press, November 12 afternoon stock, oil and rates report",
+          "url": "https://apnews.com/article/stock-markets-oil-ai-earnings-nvidia-8bf08407eafe1655ed73112f7494029a"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261112-1429-us-home-sales-slump",
       "observed_at": "2026-11-12T14:29:34-05:00",
@@ -226,63 +287,8 @@
       ],
       "status": "updated",
       "supersedes": "scout-20261112-0936-nvidia-ceo-transition"
-    },
-    {
-      "id": "scout-20261112-0835-nebius-capacity-delay",
-      "observed_at": "2026-11-12T08:35:31-05:00",
-      "title": "Nebius revenue surges but capacity delays and higher spending pressure AI-cloud shares",
-      "summary": "Nebius reported third-quarter revenue of $980.8 million, up 571% year over year, but now expects 2026 sales at the low end of its prior range after third-party capacity was delayed. Its spending forecast rose to roughly $27 billion, weighing on premarket shares. Contract retention is encouraging; deployment timing, financing and cash generation remain key risks.",
-      "tickers": [
-        "NBIS",
-        "CRWV"
-      ],
-      "sectors": [
-        "AI infrastructure",
-        "Data centers",
-        "Cloud computing"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Q3 reported November 12",
-          "value": "Revenue $980.8 million (+571% year-on-year); adjusted EBITDA $465.8 million; net loss from continuing operations $37.5 million"
-        },
-        {
-          "label": "2026 outlook and capacity",
-          "value": "Revenue expected at low end of $3.0-$3.4 billion; some third-party capacity pushed into H1 2027"
-        },
-        {
-          "label": "2026-2027 capital spending plans",
-          "value": "2026 capex around $27 billion versus prior $20-$25 billion; 2027 projected $40-$45 billion, subject to financing and execution"
-        },
-        {
-          "label": "Premarket response, November 12",
-          "value": "Reuters reported NBIS down nearly 12% at 7:16 AM ET; another morning report indicated about -8.3%; both are changing premarket indications"
-        },
-        {
-          "label": "What to watch",
-          "value": "Customer prepayments, contracted capacity delivery dates, funding costs, revised revenue pace and evidence of 2027 pre-tax breakeven"
-        }
-      ],
-      "key_finding": "Exceptional AI cloud demand is not preventing execution delays or a higher capital burden.",
-      "sources": [
-        {
-          "title": "Nebius November 12 Q3 2026 earnings release",
-          "url": "https://www.marketscreener.com/news/nebius-reports-third-quarter-2026-financial-results-ce785ed8dc88f520"
-        },
-        {
-          "title": "Reuters November 12 capacity-delay and spending report",
-          "url": "https://www.streetinsider.com/Reuters/Nebius%2Bbeats%2Bquarterly%2Brevenue%2Bestimates%2Bon%2Bstrong%2BAI%2Bdemand/27330371.html"
-        },
-        {
-          "title": "Barron's November 12 premarket response",
-          "url": "https://www.barrons.com/articles/nebius-earnings-stock-price-9f5028d2"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-12T14:29:34-05:00",
+  "last_checked_at": "2026-11-12T15:29:32-05:00",
   "last_check_status": "new_findings"
 }
