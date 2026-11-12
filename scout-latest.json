@@ -1,8 +1,51 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-12T09:36:41-05:00",
-  "as_of_et": "November 12, 2026, 9:36 AM EST",
+  "generated_at": "2026-11-12T10:54:52-05:00",
+  "as_of_et": "November 12, 2026, 10:54 AM EST",
   "items": [
+    {
+      "id": "scout-20261112-1054-oil-iran-diplomacy",
+      "observed_at": "2026-11-12T10:54:52-05:00",
+      "title": "Oil reverses early losses as Trump comments dampen Iran diplomacy hopes",
+      "summary": "Crude reversed early losses on November 12 after President Trump said the United States did not need a deal with Iran, according to the Wall Street Journal. Brent was reported near $93.37 and WTI near $86.76 during the reversal, not at settlement. The repricing is a diplomatic-risk signal, not proof of a new physical shipping interruption.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Maritime shipping",
+        "Geopolitical risk"
+      ],
+      "evidence_grade": "single-source",
+      "observations": [
+        {
+          "label": "Intraday crude, November 12",
+          "value": "WSJ reported Brent +0.7% to $93.37 and WTI +0.3% to $86.76 during the reversal; not settlement"
+        },
+        {
+          "label": "Catalyst",
+          "value": "Trump said the U.S. did not need an Iran deal, dampening expectations of near-term negotiations"
+        },
+        {
+          "label": "Physical-flow evidence",
+          "value": "No newly verified shipping closure or export disruption established by this report"
+        },
+        {
+          "label": "Watch/invalidation",
+          "value": "MARAD/UKMTO incident notices, verified tanker transit, Gulf exports, freight, further diplomatic statements, EIA inventories and XLE/XOP breadth"
+        }
+      ],
+      "key_finding": "Diplomatic rhetoric moved oil intraday; no additional physical-flow disruption was verified.",
+      "sources": [
+        {
+          "title": "Wall Street Journal, Oil Picks Up As Trump Post Dampens Hopes for U.S.-Iran Deal, November 12",
+          "url": "https://www.wsj.com/finance/commodities-futures/oil-resumes-decline-as-risk-premium-fades-bcdc7fc5"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261112-0726-hormuz-tanker-strike"
+    },
     {
       "id": "scout-20261112-0936-nvidia-ceo-transition",
       "observed_at": "2026-11-12T09:36:41-05:00",
@@ -223,67 +266,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261112-0726-hormuz-tanker-strike",
-      "observed_at": "2026-11-12T07:26:07-05:00",
-      "title": "Verified VLCC strike injures four in Gulf as Hormuz attacks persist despite softer crude",
-      "summary": "India's shipping minister confirmed a projectile hit VLCC Fujairah Energy on November 10, injuring four crew members. Maritime reporting identifies other November 10–11 tanker incidents, with some details still preliminary. This is physical shipping disruption rather than a market rumor, even as oil prices soften on hopes of diplomacy.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Maritime shipping",
-        "Geopolitical risk"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Confirmed vessel incident",
-          "value": "MT Fujairah Energy struck November 10 en route Al Ruwais to Dubai; four of 22 crew injured; Indian shipping minister reported November 11"
-        },
-        {
-          "label": "Other vessel reports",
-          "value": "Seatrade Maritime reports Sea 1 hit November 10 and possible NCC Fajr incident November 11; details vary in certainty"
-        },
-        {
-          "label": "Thursday crude price observation",
-          "value": "WSJ reported front-month Brent $91.79 (-1%) and WTI $85.69 (-1%) early November 12; not settlement"
-        },
-        {
-          "label": "Safety authority context",
-          "value": "IMO November 11 statement reports more than 130 attacks on commercial shipping in and around Hormuz during the conflict"
-        },
-        {
-          "label": "Next indicators / invalidation",
-          "value": "UKMTO notices, verified tanker transits and exports, additional vessel damage, US-Iran negotiations, EIA petroleum data noon ET"
-        }
-      ],
-      "key_finding": "Physical-flow risk remains elevated even though oil prices are repricing diplomatic optimism.",
-      "sources": [
-        {
-          "title": "India minister report via Anadolu Agency, November 11",
-          "url": "https://www.aa.com.tr/en/asia-pacific/4-wounded-as-projectile-hits-liberia-flagged-vessel-in-gulf/4119767"
-        },
-        {
-          "title": "Seatrade Maritime, November 12",
-          "url": "https://www.seatrade-maritime.com/security/four-injured-on-sinokor-vlcc-as-multiple-tankers-attacked-in-hormuz"
-        },
-        {
-          "title": "IMO maritime rules warning, November 11",
-          "url": "https://www.imo.org/en/mediacentre/pressbriefings/pages/imo-secretary-general-calls-for-enforcement-of-maritime-rules.aspx"
-        },
-        {
-          "title": "Wall Street Journal, oil and Iran talks November 12",
-          "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-investors-weigh-u-s-iran-diplomacy-296e2847"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261111-1643-oil-hormuz-settlement"
     }
   ],
-  "last_checked_at": "2026-11-12T09:36:41-05:00",
+  "last_checked_at": "2026-11-12T10:54:52-05:00",
   "last_check_status": "new_findings"
 }
