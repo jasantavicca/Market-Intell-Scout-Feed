@@ -1,8 +1,121 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-12T16:31:54-05:00",
-  "as_of_et": "November 12, 2026, 4:31 PM EST",
+  "generated_at": "2026-11-12T17:36:00-05:00",
+  "as_of_et": "November 12, 2026, 5:36 PM EST",
   "items": [
+    {
+      "id": "scout-20261112-1736-cisco-ai-networking",
+      "observed_at": "2026-11-12T17:36:00-05:00",
+      "title": "Cisco lifts 2027 outlook as networking and hyperscaler AI demand accelerate",
+      "summary": "Cisco reported fiscal Q1 revenue of $18.5 billion, up 24% year over year, and non-GAAP EPS of $1.40, beating estimates. Networking revenue rose 43%, and the company lifted its fiscal 2027 hyperscaler AI infrastructure revenue expectation to $9 billion. The results support demand for AI networking beyond a single accelerator supplier, though component costs are pressuring gross margins.",
+      "tickers": [
+        "CSCO",
+        "ANET",
+        "AVGO"
+      ],
+      "sectors": [
+        "Networking",
+        "AI infrastructure",
+        "Enterprise technology"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Earnings release, Nov 12 at 4:05 PM ET",
+          "value": "Fiscal Q1 revenue $18.5 billion (+24% year over year); adjusted EPS $1.40 (+40% year over year), above $1.33 analyst estimate"
+        },
+        {
+          "label": "AI infrastructure and networking",
+          "value": "Networking revenue +43% year over year; FY27 hyperscaler AI infrastructure revenue forecast raised to $9 billion, more than twice FY26"
+        },
+        {
+          "label": "Full-year guide",
+          "value": "FY27 revenue $74.8-$75.8 billion, adjusted EPS $5.47-$5.53, above prior $72.2-$73.4 billion and $5.05-$5.11"
+        },
+        {
+          "label": "After-hours reaction, Nov 12 following 4:05 PM release",
+          "value": "Investors Business Daily reported CSCO gaining more than 2% in extended trading, indicative only"
+        },
+        {
+          "label": "Risks and next indicators",
+          "value": "Non-GAAP gross margin 65.6% versus 68.1% year earlier; watch memory-component costs, conversion of AI orders into delivered revenue, hyperscaler capex, and next-quarter margins"
+        }
+      ],
+      "key_finding": "Cisco raised its AI-networking and full-year outlook, documenting resilient infrastructure demand despite sector uncertainty.",
+      "sources": [
+        {
+          "title": "Cisco Systems official fiscal Q1 release, November 12, 2026",
+          "url": "https://www.prnewswire.com/news-releases/cisco-reports-first-quarter-earnings-302938394.html"
+        },
+        {
+          "title": "Wall Street Journal, Cisco raises outlook, November 12",
+          "url": "https://www.wsj.com/business/earnings/cisco-systems-raises-outlook-on-soaring-revenue-profit-7efeabd0"
+        },
+        {
+          "title": "Investor's Business Daily, Cisco after-hours response, November 12",
+          "url": "https://www.investors.com/news/technology/cisco-stock-q326-earnings-csco/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261112-1736-applied-materials-ai-fab",
+      "observed_at": "2026-11-12T17:36:00-05:00",
+      "title": "Applied Materials beats Q4 and raises chip-equipment outlook on AI-driven fab demand",
+      "summary": "Applied Materials reported fiscal Q4 revenue of $10.41 billion, up 53%, and adjusted EPS of $4.16, above Wall Street expectations. Its next-quarter outlook of roughly $11.1 billion revenue and $4.35 adjusted EPS also exceeded forecasts. The evidence supports semiconductor equipment spending, but shares reacted only modestly after hours, reflecting valuation and durability concerns.",
+      "tickers": [
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "SOXX"
+      ],
+      "sectors": [
+        "Semiconductor equipment",
+        "AI infrastructure",
+        "Advanced manufacturing"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Results released, Nov 12 at 4:01 PM ET",
+          "value": "Fiscal Q4 revenue $10.41 billion (+53% year over year); adjusted EPS $4.16 (+92% year over year); estimates around $10.3 billion and $4.06"
+        },
+        {
+          "label": "Current-quarter guidance",
+          "value": "Fiscal Q1 FY27 guidance midpoint $11.1 billion revenue and $4.35 adjusted EPS versus analyst consensus around $10.85 billion and $4.24"
+        },
+        {
+          "label": "Semiconductor Systems",
+          "value": "Semiconductor Systems revenue about $8 billion, +64% year over year; management expects over 40% calendar 2026 growth in this business"
+        },
+        {
+          "label": "After-hours response, November 12 early session",
+          "value": "Seeking Alpha reported AMAT up approximately 1.4% at one extended-trading observation; other outlets described shares as mostly flat. Neither is a closing figure"
+        },
+        {
+          "label": "Watch and invalidation",
+          "value": "Hyperscaler and foundry capital expenditure, AI accelerator product transitions, export restrictions, lead times, margins, and whether new guidance translates into shipments"
+        }
+      ],
+      "key_finding": "Record equipment revenue and raised guidance support AI manufacturing demand, though market follow-through remains unproven.",
+      "sources": [
+        {
+          "title": "Applied Materials Q4 2026 earnings release, November 12",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-announces-fourth-quarter-210100253.html"
+        },
+        {
+          "title": "Wall Street Journal, Applied Materials results, November 12",
+          "url": "https://www.wsj.com/business/earnings/applied-materials-sales-profit-climb-on-semiconductor-demand-1954e62c"
+        },
+        {
+          "title": "Investors Business Daily, Applied Materials earnings reaction, November 12",
+          "url": "https://www.investors.com/news/technology/applied-materials-amat-stock-fiscal-q4-2026-earnings/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261112-1631-oil-iran-close",
       "observed_at": "2026-11-12T16:31:54-05:00",
@@ -166,127 +279,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261112-1631-ai-close-divergence",
-      "observed_at": "2026-11-12T16:31:54-05:00",
-      "title": "Nvidia pares 14% intraday fall to about 5.4% as AMD and Broadcom advance",
-      "summary": "Nvidia declined about 5.4% at the November 12 close after sliding as much as 14% following its CEO transition. AMD and Broadcom gained roughly 4% to 5% while Nvidia-linked CoreWeave remained weak. The split suggests selective repricing of leadership, supplier and financing exposure rather than proof of collapsing AI infrastructure demand.",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "CRWV",
-        "SMH"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "AI infrastructure",
-        "Networking"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Nvidia close, November 12",
-          "value": "AP and ChartMill independently reported about -5.4%; intraday low was roughly -14%"
-        },
-        {
-          "label": "Competitor and customer moves",
-          "value": "Late-session ChartMill: AMD around +4.7%, AVGO around +5.1%; Barron's reported CoreWeave down about 6.8% intraday. Exact closes not independently confirmed for all"
-        },
-        {
-          "label": "Broad-market close",
-          "value": "AP reported S&P 500 roughly -0.3% to -0.4%, Dow -0.4%, Nasdaq -0.4%; small-caps were weaker"
-        },
-        {
-          "label": "Fundamentals / risks",
-          "value": "AI accelerator demand remains supported, but Nvidia succession, potential export-policy shifts and CoreWeave credit/customer concentration create differentiated risks"
-        },
-        {
-          "label": "Watch / invalidation",
-          "value": "NVDA succession, November 17 earnings, hyperscaler orders, official export policy, CoreWeave financing and semiconductor breadth; broad-based chip weakness would undermine the selective-rotation interpretation"
-        }
-      ],
-      "key_finding": "The session closed with Nvidia-specific selling but competitor strength, distinguishing company risk from general AI-demand weakness.",
-      "sources": [
-        {
-          "title": "Associated Press, closing market recap November 12",
-          "url": "https://apnews.com/article/8bf08407eafe1655ed73112f7494029a"
-        },
-        {
-          "title": "ChartMill, November 12 S&P 500 stock movers",
-          "url": "https://www.chartmill.com/news/GOOGL/Chartmill-58621-SP-500-Top-Movers-Gainers-and-Losers-on-Nov-12-2026"
-        },
-        {
-          "title": "Barron's, Nvidia-connected companies under pressure",
-          "url": "https://www.barrons.com/articles/coreweave-stock-drops-nvidia-huang-ai-3b3bbc9b"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261112-1235-amd-avgo-divergence"
-    },
-    {
-      "id": "scout-20261112-1529-treasury-bond-auction",
-      "observed_at": "2026-11-12T15:29:32-05:00",
-      "title": "Soft U.S. 30-year Treasury auction underscores long-term financing risk",
-      "summary": "The November 12 U.S. Treasury 30-year auction attracted weaker demand than October's sale despite a lower high yield. Its bid-to-cover fell to 2.36 from 2.54 and the sale tailed the when-issued yield by 0.4 basis point. The result adds to borrowing-cost scrutiny for capital-intensive AI infrastructure and housing, but one auction cannot establish a sustained funding squeeze.",
-      "tickers": [
-        "CRWV",
-        "NBIS",
-        "GEV",
-        "VRT",
-        "XLU",
-        "XHB"
-      ],
-      "sectors": [
-        "U.S. Treasuries",
-        "Rates and macroeconomics",
-        "AI infrastructure",
-        "Data-center power",
-        "Housing"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "U.S. Treasury auction, November 12 approximately 1:00-1:50 PM ET",
-          "value": "$25 billion new 30-year bonds priced at 5.441% high yield; when-issued 5.437%, a 0.4 basis-point tail"
-        },
-        {
-          "label": "Demand versus October",
-          "value": "Bid-to-cover 2.36 versus 2.54 prior and about 2.44 recent average; indirect bidder share about 68% versus 72% in October"
-        },
-        {
-          "label": "Price qualification",
-          "value": "High yield was lower than October's 5.618% despite softer bidding; do not infer rates rose solely because of the auction"
-        },
-        {
-          "label": "Concurrent rates and oil, November 12 afternoon",
-          "value": "AP reported the 10-year Treasury yield near 5.10% versus 4.98% Tuesday and Brent around $95.82 (+3.3%) intraday, amid uncertainty around Iran diplomacy; these are changing observations, not settlements"
-        },
-        {
-          "label": "Watch/invalidation",
-          "value": "Treasury secondary yields and auction-demand follow-through, inflation and oil risk, corporate credit spreads, data-center project financing, housing mortgage rates; stronger future auctions or easing yields would temper the signal"
-        }
-      ],
-      "key_finding": "Softer long-bond demand is a timely funding-cost warning, not proof of a systemic credit problem.",
-      "sources": [
-        {
-          "title": "Dow Jones Newswires, November 12 1:50 PM ET, carried by MarketScreener",
-          "url": "https://ca.marketscreener.com/news/u-s-30-year-treasury-auction-shows-softer-demand-ce785ed8d08cf725"
-        },
-        {
-          "title": "Fed Gazette, November 12 Treasury auction data sourced from U.S. Treasury Fiscal Data",
-          "url": "https://fedgazette.com/treasury-auction-results/"
-        },
-        {
-          "title": "Associated Press, November 12 afternoon stock, oil and rates report",
-          "url": "https://apnews.com/article/stock-markets-oil-ai-earnings-nvidia-8bf08407eafe1655ed73112f7494029a"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-12T16:31:54-05:00",
+  "last_checked_at": "2026-11-12T17:36:00-05:00",
   "last_check_status": "new_findings"
 }
