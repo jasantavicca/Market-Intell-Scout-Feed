@@ -1,8 +1,138 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-12T20:29:02-05:00",
-  "as_of_et": "November 12, 2026, 8:29 PM EST",
+  "generated_at": "2026-11-13T11:49:00-05:00",
+  "as_of_et": "November 13, 2026, 11:49 AM EST",
   "items": [
+    {
+      "id": "scout-20261113-1149-chip-selloff",
+      "observed_at": "2026-11-13T11:49:00-05:00",
+      "title": "AI semiconductor selloff broadens across AMD, Broadcom and Nvidia",
+      "summary": "Late-morning reporting shows AMD down about 10.2%, Broadcom down 6.5% and Nvidia down 4.2%, with the Nasdaq down 1.9%. Investors are reassessing AI infrastructure returns amid Nvidia leadership uncertainty and higher borrowing costs. These are intraday observations, not closing prices.",
+      "tickers": [
+        "AMD",
+        "AVGO",
+        "NVDA"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Late morning November 13, intraday",
+          "value": "AMD -10.2%; AVGO -6.5%; NVDA -4.2%; Nasdaq -1.9%, AP"
+        },
+        {
+          "label": "Next indicators and invalidation",
+          "value": "Semiconductor breadth, volume, Treasury yields, AI capex guidance; broad sustained rebound would weaken the signal"
+        }
+      ],
+      "key_finding": "Chip weakness has broadened from Nvidia to major AI semiconductor peers.",
+      "sources": [
+        {
+          "title": "Associated Press November 13 market update",
+          "url": "https://apnews.com/article/f8edd0eeb1494d4d2584715686c5e619"
+        },
+        {
+          "title": "Investopedia November 13 morning market briefing",
+          "url": "https://www.investopedia.com/5-things-to-know-stock-market-november-13-2026-12250347"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261113-1149-iea-oil-rebalance",
+      "observed_at": "2026-11-13T11:49:00-05:00",
+      "title": "IEA finds crude supply recovery alongside persistent diesel and tanker stress",
+      "summary": "The IEA reports October global oil supply rose to 105.4 million barrels daily and inventories increased by 52 million barrels. Gulf exports recovered despite attacks, but onshore stocks remain unusually low, diesel near $180 per barrel in Europe and Middle East-to-Asia freight near records. This is evidence of recovering crude flows, not an end to physical shipping risk.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Maritime shipping",
+        "Refining"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "October global supply",
+          "value": "105.4 million barrels/day, up 2.3 million barrels/day month on month (IEA)"
+        },
+        {
+          "label": "October inventories",
+          "value": "+52 million barrels observed; onshore inventories lowest since at least 2016"
+        },
+        {
+          "label": "Gulf exports excluding Oman",
+          "value": "18.4 million barrels/day, 26% below pre-war level"
+        },
+        {
+          "label": "Diesel and freight",
+          "value": "European diesel near $180/barrel, 77% above pre-war; Middle East-to-Asia crude tanker rates near records"
+        },
+        {
+          "label": "Next indicators and invalidation",
+          "value": "UKMTO/MARAD, verified transit and export volumes, diesel cracks, freight premiums and OPEC/IEA revisions; renewed export losses would undermine rebalancing"
+        }
+      ],
+      "key_finding": "Crude recovery is measurable, while diesel and tanker bottlenecks remain material.",
+      "sources": [
+        {
+          "title": "IEA Oil Market Report November 2026",
+          "url": "https://www.iea.org/reports/oil-market-report-november-2026"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261113-1149-october-ppi",
+      "observed_at": "2026-11-13T11:49:00-05:00",
+      "title": "October producer inflation stays elevated despite slower monthly growth",
+      "summary": "October U.S. producer prices rose 0.3% month over month after a much larger September increase, while annual inflation reached 6.5%. The mixed report leaves restrictive interest-rate expectations relevant to technology valuations. Monitor underlying inflation and Treasury yields before treating one month's deceleration as a trend.",
+      "tickers": [
+        "QQQ",
+        "IWM",
+        "TLT"
+      ],
+      "sectors": [
+        "Macroeconomics",
+        "Interest rates",
+        "Technology"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "October producer inflation",
+          "value": "+0.3% month on month; +6.5% year on year"
+        },
+        {
+          "label": "Rate context",
+          "value": "10-year Treasury yield near 5.13% in morning coverage"
+        },
+        {
+          "label": "Next indicators and invalidation",
+          "value": "Core PPI, PCE, Fed guidance and 2Y/10Y Treasury yields; sustained disinflation would weaken rate-pressure thesis"
+        }
+      ],
+      "key_finding": "Cooling monthly PPI does not yet resolve persistent annual inflation and rate pressure.",
+      "sources": [
+        {
+          "title": "BLS Producer Price Index release",
+          "url": "https://www.bls.gov/news.release/ppi.nr0.htm"
+        },
+        {
+          "title": "Associated Press November 13 markets and inflation",
+          "url": "https://apnews.com/article/f8edd0eeb1494d4d2584715686c5e619"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261112-2029-candel-fda-filing-delay",
       "observed_at": "2026-11-12T20:29:02-05:00",
@@ -48,60 +178,6 @@
         {
           "title": "Dow Jones Newswires, November 12 6:24 PM EST",
           "url": "https://www.marketscreener.com/news/candel-shares-fall-on-wider-loss-from-operation-fda-discussion-ce785ed9d88af323"
-        },
-        {
-          "title": "MarketChameleon after-hours movers, November 12 6:32 PM ET",
-          "url": "https://marketchameleon.com/Reports/AfterHoursTrading"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261112-2029-neuropace-revenue-cut",
-      "observed_at": "2026-11-12T20:29:02-05:00",
-      "title": "NeuroPace plunges after revenue shortfall and materially reduced full-year outlook",
-      "summary": "NeuroPace cut its 2026 revenue outlook after third-quarter revenue missed estimates amid disruptions at key accounts and field-sales changes. The medical-device company's gross margins improved and its regulatory pipeline progressed, but near-term execution and balance-sheet risks now dominate. Its substantial after-hours drop is a market reaction, not proof the core epilepsy technology failed.",
-      "tickers": [
-        "NPCE"
-      ],
-      "sectors": [
-        "Healthcare",
-        "Medical devices",
-        "Neuromodulation"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Shares, Nov. 12 after hours (6:32 PM EST)",
-          "value": "MarketChameleon reported NPCE -35.1% to $7.80; StockAnalysis after-hours table showed roughly -33.7%. Changing postmarket indications, not closing prices."
-        },
-        {
-          "label": "Q3 2026 results",
-          "value": "Revenue $23.1 million versus roughly $27.2 million consensus; total revenue down 1.1% year over year and RNS revenue up 1.4%."
-        },
-        {
-          "label": "2026 revenue guidance",
-          "value": "Reduced to $91–92 million from $99.5–101.5 million, roughly 9% lower at midpoint."
-        },
-        {
-          "label": "Financial and clinical context",
-          "value": "Adjusted gross margin 84.8%; cash/investments/restricted cash $49.5 million and long-term debt $59.2 million as of September 30; FDA submissions and amendments pending."
-        },
-        {
-          "label": "Next indicators / invalidation",
-          "value": "Recovery in scheduled epilepsy procedures, restoration of major accounts and sales effectiveness, cash flow, FDA review milestones and 2027 sales outlook."
-        }
-      ],
-      "key_finding": "Revenue guidance deterioration and customer disruptions prompted a roughly one-third after-hours share decline.",
-      "sources": [
-        {
-          "title": "NeuroPace SEC earnings exhibit, November 12 2026",
-          "url": "https://www.sec.gov/Archives/edgar/data/1528287/000152828726000037/exhibit991_q32026earningsr.htm"
-        },
-        {
-          "title": "Business Wire distributed NeuroPace results, November 12 4:05 PM EST",
-          "url": "https://www.financialcontent.com/article/bizwire-2026-11-12-neuropace-reports-third-quarter-2026-financial-results-and-provides-revised-full-year-guidance"
         },
         {
           "title": "MarketChameleon after-hours movers, November 12 6:32 PM ET",
@@ -165,130 +241,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261112-1830-cerebras-inference-earnings",
-      "observed_at": "2026-11-12T18:30:43-05:00",
-      "title": "Cerebras surges after stronger AI inference cloud earnings and expanded hyperscaler demand",
-      "summary": "Cerebras reported third-quarter core revenue of $230.9 million, up 70%, and raised its 2026 core-revenue outlook to $940 million-$960 million. Independent reports described a roughly 14%-16% after-hours rise after new hyperscaler contracts and strong fourth-quarter guidance. Growth and $26.1 billion of obligations are substantial, but GAAP losses, customer concentration and data-center deployment remain risks.",
-      "tickers": [
-        "CBRS",
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "MSFT"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "AI infrastructure",
-        "Cloud computing",
-        "Data-center power"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "After-hours CBRS observed November 12 at 5:17 PM ET",
-          "value": "StockTitan reported $111.61 after hours versus $97.75 regular-session close, approximately +14.2%; IBD separately reported a move exceeding 16% at another after-hours observation. Indicative only, not a confirmed after-hours closing price."
-        },
-        {
-          "label": "Third-quarter revenue, reported November 12 after close",
-          "value": "GAAP $210.8 million (+55% year on year); core non-GAAP $230.9 million (+70%). Cloud services GAAP revenue $141.9 million (+265%). Do not conflate GAAP and core."
-        },
-        {
-          "label": "Guidance and customers",
-          "value": "Core Q4 revenue $310-$330 million, 47%-49% core gross margin; FY2026 core revenue $940-$960 million. Company reported two new hyperscaler wins; WSJ and IBD separately identify Microsoft among new customers."
-        },
-        {
-          "label": "Fundamentals and downside",
-          "value": "$26.1 billion remaining performance obligations as of September 30; $7.8 billion cash/restricted cash/short-term investments; GAAP net loss $161.2 million versus $22.2 million year earlier. Hardware revenue declined; backlog concentration remains material."
-        },
-        {
-          "label": "Capacity, next evidence and invalidation",
-          "value": "700 MW of data-center capacity under contract for delivery by end-2027, not yet operating. Watch signed customer commitments, actual utilization, 2027 deliveries, GAAP margin and cash use; delayed capacity or weaker contract conversion would undermine outlook."
-        }
-      ],
-      "key_finding": "Confirmed growth in AI inference-cloud demand is translating into higher Cerebras guidance and an outsized after-hours response, but cash conversion is still unproven.",
-      "sources": [
-        {
-          "title": "Cerebras official Q3 2026 earnings release, November 12",
-          "url": "https://investors.cerebras.ai/news-releases/news-release-details/cerebras-systems-delivers-record-revenue-third-quarter-2026"
-        },
-        {
-          "title": "Wall Street Journal, Cerebras lifts outlook November 12",
-          "url": "https://www.wsj.com/business/earnings/cerebras-lifts-outlook-as-cloud-revenue-surges-in-third-quarter-87d7cba2"
-        },
-        {
-          "title": "Investor's Business Daily, November 12 Cerebras earnings and extended-trading response",
-          "url": "https://www.investors.com/news/technology/cerebras-stock-cbrs-q3-2026-earnings/"
-        },
-        {
-          "title": "StockTitan, after-hours Cerebras quote at 5:17 PM ET",
-          "url": "https://www.stocktitan.net/articles/cerebras-cbrs-third-quarter-2026-results"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261112-1631-oil-iran-close",
-      "observed_at": "2026-11-12T16:31:54-05:00",
-      "title": "Brent rises 3.3% to $95.82 as Iran diplomatic hopes fade despite bearish EIA inventories",
-      "summary": "Brent finished November 12 near $95.82, up 3.3%, and WTI was reported at $88.74, up 2.6%, after President Trump said the United States did not need an Iran deal. The rally overwhelmed a 4.7-million-barrel U.S. crude inventory build. This confirms a market risk-premium repricing, not a newly verified shipping closure.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Geopolitical risk",
-        "Maritime shipping"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 12 benchmark close, Brent",
-          "value": "$95.82 a barrel, +3.3%, independently reported by Associated Press and Wall Street Journal"
-        },
-        {
-          "label": "November 12 WTI reported by Wall Street Journal",
-          "value": "$88.74, +2.6%; second independent closing-price confirmation not obtained for WTI"
-        },
-        {
-          "label": "EIA November 12",
-          "value": "Commercial crude stocks +4.7 million barrels to 414.4 million; inventories roughly 4% below five-year seasonal norm"
-        },
-        {
-          "label": "Physical-flow differentiation",
-          "value": "Previously documented Hormuz tanker attacks persist; no new closing of a route, stoppage of exports or vessel strike independently verified in this pass. MARAD regional advisories 2026-011 and 2026-013 remain active"
-        },
-        {
-          "label": "Watch / invalidation",
-          "value": "UKMTO and MARAD notices, actual vessel transits, Gulf exports, tanker freight, IEA monthly report November 13, Brent-WTI spread and XLE/XOP strength. Credible diplomatic progress would reduce the premium"
-        }
-      ],
-      "key_finding": "Diplomatic-risk repricing outweighed bearish inventories at the oil close, without new proof of reduced physical flows.",
-      "sources": [
-        {
-          "title": "Associated Press, U.S. markets and oil November 12",
-          "url": "https://apnews.com/article/8bf08407eafe1655ed73112f7494029a"
-        },
-        {
-          "title": "Wall Street Journal, November 12 oil reversal",
-          "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-investors-weigh-u-s-iran-diplomacy-296e2847"
-        },
-        {
-          "title": "US MARAD, active maritime advisories",
-          "url": "https://www.maritime.dot.gov/msci-advisories"
-        },
-        {
-          "title": "EIA official weekly petroleum summary",
-          "url": "https://ir.eia.gov/wpsr/summary.txt"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261112-1326-eia-inventory-surprise"
     }
   ],
-  "last_checked_at": "2026-11-13T10:39:00-05:00",
-  "last_check_status": "no_new_findings"
+  "last_checked_at": "2026-11-13T11:49:00-05:00",
+  "last_check_status": "new_findings"
 }
