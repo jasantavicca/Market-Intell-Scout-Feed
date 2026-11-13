@@ -1,8 +1,64 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-13T12:27:01-05:00",
-  "as_of_et": "November 13, 2026, 12:27 PM EST",
+  "generated_at": "2026-11-13T14:35:20-05:00",
+  "as_of_et": "November 13, 2026, 2:35 PM EST",
   "items": [
+    {
+      "id": "scout-20261113-1435-nebius-capacity-delay",
+      "observed_at": "2026-11-13T14:35:20-05:00",
+      "title": "Nebius AI-cloud shares slide as capacity delays collide with $40B-$45B 2027 capex plan",
+      "summary": "Nebius reported third-quarter revenue of $980.8 million, up 571%, but expects 2026 sales near the low end of guidance because some data-center capacity is delayed into 2027. Its planned 2027 investment of $40 billion-$45 billion highlights funding and execution risk despite customer demand. The intraday decline extends pressure on debt-dependent AI infrastructure providers.",
+      "tickers": [
+        "NBIS",
+        "CRWV"
+      ],
+      "sectors": [
+        "AI infrastructure",
+        "Cloud computing",
+        "Data-center power",
+        "International/ADRs"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Reuters November 13 report updated 12:18 PM EST",
+          "value": "NBIS -9.0%; CRWV -8.8% intraday in Reuters snapshot; not closing prices"
+        },
+        {
+          "label": "Nebius Q3 2026 results reported November 12",
+          "value": "Revenue $980.8M, +571% year-over-year; adjusted EBITDA $465.8M; net loss from continuing operations $37.5M"
+        },
+        {
+          "label": "2026 guidance revision",
+          "value": "Now expects revenue at low end of prior $3.0B-$3.4B range due to deferred third-party data-center capacity"
+        },
+        {
+          "label": "2027 construction funding",
+          "value": "Preliminary 2027 capex $40B-$45B; 2027 revenue outlook $12B-$13B; management says prepayments and contract-backed financing are expected to cover 75%-85% of spending"
+        },
+        {
+          "label": "Watch and invalidation",
+          "value": "Vineland/New Jersey power readiness, capacity activation, customer contract conversion, interest and debt costs, 2027 funding sources. On-time delivery and falling financing costs would weaken the bearish read"
+        }
+      ],
+      "key_finding": "Explosive AI-cloud revenue growth is not insulating Nebius from power-delivery timing and enormous financing demands.",
+      "sources": [
+        {
+          "title": "Nebius Q3 2026 earnings, November 12",
+          "url": "https://nebius.com/newsroom/nebius-reports-third-quarter-2026-financial-results"
+        },
+        {
+          "title": "Reuters, Neoclouds and AI stocks slide November 13",
+          "url": "https://www.marketscreener.com/news/neoclouds-ai-stocks-slide-again-as-nvidia-turmoil-rattles-sector-ce785ed9d08af72d"
+        },
+        {
+          "title": "WSJ, Nebius outlook and funding for AI buildout November 12",
+          "url": "https://www.wsj.com/business/earnings/nebius-lowers-outlook-addresses-worries-over-financing-ai-buildout-699ca1dc"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261113-1227-liftoff-earnings",
       "observed_at": "2026-11-13T12:27:01-05:00",
@@ -200,52 +256,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261113-1149-october-ppi",
-      "observed_at": "2026-11-13T11:49:00-05:00",
-      "title": "October producer inflation stays elevated despite slower monthly growth",
-      "summary": "October U.S. producer prices rose 0.3% month over month after a much larger September increase, while annual inflation reached 6.5%. The mixed report leaves restrictive interest-rate expectations relevant to technology valuations. Monitor underlying inflation and Treasury yields before treating one month's deceleration as a trend.",
-      "tickers": [
-        "QQQ",
-        "IWM",
-        "TLT"
-      ],
-      "sectors": [
-        "Macroeconomics",
-        "Interest rates",
-        "Technology"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "October producer inflation",
-          "value": "+0.3% month on month; +6.5% year on year"
-        },
-        {
-          "label": "Rate context",
-          "value": "10-year Treasury yield near 5.13% in morning coverage"
-        },
-        {
-          "label": "Next indicators and invalidation",
-          "value": "Core PPI, PCE, Fed guidance and 2Y/10Y Treasury yields; sustained disinflation would weaken rate-pressure thesis"
-        }
-      ],
-      "key_finding": "Cooling monthly PPI does not yet resolve persistent annual inflation and rate pressure.",
-      "sources": [
-        {
-          "title": "BLS Producer Price Index release",
-          "url": "https://www.bls.gov/news.release/ppi.nr0.htm"
-        },
-        {
-          "title": "Associated Press November 13 markets and inflation",
-          "url": "https://apnews.com/article/f8edd0eeb1494d4d2584715686c5e619"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-13T13:34:18-05:00",
-  "last_check_status": "no_new_findings"
+  "last_checked_at": "2026-11-13T14:35:20-05:00",
+  "last_check_status": "new_findings"
 }
