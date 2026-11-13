@@ -1,8 +1,63 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-12T18:30:43-05:00",
-  "as_of_et": "November 12, 2026, 6:30 PM EST",
+  "generated_at": "2026-11-12T19:32:49-05:00",
+  "as_of_et": "November 12, 2026, 7:32 PM EST",
   "items": [
+    {
+      "id": "scout-20261112-1932-rak-tanker-evacuation",
+      "observed_at": "2026-11-12T19:32:49-05:00",
+      "title": "UKMTO confirms November 11 tanker strike and evacuation off UAE Ras Al Khaimah",
+      "summary": "UKMTO Warning 204-26, issued November 12, describes a November 11 projectile strike and engine-room fire on a tanker off Ras Al Khaimah. Reuters identified the vessel as MT Dominica Prosperity and reported all 22 crew safely evacuated. This verifies vessel damage, but not a new Strait closure or a quantified reduction in oil exports.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Maritime shipping",
+        "Geopolitical risk"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Event date and UKMTO reporting",
+          "value": "November 11 incident reported in UKMTO Warning 204-26 on November 12; tanker struck about 14 nautical miles northwest of Ras Al Khaimah, UAE"
+        },
+        {
+          "label": "Confirmed physical outcome",
+          "value": "Engine-room fire and 22 crew evacuated safely; Reuters reported vessel MT Dominica Prosperity, Liberia-flagged, operated by Sinokor Maritime; no crew injuries reported"
+        },
+        {
+          "label": "Related maritime notices",
+          "value": "UKMTO also released Warning 203-26 about a separate November 10 tanker strike with casualties, and Update 001 to Warning 202-26; do not count repeated descriptions as additional incidents"
+        },
+        {
+          "label": "Energy-market context",
+          "value": "November 12 Brent $95.82, up about 3.3%, reflects geopolitical repricing alongside diplomatic statements; causal contribution from this individual attack is unquantified"
+        },
+        {
+          "label": "Risk and invalidation indicators",
+          "value": "Watch UKMTO/JMIC updates, fire and hull assessment, tanker movements and port operations, physical crude exports, freight/war-risk premiums, and XLE/XOP relative strength; normal transits and verified no export losses would limit supply effect"
+        }
+      ],
+      "key_finding": "A November 11 Gulf tanker attack is now corroborated as physical vessel damage with crew evacuation, without a verified new oil-flow shutdown.",
+      "sources": [
+        {
+          "title": "Reuters November 12: Oil tanker struck off Ras Al Khaimah, all crew safe",
+          "url": "https://kelo.com/2026/11/12/vessel-on-fire-after-being-struck-off-uaes-ras-al-khaimah-maritime-agencies-say/"
+        },
+        {
+          "title": "Reuters November 12: Vessel on fire off UAE coast",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/12/vessel-on-fire-after-being-struck-off-uae-s-ras-al-khaimah-maritime-agencies-say"
+        },
+        {
+          "title": "Siasat November 12: UKMTO Warning 204-26 and 203-26 linked",
+          "url": "https://www.siasat.com/two-tanker-attacks-reported-in-gulf-waters-within-24-hours-3575733/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261112-1830-cerebras-inference-earnings",
       "observed_at": "2026-11-12T18:30:43-05:00",
@@ -237,65 +292,8 @@
       ],
       "status": "updated",
       "supersedes": "scout-20261112-1326-eia-inventory-surprise"
-    },
-    {
-      "id": "scout-20261112-1631-smci-export-probe",
-      "observed_at": "2026-11-12T16:31:54-05:00",
-      "title": "Super Micro slumps on reported DOJ export-control scrutiny tied to Megaspeed",
-      "summary": "Super Micro shares dropped about 9% to 12% on November 12 as Bloomberg and Semafor reported federal inquiries concerning possible diversion of AI servers to China. Super Micro says it has cooperated with authorities, and the Justice Department has not publicly confirmed a new charge against the company. Strong AI-server demand does not remove compliance, concentration and margin risks.",
-      "tickers": [
-        "SMCI",
-        "NVDA",
-        "DELL"
-      ],
-      "sectors": [
-        "AI infrastructure",
-        "Server hardware",
-        "Export controls",
-        "Semiconductors"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Share reaction, November 12 regular trading",
-          "value": "Barron's reported SMCI down about 9.2%; other intraday reports showed declines of 10%-12%. Not independently confirmed closing figures"
-        },
-        {
-          "label": "Investigative status",
-          "value": "Bloomberg reported DOJ inquiry into links between Megaspeed-related entities and alleged China server diversions; Semafor separately reported inquiries citing administration officials. Allegations are not findings of guilt"
-        },
-        {
-          "label": "Company position",
-          "value": "Super Micro says it cooperated with US and Taiwan authorities, that Megaspeed never was its customer, and an internal review found no current senior-management knowledge of an alleged scheme"
-        },
-        {
-          "label": "Fundamental assessment",
-          "value": "Demand for AI servers remains strong, but export-control risk, customer concentration and low-margin hardware assembly can complicate growth"
-        },
-        {
-          "label": "Watch / invalidation",
-          "value": "Official DOJ statements or filings, export-control rule changes, customer orders, product shipments, cash flow and gross margin; formal clearance would reduce legal uncertainty"
-        }
-      ],
-      "key_finding": "Fresh independently reported probe allegations raise AI-server execution and compliance risk, but have not been adjudicated.",
-      "sources": [
-        {
-          "title": "Barron's, Super Micro falls on reported DOJ probe, November 12",
-          "url": "https://www.barrons.com/articles/super-micro-stock-falls-doj-probe-43f8d63d"
-        },
-        {
-          "title": "Semafor report covered by Investing.com, November 12",
-          "url": "https://www.streetinsider.com/General%2BNews/Super%2BMicro%2Bshares%2Btumble%2Bas%2BDOJ%2Bprobes%2Bwiden%2Bto%2BNvidia%2C%2BSemafor%2Breports/27333939.html"
-        },
-        {
-          "title": "Financial Times, Singapore's Megaspeed investigation, November 12",
-          "url": "https://www.ft.com/content/fa23a8ad-29bf-4971-aa44-6b25b247c193"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-12T18:30:43-05:00",
+  "last_checked_at": "2026-11-12T19:32:49-05:00",
   "last_check_status": "new_findings"
 }
