@@ -1,8 +1,116 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-12T19:32:49-05:00",
-  "as_of_et": "November 12, 2026, 7:32 PM EST",
+  "generated_at": "2026-11-12T20:29:02-05:00",
+  "as_of_et": "November 12, 2026, 8:29 PM EST",
   "items": [
+    {
+      "id": "scout-20261112-2029-candel-fda-filing-delay",
+      "observed_at": "2026-11-12T20:29:02-05:00",
+      "title": "Candel Therapeutics sinks after prostate-cancer FDA filing pushed into 2027",
+      "summary": "Candel said ongoing FDA discussions and assay refinements now put its prostate-cancer therapy application in mid-2027, versus the prior fourth-quarter 2026 plan. Shares fell sharply after hours despite previously favorable late-stage data. The setback delays the regulatory milestone rather than establishing that the therapy failed; cash runway and FDA requirements are critical.",
+      "tickers": [
+        "CADL"
+      ],
+      "sectors": [
+        "Healthcare",
+        "Biotechnology",
+        "Oncology"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Shares, Nov. 12 after hours (6:24–6:32 PM EST)",
+          "value": "Dow Jones reported CADL -38% to $5.15 at 6:24 PM; MarketChameleon reported -38.9% at 6:32 PM. Not an official session close."
+        },
+        {
+          "label": "Filing timeline",
+          "value": "Mid-2027 BLA planned, contingent on ongoing FDA dialogue and assay refinement; previously Q4 2026."
+        },
+        {
+          "label": "Financial capacity",
+          "value": "Company reported $203.1 million in cash and equivalents as of September 30 and expected operating runway into Q2 2028."
+        },
+        {
+          "label": "Scientific evidence",
+          "value": "Company cited phase 3 result of 41% lower risk of prostate-cancer recurrence or prostate-cancer-specific death in a specified intermediate-risk subgroup; approval not yet granted."
+        },
+        {
+          "label": "Next indicators / invalidation",
+          "value": "FDA agreement on assay and BLA requirements, revised filing milestones, cash burn, funding needs, confirmatory efficacy and safety data."
+        }
+      ],
+      "key_finding": "A major regulatory-timing setback triggered a roughly 38% after-hours repricing, despite ongoing clinical promise.",
+      "sources": [
+        {
+          "title": "Candel official Q3 2026 earnings and FDA filing update, November 12",
+          "url": "https://ir.candeltx.com/news-releases/news-release-details/candel-therapeutics-reports-third-quarter-2026-financial-results"
+        },
+        {
+          "title": "Dow Jones Newswires, November 12 6:24 PM EST",
+          "url": "https://www.marketscreener.com/news/candel-shares-fall-on-wider-loss-from-operation-fda-discussion-ce785ed9d88af323"
+        },
+        {
+          "title": "MarketChameleon after-hours movers, November 12 6:32 PM ET",
+          "url": "https://marketchameleon.com/Reports/AfterHoursTrading"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261112-2029-neuropace-revenue-cut",
+      "observed_at": "2026-11-12T20:29:02-05:00",
+      "title": "NeuroPace plunges after revenue shortfall and materially reduced full-year outlook",
+      "summary": "NeuroPace cut its 2026 revenue outlook after third-quarter revenue missed estimates amid disruptions at key accounts and field-sales changes. The medical-device company's gross margins improved and its regulatory pipeline progressed, but near-term execution and balance-sheet risks now dominate. Its substantial after-hours drop is a market reaction, not proof the core epilepsy technology failed.",
+      "tickers": [
+        "NPCE"
+      ],
+      "sectors": [
+        "Healthcare",
+        "Medical devices",
+        "Neuromodulation"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Shares, Nov. 12 after hours (6:32 PM EST)",
+          "value": "MarketChameleon reported NPCE -35.1% to $7.80; StockAnalysis after-hours table showed roughly -33.7%. Changing postmarket indications, not closing prices."
+        },
+        {
+          "label": "Q3 2026 results",
+          "value": "Revenue $23.1 million versus roughly $27.2 million consensus; total revenue down 1.1% year over year and RNS revenue up 1.4%."
+        },
+        {
+          "label": "2026 revenue guidance",
+          "value": "Reduced to $91–92 million from $99.5–101.5 million, roughly 9% lower at midpoint."
+        },
+        {
+          "label": "Financial and clinical context",
+          "value": "Adjusted gross margin 84.8%; cash/investments/restricted cash $49.5 million and long-term debt $59.2 million as of September 30; FDA submissions and amendments pending."
+        },
+        {
+          "label": "Next indicators / invalidation",
+          "value": "Recovery in scheduled epilepsy procedures, restoration of major accounts and sales effectiveness, cash flow, FDA review milestones and 2027 sales outlook."
+        }
+      ],
+      "key_finding": "Revenue guidance deterioration and customer disruptions prompted a roughly one-third after-hours share decline.",
+      "sources": [
+        {
+          "title": "NeuroPace SEC earnings exhibit, November 12 2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/1528287/000152828726000037/exhibit991_q32026earningsr.htm"
+        },
+        {
+          "title": "Business Wire distributed NeuroPace results, November 12 4:05 PM EST",
+          "url": "https://www.financialcontent.com/article/bizwire-2026-11-12-neuropace-reports-third-quarter-2026-financial-results-and-provides-revised-full-year-guidance"
+        },
+        {
+          "title": "MarketChameleon after-hours movers, November 12 6:32 PM ET",
+          "url": "https://marketchameleon.com/Reports/AfterHoursTrading"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261112-1932-rak-tanker-evacuation",
       "observed_at": "2026-11-12T19:32:49-05:00",
@@ -122,119 +230,6 @@
       "supersedes": null
     },
     {
-      "id": "scout-20261112-1736-cisco-ai-networking",
-      "observed_at": "2026-11-12T17:36:00-05:00",
-      "title": "Cisco lifts 2027 outlook as networking and hyperscaler AI demand accelerate",
-      "summary": "Cisco reported fiscal Q1 revenue of $18.5 billion, up 24% year over year, and non-GAAP EPS of $1.40, beating estimates. Networking revenue rose 43%, and the company lifted its fiscal 2027 hyperscaler AI infrastructure revenue expectation to $9 billion. The results support demand for AI networking beyond a single accelerator supplier, though component costs are pressuring gross margins.",
-      "tickers": [
-        "CSCO",
-        "ANET",
-        "AVGO"
-      ],
-      "sectors": [
-        "Networking",
-        "AI infrastructure",
-        "Enterprise technology"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Earnings release, Nov 12 at 4:05 PM ET",
-          "value": "Fiscal Q1 revenue $18.5 billion (+24% year over year); adjusted EPS $1.40 (+40% year over year), above $1.33 analyst estimate"
-        },
-        {
-          "label": "AI infrastructure and networking",
-          "value": "Networking revenue +43% year over year; FY27 hyperscaler AI infrastructure revenue forecast raised to $9 billion, more than twice FY26"
-        },
-        {
-          "label": "Full-year guide",
-          "value": "FY27 revenue $74.8-$75.8 billion, adjusted EPS $5.47-$5.53, above prior $72.2-$73.4 billion and $5.05-$5.11"
-        },
-        {
-          "label": "After-hours reaction, Nov 12 following 4:05 PM release",
-          "value": "Investors Business Daily reported CSCO gaining more than 2% in extended trading, indicative only"
-        },
-        {
-          "label": "Risks and next indicators",
-          "value": "Non-GAAP gross margin 65.6% versus 68.1% year earlier; watch memory-component costs, conversion of AI orders into delivered revenue, hyperscaler capex, and next-quarter margins"
-        }
-      ],
-      "key_finding": "Cisco raised its AI-networking and full-year outlook, documenting resilient infrastructure demand despite sector uncertainty.",
-      "sources": [
-        {
-          "title": "Cisco Systems official fiscal Q1 release, November 12, 2026",
-          "url": "https://www.prnewswire.com/news-releases/cisco-reports-first-quarter-earnings-302938394.html"
-        },
-        {
-          "title": "Wall Street Journal, Cisco raises outlook, November 12",
-          "url": "https://www.wsj.com/business/earnings/cisco-systems-raises-outlook-on-soaring-revenue-profit-7efeabd0"
-        },
-        {
-          "title": "Investor's Business Daily, Cisco after-hours response, November 12",
-          "url": "https://www.investors.com/news/technology/cisco-stock-q326-earnings-csco/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261112-1736-applied-materials-ai-fab",
-      "observed_at": "2026-11-12T17:36:00-05:00",
-      "title": "Applied Materials beats Q4 and raises chip-equipment outlook on AI-driven fab demand",
-      "summary": "Applied Materials reported fiscal Q4 revenue of $10.41 billion, up 53%, and adjusted EPS of $4.16, above Wall Street expectations. Its next-quarter outlook of roughly $11.1 billion revenue and $4.35 adjusted EPS also exceeded forecasts. The evidence supports semiconductor equipment spending, but shares reacted only modestly after hours, reflecting valuation and durability concerns.",
-      "tickers": [
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "SOXX"
-      ],
-      "sectors": [
-        "Semiconductor equipment",
-        "AI infrastructure",
-        "Advanced manufacturing"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Results released, Nov 12 at 4:01 PM ET",
-          "value": "Fiscal Q4 revenue $10.41 billion (+53% year over year); adjusted EPS $4.16 (+92% year over year); estimates around $10.3 billion and $4.06"
-        },
-        {
-          "label": "Current-quarter guidance",
-          "value": "Fiscal Q1 FY27 guidance midpoint $11.1 billion revenue and $4.35 adjusted EPS versus analyst consensus around $10.85 billion and $4.24"
-        },
-        {
-          "label": "Semiconductor Systems",
-          "value": "Semiconductor Systems revenue about $8 billion, +64% year over year; management expects over 40% calendar 2026 growth in this business"
-        },
-        {
-          "label": "After-hours response, November 12 early session",
-          "value": "Seeking Alpha reported AMAT up approximately 1.4% at one extended-trading observation; other outlets described shares as mostly flat. Neither is a closing figure"
-        },
-        {
-          "label": "Watch and invalidation",
-          "value": "Hyperscaler and foundry capital expenditure, AI accelerator product transitions, export restrictions, lead times, margins, and whether new guidance translates into shipments"
-        }
-      ],
-      "key_finding": "Record equipment revenue and raised guidance support AI manufacturing demand, though market follow-through remains unproven.",
-      "sources": [
-        {
-          "title": "Applied Materials Q4 2026 earnings release, November 12",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-announces-fourth-quarter-210100253.html"
-        },
-        {
-          "title": "Wall Street Journal, Applied Materials results, November 12",
-          "url": "https://www.wsj.com/business/earnings/applied-materials-sales-profit-climb-on-semiconductor-demand-1954e62c"
-        },
-        {
-          "title": "Investors Business Daily, Applied Materials earnings reaction, November 12",
-          "url": "https://www.investors.com/news/technology/applied-materials-amat-stock-fiscal-q4-2026-earnings/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
       "id": "scout-20261112-1631-oil-iran-close",
       "observed_at": "2026-11-12T16:31:54-05:00",
       "title": "Brent rises 3.3% to $95.82 as Iran diplomatic hopes fade despite bearish EIA inventories",
@@ -294,6 +289,6 @@
       "supersedes": "scout-20261112-1326-eia-inventory-surprise"
     }
   ],
-  "last_checked_at": "2026-11-12T19:32:49-05:00",
+  "last_checked_at": "2026-11-12T20:29:02-05:00",
   "last_check_status": "new_findings"
 }
