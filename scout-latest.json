@@ -1,8 +1,72 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-13T17:33:33-05:00",
-  "as_of_et": "November 13, 2026, 5:33 PM EST",
+  "generated_at": "2026-11-13T18:31:58.039-05:00",
+  "as_of_et": "November 13, 2026 at 6:31 PM EST",
   "items": [
+    {
+      "id": "scout-20261113-1831-fermi-amazon-report",
+      "observed_at": "2026-11-13T18:31:58.039-05:00",
+      "title": "Fermi jumps as FT identifies Amazon behind proposed 600 MW hyperscaler project",
+      "summary": "Fermi rallied sharply Friday after the Financial Times identified Amazon as the customer behind its announced 600 MW Project Matador development agreements. Fermi confirmed upfront funding arrangements but has not identified the customer or signed a definitive long-term lease. The company remains pre-revenue and highly exposed to financing and construction execution risks.",
+      "tickers": [
+        "FRMI",
+        "AMZN"
+      ],
+      "sectors": [
+        "AI infrastructure",
+        "Data-center power",
+        "Real estate",
+        "Grid infrastructure"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Market reaction, Nov 13 at 3:46 PM EST",
+          "value": "Yahoo Finance reported FRMI $2.575, up 25.0%, intraday; not an official close"
+        },
+        {
+          "label": "Reported Nov 13 4 PM price, one quote provider",
+          "value": "StockAnalysis listed FRMI $2.61, up 26.70%; second independent closing-price confirmation not obtained, so not graded confirmed"
+        },
+        {
+          "label": "Confirmed customer agreements announced Nov 12",
+          "value": "600 MW initial development beginning in 2027; $200 million prepayment arrangement and $15 million early-construction agreement; contemplated $90 million materials agreement"
+        },
+        {
+          "label": "Customer identification qualification",
+          "value": "FT identified Amazon on Nov 13 citing unnamed sources; company has not publicly identified the customer or executed a definitive long-term lease"
+        },
+        {
+          "label": "Company financial position",
+          "value": "Fermi Q3 net loss $141.6 million, September 30 net debt roughly $958.4 million, pre-revenue; earlier TensorWave lease and AMD credit support terminated"
+        },
+        {
+          "label": "Risk and invalidation indicators",
+          "value": "Watch confirmation from Amazon, actual funding receipt, definitive lease/financing, December 1 construction mobilization, December 31 tenant milestone and 2027 power delivery; failed milestones reverse the recovery narrative"
+        }
+      ],
+      "key_finding": "A potential marquee customer is validating power-ready sites, but funding and binding leases lag the market repricing.",
+      "sources": [
+        {
+          "title": "Fermi official Nov 12 2026 company announcement",
+          "url": "https://www.stocktitan.net/news/FRMI/fermi-announces-new-agreements-with-investment-grade-hyperscaler-and-v8y6q4naxtno.html"
+        },
+        {
+          "title": "Financial Times Nov 13: Amazon identified as prospective Fermi customer",
+          "url": "https://www.ft.com/content/692fbfe8-da52-42c0-b436-9c4aff21fbdb"
+        },
+        {
+          "title": "Yahoo Finance FRMI quote, Nov 13 at 3:46 PM EST",
+          "url": "https://finance.yahoo.com/quote/FRMI/"
+        },
+        {
+          "title": "StockAnalysis Nov 13 4 PM FRMI close indication",
+          "url": "https://stockanalysis.com/stocks/frmi/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261113-1733-mississippi-closure",
       "observed_at": "2026-11-13T17:33:33-05:00",
@@ -203,55 +267,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261113-1149-iea-oil-rebalance",
-      "observed_at": "2026-11-13T11:49:00-05:00",
-      "title": "IEA finds crude supply recovery alongside persistent diesel and tanker stress",
-      "summary": "The IEA reports October global oil supply rose to 105.4 million barrels daily and inventories increased by 52 million barrels. Gulf exports recovered despite attacks, but onshore stocks remain unusually low, diesel near $180 per barrel in Europe and Middle East-to-Asia freight near records. This is evidence of recovering crude flows, not an end to physical shipping risk.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Maritime shipping",
-        "Refining"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "October global supply",
-          "value": "105.4 million barrels/day, up 2.3 million barrels/day month on month (IEA)"
-        },
-        {
-          "label": "October inventories",
-          "value": "+52 million barrels observed; onshore inventories lowest since at least 2016"
-        },
-        {
-          "label": "Gulf exports excluding Oman",
-          "value": "18.4 million barrels/day, 26% below pre-war level"
-        },
-        {
-          "label": "Diesel and freight",
-          "value": "European diesel near $180/barrel, 77% above pre-war; Middle East-to-Asia crude tanker rates near records"
-        },
-        {
-          "label": "Next indicators and invalidation",
-          "value": "UKMTO/MARAD, verified transit and export volumes, diesel cracks, freight premiums and OPEC/IEA revisions; renewed export losses would undermine rebalancing"
-        }
-      ],
-      "key_finding": "Crude recovery is measurable, while diesel and tanker bottlenecks remain material.",
-      "sources": [
-        {
-          "title": "IEA Oil Market Report November 2026",
-          "url": "https://www.iea.org/reports/oil-market-report-november-2026"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-13T17:33:33-05:00",
+  "last_checked_at": "2026-11-13T18:31:58.039-05:00",
   "last_check_status": "new_findings"
 }
