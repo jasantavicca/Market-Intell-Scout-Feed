@@ -1,8 +1,120 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-13T11:49:00-05:00",
-  "as_of_et": "November 13, 2026, 11:49 AM EST",
+  "generated_at": "2026-11-13T12:27:01-05:00",
+  "as_of_et": "November 13, 2026, 12:27 PM EST",
   "items": [
+    {
+      "id": "scout-20261113-1227-liftoff-earnings",
+      "observed_at": "2026-11-13T12:27:01-05:00",
+      "title": "Liftoff Mobile jumps on profitable growth and raised guidance",
+      "summary": "Liftoff Mobile shares rose roughly 25% in Friday trading after third-quarter revenue increased 32% and adjusted EBITDA rose 45%. Management raised its full-year revenue forecast as its Cortex ad platform improved monetization. Strong free cash flow supports the fundamentals, but rising expectations and advertising cyclicality remain risks.",
+      "tickers": [
+        "LFTO"
+      ],
+      "sectors": [
+        "Software",
+        "Digital advertising",
+        "AI applications"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 13 Friday market observation",
+          "value": "LFTO approximately +25%, reported by Barron's in Friday stock-movers coverage; indicative intraday, not a closing price."
+        },
+        {
+          "label": "Q3 fiscal 2026 revenue",
+          "value": "$237.5 million, +32% year over year; company earnings release Nov. 12."
+        },
+        {
+          "label": "Q3 adjusted EBITDA and net income",
+          "value": "Adjusted EBITDA $144.9 million, +45%; net income approximately $86.7 million; company filing."
+        },
+        {
+          "label": "2026 revenue guidance",
+          "value": "Raised to $907-$912 million; adjusted EBITDA $547-$551 million."
+        },
+        {
+          "label": "Cash-generation context",
+          "value": "Trailing 12-month free cash flow $249 million, company-defined non-GAAP."
+        },
+        {
+          "label": "Risks, next indicators and invalidation",
+          "value": "Watch advertiser spending and customer ROI, daily average revenue, Q4 results, EBITDA quality, and share-price follow-through; loss of customer growth would weaken the thesis."
+        }
+      ],
+      "key_finding": "Profitable AI advertising software growth produced an outsized positive equity response amid broad tech weakness.",
+      "sources": [
+        {
+          "title": "Liftoff investor relations Q3 2026 results, Nov 12",
+          "url": "https://investors.liftoff.ai/news-releases/news-release-details/liftoff-mobile-announces-third-quarter-2026-financial-results"
+        },
+        {
+          "title": "SEC Liftoff 8-K Q3 earnings exhibit",
+          "url": "https://www.sec.gov/Archives/edgar/data/1850351/000162828026073379/fy26q3earningsrelease.htm"
+        },
+        {
+          "title": "Barron's Friday Nov 13 stock movers",
+          "url": "https://www.barrons.com/articles/stock-movers-9a030e1c"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261113-1227-cisco-margin-divergence",
+      "observed_at": "2026-11-13T12:27:01-05:00",
+      "title": "Cisco falls despite raised AI networking outlook as gross margins compress",
+      "summary": "Cisco shares fell about 5.4% Friday despite record quarterly revenue and raised 2027 guidance, including a $9 billion hyperscaler AI infrastructure sales outlook. Non-GAAP gross margin fell from 68.1% to 65.6% as lower-margin hardware and input costs increased. The divergence highlights profitable growth versus margin-quality concerns, not a collapse in networking demand.",
+      "tickers": [
+        "CSCO"
+      ],
+      "sectors": [
+        "Networking",
+        "AI infrastructure",
+        "Technology"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 13 Friday morning market observation",
+          "value": "CSCO -5.4% according to MarketWatch; intraday, not an official close."
+        },
+        {
+          "label": "Fiscal Q1 2027 operating results, Nov 12 release",
+          "value": "Revenue $18.5 billion, +24% year over year; adjusted EPS $1.40, +40%."
+        },
+        {
+          "label": "AI infrastructure outlook for fiscal 2027",
+          "value": "Hyperscaler AI infrastructure revenue forecast increased to $9 billion from $7.5 billion."
+        },
+        {
+          "label": "Margin pressure",
+          "value": "Non-GAAP gross margin 65.6% versus 68.1% year earlier; product gross margin 63.7% versus 67.2%."
+        },
+        {
+          "label": "Risks, next indicators and invalidation",
+          "value": "Track product order growth, hyperscaler shipments, gross margins, memory costs and revised FY27 outlook; stabilizing margins and order strength would weaken the bearish repricing."
+        }
+      ],
+      "key_finding": "Cisco's stronger AI networking sales outlook was outweighed by hardware-mix and margin concerns.",
+      "sources": [
+        {
+          "title": "Cisco official fiscal Q1 2027 earnings, Nov 12",
+          "url": "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FIRST-QUARTER-EARNINGS/default.aspx"
+        },
+        {
+          "title": "MarketWatch Nov 13 Dow movers",
+          "url": "https://www.marketwatch.com/data-news/cisco-nvidia-corp-share-losses-lead-dow-s-nearly-150-point-fall-ee5c6331-5c7ad67beb76"
+        },
+        {
+          "title": "Investor's Business Daily Cisco earnings analysis",
+          "url": "https://www.investors.com/news/technology/cisco-stock-q326-earnings-csco/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261113-1149-chip-selloff",
       "observed_at": "2026-11-13T11:49:00-05:00",
@@ -132,117 +244,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261112-2029-candel-fda-filing-delay",
-      "observed_at": "2026-11-12T20:29:02-05:00",
-      "title": "Candel Therapeutics sinks after prostate-cancer FDA filing pushed into 2027",
-      "summary": "Candel said ongoing FDA discussions and assay refinements now put its prostate-cancer therapy application in mid-2027, versus the prior fourth-quarter 2026 plan. Shares fell sharply after hours despite previously favorable late-stage data. The setback delays the regulatory milestone rather than establishing that the therapy failed; cash runway and FDA requirements are critical.",
-      "tickers": [
-        "CADL"
-      ],
-      "sectors": [
-        "Healthcare",
-        "Biotechnology",
-        "Oncology"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Shares, Nov. 12 after hours (6:24–6:32 PM EST)",
-          "value": "Dow Jones reported CADL -38% to $5.15 at 6:24 PM; MarketChameleon reported -38.9% at 6:32 PM. Not an official session close."
-        },
-        {
-          "label": "Filing timeline",
-          "value": "Mid-2027 BLA planned, contingent on ongoing FDA dialogue and assay refinement; previously Q4 2026."
-        },
-        {
-          "label": "Financial capacity",
-          "value": "Company reported $203.1 million in cash and equivalents as of September 30 and expected operating runway into Q2 2028."
-        },
-        {
-          "label": "Scientific evidence",
-          "value": "Company cited phase 3 result of 41% lower risk of prostate-cancer recurrence or prostate-cancer-specific death in a specified intermediate-risk subgroup; approval not yet granted."
-        },
-        {
-          "label": "Next indicators / invalidation",
-          "value": "FDA agreement on assay and BLA requirements, revised filing milestones, cash burn, funding needs, confirmatory efficacy and safety data."
-        }
-      ],
-      "key_finding": "A major regulatory-timing setback triggered a roughly 38% after-hours repricing, despite ongoing clinical promise.",
-      "sources": [
-        {
-          "title": "Candel official Q3 2026 earnings and FDA filing update, November 12",
-          "url": "https://ir.candeltx.com/news-releases/news-release-details/candel-therapeutics-reports-third-quarter-2026-financial-results"
-        },
-        {
-          "title": "Dow Jones Newswires, November 12 6:24 PM EST",
-          "url": "https://www.marketscreener.com/news/candel-shares-fall-on-wider-loss-from-operation-fda-discussion-ce785ed9d88af323"
-        },
-        {
-          "title": "MarketChameleon after-hours movers, November 12 6:32 PM ET",
-          "url": "https://marketchameleon.com/Reports/AfterHoursTrading"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261112-1932-rak-tanker-evacuation",
-      "observed_at": "2026-11-12T19:32:49-05:00",
-      "title": "UKMTO confirms November 11 tanker strike and evacuation off UAE Ras Al Khaimah",
-      "summary": "UKMTO Warning 204-26, issued November 12, describes a November 11 projectile strike and engine-room fire on a tanker off Ras Al Khaimah. Reuters identified the vessel as MT Dominica Prosperity and reported all 22 crew safely evacuated. This verifies vessel damage, but not a new Strait closure or a quantified reduction in oil exports.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Maritime shipping",
-        "Geopolitical risk"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Event date and UKMTO reporting",
-          "value": "November 11 incident reported in UKMTO Warning 204-26 on November 12; tanker struck about 14 nautical miles northwest of Ras Al Khaimah, UAE"
-        },
-        {
-          "label": "Confirmed physical outcome",
-          "value": "Engine-room fire and 22 crew evacuated safely; Reuters reported vessel MT Dominica Prosperity, Liberia-flagged, operated by Sinokor Maritime; no crew injuries reported"
-        },
-        {
-          "label": "Related maritime notices",
-          "value": "UKMTO also released Warning 203-26 about a separate November 10 tanker strike with casualties, and Update 001 to Warning 202-26; do not count repeated descriptions as additional incidents"
-        },
-        {
-          "label": "Energy-market context",
-          "value": "November 12 Brent $95.82, up about 3.3%, reflects geopolitical repricing alongside diplomatic statements; causal contribution from this individual attack is unquantified"
-        },
-        {
-          "label": "Risk and invalidation indicators",
-          "value": "Watch UKMTO/JMIC updates, fire and hull assessment, tanker movements and port operations, physical crude exports, freight/war-risk premiums, and XLE/XOP relative strength; normal transits and verified no export losses would limit supply effect"
-        }
-      ],
-      "key_finding": "A November 11 Gulf tanker attack is now corroborated as physical vessel damage with crew evacuation, without a verified new oil-flow shutdown.",
-      "sources": [
-        {
-          "title": "Reuters November 12: Oil tanker struck off Ras Al Khaimah, all crew safe",
-          "url": "https://kelo.com/2026/11/12/vessel-on-fire-after-being-struck-off-uaes-ras-al-khaimah-maritime-agencies-say/"
-        },
-        {
-          "title": "Reuters November 12: Vessel on fire off UAE coast",
-          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/12/vessel-on-fire-after-being-struck-off-uae-s-ras-al-khaimah-maritime-agencies-say"
-        },
-        {
-          "title": "Siasat November 12: UKMTO Warning 204-26 and 203-26 linked",
-          "url": "https://www.siasat.com/two-tanker-attacks-reported-in-gulf-waters-within-24-hours-3575733/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-13T11:49:00-05:00",
+  "last_checked_at": "2026-11-13T12:27:01-05:00",
   "last_check_status": "new_findings"
 }
