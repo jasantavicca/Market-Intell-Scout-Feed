@@ -1,8 +1,56 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-13T14:35:20-05:00",
-  "as_of_et": "November 13, 2026, 2:35 PM EST",
+  "generated_at": "2026-11-13T17:33:33-05:00",
+  "as_of_et": "November 13, 2026, 5:33 PM EST",
   "items": [
+    {
+      "id": "scout-20261113-1733-mississippi-closure",
+      "observed_at": "2026-11-13T17:33:33-05:00",
+      "title": "Coast Guard closes three-mile Mississippi River section after New Orleans tanker collision",
+      "summary": "The U.S. Coast Guard halted vessel traffic between Mississippi River mile markers 93 and 96 after the tanker Atlantic Asphalt struck a docked river cruise ship in New Orleans. This is a verified disruption to a major shipping corridor, but no petroleum export losses, refinery outage or commodity-price impact has been established. Reopening and vessel queues determine commercial significance.",
+      "tickers": [],
+      "sectors": [
+        "Maritime shipping",
+        "Energy logistics",
+        "Petroleum products"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Incident November 13",
+          "value": "Approximately 12:30 PM Central (1:30 PM EST); tanker Atlantic Asphalt collided with docked American Heritage river cruise vessel in New Orleans."
+        },
+        {
+          "label": "Verified physical-flow restriction",
+          "value": "Coast Guard reported Mississippi River closed to vessel traffic at mile marker 96; reporting identifies restricted area between river miles 93 and 96."
+        },
+        {
+          "label": "Market impact assessment",
+          "value": "No verified crude or petroleum-product export curtailment, refinery shutdown, cargo loss or price move attributable to the collision at research cutoff."
+        },
+        {
+          "label": "Next indicators and invalidation",
+          "value": "Coast Guard reopening and safety notices; downstream and upstream vessel queues; petrochemical and oil-product barge delays. Rapid reopening with no cargo delays would limit market effect."
+        }
+      ],
+      "key_finding": "A confirmed three-mile Mississippi River closure creates a physical maritime bottleneck, with energy-market consequences unquantified.",
+      "sources": [
+        {
+          "title": "Navy Times: Coast Guard confirms Mississippi River traffic closure, November 13",
+          "url": "https://www.navytimes.com/news/your-navy/2026/11/13/coast-guard-responds-to-new-orleans-ship-collision-140-missing/"
+        },
+        {
+          "title": "Associated Press: tanker collision at New Orleans, November 13",
+          "url": "https://apnews.com/article/new-orleans-tanker-river-cruise-rescue-passengers-757bed7a70ceb72f0d7140143fe2a764"
+        },
+        {
+          "title": "Guardian: three-mile river closure reported, November 13",
+          "url": "https://www.theguardian.com/us-news/2026/nov/13/mississippi-river-crash-new-orleans"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261113-1435-nebius-capacity-delay",
       "observed_at": "2026-11-13T14:35:20-05:00",
@@ -118,60 +166,6 @@
       "supersedes": null
     },
     {
-      "id": "scout-20261113-1227-cisco-margin-divergence",
-      "observed_at": "2026-11-13T12:27:01-05:00",
-      "title": "Cisco falls despite raised AI networking outlook as gross margins compress",
-      "summary": "Cisco shares fell about 5.4% Friday despite record quarterly revenue and raised 2027 guidance, including a $9 billion hyperscaler AI infrastructure sales outlook. Non-GAAP gross margin fell from 68.1% to 65.6% as lower-margin hardware and input costs increased. The divergence highlights profitable growth versus margin-quality concerns, not a collapse in networking demand.",
-      "tickers": [
-        "CSCO"
-      ],
-      "sectors": [
-        "Networking",
-        "AI infrastructure",
-        "Technology"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 13 Friday morning market observation",
-          "value": "CSCO -5.4% according to MarketWatch; intraday, not an official close."
-        },
-        {
-          "label": "Fiscal Q1 2027 operating results, Nov 12 release",
-          "value": "Revenue $18.5 billion, +24% year over year; adjusted EPS $1.40, +40%."
-        },
-        {
-          "label": "AI infrastructure outlook for fiscal 2027",
-          "value": "Hyperscaler AI infrastructure revenue forecast increased to $9 billion from $7.5 billion."
-        },
-        {
-          "label": "Margin pressure",
-          "value": "Non-GAAP gross margin 65.6% versus 68.1% year earlier; product gross margin 63.7% versus 67.2%."
-        },
-        {
-          "label": "Risks, next indicators and invalidation",
-          "value": "Track product order growth, hyperscaler shipments, gross margins, memory costs and revised FY27 outlook; stabilizing margins and order strength would weaken the bearish repricing."
-        }
-      ],
-      "key_finding": "Cisco's stronger AI networking sales outlook was outweighed by hardware-mix and margin concerns.",
-      "sources": [
-        {
-          "title": "Cisco official fiscal Q1 2027 earnings, Nov 12",
-          "url": "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FIRST-QUARTER-EARNINGS/default.aspx"
-        },
-        {
-          "title": "MarketWatch Nov 13 Dow movers",
-          "url": "https://www.marketwatch.com/data-news/cisco-nvidia-corp-share-losses-lead-dow-s-nearly-150-point-fall-ee5c6331-5c7ad67beb76"
-        },
-        {
-          "title": "Investor's Business Daily Cisco earnings analysis",
-          "url": "https://www.investors.com/news/technology/cisco-stock-q326-earnings-csco/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
       "id": "scout-20261113-1149-chip-selloff",
       "observed_at": "2026-11-13T11:49:00-05:00",
       "title": "AI semiconductor selloff broadens across AMD, Broadcom and Nvidia",
@@ -258,6 +252,6 @@
       "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-13T16:28:45-05:00",
-  "last_check_status": "no_new_findings"
+  "last_checked_at": "2026-11-13T17:33:33-05:00",
+  "last_check_status": "new_findings"
 }
