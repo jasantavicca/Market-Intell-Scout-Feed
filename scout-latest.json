@@ -1,8 +1,77 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-14T07:31:00-05:00",
-  "as_of_et": "November 14, 2026, 7:31 AM EST",
+  "generated_at": "2026-11-14T08:35:55-05:00",
+  "as_of_et": "November 14, 2026, 8:35 AM EST",
   "items": [
+    {
+      "id": "scout-20261114-0835-bahrain-drones-intercepted",
+      "observed_at": "2026-11-14T08:35:55-05:00",
+      "title": "CENTCOM confirms Iranian drones intercepted en route to Bahrain amid Hormuz tensions",
+      "summary": "U.S. Central Command said it shot down two Iranian attack drones heading toward Bahrain on November 13. Iran claimed it had destroyed a U.S. early-warning radar, but CENTCOM reported no damage or injuries. The episode marks renewed strikes toward Gulf military facilities while maritime risks persist; no new oil-flow interruption was established.",
+      "tickers": [
+        "XLE",
+        "XOP",
+        "BNO",
+        "USO"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Maritime shipping",
+        "Geopolitical risk"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Incident and disclosure",
+          "value": "Friday, November 13, 2026; two Iranian one-way attack drones headed toward Bahrain, intercepted by U.S. forces (CENTCOM)"
+        },
+        {
+          "label": "Damage verification",
+          "value": "CENTCOM reported no injuries or radar damage; IRGC claim of a destroyed radar is disputed and unverified"
+        },
+        {
+          "label": "Escalation context",
+          "value": "First reported Iranian attempt to strike U.S. military infrastructure in a Gulf state since September, according to CNN and WSJ"
+        },
+        {
+          "label": "Oil Friday, November 13 settlements",
+          "value": "Brent $95.84/bbl; WTI $88.56/bbl; both around -2.5% for the week, independently reported by WSJ and EnergyNow; not a measured reaction to Bahrain"
+        },
+        {
+          "label": "Physical flow",
+          "value": "No separately verified tanker closure, damaged oil facility or incremental crude export loss tied to the Bahrain drone incident"
+        },
+        {
+          "label": "Next indicators / invalidation",
+          "value": "CENTCOM and UKMTO notices, subsequent drone incidents, verified Hormuz vessel transits and Gulf exports, war-risk freight, crude prices and XLE/XOP strength; continued de-escalation would reduce the signal"
+        }
+      ],
+      "key_finding": "A corroborated drone-interception incident raises regional escalation risk without demonstrated damage or new physical oil-flow losses.",
+      "sources": [
+        {
+          "title": "Anadolu Agency quoting CENTCOM, November 13",
+          "url": "https://www.aa.com.tr/en/americas/centcom-denies-iranian-claim-of-attack-on-us-radar-in-bahrain-says-2-drones-shot-down/4124158"
+        },
+        {
+          "title": "Associated Press U.S.–Iran account, November 13",
+          "url": "https://apnews.com/article/5d73a23b5b8647d2515c35b267b36c08"
+        },
+        {
+          "title": "Wall Street Journal on Bahrain escalation, November 14",
+          "url": "https://www.wsj.com/world/middle-east/iran-escalates-low-level-conflict-with-a-shot-at-bahrain-73ff9b51"
+        },
+        {
+          "title": "Wall Street Journal on Friday oil settlements",
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-as-middle-east-supply-risks-persist-2066e758"
+        },
+        {
+          "title": "EnergyNow Friday oil settlement report",
+          "url": "https://energynow.ca/2026/11/oil-prices-fall-for-second-straight-week-as-global-supply-surplus-emerges-wti-closes-at-88-56-brent-at-95-84/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261114-0731-faa-recovery",
       "observed_at": "2026-11-14T07:31:00-05:00",
@@ -206,56 +275,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261113-1733-mississippi-closure",
-      "observed_at": "2026-11-13T17:33:33-05:00",
-      "title": "Coast Guard closes three-mile Mississippi River section after New Orleans tanker collision",
-      "summary": "The U.S. Coast Guard halted vessel traffic between Mississippi River mile markers 93 and 96 after the tanker Atlantic Asphalt struck a docked river cruise ship in New Orleans. This is a verified disruption to a major shipping corridor, but no petroleum export losses, refinery outage or commodity-price impact has been established. Reopening and vessel queues determine commercial significance.",
-      "tickers": [],
-      "sectors": [
-        "Maritime shipping",
-        "Energy logistics",
-        "Petroleum products"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Incident November 13",
-          "value": "Approximately 12:30 PM Central (1:30 PM EST); tanker Atlantic Asphalt collided with docked American Heritage river cruise vessel in New Orleans."
-        },
-        {
-          "label": "Verified physical-flow restriction",
-          "value": "Coast Guard reported Mississippi River closed to vessel traffic at mile marker 96; reporting identifies restricted area between river miles 93 and 96."
-        },
-        {
-          "label": "Market impact assessment",
-          "value": "No verified crude or petroleum-product export curtailment, refinery shutdown, cargo loss or price move attributable to the collision at research cutoff."
-        },
-        {
-          "label": "Next indicators and invalidation",
-          "value": "Coast Guard reopening and safety notices; downstream and upstream vessel queues; petrochemical and oil-product barge delays. Rapid reopening with no cargo delays would limit market effect."
-        }
-      ],
-      "key_finding": "A confirmed three-mile Mississippi River closure creates a physical maritime bottleneck, with energy-market consequences unquantified.",
-      "sources": [
-        {
-          "title": "Navy Times: Coast Guard confirms Mississippi River traffic closure, November 13",
-          "url": "https://www.navytimes.com/news/your-navy/2026/11/13/coast-guard-responds-to-new-orleans-ship-collision-140-missing/"
-        },
-        {
-          "title": "Associated Press: tanker collision at New Orleans, November 13",
-          "url": "https://apnews.com/article/new-orleans-tanker-river-cruise-rescue-passengers-757bed7a70ceb72f0d7140143fe2a764"
-        },
-        {
-          "title": "Guardian: three-mile river closure reported, November 13",
-          "url": "https://www.theguardian.com/us-news/2026/nov/13/mississippi-river-crash-new-orleans"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-14T07:31:00-05:00",
+  "last_checked_at": "2026-11-14T08:35:55-05:00",
   "last_check_status": "new_findings"
 }
