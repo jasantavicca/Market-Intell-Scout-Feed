@@ -1,8 +1,70 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-14T12:31:00-05:00",
-  "as_of_et": "November 14, 2026, 12:31 PM EST",
+  "generated_at": "2026-11-14T13:28:00-05:00",
+  "as_of_et": "November 14, 2026, 1:28 PM EST",
   "items": [
+    {
+      "id": "scout-20261114-1328-lhx-faa-contractor",
+      "observed_at": "2026-11-14T13:28:00-05:00",
+      "title": "FAA says L3Harris network upgrade work preceded nationwide ground stop; LHX falls in Friday after-hours",
+      "summary": "Transportation Secretary Duffy identified L3Harris as the contractor replacing copper links with fiber when a router flooded FAA air-traffic communications and radar networks. Officials have not determined whether installation error or defective equipment caused the disruption. LHX fell roughly 3.8%-4.2% in Friday extended trading, while thousands more flights were canceled Saturday.",
+      "tickers": [
+        "LHX",
+        "DAL",
+        "UAL",
+        "AAL",
+        "LUV"
+      ],
+      "sectors": [
+        "Aerospace and defense",
+        "Aviation communications",
+        "Airlines"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "LHX Friday November 13 4 PM EST regular-session close",
+          "value": "$272.35, +0.19% in regular session; not Saturday trading"
+        },
+        {
+          "label": "LHX Friday extended-hours quotes",
+          "value": "Yahoo Finance 7:58 PM EST $261.94 (-3.82%); StockAnalysis 7:59 PM $261.00 (-4.17%); not regular-session closing prices"
+        },
+        {
+          "label": "FAA incident details, Saturday November 14 briefing",
+          "value": "Duffy named L3Harris copper-to-fiber contractor; router generated over 1,000 connection attempts per 4-5 seconds; cause remains under investigation; cyberattack not indicated"
+        },
+        {
+          "label": "Flight disruptions",
+          "value": "Reuters November 14 10:56 AM EST: more than 3,700 cancellations Saturday morning after nearly 10,000 Friday"
+        },
+        {
+          "label": "Fundamental assessment, risks and invalidation",
+          "value": "Diversified defense company; direct financial impact unquantified. Watch FAA fault assignment, L3Harris response, contract exposure, Monday price/volume and airline recovery. Finding of third-party equipment defect could reduce contractor liability."
+        }
+      ],
+      "key_finding": "FAA contractor identification creates a new, material LHX reputational and contract-risk catalyst, although fault is not established.",
+      "sources": [
+        {
+          "title": "Washington Post November 14: contractor's fiber work and FAA investigation",
+          "url": "https://www.washingtonpost.com/transportation/2026/11/14/ground-stop-aftermath-sees-thousands-flights-canceled-delayed-saturday/"
+        },
+        {
+          "title": "Barron's November 14: L3Harris after-hours decline and investigation",
+          "url": "https://www.barrons.com/articles/faa-ground-stop-l3harris-stock-f7b775db"
+        },
+        {
+          "title": "StockAnalysis LHX November 13 extended-hours quote",
+          "url": "https://stockanalysis.com/stocks/lhx/"
+        },
+        {
+          "title": "Reuters November 14 flight cancellation report",
+          "url": "https://www.investing.com/news/stock-market-news/thousands-of-us-flights-canceled-delayed-as-air-travel-system-recovers-from-shutdown-5027394"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261114-1231-fda-binary-catalysts",
       "observed_at": "2026-11-14T12:31:00-05:00",
@@ -237,61 +299,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261114-0933-defensive-sector-rotation",
-      "observed_at": "2026-11-14T09:33:30-05:00",
-      "title": "Equal-weight S&P outperforms capitalization-weighted index as defensive rotation persists",
-      "summary": "Financial Times analysis shows the equal-weighted S&P 500 rose about 3.9% since October 6 while its capitalization-weighted counterpart fell about 2.9%. Friday's sector tape independently shows consumer staples up 1.42% and technology down 2.01%. The widening breadth gap suggests rotation into defensive sectors, not uniform equity selling.",
-      "tickers": [
-        "RSP",
-        "SPY",
-        "XLP",
-        "XLV",
-        "XLU",
-        "XLK"
-      ],
-      "sectors": [
-        "Market breadth",
-        "Consumer staples",
-        "Healthcare",
-        "Utilities",
-        "Technology"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "October 6 to November 13, FT calculation",
-          "value": "Equal-weight S&P 500 +3.9%, cap-weight S&P 500 -2.9%, difference +6.8 percentage points; precise interval figures sourced to FT"
-        },
-        {
-          "label": "November 13 4:00 PM ET sector snapshot",
-          "value": "Consumer Staples XLP +1.42%, Technology XLK -2.01%, 7 of 11 sectors advancing; SquawkFlow"
-        },
-        {
-          "label": "Drivers and watch",
-          "value": "Investor reassessment of AI infrastructure returns and rates; monitor RSP/SPY, sector breadth, Treasury yields, profit guidance"
-        },
-        {
-          "label": "Invalidation",
-          "value": "Sustained cap-weighted technology leadership and broad easing in valuation concerns would weaken rotation thesis"
-        }
-      ],
-      "key_finding": "Equal-weight breadth and defensive sector leadership reveal a material rotation away from megacap technology.",
-      "sources": [
-        {
-          "title": "Financial Times, Chart of the Week: The great market rotation, November 14",
-          "url": "https://www.ft.com/content/936376d1-4a69-4a3c-8975-3c55e9cb9d42"
-        },
-        {
-          "title": "SquawkFlow sector rotation snapshot November 13 close",
-          "url": "https://squawkflow.com/sector-rotation"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-14T12:31:00-05:00",
+  "last_checked_at": "2026-11-14T13:28:00-05:00",
   "last_check_status": "new_findings"
 }
