@@ -1,8 +1,70 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-13T18:31:58.039-05:00",
-  "as_of_et": "November 13, 2026 at 6:31 PM EST",
+  "generated_at": "2026-11-13T19:31:05.028-05:00",
+  "as_of_et": "November 13, 2026 at 7:31 PM EST",
   "items": [
+    {
+      "id": "scout-20261113-1931-faa-national-ground-stop",
+      "observed_at": "2026-11-13T19:31:05.028-05:00",
+      "title": "FAA nationwide communications outage halts U.S. departures and pressures airlines",
+      "summary": "The FAA grounded departures nationwide Friday afternoon after an air-traffic-control communications failure. Delta said no flights were departing as of 6 PM Eastern; Associated Press reported at least 600 diversions by 5:50 PM. Airline shares weakened into the close and in after-hours trading, but the financial impact depends on how long the outage and recovery last.",
+      "tickers": [
+        "JBLU",
+        "AAL",
+        "DAL",
+        "UAL",
+        "LUV"
+      ],
+      "sectors": [
+        "Airlines",
+        "Transportation",
+        "Aviation infrastructure"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "FAA national departure ground stop, November 13",
+          "value": "Began about 3:54 PM EST; FAA cited extraordinary safety circumstances and air-traffic communications problems"
+        },
+        {
+          "label": "Delta operating status, 6:00 PM EST",
+          "value": "Delta said no flights departing as nationwide ground stop remained in effect; airborne flights continued to destinations"
+        },
+        {
+          "label": "Flight disruption, 5:50 PM EST",
+          "value": "Associated Press reported at least 600 diversions; cancellations and delays continuing, without an isolated outage-attributable total"
+        },
+        {
+          "label": "Airline-share reaction, Dow Jones 5:15 PM EST",
+          "value": "JetBlue approximately -3.7% after hours; American Airlines regular session -1.0% then traded lower after hours; indicative observations, not confirmed after-hours closes"
+        },
+        {
+          "label": "Fundamental significance",
+          "value": "Operating disruption risks aircraft and crew displacement, missed connections, customer recovery expenses and near-term revenue effects; no quantified company loss yet"
+        },
+        {
+          "label": "Next indicators and invalidation",
+          "value": "FAA cancellation/restoration advisories, flight departures, Saturday schedule normalization and airline cost disclosures; quick restoration without widespread cancellations weakens the financial impact"
+        }
+      ],
+      "key_finding": "A verified national airspace disruption introduces short-term operational and cost risk for U.S. airlines.",
+      "sources": [
+        {
+          "title": "Associated Press, November 13: FAA nationwide communications outage and flight disruptions",
+          "url": "https://apnews.com/article/6aaa6bd4991ef22eb0c3baa6961a91d1"
+        },
+        {
+          "title": "Delta News Hub, November 13 at 6 PM: nationwide ground stop statement",
+          "url": "https://news.delta.com/delta-statement-faa-nationwide-ground-stop"
+        },
+        {
+          "title": "Dow Jones Newswires, November 13 5:15 PM: airline shares decline after ground stop",
+          "url": "https://www.marketscreener.com/news/airline-shares-decline-in-final-minutes-of-trading-day-after-ground-stop-update-ce785eded888f42d"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261113-1831-fermi-amazon-report",
       "observed_at": "2026-11-13T18:31:58.039-05:00",
@@ -228,47 +290,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261113-1149-chip-selloff",
-      "observed_at": "2026-11-13T11:49:00-05:00",
-      "title": "AI semiconductor selloff broadens across AMD, Broadcom and Nvidia",
-      "summary": "Late-morning reporting shows AMD down about 10.2%, Broadcom down 6.5% and Nvidia down 4.2%, with the Nasdaq down 1.9%. Investors are reassessing AI infrastructure returns amid Nvidia leadership uncertainty and higher borrowing costs. These are intraday observations, not closing prices.",
-      "tickers": [
-        "AMD",
-        "AVGO",
-        "NVDA"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "AI infrastructure"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Late morning November 13, intraday",
-          "value": "AMD -10.2%; AVGO -6.5%; NVDA -4.2%; Nasdaq -1.9%, AP"
-        },
-        {
-          "label": "Next indicators and invalidation",
-          "value": "Semiconductor breadth, volume, Treasury yields, AI capex guidance; broad sustained rebound would weaken the signal"
-        }
-      ],
-      "key_finding": "Chip weakness has broadened from Nvidia to major AI semiconductor peers.",
-      "sources": [
-        {
-          "title": "Associated Press November 13 market update",
-          "url": "https://apnews.com/article/f8edd0eeb1494d4d2584715686c5e619"
-        },
-        {
-          "title": "Investopedia November 13 morning market briefing",
-          "url": "https://www.investopedia.com/5-things-to-know-stock-market-november-13-2026-12250347"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-13T18:31:58.039-05:00",
+  "last_checked_at": "2026-11-13T19:31:05.028-05:00",
   "last_check_status": "new_findings"
 }
