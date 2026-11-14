@@ -1,8 +1,76 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-14T10:34:48-05:00",
-  "as_of_et": "November 14, 2026, 10:34 AM EST",
+  "generated_at": "2026-11-14T12:31:00-05:00",
+  "as_of_et": "November 14, 2026, 12:31 PM EST",
   "items": [
+    {
+      "id": "scout-20261114-1231-fda-binary-catalysts",
+      "observed_at": "2026-11-14T12:31:00-05:00",
+      "title": "FDA action dates due today for Summit ivonescimab and Cytokinetics aficamten label update",
+      "summary": "Two FDA target action dates fall on November 14: Summit's ivonescimab oncology BLA and Cytokinetics' MYQORZO MAPLE-HCM supplemental application. Summit faces a meaningful overall-survival interpretation question, while Cytokinetics already markets the approved drug. Neither decision outcome was independently verified at this check; U.S. equity markets are closed Saturday.",
+      "tickers": [
+        "SMMT",
+        "CYTK"
+      ],
+      "sectors": [
+        "Healthcare",
+        "Biotechnology",
+        "Oncology",
+        "Cardiovascular"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "FDA target action date for both applications",
+          "value": "November 14, 2026, confirmed in Summit's SEC-filed January 29 release and Cytokinetics' May 5 issuer release; target dates are not decision outcomes"
+        },
+        {
+          "label": "SMMT Friday November 13 regular-session close, 4:00 PM EST",
+          "value": "$14.15, -6.14%; separately reported by Yahoo Finance and StockAnalysis"
+        },
+        {
+          "label": "CYTK Friday November 13 regular-session close, 4:00 PM EST",
+          "value": "$56.13, -0.05%; separately reported by Yahoo Finance and StockAnalysis"
+        },
+        {
+          "label": "Summit HARMONi regulatory risk",
+          "value": "Original OS analysis HR 0.79, 95% CI 0.62-1.01, p=0.057; later June 2026 analysis nominal p=0.0151, HR 0.76; FDA previously flagged need for statistically significant OS benefit"
+        },
+        {
+          "label": "Cytokinetics product context",
+          "value": "MYQORZO already FDA-approved for symptomatic obstructive HCM; today's sNDA seeks MAPLE-HCM label incorporation, not initial product approval"
+        },
+        {
+          "label": "Next indicators and invalidation",
+          "value": "Official FDA/company outcomes, complete response letters, label restrictions, approval dates or extensions, then Monday regular-session stock reaction; no outcome verified by 12:31 PM EST"
+        }
+      ],
+      "key_finding": "Two same-day FDA decisions could materially reset oncology and cardiovascular biotech expectations, with asymmetric regulatory risks.",
+      "sources": [
+        {
+          "title": "Summit Therapeutics SEC-filed BLA acceptance and November 14 target date",
+          "url": "https://www.sec.gov/Archives/edgar/data/1599298/000159929826000006/a2026_prx0129xfdablaacce.htm"
+        },
+        {
+          "title": "Cytokinetics issuer disclosure of MAPLE-HCM sNDA and November 14 target date",
+          "url": "https://ir.cytokinetics.com/press-releases/press-release-details/2026/Cytokinetics-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update/default.aspx"
+        },
+        {
+          "title": "Summit third-quarter 2026 Form 10-Q on HARMONi overall survival",
+          "url": "https://www.sec.gov/Archives/edgar/data/1599298/000159929826000090/smmt-20260930.htm"
+        },
+        {
+          "title": "Yahoo Finance SMMT quote and November 13 closing observation",
+          "url": "https://finance.yahoo.com/quote/SMMT/"
+        },
+        {
+          "title": "StockAnalysis CYTK quote and November 13 closing observation",
+          "url": "https://stockanalysis.com/stocks/cytk/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261114-1034-china-ai-chip-divergence",
       "observed_at": "2026-11-14T10:34:48-05:00",
@@ -222,77 +290,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261114-0835-bahrain-drones-intercepted",
-      "observed_at": "2026-11-14T08:35:55-05:00",
-      "title": "CENTCOM confirms Iranian drones intercepted en route to Bahrain amid Hormuz tensions",
-      "summary": "U.S. Central Command said it shot down two Iranian attack drones heading toward Bahrain on November 13. Iran claimed it had destroyed a U.S. early-warning radar, but CENTCOM reported no damage or injuries. The episode marks renewed strikes toward Gulf military facilities while maritime risks persist; no new oil-flow interruption was established.",
-      "tickers": [
-        "XLE",
-        "XOP",
-        "BNO",
-        "USO"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Maritime shipping",
-        "Geopolitical risk"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Incident and disclosure",
-          "value": "Friday, November 13, 2026; two Iranian one-way attack drones headed toward Bahrain, intercepted by U.S. forces (CENTCOM)"
-        },
-        {
-          "label": "Damage verification",
-          "value": "CENTCOM reported no injuries or radar damage; IRGC claim of a destroyed radar is disputed and unverified"
-        },
-        {
-          "label": "Escalation context",
-          "value": "First reported Iranian attempt to strike U.S. military infrastructure in a Gulf state since September, according to CNN and WSJ"
-        },
-        {
-          "label": "Oil Friday, November 13 settlements",
-          "value": "Brent $95.84/bbl; WTI $88.56/bbl; both around -2.5% for the week, independently reported by WSJ and EnergyNow; not a measured reaction to Bahrain"
-        },
-        {
-          "label": "Physical flow",
-          "value": "No separately verified tanker closure, damaged oil facility or incremental crude export loss tied to the Bahrain drone incident"
-        },
-        {
-          "label": "Next indicators / invalidation",
-          "value": "CENTCOM and UKMTO notices, subsequent drone incidents, verified Hormuz vessel transits and Gulf exports, war-risk freight, crude prices and XLE/XOP strength; continued de-escalation would reduce the signal"
-        }
-      ],
-      "key_finding": "A corroborated drone-interception incident raises regional escalation risk without demonstrated damage or new physical oil-flow losses.",
-      "sources": [
-        {
-          "title": "Anadolu Agency quoting CENTCOM, November 13",
-          "url": "https://www.aa.com.tr/en/americas/centcom-denies-iranian-claim-of-attack-on-us-radar-in-bahrain-says-2-drones-shot-down/4124158"
-        },
-        {
-          "title": "Associated Press U.S.–Iran account, November 13",
-          "url": "https://apnews.com/article/5d73a23b5b8647d2515c35b267b36c08"
-        },
-        {
-          "title": "Wall Street Journal on Bahrain escalation, November 14",
-          "url": "https://www.wsj.com/world/middle-east/iran-escalates-low-level-conflict-with-a-shot-at-bahrain-73ff9b51"
-        },
-        {
-          "title": "Wall Street Journal on Friday oil settlements",
-          "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-as-middle-east-supply-risks-persist-2066e758"
-        },
-        {
-          "title": "EnergyNow Friday oil settlement report",
-          "url": "https://energynow.ca/2026/11/oil-prices-fall-for-second-straight-week-as-global-supply-surplus-emerges-wti-closes-at-88-56-brent-at-95-84/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-14T11:29:54-05:00",
-  "last_check_status": "no_new_findings"
+  "last_checked_at": "2026-11-14T12:31:00-05:00",
+  "last_check_status": "new_findings"
 }
