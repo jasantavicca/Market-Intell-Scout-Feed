@@ -1,8 +1,74 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-14T13:28:00-05:00",
-  "as_of_et": "November 14, 2026, 1:28 PM EST",
+  "generated_at": "2026-11-14T15:30:07-05:00",
+  "as_of_et": "November 14, 2026, 3:30 PM EST",
   "items": [
+    {
+      "id": "scout-20261114-1530-anthropic-ai-financing",
+      "observed_at": "2026-11-14T15:30:07-05:00",
+      "title": "Anthropic IPO filings expose long-dated AI infrastructure commitments and strategic financing dependence",
+      "summary": "Anthropic's November 10 amended SEC prospectus discloses $900.9 billion of long-term infrastructure purchase and lease commitments, including $70.7 billion due within the next 12 months. Its proposed IPO is accompanied by a conditional $26 billion equity placement among major AI technology suppliers. Strong revenue growth contrasts with substantial future cash requirements and complex supplier-customer financing relationships.",
+      "tickers": [
+        "ANT",
+        "NVDA",
+        "GOOGL",
+        "AMD",
+        "AVGO",
+        "MU",
+        "MSFT",
+        "TSM"
+      ],
+      "sectors": [
+        "AI software",
+        "Semiconductors",
+        "AI infrastructure",
+        "Data-center power and grid"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Preliminary IPO terms",
+          "value": "825 million Class A shares offered, indicated $70-$78 each; Nasdaq symbol ANT applied for; pricing and trading date not final"
+        },
+        {
+          "label": "Infrastructure and compute commitment",
+          "value": "Approximately $900.9 billion in contractual commitments and leases, predominantly through 2045; approximately $451.6 billion expected before December 31, 2030"
+        },
+        {
+          "label": "Near-term obligations",
+          "value": "Approximately $70.7 billion due in the 12 months following September 30, 2026"
+        },
+        {
+          "label": "Conditional strategic placement",
+          "value": "$26.0 billion of Class N equity after IPO closing, subject to conditions; Nvidia and Google $10.0 billion each, AMD $2.5 billion, other named chip/software partners; some overlap previous financing commitments"
+        },
+        {
+          "label": "Business run rate",
+          "value": "Approximately $81 billion annualized revenue run rate as of October 31, 2026, as reported by Anthropic"
+        },
+        {
+          "label": "Next evidence and invalidation",
+          "value": "Final IPO pricing, offering proceeds and placement completion; Nvidia November 17 results at 5 p.m. EST; postponement, lower funding, weaker revenue/AI infrastructure demand would weaken confidence"
+        }
+      ],
+      "key_finding": "Anthropic's verified IPO filing exposes unprecedented long-term compute obligations tied to conditional supplier-backed equity funding.",
+      "sources": [
+        {
+          "title": "Anthropic November 10, 2026 S-1 Amendment No. 2 (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm"
+        },
+        {
+          "title": "Associated Press on the Anthropic proposed offering",
+          "url": "https://apnews.com/article/8cf2319c870322019712ab658f71ec55"
+        },
+        {
+          "title": "NVIDIA investor relations: November 17 earnings call",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261114-1328-lhx-faa-contractor",
       "observed_at": "2026-11-14T13:28:00-05:00",
@@ -252,55 +318,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261114-0933-samara-oil-hub-strike",
-      "observed_at": "2026-11-14T09:33:30-05:00",
-      "title": "Ukraine reports drone strike and tank fires at Samara Urals crude blending hub",
-      "summary": "Ukraine's General Staff says its November 13 attack ignited several oil tanks at Russia's Samara crude blending and dispatch complex. The hub connects pipeline supplies to the Urals export stream. Independent damage assessment, pumping status and lost export volumes are unavailable, so a quantified supply shock cannot yet be claimed.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Oil transport",
-        "Geopolitical risk"
-      ],
-      "evidence_grade": "single-source",
-      "observations": [
-        {
-          "label": "Event date and disclosure",
-          "value": "November 13 attack reported by Ukrainian General Staff and Security Service on November 14"
-        },
-        {
-          "label": "Claimed facility impact",
-          "value": "Several crude oil storage tanks burning at Samara linear production and dispatch station near Prosvet; not independently geolocated for this new strike"
-        },
-        {
-          "label": "Supply relevance",
-          "value": "Facility blends crude from trunk pipelines into Urals export grade; no verified flow rate lost"
-        },
-        {
-          "label": "Risk / invalidation / next checks",
-          "value": "Satellite fire and damage imagery, Transneft pumping status, Urals grade flows and port nominations; continued normal exports would weaken the supply-loss thesis"
-        }
-      ],
-      "key_finding": "An alleged repeat strike on a strategically important Urals blending hub requires independent damage and throughput verification.",
-      "sources": [
-        {
-          "title": "Ukrainska Pravda report citing Ukrainian General Staff, November 14",
-          "url": "https://www.pravda.com.ua/eng/news/2026/11/14/8062854/index.amp"
-        },
-        {
-          "title": "Associated Press November 14 Europe security report",
-          "url": "https://apnews.com/article/f9a8629626c087424f05adc85d127780"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-14T14:34:07-05:00",
-  "last_check_status": "no_new_findings"
+  "last_checked_at": "2026-11-14T15:30:07-05:00",
+  "last_check_status": "new_findings"
 }
