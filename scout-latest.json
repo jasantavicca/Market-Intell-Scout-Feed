@@ -1,70 +1,147 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-13T20:32:57-05:00",
-  "as_of_et": "November 13, 2026, 8:32 PM EST",
+  "generated_at": "2026-11-14T07:31:00-05:00",
+  "as_of_et": "November 14, 2026, 7:31 AM EST",
   "items": [
     {
-      "id": "scout-20261113-2032-faa-airline-disruption-escalates",
-      "observed_at": "2026-11-13T20:32:57-05:00",
-      "title": "FAA outage cancels thousands of flights; reported radio-network exposure warrants LHX monitoring",
-      "summary": "U.S. airlines face mounting disruption from Friday's FAA communications outage, with more than 5,000 flight cancellations reported by evening and weekend operations at risk. A Wall Street Journal report points to a network overseen by L3Harris, but neither equipment failure nor vendor responsibility has been established. Limited departures resumed at some airports; nationwide restoration was not independently verified.",
+      "id": "scout-20261114-0731-faa-recovery",
+      "observed_at": "2026-11-14T07:31:00-05:00",
+      "title": "FAA ground stop lifted but nationwide airline recovery extends into Saturday",
+      "summary": "The FAA lifted Friday's nationwide departure ground stop around 8:15 p.m. ET after communications failures, but airlines face extensive Saturday cancellations as crews and aircraft are repositioned. Early Saturday reports count thousands of canceled flights. This is a verified operational disruption, not a confirmed Saturday equity-price move.",
       "tickers": [
+        "DAL",
         "UAL",
         "AAL",
-        "DAL",
-        "JBLU",
-        "LHX"
+        "LUV"
       ],
       "sectors": [
         "Airlines",
-        "Aviation infrastructure",
-        "Communications systems",
-        "Air cargo"
+        "Transportation"
       ],
       "evidence_grade": "corroborated",
       "observations": [
         {
-          "label": "November 13 evening airline disruption, reported by 8:30 PM EST",
-          "value": "Financial Times reported more than 5,000 canceled flights and gradual recovery at some centers; WSJ reported more than 13,000 flights delayed or canceled, with Saturday disruptions already developing"
+          "label": "Ground stop lifted",
+          "value": "November 13 approximately 8:15 p.m. EST, FAA statement reported by CBS and AP"
         },
         {
-          "label": "After-hours airline shares November 13, WSJ observation time not specified",
-          "value": "UAL -2.3%; AAL -1.8%; DAL -1.0%; indicative post-market moves, not closing prices"
+          "label": "Saturday cancellation reports",
+          "value": "Over 2,500 cancellations reported by AP; Washington Post cited over 3,200 at its reporting observation; counts evolve"
         },
         {
-          "label": "FAA technical status by 8:30 PM EST",
-          "value": "FAA confirmed telecommunications problems affecting multiple air-route control centers; nationwide restoration and cause not publicly verified by official statement"
-        },
-        {
-          "label": "L3Harris reported network exposure, unconfirmed attribution",
-          "value": "WSJ citing people briefed said affected radio-frequency communications network appears to be overseen by L3Harris; not proof that any LHX equipment failed or company is responsible"
-        },
-        {
-          "label": "Next indicators / invalidation",
-          "value": "Official FAA cancellation of national restrictions; verified departure recovery, Saturday cancellations, airline crew/aircraft availability, technical root cause and vendor statements. Rapid sustained restoration lowers further-operational-impact risk"
+          "label": "Risks and next indicators",
+          "value": "Weekend cancellations, crew and aircraft repositioning, airline guidance, FAA communications stability and Monday share reaction; rapid recovery would limit impact"
         }
       ],
-      "key_finding": "Escalating cancellations and an unconfirmed L3Harris network lead broaden the FAA outage's airline and supplier implications.",
+      "key_finding": "A resolved nationwide ground stop has become a multiday airline network-recovery risk.",
       "sources": [
         {
-          "title": "FAA official nationwide ground-stop statement November 13",
-          "url": "https://www.faa.gov/newsroom/faa-statement-nationwide-ground-stop"
+          "title": "Associated Press November 14 airline recovery",
+          "url": "https://apnews.com/article/1fbf4992f0ddaa4c463b0e4990b6e291"
         },
         {
-          "title": "Financial Times, U.S. aviation regulator grounds flights across the country November 13",
-          "url": "https://www.ft.com/content/c9b119ff-d1da-46a7-b2b3-4ad0544fff6b"
-        },
-        {
-          "title": "Wall Street Journal, More than 13,000 flights delayed or canceled November 13",
-          "url": "https://www.wsj.com/us-news/faa-temporarily-halts-flights-across-u-s-b9b06e59"
-        },
-        {
-          "title": "Guardian live, citing Wall Street Journal on L3Harris radio-network lead November 13",
-          "url": "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer"
+          "title": "CBS News FAA ground stop lifted",
+          "url": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/"
         }
       ],
       "status": "updated",
-      "supersedes": "scout-20261113-1931-faa-national-ground-stop"
+      "supersedes": "scout-20261113-2032-faa-airline-disruption-escalates"
+    },
+    {
+      "id": "scout-20261114-0731-chip-close",
+      "observed_at": "2026-11-14T07:31:00-05:00",
+      "title": "Friday close confirms broad AI semiconductor and networking weakness",
+      "summary": "Friday's regular-session close confirmed AMD down about 8.8%, Broadcom down 4.8% and Nvidia down 2.0%, while the Nasdaq fell 0.9%. Cisco and Coherent also declined sharply, indicating wider AI infrastructure risk repricing. The decline is evidence of sector pressure, not proof of collapsing end demand.",
+      "tickers": [
+        "AMD",
+        "AVGO",
+        "NVDA",
+        "CSCO",
+        "COHR"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "Networking",
+        "AI infrastructure"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 13 regular-session closes",
+          "value": "AMD -8.8%, AVGO -4.8%, NVDA -2.0%; Nasdaq -0.9% (rounded)"
+        },
+        {
+          "label": "Adjacent infrastructure declines",
+          "value": "Cisco -6.2%, Coherent -6.0% on Friday"
+        },
+        {
+          "label": "Next indicators and invalidation",
+          "value": "Semiconductor breadth, hyperscaler capex, Treasury yields, AI credit conditions and Monday recovery; sustained broad rebound would weaken risk-off signal"
+        }
+      ],
+      "key_finding": "Closing prices corroborate a sector-wide chip and networking selloff beyond Nvidia.",
+      "sources": [
+        {
+          "title": "AP November 13 major index closes",
+          "url": "https://apnews.com/article/12c1e8155fb85c3c7b09e058ed6d3c74"
+        },
+        {
+          "title": "Investing.com November 13 sector close",
+          "url": "https://www.investing.com/news/stock-market-news/us-stocks-mixed-at-close-of-trade-dow-jones-industrial-average-up-010-5026559"
+        },
+        {
+          "title": "WiseView November 13 constituent closes",
+          "url": "https://wiseview.ai/news/stock-market-close-2026-11-13"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261113-1149-chip-selloff"
+    },
+    {
+      "id": "scout-20261114-0731-ukmto-weekly",
+      "observed_at": "2026-11-14T07:31:00-05:00",
+      "title": "UKMTO weekly assessment maintains severe Hormuz threat despite recovering crude flows",
+      "summary": "UKMTO's November 13 weekly overview rates the Strait of Hormuz threat severe and the Arabian Gulf substantial. It records 163 events year to date and 141 vessel-damage reports, with the latest listed attacks dated November 11. These figures document sustained vessel-security risk but do not establish a new export shutdown.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Maritime shipping"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "UKMTO week ending November 13",
+          "value": "163 events YTD, 141 vessel-damage reports YTD, 86 injuries/fatalities YTD; reporting range through November 11"
+        },
+        {
+          "label": "JMIC regional risk",
+          "value": "Strait of Hormuz SEVERE, Arabian Gulf SUBSTANTIAL, Gulf of Oman MODERATE"
+        },
+        {
+          "label": "New verified oil flow loss",
+          "value": "None established in this research pass"
+        },
+        {
+          "label": "Next indicators and invalidation",
+          "value": "UKMTO/MARAD incidents, vessel transits, Gulf exports, tanker insurance/freight, diesel cracks, Brent/WTI and XLE/XOP; sustained safe transit would ease security risk"
+        }
+      ],
+      "key_finding": "Severe documented shipping danger persists without fresh verified physical crude export loss.",
+      "sources": [
+        {
+          "title": "UKMTO weekly maritime assessment November 13",
+          "url": "https://www.ukmto.org/-/media/ukmto/products/20261113-ukmto_vra_overview_u.pdf?rev=f163325bceb8457fa7f891c6c48dafa5"
+        },
+        {
+          "title": "UKMTO recent incidents",
+          "url": "https://www.ukmto.org/recent-incidents"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
     },
     {
       "id": "scout-20261113-1831-fermi-amazon-report",
@@ -177,122 +254,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261113-1435-nebius-capacity-delay",
-      "observed_at": "2026-11-13T14:35:20-05:00",
-      "title": "Nebius AI-cloud shares slide as capacity delays collide with $40B-$45B 2027 capex plan",
-      "summary": "Nebius reported third-quarter revenue of $980.8 million, up 571%, but expects 2026 sales near the low end of guidance because some data-center capacity is delayed into 2027. Its planned 2027 investment of $40 billion-$45 billion highlights funding and execution risk despite customer demand. The intraday decline extends pressure on debt-dependent AI infrastructure providers.",
-      "tickers": [
-        "NBIS",
-        "CRWV"
-      ],
-      "sectors": [
-        "AI infrastructure",
-        "Cloud computing",
-        "Data-center power",
-        "International/ADRs"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Reuters November 13 report updated 12:18 PM EST",
-          "value": "NBIS -9.0%; CRWV -8.8% intraday in Reuters snapshot; not closing prices"
-        },
-        {
-          "label": "Nebius Q3 2026 results reported November 12",
-          "value": "Revenue $980.8M, +571% year-over-year; adjusted EBITDA $465.8M; net loss from continuing operations $37.5M"
-        },
-        {
-          "label": "2026 guidance revision",
-          "value": "Now expects revenue at low end of prior $3.0B-$3.4B range due to deferred third-party data-center capacity"
-        },
-        {
-          "label": "2027 construction funding",
-          "value": "Preliminary 2027 capex $40B-$45B; 2027 revenue outlook $12B-$13B; management says prepayments and contract-backed financing are expected to cover 75%-85% of spending"
-        },
-        {
-          "label": "Watch and invalidation",
-          "value": "Vineland/New Jersey power readiness, capacity activation, customer contract conversion, interest and debt costs, 2027 funding sources. On-time delivery and falling financing costs would weaken the bearish read"
-        }
-      ],
-      "key_finding": "Explosive AI-cloud revenue growth is not insulating Nebius from power-delivery timing and enormous financing demands.",
-      "sources": [
-        {
-          "title": "Nebius Q3 2026 earnings, November 12",
-          "url": "https://nebius.com/newsroom/nebius-reports-third-quarter-2026-financial-results"
-        },
-        {
-          "title": "Reuters, Neoclouds and AI stocks slide November 13",
-          "url": "https://www.marketscreener.com/news/neoclouds-ai-stocks-slide-again-as-nvidia-turmoil-rattles-sector-ce785ed9d08af72d"
-        },
-        {
-          "title": "WSJ, Nebius outlook and funding for AI buildout November 12",
-          "url": "https://www.wsj.com/business/earnings/nebius-lowers-outlook-addresses-worries-over-financing-ai-buildout-699ca1dc"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261113-1227-liftoff-earnings",
-      "observed_at": "2026-11-13T12:27:01-05:00",
-      "title": "Liftoff Mobile jumps on profitable growth and raised guidance",
-      "summary": "Liftoff Mobile shares rose roughly 25% in Friday trading after third-quarter revenue increased 32% and adjusted EBITDA rose 45%. Management raised its full-year revenue forecast as its Cortex ad platform improved monetization. Strong free cash flow supports the fundamentals, but rising expectations and advertising cyclicality remain risks.",
-      "tickers": [
-        "LFTO"
-      ],
-      "sectors": [
-        "Software",
-        "Digital advertising",
-        "AI applications"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 13 Friday market observation",
-          "value": "LFTO approximately +25%, reported by Barron's in Friday stock-movers coverage; indicative intraday, not a closing price."
-        },
-        {
-          "label": "Q3 fiscal 2026 revenue",
-          "value": "$237.5 million, +32% year over year; company earnings release Nov. 12."
-        },
-        {
-          "label": "Q3 adjusted EBITDA and net income",
-          "value": "Adjusted EBITDA $144.9 million, +45%; net income approximately $86.7 million; company filing."
-        },
-        {
-          "label": "2026 revenue guidance",
-          "value": "Raised to $907-$912 million; adjusted EBITDA $547-$551 million."
-        },
-        {
-          "label": "Cash-generation context",
-          "value": "Trailing 12-month free cash flow $249 million, company-defined non-GAAP."
-        },
-        {
-          "label": "Risks, next indicators and invalidation",
-          "value": "Watch advertiser spending and customer ROI, daily average revenue, Q4 results, EBITDA quality, and share-price follow-through; loss of customer growth would weaken the thesis."
-        }
-      ],
-      "key_finding": "Profitable AI advertising software growth produced an outsized positive equity response amid broad tech weakness.",
-      "sources": [
-        {
-          "title": "Liftoff investor relations Q3 2026 results, Nov 12",
-          "url": "https://investors.liftoff.ai/news-releases/news-release-details/liftoff-mobile-announces-third-quarter-2026-financial-results"
-        },
-        {
-          "title": "SEC Liftoff 8-K Q3 earnings exhibit",
-          "url": "https://www.sec.gov/Archives/edgar/data/1850351/000162828026073379/fy26q3earningsrelease.htm"
-        },
-        {
-          "title": "Barron's Friday Nov 13 stock movers",
-          "url": "https://www.barrons.com/articles/stock-movers-9a030e1c"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-13T20:32:57-05:00",
+  "last_checked_at": "2026-11-14T07:31:00-05:00",
   "last_check_status": "new_findings"
 }
