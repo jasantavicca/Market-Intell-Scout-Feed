@@ -1,8 +1,77 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-14T09:33:30-05:00",
-  "as_of_et": "November 14, 2026, 9:33 AM EST",
+  "generated_at": "2026-11-14T10:34:48-05:00",
+  "as_of_et": "November 14, 2026, 10:34 AM EST",
   "items": [
+    {
+      "id": "scout-20261114-1034-china-ai-chip-divergence",
+      "observed_at": "2026-11-14T10:34:48-05:00",
+      "title": "Chinese AI developers sink while domestic chipmaker Cambricon rises on U.S. export-access fears",
+      "summary": "Friday's Hong Kong close saw Z.ai fall about 10.9% and MiniMax 8.2%, while Cambricon's Shanghai shares gained 21.9% over five sessions. Reuters and FT link the divergence to concerns that tighter U.S. export and offshore-compute controls could constrain Chinese AI developers. Domestic chip capacity and actual rulemaking remain critical uncertainties.",
+      "tickers": [
+        "2513.HK",
+        "0100.HK",
+        "688256.SS",
+        "BABA",
+        "TCEHY",
+        "NVDA"
+      ],
+      "sectors": [
+        "International equities",
+        "Chinese AI",
+        "Semiconductors",
+        "Cloud computing",
+        "Export controls"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Z.ai (2513.HK), November 13 Hong Kong session",
+          "value": "About -10.9% Friday; Friday local-market move, not a November 14 live quote; Reuters and FT"
+        },
+        {
+          "label": "MiniMax (0100.HK), November 13 Hong Kong close",
+          "value": "-8.19% at HK$152.40 per Yahoo Finance; Reuters observed about -8.7% earlier in session"
+        },
+        {
+          "label": "Cambricon (688256.SS), through November 13 Shanghai close",
+          "value": "+21.92% over five sessions; Friday +0.60% at CNY 978.88 (MarketScreener)"
+        },
+        {
+          "label": "Underlying exposure, Reuters November 13 investigation",
+          "value": "More than 23 billion yuan ($3.2 billion) in Chinese Nvidia-related AI computing projects, including planned, contracted and installed infrastructure; NOT solely processor purchases"
+        },
+        {
+          "label": "Catalyst / policy stage",
+          "value": "Investor concern about tighter U.S. semiconductor exports and remote cloud-compute access; further U.S. restrictions not yet final or confirmed implemented"
+        },
+        {
+          "label": "Risks / invalidation / next indicators",
+          "value": "Watch U.S. Commerce and Congress proposals, cloud-access rules, SMIC capacity and equipment lead times, developer computing availability and relative sector breadth; no tightening or sustained developer rebound would weaken thesis"
+        }
+      ],
+      "key_finding": "China's AI market split between vulnerable model developers and domestic-chip beneficiaries as export-control risk is repriced.",
+      "sources": [
+        {
+          "title": "Reuters, November 13: Chinese AI shares tumble after Huang resignation",
+          "url": "https://theedgemalaysia.com/node/825621"
+        },
+        {
+          "title": "Financial Times, November 13: Chinese AI sell-off deepens",
+          "url": "https://www.ft.com/content/0d4e93e4-895e-4ae0-a01b-833a3ed440a8"
+        },
+        {
+          "title": "Reuters investigation, November 13: Chinese Nvidia-dependent projects",
+          "url": "https://www.investing.com/news/stock-market-news/exclusivehuang-exit-and-us-scrutiny-imperil-3-billion-in-chinese-ai-projects-reliant-on-nvidia-5024462"
+        },
+        {
+          "title": "MarketScreener Cambricon end-of-day quote",
+          "url": "https://www.marketscreener.com/quote/stock/CAMBRICON-TECHNOLOGIES-CO-111379938/news/?mode=pertinence"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261114-0933-hormuz-three-tanker-claims",
       "observed_at": "2026-11-14T09:33:30-05:00",
@@ -222,52 +291,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261114-0731-faa-recovery",
-      "observed_at": "2026-11-14T07:31:00-05:00",
-      "title": "FAA ground stop lifted but nationwide airline recovery extends into Saturday",
-      "summary": "The FAA lifted Friday's nationwide departure ground stop around 8:15 p.m. ET after communications failures, but airlines face extensive Saturday cancellations as crews and aircraft are repositioned. Early Saturday reports count thousands of canceled flights. This is a verified operational disruption, not a confirmed Saturday equity-price move.",
-      "tickers": [
-        "DAL",
-        "UAL",
-        "AAL",
-        "LUV"
-      ],
-      "sectors": [
-        "Airlines",
-        "Transportation"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Ground stop lifted",
-          "value": "November 13 approximately 8:15 p.m. EST, FAA statement reported by CBS and AP"
-        },
-        {
-          "label": "Saturday cancellation reports",
-          "value": "Over 2,500 cancellations reported by AP; Washington Post cited over 3,200 at its reporting observation; counts evolve"
-        },
-        {
-          "label": "Risks and next indicators",
-          "value": "Weekend cancellations, crew and aircraft repositioning, airline guidance, FAA communications stability and Monday share reaction; rapid recovery would limit impact"
-        }
-      ],
-      "key_finding": "A resolved nationwide ground stop has become a multiday airline network-recovery risk.",
-      "sources": [
-        {
-          "title": "Associated Press November 14 airline recovery",
-          "url": "https://apnews.com/article/1fbf4992f0ddaa4c463b0e4990b6e291"
-        },
-        {
-          "title": "CBS News FAA ground stop lifted",
-          "url": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261113-2032-faa-airline-disruption-escalates"
     }
   ],
-  "last_checked_at": "2026-11-14T09:33:30-05:00",
+  "last_checked_at": "2026-11-14T10:34:48-05:00",
   "last_check_status": "new_findings"
 }
