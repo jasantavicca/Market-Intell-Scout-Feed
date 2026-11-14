@@ -1,8 +1,159 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-14T08:35:55-05:00",
-  "as_of_et": "November 14, 2026, 8:35 AM EST",
+  "generated_at": "2026-11-14T09:33:30-05:00",
+  "as_of_et": "November 14, 2026, 9:33 AM EST",
   "items": [
+    {
+      "id": "scout-20261114-0933-hormuz-three-tanker-claims",
+      "observed_at": "2026-11-14T09:33:30-05:00",
+      "title": "Iran claims three tankers hit mines around Strait of Hormuz; independent verification pending",
+      "summary": "Iran's Revolutionary Guard and Navy reported Saturday that three tankers struck mines and caught fire around the Strait of Hormuz. Associated Press and AFP relay these claims, but no vessel identities or independent confirmation of mine damage were established. The claim raises shipping-risk surveillance priority without proving additional export losses.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Maritime shipping",
+        "Geopolitical risk"
+      ],
+      "evidence_grade": "unverified",
+      "observations": [
+        {
+          "label": "Claim reported November 14 early Saturday",
+          "value": "Iranian sources alleged 2 tankers inside Hormuz and 1 east of the strait struck naval mines and caught fire; no named vessels or confirmed cargo"
+        },
+        {
+          "label": "Independent corroboration",
+          "value": "No independent maritime verification or quantified export impact found in this pass; AP and AFP report the same Iranian-origin claims"
+        },
+        {
+          "label": "Friday November 13 benchmark settlements",
+          "value": "Brent $95.84/bbl and WTI $88.56/bbl, per Reuters and Wall Street Journal; not a Saturday price reaction"
+        },
+        {
+          "label": "Risk / invalidation / next checks",
+          "value": "Named vessels, UKMTO/JMIC notices, vessel AIS, salvage, cargo details, port activity, war-risk premiums, verified Gulf transit and exports; independent evidence disproving the claim invalidates it"
+        }
+      ],
+      "key_finding": "A high-consequence three-tanker mine claim is newly reported, but physical damage remains unverified.",
+      "sources": [
+        {
+          "title": "Associated Press Saturday November 14 Middle East developments",
+          "url": "https://apnews.com/article/ade76bebaf22135168aac6eb3016bc19"
+        },
+        {
+          "title": "AFP via Channel News Asia November 14",
+          "url": "https://www.channelnewsasia.com/world/strait-hormuz-oil-tankers-mines-iran-6551256"
+        },
+        {
+          "title": "Reuters November 13 oil settlements via MarketScreener",
+          "url": "https://ca.marketscreener.com/news/oil-prices-set-for-second-weekly-decline-as-trump-sticks-with-iran-blockade-ce785ed9db81f121"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261114-0933-samara-oil-hub-strike",
+      "observed_at": "2026-11-14T09:33:30-05:00",
+      "title": "Ukraine reports drone strike and tank fires at Samara Urals crude blending hub",
+      "summary": "Ukraine's General Staff says its November 13 attack ignited several oil tanks at Russia's Samara crude blending and dispatch complex. The hub connects pipeline supplies to the Urals export stream. Independent damage assessment, pumping status and lost export volumes are unavailable, so a quantified supply shock cannot yet be claimed.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Oil transport",
+        "Geopolitical risk"
+      ],
+      "evidence_grade": "single-source",
+      "observations": [
+        {
+          "label": "Event date and disclosure",
+          "value": "November 13 attack reported by Ukrainian General Staff and Security Service on November 14"
+        },
+        {
+          "label": "Claimed facility impact",
+          "value": "Several crude oil storage tanks burning at Samara linear production and dispatch station near Prosvet; not independently geolocated for this new strike"
+        },
+        {
+          "label": "Supply relevance",
+          "value": "Facility blends crude from trunk pipelines into Urals export grade; no verified flow rate lost"
+        },
+        {
+          "label": "Risk / invalidation / next checks",
+          "value": "Satellite fire and damage imagery, Transneft pumping status, Urals grade flows and port nominations; continued normal exports would weaken the supply-loss thesis"
+        }
+      ],
+      "key_finding": "An alleged repeat strike on a strategically important Urals blending hub requires independent damage and throughput verification.",
+      "sources": [
+        {
+          "title": "Ukrainska Pravda report citing Ukrainian General Staff, November 14",
+          "url": "https://www.pravda.com.ua/eng/news/2026/11/14/8062854/index.amp"
+        },
+        {
+          "title": "Associated Press November 14 Europe security report",
+          "url": "https://apnews.com/article/f9a8629626c087424f05adc85d127780"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261114-0933-defensive-sector-rotation",
+      "observed_at": "2026-11-14T09:33:30-05:00",
+      "title": "Equal-weight S&P outperforms capitalization-weighted index as defensive rotation persists",
+      "summary": "Financial Times analysis shows the equal-weighted S&P 500 rose about 3.9% since October 6 while its capitalization-weighted counterpart fell about 2.9%. Friday's sector tape independently shows consumer staples up 1.42% and technology down 2.01%. The widening breadth gap suggests rotation into defensive sectors, not uniform equity selling.",
+      "tickers": [
+        "RSP",
+        "SPY",
+        "XLP",
+        "XLV",
+        "XLU",
+        "XLK"
+      ],
+      "sectors": [
+        "Market breadth",
+        "Consumer staples",
+        "Healthcare",
+        "Utilities",
+        "Technology"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "October 6 to November 13, FT calculation",
+          "value": "Equal-weight S&P 500 +3.9%, cap-weight S&P 500 -2.9%, difference +6.8 percentage points; precise interval figures sourced to FT"
+        },
+        {
+          "label": "November 13 4:00 PM ET sector snapshot",
+          "value": "Consumer Staples XLP +1.42%, Technology XLK -2.01%, 7 of 11 sectors advancing; SquawkFlow"
+        },
+        {
+          "label": "Drivers and watch",
+          "value": "Investor reassessment of AI infrastructure returns and rates; monitor RSP/SPY, sector breadth, Treasury yields, profit guidance"
+        },
+        {
+          "label": "Invalidation",
+          "value": "Sustained cap-weighted technology leadership and broad easing in valuation concerns would weaken rotation thesis"
+        }
+      ],
+      "key_finding": "Equal-weight breadth and defensive sector leadership reveal a material rotation away from megacap technology.",
+      "sources": [
+        {
+          "title": "Financial Times, Chart of the Week: The great market rotation, November 14",
+          "url": "https://www.ft.com/content/936376d1-4a69-4a3c-8975-3c55e9cb9d42"
+        },
+        {
+          "title": "SquawkFlow sector rotation snapshot November 13 close",
+          "url": "https://squawkflow.com/sector-rotation"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261114-0835-bahrain-drones-intercepted",
       "observed_at": "2026-11-14T08:35:55-05:00",
@@ -115,168 +266,8 @@
       ],
       "status": "updated",
       "supersedes": "scout-20261113-2032-faa-airline-disruption-escalates"
-    },
-    {
-      "id": "scout-20261114-0731-chip-close",
-      "observed_at": "2026-11-14T07:31:00-05:00",
-      "title": "Friday close confirms broad AI semiconductor and networking weakness",
-      "summary": "Friday's regular-session close confirmed AMD down about 8.8%, Broadcom down 4.8% and Nvidia down 2.0%, while the Nasdaq fell 0.9%. Cisco and Coherent also declined sharply, indicating wider AI infrastructure risk repricing. The decline is evidence of sector pressure, not proof of collapsing end demand.",
-      "tickers": [
-        "AMD",
-        "AVGO",
-        "NVDA",
-        "CSCO",
-        "COHR"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "Networking",
-        "AI infrastructure"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 13 regular-session closes",
-          "value": "AMD -8.8%, AVGO -4.8%, NVDA -2.0%; Nasdaq -0.9% (rounded)"
-        },
-        {
-          "label": "Adjacent infrastructure declines",
-          "value": "Cisco -6.2%, Coherent -6.0% on Friday"
-        },
-        {
-          "label": "Next indicators and invalidation",
-          "value": "Semiconductor breadth, hyperscaler capex, Treasury yields, AI credit conditions and Monday recovery; sustained broad rebound would weaken risk-off signal"
-        }
-      ],
-      "key_finding": "Closing prices corroborate a sector-wide chip and networking selloff beyond Nvidia.",
-      "sources": [
-        {
-          "title": "AP November 13 major index closes",
-          "url": "https://apnews.com/article/12c1e8155fb85c3c7b09e058ed6d3c74"
-        },
-        {
-          "title": "Investing.com November 13 sector close",
-          "url": "https://www.investing.com/news/stock-market-news/us-stocks-mixed-at-close-of-trade-dow-jones-industrial-average-up-010-5026559"
-        },
-        {
-          "title": "WiseView November 13 constituent closes",
-          "url": "https://wiseview.ai/news/stock-market-close-2026-11-13"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261113-1149-chip-selloff"
-    },
-    {
-      "id": "scout-20261114-0731-ukmto-weekly",
-      "observed_at": "2026-11-14T07:31:00-05:00",
-      "title": "UKMTO weekly assessment maintains severe Hormuz threat despite recovering crude flows",
-      "summary": "UKMTO's November 13 weekly overview rates the Strait of Hormuz threat severe and the Arabian Gulf substantial. It records 163 events year to date and 141 vessel-damage reports, with the latest listed attacks dated November 11. These figures document sustained vessel-security risk but do not establish a new export shutdown.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Maritime shipping"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "UKMTO week ending November 13",
-          "value": "163 events YTD, 141 vessel-damage reports YTD, 86 injuries/fatalities YTD; reporting range through November 11"
-        },
-        {
-          "label": "JMIC regional risk",
-          "value": "Strait of Hormuz SEVERE, Arabian Gulf SUBSTANTIAL, Gulf of Oman MODERATE"
-        },
-        {
-          "label": "New verified oil flow loss",
-          "value": "None established in this research pass"
-        },
-        {
-          "label": "Next indicators and invalidation",
-          "value": "UKMTO/MARAD incidents, vessel transits, Gulf exports, tanker insurance/freight, diesel cracks, Brent/WTI and XLE/XOP; sustained safe transit would ease security risk"
-        }
-      ],
-      "key_finding": "Severe documented shipping danger persists without fresh verified physical crude export loss.",
-      "sources": [
-        {
-          "title": "UKMTO weekly maritime assessment November 13",
-          "url": "https://www.ukmto.org/-/media/ukmto/products/20261113-ukmto_vra_overview_u.pdf?rev=f163325bceb8457fa7f891c6c48dafa5"
-        },
-        {
-          "title": "UKMTO recent incidents",
-          "url": "https://www.ukmto.org/recent-incidents"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261113-1831-fermi-amazon-report",
-      "observed_at": "2026-11-13T18:31:58.039-05:00",
-      "title": "Fermi jumps as FT identifies Amazon behind proposed 600 MW hyperscaler project",
-      "summary": "Fermi rallied sharply Friday after the Financial Times identified Amazon as the customer behind its announced 600 MW Project Matador development agreements. Fermi confirmed upfront funding arrangements but has not identified the customer or signed a definitive long-term lease. The company remains pre-revenue and highly exposed to financing and construction execution risks.",
-      "tickers": [
-        "FRMI",
-        "AMZN"
-      ],
-      "sectors": [
-        "AI infrastructure",
-        "Data-center power",
-        "Real estate",
-        "Grid infrastructure"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Market reaction, Nov 13 at 3:46 PM EST",
-          "value": "Yahoo Finance reported FRMI $2.575, up 25.0%, intraday; not an official close"
-        },
-        {
-          "label": "Reported Nov 13 4 PM price, one quote provider",
-          "value": "StockAnalysis listed FRMI $2.61, up 26.70%; second independent closing-price confirmation not obtained, so not graded confirmed"
-        },
-        {
-          "label": "Confirmed customer agreements announced Nov 12",
-          "value": "600 MW initial development beginning in 2027; $200 million prepayment arrangement and $15 million early-construction agreement; contemplated $90 million materials agreement"
-        },
-        {
-          "label": "Customer identification qualification",
-          "value": "FT identified Amazon on Nov 13 citing unnamed sources; company has not publicly identified the customer or executed a definitive long-term lease"
-        },
-        {
-          "label": "Company financial position",
-          "value": "Fermi Q3 net loss $141.6 million, September 30 net debt roughly $958.4 million, pre-revenue; earlier TensorWave lease and AMD credit support terminated"
-        },
-        {
-          "label": "Risk and invalidation indicators",
-          "value": "Watch confirmation from Amazon, actual funding receipt, definitive lease/financing, December 1 construction mobilization, December 31 tenant milestone and 2027 power delivery; failed milestones reverse the recovery narrative"
-        }
-      ],
-      "key_finding": "A potential marquee customer is validating power-ready sites, but funding and binding leases lag the market repricing.",
-      "sources": [
-        {
-          "title": "Fermi official Nov 12 2026 company announcement",
-          "url": "https://www.stocktitan.net/news/FRMI/fermi-announces-new-agreements-with-investment-grade-hyperscaler-and-v8y6q4naxtno.html"
-        },
-        {
-          "title": "Financial Times Nov 13: Amazon identified as prospective Fermi customer",
-          "url": "https://www.ft.com/content/692fbfe8-da52-42c0-b436-9c4aff21fbdb"
-        },
-        {
-          "title": "Yahoo Finance FRMI quote, Nov 13 at 3:46 PM EST",
-          "url": "https://finance.yahoo.com/quote/FRMI/"
-        },
-        {
-          "title": "StockAnalysis Nov 13 4 PM FRMI close indication",
-          "url": "https://stockanalysis.com/stocks/frmi/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-14T08:35:55-05:00",
+  "last_checked_at": "2026-11-14T09:33:30-05:00",
   "last_check_status": "new_findings"
 }
