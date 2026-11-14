@@ -1,0 +1,42 @@
+{
+  "contract": "daily-edition-v1",
+  "edition": {
+    "date": "2026-11-14",
+    "type": "saturday",
+    "revision": 1
+  },
+  "signals": {
+    "rows": [
+      {
+        "signal": "Prices and finance",
+        "status": "PRESSURE PERSISTS",
+        "evidence": "October PPI +0.3%; excluding food, energy and trade +0.5%. Verified 10-year yield 5.10% Nov 12.",
+        "tone": "watch"
+      },
+      {
+        "signal": "Demand and delivery",
+        "status": "STRONG SALES UNEVEN CONVERSION",
+        "evidence": "Equipment/networking sales strong; Nebius capacity delayed while contracts remain.",
+        "tone": "watch"
+      },
+      {
+        "signal": "Households and labor",
+        "status": "LOW FIRING WEAK TURNOVER",
+        "evidence": "Initial claims 200,000; October home sales −5.5% monthly.",
+        "tone": "watch"
+      },
+      {
+        "signal": "Energy and logistics",
+        "status": "RELIEF WITH INTERRUPTIONS",
+        "evidence": "IEA expects surplus but diesel tightness persists; FAA stop lifted Friday evening.",
+        "tone": "watch"
+      },
+      {
+        "signal": "Global and regional",
+        "status": "GROWTH NOT UNIFORM",
+        "evidence": "Euro-area GDP +0.4%, jobs flat; UK services stronger than construction; Brampton dispute unresolved.",
+        "tone": "watch"
+      }
+    ]
+  }
+}
