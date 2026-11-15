@@ -1,8 +1,54 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-15T08:11:59-05:00",
-  "as_of_et": "November 15, 2026, 8:11 AM EST",
+  "generated_at": "2026-11-15T10:10:05-05:00",
+  "as_of_et": "November 15, 2026, 10:10 AM EST",
   "items": [
+    {
+      "id": "scout-20261115-1010-smmt-fda-crl",
+      "observed_at": "2026-11-15T10:10:05-05:00",
+      "title": "FDA issues Complete Response Letter for Summit ivonescimab application",
+      "summary": "Summit confirmed the FDA cannot approve its current ivonescimab application for previously treated EGFR-mutated lung cancer. The FDA found that progression-free-survival benefit without statistically significant overall-survival improvement was insufficient. This delays near-term U.S. commercialization for the indication while other clinical studies continue.",
+      "tickers": [
+        "SMMT"
+      ],
+      "sectors": [
+        "Healthcare",
+        "Biotechnology",
+        "Oncology"
+      ],
+      "evidence_grade": "confirmed",
+      "observations": [
+        {
+          "label": "Decision, November 15",
+          "value": "FDA Complete Response Letter; BLA cannot be approved in present form"
+        },
+        {
+          "label": "Last regular-session SMMT close, November 13 at 4 PM EST",
+          "value": "$14.15, down 6.14%; before Sunday FDA decision, not a market reaction to it"
+        },
+        {
+          "label": "Fundamental significance",
+          "value": "U.S. launch delayed for this indication; broader clinical program continues"
+        },
+        {
+          "label": "Risks and next indicators",
+          "value": "FDA resubmission conditions, overall-survival results from HARMONi-3 and other trials, funding, Monday price/volume; compelling new survival evidence could soften setback"
+        }
+      ],
+      "key_finding": "Confirmed FDA rejection materially delays Summit's U.S. ivonescimab commercialization in this indication.",
+      "sources": [
+        {
+          "title": "Summit Therapeutics official November 15 release",
+          "url": "https://smmttx.com/news/press-releases/news-details/2026/Summit-Therapeutics-Provides-Update-Regarding-Ivonescimab-Biologics-License-Application/"
+        },
+        {
+          "title": "Reuters November 15 FDA decision",
+          "url": "https://wsau.com/2026/11/15/us-fda-declines-to-approve-summit-lung-cancer-drug-after-trial-misses-key-survival-goal/"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261114-1231-fda-binary-catalysts"
+    },
     {
       "id": "scout-20261115-0811-bab-el-mandeb-withdrawal",
       "observed_at": "2026-11-15T08:11:59-05:00",
@@ -183,74 +229,6 @@
       "supersedes": null
     },
     {
-      "id": "scout-20261114-1231-fda-binary-catalysts",
-      "observed_at": "2026-11-14T12:31:00-05:00",
-      "title": "FDA action dates due today for Summit ivonescimab and Cytokinetics aficamten label update",
-      "summary": "Two FDA target action dates fall on November 14: Summit's ivonescimab oncology BLA and Cytokinetics' MYQORZO MAPLE-HCM supplemental application. Summit faces a meaningful overall-survival interpretation question, while Cytokinetics already markets the approved drug. Neither decision outcome was independently verified at this check; U.S. equity markets are closed Saturday.",
-      "tickers": [
-        "SMMT",
-        "CYTK"
-      ],
-      "sectors": [
-        "Healthcare",
-        "Biotechnology",
-        "Oncology",
-        "Cardiovascular"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "FDA target action date for both applications",
-          "value": "November 14, 2026, confirmed in Summit's SEC-filed January 29 release and Cytokinetics' May 5 issuer release; target dates are not decision outcomes"
-        },
-        {
-          "label": "SMMT Friday November 13 regular-session close, 4:00 PM EST",
-          "value": "$14.15, -6.14%; separately reported by Yahoo Finance and StockAnalysis"
-        },
-        {
-          "label": "CYTK Friday November 13 regular-session close, 4:00 PM EST",
-          "value": "$56.13, -0.05%; separately reported by Yahoo Finance and StockAnalysis"
-        },
-        {
-          "label": "Summit HARMONi regulatory risk",
-          "value": "Original OS analysis HR 0.79, 95% CI 0.62-1.01, p=0.057; later June 2026 analysis nominal p=0.0151, HR 0.76; FDA previously flagged need for statistically significant OS benefit"
-        },
-        {
-          "label": "Cytokinetics product context",
-          "value": "MYQORZO already FDA-approved for symptomatic obstructive HCM; today's sNDA seeks MAPLE-HCM label incorporation, not initial product approval"
-        },
-        {
-          "label": "Next indicators and invalidation",
-          "value": "Official FDA/company outcomes, complete response letters, label restrictions, approval dates or extensions, then Monday regular-session stock reaction; no outcome verified by 12:31 PM EST"
-        }
-      ],
-      "key_finding": "Two same-day FDA decisions could materially reset oncology and cardiovascular biotech expectations, with asymmetric regulatory risks.",
-      "sources": [
-        {
-          "title": "Summit Therapeutics SEC-filed BLA acceptance and November 14 target date",
-          "url": "https://www.sec.gov/Archives/edgar/data/1599298/000159929826000006/a2026_prx0129xfdablaacce.htm"
-        },
-        {
-          "title": "Cytokinetics issuer disclosure of MAPLE-HCM sNDA and November 14 target date",
-          "url": "https://ir.cytokinetics.com/press-releases/press-release-details/2026/Cytokinetics-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update/default.aspx"
-        },
-        {
-          "title": "Summit third-quarter 2026 Form 10-Q on HARMONi overall survival",
-          "url": "https://www.sec.gov/Archives/edgar/data/1599298/000159929826000090/smmt-20260930.htm"
-        },
-        {
-          "title": "Yahoo Finance SMMT quote and November 13 closing observation",
-          "url": "https://finance.yahoo.com/quote/SMMT/"
-        },
-        {
-          "title": "StockAnalysis CYTK quote and November 13 closing observation",
-          "url": "https://stockanalysis.com/stocks/cytk/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
       "id": "scout-20261114-1034-china-ai-chip-divergence",
       "observed_at": "2026-11-14T10:34:48-05:00",
       "title": "Chinese AI developers sink while domestic chipmaker Cambricon rises on U.S. export-access fears",
@@ -320,6 +298,6 @@
       "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-15T08:11:59-05:00",
+  "last_checked_at": "2026-11-15T10:10:05-05:00",
   "last_check_status": "new_findings"
 }
