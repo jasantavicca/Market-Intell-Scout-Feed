@@ -1,8 +1,151 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-15T10:10:05-05:00",
-  "as_of_et": "November 15, 2026, 10:10 AM EST",
+  "generated_at": "2026-11-15T14:14:22-05:00",
+  "as_of_et": "November 15, 2026, 2:14 PM EST",
   "items": [
+    {
+      "id": "scout-20261115-1414-hormuz-ukmto-warning",
+      "observed_at": "2026-11-15T14:14:22-05:00",
+      "title": "UKMTO issues warning about tanker attack report near Strait of Hormuz",
+      "summary": "UKMTO Warning 205-26 records an attack report involving an eastbound tanker approaching the Strait of Hormuz. The crew was reported safe, while damage and environmental impact were undetermined. The warning does not establish a sinking or incremental oil-export loss.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Maritime shipping",
+        "Geopolitical risk"
+      ],
+      "evidence_grade": "single-source",
+      "observations": [
+        {
+          "label": "Official report",
+          "value": "UKMTO Warning 205-26, November 15, 2026; tanker attack report approaching Strait of Hormuz"
+        },
+        {
+          "label": "Physical-flow verification",
+          "value": "No confirmed incremental oil-export loss; vessel damage and cargo status unresolved"
+        },
+        {
+          "label": "Market reaction",
+          "value": "No Sunday US equity session; Friday Brent settlement is not a response to this warning"
+        },
+        {
+          "label": "Risk and next checks",
+          "value": "UKMTO updates, vessel identity and AIS, cargo/damage assessment, transit rates, war-risk premiums; safe transit and no damage would weaken supply-risk interpretation"
+        }
+      ],
+      "key_finding": "Official maritime warning warrants attention, but physical supply disruption is not established.",
+      "sources": [
+        {
+          "title": "UKMTO Warning 205-26",
+          "url": "https://www.ukmto.org/-/media/ukmto/products/20261115-ukmto_warning-205-26.pdf?rev=b307e1c9006b48de8d3836cda746b127"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261115-1414-nvidia-succession",
+      "observed_at": "2026-11-15T14:14:22-05:00",
+      "title": "US Treasury Secretary publicly presses Nvidia on CEO succession and export compliance",
+      "summary": "Reuters reports Treasury Secretary Scott Bessent urged Nvidia to appoint an outside CEO and respond to export-compliance questions within ten days. Nvidia has named an interim CEO amid its leadership transition. The comments increase governance and regulatory uncertainty but are not a formal enforcement finding.",
+      "tickers": [
+        "NVDA"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "Export controls"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 15 public comments",
+          "value": "Bessent urged an outside CEO and answers to compliance questions within ten days"
+        },
+        {
+          "label": "Market reaction",
+          "value": "No Sunday US regular-session price reaction available"
+        },
+        {
+          "label": "Fundamental risks",
+          "value": "Leadership continuity, export licensing, China sales and potential enforcement"
+        },
+        {
+          "label": "Next checks",
+          "value": "Nvidia board response, formal agency actions and November 17 earnings; clean compliance findings and orderly succession could soften risk"
+        }
+      ],
+      "key_finding": "Public regulatory pressure raises Nvidia leadership and export-control uncertainty ahead of earnings.",
+      "sources": [
+        {
+          "title": "Reuters: Bessent urges Nvidia to choose outside CEO",
+          "url": "https://www.investing.com/news/economy-news/bessent-says-nvidia-must-go-outside-the-company-to-find-new-ceo-5028004"
+        },
+        {
+          "title": "Nvidia CEO transition announcement",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261115-1414-datacenter-valuations",
+      "observed_at": "2026-11-15T14:14:22-05:00",
+      "title": "Data-center infrastructure stocks show large valuation drawdowns despite supplier backlog growth",
+      "summary": "A Financial Times analysis estimates a $4.2 trillion aggregate market-capitalization reversal among data-center-linked suppliers since June. Caterpillar and Eaton have separately reported strong quarterly sales and order books. The contrast merits monitoring but does not independently establish undervaluation.",
+      "tickers": [
+        "CAT",
+        "ETN",
+        "FIX",
+        "GLW",
+        "OKLO"
+      ],
+      "sectors": [
+        "AI infrastructure",
+        "Industrials",
+        "Data-center power and grid"
+      ],
+      "evidence_grade": "single-source",
+      "observations": [
+        {
+          "label": "FT November 15 basket estimate",
+          "value": "$4.2 trillion market-value decline since June; basket methodology not independently reconstructed"
+        },
+        {
+          "label": "Caterpillar Q3",
+          "value": "Reported sales +17% to $20.7 billion and record backlog"
+        },
+        {
+          "label": "Eaton Q3",
+          "value": "Reported sales +28% to $8.9 billion and electrical backlog growth"
+        },
+        {
+          "label": "Risks and next checks",
+          "value": "Backlog conversion to cash, project delays/cancellations, customer financing and grid capacity; deteriorating orders would weaken thesis"
+        }
+      ],
+      "key_finding": "Large reported equity drawdowns coexist with supplier order growth; cash conversion is the key test.",
+      "sources": [
+        {
+          "title": "Financial Times data-center valuation analysis",
+          "url": "https://www.ft.com/content/d5adde7e-68cc-455b-ba78-b39cc3676b7a"
+        },
+        {
+          "title": "Caterpillar Q3 results",
+          "url": "https://www.caterpillar.com/en/news/corporate-press-releases/h/3q26-results-caterpillar-inc.html"
+        },
+        {
+          "title": "Eaton Q3 results",
+          "url": "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2026/eaton-reports-record-third-quarter-2026-results.html"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261115-1010-smmt-fda-crl",
       "observed_at": "2026-11-15T10:10:05-05:00",
@@ -99,205 +242,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261114-1530-anthropic-ai-financing",
-      "observed_at": "2026-11-14T15:30:07-05:00",
-      "title": "Anthropic IPO filings expose long-dated AI infrastructure commitments and strategic financing dependence",
-      "summary": "Anthropic's November 10 amended SEC prospectus discloses $900.9 billion of long-term infrastructure purchase and lease commitments, including $70.7 billion due within the next 12 months. Its proposed IPO is accompanied by a conditional $26 billion equity placement among major AI technology suppliers. Strong revenue growth contrasts with substantial future cash requirements and complex supplier-customer financing relationships.",
-      "tickers": [
-        "ANT",
-        "NVDA",
-        "GOOGL",
-        "AMD",
-        "AVGO",
-        "MU",
-        "MSFT",
-        "TSM"
-      ],
-      "sectors": [
-        "AI software",
-        "Semiconductors",
-        "AI infrastructure",
-        "Data-center power and grid"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Preliminary IPO terms",
-          "value": "825 million Class A shares offered, indicated $70-$78 each; Nasdaq symbol ANT applied for; pricing and trading date not final"
-        },
-        {
-          "label": "Infrastructure and compute commitment",
-          "value": "Approximately $900.9 billion in contractual commitments and leases, predominantly through 2045; approximately $451.6 billion expected before December 31, 2030"
-        },
-        {
-          "label": "Near-term obligations",
-          "value": "Approximately $70.7 billion due in the 12 months following September 30, 2026"
-        },
-        {
-          "label": "Conditional strategic placement",
-          "value": "$26.0 billion of Class N equity after IPO closing, subject to conditions; Nvidia and Google $10.0 billion each, AMD $2.5 billion, other named chip/software partners; some overlap previous financing commitments"
-        },
-        {
-          "label": "Business run rate",
-          "value": "Approximately $81 billion annualized revenue run rate as of October 31, 2026, as reported by Anthropic"
-        },
-        {
-          "label": "Next evidence and invalidation",
-          "value": "Final IPO pricing, offering proceeds and placement completion; Nvidia November 17 results at 5 p.m. EST; postponement, lower funding, weaker revenue/AI infrastructure demand would weaken confidence"
-        }
-      ],
-      "key_finding": "Anthropic's verified IPO filing exposes unprecedented long-term compute obligations tied to conditional supplier-backed equity funding.",
-      "sources": [
-        {
-          "title": "Anthropic November 10, 2026 S-1 Amendment No. 2 (SEC)",
-          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm"
-        },
-        {
-          "title": "Associated Press on the Anthropic proposed offering",
-          "url": "https://apnews.com/article/8cf2319c870322019712ab658f71ec55"
-        },
-        {
-          "title": "NVIDIA investor relations: November 17 earnings call",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261114-1328-lhx-faa-contractor",
-      "observed_at": "2026-11-14T13:28:00-05:00",
-      "title": "FAA says L3Harris network upgrade work preceded nationwide ground stop; LHX falls in Friday after-hours",
-      "summary": "Transportation Secretary Duffy identified L3Harris as the contractor replacing copper links with fiber when a router flooded FAA air-traffic communications and radar networks. Officials have not determined whether installation error or defective equipment caused the disruption. LHX fell roughly 3.8%-4.2% in Friday extended trading, while thousands more flights were canceled Saturday.",
-      "tickers": [
-        "LHX",
-        "DAL",
-        "UAL",
-        "AAL",
-        "LUV"
-      ],
-      "sectors": [
-        "Aerospace and defense",
-        "Aviation communications",
-        "Airlines"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "LHX Friday November 13 4 PM EST regular-session close",
-          "value": "$272.35, +0.19% in regular session; not Saturday trading"
-        },
-        {
-          "label": "LHX Friday extended-hours quotes",
-          "value": "Yahoo Finance 7:58 PM EST $261.94 (-3.82%); StockAnalysis 7:59 PM $261.00 (-4.17%); not regular-session closing prices"
-        },
-        {
-          "label": "FAA incident details, Saturday November 14 briefing",
-          "value": "Duffy named L3Harris copper-to-fiber contractor; router generated over 1,000 connection attempts per 4-5 seconds; cause remains under investigation; cyberattack not indicated"
-        },
-        {
-          "label": "Flight disruptions",
-          "value": "Reuters November 14 10:56 AM EST: more than 3,700 cancellations Saturday morning after nearly 10,000 Friday"
-        },
-        {
-          "label": "Fundamental assessment, risks and invalidation",
-          "value": "Diversified defense company; direct financial impact unquantified. Watch FAA fault assignment, L3Harris response, contract exposure, Monday price/volume and airline recovery. Finding of third-party equipment defect could reduce contractor liability."
-        }
-      ],
-      "key_finding": "FAA contractor identification creates a new, material LHX reputational and contract-risk catalyst, although fault is not established.",
-      "sources": [
-        {
-          "title": "Washington Post November 14: contractor's fiber work and FAA investigation",
-          "url": "https://www.washingtonpost.com/transportation/2026/11/14/ground-stop-aftermath-sees-thousands-flights-canceled-delayed-saturday/"
-        },
-        {
-          "title": "Barron's November 14: L3Harris after-hours decline and investigation",
-          "url": "https://www.barrons.com/articles/faa-ground-stop-l3harris-stock-f7b775db"
-        },
-        {
-          "title": "StockAnalysis LHX November 13 extended-hours quote",
-          "url": "https://stockanalysis.com/stocks/lhx/"
-        },
-        {
-          "title": "Reuters November 14 flight cancellation report",
-          "url": "https://www.investing.com/news/stock-market-news/thousands-of-us-flights-canceled-delayed-as-air-travel-system-recovers-from-shutdown-5027394"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261114-1034-china-ai-chip-divergence",
-      "observed_at": "2026-11-14T10:34:48-05:00",
-      "title": "Chinese AI developers sink while domestic chipmaker Cambricon rises on U.S. export-access fears",
-      "summary": "Friday's Hong Kong close saw Z.ai fall about 10.9% and MiniMax 8.2%, while Cambricon's Shanghai shares gained 21.9% over five sessions. Reuters and FT link the divergence to concerns that tighter U.S. export and offshore-compute controls could constrain Chinese AI developers. Domestic chip capacity and actual rulemaking remain critical uncertainties.",
-      "tickers": [
-        "2513.HK",
-        "0100.HK",
-        "688256.SS",
-        "BABA",
-        "TCEHY",
-        "NVDA"
-      ],
-      "sectors": [
-        "International equities",
-        "Chinese AI",
-        "Semiconductors",
-        "Cloud computing",
-        "Export controls"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Z.ai (2513.HK), November 13 Hong Kong session",
-          "value": "About -10.9% Friday; Friday local-market move, not a November 14 live quote; Reuters and FT"
-        },
-        {
-          "label": "MiniMax (0100.HK), November 13 Hong Kong close",
-          "value": "-8.19% at HK$152.40 per Yahoo Finance; Reuters observed about -8.7% earlier in session"
-        },
-        {
-          "label": "Cambricon (688256.SS), through November 13 Shanghai close",
-          "value": "+21.92% over five sessions; Friday +0.60% at CNY 978.88 (MarketScreener)"
-        },
-        {
-          "label": "Underlying exposure, Reuters November 13 investigation",
-          "value": "More than 23 billion yuan ($3.2 billion) in Chinese Nvidia-related AI computing projects, including planned, contracted and installed infrastructure; NOT solely processor purchases"
-        },
-        {
-          "label": "Catalyst / policy stage",
-          "value": "Investor concern about tighter U.S. semiconductor exports and remote cloud-compute access; further U.S. restrictions not yet final or confirmed implemented"
-        },
-        {
-          "label": "Risks / invalidation / next indicators",
-          "value": "Watch U.S. Commerce and Congress proposals, cloud-access rules, SMIC capacity and equipment lead times, developer computing availability and relative sector breadth; no tightening or sustained developer rebound would weaken thesis"
-        }
-      ],
-      "key_finding": "China's AI market split between vulnerable model developers and domestic-chip beneficiaries as export-control risk is repriced.",
-      "sources": [
-        {
-          "title": "Reuters, November 13: Chinese AI shares tumble after Huang resignation",
-          "url": "https://theedgemalaysia.com/node/825621"
-        },
-        {
-          "title": "Financial Times, November 13: Chinese AI sell-off deepens",
-          "url": "https://www.ft.com/content/0d4e93e4-895e-4ae0-a01b-833a3ed440a8"
-        },
-        {
-          "title": "Reuters investigation, November 13: Chinese Nvidia-dependent projects",
-          "url": "https://www.investing.com/news/stock-market-news/exclusivehuang-exit-and-us-scrutiny-imperil-3-billion-in-chinese-ai-projects-reliant-on-nvidia-5024462"
-        },
-        {
-          "title": "MarketScreener Cambricon end-of-day quote",
-          "url": "https://www.marketscreener.com/quote/stock/CAMBRICON-TECHNOLOGIES-CO-111379938/news/?mode=pertinence"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-15T12:39:53-05:00",
-  "last_check_status": "no_new_findings"
+  "last_checked_at": "2026-11-15T14:14:22-05:00",
+  "last_check_status": "new_findings"
 }
