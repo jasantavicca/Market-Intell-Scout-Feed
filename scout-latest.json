@@ -1,8 +1,59 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-14T15:30:07-05:00",
-  "as_of_et": "November 14, 2026, 3:30 PM EST",
+  "generated_at": "2026-11-15T08:11:59-05:00",
+  "as_of_et": "November 15, 2026, 8:11 AM EST",
   "items": [
+    {
+      "id": "scout-20261115-0811-bab-el-mandeb-withdrawal",
+      "observed_at": "2026-11-15T08:11:59-05:00",
+      "title": "Yemeni government forces withdraw from Bab el-Mandeb positions, increasing Houthi leverage over Red Sea shipping",
+      "summary": "Saudi-backed Yemeni forces announced withdrawal from positions near Dhubab and Bab el-Mandeb, redeploying toward Aden. Reuters and the Financial Times corroborate the territorial change, which increases Houthi leverage over a major shipping chokepoint. No incremental vessel damage, closure or export loss from this withdrawal has been independently verified.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Maritime shipping",
+        "Geopolitical risk"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Military development November 15",
+          "value": "Saudi-backed Southern Armed Forces announced withdrawal from Dhubab Airport and Bab el-Mandeb positions toward Aden; Reuters and FT report increased Houthi control/influence"
+        },
+        {
+          "label": "Physical-flow confirmation",
+          "value": "No additional commercial transit closure or incremental oil-export disruption attributable to the withdrawal independently established"
+        },
+        {
+          "label": "Latest benchmark context",
+          "value": "Brent Friday November 13 settlement $95.84 per barrel; not a Sunday market reaction"
+        },
+        {
+          "label": "Risk and next indicators",
+          "value": "UKMTO incident reports, Red Sea transits, war-risk insurance, Saudi Yanbu exports, and next Brent session; safe sustained passage or reversal of territorial control weakens impact"
+        }
+      ],
+      "key_finding": "Corroborated territorial withdrawal near Bab el-Mandeb increases dual-chokepoint shipping risk without yet proving new physical export losses.",
+      "sources": [
+        {
+          "title": "Reuters November 15: Yemen forces withdraw near Bab el-Mandeb",
+          "url": "https://www.investing.com/news/world-news/yemen-government-forces-withdraw-from-area-near-bab-elmandeb-strait-houthis-in-control-5027740"
+        },
+        {
+          "title": "Financial Times November 15: Saudi-backed forces retreat",
+          "url": "https://www.ft.com/content/2e7028ba-987c-4874-9426-fe38a8753c67"
+        },
+        {
+          "title": "UKMTO recent incidents",
+          "url": "https://www.ukmto.org/recent-incidents"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261114-1530-anthropic-ai-financing",
       "observed_at": "2026-11-14T15:30:07-05:00",
@@ -267,59 +318,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261114-0933-hormuz-three-tanker-claims",
-      "observed_at": "2026-11-14T09:33:30-05:00",
-      "title": "Iran claims three tankers hit mines around Strait of Hormuz; independent verification pending",
-      "summary": "Iran's Revolutionary Guard and Navy reported Saturday that three tankers struck mines and caught fire around the Strait of Hormuz. Associated Press and AFP relay these claims, but no vessel identities or independent confirmation of mine damage were established. The claim raises shipping-risk surveillance priority without proving additional export losses.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Maritime shipping",
-        "Geopolitical risk"
-      ],
-      "evidence_grade": "unverified",
-      "observations": [
-        {
-          "label": "Claim reported November 14 early Saturday",
-          "value": "Iranian sources alleged 2 tankers inside Hormuz and 1 east of the strait struck naval mines and caught fire; no named vessels or confirmed cargo"
-        },
-        {
-          "label": "Independent corroboration",
-          "value": "No independent maritime verification or quantified export impact found in this pass; AP and AFP report the same Iranian-origin claims"
-        },
-        {
-          "label": "Friday November 13 benchmark settlements",
-          "value": "Brent $95.84/bbl and WTI $88.56/bbl, per Reuters and Wall Street Journal; not a Saturday price reaction"
-        },
-        {
-          "label": "Risk / invalidation / next checks",
-          "value": "Named vessels, UKMTO/JMIC notices, vessel AIS, salvage, cargo details, port activity, war-risk premiums, verified Gulf transit and exports; independent evidence disproving the claim invalidates it"
-        }
-      ],
-      "key_finding": "A high-consequence three-tanker mine claim is newly reported, but physical damage remains unverified.",
-      "sources": [
-        {
-          "title": "Associated Press Saturday November 14 Middle East developments",
-          "url": "https://apnews.com/article/ade76bebaf22135168aac6eb3016bc19"
-        },
-        {
-          "title": "AFP via Channel News Asia November 14",
-          "url": "https://www.channelnewsasia.com/world/strait-hormuz-oil-tankers-mines-iran-6551256"
-        },
-        {
-          "title": "Reuters November 13 oil settlements via MarketScreener",
-          "url": "https://ca.marketscreener.com/news/oil-prices-set-for-second-weekly-decline-as-trump-sticks-with-iran-blockade-ce785ed9db81f121"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-14T15:30:07-05:00",
+  "last_checked_at": "2026-11-15T08:11:59-05:00",
   "last_check_status": "new_findings"
 }
