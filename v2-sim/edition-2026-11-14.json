@@ -1,64 +1,92 @@
 {
-  "contract": "daily-edition-v1",
-  "edition": {
-    "date": "2026-11-14",
-    "type": "saturday",
-    "revision": 1
+ "contract": "daily-edition-v1",
+ "edition": {
+  "date": "2026-11-14",
+  "type": "saturday",
+  "revision": 1,
+  "slot": "morning"
+ },
+ "signals": {
+  "rows": [
+   {
+    "signal": "Prices and finance",
+    "status": "PRESSURE PERSISTS",
+    "evidence": "October PPI +0.3%; excluding food, energy and trade +0.5%. Verified 10-year yield 5.10% Nov 12.",
+    "tone": "watch"
+   },
+   {
+    "signal": "Demand and delivery",
+    "status": "STRONG SALES UNEVEN CONVERSION",
+    "evidence": "Equipment/networking sales strong; Nebius capacity delayed while contracts remain.",
+    "tone": "watch"
+   },
+   {
+    "signal": "Households and labor",
+    "status": "LOW FIRING WEAK TURNOVER",
+    "evidence": "Initial claims 200,000; October home sales −5.5% monthly.",
+    "tone": "watch"
+   },
+   {
+    "signal": "Energy and logistics",
+    "status": "RELIEF WITH INTERRUPTIONS",
+    "evidence": "IEA expects surplus but diesel tightness persists; FAA stop lifted Friday evening.",
+    "tone": "watch"
+   },
+   {
+    "signal": "Global and regional",
+    "status": "GROWTH NOT UNIFORM",
+    "evidence": "Euro-area GDP +0.4%, jobs flat; UK services stronger than construction; Brampton dispute unresolved.",
+    "tone": "watch"
+   }
+  ]
+ },
+ "outlook": {
+  "base": 42,
+  "bull": 7,
+  "bear": 51,
+  "cards": [
+   {
+    "key": "base",
+    "title": "Expansion continues under cost pressure",
+    "body": "Jobs and selective investment persist despite expensive finance. Support: strong realized sales, low layoffs and improving crude availability. Confirm: stable employment, funded schedules and collected cash. Invalidate: broad cancellations or funding failures; durable relief instead favors Bull."
+   },
+   {
+    "key": "bull",
+    "title": "Cost relief broadens into durable improvement",
+    "body": "Delivered energy and funding costs ease while real demand strengthens. Support: strong investment demand and scope for delivered-cost relief as crude availability improves. Confirm: relief across multiple sectors and repeated deliveries. Invalidate: persistent cost pressure or spreading deferrals."
+   },
+   {
+    "key": "bear",
+    "title": "Operating pressure spreads into retrenchment",
+    "body": "Cost and financing constraints cut orders, output and employment more broadly. Support: persistent price pressure, the verified 5.10% ten-year yield, weak housing and the cloud-capacity delay. Confirm: actual funding failures, cancellations and weaker labor demand. Invalidate: reliable delivery, sound financing and stronger real demand."
+   }
+  ],
+  "lede": "For the next two to four weeks, continued activity is the leading possibility, while financing costs and supply risk keep the downside substantial."
+ },
+ "levels": [
+  {
+   "name": "S&P 500",
+   "value_text": "7,561.67",
+   "change_text": "−0.40% daily; +2.51% week",
+   "direction": "down"
   },
-  "signals": {
-    "rows": [
-      {
-        "signal": "Prices and finance",
-        "status": "PRESSURE PERSISTS",
-        "evidence": "October PPI +0.3%; excluding food, energy and trade +0.5%. Verified 10-year yield 5.10% Nov 12.",
-        "tone": "watch"
-      },
-      {
-        "signal": "Demand and delivery",
-        "status": "STRONG SALES UNEVEN CONVERSION",
-        "evidence": "Equipment/networking sales strong; Nebius capacity delayed while contracts remain.",
-        "tone": "watch"
-      },
-      {
-        "signal": "Households and labor",
-        "status": "LOW FIRING WEAK TURNOVER",
-        "evidence": "Initial claims 200,000; October home sales −5.5% monthly.",
-        "tone": "watch"
-      },
-      {
-        "signal": "Energy and logistics",
-        "status": "RELIEF WITH INTERRUPTIONS",
-        "evidence": "IEA expects surplus but diesel tightness persists; FAA stop lifted Friday evening.",
-        "tone": "watch"
-      },
-      {
-        "signal": "Global and regional",
-        "status": "GROWTH NOT UNIFORM",
-        "evidence": "Euro-area GDP +0.4%, jobs flat; UK services stronger than construction; Brampton dispute unresolved.",
-        "tone": "watch"
-      }
-    ]
+  {
+   "name": "Nasdaq Composite",
+   "value_text": "25,136.27",
+   "change_text": "−0.91% daily; +2.26% week",
+   "direction": "down"
   },
-  "outlook": {
-    "base": 42,
-    "bull": 7,
-    "bear": 51,
-    "cards": [
-      {
-        "key": "base",
-        "title": "Expansion continues under cost pressure",
-        "body": "Jobs and selective investment persist despite expensive finance. Support: strong realized sales, low layoffs and improving crude availability. Confirm: stable employment, funded schedules and collected cash. Invalidate: broad cancellations or funding failures; durable relief instead favors Bull."
-      },
-      {
-        "key": "bull",
-        "title": "Cost relief broadens into durable improvement",
-        "body": "Delivered energy and funding costs ease while real demand strengthens. Support: strong investment demand and scope for delivered-cost relief as crude availability improves. Confirm: relief across multiple sectors and repeated deliveries. Invalidate: persistent cost pressure or spreading deferrals."
-      },
-      {
-        "key": "bear",
-        "title": "Operating pressure spreads into retrenchment",
-        "body": "Cost and financing constraints cut orders, output and employment more broadly. Support: persistent price pressure, the verified 5.10% ten-year yield, weak housing and the cloud-capacity delay. Confirm: actual funding failures, cancellations and weaker labor demand. Invalidate: reliable delivery, sound financing and stronger real demand."
-      }
-    ]
+  {
+   "name": "Dow",
+   "value_text": "52,347.55",
+   "change_text": "+0.10% daily; +2.07% week",
+   "direction": "up"
+  },
+  {
+   "name": "10-year Treasury",
+   "value_text": "5.10%",
+   "change_text": "+24bp vs Nov 6; Nov 12 verified",
+   "direction": "up"
   }
+ ]
 }
