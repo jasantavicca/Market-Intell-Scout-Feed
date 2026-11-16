@@ -1,8 +1,200 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-16T09:55:00-05:00",
-  "as_of_et": "November 16, 2026, 9:55 AM EST",
+  "generated_at": "2026-11-16T11:32:54-05:00",
+  "as_of_et": "November 16, 2026, 11:32 AM EST",
   "items": [
+    {
+      "id": "scout-20261116-1132-ai-cash-rout",
+      "observed_at": "2026-11-16T11:32:54-05:00",
+      "title": "AI-sector selling broadens in US cash trading",
+      "summary": "US chip and cloud-infrastructure shares extended their slide in Monday cash trading. The Nasdaq fell 2.1% at 10:15 a.m. ET, with AMD, Broadcom and CoreWeave weaker. Leadership and export-policy uncertainty are weighing on valuations ahead of Nvidia earnings, but weaker underlying chip demand is not yet established.",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "CRWV",
+        "GEV",
+        "QQQ"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "Data-center power",
+        "Cloud computing"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 16, 10:15 a.m. ET intraday snapshot",
+          "value": "Nasdaq -2.1%; S&P 500 -1.3%; NVDA -1.7%; AVGO -4.7%; AMD -4.7%; CRWV -6.4%; GEV -2.8% (AP); not closing prices"
+        },
+        {
+          "label": "Fundamentals",
+          "value": "Valuation, AI spending and governance concerns; customer order or shipment contraction not independently demonstrated"
+        },
+        {
+          "label": "Next checks and invalidation",
+          "value": "Nvidia earnings and guidance, export policy, chip orders, tech breadth and data-center project backlogs; resilient demand and price stabilization would weaken the selloff thesis"
+        }
+      ],
+      "key_finding": "AI-sector weakness has carried into cash-market trading, without proof of demand destruction.",
+      "sources": [
+        {
+          "title": "Associated Press November 16 market coverage",
+          "url": "https://apnews.com/article/stocks-markets-ai-nvidia-oil-us-35786b8f539ec95f16ae0500f71cfcc7"
+        },
+        {
+          "title": "Financial Times US technology market coverage",
+          "url": "https://www.ft.com/content/12d927a9-98b1-40b9-8f75-01fb56a693d1"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261116-0955-ai-sector-pressure"
+    },
+    {
+      "id": "scout-20261116-1132-oil-supply-divergence",
+      "observed_at": "2026-11-16T11:32:54-05:00",
+      "title": "Crude falls despite reported Hormuz tanker incident",
+      "summary": "Brent declined in Monday morning trading despite UKMTO reports of a tanker strike and fire. Reuters reported recovering Hormuz shipments and a projected supply surplus. This is a price response, not independent proof that all shipping routes are secure or that the reported strike caused no cargo loss.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Maritime shipping",
+        "Energy"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 16, 10:15 a.m. ET intraday",
+          "value": "Brent $93.32/bbl, down 2.6% (AP); not a settlement"
+        },
+        {
+          "label": "Reported physical-flow context",
+          "value": "Reuters describes recovering Hormuz shipments; independently reconciled vessel and cargo counts unavailable in this pass"
+        },
+        {
+          "label": "Security evidence",
+          "value": "UKMTO reported tanker projectile strike and engine-room fire; incremental export loss remains unverified"
+        },
+        {
+          "label": "Next checks and invalidation",
+          "value": "UKMTO follow-ups, vessel identity and cargo, transit counts, insurance premiums, Brent/WTI settlements, IEA/OPEC data; confirmed export loss would challenge the recovery narrative"
+        }
+      ],
+      "key_finding": "Oil-price weakness and tanker security incidents coexist; actual export losses remain unverified.",
+      "sources": [
+        {
+          "title": "Associated Press November 16 market coverage",
+          "url": "https://apnews.com/article/stocks-markets-ai-nvidia-oil-us-35786b8f539ec95f16ae0500f71cfcc7"
+        },
+        {
+          "title": "Reuters via Euronext: Middle East exports and oil outlook",
+          "url": "https://live.euronext.com/en/financial-news/oil-falls-recovering-middle-east-exports-bolster-surplus-outlook"
+        },
+        {
+          "title": "UKMTO official maritime incident listing",
+          "url": "https://www.ukmto.org/recent-incidents"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261116-0741-hormuz-tanker-fire"
+    },
+    {
+      "id": "scout-20261116-1132-dell-hpe-drawdown",
+      "observed_at": "2026-11-16T11:32:54-05:00",
+      "title": "Dell and HPE drawdowns contrast with reported AI infrastructure demand",
+      "summary": "Barron's reported substantial declines in Dell and HPE shares since October 9 despite large reported AI server orders and improving infrastructure revenue. Their coming earnings provide a test of whether backlog translates into cash and margins. These are fundamentals-versus-valuation watch-list cases, not verified undervaluations.",
+      "tickers": [
+        "DELL",
+        "HPE"
+      ],
+      "sectors": [
+        "AI infrastructure",
+        "Networking",
+        "Servers and storage"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Cumulative share-price drawdowns reported November 16",
+          "value": "DELL about -41%; HPE about -34% since October 9 (Barron's); not single-day returns"
+        },
+        {
+          "label": "Reported company fundamentals",
+          "value": "Dell disclosed approximately $95B AI-server backlog; HPE reported $12.2B quarterly revenue and $1.0B free cash flow"
+        },
+        {
+          "label": "Risks and next checks",
+          "value": "Customer financing and concentration, backlog conversion, component costs, margins and free cash flow; HPE November 23 and Dell November 24 earnings; cancellations or weak cash conversion would weaken the thesis"
+        }
+      ],
+      "key_finding": "Large reported share-price declines warrant testing against backlog quality and cash conversion.",
+      "sources": [
+        {
+          "title": "Barron's November 16 Dell and HPE coverage",
+          "url": "https://www.barrons.com/articles/dell-hpe-stock-price-earnings-ai-386e06fb"
+        },
+        {
+          "title": "Dell fiscal 2027 second-quarter results",
+          "url": "https://www.dell.com/en-us/newsroom/announcements/dell-technologies-delivers-second-quarter-fiscal-2027-financial-results"
+        },
+        {
+          "title": "HPE fiscal 2026 third-quarter results",
+          "url": "https://www.hpe.com/us/en/newsroom/press-release/2026/09/hpe-reports-fiscal-2026-third-quarter-results.html"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261116-1132-jnj-ollin-acquisition",
+      "observed_at": "2026-11-16T11:32:54-05:00",
+      "title": "Johnson & Johnson announces acquisition of Ollin Biosciences",
+      "summary": "Johnson & Johnson announced an agreement to acquire private ophthalmology biotech Ollin for $2.2 billion upfront plus contingent milestones. Blackstone would separately finance late-stage development of OLN324. The deal supports continued strategic interest in selected biotech assets, subject to clinical and transaction risks.",
+      "tickers": [
+        "JNJ"
+      ],
+      "sectors": [
+        "Biotechnology",
+        "Healthcare",
+        "Ophthalmology"
+      ],
+      "evidence_grade": "confirmed",
+      "observations": [
+        {
+          "label": "November 16 transaction announcement",
+          "value": "$2.2B upfront; up to $1.125B contingent milestones; anticipated closing by year-end 2026"
+        },
+        {
+          "label": "Separate development funding",
+          "value": "Blackstone financing of $750M over multiple years for Phase 3, contingent on close; not additional purchase consideration"
+        },
+        {
+          "label": "Market reaction",
+          "value": "No independently verified time-matched JNJ intraday percentage move"
+        },
+        {
+          "label": "Risks and next checks",
+          "value": "Phase 3 efficacy/safety, competition, regulatory approvals and closing; trial failure or delayed close would weaken outlook"
+        }
+      ],
+      "key_finding": "Multibillion-dollar biotech M&A and trial financing highlight demand for selected late-stage assets.",
+      "sources": [
+        {
+          "title": "Johnson & Johnson November 16 acquisition announcement",
+          "url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-to-acquire-ollin-biosciences-and-late-stage-bispecific-antibody-with-best-in-class-potential-in-ophthalmology"
+        },
+        {
+          "title": "Wall Street Journal transaction coverage",
+          "url": "https://www.wsj.com/health/pharma/johnson-johnson-to-buy-ollin-biosciences-for-2-2-billion-dee42c0c"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261116-0955-smmt-market-repricing",
       "observed_at": "2026-11-16T09:55:00-05:00",
@@ -43,185 +235,8 @@
       ],
       "status": "updated",
       "supersedes": "scout-20261115-1010-smmt-fda-crl"
-    },
-    {
-      "id": "scout-20261116-0955-ai-sector-pressure",
-      "observed_at": "2026-11-16T09:55:00-05:00",
-      "title": "AI-related stocks face renewed premarket selling ahead of Nvidia earnings",
-      "summary": "Nasdaq-100 futures fell about 0.9% and Nvidia approximately 3.5% in early premarket reports as investors weighed leadership and export-control uncertainty before November 17 earnings. Asian technology stocks also weakened. These are premarket indications, not confirmed regular-session moves or proof of weaker underlying compute demand.",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "QQQ"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "AI infrastructure",
-        "Software and networking"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Early premarket observations November 16",
-          "value": "Nasdaq-100 futures about -0.9%; NVDA about -3.5%, Investing.com 07:22 ET report"
-        },
-        {
-          "label": "Catalysts",
-          "value": "Nvidia leadership uncertainty, export-control concerns, November 17 earnings and Anthropic IPO week"
-        },
-        {
-          "label": "Next checks",
-          "value": "Regular-session breadth and closing prices, Nvidia guidance, supplier orders, cash conversion and formal export policy; stabilization and resilient demand would weaken selloff thesis"
-        }
-      ],
-      "key_finding": "Selling pressure is spreading through AI exposure ahead of a major earnings and policy catalyst week.",
-      "sources": [
-        {
-          "title": "Investing.com: November 16 premarket movers",
-          "url": "https://www.investing.com/news/stock-market-news/premarket-movers-nvidia-intel-fall-jj-gains-5029397"
-        },
-        {
-          "title": "Reuters: Tech's telltale week",
-          "url": "https://www.investing.com/news/commodities-news/morning-bid-techs-telltale-week-5029120"
-        }
-      ],
-      "status": "new",
-      "supersedes": "scout-20261115-1414-nvidia-succession"
-    },
-    {
-      "id": "scout-20261116-0741-hormuz-tanker-fire",
-      "observed_at": "2026-11-16T07:41:00-05:00",
-      "title": "UKMTO reports tanker projectile strike and engine-room fire in Strait of Hormuz",
-      "summary": "UKMTO Incident 207 reports an outbound tanker struck by an unknown projectile in the Strait of Hormuz, causing an engine-room fire; crew are accounted for and no casualties are reported. A separate incident east of Socotra involved armed persons approaching a tanker. Neither report yet establishes cargo loss or a sustained interruption to oil flows.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Maritime shipping",
-        "Geopolitical risk"
-      ],
-      "evidence_grade": "single-source",
-      "observations": [
-        {
-          "label": "Official warning",
-          "value": "UKMTO #207, November 16: outbound Hormuz tanker reportedly struck; engine-room fire; no casualties"
-        },
-        {
-          "label": "Related maritime report",
-          "value": "UKMTO #206, November 16: suspected mothership and armed skiff approached tanker 430 nautical miles east of Socotra; report cites 0330 UTC"
-        },
-        {
-          "label": "Physical-flow verification",
-          "value": "Damage, cargo status and environmental impact not yet determined; no confirmed incremental oil-export loss"
-        },
-        {
-          "label": "Market confirmation and next checks",
-          "value": "No verified reaction attributable to these incidents at 07:41 EST; monitor Brent/WTI, XLE/XOP, vessel identity, transits, UKMTO updates and freight/insurance; safe passage without cargo loss would weaken supply-disruption thesis"
-        }
-      ],
-      "key_finding": "A reported tanker strike and fire raise immediate Hormuz shipping risk, but oil-flow disruption remains unverified.",
-      "sources": [
-        {
-          "title": "UKMTO official recent incidents #207 and #206",
-          "url": "https://www.ukmto.org/recent-incidents"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261115-1414-hormuz-ukmto-warning",
-      "observed_at": "2026-11-15T14:14:22-05:00",
-      "title": "UKMTO issues warning about tanker attack report near Strait of Hormuz",
-      "summary": "UKMTO Warning 205-26 records an attack report involving an eastbound tanker approaching the Strait of Hormuz. The crew was reported safe, while damage and environmental impact were undetermined. The warning does not establish a sinking or incremental oil-export loss.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Maritime shipping",
-        "Geopolitical risk"
-      ],
-      "evidence_grade": "single-source",
-      "observations": [
-        {
-          "label": "Official report",
-          "value": "UKMTO Warning 205-26, November 15, 2026; tanker attack report approaching Strait of Hormuz"
-        },
-        {
-          "label": "Physical-flow verification",
-          "value": "No confirmed incremental oil-export loss; vessel damage and cargo status unresolved"
-        },
-        {
-          "label": "Market reaction",
-          "value": "No Sunday US equity session; Friday Brent settlement is not a response to this warning"
-        },
-        {
-          "label": "Risk and next checks",
-          "value": "UKMTO updates, vessel identity and AIS, cargo/damage assessment, transit rates, war-risk premiums; safe transit and no damage would weaken supply-risk interpretation"
-        }
-      ],
-      "key_finding": "Official maritime warning warrants attention, but physical supply disruption is not established.",
-      "sources": [
-        {
-          "title": "UKMTO Warning 205-26",
-          "url": "https://www.ukmto.org/-/media/ukmto/products/20261115-ukmto_warning-205-26.pdf?rev=b307e1c9006b48de8d3836cda746b127"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261115-1414-nvidia-succession",
-      "observed_at": "2026-11-15T14:14:22-05:00",
-      "title": "US Treasury Secretary publicly presses Nvidia on CEO succession and export compliance",
-      "summary": "Reuters reports Treasury Secretary Scott Bessent urged Nvidia to appoint an outside CEO and respond to export-compliance questions within ten days. Nvidia has named an interim CEO amid its leadership transition. The comments increase governance and regulatory uncertainty but are not a formal enforcement finding.",
-      "tickers": [
-        "NVDA"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "AI infrastructure",
-        "Export controls"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 15 public comments",
-          "value": "Bessent urged an outside CEO and answers to compliance questions within ten days"
-        },
-        {
-          "label": "Market reaction",
-          "value": "No Sunday US regular-session price reaction available"
-        },
-        {
-          "label": "Fundamental risks",
-          "value": "Leadership continuity, export licensing, China sales and potential enforcement"
-        },
-        {
-          "label": "Next checks",
-          "value": "Nvidia board response, formal agency actions and November 17 earnings; clean compliance findings and orderly succession could soften risk"
-        }
-      ],
-      "key_finding": "Public regulatory pressure raises Nvidia leadership and export-control uncertainty ahead of earnings.",
-      "sources": [
-        {
-          "title": "Reuters: Bessent urges Nvidia to choose outside CEO",
-          "url": "https://www.investing.com/news/economy-news/bessent-says-nvidia-must-go-outside-the-company-to-find-new-ceo-5028004"
-        },
-        {
-          "title": "Nvidia CEO transition announcement",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-16T09:55:00-05:00",
+  "last_checked_at": "2026-11-16T11:32:54-05:00",
   "last_check_status": "new_findings"
 }
