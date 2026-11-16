@@ -1,8 +1,71 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-16T13:28:57-05:00",
-  "as_of_et": "November 16, 2026, 1:28 PM EST",
+  "generated_at": "2026-11-16T14:27:45-05:00",
+  "as_of_et": "November 16, 2026, 2:27 PM EST",
   "items": [
+    {
+      "id": "scout-20261116-1427-red-sea-saudi-command",
+      "observed_at": "2026-11-16T14:27:45-05:00",
+      "title": "Saudi coalition command replaced after Bab el-Mandeb retreat intensifies dual-chokepoint risk",
+      "summary": "Saudi Arabia replaced its Yemen coalition commander on November 16 after government-aligned forces withdrew from near Bab el-Mandeb on November 15. Reuters reports further Houthi advances; MARAD already warns increased coastline control raises risks to shipping. Hormuz tanker attacks add a second chokepoint threat, but incremental physical oil-export losses have not been verified.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Maritime shipping",
+        "Energy security"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Political and security developments, November 16",
+          "value": "Reuters: Saudi coalition leadership replaced; military sources describe Houthi gains along southern Yemeni coast after November 15 Bab el-Mandeb retreat"
+        },
+        {
+          "label": "Brent intraday snapshot, November 16 10:54 AM EST",
+          "value": "Approximately $93.65 per barrel, -2.29% versus prior settlement, per TankerBrief delayed quote; not a closing or settlement figure"
+        },
+        {
+          "label": "Hormuz security context, November 16 00:58 AM EST (05:58 UTC)",
+          "value": "UKMTO 207-26: tanker struck by unknown projectile outbound, engine-room fire, no reported casualties; cargo or export-volume impacts unverified"
+        },
+        {
+          "label": "Physical-flow status",
+          "value": "No independently corroborated incremental export loss or contemporary ship-transit counts attributable to November 16 coastal developments"
+        },
+        {
+          "label": "Next checks and invalidation",
+          "value": "UKMTO/MARAD incidents, Bab el-Mandeb transits, AIS caveats, insurance and freight quotes, Yanbu loadings, Brent/WTI and XLE/XOP; continued normal traffic and loadings would weaken escalation risk, while verified cargo disruptions strengthen it"
+        }
+      ],
+      "key_finding": "Saudi battlefield retreat and command change increase Red Sea shipping exposure, without proof of a fresh sustained oil-flow outage.",
+      "sources": [
+        {
+          "title": "Reuters via Al-Monitor, November 16: Saudi coalition commander replaced",
+          "url": "https://www.al-monitor.com/originals/2026/11/after-yemen-setback-saudi-arabia-replaces-military-commander"
+        },
+        {
+          "title": "Reuters via Investing.com, November 15: Bab el-Mandeb withdrawal",
+          "url": "https://www.investing.com/news/world-news/yemen-government-forces-withdraw-from-area-near-bab-elmandeb-strait-houthis-in-control-5027740"
+        },
+        {
+          "title": "US MARAD 2026-013 Houthi vessel attack advisory",
+          "url": "https://www.maritime.dot.gov/msci/2026-013-red-sea-bab-el-mandeb-strait-gulf-aden-arabian-sea-and-somali-basin-houthi-attacks"
+        },
+        {
+          "title": "UKMTO official November 16 Warning 207-26",
+          "url": "https://www.ukmto.org/-/media/ukmto/products/20261116-ukmto_warning_207-26.pdf?rev=b7a05cc809114a4c9bb82eb10734d893"
+        },
+        {
+          "title": "TankerBrief November 16 intraday Brent snapshot",
+          "url": "https://tankerbrief.com/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261116-1328-cgon-phase3",
       "observed_at": "2026-11-16T13:28:57-05:00",
@@ -193,59 +256,8 @@
       ],
       "status": "updated",
       "supersedes": "scout-20261116-0955-ai-sector-pressure"
-    },
-    {
-      "id": "scout-20261116-1132-oil-supply-divergence",
-      "observed_at": "2026-11-16T11:32:54-05:00",
-      "title": "Crude falls despite reported Hormuz tanker incident",
-      "summary": "Brent declined in Monday morning trading despite UKMTO reports of a tanker strike and fire. Reuters reported recovering Hormuz shipments and a projected supply surplus. This is a price response, not independent proof that all shipping routes are secure or that the reported strike caused no cargo loss.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Maritime shipping",
-        "Energy"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 16, 10:15 a.m. ET intraday",
-          "value": "Brent $93.32/bbl, down 2.6% (AP); not a settlement"
-        },
-        {
-          "label": "Reported physical-flow context",
-          "value": "Reuters describes recovering Hormuz shipments; independently reconciled vessel and cargo counts unavailable in this pass"
-        },
-        {
-          "label": "Security evidence",
-          "value": "UKMTO reported tanker projectile strike and engine-room fire; incremental export loss remains unverified"
-        },
-        {
-          "label": "Next checks and invalidation",
-          "value": "UKMTO follow-ups, vessel identity and cargo, transit counts, insurance premiums, Brent/WTI settlements, IEA/OPEC data; confirmed export loss would challenge the recovery narrative"
-        }
-      ],
-      "key_finding": "Oil-price weakness and tanker security incidents coexist; actual export losses remain unverified.",
-      "sources": [
-        {
-          "title": "Associated Press November 16 market coverage",
-          "url": "https://apnews.com/article/stocks-markets-ai-nvidia-oil-us-35786b8f539ec95f16ae0500f71cfcc7"
-        },
-        {
-          "title": "Reuters via Euronext: Middle East exports and oil outlook",
-          "url": "https://live.euronext.com/en/financial-news/oil-falls-recovering-middle-east-exports-bolster-surplus-outlook"
-        },
-        {
-          "title": "UKMTO official maritime incident listing",
-          "url": "https://www.ukmto.org/recent-incidents"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261116-0741-hormuz-tanker-fire"
     }
   ],
-  "last_checked_at": "2026-11-16T13:28:57-05:00",
+  "last_checked_at": "2026-11-16T14:27:45-05:00",
   "last_check_status": "new_findings"
 }
