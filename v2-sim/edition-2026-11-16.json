@@ -1,0 +1,48 @@
+{
+  "contract": "daily-edition-v1",
+  "edition": {
+    "date": "2026-11-16",
+    "type": "weekday",
+    "revision": 1
+  },
+  "signals": {
+    "rows": [
+      {
+        "signal": "Financial conditions",
+        "status": "PRESSURE SPREADS",
+        "evidence": "10-year par yield 5.15%, 2-year 4.88% Friday; S&P futures −0.36%, Nasdaq 100 futures −0.97% Monday.",
+        "tone": "watch"
+      },
+      {
+        "signal": "Energy and physical flows",
+        "status": "CRUDE RELIEF; DELIVERY RISK",
+        "evidence": "Brent $95.15, WTI $88.19 in timed Monday snapshot. IEA sees rebalancing, with diesel and freight still costly. Attacks do not quantify exports lost.",
+        "tone": "watch"
+      },
+      {
+        "signal": "Electronics and capital spending",
+        "status": "DEMAND REAL; FINANCING EXPOSED",
+        "evidence": "Asian chip shares fell Monday; Nov 12 AMAT revenue +53% and Eaton Q3 organic growth +19% counter a demand-collapse claim.",
+        "tone": "watch"
+      },
+      {
+        "signal": "Consumer and labor",
+        "status": "TRANSACTIONS WEAK; FIRING LOW",
+        "evidence": "Home sales 3.75m annual pace, −5.5% monthly; initial claims 200,000. October retail sales remain unreleased.",
+        "tone": "watch"
+      },
+      {
+        "signal": "Autos and embedded",
+        "status": "SCHEDULES NEED CONFIRMATION",
+        "evidence": "West Michigan orders +9, production +13, lead times +47 diffusion indexes; Windsor's planned three-shift restart is due today, not verified output.",
+        "tone": "watch"
+      },
+      {
+        "signal": "Global demand and trade",
+        "status": "DOMESTIC DEMAND SOFTENS",
+        "evidence": "China output +4.8% annually, retail +0.4%; Japan GDP −0.1% annualized. Canadian trailer tariff-relief exception begins Dec 1.",
+        "tone": "watch"
+      }
+    ]
+  }
+}

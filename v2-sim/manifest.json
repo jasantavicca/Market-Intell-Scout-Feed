@@ -1,7 +1,10 @@
 {
   "current": {
+    "snapshot": "edition-2026-11-16.json",
+    "sha256": "99472f7c4d9bee8bf2d6146d08556c840f2422230938609ca3b3beb739a515be"
+  },
+  "previous": {
     "snapshot": "edition-2026-11-14.json",
     "sha256": "ba1042c53ffe5f9f0e03c7ad5ba3145804041c23790ff1ae561da9e36e56355d"
-  },
-  "previous": null
+  }
 }
