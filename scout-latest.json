@@ -1,8 +1,109 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-16T15:31:07-05:00",
-  "as_of_et": "November 16, 2026, 3:31 PM EST",
+  "generated_at": "2026-11-16T16:34:19-05:00",
+  "as_of_et": "November 16, 2026, 4:34 PM EST",
   "items": [
+    {
+      "id": "scout-20261116-1634-semiconductor-closing-rout",
+      "observed_at": "2026-11-16T16:34:19-05:00",
+      "title": "Semiconductor index closes down five percent as AI selloff broadens",
+      "summary": "Monday's US closing session confirmed a broad semiconductor rout: the PHLX semiconductor index fell 5%, with Micron, AMD, Intel, Marvell and Arm each down at least 6%. The Nasdaq lost 2.5% and S&P 500 lost 1.9%. Nvidia leadership uncertainty, tightening export policy and AI financing concerns contributed, but an industry-wide customer-demand collapse is unproven.",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "MU",
+        "INTC",
+        "MRVL",
+        "ARM",
+        "SOX",
+        "QQQ"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "Networking",
+        "Technology"
+      ],
+      "evidence_grade": "confirmed",
+      "observations": [
+        {
+          "label": "November 16 US closing market",
+          "value": "SOX -5.0%; Nasdaq Composite -2.5%; S&P 500 -1.9%; Nvidia about -4%; AP/Barron's/MarketWatch"
+        },
+        {
+          "label": "Semiconductor breadth",
+          "value": "MU, AMD, INTC, MRVL and ARM each closed at least -6% (MarketWatch)"
+        },
+        {
+          "label": "Catalyst, risks and next checks",
+          "value": "Nvidia November 17 earnings and guidance, export restrictions, AI financing, confirmed order demand and sector breadth; firm end-demand data and broad stabilization would challenge the selloff narrative"
+        }
+      ],
+      "key_finding": "Confirmed close shows AI-linked selling has broadened into a material semiconductor-sector rout.",
+      "sources": [
+        {
+          "title": "MarketWatch November 16 semiconductor closing report",
+          "url": "https://www.marketwatch.com/story/micron-amd-and-other-ai-stocks-fall-as-the-chip-sectors-selloff-intensifies-48e38bdf"
+        },
+        {
+          "title": "AP November 16 US closing market coverage",
+          "url": "https://apnews.com/article/stocks-markets-ai-nvidia-oil-us-35786b8f539ec95f16ae0500f71cfcc7"
+        },
+        {
+          "title": "Barron's November 16 closing market recap",
+          "url": "https://www.barrons.com/livecoverage/stock-market-news-today-111626/card/s-p-500-tumbles-1-9-it-s-not-just-ai--FDvmQloAfOi6OQeFoldW"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261116-1132-ai-cash-rout"
+    },
+    {
+      "id": "scout-20261116-1634-oil-settlement-divergence",
+      "observed_at": "2026-11-16T16:34:19-05:00",
+      "title": "Oil settles sharply lower despite continuing Middle East maritime warnings",
+      "summary": "Brent settled at $92.44 and WTI at $85.72, both more than 3% lower despite tanker-security reports near Hormuz and rising concerns around Bab el-Mandeb. The price action favors expectations of recovering shipments and supply surplus, not proof that shipping is safe. No additional sustained physical export loss was independently established during this pass.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Energy",
+        "Maritime shipping"
+      ],
+      "evidence_grade": "confirmed",
+      "observations": [
+        {
+          "label": "November 16 crude futures settlement",
+          "value": "Brent $92.44/bbl, -3.55%; WTI $85.72/bbl, -3.21%; corroborated by Newsquawk and Xinhua/WSJ"
+        },
+        {
+          "label": "Physical flow versus threat",
+          "value": "Reuters reports Hormuz flows nearly back to pre-war levels; tanker attacks/security concerns persist; no independently documented additional sustained export volume loss"
+        },
+        {
+          "label": "Risks and next checks",
+          "value": "UKMTO/MARAD reports, Hormuz and Bab el-Mandeb transit counts, freight/insurance rates, Yanbu loadings, API/EIA and XLE/XOP relative strength; confirmed export curtailments would invalidate the surplus-dominant interpretation"
+        }
+      ],
+      "key_finding": "Confirmed crude settlement decline shows surplus expectations outweigh maritime risk for now.",
+      "sources": [
+        {
+          "title": "Newsquawk November 16 Brent and WTI settlements",
+          "url": "https://www.newsquawk.com/headlines/crude-wrap-wti-z6-settles-usd-284-lower-at-8572bbl-brent-f7-settles-usd-340-lower-at-9244bbl"
+        },
+        {
+          "title": "Wall Street Journal November 16 crude settlement coverage",
+          "url": "https://www.wsj.com/finance/commodities-futures/oil-prices-rise-as-fresh-attacks-renew-middle-east-supply-concerns-bee22d97"
+        },
+        {
+          "title": "Reuters November 16 oil supply and Hormuz shipments",
+          "url": "https://www.marketscreener.com/news/oil-prices-fall-on-expectations-of-coming-supply-surplus-ce785ededf81f320"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261116-1132-oil-supply-divergence"
+    },
     {
       "id": "scout-20261116-1531-bank-service-disruptions",
       "observed_at": "2026-11-16T15:31:07-05:00",
@@ -164,101 +265,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261116-1328-telus-bid",
-      "observed_at": "2026-11-16T13:28:57-05:00",
-      "title": "Quebecor acquisition proposal triggers TELUS repricing",
-      "summary": "Quebecor publicly disclosed a conditional, non-binding cash-and-share proposal to acquire TELUS. TELUS confirmed an independent review and emphasized significant Canadian regulatory and financing risks. The headline premium is not a binding or guaranteed realization.",
-      "tickers": [
-        "TU",
-        "T.TO",
-        "QBR.B.TO"
-      ],
-      "sectors": [
-        "Telecommunications",
-        "Networking",
-        "Canada"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 16, 9:30 AM ET intraday opening print",
-          "value": "TU opened $9.61 versus $8.53 on November 13, approximately +12.7%; opening quote, not a closing price (StockTitan)"
-        },
-        {
-          "label": "Offer terms using November 13 valuation",
-          "value": "C$6.35 cash plus 0.1700 Quebecor Class B shares per TELUS share; company-estimated value C$19.45 per share and approximately 60% premium to prior Toronto close; stock consideration value fluctuates"
-        },
-        {
-          "label": "Fundamental assessment",
-          "value": "Potential national telecom consolidation and synergies versus material spectrum, competition, financial leverage and governance constraints"
-        },
-        {
-          "label": "Risks, invalidation and next indicators",
-          "value": "TELUS special committee, binding terms, regulatory approvals, spectrum remedies and Quebecor funding; withdrawal or prohibitive conditions could eliminate deal premium"
-        }
-      ],
-      "key_finding": "A public takeover proposal creates material price dislocation with substantial approval and execution risk.",
-      "sources": [
-        {
-          "title": "Quebecor November 16 official proposal",
-          "url": "https://www.quebecor.com/en/-/a-venir-1443"
-        },
-        {
-          "title": "TELUS November 16 special-committee response",
-          "url": "https://www.telus.com/en/about/news-and-events/media-releases/TELUS-confirms-receipt-of-unsolicited-proposal"
-        },
-        {
-          "title": "StockTitan November 16 market observations",
-          "url": "https://www.stocktitan.net/articles/telus-quebecor-offer-2026-stock-below-offer-value"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261116-1309-helus-phase3",
-      "observed_at": "2026-11-16T13:09:00-05:00",
-      "title": "Helus Phase 3 efficacy contrasts with sharp intraday decline",
-      "summary": "Helus reported a statistically significant 7.6-point placebo-adjusted depression-score benefit at Week 6, sustained at Week 12. A timestamped 10:01 AM ET quote showed HELP down 19.62% intraday. Safety, financing and confirmatory-trial risks remain.",
-      "tickers": [
-        "HELP"
-      ],
-      "sectors": [
-        "Biotechnology",
-        "Healthcare"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "10:01 AM ET intraday snapshot",
-          "value": "HELP $7.13, -19.62%; not a closing price"
-        },
-        {
-          "label": "Clinical efficacy",
-          "value": "Week 6 MADRS placebo-adjusted -7.6 points, p<0.0001; Week 12 -7.0 points"
-        },
-        {
-          "label": "Risks and next checks",
-          "value": "Three treatment-related serious adverse events; full safety data, financing and EMBRACE replication"
-        }
-      ],
-      "key_finding": "Positive pivotal efficacy and sharp intraday weakness warrant monitoring safety and financing.",
-      "sources": [
-        {
-          "title": "Helus official Phase 3 results",
-          "url": "https://ir.helus.com/news-releases/news-release-details/helus-pharma-announces-positive-topline-results-phase-3-approach"
-        },
-        {
-          "title": "StockAnalysis timestamped intraday quote",
-          "url": "https://stockanalysis.com/stocks/help/transcripts/802555-study-result/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-16T15:31:07-05:00",
+  "last_checked_at": "2026-11-16T16:34:19-05:00",
   "last_check_status": "new_findings"
 }
