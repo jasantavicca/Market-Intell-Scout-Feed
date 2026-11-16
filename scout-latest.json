@@ -1,8 +1,81 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-16T11:32:54-05:00",
-  "as_of_et": "November 16, 2026, 11:32 AM EST",
+  "generated_at": "2026-11-16T13:09:00-05:00",
+  "as_of_et": "November 16, 2026, 1:09 PM EST",
   "items": [
+    {
+      "id": "scout-20261116-1309-helus-phase3",
+      "observed_at": "2026-11-16T13:09:00-05:00",
+      "title": "Helus Phase 3 efficacy contrasts with sharp intraday decline",
+      "summary": "Helus reported a statistically significant 7.6-point placebo-adjusted depression-score benefit at Week 6, sustained at Week 12. A timestamped 10:01 AM ET quote showed HELP down 19.62% intraday. Safety, financing and confirmatory-trial risks remain.",
+      "tickers": [
+        "HELP"
+      ],
+      "sectors": [
+        "Biotechnology",
+        "Healthcare"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "10:01 AM ET intraday snapshot",
+          "value": "HELP $7.13, -19.62%; not a closing price"
+        },
+        {
+          "label": "Clinical efficacy",
+          "value": "Week 6 MADRS placebo-adjusted -7.6 points, p<0.0001; Week 12 -7.0 points"
+        },
+        {
+          "label": "Risks and next checks",
+          "value": "Three treatment-related serious adverse events; full safety data, financing and EMBRACE replication"
+        }
+      ],
+      "key_finding": "Positive pivotal efficacy and sharp intraday weakness warrant monitoring safety and financing.",
+      "sources": [
+        {
+          "title": "Helus official Phase 3 results",
+          "url": "https://ir.helus.com/news-releases/news-release-details/helus-pharma-announces-positive-topline-results-phase-3-approach"
+        },
+        {
+          "title": "StockAnalysis timestamped intraday quote",
+          "url": "https://stockanalysis.com/stocks/help/transcripts/802555-study-result/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261116-1309-uniper-grid",
+      "observed_at": "2026-11-16T13:09:00-05:00",
+      "title": "Uniper reports 700 MW secured grid access for potential data centers",
+      "summary": "Uniper announced roughly 700 MW of secured grid capacity for potential European data-center development and about €6 billion in broader growth capex. Existing connections could shorten infrastructure lead times. Completed customer agreements and project economics remain unverified.",
+      "tickers": [],
+      "sectors": [
+        "Utilities",
+        "Data-center power",
+        "European infrastructure"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 16 company strategy update",
+          "value": "~700 MW secured grid capacity; ~€6 billion broader growth capex"
+        },
+        {
+          "label": "Next checks and invalidation",
+          "value": "Signed customer contracts, grid energization, permitting and capital returns; stalled contracts would weaken opportunity"
+        }
+      ],
+      "key_finding": "Secured grid capacity may be an increasingly valuable European data-center asset.",
+      "sources": [
+        {
+          "title": "Uniper November 16 strategy announcement",
+          "url": "https://www.uniper.energy/news/uniper-sets-out-path-to-pursue-profitable-growth-and-attractive-shareholder-returns"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261116-1132-ai-cash-rout",
       "observed_at": "2026-11-16T11:32:54-05:00",
@@ -148,95 +221,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261116-1132-jnj-ollin-acquisition",
-      "observed_at": "2026-11-16T11:32:54-05:00",
-      "title": "Johnson & Johnson announces acquisition of Ollin Biosciences",
-      "summary": "Johnson & Johnson announced an agreement to acquire private ophthalmology biotech Ollin for $2.2 billion upfront plus contingent milestones. Blackstone would separately finance late-stage development of OLN324. The deal supports continued strategic interest in selected biotech assets, subject to clinical and transaction risks.",
-      "tickers": [
-        "JNJ"
-      ],
-      "sectors": [
-        "Biotechnology",
-        "Healthcare",
-        "Ophthalmology"
-      ],
-      "evidence_grade": "confirmed",
-      "observations": [
-        {
-          "label": "November 16 transaction announcement",
-          "value": "$2.2B upfront; up to $1.125B contingent milestones; anticipated closing by year-end 2026"
-        },
-        {
-          "label": "Separate development funding",
-          "value": "Blackstone financing of $750M over multiple years for Phase 3, contingent on close; not additional purchase consideration"
-        },
-        {
-          "label": "Market reaction",
-          "value": "No independently verified time-matched JNJ intraday percentage move"
-        },
-        {
-          "label": "Risks and next checks",
-          "value": "Phase 3 efficacy/safety, competition, regulatory approvals and closing; trial failure or delayed close would weaken outlook"
-        }
-      ],
-      "key_finding": "Multibillion-dollar biotech M&A and trial financing highlight demand for selected late-stage assets.",
-      "sources": [
-        {
-          "title": "Johnson & Johnson November 16 acquisition announcement",
-          "url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-to-acquire-ollin-biosciences-and-late-stage-bispecific-antibody-with-best-in-class-potential-in-ophthalmology"
-        },
-        {
-          "title": "Wall Street Journal transaction coverage",
-          "url": "https://www.wsj.com/health/pharma/johnson-johnson-to-buy-ollin-biosciences-for-2-2-billion-dee42c0c"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261116-0955-smmt-market-repricing",
-      "observed_at": "2026-11-16T09:55:00-05:00",
-      "title": "Summit Therapeutics drops sharply premarket following FDA complete response letter",
-      "summary": "Summit Therapeutics traded around $11.68, down 17.5% premarket, after the FDA declined to approve the current ivonescimab application because overall-survival benefit was not statistically significant. The rejection delays the indication's US launch, while other trials remain active. This is a preliminary premarket price response, not a confirmed closing move.",
-      "tickers": [
-        "SMMT"
-      ],
-      "sectors": [
-        "Biotechnology",
-        "Oncology"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Premarket observation November 16",
-          "value": "SMMT approximately $11.68, -17.5%, reported pre-open; not a closing price"
-        },
-        {
-          "label": "Catalyst",
-          "value": "November 15 FDA Complete Response Letter; insufficient evidence of statistically significant overall survival benefit"
-        },
-        {
-          "label": "Next checks",
-          "value": "Regular-session price/volume, HARMONi-3 data, regulatory pathway and cash runway; compelling survival results could improve outlook"
-        }
-      ],
-      "key_finding": "SMMT's FDA setback is now associated with a material premarket repricing, while pipeline value remains uncertain.",
-      "sources": [
-        {
-          "title": "Investing.com: Summit Therapeutics premarket reaction November 16",
-          "url": "https://in.investing.com/news/stock-market-news/why-is-summit-therapeutics-stock-plunging-today-93CH-5706106"
-        },
-        {
-          "title": "StockTitan: November 16 premarket movers",
-          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-16-2026"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261115-1010-smmt-fda-crl"
     }
   ],
-  "last_checked_at": "2026-11-16T11:32:54-05:00",
+  "last_checked_at": "2026-11-16T13:09:00-05:00",
   "last_check_status": "new_findings"
 }
