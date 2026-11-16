@@ -55,21 +55,24 @@
       "base": 52,
       "bull": 12,
       "bear": 36,
-      "method": "Original Saturday production issue"
+      "method": "Original Saturday production issue",
+      "strong": true
     },
     {
       "date": "2026-10-24",
       "base": 49,
       "bull": 13,
       "bear": 38,
-      "method": "Original Saturday production issue"
+      "method": "Original Saturday production issue",
+      "strong": true
     },
     {
       "date": "2026-10-31",
       "base": 46,
       "bull": 12,
       "bear": 42,
-      "method": "Original Saturday production issue"
+      "method": "Original Saturday production issue",
+      "strong": true
     },
     {
       "date": "2026-11-07",
