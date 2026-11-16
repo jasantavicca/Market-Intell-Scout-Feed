@@ -1,8 +1,51 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-15T14:14:22-05:00",
-  "as_of_et": "November 15, 2026, 2:14 PM EST",
+  "generated_at": "2026-11-16T07:41:00-05:00",
+  "as_of_et": "November 16, 2026, 7:41 AM EST",
   "items": [
+    {
+      "id": "scout-20261116-0741-hormuz-tanker-fire",
+      "observed_at": "2026-11-16T07:41:00-05:00",
+      "title": "UKMTO reports tanker projectile strike and engine-room fire in Strait of Hormuz",
+      "summary": "UKMTO Incident 207 reports an outbound tanker struck by an unknown projectile in the Strait of Hormuz, causing an engine-room fire; crew are accounted for and no casualties are reported. A separate incident east of Socotra involved armed persons approaching a tanker. Neither report yet establishes cargo loss or a sustained interruption to oil flows.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Maritime shipping",
+        "Geopolitical risk"
+      ],
+      "evidence_grade": "single-source",
+      "observations": [
+        {
+          "label": "Official warning",
+          "value": "UKMTO #207, November 16: outbound Hormuz tanker reportedly struck; engine-room fire; no casualties"
+        },
+        {
+          "label": "Related maritime report",
+          "value": "UKMTO #206, November 16: suspected mothership and armed skiff approached tanker 430 nautical miles east of Socotra; report cites 0330 UTC"
+        },
+        {
+          "label": "Physical-flow verification",
+          "value": "Damage, cargo status and environmental impact not yet determined; no confirmed incremental oil-export loss"
+        },
+        {
+          "label": "Market confirmation and next checks",
+          "value": "No verified reaction attributable to these incidents at 07:41 EST; monitor Brent/WTI, XLE/XOP, vessel identity, transits, UKMTO updates and freight/insurance; safe passage without cargo loss would weaken supply-disruption thesis"
+        }
+      ],
+      "key_finding": "A reported tanker strike and fire raise immediate Hormuz shipping risk, but oil-flow disruption remains unverified.",
+      "sources": [
+        {
+          "title": "UKMTO official recent incidents #207 and #206",
+          "url": "https://www.ukmto.org/recent-incidents"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261115-1414-hormuz-ukmto-warning",
       "observed_at": "2026-11-15T14:14:22-05:00",
@@ -191,59 +234,8 @@
       ],
       "status": "updated",
       "supersedes": "scout-20261114-1231-fda-binary-catalysts"
-    },
-    {
-      "id": "scout-20261115-0811-bab-el-mandeb-withdrawal",
-      "observed_at": "2026-11-15T08:11:59-05:00",
-      "title": "Yemeni government forces withdraw from Bab el-Mandeb positions, increasing Houthi leverage over Red Sea shipping",
-      "summary": "Saudi-backed Yemeni forces announced withdrawal from positions near Dhubab and Bab el-Mandeb, redeploying toward Aden. Reuters and the Financial Times corroborate the territorial change, which increases Houthi leverage over a major shipping chokepoint. No incremental vessel damage, closure or export loss from this withdrawal has been independently verified.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Maritime shipping",
-        "Geopolitical risk"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Military development November 15",
-          "value": "Saudi-backed Southern Armed Forces announced withdrawal from Dhubab Airport and Bab el-Mandeb positions toward Aden; Reuters and FT report increased Houthi control/influence"
-        },
-        {
-          "label": "Physical-flow confirmation",
-          "value": "No additional commercial transit closure or incremental oil-export disruption attributable to the withdrawal independently established"
-        },
-        {
-          "label": "Latest benchmark context",
-          "value": "Brent Friday November 13 settlement $95.84 per barrel; not a Sunday market reaction"
-        },
-        {
-          "label": "Risk and next indicators",
-          "value": "UKMTO incident reports, Red Sea transits, war-risk insurance, Saudi Yanbu exports, and next Brent session; safe sustained passage or reversal of territorial control weakens impact"
-        }
-      ],
-      "key_finding": "Corroborated territorial withdrawal near Bab el-Mandeb increases dual-chokepoint shipping risk without yet proving new physical export losses.",
-      "sources": [
-        {
-          "title": "Reuters November 15: Yemen forces withdraw near Bab el-Mandeb",
-          "url": "https://www.investing.com/news/world-news/yemen-government-forces-withdraw-from-area-near-bab-elmandeb-strait-houthis-in-control-5027740"
-        },
-        {
-          "title": "Financial Times November 15: Saudi-backed forces retreat",
-          "url": "https://www.ft.com/content/2e7028ba-987c-4874-9426-fe38a8753c67"
-        },
-        {
-          "title": "UKMTO recent incidents",
-          "url": "https://www.ukmto.org/recent-incidents"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-15T15:31:30-05:00",
-  "last_check_status": "no_new_findings"
+  "last_checked_at": "2026-11-16T07:41:00-05:00",
+  "last_check_status": "new_findings"
 }
