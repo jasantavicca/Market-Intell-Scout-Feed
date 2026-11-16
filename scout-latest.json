@@ -1,8 +1,57 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-16T14:27:45-05:00",
-  "as_of_et": "November 16, 2026, 2:27 PM EST",
+  "generated_at": "2026-11-16T15:31:07-05:00",
+  "as_of_et": "November 16, 2026, 3:31 PM EST",
   "items": [
+    {
+      "id": "scout-20261116-1531-bank-service-disruptions",
+      "observed_at": "2026-11-16T15:31:07-05:00",
+      "title": "US bank online-service disruptions coincide with falling financial shares",
+      "summary": "Customers reported online-service and payment problems at several major US banks on November 16. Chase confirmed transaction delays caused by a technical issue, while U.S. Bank said its own systems were not directly affected. JPMorgan, Bank of America and Wells Fargo shares were lower intraday, but a causal link between the outages and the share declines is unproven.",
+      "tickers": [
+        "JPM",
+        "BAC",
+        "WFC",
+        "USB"
+      ],
+      "sectors": [
+        "Banking",
+        "Payments",
+        "Financial infrastructure"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Reported customer incidents, November 16 around 1:50-2 PM ET",
+          "value": "Barron's cites 4,600+ Chase and 1,900+ Bank of America service complaints plus reports at Wells Fargo, U.S. Bank and Zelle; incident reports are not equivalent to confirmed outages at every institution"
+        },
+        {
+          "label": "Bank equity snapshot, November 16 afternoon ET",
+          "value": "Barron's reported JPM -2.3%, BAC -2.1%, WFC -2.0% intraday; report does not give an exact quote timestamp, and declines may reflect broad market weakness"
+        },
+        {
+          "label": "Confirmed bank statements",
+          "value": "Chase described a technical, not cyber, problem causing some delayed transactions; U.S. Bank said its systems were not directly impacted, though cross-bank Zelle transfers might be delayed"
+        },
+        {
+          "label": "Risks, invalidation and next checks",
+          "value": "Look for service restoration, independent root-cause reports, consumer transaction backlogs, Zelle status and any material revenue or regulatory exposure; rapid restoration without financial impact weakens market significance"
+        }
+      ],
+      "key_finding": "A multi-bank payment-service disruption is corroborated, but neither common infrastructure failure nor equity-market causation is proven.",
+      "sources": [
+        {
+          "title": "Associated Press: Customers at major US banks report online-service problems",
+          "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda"
+        },
+        {
+          "title": "Barron's: Bank outage reports and intraday bank share declines",
+          "url": "https://www.barrons.com/articles/outages-jpmorgan-chase-bank-of-america-wells-fargo-stocks-0faf523e"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261116-1427-red-sea-saudi-command",
       "observed_at": "2026-11-16T14:27:45-05:00",
@@ -208,56 +257,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261116-1132-ai-cash-rout",
-      "observed_at": "2026-11-16T11:32:54-05:00",
-      "title": "AI-sector selling broadens in US cash trading",
-      "summary": "US chip and cloud-infrastructure shares extended their slide in Monday cash trading. The Nasdaq fell 2.1% at 10:15 a.m. ET, with AMD, Broadcom and CoreWeave weaker. Leadership and export-policy uncertainty are weighing on valuations ahead of Nvidia earnings, but weaker underlying chip demand is not yet established.",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "CRWV",
-        "GEV",
-        "QQQ"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "AI infrastructure",
-        "Data-center power",
-        "Cloud computing"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 16, 10:15 a.m. ET intraday snapshot",
-          "value": "Nasdaq -2.1%; S&P 500 -1.3%; NVDA -1.7%; AVGO -4.7%; AMD -4.7%; CRWV -6.4%; GEV -2.8% (AP); not closing prices"
-        },
-        {
-          "label": "Fundamentals",
-          "value": "Valuation, AI spending and governance concerns; customer order or shipment contraction not independently demonstrated"
-        },
-        {
-          "label": "Next checks and invalidation",
-          "value": "Nvidia earnings and guidance, export policy, chip orders, tech breadth and data-center project backlogs; resilient demand and price stabilization would weaken the selloff thesis"
-        }
-      ],
-      "key_finding": "AI-sector weakness has carried into cash-market trading, without proof of demand destruction.",
-      "sources": [
-        {
-          "title": "Associated Press November 16 market coverage",
-          "url": "https://apnews.com/article/stocks-markets-ai-nvidia-oil-us-35786b8f539ec95f16ae0500f71cfcc7"
-        },
-        {
-          "title": "Financial Times US technology market coverage",
-          "url": "https://www.ft.com/content/12d927a9-98b1-40b9-8f75-01fb56a693d1"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261116-0955-ai-sector-pressure"
     }
   ],
-  "last_checked_at": "2026-11-16T14:27:45-05:00",
+  "last_checked_at": "2026-11-16T15:31:07-05:00",
   "last_check_status": "new_findings"
 }
