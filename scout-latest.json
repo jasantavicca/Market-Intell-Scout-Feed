@@ -1,8 +1,94 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-16T07:41:00-05:00",
-  "as_of_et": "November 16, 2026, 7:41 AM EST",
+  "generated_at": "2026-11-16T09:55:00-05:00",
+  "as_of_et": "November 16, 2026, 9:55 AM EST",
   "items": [
+    {
+      "id": "scout-20261116-0955-smmt-market-repricing",
+      "observed_at": "2026-11-16T09:55:00-05:00",
+      "title": "Summit Therapeutics drops sharply premarket following FDA complete response letter",
+      "summary": "Summit Therapeutics traded around $11.68, down 17.5% premarket, after the FDA declined to approve the current ivonescimab application because overall-survival benefit was not statistically significant. The rejection delays the indication's US launch, while other trials remain active. This is a preliminary premarket price response, not a confirmed closing move.",
+      "tickers": [
+        "SMMT"
+      ],
+      "sectors": [
+        "Biotechnology",
+        "Oncology"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Premarket observation November 16",
+          "value": "SMMT approximately $11.68, -17.5%, reported pre-open; not a closing price"
+        },
+        {
+          "label": "Catalyst",
+          "value": "November 15 FDA Complete Response Letter; insufficient evidence of statistically significant overall survival benefit"
+        },
+        {
+          "label": "Next checks",
+          "value": "Regular-session price/volume, HARMONi-3 data, regulatory pathway and cash runway; compelling survival results could improve outlook"
+        }
+      ],
+      "key_finding": "SMMT's FDA setback is now associated with a material premarket repricing, while pipeline value remains uncertain.",
+      "sources": [
+        {
+          "title": "Investing.com: Summit Therapeutics premarket reaction November 16",
+          "url": "https://in.investing.com/news/stock-market-news/why-is-summit-therapeutics-stock-plunging-today-93CH-5706106"
+        },
+        {
+          "title": "StockTitan: November 16 premarket movers",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-16-2026"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261115-1010-smmt-fda-crl"
+    },
+    {
+      "id": "scout-20261116-0955-ai-sector-pressure",
+      "observed_at": "2026-11-16T09:55:00-05:00",
+      "title": "AI-related stocks face renewed premarket selling ahead of Nvidia earnings",
+      "summary": "Nasdaq-100 futures fell about 0.9% and Nvidia approximately 3.5% in early premarket reports as investors weighed leadership and export-control uncertainty before November 17 earnings. Asian technology stocks also weakened. These are premarket indications, not confirmed regular-session moves or proof of weaker underlying compute demand.",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "QQQ"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "Software and networking"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Early premarket observations November 16",
+          "value": "Nasdaq-100 futures about -0.9%; NVDA about -3.5%, Investing.com 07:22 ET report"
+        },
+        {
+          "label": "Catalysts",
+          "value": "Nvidia leadership uncertainty, export-control concerns, November 17 earnings and Anthropic IPO week"
+        },
+        {
+          "label": "Next checks",
+          "value": "Regular-session breadth and closing prices, Nvidia guidance, supplier orders, cash conversion and formal export policy; stabilization and resilient demand would weaken selloff thesis"
+        }
+      ],
+      "key_finding": "Selling pressure is spreading through AI exposure ahead of a major earnings and policy catalyst week.",
+      "sources": [
+        {
+          "title": "Investing.com: November 16 premarket movers",
+          "url": "https://www.investing.com/news/stock-market-news/premarket-movers-nvidia-intel-fall-jj-gains-5029397"
+        },
+        {
+          "title": "Reuters: Tech's telltale week",
+          "url": "https://www.investing.com/news/commodities-news/morning-bid-techs-telltale-week-5029120"
+        }
+      ],
+      "status": "new",
+      "supersedes": "scout-20261115-1414-nvidia-succession"
+    },
     {
       "id": "scout-20261116-0741-hormuz-tanker-fire",
       "observed_at": "2026-11-16T07:41:00-05:00",
@@ -134,108 +220,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261115-1414-datacenter-valuations",
-      "observed_at": "2026-11-15T14:14:22-05:00",
-      "title": "Data-center infrastructure stocks show large valuation drawdowns despite supplier backlog growth",
-      "summary": "A Financial Times analysis estimates a $4.2 trillion aggregate market-capitalization reversal among data-center-linked suppliers since June. Caterpillar and Eaton have separately reported strong quarterly sales and order books. The contrast merits monitoring but does not independently establish undervaluation.",
-      "tickers": [
-        "CAT",
-        "ETN",
-        "FIX",
-        "GLW",
-        "OKLO"
-      ],
-      "sectors": [
-        "AI infrastructure",
-        "Industrials",
-        "Data-center power and grid"
-      ],
-      "evidence_grade": "single-source",
-      "observations": [
-        {
-          "label": "FT November 15 basket estimate",
-          "value": "$4.2 trillion market-value decline since June; basket methodology not independently reconstructed"
-        },
-        {
-          "label": "Caterpillar Q3",
-          "value": "Reported sales +17% to $20.7 billion and record backlog"
-        },
-        {
-          "label": "Eaton Q3",
-          "value": "Reported sales +28% to $8.9 billion and electrical backlog growth"
-        },
-        {
-          "label": "Risks and next checks",
-          "value": "Backlog conversion to cash, project delays/cancellations, customer financing and grid capacity; deteriorating orders would weaken thesis"
-        }
-      ],
-      "key_finding": "Large reported equity drawdowns coexist with supplier order growth; cash conversion is the key test.",
-      "sources": [
-        {
-          "title": "Financial Times data-center valuation analysis",
-          "url": "https://www.ft.com/content/d5adde7e-68cc-455b-ba78-b39cc3676b7a"
-        },
-        {
-          "title": "Caterpillar Q3 results",
-          "url": "https://www.caterpillar.com/en/news/corporate-press-releases/h/3q26-results-caterpillar-inc.html"
-        },
-        {
-          "title": "Eaton Q3 results",
-          "url": "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2026/eaton-reports-record-third-quarter-2026-results.html"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261115-1010-smmt-fda-crl",
-      "observed_at": "2026-11-15T10:10:05-05:00",
-      "title": "FDA issues Complete Response Letter for Summit ivonescimab application",
-      "summary": "Summit confirmed the FDA cannot approve its current ivonescimab application for previously treated EGFR-mutated lung cancer. The FDA found that progression-free-survival benefit without statistically significant overall-survival improvement was insufficient. This delays near-term U.S. commercialization for the indication while other clinical studies continue.",
-      "tickers": [
-        "SMMT"
-      ],
-      "sectors": [
-        "Healthcare",
-        "Biotechnology",
-        "Oncology"
-      ],
-      "evidence_grade": "confirmed",
-      "observations": [
-        {
-          "label": "Decision, November 15",
-          "value": "FDA Complete Response Letter; BLA cannot be approved in present form"
-        },
-        {
-          "label": "Last regular-session SMMT close, November 13 at 4 PM EST",
-          "value": "$14.15, down 6.14%; before Sunday FDA decision, not a market reaction to it"
-        },
-        {
-          "label": "Fundamental significance",
-          "value": "U.S. launch delayed for this indication; broader clinical program continues"
-        },
-        {
-          "label": "Risks and next indicators",
-          "value": "FDA resubmission conditions, overall-survival results from HARMONi-3 and other trials, funding, Monday price/volume; compelling new survival evidence could soften setback"
-        }
-      ],
-      "key_finding": "Confirmed FDA rejection materially delays Summit's U.S. ivonescimab commercialization in this indication.",
-      "sources": [
-        {
-          "title": "Summit Therapeutics official November 15 release",
-          "url": "https://smmttx.com/news/press-releases/news-details/2026/Summit-Therapeutics-Provides-Update-Regarding-Ivonescimab-Biologics-License-Application/"
-        },
-        {
-          "title": "Reuters November 15 FDA decision",
-          "url": "https://wsau.com/2026/11/15/us-fda-declines-to-approve-summit-lung-cancer-drug-after-trial-misses-key-survival-goal/"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261114-1231-fda-binary-catalysts"
     }
   ],
-  "last_checked_at": "2026-11-16T07:41:00-05:00",
+  "last_checked_at": "2026-11-16T09:55:00-05:00",
   "last_check_status": "new_findings"
 }
