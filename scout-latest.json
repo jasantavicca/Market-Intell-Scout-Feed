@@ -1,8 +1,110 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-16T13:09:00-05:00",
-  "as_of_et": "November 16, 2026, 1:09 PM EST",
+  "generated_at": "2026-11-16T13:28:57-05:00",
+  "as_of_et": "November 16, 2026, 1:28 PM EST",
   "items": [
+    {
+      "id": "scout-20261116-1328-cgon-phase3",
+      "observed_at": "2026-11-16T13:28:57-05:00",
+      "title": "CG Oncology rises after Phase 3 bladder cancer efficacy data",
+      "summary": "CG Oncology announced that PIVOT-006 met its primary endpoint, reducing bladder-cancer recurrence risk compared with surveillance following surgery. Shares rose sharply during regular trading. Durability, regulatory clearance and commercial execution remain unresolved.",
+      "tickers": [
+        "CGON"
+      ],
+      "sectors": [
+        "Biotechnology",
+        "Healthcare",
+        "Oncology"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 16, 11:31 AM ET, intraday",
+          "value": "CGON $82.90, +11.42% versus previous close (Nexqual); not a closing move"
+        },
+        {
+          "label": "Clinical catalyst",
+          "value": "Hazard ratio 0.32, indicating 68% lower recurrence hazard; p<0.0001, median follow-up 17 months; company reports no Grade 3+ treatment-related adverse events"
+        },
+        {
+          "label": "Fundamental assessment",
+          "value": "Potential expansion into earlier-stage bladder cancer adjuvant treatment if FDA approves"
+        },
+        {
+          "label": "Risks, invalidation and next indicators",
+          "value": "Detailed trial results December 2, durability, full safety data, FDA submission/review and competition; failed approval or weakened long-term efficacy undermines thesis"
+        }
+      ],
+      "key_finding": "A pivotal oncology readout and material intraday gain warrant close regulatory follow-up.",
+      "sources": [
+        {
+          "title": "CG Oncology official PIVOT-006 November 16 release",
+          "url": "https://cgoncology.gcs-web.com/news-releases/news-release-details/pivot-006-phase-3-registrational-trial-demonstrates"
+        },
+        {
+          "title": "BioPharma Dive independent analysis",
+          "url": "https://www.biopharmadive.com/news/cg-oncology-cretostimogene-adjuvant-bladder-cancer-results-pivot/874740/"
+        },
+        {
+          "title": "Nexqual 11:31 AM ET market snapshot",
+          "url": "https://nexqual.com/moves/2026-11-16/CGON"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261116-1328-telus-bid",
+      "observed_at": "2026-11-16T13:28:57-05:00",
+      "title": "Quebecor acquisition proposal triggers TELUS repricing",
+      "summary": "Quebecor publicly disclosed a conditional, non-binding cash-and-share proposal to acquire TELUS. TELUS confirmed an independent review and emphasized significant Canadian regulatory and financing risks. The headline premium is not a binding or guaranteed realization.",
+      "tickers": [
+        "TU",
+        "T.TO",
+        "QBR.B.TO"
+      ],
+      "sectors": [
+        "Telecommunications",
+        "Networking",
+        "Canada"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 16, 9:30 AM ET intraday opening print",
+          "value": "TU opened $9.61 versus $8.53 on November 13, approximately +12.7%; opening quote, not a closing price (StockTitan)"
+        },
+        {
+          "label": "Offer terms using November 13 valuation",
+          "value": "C$6.35 cash plus 0.1700 Quebecor Class B shares per TELUS share; company-estimated value C$19.45 per share and approximately 60% premium to prior Toronto close; stock consideration value fluctuates"
+        },
+        {
+          "label": "Fundamental assessment",
+          "value": "Potential national telecom consolidation and synergies versus material spectrum, competition, financial leverage and governance constraints"
+        },
+        {
+          "label": "Risks, invalidation and next indicators",
+          "value": "TELUS special committee, binding terms, regulatory approvals, spectrum remedies and Quebecor funding; withdrawal or prohibitive conditions could eliminate deal premium"
+        }
+      ],
+      "key_finding": "A public takeover proposal creates material price dislocation with substantial approval and execution risk.",
+      "sources": [
+        {
+          "title": "Quebecor November 16 official proposal",
+          "url": "https://www.quebecor.com/en/-/a-venir-1443"
+        },
+        {
+          "title": "TELUS November 16 special-committee response",
+          "url": "https://www.telus.com/en/about/news-and-events/media-releases/TELUS-confirms-receipt-of-unsolicited-proposal"
+        },
+        {
+          "title": "StockTitan November 16 market observations",
+          "url": "https://www.stocktitan.net/articles/telus-quebecor-offer-2026-stock-below-offer-value"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261116-1309-helus-phase3",
       "observed_at": "2026-11-16T13:09:00-05:00",
@@ -39,38 +141,6 @@
         {
           "title": "StockAnalysis timestamped intraday quote",
           "url": "https://stockanalysis.com/stocks/help/transcripts/802555-study-result/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261116-1309-uniper-grid",
-      "observed_at": "2026-11-16T13:09:00-05:00",
-      "title": "Uniper reports 700 MW secured grid access for potential data centers",
-      "summary": "Uniper announced roughly 700 MW of secured grid capacity for potential European data-center development and about €6 billion in broader growth capex. Existing connections could shorten infrastructure lead times. Completed customer agreements and project economics remain unverified.",
-      "tickers": [],
-      "sectors": [
-        "Utilities",
-        "Data-center power",
-        "European infrastructure"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 16 company strategy update",
-          "value": "~700 MW secured grid capacity; ~€6 billion broader growth capex"
-        },
-        {
-          "label": "Next checks and invalidation",
-          "value": "Signed customer contracts, grid energization, permitting and capital returns; stalled contracts would weaken opportunity"
-        }
-      ],
-      "key_finding": "Secured grid capacity may be an increasingly valuable European data-center asset.",
-      "sources": [
-        {
-          "title": "Uniper November 16 strategy announcement",
-          "url": "https://www.uniper.energy/news/uniper-sets-out-path-to-pursue-profitable-growth-and-attractive-shareholder-returns"
         }
       ],
       "status": "new",
@@ -174,55 +244,8 @@
       ],
       "status": "updated",
       "supersedes": "scout-20261116-0741-hormuz-tanker-fire"
-    },
-    {
-      "id": "scout-20261116-1132-dell-hpe-drawdown",
-      "observed_at": "2026-11-16T11:32:54-05:00",
-      "title": "Dell and HPE drawdowns contrast with reported AI infrastructure demand",
-      "summary": "Barron's reported substantial declines in Dell and HPE shares since October 9 despite large reported AI server orders and improving infrastructure revenue. Their coming earnings provide a test of whether backlog translates into cash and margins. These are fundamentals-versus-valuation watch-list cases, not verified undervaluations.",
-      "tickers": [
-        "DELL",
-        "HPE"
-      ],
-      "sectors": [
-        "AI infrastructure",
-        "Networking",
-        "Servers and storage"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Cumulative share-price drawdowns reported November 16",
-          "value": "DELL about -41%; HPE about -34% since October 9 (Barron's); not single-day returns"
-        },
-        {
-          "label": "Reported company fundamentals",
-          "value": "Dell disclosed approximately $95B AI-server backlog; HPE reported $12.2B quarterly revenue and $1.0B free cash flow"
-        },
-        {
-          "label": "Risks and next checks",
-          "value": "Customer financing and concentration, backlog conversion, component costs, margins and free cash flow; HPE November 23 and Dell November 24 earnings; cancellations or weak cash conversion would weaken the thesis"
-        }
-      ],
-      "key_finding": "Large reported share-price declines warrant testing against backlog quality and cash conversion.",
-      "sources": [
-        {
-          "title": "Barron's November 16 Dell and HPE coverage",
-          "url": "https://www.barrons.com/articles/dell-hpe-stock-price-earnings-ai-386e06fb"
-        },
-        {
-          "title": "Dell fiscal 2027 second-quarter results",
-          "url": "https://www.dell.com/en-us/newsroom/announcements/dell-technologies-delivers-second-quarter-fiscal-2027-financial-results"
-        },
-        {
-          "title": "HPE fiscal 2026 third-quarter results",
-          "url": "https://www.hpe.com/us/en/newsroom/press-release/2026/09/hpe-reports-fiscal-2026-third-quarter-results.html"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-16T13:09:00-05:00",
+  "last_checked_at": "2026-11-16T13:28:57-05:00",
   "last_check_status": "new_findings"
 }
