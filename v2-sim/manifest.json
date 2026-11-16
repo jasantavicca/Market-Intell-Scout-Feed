@@ -1,11 +1,11 @@
 {
   "current": {
-    "snapshot": "edition-2026-11-14.json",
-    "sha256": "747db8c4b694f6b2e928ee57b6418bd9be8c59c6f377f7858153a007d28c92af"
-  },
-  "previous": {
     "snapshot": "edition-2026-11-16.json",
     "sha256": "1ae8bfad40321feea7574003c91086dec056dd0802e2aec72355eec037643ba3"
+  },
+  "previous": {
+    "snapshot": "edition-2026-11-14.json",
+    "sha256": "747db8c4b694f6b2e928ee57b6418bd9be8c59c6f377f7858153a007d28c92af"
   },
   "history": {
     "snapshot": "forecast-history.json",
