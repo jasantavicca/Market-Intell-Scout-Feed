@@ -1,10 +1,14 @@
 {
   "current": {
     "snapshot": "edition-2026-11-16.json",
-    "sha256": "99472f7c4d9bee8bf2d6146d08556c840f2422230938609ca3b3beb739a515be"
+    "sha256": "1ae8bfad40321feea7574003c91086dec056dd0802e2aec72355eec037643ba3"
   },
   "previous": {
     "snapshot": "edition-2026-11-14.json",
-    "sha256": "ba1042c53ffe5f9f0e03c7ad5ba3145804041c23790ff1ae561da9e36e56355d"
+    "sha256": "747db8c4b694f6b2e928ee57b6418bd9be8c59c6f377f7858153a007d28c92af"
+  },
+  "history": {
+    "snapshot": "forecast-history.json",
+    "sha256": "e1067d7288c602c90012382806cd304fb91e84ae4ef6c83f91ab3a8794f856d3"
   }
 }

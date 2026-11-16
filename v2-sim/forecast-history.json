@@ -1,0 +1,89 @@
+{
+  "contract": "forecast-history-v1",
+  "points": [
+    {
+      "date": "2026-08-28",
+      "base": 55,
+      "bull": 20,
+      "bear": 25,
+      "method": "Reconstructed weekend proxy"
+    },
+    {
+      "date": "2026-09-04",
+      "base": 55,
+      "bull": 20,
+      "bear": 25,
+      "method": "Reconstructed weekend proxy"
+    },
+    {
+      "date": "2026-09-11",
+      "base": 45,
+      "bull": 15,
+      "bear": 40,
+      "method": "Original \u00b7 Recovered Friday weekly"
+    },
+    {
+      "date": "2026-09-18",
+      "base": 50,
+      "bull": 20,
+      "bear": 30,
+      "method": "Reconstructed weekend proxy"
+    },
+    {
+      "date": "2026-09-25",
+      "base": 45,
+      "bull": 20,
+      "bear": 35,
+      "method": "Reconstructed weekend proxy"
+    },
+    {
+      "date": "2026-10-02",
+      "base": 50,
+      "bull": 25,
+      "bear": 25,
+      "method": "Reconstructed weekend proxy"
+    },
+    {
+      "date": "2026-10-09",
+      "base": 50,
+      "bull": 20,
+      "bear": 30,
+      "method": "Original \u00b7 Oct 10 Saturday brief"
+    },
+    {
+      "date": "2026-10-17",
+      "base": 52,
+      "bull": 12,
+      "bear": 36,
+      "method": "Original Saturday production issue"
+    },
+    {
+      "date": "2026-10-24",
+      "base": 49,
+      "bull": 13,
+      "bear": 38,
+      "method": "Original Saturday production issue"
+    },
+    {
+      "date": "2026-10-31",
+      "base": 46,
+      "bull": 12,
+      "bear": 42,
+      "method": "Original Saturday production issue"
+    },
+    {
+      "date": "2026-11-07",
+      "base": 48,
+      "bull": 11,
+      "bear": 41,
+      "method": "Original Saturday production edition"
+    },
+    {
+      "date": "2026-11-14",
+      "base": 42,
+      "bull": 7,
+      "bear": 51,
+      "method": "Original Saturday production edition"
+    }
+  ]
+}

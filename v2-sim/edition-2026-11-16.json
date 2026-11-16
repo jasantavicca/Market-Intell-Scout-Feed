@@ -44,5 +44,27 @@
         "tone": "watch"
       }
     ]
+  },
+  "outlook": {
+    "base": 40,
+    "bull": 6,
+    "bear": 54,
+    "cards": [
+      {
+        "key": "base",
+        "title": "Expansion continues under cost pressure",
+        "body": "Employment and investment sustain activity despite high financing costs and uneven delivery. Support: low claims, realized supplier revenue and cash, possible crude relief. Confirm: funded projects proceed, collections hold and layoffs remain contained. Invalidate: cancellations and financing failures broaden; broad durable cost relief instead shifts weight toward Bull."
+      },
+      {
+        "key": "bull",
+        "title": "Relief becomes broad and durable",
+        "body": "Inflation pressure eases, financing becomes more manageable and demand broadens. Support: scope for energy relief and continued investment demand. Confirm: lower underlying inflation and borrowing costs alongside stronger real demand, delivery and participation. Invalidate: relief remains confined to crude, or prices ease because activity breaks."
+      },
+      {
+        "key": "bear",
+        "title": "Operating pressure spreads into retrenchment",
+        "body": "Expensive financing, weak rate-sensitive activity and delivery burdens reach output, jobs and credit. Support: weak overseas demand, technology repricing, persistent inflation and housing restraint. Confirm: credit deterioration joins project delays, order cuts and weaker employment. Invalidate: deliveries, collections and cash generation improve with employment intact."
+      }
+    ]
   }
 }

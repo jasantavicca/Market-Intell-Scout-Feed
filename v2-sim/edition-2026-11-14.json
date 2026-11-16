@@ -38,5 +38,27 @@
         "tone": "watch"
       }
     ]
+  },
+  "outlook": {
+    "base": 42,
+    "bull": 7,
+    "bear": 51,
+    "cards": [
+      {
+        "key": "base",
+        "title": "Expansion continues under cost pressure",
+        "body": "Jobs and selective investment persist despite expensive finance. Support: strong realized sales, low layoffs and improving crude availability. Confirm: stable employment, funded schedules and collected cash. Invalidate: broad cancellations or funding failures; durable relief instead favors Bull."
+      },
+      {
+        "key": "bull",
+        "title": "Cost relief broadens into durable improvement",
+        "body": "Delivered energy and funding costs ease while real demand strengthens. Support: strong investment demand and scope for delivered-cost relief as crude availability improves. Confirm: relief across multiple sectors and repeated deliveries. Invalidate: persistent cost pressure or spreading deferrals."
+      },
+      {
+        "key": "bear",
+        "title": "Operating pressure spreads into retrenchment",
+        "body": "Cost and financing constraints cut orders, output and employment more broadly. Support: persistent price pressure, the verified 5.10% ten-year yield, weak housing and the cloud-capacity delay. Confirm: actual funding failures, cancellations and weaker labor demand. Invalidate: reliable delivery, sound financing and stronger real demand."
+      }
+    ]
   }
 }
