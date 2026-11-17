@@ -1,8 +1,161 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-17T14:31:44-05:00",
-  "as_of_et": "November 17, 2026, 2:31 PM EST",
+  "generated_at": "2026-11-17T15:31:45-05:00",
+  "as_of_et": "November 17, 2026, 3:31 PM EST",
   "items": [
+    {
+      "id": "scout-20261117-1531-saudi-pipeline-qeshm",
+      "observed_at": "2026-11-17T15:31:45-05:00",
+      "title": "Houthi pipeline claim and U.S. Qeshm retaliation deepen Gulf export risk",
+      "summary": "Houthis claim they launched five drones at two Saudi East-West pipeline pumping stations, but Saudi authorities have not confirmed damage or interrupted flows. Separately, AP reports a U.S. official acknowledged a strike on an Iranian missile site on Qeshm Island after Iranian drones targeted Bahrain. Crude prices rose intraday, while verified new export losses remain absent.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Maritime shipping",
+        "Energy infrastructure"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Reported November 17 pipeline threat",
+          "value": "Houthis claim five drones toward two Saudi East-West pipeline pumping stations; no Saudi damage or flow confirmation (Reuters)"
+        },
+        {
+          "label": "Pipeline exposure",
+          "value": "Approximately 4 million barrels/day rerouted to Yanbu via East-West pipeline, around 4% of global supply (Reuters)"
+        },
+        {
+          "label": "U.S. retaliation verification",
+          "value": "AP cites U.S. official confirming strike on IRGC missile-launch site on Qeshm Island; local official reported no civilian or infrastructure damage"
+        },
+        {
+          "label": "November 17 1:48 PM EST intraday",
+          "value": "Brent $93.50/barrel (+1.15%); WTI $86.56/barrel (+0.98%) (Reuters); not settlement"
+        },
+        {
+          "label": "Next checks and invalidation",
+          "value": "Saudi ministry, operator and pipeline throughput confirmation, Yanbu loadings, tanker insurance, UKMTO/MARAD and Brent/WTI/XLE/XOP; uninterrupted flow weakens disruption thesis"
+        }
+      ],
+      "key_finding": "Gulf escalation now reaches a critical Saudi oil bypass route, but new physical supply loss is unverified.",
+      "sources": [
+        {
+          "title": "Reuters: Houthis say drones launched toward Saudi East-West pipeline",
+          "url": "https://y94.com/2026/11/17/yemens-houthis-say-they-launched-drones-towards-saudi-east-west-pipeline/"
+        },
+        {
+          "title": "AP: U.S. source confirms Qeshm retaliation",
+          "url": "https://apnews.com/article/iran-trump-israel-bahrain-attacks-582e0b5d51be06f0ed630fac24f39b72"
+        },
+        {
+          "title": "Reuters: November 17 1:48 PM EST crude prices",
+          "url": "https://gvwire.com/2026/11/17/oil-up-1-on-tanker-attacks-expected-us-crude-drop/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261117-1531-nsa-network-market",
+      "observed_at": "2026-11-17T15:31:45-05:00",
+      "title": "NSA attributes classified-network disruption to maintenance as US equities tumble",
+      "summary": "NSA acknowledged temporary internal-system degradation during routine maintenance and said mission-critical operations remained functional. CBS verified a classified network outage and reported no evidence of cyberattack. U.S. equities were sharply lower around 3:02 PM ET, but the outage has not been shown to cause the broader selloff.",
+      "tickers": [
+        "QQQ",
+        "IGV",
+        "CRM"
+      ],
+      "sectors": [
+        "Software",
+        "Cybersecurity",
+        "US equities"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Official agency status November 17",
+          "value": "Temporary degradation during scheduled routine maintenance; mission-critical capabilities operational (NSA)"
+        },
+        {
+          "label": "Independent reporting November 17",
+          "value": "Classified NSA Net interruption, staggered employee arrivals, no evidence of malicious attack (CBS, updated 2:40 PM EST)"
+        },
+        {
+          "label": "3:02 PM EST intraday market snapshot",
+          "value": "Dow down more than 1,000 points (~2%); S&P 500 -1.6%; Nasdaq -1.5% (MarketWatch); not settlement"
+        },
+        {
+          "label": "Next checks and invalidation",
+          "value": "NSA restoration notice, root-cause and patching details, correlation to other systems, QQQ/IGV breadth and Nvidia guidance; routine recovery limits systemic risk interpretation"
+        }
+      ],
+      "key_finding": "An officially acknowledged NSA maintenance incident coincided with broad selling; no cyberattack or market causality established.",
+      "sources": [
+        {
+          "title": "NSA official statement on network issues",
+          "url": "https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4650245/nsa-statement-on-network-issues/"
+        },
+        {
+          "title": "CBS News NSA Net outage, updated November 17",
+          "url": "https://www.cbsnews.com/news/nsa-network-down-classified-fort-meade/"
+        },
+        {
+          "title": "MarketWatch November 17 3:02 PM market snapshot",
+          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-nvidia-q3-financial-results-retail-sales-import-prices/card/dow-plunges-1-000-points-s-p-500-and-nasdaq-also-tumble-as-tech-stocks-extend-declines-ahead-of-nvidia-earnings-MzjSuV6kj5XBfNy9mhGJ"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261117-1531-enr-cashflow",
+      "observed_at": "2026-11-17T15:31:45-05:00",
+      "title": "Energizer rises against market selloff on better margins and cash-flow guidance",
+      "summary": "Energizer rose sharply in afternoon trading following fiscal fourth-quarter results showing improved profitability and debt reduction. Management projects higher free cash flow next fiscal year even with soft organic sales. Elevated leverage and limited revenue growth remain important risks.",
+      "tickers": [
+        "ENR"
+      ],
+      "sectors": [
+        "Consumer products",
+        "Batteries",
+        "Automotive care"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 17 1:02 PM EST intraday snapshot",
+          "value": "ENR +11.71% (StockTitan); not a closing figure"
+        },
+        {
+          "label": "Fiscal 2026 Q4 earnings",
+          "value": "Adjusted EPS $1.37 (+30% YoY); adjusted gross margin 42.5% (+400 basis points); quarterly free cash flow $123.6M"
+        },
+        {
+          "label": "Fiscal 2027 free cash flow projection",
+          "value": "Approximately $300M, up more than 30% from $228.6M fiscal 2026"
+        },
+        {
+          "label": "Risks and next indicators",
+          "value": "Organic sales down 0.6% in quarter; net debt/adjusted EBITDA 5.1x; watch organic growth, gross margin, debt reduction and free cash flow execution"
+        }
+      ],
+      "key_finding": "Stronger cash flow and margin execution distinguish Energizer from broad-market weakness despite elevated leverage.",
+      "sources": [
+        {
+          "title": "Energizer official Q4 fiscal 2026 results and fiscal 2027 guidance",
+          "url": "https://investors.energizerholdings.com/2026-11-17-Energizer-Holdings%2C-Inc-Announces-Fiscal-2026-Fourth-Quarter-and-Full-Year-Results-and-Financial-Outlook-for-Fiscal-2027"
+        },
+        {
+          "title": "StockTitan November 17 live market update at 1:02 PM ET",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-17-2026"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261117-1431-kerch-bridge-shipping",
       "observed_at": "2026-11-17T14:31:44-05:00",
@@ -92,162 +245,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261117-1332-sellas-regal",
-      "observed_at": "2026-11-17T13:32:41-05:00",
-      "title": "SELLAS shares surge after Phase 3 leukemia vaccine meets overall-survival endpoint",
-      "summary": "SELLAS reported a statistically significant overall-survival benefit for its investigational GPS leukemia vaccine in the 126-patient Phase 3 REGAL trial. Shares rose sharply in November 17 intraday trading. Full secondary analyses, FDA requirements and funding needs remain important uncertainties.",
-      "tickers": [
-        "SLS"
-      ],
-      "sectors": [
-        "Biotechnology",
-        "Oncology",
-        "Healthcare"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 17 11:20 AM EST Reuters-reported intraday reaction",
-          "value": "SLS approximately $20.54, +175% versus November 16 close; not a closing price"
-        },
-        {
-          "label": "November 17 Phase 3 REGAL topline primary endpoint",
-          "value": "Median overall survival 24.0 months GPS vs 14.7 months best available treatment; hazard ratio 0.59, two-sided p=0.035; n=126 randomized"
-        },
-        {
-          "label": "Safety and regulatory context",
-          "value": "Company reports no new safety signals; detailed analyses pending; plans FDA engagement and BLA submission in first half 2027"
-        },
-        {
-          "label": "Next checks and invalidation",
-          "value": "Full trial data, FDA feedback, cash needs, dilution and commercial viability; concerning subgroup outcomes or additional regulatory requirements would weaken the thesis"
-        }
-      ],
-      "key_finding": "Pivotal survival data substantiate a clinical milestone, while the three-digit intraday repricing increases regulatory and valuation sensitivity.",
-      "sources": [
-        {
-          "title": "SELLAS official November 17 Phase 3 REGAL announcement",
-          "url": "https://ir.sellaslifesciences.com/news/News-Details/2026/SELLAS-Life-Sciences-Announces-Positive-Pivotal-Phase-3-REGAL-Trial-Data-Showing-Immunotherapeutic-Cancer-Vaccine-Galinpepimut-S-GPS-Demonstrated-a-Statistically-Significant-and-Clinically-Meaningful-Improvement-in-Overall-Survival-in-Patients-with-A/default.aspx"
-        },
-        {
-          "title": "Reuters November 17 report on shares and trial results",
-          "url": "https://finance.yahoo.com/healthcare/articles/sellas-life-sciences-shares-surge-162000632.html"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261117-1230-tara-gas-crew",
-      "observed_at": "2026-11-17T12:30:37-05:00",
-      "title": "Indian ministry confirms missing and injured crew after MT Tara Gas Hormuz attacks",
-      "summary": "India's foreign ministry reported that crew members aboard the LPG tanker MT Tara Gas were injured or missing following strikes near the Strait of Hormuz. Its updated account supersedes earlier initial reports that the crew were safe. The casualty update reinforces shipping security concerns but does not establish a sustained export-volume loss.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "LPG shipping",
-        "Maritime security"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Incident and official status update",
-          "value": "Attack November 16; Indian Ministry of External Affairs statement November 17, reported by several Indian news organizations"
-        },
-        {
-          "label": "Crew status, Indian nationals",
-          "value": "24 aboard: 21 evacuated to Khasab, Oman; two injured and hospitalized; one missing; earlier safe-crew reports superseded"
-        },
-        {
-          "label": "Crude market context at 13:40 GMT (8:40 AM ET) November 17",
-          "value": "Brent $93.71/bbl +1.4%; WTI $86.97/bbl +1.5%, both intraday, not settlements; Reuters reports export recovery"
-        },
-        {
-          "label": "Risks and next checks",
-          "value": "Rescue outcome, LPG cargo and vessel damage, insurance pricing, transit counts, UKMTO/MARAD and Brent/WTI/XLE/XOP confirmation; actual sustained flow loss remains unverified"
-        }
-      ],
-      "key_finding": "Official crew-status update establishes casualties and missing personnel, not yet measurable sustained oil or LPG export losses.",
-      "sources": [
-        {
-          "title": "New Indian Express: India MEA crew-status statement Nov 17",
-          "url": "https://www.newindianexpress.com/india/2026/Nov/17/india-condemns-tanker-attack-in-strait-of-hormuz-one-indian-missing-two-injured"
-        },
-        {
-          "title": "Hindustan Times: MEA statement and earlier contradictory report",
-          "url": "https://www.hindustantimes.com/india-news/india-condemns-attack-on-lpg-tanker-carrying-24-indians-in-strait-of-hormuz-1-seafarer-missing-mea-the-targeting-must-end-101794926651905.html"
-        },
-        {
-          "title": "Reuters: tanker attacks, crude market context",
-          "url": "https://live.euronext.com/en/financial-news/oil-prices-caught-between-tanker-attacks-and-rising-mideast-exports"
-        },
-        {
-          "title": "UKMTO recent incident advisories",
-          "url": "https://www.ukmto.org/recent-incidents"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261117-0836-hormuz-second-strike"
-    },
-    {
-      "id": "scout-20261117-1230-asia-datacenter-curbs",
-      "observed_at": "2026-11-17T12:30:37-05:00",
-      "title": "Southeast Asian data-center builders sink under new US chip and remote-compute restrictions",
-      "summary": "New U.S. restrictions targeting advanced chip exports and remote access by Chinese AI customers drove sharp declines among Malaysian data-center infrastructure companies. Reuters reports gains in China's domestic chipmaker SMIC as investors assess substitution demand. The rules create near-term customer-utilization and compliance risks, while ultimate contract losses remain unproven.",
-      "tickers": [
-        "0245.KL",
-        "6742.KL",
-        "0981.HK"
-      ],
-      "sectors": [
-        "Data-center infrastructure",
-        "Semiconductors",
-        "International equities",
-        "Power and grid"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 17 Asian cash-session intraday observations reported by Reuters",
-          "value": "MN Holdings and Critical Holdings each nearly -20%; YTL Power nearly -10%; SMIC +7%; exact quote time not specified, not closing returns"
-        },
-        {
-          "label": "Policy catalyst",
-          "value": "U.S. rule restricts advanced chip shipments to Malaysia, Singapore, Thailand, Indonesia and Brazil and access via overseas data centers serving significant Chinese AI compute demand"
-        },
-        {
-          "label": "Demand and capex context",
-          "value": "Reuters cites Malaysia $95B data-center-related investment approvals since 2021; order cancellation or utilization loss not yet verified"
-        },
-        {
-          "label": "Next checks and invalidation",
-          "value": "Effective licensing conditions, grandfathering, Malaysian hyperscaler commitments, data-center utilization and cancellations, Chinese domestic chip capacity; exemptions or continued project orders would weaken the selloff's fundamental thesis"
-        }
-      ],
-      "key_finding": "New restrictions have caused measurable regional AI-infrastructure equity stress and a semiconductor substitution divergence.",
-      "sources": [
-        {
-          "title": "Reuters: U.S. chip curbs threaten Southeast Asian data-center investments",
-          "url": "https://www.livemint.com/technology/us-ai-chip-curbs-threaten-southeast-asia-data-centre-boom-shares-slump-11794896626332.html"
-        },
-        {
-          "title": "Associated Press: U.S. remote-compute and export-control measures",
-          "url": "https://apnews.com/article/60f868d3bb430b85a8657b27d421096e"
-        },
-        {
-          "title": "Business Insider: Asian tech and local chipmaker market reactions",
-          "url": "https://www.businessinsider.com/us-restricts-remote-access-advanced-ai-chips-asia-tech-stocks-2026-11"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-17T14:31:44-05:00",
+  "last_checked_at": "2026-11-17T15:31:45-05:00",
   "last_check_status": "new_findings"
 }
