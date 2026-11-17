@@ -1,8 +1,98 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-17T13:32:41-05:00",
-  "as_of_et": "November 17, 2026, 1:32 PM EST",
+  "generated_at": "2026-11-17T14:31:44-05:00",
+  "as_of_et": "November 17, 2026, 2:31 PM EST",
   "items": [
+    {
+      "id": "scout-20261117-1431-kerch-bridge-shipping",
+      "observed_at": "2026-11-17T14:31:44-05:00",
+      "title": "Kerch Bridge collapse threatens deep-water shipping route into Sea of Azov",
+      "summary": "Russia acknowledged bridge damage and suspended traffic after Ukrainian strikes on November 17. Photographs and multiple reports indicate a road arch fell into the Kerch Strait's navigable channel, raising risks to merchant shipping and regional freight. Exact vessel delays or complete closure of the waterway have not been verified independently.",
+      "tickers": [],
+      "sectors": [
+        "Maritime shipping",
+        "Energy logistics",
+        "Black Sea transport"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 17 physical-infrastructure reports",
+          "value": "Approximately 227-m road-arch span reported collapsed; Russian officials confirm bridge damage and traffic restrictions; not a vessel-flow measurement"
+        },
+        {
+          "label": "Navigation channel",
+          "value": "Kerch-Yenikale deep-water route approximately 120 m wide; media and maritime observers say debris appears to obstruct it, without verified transit counts"
+        },
+        {
+          "label": "Next indicators and invalidation",
+          "value": "Official channel closure notices, vessel tracking, Sea of Azov port exports, grain/fuel freight rates, debris clearance; restored large-vessel passage would weaken impact thesis"
+        }
+      ],
+      "key_finding": "Corroborated structural loss creates credible shipping disruption risk, while quantified physical cargo-flow losses remain unverified.",
+      "sources": [
+        {
+          "title": "Associated Press November 17 Kerch Bridge damage",
+          "url": "https://apnews.com/article/df4b867cf8f70e88843d8fefea5d643c"
+        },
+        {
+          "title": "The Guardian November 17 bridge and shipping assessment",
+          "url": "https://www.theguardian.com/world/2026/nov/17/ukraine-strikes-critical-damage-russia-kerch-bridge-crimea"
+        },
+        {
+          "title": "Ukrainian Shipping Magazine navigation channel report",
+          "url": "https://en.usm.media/the-collapsed-arch-of-the-crimean-bridge-blocked-the-only-deep-water-passage-in-the-kerch-strait/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261117-1431-aecom-backlog",
+      "observed_at": "2026-11-17T14:31:44-05:00",
+      "title": "AECOM rises sharply on record $28 billion infrastructure backlog and stronger margins",
+      "summary": "AECOM gained about 8.5% in a November 17 intraday snapshot after reporting record backlog and higher adjusted margins. Fiscal fourth-quarter adjusted EPS increased despite a reported revenue decline. The main risk is cash consumption and cost overruns from two legacy construction-management projects.",
+      "tickers": [
+        "ACM"
+      ],
+      "sectors": [
+        "Infrastructure engineering",
+        "Industrials",
+        "Construction management"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 17 10:50 AM EST intraday snapshot",
+          "value": "ACM +8.5%; not a closing price, later return not independently timestamped"
+        },
+        {
+          "label": "November 16 fiscal Q4 results",
+          "value": "Total backlog $28.016B, +13% YoY; adjusted EPS $1.63, +20% YoY; adjusted EBITDA margin 19.2%, +170 bps; GAAP revenue -7%"
+        },
+        {
+          "label": "Cash-flow and next checks",
+          "value": "Q4 FCF $274M; expected ~$500M cash use in fiscal 2027 from two construction-management projects; monitor backlog conversion, margins, overruns"
+        }
+      ],
+      "key_finding": "Infrastructure earnings strength diverges from broad market weakness, but contract conversion and project cash costs remain essential tests.",
+      "sources": [
+        {
+          "title": "AECOM fiscal 2026 results, November 16",
+          "url": "https://investors.aecom.com/news-releases/news-release-details/aecom-reports-fourth-quarter-and-full-year-fiscal-2026-results"
+        },
+        {
+          "title": "Motley Fool November 17 ACM intraday reaction",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-aecom-stock-popped-today-164442478.html"
+        },
+        {
+          "title": "SEC-filed AECOM results",
+          "url": "https://www.sec.gov/Archives/edgar/data/868857/000110465926128300/tm2629784d1_ex99-1.htm"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261117-1332-sellas-regal",
       "observed_at": "2026-11-17T13:32:41-05:00",
@@ -156,131 +246,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261117-1127-software-market-breadth",
-      "observed_at": "2026-11-17T10:56:00-05:00",
-      "title": "Enterprise software leads broad US equity selloff as AI weakness spreads",
-      "summary": "US equities weakened sharply after a relatively calmer opening, with software falling more steeply than the broad indexes. Salesforce led large-cap software declines while chips, memory and data-center-power suppliers also retreated. This is intraday market evidence of widening risk aversion, not proof of falling underlying orders.",
-      "tickers": [
-        "IGV",
-        "CRM",
-        "NOW",
-        "NVDA",
-        "MU",
-        "SNDK",
-        "BE",
-        "SPY",
-        "QQQ"
-      ],
-      "sectors": [
-        "Enterprise software",
-        "Semiconductors",
-        "Memory and storage",
-        "Data-center power",
-        "US equities"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Market snapshot, November 17 at approximately 10:56 AM EST",
-          "value": "S&P 500 -1.6%, Nasdaq -2.0%, Dow -1.7%, IGV -4.4%; all intraday, not closes"
-        },
-        {
-          "label": "Stock-level intraday snapshot, same report",
-          "value": "CRM -9.6%, NVDA -2.5%, BE -7.7%, MU and SNDK each down more than 6%"
-        },
-        {
-          "label": "Breadth",
-          "value": "Only 86 of 500 S&P 500 names advancing at approximately 10:56 AM EST (Barron's)"
-        },
-        {
-          "label": "Fundamental context",
-          "value": "AI spending durability, software contract growth and high financing costs under scrutiny; no independently verified cancellation or shipment shock in this pass"
-        },
-        {
-          "label": "Next checks and invalidation",
-          "value": "NVDA after-close earnings, IGV breadth and price action, software cRPO, memory demand, data-center project commitments and Treasury yields; strong guidance and broad stabilization would weaken selloff thesis"
-        }
-      ],
-      "key_finding": "Software-led market breadth deterioration shows the AI-linked selloff spreading across multiple sectors.",
-      "sources": [
-        {
-          "title": "Barron's market coverage, November 17, 10:56 AM EST snapshot",
-          "url": "https://www.barrons.com/livecoverage/stock-market-news-today-111726/card/boom-goes-the-stock-market-kV5HA3IK0eRBo2mwC0vN"
-        },
-        {
-          "title": "Associated Press November 17 midmorning market update",
-          "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-4d5a35288288389d894e63e6bebe8240"
-        },
-        {
-          "title": "MarketWatch November 17 Salesforce-led Dow decline",
-          "url": "https://www.marketwatch.com/data-news/dow-s-nearly-750-point-fall-led-by-losses-in-shares-of-salesforce-unitedhealth-0bb349a9-9568e860aba1"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261117-1029-bahrain-drones",
-      "observed_at": "2026-11-17T10:29:51-05:00",
-      "title": "Iranian drones targeting Bahrain intercepted; Gulf escalation, no confirmed US damage",
-      "summary": "Iran launched drones toward a US radar site at Sheikh Isa Air Base in Bahrain. Bahrain and US Central Command reported interception without damage to US equipment or injuries to American personnel. The incident heightens Gulf and Hormuz security risk, but does not confirm a new physical oil-export disruption.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Maritime security",
-        "Energy"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Security development, November 17",
-          "value": "Iranian drone attack reported; Bahrain and CENTCOM say intercepted, no US equipment damage or American injuries; Iran claims radar strike without independent confirmation"
-        },
-        {
-          "label": "Oil observation, November 17 08:10 AM EST report",
-          "value": "Brent near $92.93/bbl, down about $0.49 in the cited intraday snapshot; not settlement"
-        },
-        {
-          "label": "Physical flow",
-          "value": "No independently confirmed incremental oil export loss attributable to Bahrain strike"
-        },
-        {
-          "label": "Fundamentals, risks and invalidation",
-          "value": "Ample/recovering global supply partly offsets geopolitical premium; verified damage or sustained Hormuz transit/cargo losses would overturn muted supply-effect assessment"
-        },
-        {
-          "label": "Next indicators",
-          "value": "CENTCOM/Bahrain releases, UKMTO/MARAD, vessel and cargo status, Hormuz transits, war-risk insurance, Brent/WTI and XLE/XOP relative strength"
-        }
-      ],
-      "key_finding": "A corroborated military escalation raises Gulf security risk, but physical oil-supply disruption is unverified.",
-      "sources": [
-        {
-          "title": "Reuters: Iran drone attacks toward US radar system in Bahrain, November 17",
-          "url": "https://www.al-monitor.com/originals/2026/11/iran-attacks-us-military-radar-system-bahrain-drones"
-        },
-        {
-          "title": "Associated Press: Third Bahrain attack and reported interception",
-          "url": "https://apnews.com/article/582e0b5d51be06f0ed630fac24f39b72"
-        },
-        {
-          "title": "Iran International: CENTCOM says drones intercepted without US damage",
-          "url": "https://www.iranintl.com/en/202611170533"
-        },
-        {
-          "title": "Bloomberg via Transport Topics: crude price snapshot",
-          "url": "https://www.ttnews.com/articles/oil-prices-vessel-attacks"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-17T13:32:41-05:00",
+  "last_checked_at": "2026-11-17T14:31:44-05:00",
   "last_check_status": "new_findings"
 }
