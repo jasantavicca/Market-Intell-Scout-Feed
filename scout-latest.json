@@ -1,60 +1,106 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-17T16:27:48-05:00",
-  "as_of_et": "November 17, 2026, 4:27 PM EST",
+  "generated_at": "2026-11-17T17:28:44-05:00",
+  "as_of_et": "November 17, 2026, 5:28 PM EST",
   "items": [
     {
-      "id": "scout-20261117-1627-nvda-q3-results",
-      "observed_at": "2026-11-17T16:27:48-05:00",
-      "title": "Nvidia beats quarterly estimates with robust data-center growth; Q4 margin outlook moderates",
-      "summary": "Nvidia reported fiscal Q3 revenue well above its previous outlook and market consensus, driven by continued data-center expansion. Its next-quarter revenue guidance is also strong, but gross margins are projected to decline. The earnings announcement confirms current sales momentum, not sustained future valuation support or an after-hours market reaction.",
+      "id": "scout-20261117-1728-nvda-fy28-outlook",
+      "observed_at": "2026-11-17T17:28:44-05:00",
+      "title": "Nvidia raises fiscal 2028 sales-growth outlook as AI demand persists",
+      "summary": "During its November 17 earnings call, Nvidia raised its fiscal 2028 revenue-growth outlook to about 75% from 70%, citing demand and greater supply support. The stock gained approximately 2% after hours around 5:10 PM ET, an unconfirmed extended-session move. Continued customer spending and margin delivery remain the tests.",
       "tickers": [
         "NVDA",
         "AMD",
-        "AVGO",
-        "CRWV"
+        "AVGO"
       ],
       "sectors": [
         "Semiconductors",
         "AI infrastructure",
-        "Data-center networking"
+        "Cloud computing"
       ],
-      "evidence_grade": "confirmed",
+      "evidence_grade": "corroborated",
       "observations": [
         {
-          "label": "November 17 4:20 PM EST official earnings release",
-          "value": "Fiscal Q3 revenue $115.8B (+103% YoY); Data Center $107.6B (+110% YoY); non-GAAP EPS $2.68; non-GAAP gross margin 74.9%"
+          "label": "Growth outlook change (management call)",
+          "value": "Fiscal 2028 revenue growth approximately 75%, up from 70% previously"
         },
         {
-          "label": "Prior expectations",
-          "value": "Nvidia prior Q3 revenue outlook $108.0B +/-2%; reported analyst revenue consensus about $109.15B and adjusted EPS about $2.47"
+          "label": "After-hours market reaction",
+          "value": "Approximately +2% around 5:10 PM EST November 17; preliminary, not an official close"
         },
         {
-          "label": "Fiscal Q4 company outlook",
-          "value": "Revenue $130.0B +/-3%, includes an extra week; gross margins 71.0%-72.0%; no China data-center compute revenue assumed"
-        },
-        {
-          "label": "Market response",
-          "value": "NVDA ended regular November 17 session about -0.5% before release; after-hours move not independently verified at observation time"
-        },
-        {
-          "label": "Risks and next checks",
-          "value": "5 PM ET earnings call, customer demand and financing, Vera Rubin deployments, gross-margin compression, cash generation, export controls and leadership continuity; sustained order or margin deterioration would undermine outlook"
+          "label": "Next checks",
+          "value": "Hyperscaler capital spending, AI deployment and GPU utilization, gross margins, customer credit exposure, China/export controls"
         }
       ],
-      "key_finding": "Verified AI infrastructure revenue remains exceptionally strong, but Q4 margin guidance introduces a material profitability test.",
+      "key_finding": "Nvidia raised its longer-horizon growth expectations even as market scrutiny of AI financing intensified.",
       "sources": [
         {
-          "title": "Nvidia November 17 Q3 fiscal 2027 official earnings release",
-          "url": "https://markets.businessinsider.com/news/stocks/nvidia-announces-financial-results-for-third-quarter-fiscal-2027-1036775903"
+          "title": "Barron's: Nvidia guidance for next year impresses",
+          "url": "https://www.barrons.com/livecoverage/nvidia-earnings-stock-huang-departure/card/nvidia-guidance-for-next-year-impresses-ogDwhz2LxN9Y5jLBKhUk"
         },
         {
-          "title": "Nvidia official investor relations",
-          "url": "https://investor.nvidia.com/"
+          "title": "Business Insider: Nvidia November 17 earnings call live",
+          "url": "https://www.businessinsider.com/nvidia-earnings-jensen-huang-departure-nvda-stock-2026-11"
         },
         {
-          "title": "Reuters November 17 consensus and earnings preview",
-          "url": "https://www.investing.com/news/stock-market-news/nvidia-shares-set-for-335-billion-swing-after-earnings-options-show-5032318"
+          "title": "Nvidia official quarterly results",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261117-1627-nvda-q3-results"
+    },
+    {
+      "id": "scout-20261117-1728-nvda-financing-commitments",
+      "observed_at": "2026-11-17T17:28:44-05:00",
+      "title": "Nvidia discloses $518 billion future commitments and $118 billion maximum guarantees",
+      "summary": "Nvidia's SEC-filed quarterly CFO commentary shows $518 billion of scheduled multiyear commitments, including $390 billion in supply commitments, plus separately disclosed $32 billion conditional neocloud arrangements. Maximum gross guarantees total $118 billion, much of it tied to an Ohio campus for OpenAI. These are not immediate cash losses, but they expose interdependent AI infrastructure financing risks.",
+      "tickers": [
+        "NVDA"
+      ],
+      "sectors": [
+        "AI infrastructure",
+        "Data centers",
+        "Grid and power infrastructure",
+        "Semiconductors"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Future commitments at October 25, 2026",
+          "value": "$518B total scheduled; includes $390B supply/capacity, $28B cloud agreements, $74B uncommenced data-center leases, $20B equity investments and $6B capex"
+        },
+        {
+          "label": "Additional neocloud agreements",
+          "value": "$32B maximum, conditional on customer financing and deployment and acceptance of infrastructure"
+        },
+        {
+          "label": "Maximum gross guarantees",
+          "value": "$118B total; $105B conditional SB Energy/Ohio OpenAI campus, $3.5B neocloud leases, $9.5B power and systems; no guarantee payments reported"
+        },
+        {
+          "label": "Liquidity and execution watch",
+          "value": "$53.5B cash/marketable debt, receivables $81B; DSO 64 vs 60 days; follow lease commencements, customer financing and defaults"
+        },
+        {
+          "label": "Next checks",
+          "value": "SEC 10-Q when filed, financed customer deployments, AI capacity utilization, terms of guarantees, cash conversion, receivables and inventory"
+        }
+      ],
+      "key_finding": "AI hardware demand is strong, but Nvidia is assuming substantial multiyear and conditional financing exposure to sustain the infrastructure buildout.",
+      "sources": [
+        {
+          "title": "Nvidia November 17 CFO commentary, SEC Exhibit 99.2",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm"
+        },
+        {
+          "title": "Nvidia 8-K dated November 17",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/nvda-20261117.htm"
+        },
+        {
+          "title": "Business Insider: commitments and guarantees in Nvidia quarterly results",
+          "url": "https://www.businessinsider.com/nvidia-earnings-jensen-huang-departure-nvda-stock-2026-11"
         }
       ],
       "status": "new",
@@ -212,54 +258,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261117-1531-enr-cashflow",
-      "observed_at": "2026-11-17T15:31:45-05:00",
-      "title": "Energizer rises against market selloff on better margins and cash-flow guidance",
-      "summary": "Energizer rose sharply in afternoon trading following fiscal fourth-quarter results showing improved profitability and debt reduction. Management projects higher free cash flow next fiscal year even with soft organic sales. Elevated leverage and limited revenue growth remain important risks.",
-      "tickers": [
-        "ENR"
-      ],
-      "sectors": [
-        "Consumer products",
-        "Batteries",
-        "Automotive care"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 17 1:02 PM EST intraday snapshot",
-          "value": "ENR +11.71% (StockTitan); not a closing figure"
-        },
-        {
-          "label": "Fiscal 2026 Q4 earnings",
-          "value": "Adjusted EPS $1.37 (+30% YoY); adjusted gross margin 42.5% (+400 basis points); quarterly free cash flow $123.6M"
-        },
-        {
-          "label": "Fiscal 2027 free cash flow projection",
-          "value": "Approximately $300M, up more than 30% from $228.6M fiscal 2026"
-        },
-        {
-          "label": "Risks and next indicators",
-          "value": "Organic sales down 0.6% in quarter; net debt/adjusted EBITDA 5.1x; watch organic growth, gross margin, debt reduction and free cash flow execution"
-        }
-      ],
-      "key_finding": "Stronger cash flow and margin execution distinguish Energizer from broad-market weakness despite elevated leverage.",
-      "sources": [
-        {
-          "title": "Energizer official Q4 fiscal 2026 results and fiscal 2027 guidance",
-          "url": "https://investors.energizerholdings.com/2026-11-17-Energizer-Holdings%2C-Inc-Announces-Fiscal-2026-Fourth-Quarter-and-Full-Year-Results-and-Financial-Outlook-for-Fiscal-2027"
-        },
-        {
-          "title": "StockTitan November 17 live market update at 1:02 PM ET",
-          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-17-2026"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-17T16:27:48-05:00",
+  "last_checked_at": "2026-11-17T17:28:44-05:00",
   "last_check_status": "new_findings"
 }
