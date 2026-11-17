@@ -1,8 +1,111 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-17T15:31:45-05:00",
-  "as_of_et": "November 17, 2026, 3:31 PM EST",
+  "generated_at": "2026-11-17T16:27:48-05:00",
+  "as_of_et": "November 17, 2026, 4:27 PM EST",
   "items": [
+    {
+      "id": "scout-20261117-1627-nvda-q3-results",
+      "observed_at": "2026-11-17T16:27:48-05:00",
+      "title": "Nvidia beats quarterly estimates with robust data-center growth; Q4 margin outlook moderates",
+      "summary": "Nvidia reported fiscal Q3 revenue well above its previous outlook and market consensus, driven by continued data-center expansion. Its next-quarter revenue guidance is also strong, but gross margins are projected to decline. The earnings announcement confirms current sales momentum, not sustained future valuation support or an after-hours market reaction.",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "CRWV"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "Data-center networking"
+      ],
+      "evidence_grade": "confirmed",
+      "observations": [
+        {
+          "label": "November 17 4:20 PM EST official earnings release",
+          "value": "Fiscal Q3 revenue $115.8B (+103% YoY); Data Center $107.6B (+110% YoY); non-GAAP EPS $2.68; non-GAAP gross margin 74.9%"
+        },
+        {
+          "label": "Prior expectations",
+          "value": "Nvidia prior Q3 revenue outlook $108.0B +/-2%; reported analyst revenue consensus about $109.15B and adjusted EPS about $2.47"
+        },
+        {
+          "label": "Fiscal Q4 company outlook",
+          "value": "Revenue $130.0B +/-3%, includes an extra week; gross margins 71.0%-72.0%; no China data-center compute revenue assumed"
+        },
+        {
+          "label": "Market response",
+          "value": "NVDA ended regular November 17 session about -0.5% before release; after-hours move not independently verified at observation time"
+        },
+        {
+          "label": "Risks and next checks",
+          "value": "5 PM ET earnings call, customer demand and financing, Vera Rubin deployments, gross-margin compression, cash generation, export controls and leadership continuity; sustained order or margin deterioration would undermine outlook"
+        }
+      ],
+      "key_finding": "Verified AI infrastructure revenue remains exceptionally strong, but Q4 margin guidance introduces a material profitability test.",
+      "sources": [
+        {
+          "title": "Nvidia November 17 Q3 fiscal 2027 official earnings release",
+          "url": "https://markets.businessinsider.com/news/stocks/nvidia-announces-financial-results-for-third-quarter-fiscal-2027-1036775903"
+        },
+        {
+          "title": "Nvidia official investor relations",
+          "url": "https://investor.nvidia.com/"
+        },
+        {
+          "title": "Reuters November 17 consensus and earnings preview",
+          "url": "https://www.investing.com/news/stock-market-news/nvidia-shares-set-for-335-billion-swing-after-earnings-options-show-5032318"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261117-1627-broad-market-close",
+      "observed_at": "2026-11-17T16:27:48-05:00",
+      "title": "US equity indexes end broadly lower ahead of Nvidia report, extending technology-led decline",
+      "summary": "US stocks closed lower for another session with broad selling despite a recovery from the day's steepest losses. Technology leadership, elevated financing costs and export controls remained important risk factors. These closing figures predate Nvidia's newly released earnings and do not establish a specific deterioration in chip demand.",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IGV",
+        "NVDA"
+      ],
+      "sectors": [
+        "US equities",
+        "Software",
+        "Semiconductors",
+        "AI infrastructure"
+      ],
+      "evidence_grade": "confirmed",
+      "observations": [
+        {
+          "label": "November 17 4:00 PM EST regular-session close, WSJ and AP",
+          "value": "Dow 50,759.42 (-1.64%); S&P 500 7,340.53 (-1.03%); Nasdaq 24,328.38 (-0.74%); approximately 17 of 20 S&P 500 stocks declined (AP)"
+        },
+        {
+          "label": "Earlier intraday conditions",
+          "value": "S&P 500 had declined as much as about 1.7%; late recovery reduced index losses, not breadth weakness"
+        },
+        {
+          "label": "Next checks and invalidation",
+          "value": "Wednesday breadth, credit spreads, rates, software relative strength and market reaction to Nvidia guidance; broad participation and stabilization would weaken deterioration signal"
+        }
+      ],
+      "key_finding": "The session ended with corroborated broad declines, but fundamental AI demand must be judged against earnings rather than price action alone.",
+      "sources": [
+        {
+          "title": "Wall Street Journal November 17 US stock market close",
+          "url": "https://www.wsj.com/finance/stocks/u-s-stocks-fall-as-ai-doubts-fester-a0979bdb"
+        },
+        {
+          "title": "Associated Press November 17 stock market closing coverage",
+          "url": "https://apnews.com/article/4d5a35288288389d894e63e6bebe8240"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261117-1531-saudi-pipeline-qeshm",
       "observed_at": "2026-11-17T15:31:45-05:00",
@@ -155,98 +258,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261117-1431-kerch-bridge-shipping",
-      "observed_at": "2026-11-17T14:31:44-05:00",
-      "title": "Kerch Bridge collapse threatens deep-water shipping route into Sea of Azov",
-      "summary": "Russia acknowledged bridge damage and suspended traffic after Ukrainian strikes on November 17. Photographs and multiple reports indicate a road arch fell into the Kerch Strait's navigable channel, raising risks to merchant shipping and regional freight. Exact vessel delays or complete closure of the waterway have not been verified independently.",
-      "tickers": [],
-      "sectors": [
-        "Maritime shipping",
-        "Energy logistics",
-        "Black Sea transport"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 17 physical-infrastructure reports",
-          "value": "Approximately 227-m road-arch span reported collapsed; Russian officials confirm bridge damage and traffic restrictions; not a vessel-flow measurement"
-        },
-        {
-          "label": "Navigation channel",
-          "value": "Kerch-Yenikale deep-water route approximately 120 m wide; media and maritime observers say debris appears to obstruct it, without verified transit counts"
-        },
-        {
-          "label": "Next indicators and invalidation",
-          "value": "Official channel closure notices, vessel tracking, Sea of Azov port exports, grain/fuel freight rates, debris clearance; restored large-vessel passage would weaken impact thesis"
-        }
-      ],
-      "key_finding": "Corroborated structural loss creates credible shipping disruption risk, while quantified physical cargo-flow losses remain unverified.",
-      "sources": [
-        {
-          "title": "Associated Press November 17 Kerch Bridge damage",
-          "url": "https://apnews.com/article/df4b867cf8f70e88843d8fefea5d643c"
-        },
-        {
-          "title": "The Guardian November 17 bridge and shipping assessment",
-          "url": "https://www.theguardian.com/world/2026/nov/17/ukraine-strikes-critical-damage-russia-kerch-bridge-crimea"
-        },
-        {
-          "title": "Ukrainian Shipping Magazine navigation channel report",
-          "url": "https://en.usm.media/the-collapsed-arch-of-the-crimean-bridge-blocked-the-only-deep-water-passage-in-the-kerch-strait/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261117-1431-aecom-backlog",
-      "observed_at": "2026-11-17T14:31:44-05:00",
-      "title": "AECOM rises sharply on record $28 billion infrastructure backlog and stronger margins",
-      "summary": "AECOM gained about 8.5% in a November 17 intraday snapshot after reporting record backlog and higher adjusted margins. Fiscal fourth-quarter adjusted EPS increased despite a reported revenue decline. The main risk is cash consumption and cost overruns from two legacy construction-management projects.",
-      "tickers": [
-        "ACM"
-      ],
-      "sectors": [
-        "Infrastructure engineering",
-        "Industrials",
-        "Construction management"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 17 10:50 AM EST intraday snapshot",
-          "value": "ACM +8.5%; not a closing price, later return not independently timestamped"
-        },
-        {
-          "label": "November 16 fiscal Q4 results",
-          "value": "Total backlog $28.016B, +13% YoY; adjusted EPS $1.63, +20% YoY; adjusted EBITDA margin 19.2%, +170 bps; GAAP revenue -7%"
-        },
-        {
-          "label": "Cash-flow and next checks",
-          "value": "Q4 FCF $274M; expected ~$500M cash use in fiscal 2027 from two construction-management projects; monitor backlog conversion, margins, overruns"
-        }
-      ],
-      "key_finding": "Infrastructure earnings strength diverges from broad market weakness, but contract conversion and project cash costs remain essential tests.",
-      "sources": [
-        {
-          "title": "AECOM fiscal 2026 results, November 16",
-          "url": "https://investors.aecom.com/news-releases/news-release-details/aecom-reports-fourth-quarter-and-full-year-fiscal-2026-results"
-        },
-        {
-          "title": "Motley Fool November 17 ACM intraday reaction",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-aecom-stock-popped-today-164442478.html"
-        },
-        {
-          "title": "SEC-filed AECOM results",
-          "url": "https://www.sec.gov/Archives/edgar/data/868857/000110465926128300/tm2629784d1_ex99-1.htm"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-17T15:31:45-05:00",
+  "last_checked_at": "2026-11-17T16:27:48-05:00",
   "last_check_status": "new_findings"
 }
