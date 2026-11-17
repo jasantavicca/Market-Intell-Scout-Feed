@@ -1,8 +1,116 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-17T11:27:35-05:00",
-  "as_of_et": "November 17, 2026, 11:27 AM EST",
+  "generated_at": "2026-11-17T12:30:37-05:00",
+  "as_of_et": "November 17, 2026, 12:30 PM EST",
   "items": [
+    {
+      "id": "scout-20261117-1230-tara-gas-crew",
+      "observed_at": "2026-11-17T12:30:37-05:00",
+      "title": "Indian ministry confirms missing and injured crew after MT Tara Gas Hormuz attacks",
+      "summary": "India's foreign ministry reported that crew members aboard the LPG tanker MT Tara Gas were injured or missing following strikes near the Strait of Hormuz. Its updated account supersedes earlier initial reports that the crew were safe. The casualty update reinforces shipping security concerns but does not establish a sustained export-volume loss.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "LPG shipping",
+        "Maritime security"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Incident and official status update",
+          "value": "Attack November 16; Indian Ministry of External Affairs statement November 17, reported by several Indian news organizations"
+        },
+        {
+          "label": "Crew status, Indian nationals",
+          "value": "24 aboard: 21 evacuated to Khasab, Oman; two injured and hospitalized; one missing; earlier safe-crew reports superseded"
+        },
+        {
+          "label": "Crude market context at 13:40 GMT (8:40 AM ET) November 17",
+          "value": "Brent $93.71/bbl +1.4%; WTI $86.97/bbl +1.5%, both intraday, not settlements; Reuters reports export recovery"
+        },
+        {
+          "label": "Risks and next checks",
+          "value": "Rescue outcome, LPG cargo and vessel damage, insurance pricing, transit counts, UKMTO/MARAD and Brent/WTI/XLE/XOP confirmation; actual sustained flow loss remains unverified"
+        }
+      ],
+      "key_finding": "Official crew-status update establishes casualties and missing personnel, not yet measurable sustained oil or LPG export losses.",
+      "sources": [
+        {
+          "title": "New Indian Express: India MEA crew-status statement Nov 17",
+          "url": "https://www.newindianexpress.com/india/2026/Nov/17/india-condemns-tanker-attack-in-strait-of-hormuz-one-indian-missing-two-injured"
+        },
+        {
+          "title": "Hindustan Times: MEA statement and earlier contradictory report",
+          "url": "https://www.hindustantimes.com/india-news/india-condemns-attack-on-lpg-tanker-carrying-24-indians-in-strait-of-hormuz-1-seafarer-missing-mea-the-targeting-must-end-101794926651905.html"
+        },
+        {
+          "title": "Reuters: tanker attacks, crude market context",
+          "url": "https://live.euronext.com/en/financial-news/oil-prices-caught-between-tanker-attacks-and-rising-mideast-exports"
+        },
+        {
+          "title": "UKMTO recent incident advisories",
+          "url": "https://www.ukmto.org/recent-incidents"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261117-0836-hormuz-second-strike"
+    },
+    {
+      "id": "scout-20261117-1230-asia-datacenter-curbs",
+      "observed_at": "2026-11-17T12:30:37-05:00",
+      "title": "Southeast Asian data-center builders sink under new US chip and remote-compute restrictions",
+      "summary": "New U.S. restrictions targeting advanced chip exports and remote access by Chinese AI customers drove sharp declines among Malaysian data-center infrastructure companies. Reuters reports gains in China's domestic chipmaker SMIC as investors assess substitution demand. The rules create near-term customer-utilization and compliance risks, while ultimate contract losses remain unproven.",
+      "tickers": [
+        "0245.KL",
+        "6742.KL",
+        "0981.HK"
+      ],
+      "sectors": [
+        "Data-center infrastructure",
+        "Semiconductors",
+        "International equities",
+        "Power and grid"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 17 Asian cash-session intraday observations reported by Reuters",
+          "value": "MN Holdings and Critical Holdings each nearly -20%; YTL Power nearly -10%; SMIC +7%; exact quote time not specified, not closing returns"
+        },
+        {
+          "label": "Policy catalyst",
+          "value": "U.S. rule restricts advanced chip shipments to Malaysia, Singapore, Thailand, Indonesia and Brazil and access via overseas data centers serving significant Chinese AI compute demand"
+        },
+        {
+          "label": "Demand and capex context",
+          "value": "Reuters cites Malaysia $95B data-center-related investment approvals since 2021; order cancellation or utilization loss not yet verified"
+        },
+        {
+          "label": "Next checks and invalidation",
+          "value": "Effective licensing conditions, grandfathering, Malaysian hyperscaler commitments, data-center utilization and cancellations, Chinese domestic chip capacity; exemptions or continued project orders would weaken the selloff's fundamental thesis"
+        }
+      ],
+      "key_finding": "New restrictions have caused measurable regional AI-infrastructure equity stress and a semiconductor substitution divergence.",
+      "sources": [
+        {
+          "title": "Reuters: U.S. chip curbs threaten Southeast Asian data-center investments",
+          "url": "https://www.livemint.com/technology/us-ai-chip-curbs-threaten-southeast-asia-data-centre-boom-shares-slump-11794896626332.html"
+        },
+        {
+          "title": "Associated Press: U.S. remote-compute and export-control measures",
+          "url": "https://apnews.com/article/60f868d3bb430b85a8657b27d421096e"
+        },
+        {
+          "title": "Business Insider: Asian tech and local chipmaker market reactions",
+          "url": "https://www.businessinsider.com/us-restricts-remote-access-advanced-ai-chips-asia-tech-stocks-2026-11"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261117-1127-software-market-breadth",
       "observed_at": "2026-11-17T10:56:00-05:00",
@@ -179,109 +287,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261117-0932-blacksea-gas-husky",
-      "observed_at": "2026-11-17T09:32:14-05:00",
-      "title": "Black Sea LPG carrier sinks; second merchant vessel lost off Bulgaria in two days",
-      "summary": "Bulgarian authorities confirmed that LPG carrier GAS HUSKY sank on November 17, after another cargo ship sank nearby on November 16. Maritime-industry reporting says all 19 GAS HUSKY crew members were rescued. A drone strike is alleged by a security firm, but the cause is not yet officially confirmed and wider energy-shipping disruption is unverified.",
-      "tickers": [],
-      "sectors": [
-        "LPG shipping",
-        "Energy",
-        "Black Sea maritime security"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 17 incident",
-          "value": "GAS HUSKY sank about 50 nautical miles off Bulgaria; emergency beacon reportedly activated at 08:02 local time; ship en route Alexandria to Midia"
-        },
-        {
-          "label": "November 16 incident",
-          "value": "Second vessel, general cargo ship, sank nearby; earlier rescue of its 12 crew confirmed"
-        },
-        {
-          "label": "Casualty and physical-flow distinction",
-          "value": "AP reported rescue operation under way; later Seatrade Maritime reported all 19 gas-carrier crew rescued; vessel loss confirmed, regional supply effect not established"
-        },
-        {
-          "label": "Cause and next checks",
-          "value": "Drone involvement attributed by maritime-security firm but not confirmed by Bulgaria; monitor official investigation, port disruptions, cargo losses and war-risk premiums"
-        }
-      ],
-      "key_finding": "Two documented vessel sinkings elevate Black Sea shipping risk without yet proving a regional LPG supply shock.",
-      "sources": [
-        {
-          "title": "Associated Press November 17: Gas carrier sinks off Bulgaria",
-          "url": "https://apnews.com/article/bulgaria-romania-black-sea-gas-tanker-gas-husky-3265b6f9e84eb28b349dceb3223fd37f"
-        },
-        {
-          "title": "Seatrade Maritime November 17: Both sinkings and rescue updates",
-          "url": "https://www.seatrade-maritime.com/security/seafarers-injured-as-two-vessels-struck-in-black-sea-off-bulgaria"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261117-0932-optical-policy-rally",
-      "observed_at": "2026-11-17T09:32:14-05:00",
-      "title": "US optical networking shares rally on proposed China equipment import restrictions",
-      "summary": "Reuters reports that US officials intend to advance proposed limits on importing Chinese optical transceivers despite objections from major technology buyers. Coherent, Lumentum and Applied Optoelectronics rallied in premarket trading. US suppliers could benefit, but the ban is not yet enacted and capacity shortages may delay data-center buildouts.",
-      "tickers": [
-        "COHR",
-        "LITE",
-        "AAOI",
-        "CIEN"
-      ],
-      "sectors": [
-        "Optical networking",
-        "AI infrastructure",
-        "Semiconductors"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 17 premarket market moves",
-          "value": "COHR +11.3%, LITE +8.2% in pre-open market report; AAOI +8.1% at 08:06 ET; indicative intraday/pre-open observations, not closes"
-        },
-        {
-          "label": "Regulatory catalyst",
-          "value": "Reuters November 17 06:02 ET: Administration intends to advance FCC restrictions on imports of newer Chinese optical-transceiver models; still proposed, not final"
-        },
-        {
-          "label": "Company fundamentals",
-          "value": "AAOI Q3 revenue $269.9M, data-center revenue $155.6M versus $43.9M prior-year; company warns grid-power constraints may delay 2027 US capacity expansion"
-        },
-        {
-          "label": "Risks and invalidation",
-          "value": "Final rule scope, customer opposition, supplier capacity, optical component costs, delivery lead times and actual hyperscaler orders; regulatory retreat or prolonged manufacturing bottlenecks weaken thesis"
-        }
-      ],
-      "key_finding": "A prospective policy shift sparked sector-specific strength in optical networking, with execution capacity the main bottleneck.",
-      "sources": [
-        {
-          "title": "Reuters November 17: China data-center equipment curb advances",
-          "url": "https://www.investing.com/news/stock-market-news/exclusivetrumps-china-data-center-curb-advances-despite-amazon-google-meta-lobbying-5032280"
-        },
-        {
-          "title": "Barron's November 17 premarket optical stock moves",
-          "url": "https://www.barrons.com/articles/s-p-500-futures-steady-in-premarket-trading-coherent-lumentum-holdings-lead-d1d04634"
-        },
-        {
-          "title": "Applied Optoelectronics Q3 financial results / SEC filing",
-          "url": "https://appliedoptoelectronics.gcs-web.com/node/17731/html"
-        },
-        {
-          "title": "Investing.com November 17 AAOI premarket response",
-          "url": "https://www.investing.com/news/stock-market-news/why-is-applied-optoelectronics-stock-surging-today-93CH-5032834"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-17T11:27:35-05:00",
+  "last_checked_at": "2026-11-17T12:30:37-05:00",
   "last_check_status": "new_findings"
 }
