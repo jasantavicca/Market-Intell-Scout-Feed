@@ -1,8 +1,72 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-17T10:29:51-05:00",
-  "as_of_et": "November 17, 2026, 10:29 AM EST",
+  "generated_at": "2026-11-17T11:27:35-05:00",
+  "as_of_et": "November 17, 2026, 11:27 AM EST",
   "items": [
+    {
+      "id": "scout-20261117-1127-software-market-breadth",
+      "observed_at": "2026-11-17T10:56:00-05:00",
+      "title": "Enterprise software leads broad US equity selloff as AI weakness spreads",
+      "summary": "US equities weakened sharply after a relatively calmer opening, with software falling more steeply than the broad indexes. Salesforce led large-cap software declines while chips, memory and data-center-power suppliers also retreated. This is intraday market evidence of widening risk aversion, not proof of falling underlying orders.",
+      "tickers": [
+        "IGV",
+        "CRM",
+        "NOW",
+        "NVDA",
+        "MU",
+        "SNDK",
+        "BE",
+        "SPY",
+        "QQQ"
+      ],
+      "sectors": [
+        "Enterprise software",
+        "Semiconductors",
+        "Memory and storage",
+        "Data-center power",
+        "US equities"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Market snapshot, November 17 at approximately 10:56 AM EST",
+          "value": "S&P 500 -1.6%, Nasdaq -2.0%, Dow -1.7%, IGV -4.4%; all intraday, not closes"
+        },
+        {
+          "label": "Stock-level intraday snapshot, same report",
+          "value": "CRM -9.6%, NVDA -2.5%, BE -7.7%, MU and SNDK each down more than 6%"
+        },
+        {
+          "label": "Breadth",
+          "value": "Only 86 of 500 S&P 500 names advancing at approximately 10:56 AM EST (Barron's)"
+        },
+        {
+          "label": "Fundamental context",
+          "value": "AI spending durability, software contract growth and high financing costs under scrutiny; no independently verified cancellation or shipment shock in this pass"
+        },
+        {
+          "label": "Next checks and invalidation",
+          "value": "NVDA after-close earnings, IGV breadth and price action, software cRPO, memory demand, data-center project commitments and Treasury yields; strong guidance and broad stabilization would weaken selloff thesis"
+        }
+      ],
+      "key_finding": "Software-led market breadth deterioration shows the AI-linked selloff spreading across multiple sectors.",
+      "sources": [
+        {
+          "title": "Barron's market coverage, November 17, 10:56 AM EST snapshot",
+          "url": "https://www.barrons.com/livecoverage/stock-market-news-today-111726/card/boom-goes-the-stock-market-kV5HA3IK0eRBo2mwC0vN"
+        },
+        {
+          "title": "Associated Press November 17 midmorning market update",
+          "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-4d5a35288288389d894e63e6bebe8240"
+        },
+        {
+          "title": "MarketWatch November 17 Salesforce-led Dow decline",
+          "url": "https://www.marketwatch.com/data-news/dow-s-nearly-750-point-fall-led-by-losses-in-shares-of-salesforce-unitedhealth-0bb349a9-9568e860aba1"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261117-1029-bahrain-drones",
       "observed_at": "2026-11-17T10:29:51-05:00",
@@ -216,58 +280,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261117-0932-smwb-earnings",
-      "observed_at": "2026-11-17T09:32:14-05:00",
-      "title": "Similarweb gains premarket after profit beat and third full-year guidance increase",
-      "summary": "Similarweb's third-quarter revenue rose 16% to $83.0 million and it raised full-year guidance to $318-$320 million. Large-customer retention and contracted backlog improved while shares rose about 17.5% premarket. Sustained cash conversion and retention remain key tests of the AI-related enterprise demand narrative.",
-      "tickers": [
-        "SMWB"
-      ],
-      "sectors": [
-        "Software",
-        "Enterprise analytics",
-        "AI data services"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 17 premarket",
-          "value": "SMWB approximately +17.5% premarket near 09:30 ET; not a close"
-        },
-        {
-          "label": "Q3 financials",
-          "value": "Revenue $83.0M (+16% YoY); non-GAAP diluted EPS $0.10; GAAP operating profit $3.1M"
-        },
-        {
-          "label": "Quality of revenue",
-          "value": "Large-account net retention 114% versus 105% year earlier; remaining performance obligations $334.2M (+25% YoY)"
-        },
-        {
-          "label": "Forward guidance and risks",
-          "value": "FY2026 revenue guidance raised to $318M-$320M; monitor enterprise renewals, operating margins, normalized free cash flow and customer concentration; weak retention would undermine thesis"
-        }
-      ],
-      "key_finding": "SMWB's revenue growth, improved retention and higher guidance support its premarket move more convincingly than a sentiment-only rally.",
-      "sources": [
-        {
-          "title": "Similarweb November 17 Q3 results via Business Wire",
-          "url": "https://finance.yahoo.com/technology/articles/similarweb-announces-third-quarter-2026-120000405.html"
-        },
-        {
-          "title": "Investing.com November 17 earnings reaction and guidance",
-          "url": "https://www.investing.com/news/earnings/similarweb-surges-95-on-q3-beat-and-raised-guidance-93CH-5032654"
-        },
-        {
-          "title": "StockAnalysis November 17 premarket movers",
-          "url": "https://stockanalysis.com/markets/premarket/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-17T10:29:51-05:00",
+  "last_checked_at": "2026-11-17T11:27:35-05:00",
   "last_check_status": "new_findings"
 }
