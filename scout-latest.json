@@ -1,13 +1,13 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-16T17:26:25-05:00",
-  "as_of_et": "November 16, 2026, 5:26 PM EST",
+  "generated_at": "2026-11-17T08:36:00-05:00",
+  "as_of_et": "November 17, 2026, 8:36 AM EST",
   "items": [
     {
-      "id": "scout-20261116-1726-hormuz-208",
-      "observed_at": "2026-11-16T17:26:25-05:00",
-      "title": "UKMTO issues later-time Hormuz tanker attack warning; cargo losses unverified",
-      "summary": "UKMTO published a separate numbered warning based on a third-party report of a tanker attack near Khasab, Oman. It says the vessel was disabled and an engine-room fire occurred, with crew reported safe. Whether this involves a vessel distinct from the earlier warning, and any additional export loss, remain unverified.",
+      "id": "scout-20261117-0836-hormuz-second-strike",
+      "observed_at": "2026-11-17T08:36:00-05:00",
+      "title": "UKMTO updates Hormuz tanker warning: reported second strike, crew unaccounted for",
+      "summary": "UKMTO's update to warning 208 reports a second strike on a tanker near Khasab, Oman, and says crew are currently unaccounted for, reversing an earlier safe-crew report. Reuters meanwhile reports recovering Middle East oil exports and stable early crude prices. Neither casualties nor a sustained cargo-flow loss have been independently verified.",
       "tickers": [
         "XLE",
         "XOP"
@@ -17,38 +17,120 @@
         "Maritime shipping",
         "Energy"
       ],
-      "evidence_grade": "single-source",
+      "evidence_grade": "corroborated",
       "observations": [
         {
-          "label": "UKMTO Warning 208-26 incident time",
-          "value": "16 November 2026, 19:00 UTC / 2:00 PM EST, 7 nautical miles north of Khasab, Oman; third-party report"
+          "label": "UKMTO warning 208 update",
+          "value": "Update 001 timestamp 17 Nov 07:45 UTC; reported second strike; crew status unaccounted for; damage unknown"
         },
         {
-          "label": "Earlier warning for comparison",
-          "value": "UKMTO 207-26 refers to an outbound tanker incident earlier on 16 November; same-vessel relationship not established"
+          "label": "Early November 17 crude snapshot at 09:10 GMT",
+          "value": "Brent $92.61/bbl (+0.2%); WTI $85.73/bbl nearly flat; intraday, not settlement"
         },
         {
-          "label": "Reported operational impact",
-          "value": "Tanker disabled, engine-room fire, crew reported safe; damage and environmental effects unknown"
-        },
-        {
-          "label": "Oil market context",
-          "value": "Earlier November 16 settlements Brent $92.44/bbl (-3.5%), WTI $85.72/bbl (-3.2%); no confirmed later oil-price response to Warning 208-26"
+          "label": "Physical-flow evidence",
+          "value": "Reuters reports recovering Middle East shipments; no independently verified incremental oil export losses"
         },
         {
           "label": "Next checks and invalidation",
-          "value": "Vessel identity, UKMTO updates, towing status, verified cargo and export losses, tanker transits, insurance/freight, XLE/XOP; duplicate warning or no export loss limits escalation case"
+          "value": "Vessel/crew verification, cargo status, UKMTO/MARAD updates, Hormuz transits, insurance rates and Brent/WTI/XLE/XOP; verified export disruption would overturn supply-recovery case"
         }
       ],
-      "key_finding": "A later-time official maritime warning heightens Hormuz risk, but independent vessel and physical-flow verification are still needed.",
+      "key_finding": "The reported second tanker strike worsens security risk without yet demonstrating sustained oil-flow disruption.",
       "sources": [
         {
-          "title": "UKMTO Warning 208-26, 16 November 2026",
-          "url": "https://www.ukmto.org/-/media/ukmto/products/20261116-ukmto_warning_208-26.pdf?download=true&rev=29246f8ab7714c10a7668e09cddcac15"
+          "title": "UKMTO recent incidents warning 208",
+          "url": "https://www.ukmto.org/recent-incidents"
         },
         {
-          "title": "UKMTO recent incidents bulletin",
-          "url": "https://www.ukmto.org/recent-incidents"
+          "title": "Reuters November 17 oil-price and export report",
+          "url": "https://live.euronext.com/en/financial-news/oil-prices-caught-between-rising-mideast-exports-and-tanker-attacks"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261116-1726-hormuz-208"
+    },
+    {
+      "id": "scout-20261117-0836-rcat-guidance",
+      "observed_at": "2026-11-17T08:36:00-05:00",
+      "title": "Red Cat plunges premarket after withdrawing full-year revenue target",
+      "summary": "Red Cat withdrew its 2026 revenue target after slower contract funding and awards, despite reporting quarterly revenue growth. Premarket shares fell sharply. Cash holdings provide a buffer, but timing and conversion of defense procurement into funded revenue are uncertain.",
+      "tickers": [
+        "RCAT"
+      ],
+      "sectors": [
+        "Defense technology",
+        "Drones and robotics"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 17 07:46 AM ET premarket",
+          "value": "RCAT $2.37, -32.9%; preliminary premarket observation"
+        },
+        {
+          "label": "November 16 company results",
+          "value": "Q3 revenue $11.8M (+22% YoY); cash $242.7M; full-year 2026 revenue outlook withdrawn"
+        },
+        {
+          "label": "Next checks and invalidation",
+          "value": "Procurement awards, customer deliveries, burn rate and inventory; funded contract conversion could improve outlook"
+        }
+      ],
+      "key_finding": "Revenue guidance withdrawal points to real execution and funding risk behind RCAT's premarket repricing.",
+      "sources": [
+        {
+          "title": "Red Cat third-quarter results and withdrawn outlook",
+          "url": "https://ir.redcatholdings.com/news-events/press-releases/detail/249/red-cat-reports-q3-2026-revenue-growth-of-22-yy-ytd-q3-2026-revenue-growth-of-227-yy-announced-public-purchase-to-acquire-steyr-motors-ag-and-advancement-to-dow-swarm-forge-crucible-4"
+        },
+        {
+          "title": "Market Chameleon November 17 premarket snapshot",
+          "url": "https://marketchameleon.com/Reports/PremarketTrading/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261117-0836-nvda-earnings",
+      "observed_at": "2026-11-17T08:36:00-05:00",
+      "title": "Nvidia earnings to test AI-sector spending and margins amid leadership change",
+      "summary": "Nvidia reports after Tuesday's close following a widespread AI-equity selloff and Jensen Huang's departure as CEO. Investors are examining data-center demand, margins, free cash generation and export restrictions. A modest premarket decline does not establish weaker chip shipments or orders.",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "QQQ"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "Cloud computing"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 17 05:54 AM ET Reuters snapshot",
+          "value": "NVDA -0.4% premarket; not a closing price"
+        },
+        {
+          "label": "Catalyst",
+          "value": "November 17 post-close earnings and interim CEO commentary"
+        },
+        {
+          "label": "Next checks and invalidation",
+          "value": "Revenue and margin guidance, AI orders, export rules, hyperscaler capex and cash generation; firm demand and improving margins weaken deterioration thesis"
+        }
+      ],
+      "key_finding": "Nvidia's next earnings release is a pivotal near-term verification point for the wider AI-infrastructure selloff.",
+      "sources": [
+        {
+          "title": "Reuters November 17 Nvidia earnings and futures preview",
+          "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-slip-ahead-of-nvidia-results-fed-speakers-in-focus-5032236"
+        },
+        {
+          "title": "Associated Press November 17 global market preview",
+          "url": "https://apnews.com/article/4d5a35288288389d894e63e6bebe8240"
         }
       ],
       "status": "new",
@@ -166,104 +248,8 @@
       ],
       "status": "updated",
       "supersedes": "scout-20261116-1132-ai-cash-rout"
-    },
-    {
-      "id": "scout-20261116-1634-oil-settlement-divergence",
-      "observed_at": "2026-11-16T16:34:19-05:00",
-      "title": "Oil settles sharply lower despite continuing Middle East maritime warnings",
-      "summary": "Brent settled at $92.44 and WTI at $85.72, both more than 3% lower despite tanker-security reports near Hormuz and rising concerns around Bab el-Mandeb. The price action favors expectations of recovering shipments and supply surplus, not proof that shipping is safe. No additional sustained physical export loss was independently established during this pass.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Energy",
-        "Maritime shipping"
-      ],
-      "evidence_grade": "confirmed",
-      "observations": [
-        {
-          "label": "November 16 crude futures settlement",
-          "value": "Brent $92.44/bbl, -3.55%; WTI $85.72/bbl, -3.21%; corroborated by Newsquawk and Xinhua/WSJ"
-        },
-        {
-          "label": "Physical flow versus threat",
-          "value": "Reuters reports Hormuz flows nearly back to pre-war levels; tanker attacks/security concerns persist; no independently documented additional sustained export volume loss"
-        },
-        {
-          "label": "Risks and next checks",
-          "value": "UKMTO/MARAD reports, Hormuz and Bab el-Mandeb transit counts, freight/insurance rates, Yanbu loadings, API/EIA and XLE/XOP relative strength; confirmed export curtailments would invalidate the surplus-dominant interpretation"
-        }
-      ],
-      "key_finding": "Confirmed crude settlement decline shows surplus expectations outweigh maritime risk for now.",
-      "sources": [
-        {
-          "title": "Newsquawk November 16 Brent and WTI settlements",
-          "url": "https://www.newsquawk.com/headlines/crude-wrap-wti-z6-settles-usd-284-lower-at-8572bbl-brent-f7-settles-usd-340-lower-at-9244bbl"
-        },
-        {
-          "title": "Wall Street Journal November 16 crude settlement coverage",
-          "url": "https://www.wsj.com/finance/commodities-futures/oil-prices-rise-as-fresh-attacks-renew-middle-east-supply-concerns-bee22d97"
-        },
-        {
-          "title": "Reuters November 16 oil supply and Hormuz shipments",
-          "url": "https://www.marketscreener.com/news/oil-prices-fall-on-expectations-of-coming-supply-surplus-ce785ededf81f320"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261116-1132-oil-supply-divergence"
-    },
-    {
-      "id": "scout-20261116-1531-bank-service-disruptions",
-      "observed_at": "2026-11-16T15:31:07-05:00",
-      "title": "US bank online-service disruptions coincide with falling financial shares",
-      "summary": "Customers reported online-service and payment problems at several major US banks on November 16. Chase confirmed transaction delays caused by a technical issue, while U.S. Bank said its own systems were not directly affected. JPMorgan, Bank of America and Wells Fargo shares were lower intraday, but a causal link between the outages and the share declines is unproven.",
-      "tickers": [
-        "JPM",
-        "BAC",
-        "WFC",
-        "USB"
-      ],
-      "sectors": [
-        "Banking",
-        "Payments",
-        "Financial infrastructure"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Reported customer incidents, November 16 around 1:50-2 PM ET",
-          "value": "Barron's cites 4,600+ Chase and 1,900+ Bank of America service complaints plus reports at Wells Fargo, U.S. Bank and Zelle; incident reports are not equivalent to confirmed outages at every institution"
-        },
-        {
-          "label": "Bank equity snapshot, November 16 afternoon ET",
-          "value": "Barron's reported JPM -2.3%, BAC -2.1%, WFC -2.0% intraday; report does not give an exact quote timestamp, and declines may reflect broad market weakness"
-        },
-        {
-          "label": "Confirmed bank statements",
-          "value": "Chase described a technical, not cyber, problem causing some delayed transactions; U.S. Bank said its systems were not directly impacted, though cross-bank Zelle transfers might be delayed"
-        },
-        {
-          "label": "Risks, invalidation and next checks",
-          "value": "Look for service restoration, independent root-cause reports, consumer transaction backlogs, Zelle status and any material revenue or regulatory exposure; rapid restoration without financial impact weakens market significance"
-        }
-      ],
-      "key_finding": "A multi-bank payment-service disruption is corroborated, but neither common infrastructure failure nor equity-market causation is proven.",
-      "sources": [
-        {
-          "title": "Associated Press: Customers at major US banks report online-service problems",
-          "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda"
-        },
-        {
-          "title": "Barron's: Bank outage reports and intraday bank share declines",
-          "url": "https://www.barrons.com/articles/outages-jpmorgan-chase-bank-of-america-wells-fargo-stocks-0faf523e"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-16T18:26:28-05:00",
-  "last_check_status": "no_new_findings"
+  "last_checked_at": "2026-11-17T08:36:00-05:00",
+  "last_check_status": "new_findings"
 }
