@@ -1,8 +1,109 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-18T11:34:48-05:00",
-  "as_of_et": "November 18, 2026, 11:34 AM EST",
+  "generated_at": "2026-11-18T12:32:40-05:00",
+  "as_of_et": "November 18, 2026, 12:32 PM EST",
   "items": [
+    {
+      "id": "scout-20261118-1232-nvda-rally-reversal",
+      "observed_at": "2026-11-18T12:32:40-05:00",
+      "title": "Nvidia earnings rally reverses in midday trading despite record revenue",
+      "summary": "Nvidia shifted from early gains to an approximately 2.1% midday decline despite record quarterly revenue and a strong outlook. The broader market also weakened. This is an intraday price reversal, not evidence that Nvidia's underlying chip orders fell; high valuation, leadership and AI financing concerns remain.",
+      "tickers": [
+        "NVDA",
+        "CRWV",
+        "AMD",
+        "AVGO"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "Cloud computing"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 18 approximately 11:32 AM EST, intraday",
+          "value": "NVDA approximately -2.1%; S&P 500 -0.48%; Nasdaq Composite -0.08%, per Motley Fool; not closing prices"
+        },
+        {
+          "label": "Corroborating market coverage",
+          "value": "Financial Times reports NVDA -2.2% during Wednesday session and mixed AI-linked stocks; exact FT quote time unspecified"
+        },
+        {
+          "label": "Fundamental context",
+          "value": "Fiscal Q3 revenue approximately $115.8B (+103% YoY), next-quarter revenue guide about $130B; demand remains strong at the supplier level"
+        },
+        {
+          "label": "Risks, invalidation and next indicators",
+          "value": "Monitor margins, cash generation, management transition, export restrictions, hyperscaler spending, neocloud financing and price breadth; sustained recovery with stable customer spending would weaken the negative market response"
+        }
+      ],
+      "key_finding": "Strong Nvidia earnings have not sustained the initial stock rally, highlighting valuation and AI-financing concerns.",
+      "sources": [
+        {
+          "title": "Motley Fool November 18 midday market update (11:32 AM ET figures)",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-midday-nov-18-nvidia-doubles-revenue-but-wall-street-s-sell-off-continues/"
+        },
+        {
+          "title": "Financial Times November 18 US technology market coverage",
+          "url": "https://www.ft.com/content/f085b811-fc20-425f-88d8-9f98e178636a"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261118-1027-ai-financing-divergence"
+    },
+    {
+      "id": "scout-20261118-1232-unh-cms-audit",
+      "observed_at": "2026-11-18T12:32:40-05:00",
+      "title": "UnitedHealth extends selloff as CMS proposes retroactive Medicare Advantage audits",
+      "summary": "UnitedHealth fell sharply again Wednesday after CMS proposed expanded Medicare Advantage audits that could reach back to 2018. The proposal would raise the risk of repayment liabilities for insurers; the agency's estimated industry recovery is not a quantified UnitedHealth exposure. Its terms remain subject to comment and revision.",
+      "tickers": [
+        "UNH",
+        "HUM",
+        "CVS"
+      ],
+      "sectors": [
+        "Healthcare",
+        "Managed care",
+        "Health insurance"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 18 approximately 11:32 AM EST, intraday",
+          "value": "UNH -7.14% in Motley Fool midday report; not closing price"
+        },
+        {
+          "label": "November 16 CMS proposal",
+          "value": "CRUSH proposed rule (CMS-6098-P); Medicare Advantage risk-adjustment audits with extrapolation potentially reaching payment year 2018; not final or in force"
+        },
+        {
+          "label": "Estimated impact",
+          "value": "CMS estimates about $9B recoveries per payment year across the Medicare Advantage industry; individual insurer exposure not established"
+        },
+        {
+          "label": "Risks, invalidation and next indicators",
+          "value": "Comment deadline January 19, 2027; monitor rule changes, insurer reserve disclosures, managed-care margins and legal challenges; narrowed retroactivity or audit methodology would lower risk"
+        }
+      ],
+      "key_finding": "A new federal audit proposal introduces material, unquantified retroactive liability risk across managed care.",
+      "sources": [
+        {
+          "title": "CMS November 16 CRUSH proposed rule fact sheet",
+          "url": "https://www.cms.gov/newsroom/fact-sheets/comprehensive-regulations-uncover-suspicious-healthcare-crush-proposed-rule-cms-6098-p"
+        },
+        {
+          "title": "Motley Fool November 18 midday market and UNH price report",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-midday-nov-18-nvidia-doubles-revenue-but-wall-street-s-sell-off-continues/"
+        },
+        {
+          "title": "StreetInsider November 18 managed-care audit reaction",
+          "url": "https://www.streetinsider.com/Investing/UnitedHealth%2Bstock%2Bcontinues%2Blower%2Bamid%2Bfederal%2Baudit%2Bproposal/27368394.html"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261118-1134-eia-inventory-builds",
       "observed_at": "2026-11-18T11:34:48-05:00",
@@ -115,59 +216,6 @@
       "supersedes": null
     },
     {
-      "id": "scout-20261118-1027-ai-financing-divergence",
-      "observed_at": "2026-11-18T10:27:35-05:00",
-      "title": "Nvidia earnings lift chip suppliers while CoreWeave weakens in cash trading",
-      "summary": "Nvidia's earnings-driven premarket rebound did not carry equally into AI cloud operators. At 9:35 AM EST Nvidia rose 0.9% and AMD and Broadcom each gained 1.2%, while CoreWeave fell 4.3%. Strong chip demand remains visible, but financing costs and returns on capital remain separate risks for neocloud operators.",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "CRWV"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "AI infrastructure",
-        "Cloud computing"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 18 9:35 AM EST cash-market observations",
-          "value": "NVDA +0.9%; AMD +1.2%; AVGO +1.2%; CRWV -4.3%; S&P 500 +0.2%; Nasdaq +0.5% (AP); intraday, not closing prices"
-        },
-        {
-          "label": "Nvidia fundamental catalyst",
-          "value": "Fiscal Q3 revenue $115.8B (+103% YoY), data-center revenue $107.6B (+110% YoY), next-quarter revenue guidance about $130B"
-        },
-        {
-          "label": "Cloud operator fundamental contrast",
-          "value": "CoreWeave reported 2026 Q3 revenue about $3.66B and approximately $132.5B backlog, but $846M quarterly net interest expense; high debt and project financing remain important"
-        },
-        {
-          "label": "Next checks and invalidation",
-          "value": "CRWV financing yields, customer-contract cash conversion, power availability, chip demand, margins and hyperscaler budgets; improving cash generation and finance access would weaken neocloud divergence interpretation"
-        }
-      ],
-      "key_finding": "AI chip demand is not translating uniformly into confidence in debt-funded AI cloud infrastructure.",
-      "sources": [
-        {
-          "title": "Associated Press November 18 regular-session market snapshot",
-          "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-apec-shenzhen-dad5715bc91b4aba23a567a40e22b1fc"
-        },
-        {
-          "title": "Financial Times November 18 technology-market reaction",
-          "url": "https://www.ft.com/content/f085b811-fc20-425f-88d8-9f98e178636a"
-        },
-        {
-          "title": "CoreWeave third-quarter earnings call transcript November 10",
-          "url": "https://equibles.com/stocks/crwv/documents/a4ebd12f-c9e8-4e18-8c62-34bdc37ae367"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261118-0737-nvda-neocloud-rebound"
-    },
-    {
       "id": "scout-20261118-0932-aaoi-atm-dilution",
       "observed_at": "2026-11-18T09:32:06-05:00",
       "title": "Applied Optoelectronics falls sharply after new $550 million share-sale authorization",
@@ -216,55 +264,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261118-0836-hormuz-211",
-      "observed_at": "2026-11-18T08:36:29-05:00",
-      "title": "UKMTO warning 211 reports tanker strike and missing crew member near Khasab",
-      "summary": "UKMTO published a time-delayed report of a tanker struck by an unidentified projectile 13 nautical miles north of Khasab, Oman. The onboard fire was extinguished, and search-and-rescue efforts were underway for one missing crew member. The incident's exact time and whether it overlaps earlier reports need reconciliation; no sustained oil-export loss has been verified.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Maritime shipping",
-        "Energy"
-      ],
-      "evidence_grade": "single-source",
-      "observations": [
-        {
-          "label": "UKMTO publication",
-          "value": "Warning #211 dated 18 Nov 2026; time-delayed incident report; occurrence time not confirmed"
-        },
-        {
-          "label": "Reported physical impact",
-          "value": "Tanker projectile strike 13 nautical miles north of Khasab, Oman; onboard fire extinguished; one crew member missing; cargo damage and export losses unverified"
-        },
-        {
-          "label": "November 18 early-European intraday oil indication",
-          "value": "Brent approximately $91.38/bbl (-1.9%) and WTI approximately $83.80/bbl (-2.6%), per WSJ; not settlement prices"
-        },
-        {
-          "label": "Next checks and invalidation",
-          "value": "UKMTO detail and vessel identity versus warnings 208/207, crew status, damage, tanker transits, freight and insurance, EIA inventory at 10:30 AM ET; duplicate incident report or absence of export disruption weakens escalation inference"
-        }
-      ],
-      "key_finding": "Official maritime reporting adds a serious tanker incident, but it does not establish a new sustained oil-flow loss.",
-      "sources": [
-        {
-          "title": "UKMTO official recent incident reports",
-          "url": "https://www.ukmto.org/"
-        },
-        {
-          "title": "WSJ November 18 oil inventory and Hormuz coverage",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-18-2026/card/oil-inventories-grow-sending-prices-lower-despite-hormuz-attacks-2laztVRw7MizhbwQLnBR"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-18T11:34:48-05:00",
+  "last_checked_at": "2026-11-18T12:32:40-05:00",
   "last_check_status": "new_findings"
 }
