@@ -1,104 +1,150 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-18T12:32:40-05:00",
-  "as_of_et": "November 18, 2026, 12:32 PM EST",
+  "generated_at": "2026-11-18T13:35:43-05:00",
+  "as_of_et": "November 18, 2026, 1:35 PM EST",
   "items": [
     {
-      "id": "scout-20261118-1232-nvda-rally-reversal",
-      "observed_at": "2026-11-18T12:32:40-05:00",
-      "title": "Nvidia earnings rally reverses in midday trading despite record revenue",
-      "summary": "Nvidia shifted from early gains to an approximately 2.1% midday decline despite record quarterly revenue and a strong outlook. The broader market also weakened. This is an intraday price reversal, not evidence that Nvidia's underlying chip orders fell; high valuation, leadership and AI financing concerns remain.",
+      "id": "scout-20261118-1335-neocloud-financing",
+      "observed_at": "2026-11-18T13:35:43-05:00",
+      "title": "CoreWeave slides as Nvidia signals more selective neocloud financing",
+      "summary": "CoreWeave weakened in Wednesday trading even after Nvidia's strong earnings. Nvidia management emphasized more selective scrutiny of which infrastructure operators it helps finance. This highlights a gap between strong GPU demand and the credit quality and cash-generation outlook for neocloud operators; it does not establish an AI demand collapse.",
       "tickers": [
-        "NVDA",
         "CRWV",
-        "AMD",
-        "AVGO"
+        "NVDA",
+        "IREN",
+        "NBIS"
       ],
       "sectors": [
-        "Semiconductors",
         "AI infrastructure",
-        "Cloud computing"
+        "Cloud computing",
+        "Data-center financing"
       ],
       "evidence_grade": "corroborated",
       "observations": [
         {
-          "label": "November 18 approximately 11:32 AM EST, intraday",
-          "value": "NVDA approximately -2.1%; S&P 500 -0.48%; Nasdaq Composite -0.08%, per Motley Fool; not closing prices"
+          "label": "November 18 intraday, MarketWatch report (exact quote time not specified)",
+          "value": "CRWV -5.4%; IREN -3.3%; not closing prices"
         },
         {
-          "label": "Corroborating market coverage",
-          "value": "Financial Times reports NVDA -2.2% during Wednesday session and mixed AI-linked stocks; exact FT quote time unspecified"
+          "label": "Company management commentary",
+          "value": "Nvidia described greater selectivity in support of infrastructure financing partners; not a formal termination of existing arrangements"
         },
         {
-          "label": "Fundamental context",
-          "value": "Fiscal Q3 revenue approximately $115.8B (+103% YoY), next-quarter revenue guide about $130B; demand remains strong at the supplier level"
-        },
-        {
-          "label": "Risks, invalidation and next indicators",
-          "value": "Monitor margins, cash generation, management transition, export restrictions, hyperscaler spending, neocloud financing and price breadth; sustained recovery with stable customer spending would weaken the negative market response"
+          "label": "Next indicators and invalidation",
+          "value": "Contract-backed loan rates, credit terms, cash generation, major customer commitments and project milestones; improved funding access and margins weaken the financing-risk thesis"
         }
       ],
-      "key_finding": "Strong Nvidia earnings have not sustained the initial stock rally, highlighting valuation and AI-financing concerns.",
+      "key_finding": "AI supplier demand remains strong while neocloud financing quality is being repriced.",
       "sources": [
         {
-          "title": "Motley Fool November 18 midday market update (11:32 AM ET figures)",
-          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-midday-nov-18-nvidia-doubles-revenue-but-wall-street-s-sell-off-continues/"
+          "title": "MarketWatch November 18 Nvidia financing and CoreWeave market response",
+          "url": "https://www.marketwatch.com/story/coreweaves-stock-pops-even-as-nvidia-talks-up-a-disciplined-approach-to-financing-e7f00876"
         },
         {
-          "title": "Financial Times November 18 US technology market coverage",
-          "url": "https://www.ft.com/content/f085b811-fc20-425f-88d8-9f98e178636a"
+          "title": "TIKR November 18 CoreWeave financing analysis",
+          "url": "https://www.tikr.com/blog/coreweave-sinks-5-after-nvidia-earnings-as-kress-vows-a-very-strong-look-at-neocloud-financing"
         }
       ],
-      "status": "updated",
-      "supersedes": "scout-20261118-1027-ai-financing-divergence"
+      "status": "new",
+      "supersedes": null
     },
     {
-      "id": "scout-20261118-1232-unh-cms-audit",
-      "observed_at": "2026-11-18T12:32:40-05:00",
-      "title": "UnitedHealth extends selloff as CMS proposes retroactive Medicare Advantage audits",
-      "summary": "UnitedHealth fell sharply again Wednesday after CMS proposed expanded Medicare Advantage audits that could reach back to 2018. The proposal would raise the risk of repayment liabilities for insurers; the agency's estimated industry recovery is not a quantified UnitedHealth exposure. Its terms remain subject to comment and revision.",
+      "id": "scout-20261118-1335-cybersecurity-rebound",
+      "observed_at": "2026-11-18T13:35:43-05:00",
+      "title": "Palo Alto Networks leads cybersecurity rebound ahead of earnings",
+      "summary": "Palo Alto Networks rose with other cybersecurity names as markets reassessed critical software reliability after recent outages. Officials have not established a common cyberattack cause for those outages. The company's post-close earnings are a near-term test of recurring revenue and growth, rather than a known driver of new operating results today.",
       "tickers": [
-        "UNH",
-        "HUM",
-        "CVS"
+        "PANW",
+        "OKTA",
+        "CRWD"
       ],
       "sectors": [
-        "Healthcare",
-        "Managed care",
-        "Health insurance"
+        "Cybersecurity",
+        "Enterprise software"
       ],
       "evidence_grade": "corroborated",
       "observations": [
         {
-          "label": "November 18 approximately 11:32 AM EST, intraday",
-          "value": "UNH -7.14% in Motley Fool midday report; not closing price"
+          "label": "November 18 intraday reporting, Barron's (precise quote time unavailable)",
+          "value": "PANW +7.2%; intraday, not a closing price"
         },
         {
-          "label": "November 16 CMS proposal",
-          "value": "CRUSH proposed rule (CMS-6098-P); Medicare Advantage risk-adjustment audits with extrapolation potentially reaching payment year 2018; not final or in force"
+          "label": "Company-confirmed catalyst",
+          "value": "Fiscal Q1 2027 earnings after Nov 18 US close; webcast at 4:30 PM EST"
         },
         {
-          "label": "Estimated impact",
-          "value": "CMS estimates about $9B recoveries per payment year across the Medicare Advantage industry; individual insurer exposure not established"
+          "label": "Prior-quarter operating context",
+          "value": "Fiscal Q4 2026 next-generation security ARR $9.10B, +63% YoY (company)"
         },
         {
-          "label": "Risks, invalidation and next indicators",
-          "value": "Comment deadline January 19, 2027; monitor rule changes, insurer reserve disclosures, managed-care margins and legal challenges; narrowed retroactivity or audit methodology would lower risk"
+          "label": "Next indicators and invalidation",
+          "value": "New recurring ARR, remaining performance obligations, cash flow, acquisition integration, diluted share count and outlook; weak results could reverse the rebound"
         }
       ],
-      "key_finding": "A new federal audit proposal introduces material, unquantified retroactive liability risk across managed care.",
+      "key_finding": "Cybersecurity shares are rebounding, but earnings tonight must validate the improved sentiment.",
       "sources": [
         {
-          "title": "CMS November 16 CRUSH proposed rule fact sheet",
-          "url": "https://www.cms.gov/newsroom/fact-sheets/comprehensive-regulations-uncover-suspicious-healthcare-crush-proposed-rule-cms-6098-p"
+          "title": "Barron's November 18 market movers",
+          "url": "https://www.barrons.com/articles/stock-movers-62881b61"
         },
         {
-          "title": "Motley Fool November 18 midday market and UNH price report",
-          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-midday-nov-18-nvidia-doubles-revenue-but-wall-street-s-sell-off-continues/"
+          "title": "Palo Alto Networks official earnings date announcement",
+          "url": "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-to-announce-fiscal-first-quarter-2027-financial-results-on-wednesday--november-18--2026"
         },
         {
-          "title": "StreetInsider November 18 managed-care audit reaction",
-          "url": "https://www.streetinsider.com/Investing/UnitedHealth%2Bstock%2Bcontinues%2Blower%2Bamid%2Bfederal%2Baudit%2Bproposal/27368394.html"
+          "title": "Palo Alto official fiscal Q4 2026 results",
+          "url": "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-reports-fiscal-fourth-quarter-and-fiscal-year-2026-financial-results"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261118-1335-retail-relative-strength",
+      "observed_at": "2026-11-18T13:35:43-05:00",
+      "title": "TJX and Target outperform after comparable-sales gains",
+      "summary": "TJX and Target rallied on stronger quarterly sales and traffic, contrasting with weakness in several technology and healthcare shares. TJX lifted its full-year outlook, while Target's reported profit included a material tariff-refund benefit. Positive retail earnings suggest selective consumer strength, not proof of sustained broad market rotation.",
+      "tickers": [
+        "TJX",
+        "TGT"
+      ],
+      "sectors": [
+        "Consumer discretionary",
+        "Retail",
+        "Sector rotation"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 18 intraday coverage",
+          "value": "TJX about +11% (11:24 AM EST report); TGT about +7% (AP Wednesday report); not closing prices"
+        },
+        {
+          "label": "Company quarterly operating results",
+          "value": "TJX comparable sales +4%, net sales +6%; Target comparable sales +5.6%, net sales +7.1%"
+        },
+        {
+          "label": "Target earnings qualification",
+          "value": "Target Q3 EPS $2.65 included $0.50 from tariff refunds; full-year guidance also includes tariff benefits"
+        },
+        {
+          "label": "Next indicators and invalidation",
+          "value": "Holiday traffic, margins, freight/fuel costs, tariff adjustments and peer earnings; weakening underlying comps or margins would challenge the retail-strength thesis"
+        }
+      ],
+      "key_finding": "Selective retail leadership is supported by comparable-sales growth, with tariff-related earnings benefits requiring adjustment.",
+      "sources": [
+        {
+          "title": "TJX official November 18 fiscal Q3 results",
+          "url": "https://thetjxcompaniesinc.gcs-web.com/news-releases/news-release-details/tjx-companies-inc-reports-q3-fy27-results-comp-sales-growth-4"
+        },
+        {
+          "title": "Target official November 18 Q3 earnings",
+          "url": "https://corporate.target.com/press/release/2026/11/target-corporation-reports-third-quarter-earnings"
+        },
+        {
+          "title": "Associated Press November 18 market summary",
+          "url": "https://apnews.com/article/dad5715bc91b4aba23a567a40e22b1fc"
         }
       ],
       "status": "new",
@@ -214,58 +260,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261118-0932-aaoi-atm-dilution",
-      "observed_at": "2026-11-18T09:32:06-05:00",
-      "title": "Applied Optoelectronics falls sharply after new $550 million share-sale authorization",
-      "summary": "Applied Optoelectronics entered a new at-the-market agreement allowing sales of up to $550 million in stock. Shares fell in premarket trading despite substantial reported AI optical-networking revenue growth. The agreement permits future sales but does not establish that $550 million has already been issued; capital intensity and dilution remain key risks.",
-      "tickers": [
-        "AAOI"
-      ],
-      "sectors": [
-        "Optical networking",
-        "AI infrastructure",
-        "Data-center connectivity"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 18 07:10 AM EST premarket observation",
-          "value": "AAOI -10.6% in pre-open trading (Investing.com); preliminary intraday indication, not a closing price"
-        },
-        {
-          "label": "November 17 SEC filing",
-          "value": "New equity distribution agreement: up to $550 million of common stock, through Raymond James and Needham; discretionary sales, not completed issuance"
-        },
-        {
-          "label": "Recent operating context",
-          "value": "Q3 revenue $269.9 million, approximately +128% year over year, according to November 17 market reporting; substantial capacity capex"
-        },
-        {
-          "label": "Risks and invalidation",
-          "value": "Track actual shares sold, dilution, cash flow, capex returns, optical transceiver orders and margins; improving cash conversion could offset financing concerns"
-        }
-      ],
-      "key_finding": "AI-networking demand growth is accompanied by a material, documented new dilution capacity and negative premarket repricing.",
-      "sources": [
-        {
-          "title": "Applied Optoelectronics November 17 Form 8-K",
-          "url": "https://appliedoptoelectronics.gcs-web.com/node/17766/html"
-        },
-        {
-          "title": "Investing.com November 18 premarket response",
-          "url": "https://ca.investing.com/news/stock-market-news/why-is-applied-optoelectronics-stock-sliding-today-93CH-4966628"
-        },
-        {
-          "title": "Barron's November 18 financing and AI-networking analysis",
-          "url": "https://www.barrons.com/articles/applied-optoelectronics-stock-ai-trade-006b080e"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-18T12:32:40-05:00",
+  "last_checked_at": "2026-11-18T13:35:43-05:00",
   "last_check_status": "new_findings"
 }
