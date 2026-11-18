@@ -1,8 +1,55 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-18T07:37:30-05:00",
-  "as_of_et": "November 18, 2026, 7:37 AM EST",
+  "generated_at": "2026-11-18T08:36:29-05:00",
+  "as_of_et": "November 18, 2026, 8:36 AM EST",
   "items": [
+    {
+      "id": "scout-20261118-0836-hormuz-211",
+      "observed_at": "2026-11-18T08:36:29-05:00",
+      "title": "UKMTO warning 211 reports tanker strike and missing crew member near Khasab",
+      "summary": "UKMTO published a time-delayed report of a tanker struck by an unidentified projectile 13 nautical miles north of Khasab, Oman. The onboard fire was extinguished, and search-and-rescue efforts were underway for one missing crew member. The incident's exact time and whether it overlaps earlier reports need reconciliation; no sustained oil-export loss has been verified.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Maritime shipping",
+        "Energy"
+      ],
+      "evidence_grade": "single-source",
+      "observations": [
+        {
+          "label": "UKMTO publication",
+          "value": "Warning #211 dated 18 Nov 2026; time-delayed incident report; occurrence time not confirmed"
+        },
+        {
+          "label": "Reported physical impact",
+          "value": "Tanker projectile strike 13 nautical miles north of Khasab, Oman; onboard fire extinguished; one crew member missing; cargo damage and export losses unverified"
+        },
+        {
+          "label": "November 18 early-European intraday oil indication",
+          "value": "Brent approximately $91.38/bbl (-1.9%) and WTI approximately $83.80/bbl (-2.6%), per WSJ; not settlement prices"
+        },
+        {
+          "label": "Next checks and invalidation",
+          "value": "UKMTO detail and vessel identity versus warnings 208/207, crew status, damage, tanker transits, freight and insurance, EIA inventory at 10:30 AM ET; duplicate incident report or absence of export disruption weakens escalation inference"
+        }
+      ],
+      "key_finding": "Official maritime reporting adds a serious tanker incident, but it does not establish a new sustained oil-flow loss.",
+      "sources": [
+        {
+          "title": "UKMTO official recent incident reports",
+          "url": "https://www.ukmto.org/"
+        },
+        {
+          "title": "WSJ November 18 oil inventory and Hormuz coverage",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-18-2026/card/oil-inventories-grow-sending-prices-lower-despite-hormuz-attacks-2laztVRw7MizhbwQLnBR"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261118-0737-nvda-neocloud-rebound",
       "observed_at": "2026-11-18T07:37:30-05:00",
@@ -207,60 +254,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261117-1531-nsa-network-market",
-      "observed_at": "2026-11-17T15:31:45-05:00",
-      "title": "NSA attributes classified-network disruption to maintenance as US equities tumble",
-      "summary": "NSA acknowledged temporary internal-system degradation during routine maintenance and said mission-critical operations remained functional. CBS verified a classified network outage and reported no evidence of cyberattack. U.S. equities were sharply lower around 3:02 PM ET, but the outage has not been shown to cause the broader selloff.",
-      "tickers": [
-        "QQQ",
-        "IGV",
-        "CRM"
-      ],
-      "sectors": [
-        "Software",
-        "Cybersecurity",
-        "US equities"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Official agency status November 17",
-          "value": "Temporary degradation during scheduled routine maintenance; mission-critical capabilities operational (NSA)"
-        },
-        {
-          "label": "Independent reporting November 17",
-          "value": "Classified NSA Net interruption, staggered employee arrivals, no evidence of malicious attack (CBS, updated 2:40 PM EST)"
-        },
-        {
-          "label": "3:02 PM EST intraday market snapshot",
-          "value": "Dow down more than 1,000 points (~2%); S&P 500 -1.6%; Nasdaq -1.5% (MarketWatch); not settlement"
-        },
-        {
-          "label": "Next checks and invalidation",
-          "value": "NSA restoration notice, root-cause and patching details, correlation to other systems, QQQ/IGV breadth and Nvidia guidance; routine recovery limits systemic risk interpretation"
-        }
-      ],
-      "key_finding": "An officially acknowledged NSA maintenance incident coincided with broad selling; no cyberattack or market causality established.",
-      "sources": [
-        {
-          "title": "NSA official statement on network issues",
-          "url": "https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4650245/nsa-statement-on-network-issues/"
-        },
-        {
-          "title": "CBS News NSA Net outage, updated November 17",
-          "url": "https://www.cbsnews.com/news/nsa-network-down-classified-fort-meade/"
-        },
-        {
-          "title": "MarketWatch November 17 3:02 PM market snapshot",
-          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-nvidia-q3-financial-results-retail-sales-import-prices/card/dow-plunges-1-000-points-s-p-500-and-nasdaq-also-tumble-as-tech-stocks-extend-declines-ahead-of-nvidia-earnings-MzjSuV6kj5XBfNy9mhGJ"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-18T07:37:30-05:00",
+  "last_checked_at": "2026-11-18T08:36:29-05:00",
   "last_check_status": "new_findings"
 }
