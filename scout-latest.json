@@ -1,8 +1,101 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-18T08:36:29-05:00",
-  "as_of_et": "November 18, 2026, 8:36 AM EST",
+  "generated_at": "2026-11-18T09:32:06-05:00",
+  "as_of_et": "November 18, 2026, 9:32 AM EST",
   "items": [
+    {
+      "id": "scout-20261118-0932-aaoi-atm-dilution",
+      "observed_at": "2026-11-18T09:32:06-05:00",
+      "title": "Applied Optoelectronics falls sharply after new $550 million share-sale authorization",
+      "summary": "Applied Optoelectronics entered a new at-the-market agreement allowing sales of up to $550 million in stock. Shares fell in premarket trading despite substantial reported AI optical-networking revenue growth. The agreement permits future sales but does not establish that $550 million has already been issued; capital intensity and dilution remain key risks.",
+      "tickers": [
+        "AAOI"
+      ],
+      "sectors": [
+        "Optical networking",
+        "AI infrastructure",
+        "Data-center connectivity"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 18 07:10 AM EST premarket observation",
+          "value": "AAOI -10.6% in pre-open trading (Investing.com); preliminary intraday indication, not a closing price"
+        },
+        {
+          "label": "November 17 SEC filing",
+          "value": "New equity distribution agreement: up to $550 million of common stock, through Raymond James and Needham; discretionary sales, not completed issuance"
+        },
+        {
+          "label": "Recent operating context",
+          "value": "Q3 revenue $269.9 million, approximately +128% year over year, according to November 17 market reporting; substantial capacity capex"
+        },
+        {
+          "label": "Risks and invalidation",
+          "value": "Track actual shares sold, dilution, cash flow, capex returns, optical transceiver orders and margins; improving cash conversion could offset financing concerns"
+        }
+      ],
+      "key_finding": "AI-networking demand growth is accompanied by a material, documented new dilution capacity and negative premarket repricing.",
+      "sources": [
+        {
+          "title": "Applied Optoelectronics November 17 Form 8-K",
+          "url": "https://appliedoptoelectronics.gcs-web.com/node/17766/html"
+        },
+        {
+          "title": "Investing.com November 18 premarket response",
+          "url": "https://ca.investing.com/news/stock-market-news/why-is-applied-optoelectronics-stock-sliding-today-93CH-4966628"
+        },
+        {
+          "title": "Barron's November 18 financing and AI-networking analysis",
+          "url": "https://www.barrons.com/articles/applied-optoelectronics-stock-ai-trade-006b080e"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261118-0932-crdo-mrvl-settlement",
+      "observed_at": "2026-11-18T09:32:06-05:00",
+      "title": "Credo and Marvell resolve active electrical cable patent dispute",
+      "summary": "Credo announced an agreement with Marvell over Active Electrical Cable patent rights and pending USPTO challenges. Credo shares rose after hours following the November 17 announcement. This removes a disclosed legal overhang on data-center connectivity, though undisclosed agreement terms prevent assessment of licensing economics.",
+      "tickers": [
+        "CRDO",
+        "MRVL"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "Networking",
+        "AI infrastructure"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 17 04:52 PM EST after-hours observation",
+          "value": "CRDO approximately +2.46% at $127 (Benzinga); after-hours quote, not a closing price"
+        },
+        {
+          "label": "Company announcement",
+          "value": "Agreement resolving patent rights dispute related to Active Electrical Cable technology and Marvell USPTO challenges; terms confidential"
+        },
+        {
+          "label": "Next checks and invalidation",
+          "value": "Any royalty/license disclosures, customer wins, cable adoption, margins and competing interconnect products; unfavorable terms or share losses weaken interpretation"
+        }
+      ],
+      "key_finding": "An identified intellectual-property uncertainty in AI data-center connectivity has been resolved, with undisclosed economics.",
+      "sources": [
+        {
+          "title": "Credo November 17 official press release",
+          "url": "https://investors.credosemi.com/news-events/news/news-details/2026/Credo-Reaches-Settlement-in-Patent-Dispute/default.aspx"
+        },
+        {
+          "title": "Benzinga November 17 after-hours market reaction",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63372948/credo-stock-pops-after-reaching-patent-agreement-with-marvell"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261118-0836-hormuz-211",
       "observed_at": "2026-11-18T08:36:29-05:00",
@@ -153,109 +246,8 @@
       ],
       "status": "updated",
       "supersedes": "scout-20261117-1531-saudi-pipeline-qeshm"
-    },
-    {
-      "id": "scout-20261117-1728-nvda-financing-commitments",
-      "observed_at": "2026-11-17T17:28:44-05:00",
-      "title": "Nvidia discloses $518 billion future commitments and $118 billion maximum guarantees",
-      "summary": "Nvidia's SEC-filed quarterly CFO commentary shows $518 billion of scheduled multiyear commitments, including $390 billion in supply commitments, plus separately disclosed $32 billion conditional neocloud arrangements. Maximum gross guarantees total $118 billion, much of it tied to an Ohio campus for OpenAI. These are not immediate cash losses, but they expose interdependent AI infrastructure financing risks.",
-      "tickers": [
-        "NVDA"
-      ],
-      "sectors": [
-        "AI infrastructure",
-        "Data centers",
-        "Grid and power infrastructure",
-        "Semiconductors"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Future commitments at October 25, 2026",
-          "value": "$518B total scheduled; includes $390B supply/capacity, $28B cloud agreements, $74B uncommenced data-center leases, $20B equity investments and $6B capex"
-        },
-        {
-          "label": "Additional neocloud agreements",
-          "value": "$32B maximum, conditional on customer financing and deployment and acceptance of infrastructure"
-        },
-        {
-          "label": "Maximum gross guarantees",
-          "value": "$118B total; $105B conditional SB Energy/Ohio OpenAI campus, $3.5B neocloud leases, $9.5B power and systems; no guarantee payments reported"
-        },
-        {
-          "label": "Liquidity and execution watch",
-          "value": "$53.5B cash/marketable debt, receivables $81B; DSO 64 vs 60 days; follow lease commencements, customer financing and defaults"
-        },
-        {
-          "label": "Next checks",
-          "value": "SEC 10-Q when filed, financed customer deployments, AI capacity utilization, terms of guarantees, cash conversion, receivables and inventory"
-        }
-      ],
-      "key_finding": "AI hardware demand is strong, but Nvidia is assuming substantial multiyear and conditional financing exposure to sustain the infrastructure buildout.",
-      "sources": [
-        {
-          "title": "Nvidia November 17 CFO commentary, SEC Exhibit 99.2",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm"
-        },
-        {
-          "title": "Nvidia 8-K dated November 17",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/nvda-20261117.htm"
-        },
-        {
-          "title": "Business Insider: commitments and guarantees in Nvidia quarterly results",
-          "url": "https://www.businessinsider.com/nvidia-earnings-jensen-huang-departure-nvda-stock-2026-11"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261117-1627-broad-market-close",
-      "observed_at": "2026-11-17T16:27:48-05:00",
-      "title": "US equity indexes end broadly lower ahead of Nvidia report, extending technology-led decline",
-      "summary": "US stocks closed lower for another session with broad selling despite a recovery from the day's steepest losses. Technology leadership, elevated financing costs and export controls remained important risk factors. These closing figures predate Nvidia's newly released earnings and do not establish a specific deterioration in chip demand.",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IGV",
-        "NVDA"
-      ],
-      "sectors": [
-        "US equities",
-        "Software",
-        "Semiconductors",
-        "AI infrastructure"
-      ],
-      "evidence_grade": "confirmed",
-      "observations": [
-        {
-          "label": "November 17 4:00 PM EST regular-session close, WSJ and AP",
-          "value": "Dow 50,759.42 (-1.64%); S&P 500 7,340.53 (-1.03%); Nasdaq 24,328.38 (-0.74%); approximately 17 of 20 S&P 500 stocks declined (AP)"
-        },
-        {
-          "label": "Earlier intraday conditions",
-          "value": "S&P 500 had declined as much as about 1.7%; late recovery reduced index losses, not breadth weakness"
-        },
-        {
-          "label": "Next checks and invalidation",
-          "value": "Wednesday breadth, credit spreads, rates, software relative strength and market reaction to Nvidia guidance; broad participation and stabilization would weaken deterioration signal"
-        }
-      ],
-      "key_finding": "The session ended with corroborated broad declines, but fundamental AI demand must be judged against earnings rather than price action alone.",
-      "sources": [
-        {
-          "title": "Wall Street Journal November 17 US stock market close",
-          "url": "https://www.wsj.com/finance/stocks/u-s-stocks-fall-as-ai-doubts-fester-a0979bdb"
-        },
-        {
-          "title": "Associated Press November 17 stock market closing coverage",
-          "url": "https://apnews.com/article/4d5a35288288389d894e63e6bebe8240"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-18T08:36:29-05:00",
+  "last_checked_at": "2026-11-18T09:32:06-05:00",
   "last_check_status": "new_findings"
 }
