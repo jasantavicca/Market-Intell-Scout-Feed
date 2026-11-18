@@ -1,55 +1,111 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-17T17:28:44-05:00",
-  "as_of_et": "November 17, 2026, 5:28 PM EST",
+  "generated_at": "2026-11-18T07:37:30-05:00",
+  "as_of_et": "November 18, 2026, 7:37 AM EST",
   "items": [
     {
-      "id": "scout-20261117-1728-nvda-fy28-outlook",
-      "observed_at": "2026-11-17T17:28:44-05:00",
-      "title": "Nvidia raises fiscal 2028 sales-growth outlook as AI demand persists",
-      "summary": "During its November 17 earnings call, Nvidia raised its fiscal 2028 revenue-growth outlook to about 75% from 70%, citing demand and greater supply support. The stock gained approximately 2% after hours around 5:10 PM ET, an unconfirmed extended-session move. Continued customer spending and margin delivery remain the tests.",
+      "id": "scout-20261118-0737-nvda-neocloud-rebound",
+      "observed_at": "2026-11-18T07:37:30-05:00",
+      "title": "Nvidia earnings spark broad premarket rebound in AI chips and neoclouds",
+      "summary": "Nvidia's stronger-than-expected revenue outlook lifted semiconductor and AI infrastructure shares in Wednesday premarket trading. Reuters observed Nvidia up 3.7%; WSJ reported stronger moves in CoreWeave, Nebius and IREN. These are preliminary market reactions, not confirmed closes, and debt-heavy infrastructure customers still face financing and deployment risks.",
       "tickers": [
         "NVDA",
+        "CRWV",
+        "NBIS",
+        "IREN",
         "AMD",
-        "AVGO"
+        "TSM"
       ],
       "sectors": [
         "Semiconductors",
         "AI infrastructure",
+        "Data centers",
         "Cloud computing"
       ],
       "evidence_grade": "corroborated",
       "observations": [
         {
-          "label": "Growth outlook change (management call)",
-          "value": "Fiscal 2028 revenue growth approximately 75%, up from 70% previously"
+          "label": "Reuters Nov 18 5:28 AM EST premarket",
+          "value": "NVDA +3.7%; preliminary premarket, not regular-session closing move"
         },
         {
-          "label": "After-hours market reaction",
-          "value": "Approximately +2% around 5:10 PM EST November 17; preliminary, not an official close"
+          "label": "WSJ Nov 18 morning premarket snapshots",
+          "value": "CRWV +6.5%, NBIS +8.4%, IREN +7.0%, AMD +3.0%; intraday snapshots, not closing moves"
         },
         {
-          "label": "Next checks",
-          "value": "Hyperscaler capital spending, AI deployment and GPU utilization, gross margins, customer credit exposure, China/export controls"
+          "label": "Earnings catalyst",
+          "value": "Nvidia Q4 revenue guidance $130B ±3% versus LSEG analyst consensus $125.25B, issued Nov 17"
+        },
+        {
+          "label": "Fundamental assessment and invalidation",
+          "value": "AI compute demand remains strong; watch financing of neoclouds, GPU utilization, margins and hyperscaler capex; weak cash conversion or market reversal would undermine recovery signal"
         }
       ],
-      "key_finding": "Nvidia raised its longer-horizon growth expectations even as market scrutiny of AI financing intensified.",
+      "key_finding": "Wednesday's premarket rebound broadens Nvidia's earnings relief to indebted AI-infrastructure operators.",
       "sources": [
         {
-          "title": "Barron's: Nvidia guidance for next year impresses",
-          "url": "https://www.barrons.com/livecoverage/nvidia-earnings-stock-huang-departure/card/nvidia-guidance-for-next-year-impresses-ogDwhz2LxN9Y5jLBKhUk"
+          "title": "Reuters November 18 futures and Nvidia reaction",
+          "url": "https://www.investing.com/news/economy-news/nasdaq-futures-jump-as-nvidia-forecast-lifts-ai-trade-ahead-of-anthropic-pricing-5035347"
         },
         {
-          "title": "Business Insider: Nvidia November 17 earnings call live",
-          "url": "https://www.businessinsider.com/nvidia-earnings-jensen-huang-departure-nvda-stock-2026-11"
-        },
-        {
-          "title": "Nvidia official quarterly results",
-          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx"
+          "title": "WSJ Nvidia shares lift AI suppliers and neoclouds",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-18-2026/card/nvidia-stock-rises-lifting-ai-picks-and-shovels-qvVvUxNAjZeYhiwFHC46"
         }
       ],
       "status": "updated",
-      "supersedes": "scout-20261117-1627-nvda-q3-results"
+      "supersedes": "scout-20261117-1728-nvda-fy28-outlook"
+    },
+    {
+      "id": "scout-20261118-0737-api-oil-divergence",
+      "observed_at": "2026-11-18T07:37:30-05:00",
+      "title": "Large API inventory builds coincide with crude-price retreat despite Gulf shipping risk",
+      "summary": "API's preliminary weekly estimates showed sizeable U.S. crude and gasoline inventory builds for the week ended November 13, and crude prices declined in Wednesday's early trading. Gulf tanker threats and a reported Saudi pipeline attack claim have not been tied to independently verified sustained export losses. The official EIA release is the next supply confirmation point.",
+      "tickers": [
+        "XLE",
+        "XOP",
+        "USO"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Energy",
+        "Maritime shipping"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "API estimates for week ended Nov 13, published Nov 17",
+          "value": "US crude +5.3M barrels; gasoline +5.1M; Cushing crude -1.69M; preliminary, not EIA confirmed"
+        },
+        {
+          "label": "AP early November 18 crude observation",
+          "value": "Brent about $91.67/bbl, down 1.6%; early trading, not settlement"
+        },
+        {
+          "label": "Physical shipping flow evidence",
+          "value": "No independently reconciled sustained incremental oil-export loss established; existing UKMTO warnings remain relevant"
+        },
+        {
+          "label": "Risks, invalidation and next checks",
+          "value": "EIA crude/products, refinery throughput, oil exports, UKMTO/MARAD, Saudi pipeline status, tanker/freight stress, Brent/WTI and XLE/XOP; verified disrupted cargo flows would outweigh preliminary inventory build"
+        }
+      ],
+      "key_finding": "Supply-build evidence is pressing crude prices lower while Gulf maritime threats remain a separate, not yet quantified flow risk.",
+      "sources": [
+        {
+          "title": "Trading Economics API November 17 inventory data",
+          "url": "https://tradingeconomics.com/united-states/api-crude-oil-stock-change"
+        },
+        {
+          "title": "AP November 18 global markets and Brent price",
+          "url": "https://apnews.com/article/dad5715bc91b4aba23a567a40e22b1fc"
+        },
+        {
+          "title": "UKMTO official incident listing",
+          "url": "https://www.ukmto.org/recent-incidents"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261117-1531-saudi-pipeline-qeshm"
     },
     {
       "id": "scout-20261117-1728-nvda-financing-commitments",
@@ -153,61 +209,6 @@
       "supersedes": null
     },
     {
-      "id": "scout-20261117-1531-saudi-pipeline-qeshm",
-      "observed_at": "2026-11-17T15:31:45-05:00",
-      "title": "Houthi pipeline claim and U.S. Qeshm retaliation deepen Gulf export risk",
-      "summary": "Houthis claim they launched five drones at two Saudi East-West pipeline pumping stations, but Saudi authorities have not confirmed damage or interrupted flows. Separately, AP reports a U.S. official acknowledged a strike on an Iranian missile site on Qeshm Island after Iranian drones targeted Bahrain. Crude prices rose intraday, while verified new export losses remain absent.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Maritime shipping",
-        "Energy infrastructure"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Reported November 17 pipeline threat",
-          "value": "Houthis claim five drones toward two Saudi East-West pipeline pumping stations; no Saudi damage or flow confirmation (Reuters)"
-        },
-        {
-          "label": "Pipeline exposure",
-          "value": "Approximately 4 million barrels/day rerouted to Yanbu via East-West pipeline, around 4% of global supply (Reuters)"
-        },
-        {
-          "label": "U.S. retaliation verification",
-          "value": "AP cites U.S. official confirming strike on IRGC missile-launch site on Qeshm Island; local official reported no civilian or infrastructure damage"
-        },
-        {
-          "label": "November 17 1:48 PM EST intraday",
-          "value": "Brent $93.50/barrel (+1.15%); WTI $86.56/barrel (+0.98%) (Reuters); not settlement"
-        },
-        {
-          "label": "Next checks and invalidation",
-          "value": "Saudi ministry, operator and pipeline throughput confirmation, Yanbu loadings, tanker insurance, UKMTO/MARAD and Brent/WTI/XLE/XOP; uninterrupted flow weakens disruption thesis"
-        }
-      ],
-      "key_finding": "Gulf escalation now reaches a critical Saudi oil bypass route, but new physical supply loss is unverified.",
-      "sources": [
-        {
-          "title": "Reuters: Houthis say drones launched toward Saudi East-West pipeline",
-          "url": "https://y94.com/2026/11/17/yemens-houthis-say-they-launched-drones-towards-saudi-east-west-pipeline/"
-        },
-        {
-          "title": "AP: U.S. source confirms Qeshm retaliation",
-          "url": "https://apnews.com/article/iran-trump-israel-bahrain-attacks-582e0b5d51be06f0ed630fac24f39b72"
-        },
-        {
-          "title": "Reuters: November 17 1:48 PM EST crude prices",
-          "url": "https://gvwire.com/2026/11/17/oil-up-1-on-tanker-attacks-expected-us-crude-drop/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
       "id": "scout-20261117-1531-nsa-network-market",
       "observed_at": "2026-11-17T15:31:45-05:00",
       "title": "NSA attributes classified-network disruption to maintenance as US equities tumble",
@@ -260,6 +261,6 @@
       "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-17T17:28:44-05:00",
+  "last_checked_at": "2026-11-18T07:37:30-05:00",
   "last_check_status": "new_findings"
 }
