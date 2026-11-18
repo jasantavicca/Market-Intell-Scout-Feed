@@ -1,8 +1,120 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-18T18:00:25-05:00",
-  "as_of_et": "November 18, 2026, 6:00 PM EST",
+  "generated_at": "2026-11-18T18:29:03-05:00",
+  "as_of_et": "November 18, 2026, 6:29 PM EST",
   "items": [
+    {
+      "id": "scout-20261118-1829-panw-cyber-earnings",
+      "observed_at": "2026-11-18T18:29:03-05:00",
+      "title": "Palo Alto Networks beats, raises FY2027 guidance and agrees to acquire Applied Compute",
+      "summary": "Palo Alto Networks reported 39% quarterly revenue growth and 66% growth in next-generation security ARR, then raised its full-year outlook. It also agreed to acquire Applied Compute in a $4.5 billion all-stock transaction. Reported after-hours gains reflect strong demand but the deal adds integration and execution risk.",
+      "tickers": [
+        "PANW"
+      ],
+      "sectors": [
+        "Cybersecurity",
+        "Enterprise software",
+        "Artificial intelligence"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Official November 18 fiscal Q1 FY2027 results",
+          "value": "Revenue $3.44B, +39% YoY; NGS ARR $9.73B, +66% YoY; adjusted free cash flow $1.9B"
+        },
+        {
+          "label": "New FY2027 company outlook",
+          "value": "Revenue $14.52B-$14.57B; NGS ARR $11.475B-$11.525B; adjusted FCF margin 38%"
+        },
+        {
+          "label": "Acquisition agreement",
+          "value": "Applied Compute; all-stock $4.5B subject to adjustments and regulatory clearance; expected FY2027 Q3 close"
+        },
+        {
+          "label": "After-hours market indication",
+          "value": "Market digest published 4:30 PM ET listed PANW +9.05% after hours; quote timestamp and exchange tape not independently verified, not a closing price"
+        },
+        {
+          "label": "Next checks and invalidation",
+          "value": "Retention, ARR growth, deal approval, integration costs, cash flow and dilution; slower recurring-revenue growth or poor integration would weaken the outlook"
+        }
+      ],
+      "key_finding": "Fast-growing cybersecurity ARR supports outlook despite new $4.5B AI-platform integration risk.",
+      "sources": [
+        {
+          "title": "Palo Alto Networks November 18 fiscal Q1 results",
+          "url": "https://paloaltonetworks.gcs-web.com/news-releases/news-release-details/palo-alto-networks-reports-fiscal-first-quarter-2027-financial"
+        },
+        {
+          "title": "Palo Alto Networks acquisition announcement",
+          "url": "https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-acquire-applied-compute-bringing-secure-open"
+        },
+        {
+          "title": "November 18 market close and after-hours digest",
+          "url": "https://thetradesignal.com/brief/2026-11-18/close"
+        },
+        {
+          "title": "MarketWatch November 18 earnings reaction",
+          "url": "https://www.marketwatch.com/story/palo-alto-networks-stock-soars-as-earnings-show-ai-has-upped-the-stakes-for-cybersecurity-308e34b8"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261118-1829-everpure-earnings",
+      "observed_at": "2026-11-18T18:29:03-05:00",
+      "title": "Everpure lifts FY2027 guidance after record revenue and new hyperscaler design win",
+      "summary": "Everpure posted 51% quarterly revenue growth and raised its fiscal 2027 revenue outlook for a third consecutive quarter. It reported a second top-five hyperscaler design win and positive quarterly free cash flow. After-hours gains suggest a favorable initial response, although shipment conversion and customer concentration remain key risks.",
+      "tickers": [
+        "P"
+      ],
+      "sectors": [
+        "AI infrastructure",
+        "Enterprise storage",
+        "Data-center hardware"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Official November 18 fiscal Q3 FY2027 results",
+          "value": "Revenue $1.460B, +51% YoY; product revenue $948M, +77%; subscription services $512M, +19%; quarterly FCF $265M"
+        },
+        {
+          "label": "Raised FY2027 guidance",
+          "value": "Revenue $5.20B-$5.21B versus prior $5.03B-$5.07B; non-GAAP operating income $1.08B-$1.09B"
+        },
+        {
+          "label": "Customer validation",
+          "value": "New design win with second top-five hyperscaler; not equivalent to a disclosed shipment schedule or guaranteed revenue"
+        },
+        {
+          "label": "After-hours market indication",
+          "value": "November 18 post-close reports described roughly 4%-6% gains at differing unspecified quote times; preliminary extended-hours prices, not closing moves"
+        },
+        {
+          "label": "Next checks and invalidation",
+          "value": "Hyperscaler shipment conversion, gross margin, product costs, supply-chain capacity, customer concentration and free cash flow; deferred customer deployment or margin deterioration would weaken outlook"
+        }
+      ],
+      "key_finding": "AI-storage demand is translating into strong Everpure revenue and improved guidance, with deployment timing still uncertain.",
+      "sources": [
+        {
+          "title": "Everpure official November 18 fiscal Q3 results",
+          "url": "https://investor.everpuredata.com/news-and-events/press-releases/press-release-details/2026/Everpure-Announces-Third-Quarter-Fiscal-2027-Financial-Results/default.aspx"
+        },
+        {
+          "title": "Barron's November 18 Everpure earnings coverage",
+          "url": "https://www.barrons.com/articles/everpure-earnings-stock-price-f5bb32d2"
+        },
+        {
+          "title": "Investor's Business Daily Everpure earnings and aftermarket coverage",
+          "url": "https://www.investors.com/news/technology/everpure-stock-p-earnings-nov-2027-ai-stocks/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261118-1800-eia-oil-settlement",
       "observed_at": "2026-11-18T18:00:25-05:00",
@@ -108,109 +220,6 @@
       "supersedes": null
     },
     {
-      "id": "scout-20261118-1528-housing-contracts",
-      "observed_at": "2026-11-18T15:28:00-05:00",
-      "title": "US pending home sales reach another record low as borrowing costs constrain activity",
-      "summary": "The National Association of Realtors reported an October drop in pending home sales across all four regions, marking a second consecutive record low in its index. The weakness is a leading signal for housing transactions and rate-sensitive activity, not a time-matched stock-market move. Mortgage-rate changes and subsequent home closings will test whether the contraction stabilizes.",
-      "tickers": [
-        "XHB",
-        "ITB"
-      ],
-      "sectors": [
-        "Housing",
-        "Consumer cyclicals",
-        "Interest-rate sensitive assets"
-      ],
-      "evidence_grade": "confirmed",
-      "observations": [
-        {
-          "label": "NAR release November 18, 10:00 AM EST",
-          "value": "October pending home sales -4.7% month over month and -16.7% year over year; declines in all four US regions"
-        },
-        {
-          "label": "Historical context",
-          "value": "October marked the second consecutive record low; index series begins in 2001"
-        },
-        {
-          "label": "Equity-market reaction",
-          "value": "No independently verified time-matched XHB/ITB intraday move; tickers indicate exposure benchmarks"
-        },
-        {
-          "label": "Next checks and invalidation",
-          "value": "Mortgage rates, November/December closings, builder orders, lending conditions, NAR December 17 pending-sales release; higher contracts would weaken contraction outlook"
-        }
-      ],
-      "key_finding": "Record-low housing contracts reinforce macro pressure from elevated borrowing costs.",
-      "sources": [
-        {
-          "title": "National Association of Realtors official November 18 release",
-          "url": "https://www.nar.realtor/newsroom/pending-home-sales-decreased-4-7-percent-october-2026"
-        },
-        {
-          "title": "Barron's November 18 housing slowdown analysis",
-          "url": "https://www.barrons.com/articles/housing-market-home-sales-mortgage-rates-71242e9b"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261118-1434-fed-ai-credit",
-      "observed_at": "2026-11-18T14:34:17-05:00",
-      "title": "Federal Reserve minutes highlight AI financing and inflation vulnerabilities",
-      "summary": "The Fed's newly released October meeting minutes warn that rapid AI-related debt growth, opaque structures and circular financing could amplify losses if AI investment returns disappoint. Officials also raised concerns about the buildout's contribution to inflation. These are documented vulnerabilities, not evidence of an AI demand collapse or a verified post-release market decline.",
-      "tickers": [
-        "NVDA",
-        "CRWV",
-        "IREN",
-        "DELL",
-        "HPE",
-        "TLT"
-      ],
-      "sectors": [
-        "AI infrastructure",
-        "Credit markets",
-        "Semiconductors",
-        "Macroeconomics"
-      ],
-      "evidence_grade": "confirmed",
-      "observations": [
-        {
-          "label": "Publication",
-          "value": "Federal Reserve released October 27-28 FOMC minutes on November 18, 2026 at 2:00 PM EST"
-        },
-        {
-          "label": "Financing discussion",
-          "value": "Most participants observed rapid growth in AI-related debt, including complex and opaque financing; staff discussed off-balance-sheet leases and circular funding as potential loss amplifiers"
-        },
-        {
-          "label": "Policy context",
-          "value": "October policy range held at 3.75%-4.00% in 10-2 vote; almost all expected further hikes under baseline, a couple considered larger-than-25-bp December rise if inflation data unfavorable"
-        },
-        {
-          "label": "Market confirmation",
-          "value": "No independently verified, time-matched post-2:00 PM ET price response; earlier intraday moves are not attributed to this release"
-        },
-        {
-          "label": "Risks and next checks",
-          "value": "Watch data-center debt spreads, refinancing terms, issuer cash flows, Fed expectations, US 2Y/10Y yields and December data; stronger returns or improving credit quality would weaken stress scenario"
-        }
-      ],
-      "key_finding": "The Fed formally identified AI buildout financing as a potential amplifier of financial stress while reaffirming inflation-related tightening risks.",
-      "sources": [
-        {
-          "title": "Federal Reserve: Minutes of October 27-28, 2026 FOMC meeting",
-          "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm"
-        },
-        {
-          "title": "MarketWatch: Fed minutes show growing inflation concerns, November 18",
-          "url": "https://www.marketwatch.com/story/fed-minutes-show-growing-unease-about-the-outlook-for-inflation-59e3c13d"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
       "id": "scout-20261118-1335-neocloud-financing",
       "observed_at": "2026-11-18T13:35:43-05:00",
       "title": "CoreWeave slides as Nvidia signals more selective neocloud financing",
@@ -256,6 +265,6 @@
       "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-18T18:00:25-05:00",
+  "last_checked_at": "2026-11-18T18:29:03-05:00",
   "last_check_status": "new_findings"
 }
