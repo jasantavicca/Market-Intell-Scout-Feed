@@ -1,13 +1,13 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-18T15:28:00-05:00",
-  "as_of_et": "November 18, 2026, 3:28 PM EST",
+  "generated_at": "2026-11-18T18:00:25-05:00",
+  "as_of_et": "November 18, 2026, 6:00 PM EST",
   "items": [
     {
-      "id": "scout-20261118-1528-wti-selloff",
-      "observed_at": "2026-11-18T15:28:00-05:00",
-      "title": "WTI intraday loss deepens beyond four percent despite Gulf tanker threats",
-      "summary": "WTI crude declined sharply after larger-than-expected US crude and product inventory builds, while Brent fell less steeply. Reuters observed WTI down more than four percent by early afternoon, strengthening market confirmation of supply pressure. Gulf tanker attacks remain a verified security risk, but sustained incremental export losses have not been established.",
+      "id": "scout-20261118-1800-eia-oil-settlement",
+      "observed_at": "2026-11-18T18:00:25-05:00",
+      "title": "EIA inventory builds push crude sharply lower despite Hormuz security incidents",
+      "summary": "The EIA confirmed weekly US crude, gasoline and distillate inventory increases, each exceeding prevailing expectations. WTI and Brent settled lower as traders emphasized supply pressure despite continuing maritime security incidents. These are market-confirmed price declines and verified US inventories, not proof that Gulf shipping is secure.",
       "tickers": [
         "XLE",
         "XOP"
@@ -20,39 +20,92 @@
       "evidence_grade": "corroborated",
       "observations": [
         {
-          "label": "Reuters November 18, 1:16 PM ET intraday oil futures",
-          "value": "WTI $82.19/bbl, -4.44%; Brent $91.11/bbl, -2.18%; NOT closing or settlement prices"
+          "label": "November 18 regular settlement",
+          "value": "WTI $83.26/bbl (-3.2%); Brent $91.95/bbl (-1.28%); Reuters and PFL Petroleum"
         },
         {
-          "label": "Earlier November 18, 10:46 AM ET Reuters observation",
-          "value": "WTI $84.38/bbl, -1.9%; Brent $92.02/bbl, -1.2%; evidence of an intraday decline extension"
+          "label": "EIA release 10:30 AM EST, week ended November 13",
+          "value": "Commercial crude +3.380M bbl to 417.797M bbl; gasoline +5.193M bbl; distillates +1.571M bbl"
         },
         {
-          "label": "EIA weekly stocks for week ending November 13",
-          "value": "US crude +3.4M barrels, gasoline +5.2M barrels and distillates +1.6M barrels; verified government release"
+          "label": "Physical-flow interpretation",
+          "value": "EIA inventory figures verified; sustained Hormuz export losses not independently verified; security risks continue"
         },
         {
-          "label": "Physical-flow qualification and next indicators",
-          "value": "Tanker attacks documented, but no independently verified sustained incremental export loss; check UKMTO/MARAD, vessel transits, cargo damage, freight/insurance, Brent-WTI spread and XLE/XOP"
+          "label": "Risks and invalidation",
+          "value": "Verified cargo/export losses, refinery disruptions or renewed draws could reverse supply-pressure assessment; monitor UKMTO/MARAD, transit/freight, XLE/XOP, subsequent EIA and OPEC/IEA"
         }
       ],
-      "key_finding": "WTI's accelerated decline confirms stronger supply-led price pressure without negating Gulf physical-security risks.",
+      "key_finding": "Official inventory builds and lower oil settlements confirm supply pressure despite unresolved Gulf shipping risk.",
       "sources": [
         {
-          "title": "Reuters November 18 intraday oil market report via Euronext",
-          "url": "https://live.euronext.com/en/financial-news/oil-prices-tumble-traders-weigh-surplus-supply-outlook"
+          "title": "EIA Weekly Petroleum Status Report, November 18",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/"
         },
         {
-          "title": "US EIA weekly petroleum status summary",
-          "url": "https://ir.eia.gov/wpsr/summary.txt"
+          "title": "Reuters: Oil prices settle lower on inventory builds",
+          "url": "https://live.euronext.com/en/financial-news/oil-prices-settle-lower-traders-weigh-surplus-supply-outlook"
         },
         {
-          "title": "Reuters earlier November 18 oil price snapshot",
-          "url": "https://live.euronext.com/en/financial-news/oil-down-1-us-oil-stocks-post-larger-expected-rise-eia-says"
+          "title": "PFL Petroleum November 18 market report",
+          "url": "https://pflpetroleum.com/reports/petroleum-daily-report-11-18-2026/"
         }
       ],
       "status": "updated",
-      "supersedes": "scout-20261118-1134-eia-inventory-builds"
+      "supersedes": "scout-20261118-1528-wti-selloff"
+    },
+    {
+      "id": "scout-20261118-1800-nvda-reversal",
+      "observed_at": "2026-11-18T18:00:25-05:00",
+      "title": "Nvidia closes lower after blowout results as AI infrastructure financing differentiates",
+      "summary": "Nvidia ended nearly 3% lower after reversing early gains despite record revenue and raised guidance. CoreWeave also declined as market attention shifted toward selective financing and balance-sheet exposure among GPU cloud operators. The price reaction does not establish weakening underlying chip demand.",
+      "tickers": [
+        "NVDA",
+        "CRWV",
+        "AMD",
+        "AVGO"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "Cloud computing"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 18 cash close, corroborated independent sources",
+          "value": "NVDA approximately -2.9% near $151; Investing.com and TECHi/Nasdaq data"
+        },
+        {
+          "label": "Related operator price response",
+          "value": "CRWV approximately -5.4%, reported by MarketWatch; financing risk distinct from chip demand"
+        },
+        {
+          "label": "Fundamental catalyst",
+          "value": "Nvidia revenue $115.8B, data-center revenue $107.6B, next-quarter revenue guide near $130B; strong demand despite price weakness"
+        },
+        {
+          "label": "Risks and invalidation",
+          "value": "Leadership transition, export restrictions, margins, debt/financing terms and hyperscaler capex; stronger cash conversion and durable financing would weaken credit-stress thesis"
+        }
+      ],
+      "key_finding": "Nvidia's record demand did not prevent a negative close as investors distinguished chip sales from financing-intensive AI expansion.",
+      "sources": [
+        {
+          "title": "Investing.com November 18 Nvidia closing reaction",
+          "url": "https://www.investing.com/news/earnings/nvidia-quarterly-results-beat-estimates-5033943"
+        },
+        {
+          "title": "TECHi November 18 Nvidia close sourced from Nasdaq data",
+          "url": "https://www.techi.com/nvidia-stock-falls-day-after-earnings-ten-report-record/"
+        },
+        {
+          "title": "MarketWatch: CoreWeave financing concerns",
+          "url": "https://www.marketwatch.com/story/coreweaves-stock-pops-even-as-nvidia-talks-up-a-disciplined-approach-to-financing-e7f00876"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
     },
     {
       "id": "scout-20261118-1528-housing-contracts",
@@ -201,67 +254,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261118-1027-gulf-multifront-escalation",
-      "observed_at": "2026-11-18T10:27:35-05:00",
-      "title": "Iranian attacks widen to Kuwait and Bahrain; Saudi forces report Houthi missiles",
-      "summary": "Kuwait confirmed intercepting hostile drones after Iran claimed strikes at the Ali Al Salem air base, and Bahrain reported intercepting new Iranian attacks. Saudi-led forces separately reported intercepting Houthi cruise missiles aimed at Riyadh. The spread of attacks raises Gulf and Red Sea supply-route risk, although no sustained oil-export loss is verified.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Maritime shipping",
-        "Geopolitical risk"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Observation / reports",
-          "value": "November 18, 2026 early-morning Gulf reports, assessed 10:27 AM EST; Kuwait and Bahrain describe intercepted attacks, not verified damage to military bases"
-        },
-        {
-          "label": "Bahrain / Kuwait escalation",
-          "value": "Iran claimed strikes on US systems at Kuwait's Ali Al Salem base; Kuwait acknowledged drone interceptions; Bahrain reported a new wave of interceptions after US strikes on Iran's Qeshm Island"
-        },
-        {
-          "label": "Red Sea / Bab el-Mandeb context",
-          "value": "Saudi-led coalition reported interception of two Houthi cruise missiles toward Riyadh; coalition and Houthi claims regarding Yemen strikes remain contested"
-        },
-        {
-          "label": "Tanker impact",
-          "value": "ADNOC said one crew member missing and 11 injured after November 17 tanker incident; no verified sustained tanker-export capacity loss"
-        },
-        {
-          "label": "Nov 18 9:35 AM EST oil-market observation",
-          "value": "AP quoted Brent $92.96/bbl, down about 0.2% intraday; not a settlement or proof of undisturbed export flows"
-        },
-        {
-          "label": "Risks and invalidation",
-          "value": "Follow MARAD/UKMTO, verified vessel losses, transit counts, export terminals, freight and insurance, Brent/WTI, XLE/XOP, EIA data; confirmed export curtailments would strengthen supply-shock case, diplomacy and uninterrupted flows would weaken it"
-        }
-      ],
-      "key_finding": "Multifront Gulf retaliation increases geopolitical shipping risk without verified sustained oil-supply interruption.",
-      "sources": [
-        {
-          "title": "Associated Press November 18 Gulf attacks and tanker update",
-          "url": "https://apnews.com/article/iran-us-kuwait-gulf-attacks-bahrain-b1f0b530cffe951e6fcc1e27b2e1af94"
-        },
-        {
-          "title": "Financial Times November 18 Bahrain and Kuwait air-defense report",
-          "url": "https://www.ft.com/content/8a46c15b-3671-49fc-b367-a7ddd5b1a4f4"
-        },
-        {
-          "title": "Gulf News November 18 regional incident timeline",
-          "url": "https://gulfnews.com/world/mena/middle-east-war-iran-attacks-bahrain-kuwait-drone-threats-keep-gulf-on-high-alert-as-us-hits-irans-qeshm-1.500751444"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-18T15:28:00-05:00",
+  "last_checked_at": "2026-11-18T18:00:25-05:00",
   "last_check_status": "new_findings"
 }
