@@ -1,8 +1,64 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-18T13:35:43-05:00",
-  "as_of_et": "November 18, 2026, 1:35 PM EST",
+  "generated_at": "2026-11-18T14:34:17-05:00",
+  "as_of_et": "November 18, 2026, 2:34 PM EST",
   "items": [
+    {
+      "id": "scout-20261118-1434-fed-ai-credit",
+      "observed_at": "2026-11-18T14:34:17-05:00",
+      "title": "Federal Reserve minutes highlight AI financing and inflation vulnerabilities",
+      "summary": "The Fed's newly released October meeting minutes warn that rapid AI-related debt growth, opaque structures and circular financing could amplify losses if AI investment returns disappoint. Officials also raised concerns about the buildout's contribution to inflation. These are documented vulnerabilities, not evidence of an AI demand collapse or a verified post-release market decline.",
+      "tickers": [
+        "NVDA",
+        "CRWV",
+        "IREN",
+        "DELL",
+        "HPE",
+        "TLT"
+      ],
+      "sectors": [
+        "AI infrastructure",
+        "Credit markets",
+        "Semiconductors",
+        "Macroeconomics"
+      ],
+      "evidence_grade": "confirmed",
+      "observations": [
+        {
+          "label": "Publication",
+          "value": "Federal Reserve released October 27-28 FOMC minutes on November 18, 2026 at 2:00 PM EST"
+        },
+        {
+          "label": "Financing discussion",
+          "value": "Most participants observed rapid growth in AI-related debt, including complex and opaque financing; staff discussed off-balance-sheet leases and circular funding as potential loss amplifiers"
+        },
+        {
+          "label": "Policy context",
+          "value": "October policy range held at 3.75%-4.00% in 10-2 vote; almost all expected further hikes under baseline, a couple considered larger-than-25-bp December rise if inflation data unfavorable"
+        },
+        {
+          "label": "Market confirmation",
+          "value": "No independently verified, time-matched post-2:00 PM ET price response; earlier intraday moves are not attributed to this release"
+        },
+        {
+          "label": "Risks and next checks",
+          "value": "Watch data-center debt spreads, refinancing terms, issuer cash flows, Fed expectations, US 2Y/10Y yields and December data; stronger returns or improving credit quality would weaken stress scenario"
+        }
+      ],
+      "key_finding": "The Fed formally identified AI buildout financing as a potential amplifier of financial stress while reaffirming inflation-related tightening risks.",
+      "sources": [
+        {
+          "title": "Federal Reserve: Minutes of October 27-28, 2026 FOMC meeting",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm"
+        },
+        {
+          "title": "MarketWatch: Fed minutes show growing inflation concerns, November 18",
+          "url": "https://www.marketwatch.com/story/fed-minutes-show-growing-unease-about-the-outlook-for-inflation-59e3c13d"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261118-1335-neocloud-financing",
       "observed_at": "2026-11-18T13:35:43-05:00",
@@ -94,57 +150,6 @@
         {
           "title": "Palo Alto official fiscal Q4 2026 results",
           "url": "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-reports-fiscal-fourth-quarter-and-fiscal-year-2026-financial-results"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261118-1335-retail-relative-strength",
-      "observed_at": "2026-11-18T13:35:43-05:00",
-      "title": "TJX and Target outperform after comparable-sales gains",
-      "summary": "TJX and Target rallied on stronger quarterly sales and traffic, contrasting with weakness in several technology and healthcare shares. TJX lifted its full-year outlook, while Target's reported profit included a material tariff-refund benefit. Positive retail earnings suggest selective consumer strength, not proof of sustained broad market rotation.",
-      "tickers": [
-        "TJX",
-        "TGT"
-      ],
-      "sectors": [
-        "Consumer discretionary",
-        "Retail",
-        "Sector rotation"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 18 intraday coverage",
-          "value": "TJX about +11% (11:24 AM EST report); TGT about +7% (AP Wednesday report); not closing prices"
-        },
-        {
-          "label": "Company quarterly operating results",
-          "value": "TJX comparable sales +4%, net sales +6%; Target comparable sales +5.6%, net sales +7.1%"
-        },
-        {
-          "label": "Target earnings qualification",
-          "value": "Target Q3 EPS $2.65 included $0.50 from tariff refunds; full-year guidance also includes tariff benefits"
-        },
-        {
-          "label": "Next indicators and invalidation",
-          "value": "Holiday traffic, margins, freight/fuel costs, tariff adjustments and peer earnings; weakening underlying comps or margins would challenge the retail-strength thesis"
-        }
-      ],
-      "key_finding": "Selective retail leadership is supported by comparable-sales growth, with tariff-related earnings benefits requiring adjustment.",
-      "sources": [
-        {
-          "title": "TJX official November 18 fiscal Q3 results",
-          "url": "https://thetjxcompaniesinc.gcs-web.com/news-releases/news-release-details/tjx-companies-inc-reports-q3-fy27-results-comp-sales-growth-4"
-        },
-        {
-          "title": "Target official November 18 Q3 earnings",
-          "url": "https://corporate.target.com/press/release/2026/11/target-corporation-reports-third-quarter-earnings"
-        },
-        {
-          "title": "Associated Press November 18 market summary",
-          "url": "https://apnews.com/article/dad5715bc91b4aba23a567a40e22b1fc"
         }
       ],
       "status": "new",
@@ -262,6 +267,6 @@
       "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-18T13:35:43-05:00",
+  "last_checked_at": "2026-11-18T14:34:17-05:00",
   "last_check_status": "new_findings"
 }
