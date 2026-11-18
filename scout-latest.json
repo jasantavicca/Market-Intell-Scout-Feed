@@ -1,8 +1,106 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-18T14:34:17-05:00",
-  "as_of_et": "November 18, 2026, 2:34 PM EST",
+  "generated_at": "2026-11-18T15:28:00-05:00",
+  "as_of_et": "November 18, 2026, 3:28 PM EST",
   "items": [
+    {
+      "id": "scout-20261118-1528-wti-selloff",
+      "observed_at": "2026-11-18T15:28:00-05:00",
+      "title": "WTI intraday loss deepens beyond four percent despite Gulf tanker threats",
+      "summary": "WTI crude declined sharply after larger-than-expected US crude and product inventory builds, while Brent fell less steeply. Reuters observed WTI down more than four percent by early afternoon, strengthening market confirmation of supply pressure. Gulf tanker attacks remain a verified security risk, but sustained incremental export losses have not been established.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Energy",
+        "Maritime shipping"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Reuters November 18, 1:16 PM ET intraday oil futures",
+          "value": "WTI $82.19/bbl, -4.44%; Brent $91.11/bbl, -2.18%; NOT closing or settlement prices"
+        },
+        {
+          "label": "Earlier November 18, 10:46 AM ET Reuters observation",
+          "value": "WTI $84.38/bbl, -1.9%; Brent $92.02/bbl, -1.2%; evidence of an intraday decline extension"
+        },
+        {
+          "label": "EIA weekly stocks for week ending November 13",
+          "value": "US crude +3.4M barrels, gasoline +5.2M barrels and distillates +1.6M barrels; verified government release"
+        },
+        {
+          "label": "Physical-flow qualification and next indicators",
+          "value": "Tanker attacks documented, but no independently verified sustained incremental export loss; check UKMTO/MARAD, vessel transits, cargo damage, freight/insurance, Brent-WTI spread and XLE/XOP"
+        }
+      ],
+      "key_finding": "WTI's accelerated decline confirms stronger supply-led price pressure without negating Gulf physical-security risks.",
+      "sources": [
+        {
+          "title": "Reuters November 18 intraday oil market report via Euronext",
+          "url": "https://live.euronext.com/en/financial-news/oil-prices-tumble-traders-weigh-surplus-supply-outlook"
+        },
+        {
+          "title": "US EIA weekly petroleum status summary",
+          "url": "https://ir.eia.gov/wpsr/summary.txt"
+        },
+        {
+          "title": "Reuters earlier November 18 oil price snapshot",
+          "url": "https://live.euronext.com/en/financial-news/oil-down-1-us-oil-stocks-post-larger-expected-rise-eia-says"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261118-1134-eia-inventory-builds"
+    },
+    {
+      "id": "scout-20261118-1528-housing-contracts",
+      "observed_at": "2026-11-18T15:28:00-05:00",
+      "title": "US pending home sales reach another record low as borrowing costs constrain activity",
+      "summary": "The National Association of Realtors reported an October drop in pending home sales across all four regions, marking a second consecutive record low in its index. The weakness is a leading signal for housing transactions and rate-sensitive activity, not a time-matched stock-market move. Mortgage-rate changes and subsequent home closings will test whether the contraction stabilizes.",
+      "tickers": [
+        "XHB",
+        "ITB"
+      ],
+      "sectors": [
+        "Housing",
+        "Consumer cyclicals",
+        "Interest-rate sensitive assets"
+      ],
+      "evidence_grade": "confirmed",
+      "observations": [
+        {
+          "label": "NAR release November 18, 10:00 AM EST",
+          "value": "October pending home sales -4.7% month over month and -16.7% year over year; declines in all four US regions"
+        },
+        {
+          "label": "Historical context",
+          "value": "October marked the second consecutive record low; index series begins in 2001"
+        },
+        {
+          "label": "Equity-market reaction",
+          "value": "No independently verified time-matched XHB/ITB intraday move; tickers indicate exposure benchmarks"
+        },
+        {
+          "label": "Next checks and invalidation",
+          "value": "Mortgage rates, November/December closings, builder orders, lending conditions, NAR December 17 pending-sales release; higher contracts would weaken contraction outlook"
+        }
+      ],
+      "key_finding": "Record-low housing contracts reinforce macro pressure from elevated borrowing costs.",
+      "sources": [
+        {
+          "title": "National Association of Realtors official November 18 release",
+          "url": "https://www.nar.realtor/newsroom/pending-home-sales-decreased-4-7-percent-october-2026"
+        },
+        {
+          "title": "Barron's November 18 housing slowdown analysis",
+          "url": "https://www.barrons.com/articles/housing-market-home-sales-mortgage-rates-71242e9b"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261118-1434-fed-ai-credit",
       "observed_at": "2026-11-18T14:34:17-05:00",
@@ -105,109 +203,6 @@
       "supersedes": null
     },
     {
-      "id": "scout-20261118-1335-cybersecurity-rebound",
-      "observed_at": "2026-11-18T13:35:43-05:00",
-      "title": "Palo Alto Networks leads cybersecurity rebound ahead of earnings",
-      "summary": "Palo Alto Networks rose with other cybersecurity names as markets reassessed critical software reliability after recent outages. Officials have not established a common cyberattack cause for those outages. The company's post-close earnings are a near-term test of recurring revenue and growth, rather than a known driver of new operating results today.",
-      "tickers": [
-        "PANW",
-        "OKTA",
-        "CRWD"
-      ],
-      "sectors": [
-        "Cybersecurity",
-        "Enterprise software"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 18 intraday reporting, Barron's (precise quote time unavailable)",
-          "value": "PANW +7.2%; intraday, not a closing price"
-        },
-        {
-          "label": "Company-confirmed catalyst",
-          "value": "Fiscal Q1 2027 earnings after Nov 18 US close; webcast at 4:30 PM EST"
-        },
-        {
-          "label": "Prior-quarter operating context",
-          "value": "Fiscal Q4 2026 next-generation security ARR $9.10B, +63% YoY (company)"
-        },
-        {
-          "label": "Next indicators and invalidation",
-          "value": "New recurring ARR, remaining performance obligations, cash flow, acquisition integration, diluted share count and outlook; weak results could reverse the rebound"
-        }
-      ],
-      "key_finding": "Cybersecurity shares are rebounding, but earnings tonight must validate the improved sentiment.",
-      "sources": [
-        {
-          "title": "Barron's November 18 market movers",
-          "url": "https://www.barrons.com/articles/stock-movers-62881b61"
-        },
-        {
-          "title": "Palo Alto Networks official earnings date announcement",
-          "url": "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-to-announce-fiscal-first-quarter-2027-financial-results-on-wednesday--november-18--2026"
-        },
-        {
-          "title": "Palo Alto official fiscal Q4 2026 results",
-          "url": "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-reports-fiscal-fourth-quarter-and-fiscal-year-2026-financial-results"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261118-1134-eia-inventory-builds",
-      "observed_at": "2026-11-18T11:34:48-05:00",
-      "title": "EIA confirms large US crude and fuel inventory builds despite Gulf shipping risks",
-      "summary": "EIA's November 18 release confirms that US crude, gasoline and distillate inventories all rose in the week ending November 13. Total commercial petroleum stocks increased 9.2 million barrels while four-week petroleum-product demand edged lower year over year. These government figures strengthen the supply-recovery signal without establishing that Gulf tanker attacks have caused no disruption.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Energy",
-        "Petroleum refining",
-        "Maritime shipping"
-      ],
-      "evidence_grade": "confirmed",
-      "observations": [
-        {
-          "label": "EIA November 18 release; week ended November 13",
-          "value": "Commercial crude +3.4M barrels to 417.8M; gasoline +5.2M; distillates +1.6M; total commercial petroleum +9.2M barrels"
-        },
-        {
-          "label": "Demand and supply context",
-          "value": "Four-week total products supplied 20.6M b/d, -0.3% YoY; four-week gasoline supplied -1.8% YoY; crude stocks 3% below five-year seasonal average"
-        },
-        {
-          "label": "Refining and import context",
-          "value": "Refinery utilization 95.7%; runs 16.9M b/d (-129,000 b/d week on week); crude imports 5.6M b/d (-1.1M b/d)"
-        },
-        {
-          "label": "November 18 WSJ intraday oil-market snapshot",
-          "value": "Brent $92.75/bbl (-0.4%) and WTI $83.94/bbl (-0.8%); report's exact observation time unspecified and not a confirmed response to EIA; not settlements"
-        },
-        {
-          "label": "Next checks and invalidation",
-          "value": "UKMTO/MARAD follow-ups, confirmed tanker export or cargo losses, transits, oil spreads, XLE/XOP, next EIA release and revised demand; sustained export losses or renewed inventory draws weaken the supply-recovery interpretation"
-        }
-      ],
-      "key_finding": "Official weekly builds in crude and fuels strengthen supply-recovery evidence while Gulf physical-disruption risks remain unresolved.",
-      "sources": [
-        {
-          "title": "EIA official Weekly Petroleum Status Report summary November 18, 2026",
-          "url": "https://ir.eia.gov/wpsr/summary.txt"
-        },
-        {
-          "title": "Wall Street Journal November 18 oil market report",
-          "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-amid-supply-surplus-expectations-middle-east-tensions-99aeabd5"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261118-0737-api-oil-divergence"
-    },
-    {
       "id": "scout-20261118-1027-gulf-multifront-escalation",
       "observed_at": "2026-11-18T10:27:35-05:00",
       "title": "Iranian attacks widen to Kuwait and Bahrain; Saudi forces report Houthi missiles",
@@ -267,6 +262,6 @@
       "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-18T14:34:17-05:00",
+  "last_checked_at": "2026-11-18T15:28:00-05:00",
   "last_check_status": "new_findings"
 }
