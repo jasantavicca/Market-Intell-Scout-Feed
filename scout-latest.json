@@ -1,8 +1,60 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-18T10:27:35-05:00",
-  "as_of_et": "November 18, 2026, 10:27 AM EST",
+  "generated_at": "2026-11-18T11:34:48-05:00",
+  "as_of_et": "November 18, 2026, 11:34 AM EST",
   "items": [
+    {
+      "id": "scout-20261118-1134-eia-inventory-builds",
+      "observed_at": "2026-11-18T11:34:48-05:00",
+      "title": "EIA confirms large US crude and fuel inventory builds despite Gulf shipping risks",
+      "summary": "EIA's November 18 release confirms that US crude, gasoline and distillate inventories all rose in the week ending November 13. Total commercial petroleum stocks increased 9.2 million barrels while four-week petroleum-product demand edged lower year over year. These government figures strengthen the supply-recovery signal without establishing that Gulf tanker attacks have caused no disruption.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Energy",
+        "Petroleum refining",
+        "Maritime shipping"
+      ],
+      "evidence_grade": "confirmed",
+      "observations": [
+        {
+          "label": "EIA November 18 release; week ended November 13",
+          "value": "Commercial crude +3.4M barrels to 417.8M; gasoline +5.2M; distillates +1.6M; total commercial petroleum +9.2M barrels"
+        },
+        {
+          "label": "Demand and supply context",
+          "value": "Four-week total products supplied 20.6M b/d, -0.3% YoY; four-week gasoline supplied -1.8% YoY; crude stocks 3% below five-year seasonal average"
+        },
+        {
+          "label": "Refining and import context",
+          "value": "Refinery utilization 95.7%; runs 16.9M b/d (-129,000 b/d week on week); crude imports 5.6M b/d (-1.1M b/d)"
+        },
+        {
+          "label": "November 18 WSJ intraday oil-market snapshot",
+          "value": "Brent $92.75/bbl (-0.4%) and WTI $83.94/bbl (-0.8%); report's exact observation time unspecified and not a confirmed response to EIA; not settlements"
+        },
+        {
+          "label": "Next checks and invalidation",
+          "value": "UKMTO/MARAD follow-ups, confirmed tanker export or cargo losses, transits, oil spreads, XLE/XOP, next EIA release and revised demand; sustained export losses or renewed inventory draws weaken the supply-recovery interpretation"
+        }
+      ],
+      "key_finding": "Official weekly builds in crude and fuels strengthen supply-recovery evidence while Gulf physical-disruption risks remain unresolved.",
+      "sources": [
+        {
+          "title": "EIA official Weekly Petroleum Status Report summary November 18, 2026",
+          "url": "https://ir.eia.gov/wpsr/summary.txt"
+        },
+        {
+          "title": "Wall Street Journal November 18 oil market report",
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-amid-supply-surplus-expectations-middle-east-tensions-99aeabd5"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261118-0737-api-oil-divergence"
+    },
     {
       "id": "scout-20261118-1027-gulf-multifront-escalation",
       "observed_at": "2026-11-18T10:27:35-05:00",
@@ -211,60 +263,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261118-0737-api-oil-divergence",
-      "observed_at": "2026-11-18T07:37:30-05:00",
-      "title": "Large API inventory builds coincide with crude-price retreat despite Gulf shipping risk",
-      "summary": "API's preliminary weekly estimates showed sizeable U.S. crude and gasoline inventory builds for the week ended November 13, and crude prices declined in Wednesday's early trading. Gulf tanker threats and a reported Saudi pipeline attack claim have not been tied to independently verified sustained export losses. The official EIA release is the next supply confirmation point.",
-      "tickers": [
-        "XLE",
-        "XOP",
-        "USO"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Energy",
-        "Maritime shipping"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "API estimates for week ended Nov 13, published Nov 17",
-          "value": "US crude +5.3M barrels; gasoline +5.1M; Cushing crude -1.69M; preliminary, not EIA confirmed"
-        },
-        {
-          "label": "AP early November 18 crude observation",
-          "value": "Brent about $91.67/bbl, down 1.6%; early trading, not settlement"
-        },
-        {
-          "label": "Physical shipping flow evidence",
-          "value": "No independently reconciled sustained incremental oil-export loss established; existing UKMTO warnings remain relevant"
-        },
-        {
-          "label": "Risks, invalidation and next checks",
-          "value": "EIA crude/products, refinery throughput, oil exports, UKMTO/MARAD, Saudi pipeline status, tanker/freight stress, Brent/WTI and XLE/XOP; verified disrupted cargo flows would outweigh preliminary inventory build"
-        }
-      ],
-      "key_finding": "Supply-build evidence is pressing crude prices lower while Gulf maritime threats remain a separate, not yet quantified flow risk.",
-      "sources": [
-        {
-          "title": "Trading Economics API November 17 inventory data",
-          "url": "https://tradingeconomics.com/united-states/api-crude-oil-stock-change"
-        },
-        {
-          "title": "AP November 18 global markets and Brent price",
-          "url": "https://apnews.com/article/dad5715bc91b4aba23a567a40e22b1fc"
-        },
-        {
-          "title": "UKMTO official incident listing",
-          "url": "https://www.ukmto.org/recent-incidents"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261117-1531-saudi-pipeline-qeshm"
     }
   ],
-  "last_checked_at": "2026-11-18T10:27:35-05:00",
+  "last_checked_at": "2026-11-18T11:34:48-05:00",
   "last_check_status": "new_findings"
 }
