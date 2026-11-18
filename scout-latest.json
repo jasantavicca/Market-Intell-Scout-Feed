@@ -1,8 +1,120 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-18T09:32:06-05:00",
-  "as_of_et": "November 18, 2026, 9:32 AM EST",
+  "generated_at": "2026-11-18T10:27:35-05:00",
+  "as_of_et": "November 18, 2026, 10:27 AM EST",
   "items": [
+    {
+      "id": "scout-20261118-1027-gulf-multifront-escalation",
+      "observed_at": "2026-11-18T10:27:35-05:00",
+      "title": "Iranian attacks widen to Kuwait and Bahrain; Saudi forces report Houthi missiles",
+      "summary": "Kuwait confirmed intercepting hostile drones after Iran claimed strikes at the Ali Al Salem air base, and Bahrain reported intercepting new Iranian attacks. Saudi-led forces separately reported intercepting Houthi cruise missiles aimed at Riyadh. The spread of attacks raises Gulf and Red Sea supply-route risk, although no sustained oil-export loss is verified.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Maritime shipping",
+        "Geopolitical risk"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Observation / reports",
+          "value": "November 18, 2026 early-morning Gulf reports, assessed 10:27 AM EST; Kuwait and Bahrain describe intercepted attacks, not verified damage to military bases"
+        },
+        {
+          "label": "Bahrain / Kuwait escalation",
+          "value": "Iran claimed strikes on US systems at Kuwait's Ali Al Salem base; Kuwait acknowledged drone interceptions; Bahrain reported a new wave of interceptions after US strikes on Iran's Qeshm Island"
+        },
+        {
+          "label": "Red Sea / Bab el-Mandeb context",
+          "value": "Saudi-led coalition reported interception of two Houthi cruise missiles toward Riyadh; coalition and Houthi claims regarding Yemen strikes remain contested"
+        },
+        {
+          "label": "Tanker impact",
+          "value": "ADNOC said one crew member missing and 11 injured after November 17 tanker incident; no verified sustained tanker-export capacity loss"
+        },
+        {
+          "label": "Nov 18 9:35 AM EST oil-market observation",
+          "value": "AP quoted Brent $92.96/bbl, down about 0.2% intraday; not a settlement or proof of undisturbed export flows"
+        },
+        {
+          "label": "Risks and invalidation",
+          "value": "Follow MARAD/UKMTO, verified vessel losses, transit counts, export terminals, freight and insurance, Brent/WTI, XLE/XOP, EIA data; confirmed export curtailments would strengthen supply-shock case, diplomacy and uninterrupted flows would weaken it"
+        }
+      ],
+      "key_finding": "Multifront Gulf retaliation increases geopolitical shipping risk without verified sustained oil-supply interruption.",
+      "sources": [
+        {
+          "title": "Associated Press November 18 Gulf attacks and tanker update",
+          "url": "https://apnews.com/article/iran-us-kuwait-gulf-attacks-bahrain-b1f0b530cffe951e6fcc1e27b2e1af94"
+        },
+        {
+          "title": "Financial Times November 18 Bahrain and Kuwait air-defense report",
+          "url": "https://www.ft.com/content/8a46c15b-3671-49fc-b367-a7ddd5b1a4f4"
+        },
+        {
+          "title": "Gulf News November 18 regional incident timeline",
+          "url": "https://gulfnews.com/world/mena/middle-east-war-iran-attacks-bahrain-kuwait-drone-threats-keep-gulf-on-high-alert-as-us-hits-irans-qeshm-1.500751444"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261118-1027-ai-financing-divergence",
+      "observed_at": "2026-11-18T10:27:35-05:00",
+      "title": "Nvidia earnings lift chip suppliers while CoreWeave weakens in cash trading",
+      "summary": "Nvidia's earnings-driven premarket rebound did not carry equally into AI cloud operators. At 9:35 AM EST Nvidia rose 0.9% and AMD and Broadcom each gained 1.2%, while CoreWeave fell 4.3%. Strong chip demand remains visible, but financing costs and returns on capital remain separate risks for neocloud operators.",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "CRWV"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "Cloud computing"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 18 9:35 AM EST cash-market observations",
+          "value": "NVDA +0.9%; AMD +1.2%; AVGO +1.2%; CRWV -4.3%; S&P 500 +0.2%; Nasdaq +0.5% (AP); intraday, not closing prices"
+        },
+        {
+          "label": "Nvidia fundamental catalyst",
+          "value": "Fiscal Q3 revenue $115.8B (+103% YoY), data-center revenue $107.6B (+110% YoY), next-quarter revenue guidance about $130B"
+        },
+        {
+          "label": "Cloud operator fundamental contrast",
+          "value": "CoreWeave reported 2026 Q3 revenue about $3.66B and approximately $132.5B backlog, but $846M quarterly net interest expense; high debt and project financing remain important"
+        },
+        {
+          "label": "Next checks and invalidation",
+          "value": "CRWV financing yields, customer-contract cash conversion, power availability, chip demand, margins and hyperscaler budgets; improving cash generation and finance access would weaken neocloud divergence interpretation"
+        }
+      ],
+      "key_finding": "AI chip demand is not translating uniformly into confidence in debt-funded AI cloud infrastructure.",
+      "sources": [
+        {
+          "title": "Associated Press November 18 regular-session market snapshot",
+          "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-apec-shenzhen-dad5715bc91b4aba23a567a40e22b1fc"
+        },
+        {
+          "title": "Financial Times November 18 technology-market reaction",
+          "url": "https://www.ft.com/content/f085b811-fc20-425f-88d8-9f98e178636a"
+        },
+        {
+          "title": "CoreWeave third-quarter earnings call transcript November 10",
+          "url": "https://equibles.com/stocks/crwv/documents/a4ebd12f-c9e8-4e18-8c62-34bdc37ae367"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261118-0737-nvda-neocloud-rebound"
+    },
     {
       "id": "scout-20261118-0932-aaoi-atm-dilution",
       "observed_at": "2026-11-18T09:32:06-05:00",
@@ -54,49 +166,6 @@
       "supersedes": null
     },
     {
-      "id": "scout-20261118-0932-crdo-mrvl-settlement",
-      "observed_at": "2026-11-18T09:32:06-05:00",
-      "title": "Credo and Marvell resolve active electrical cable patent dispute",
-      "summary": "Credo announced an agreement with Marvell over Active Electrical Cable patent rights and pending USPTO challenges. Credo shares rose after hours following the November 17 announcement. This removes a disclosed legal overhang on data-center connectivity, though undisclosed agreement terms prevent assessment of licensing economics.",
-      "tickers": [
-        "CRDO",
-        "MRVL"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "Networking",
-        "AI infrastructure"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 17 04:52 PM EST after-hours observation",
-          "value": "CRDO approximately +2.46% at $127 (Benzinga); after-hours quote, not a closing price"
-        },
-        {
-          "label": "Company announcement",
-          "value": "Agreement resolving patent rights dispute related to Active Electrical Cable technology and Marvell USPTO challenges; terms confidential"
-        },
-        {
-          "label": "Next checks and invalidation",
-          "value": "Any royalty/license disclosures, customer wins, cable adoption, margins and competing interconnect products; unfavorable terms or share losses weaken interpretation"
-        }
-      ],
-      "key_finding": "An identified intellectual-property uncertainty in AI data-center connectivity has been resolved, with undisclosed economics.",
-      "sources": [
-        {
-          "title": "Credo November 17 official press release",
-          "url": "https://investors.credosemi.com/news-events/news/news-details/2026/Credo-Reaches-Settlement-in-Patent-Dispute/default.aspx"
-        },
-        {
-          "title": "Benzinga November 17 after-hours market reaction",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63372948/credo-stock-pops-after-reaching-patent-agreement-with-marvell"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
       "id": "scout-20261118-0836-hormuz-211",
       "observed_at": "2026-11-18T08:36:29-05:00",
       "title": "UKMTO warning 211 reports tanker strike and missing crew member near Khasab",
@@ -142,58 +211,6 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261118-0737-nvda-neocloud-rebound",
-      "observed_at": "2026-11-18T07:37:30-05:00",
-      "title": "Nvidia earnings spark broad premarket rebound in AI chips and neoclouds",
-      "summary": "Nvidia's stronger-than-expected revenue outlook lifted semiconductor and AI infrastructure shares in Wednesday premarket trading. Reuters observed Nvidia up 3.7%; WSJ reported stronger moves in CoreWeave, Nebius and IREN. These are preliminary market reactions, not confirmed closes, and debt-heavy infrastructure customers still face financing and deployment risks.",
-      "tickers": [
-        "NVDA",
-        "CRWV",
-        "NBIS",
-        "IREN",
-        "AMD",
-        "TSM"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "AI infrastructure",
-        "Data centers",
-        "Cloud computing"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Reuters Nov 18 5:28 AM EST premarket",
-          "value": "NVDA +3.7%; preliminary premarket, not regular-session closing move"
-        },
-        {
-          "label": "WSJ Nov 18 morning premarket snapshots",
-          "value": "CRWV +6.5%, NBIS +8.4%, IREN +7.0%, AMD +3.0%; intraday snapshots, not closing moves"
-        },
-        {
-          "label": "Earnings catalyst",
-          "value": "Nvidia Q4 revenue guidance $130B ±3% versus LSEG analyst consensus $125.25B, issued Nov 17"
-        },
-        {
-          "label": "Fundamental assessment and invalidation",
-          "value": "AI compute demand remains strong; watch financing of neoclouds, GPU utilization, margins and hyperscaler capex; weak cash conversion or market reversal would undermine recovery signal"
-        }
-      ],
-      "key_finding": "Wednesday's premarket rebound broadens Nvidia's earnings relief to indebted AI-infrastructure operators.",
-      "sources": [
-        {
-          "title": "Reuters November 18 futures and Nvidia reaction",
-          "url": "https://www.investing.com/news/economy-news/nasdaq-futures-jump-as-nvidia-forecast-lifts-ai-trade-ahead-of-anthropic-pricing-5035347"
-        },
-        {
-          "title": "WSJ Nvidia shares lift AI suppliers and neoclouds",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-18-2026/card/nvidia-stock-rises-lifting-ai-picks-and-shovels-qvVvUxNAjZeYhiwFHC46"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261117-1728-nvda-fy28-outlook"
     },
     {
       "id": "scout-20261118-0737-api-oil-divergence",
@@ -248,6 +265,6 @@
       "supersedes": "scout-20261117-1531-saudi-pipeline-qeshm"
     }
   ],
-  "last_checked_at": "2026-11-18T09:32:06-05:00",
+  "last_checked_at": "2026-11-18T10:27:35-05:00",
   "last_check_status": "new_findings"
 }
