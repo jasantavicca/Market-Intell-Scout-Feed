@@ -1,8 +1,109 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-19T07:30:37-05:00",
-  "as_of_et": "November 19, 2026, 7:30 AM EST",
+  "generated_at": "2026-11-19T08:30:09-05:00",
+  "as_of_et": "November 19, 2026, 8:30 AM EST",
   "items": [
+    {
+      "id": "scout-20261119-0830-pdd-earnings",
+      "observed_at": "2026-11-19T08:30:09-05:00",
+      "title": "PDD ADR rebounds sharply on earnings beat despite flat revenue",
+      "summary": "PDD's November 19 results beat profitability expectations while revenue remained flat year over year and below consensus. Its US-listed ADR rose sharply before the open, reversing part of a sustained drawdown. Lower expenses supported profits, but transaction-service weakness and overseas regulation remain important risks.",
+      "tickers": [
+        "PDD"
+      ],
+      "sectors": [
+        "International ADRs",
+        "China e-commerce",
+        "Consumer internet"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 19 07:13 AM EST premarket observation",
+          "value": "PDD about $84.86, +9.6% before US cash open (Investing.com); intraday quote, not closing return"
+        },
+        {
+          "label": "November 19 company earnings release for Q3 2026",
+          "value": "Revenue RMB108.3B (approximately flat YoY); non-GAAP diluted EPS/ADR RMB21.04 versus approximately RMB18.54 consensus; operating profit RMB31.2B"
+        },
+        {
+          "label": "Balance sheet and business quality",
+          "value": "Cash, cash equivalents and short-term investments RMB455.4B; online marketing revenue +12%, transaction services -12%; sales/marketing spending lower"
+        },
+        {
+          "label": "Next indicators and invalidation",
+          "value": "Cash-session volume and price, Temu retention and EU regulatory issues, domestic consumption, revenue mix, operating cash conversion; renewed margin erosion or weak transaction services challenge rebound"
+        }
+      ],
+      "key_finding": "A profitability surprise drove a sharp PDD premarket rebound without confirming revenue reacceleration.",
+      "sources": [
+        {
+          "title": "PDD Holdings official November 19 Q3 earnings release",
+          "url": "https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-announces-third-quarter-2026-unaudited-financial"
+        },
+        {
+          "title": "Investing.com November 19 07:13 AM EST premarket observation",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-pdd-holdings-stock-surging-today-93CH-5038667"
+        },
+        {
+          "title": "Wall Street Journal November 19 Temu parent report",
+          "url": "https://www.wsj.com/business/earnings/temu-owner-reports-flat-profit-revenue-as-challenges-continue-039f7d3e"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261119-0830-ukmto-212",
+      "observed_at": "2026-11-19T08:30:09-05:00",
+      "title": "UKMTO 212 documents another engine-room tanker strike near Khasab",
+      "summary": "UKMTO warning 212 reports a tanker hit by an unknown projectile while departing Hormuz on November 18, six nautical miles north of Khasab. The agency said the crew were safe and damage was not yet assessed. The report differs from warning 211, but the vessel identity and incremental export impact remain unverified.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Maritime shipping",
+        "Energy"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "UKMTO warning 212-26 and incident time",
+          "value": "Attack reported for November 18 16:45 UTC (11:45 AM EST); delayed warning around 22:30 UTC (5:30 PM EST)"
+        },
+        {
+          "label": "Reported physical security effect",
+          "value": "Unknown projectile struck outbound tanker engine room 6NM north of Khasab, Oman; crew safe; damage, cargo loss and attribution unknown"
+        },
+        {
+          "label": "Market confirmation",
+          "value": "No independently verified incident-specific XLE/XOP move or additional physical oil-flow loss as of November 19 08:30 AM EST; crude trading near $92-$93 Brent in early reports"
+        },
+        {
+          "label": "Next indicators and invalidation",
+          "value": "Vessel and cargo identity, comparison with UKMTO 211, salvage and crew status, MARAD/UKMTO follow-ups, Hormuz transits, freight/insurance, Brent/WTI; stable export volumes reduce supply-impact case"
+        }
+      ],
+      "key_finding": "A further agency-reported physical tanker attack adds security risk, not verified sustained oil-export loss.",
+      "sources": [
+        {
+          "title": "Anadolu Agency November 19: UKMTO warning 212",
+          "url": "https://www.aa.com.tr/en/middle-east/tanker-hit-by-unknown-projectile-near-strait-of-hormuz-uk-maritime-agency-says/4129910"
+        },
+        {
+          "title": "UKMTO official maritime incident register",
+          "url": "https://www.ukmto.org/recent-incidents"
+        },
+        {
+          "title": "UKMTO Operations Centre original notice",
+          "url": "https://x.com/UK_MTO/status/2123182021308559506"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261119-0730-anthropic-ipo",
       "observed_at": "2026-11-19T07:30:37-05:00",
@@ -150,109 +251,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261118-2029-tara-gas-drifting",
-      "observed_at": "2026-11-18T20:29:06-05:00",
-      "title": "Official navigation warning confirms TARA GAS on fire and drifting near Oman",
-      "summary": "NAVAREA IX warning 451/26 issued November 18 identifies the LPG tanker TARA GAS as burning and drifting southeast off Oman after earlier attacks. Reuters verified footage of a burning vessel but could not date the recording. This is a confirmed navigational hazard, not proof of a new attack or sustained regional oil-export loss.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "LPG shipping",
-        "Oil and gas",
-        "Maritime security"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Official navigational warning 451/26 at 15:00 UTC November 18",
-          "value": "TARA GAS burning and drifting southeast at 26-17.20N 056-20.60E, approximately 5.7 nautical miles from Khawr Ghub Ali, Oman"
-        },
-        {
-          "label": "Crew and visual evidence",
-          "value": "Omani authorities rescued 24 of 25; one seafarer reported missing; Reuters verified vessel and location in fire video but not filming time"
-        },
-        {
-          "label": "Leading shipping-capacity signal",
-          "value": "Tankertrackers estimate ~40% decline since end-August in empty VLCC/Suezmax capacity heading toward Middle East; estimate, not proven export loss"
-        },
-        {
-          "label": "Next checks and invalidation",
-          "value": "Fire containment, salvage, search and rescue, additional NAVAREA/UKMTO warnings, empty tanker arrivals, loading data, tanker rates and environmental damage; stable flows and salvage reduce threat"
-        }
-      ],
-      "key_finding": "The tanker remains a documented marine hazard, while actual regional export interruption is unverified.",
-      "sources": [
-        {
-          "title": "NAVAREA IX original text warning 451/26",
-          "url": "https://www.sealagom.com/navarea/9/message/25995/451-26-181500-utc-nov/"
-        },
-        {
-          "title": "gCaptain November 18 reporting with Reuters verification",
-          "url": "https://gcaptain.com/tara-gas-burning-off-oman-as-another-tanker-attack-leaves-11-injured/"
-        },
-        {
-          "title": "Bloomberg via gCaptain: fewer empty tankers",
-          "url": "https://gcaptain.com/gulf-oil-flow-at-risk-from-lack-of-empty-tankers-tracker-says/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261118-1933-medicare-audit-selloff",
-      "observed_at": "2026-11-18T19:33:26-05:00",
-      "title": "Health insurers plunge on proposed Medicare Advantage audit expansion",
-      "summary": "UnitedHealth, Humana and Elevance closed sharply lower after CMS proposed broader Medicare Advantage audits, including potential recoveries tied to payment year 2018. The proposal remains open for comment and is not final. The selloff reflects substantial policy and legal risk, not an assessed liability against any individual insurer.",
-      "tickers": [
-        "UNH",
-        "HUM",
-        "ELV",
-        "CVS",
-        "CNC"
-      ],
-      "sectors": [
-        "Healthcare",
-        "Managed care",
-        "Health insurance"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 18 regular-session close",
-          "value": "HUM -13.0%, UNH -10.2%, ELV -7.6%; corroborated by Barron's and closing-price reporting; not intraday quotes"
-        },
-        {
-          "label": "CMS proposal date and scope",
-          "value": "November 16, 2026 CRUSH (CMS-6098-P); proposed RADV audit extrapolation extending to payment year 2018; projected nearly $90 billion in program-wide ten-year savings, not individual company liability"
-        },
-        {
-          "label": "Next indicators",
-          "value": "CMS comment deadline January 19, 2027; litigation, insurer disclosure of audit exposure and FY2027 guidance; a narrowed or invalidated rule would weaken the pressure thesis"
-        }
-      ],
-      "key_finding": "Broad insurer losses are a confirmed market response to a proposed, not finalized, Medicare audit expansion.",
-      "sources": [
-        {
-          "title": "CMS November 16 CRUSH proposed-rule fact sheet",
-          "url": "https://www.cms.gov/newsroom/fact-sheets/comprehensive-regulations-uncover-suspicious-healthcare-crush-proposed-rule-cms-6098-p"
-        },
-        {
-          "title": "Barron's November 18 Medicare Advantage insurer coverage",
-          "url": "https://www.barrons.com/articles/unitedhealth-humana-cvs-stock-medicare-advantage-audits-1a7e683d"
-        },
-        {
-          "title": "WiseView November 18 closing prices",
-          "url": "https://wiseview.ai/news/stock-market-close-2026-11-18"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-19T07:30:37-05:00",
+  "last_checked_at": "2026-11-19T08:30:09-05:00",
   "last_check_status": "new_findings"
 }
