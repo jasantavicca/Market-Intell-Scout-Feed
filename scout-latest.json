@@ -1,8 +1,109 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-18T18:29:03-05:00",
-  "as_of_et": "November 18, 2026, 6:29 PM EST",
+  "generated_at": "2026-11-18T19:33:26-05:00",
+  "as_of_et": "November 18, 2026, 7:33 PM EST",
   "items": [
+    {
+      "id": "scout-20261118-1933-medicare-audit-selloff",
+      "observed_at": "2026-11-18T19:33:26-05:00",
+      "title": "Health insurers plunge on proposed Medicare Advantage audit expansion",
+      "summary": "UnitedHealth, Humana and Elevance closed sharply lower after CMS proposed broader Medicare Advantage audits, including potential recoveries tied to payment year 2018. The proposal remains open for comment and is not final. The selloff reflects substantial policy and legal risk, not an assessed liability against any individual insurer.",
+      "tickers": [
+        "UNH",
+        "HUM",
+        "ELV",
+        "CVS",
+        "CNC"
+      ],
+      "sectors": [
+        "Healthcare",
+        "Managed care",
+        "Health insurance"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 18 regular-session close",
+          "value": "HUM -13.0%, UNH -10.2%, ELV -7.6%; corroborated by Barron's and closing-price reporting; not intraday quotes"
+        },
+        {
+          "label": "CMS proposal date and scope",
+          "value": "November 16, 2026 CRUSH (CMS-6098-P); proposed RADV audit extrapolation extending to payment year 2018; projected nearly $90 billion in program-wide ten-year savings, not individual company liability"
+        },
+        {
+          "label": "Next indicators",
+          "value": "CMS comment deadline January 19, 2027; litigation, insurer disclosure of audit exposure and FY2027 guidance; a narrowed or invalidated rule would weaken the pressure thesis"
+        }
+      ],
+      "key_finding": "Broad insurer losses are a confirmed market response to a proposed, not finalized, Medicare audit expansion.",
+      "sources": [
+        {
+          "title": "CMS November 16 CRUSH proposed-rule fact sheet",
+          "url": "https://www.cms.gov/newsroom/fact-sheets/comprehensive-regulations-uncover-suspicious-healthcare-crush-proposed-rule-cms-6098-p"
+        },
+        {
+          "title": "Barron's November 18 Medicare Advantage insurer coverage",
+          "url": "https://www.barrons.com/articles/unitedhealth-humana-cvs-stock-medicare-advantage-audits-1a7e683d"
+        },
+        {
+          "title": "WiseView November 18 closing prices",
+          "url": "https://wiseview.ai/news/stock-market-close-2026-11-18"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261118-1933-kirkuk-pipeline-restart",
+      "observed_at": "2026-11-18T19:33:26-05:00",
+      "title": "Iraq reports resumed Kirkuk-Ceyhan oil pumping via route bypassing Hormuz",
+      "summary": "Iraq's oil ministry said on November 17 that the original Kirkuk-Ceyhan pipeline restarted pumping after twelve years idle, initially at 120,000 barrels per day. The overland route bypasses Hormuz and could diversify Iraqi exports. Independently metered delivery volumes and whether the flow adds supply or displaces existing exports remain unverified.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Energy infrastructure",
+        "International oil flows"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Official operational announcement November 17",
+          "value": "Iraqi Oil Ministry reports 120,000 bpd initial pumping; gradual 500,000 bpd target without dated schedule; 960 km pipeline idle since 2014"
+        },
+        {
+          "label": "Physical-flow evidence grade",
+          "value": "Government-reported restart corroborated by multiple news organizations; independent delivery meter counts and confirmed incremental export volumes unavailable"
+        },
+        {
+          "label": "Significance",
+          "value": "Kirkuk-Ceyhan adds a route to Turkey's Mediterranean coast avoiding Hormuz shipping chokepoint; additional vs rerouted supply remains unresolved"
+        },
+        {
+          "label": "Risks and next checks",
+          "value": "Pipeline integrity, pressure testing, Ceyhan liftings, sustained metered throughput and alternative Kurdistan-route volumes; restart suspension or entirely displaced exports would undermine incremental supply impact"
+        }
+      ],
+      "key_finding": "A government-reported physical pipeline restart provides an alternate route around Hormuz, with net export impact unverified.",
+      "sources": [
+        {
+          "title": "Anadolu Agency November 17 Iraqi ministry announcement",
+          "url": "https://www.aa.com.tr/en/middle-east/iraq-resumes-crude-oil-exports-through-old-pipeline-to-turkiye/4127700"
+        },
+        {
+          "title": "Reuters report carried by Asharq Al-Awsat",
+          "url": "https://english.aawsat.com/node/5342260"
+        },
+        {
+          "title": "Euronews November 18 restart coverage",
+          "url": "https://www.euronews.com/2026/11/18/iraq-pumps-oil-to-turkey-again-after-12-years-to-bypass-hormuz-disruption"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261118-1829-panw-cyber-earnings",
       "observed_at": "2026-11-18T18:29:03-05:00",
@@ -165,106 +266,8 @@
       ],
       "status": "updated",
       "supersedes": "scout-20261118-1528-wti-selloff"
-    },
-    {
-      "id": "scout-20261118-1800-nvda-reversal",
-      "observed_at": "2026-11-18T18:00:25-05:00",
-      "title": "Nvidia closes lower after blowout results as AI infrastructure financing differentiates",
-      "summary": "Nvidia ended nearly 3% lower after reversing early gains despite record revenue and raised guidance. CoreWeave also declined as market attention shifted toward selective financing and balance-sheet exposure among GPU cloud operators. The price reaction does not establish weakening underlying chip demand.",
-      "tickers": [
-        "NVDA",
-        "CRWV",
-        "AMD",
-        "AVGO"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "AI infrastructure",
-        "Cloud computing"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 18 cash close, corroborated independent sources",
-          "value": "NVDA approximately -2.9% near $151; Investing.com and TECHi/Nasdaq data"
-        },
-        {
-          "label": "Related operator price response",
-          "value": "CRWV approximately -5.4%, reported by MarketWatch; financing risk distinct from chip demand"
-        },
-        {
-          "label": "Fundamental catalyst",
-          "value": "Nvidia revenue $115.8B, data-center revenue $107.6B, next-quarter revenue guide near $130B; strong demand despite price weakness"
-        },
-        {
-          "label": "Risks and invalidation",
-          "value": "Leadership transition, export restrictions, margins, debt/financing terms and hyperscaler capex; stronger cash conversion and durable financing would weaken credit-stress thesis"
-        }
-      ],
-      "key_finding": "Nvidia's record demand did not prevent a negative close as investors distinguished chip sales from financing-intensive AI expansion.",
-      "sources": [
-        {
-          "title": "Investing.com November 18 Nvidia closing reaction",
-          "url": "https://www.investing.com/news/earnings/nvidia-quarterly-results-beat-estimates-5033943"
-        },
-        {
-          "title": "TECHi November 18 Nvidia close sourced from Nasdaq data",
-          "url": "https://www.techi.com/nvidia-stock-falls-day-after-earnings-ten-report-record/"
-        },
-        {
-          "title": "MarketWatch: CoreWeave financing concerns",
-          "url": "https://www.marketwatch.com/story/coreweaves-stock-pops-even-as-nvidia-talks-up-a-disciplined-approach-to-financing-e7f00876"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261118-1335-neocloud-financing",
-      "observed_at": "2026-11-18T13:35:43-05:00",
-      "title": "CoreWeave slides as Nvidia signals more selective neocloud financing",
-      "summary": "CoreWeave weakened in Wednesday trading even after Nvidia's strong earnings. Nvidia management emphasized more selective scrutiny of which infrastructure operators it helps finance. This highlights a gap between strong GPU demand and the credit quality and cash-generation outlook for neocloud operators; it does not establish an AI demand collapse.",
-      "tickers": [
-        "CRWV",
-        "NVDA",
-        "IREN",
-        "NBIS"
-      ],
-      "sectors": [
-        "AI infrastructure",
-        "Cloud computing",
-        "Data-center financing"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 18 intraday, MarketWatch report (exact quote time not specified)",
-          "value": "CRWV -5.4%; IREN -3.3%; not closing prices"
-        },
-        {
-          "label": "Company management commentary",
-          "value": "Nvidia described greater selectivity in support of infrastructure financing partners; not a formal termination of existing arrangements"
-        },
-        {
-          "label": "Next indicators and invalidation",
-          "value": "Contract-backed loan rates, credit terms, cash generation, major customer commitments and project milestones; improved funding access and margins weaken the financing-risk thesis"
-        }
-      ],
-      "key_finding": "AI supplier demand remains strong while neocloud financing quality is being repriced.",
-      "sources": [
-        {
-          "title": "MarketWatch November 18 Nvidia financing and CoreWeave market response",
-          "url": "https://www.marketwatch.com/story/coreweaves-stock-pops-even-as-nvidia-talks-up-a-disciplined-approach-to-financing-e7f00876"
-        },
-        {
-          "title": "TIKR November 18 CoreWeave financing analysis",
-          "url": "https://www.tikr.com/blog/coreweave-sinks-5-after-nvidia-earnings-as-kress-vows-a-very-strong-look-at-neocloud-financing"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-18T18:29:03-05:00",
+  "last_checked_at": "2026-11-18T19:33:26-05:00",
   "last_check_status": "new_findings"
 }
