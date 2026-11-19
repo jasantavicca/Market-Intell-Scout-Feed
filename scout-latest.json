@@ -1,8 +1,105 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-19T09:33:13-05:00",
-  "as_of_et": "November 19, 2026, 9:33 AM EST",
+  "generated_at": "2026-11-19T10:27:56-05:00",
+  "as_of_et": "November 19, 2026, 10:28 AM EST",
   "items": [
+    {
+      "id": "scout-20261119-1027-intc-18ap-customer",
+      "observed_at": "2026-11-19T10:27:56-05:00",
+      "title": "Intel reports first external 18A-P customer and expanded Microsoft packaging agreement",
+      "summary": "Intel disclosed its first external customer for advanced 18A-P manufacturing and an expanded Azure infrastructure collaboration with Microsoft involving EMIB packaging. These developments provide commercial validation, but the customer identity, manufacturing volumes and contract economics remain undisclosed. Profitable production at scale is not yet established.",
+      "tickers": [
+        "INTC",
+        "MSFT",
+        "TSM"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "Advanced packaging",
+        "AI infrastructure"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 19, 8:08 AM EST premarket",
+          "value": "INTC $57.37, +4.94%; indicative premarket quote, not closing price"
+        },
+        {
+          "label": "Foundry announcement",
+          "value": "First external customer for 18A-P disclosed; identity, order size and economics unknown"
+        },
+        {
+          "label": "Microsoft agreement",
+          "value": "Expanded Azure collaboration involving EMIB advanced packaging and Xeon supply"
+        },
+        {
+          "label": "Risks and next checks",
+          "value": "Manufacturing yields, qualification timelines, named customers, volume production, capital expenditure and foundry operating losses; weak yields or contracts would invalidate thesis"
+        }
+      ],
+      "key_finding": "Intel has outside commercial foundry validation, but scale and profitability remain unproven.",
+      "sources": [
+        {
+          "title": "Intel-Microsoft infrastructure collaboration",
+          "url": "https://www.intel.com/content/www/us/en/newsroom/news/corporate/microsoft-azure-infrastructure-collaboration.html"
+        },
+        {
+          "title": "Benzinga external 18A customer coverage",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63420115/intel-secures-first-external-customer-for-advanced-18a-chips-marking-major-foundry-breakthrough"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261119-1027-iea-hormuz-outlook",
+      "observed_at": "2026-11-19T10:27:56-05:00",
+      "title": "IEA World Energy Outlook models long-run shift away from Hormuz exposure",
+      "summary": "The IEA's World Energy Outlook 2026 models lower future dependence on the Strait of Hormuz under a prolonged disruption scenario, partly through alternative pipelines and energy-system changes. These are conditional scenarios, not forecasts or newly observed shipment losses. The report raises longer-run questions about infrastructure investment and energy-security costs.",
+      "tickers": [
+        "XLE",
+        "XOP",
+        "XLU"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Energy security",
+        "Utilities and grid",
+        "Pipelines"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "IEA publication",
+          "value": "World Energy Outlook 2026 released November 19"
+        },
+        {
+          "label": "Scenario, not observed transit",
+          "value": "Approximately 20M barrels/day pre-crisis Hormuz oil transit versus modeled 8.5M in 2030 and below 2M in 2035 in an extreme scenario"
+        },
+        {
+          "label": "Proposed alternatives",
+          "value": "Approximately 7M barrels/day additional bypass-pipeline capacity under construction or proposed, not all completed"
+        },
+        {
+          "label": "Risks and next indicators",
+          "value": "Project approvals, funding, construction schedules, confirmed export flows, security of alternative routes, MARAD/UKMTO and Brent/WTI; de-escalation or delays change scenario"
+        }
+      ],
+      "key_finding": "IEA scenarios suggest major potential reconfiguration of oil routes, not verified new physical-flow changes.",
+      "sources": [
+        {
+          "title": "IEA World Energy Outlook November 19 announcement",
+          "url": "https://www.iea.org/news/as-an-unprecedented-shock-reshapes-the-energy-world-its-duration-will-determine-the-scale-of-the-change"
+        },
+        {
+          "title": "IEA World Energy Outlook 2026 executive summary",
+          "url": "https://www.iea.org/reports/world-energy-outlook-2026/executive-summary"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261119-0933-sls-offering",
       "observed_at": "2026-11-19T09:33:13-05:00",
@@ -153,109 +250,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261119-0730-anthropic-ipo",
-      "observed_at": "2026-11-19T07:30:37-05:00",
-      "title": "Anthropic prices record IPO as Nasdaq futures and AI-linked equities rebound",
-      "summary": "Anthropic priced its expanded initial public offering above the marketed range, raising about $81 billion and valuing the company at roughly $1.5 trillion. Nasdaq futures gained around 2% early Thursday, alongside some European AI-related shares. The IPO confirms financing demand, not durable profitability or a sustained equity-market recovery.",
-      "tickers": [
-        "ANT",
-        "NVDA",
-        "ASML",
-        "QQQ"
-      ],
-      "sectors": [
-        "AI infrastructure",
-        "Software",
-        "Semiconductors",
-        "Cloud computing"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 18 IPO pricing, Reuters and AP",
-          "value": "$83/share; approximately $81.3B offering proceeds; approximately $1.5T fully diluted valuation; expected Nasdaq debut November 19, ticker ANT"
-        },
-        {
-          "label": "November 19, approximately 4:01 AM EST premarket, Reuters",
-          "value": "Nasdaq futures up approximately 2%; European ASML, Infineon and Siemens Energy shares approximately +3% in early reporting; not closing prices"
-        },
-        {
-          "label": "Fundamental context",
-          "value": "Strong investor demand versus unproven long-term profitability, very large AI infrastructure commitments and financing sensitivity"
-        },
-        {
-          "label": "Next checks and invalidation",
-          "value": "ANT opening and closing prices, AI breadth, 10-year yields, hyperscaler spending and margins; weak debut or deterioration in cash generation would challenge rebound"
-        }
-      ],
-      "key_finding": "Record AI IPO fundraising lifted market sentiment without proving infrastructure economics.",
-      "sources": [
-        {
-          "title": "Reuters November 19: Anthropic IPO and Nasdaq futures",
-          "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-jump-as-anthropics-record-ipo-pricing-fuels-hopes-for-strong-debut-5038156"
-        },
-        {
-          "title": "Associated Press November 19: Anthropic offering",
-          "url": "https://apnews.com/article/b6a74b8949021207dc162fcc876c4649"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261119-0730-riyadh-missile",
-      "observed_at": "2026-11-19T07:30:37-05:00",
-      "title": "Riyadh PIF Tower damaged after missile threat amid regional escalation",
-      "summary": "Saudi officials reported debris from a missile threat caused damage in Riyadh. Witness reporting carried by AP and the Financial Times identifies damage to the Public Investment Fund Tower. Attribution and any resulting energy infrastructure or export disruption are unconfirmed; the incident adds to regional security risk without proving a new oil-flow loss.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Energy",
-        "Maritime shipping",
-        "Geopolitical risk"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 19 early morning local incident",
-          "value": "Saudi coalition reported missile debris and material damage in Riyadh; AP and FT identified damage at PIF Tower"
-        },
-        {
-          "label": "Market move verification",
-          "value": "No independently verified incident-specific security or oil equity price move; crude approximately steady at 02:03 AM EST Reuters snapshot"
-        },
-        {
-          "label": "Verified physical-flow impact",
-          "value": "No new Saudi petroleum production, refinery or export interruption demonstrated from this incident"
-        },
-        {
-          "label": "Next checks and invalidation",
-          "value": "Official attribution, Saudi Aramco/terminal status, Houthi attacks, Red Sea transit, MARAD/UKMTO, Brent/WTI and freight premiums; uninterrupted operations or de-escalation weaken supply impact"
-        }
-      ],
-      "key_finding": "Confirmed damage in Riyadh expands regional security risk, with no verified new oil-production loss.",
-      "sources": [
-        {
-          "title": "AP November 19: Damage in Riyadh and Gulf incidents",
-          "url": "https://apnews.com/article/e72472c557057943cab32010666b29bf"
-        },
-        {
-          "title": "Financial Times: Saudi sovereign wealth fund headquarters damaged",
-          "url": "https://www.ft.com/content/05ed47a5-7cc1-402f-ad0d-826ba09a05c8"
-        },
-        {
-          "title": "MARAD active maritime security advisories",
-          "url": "https://www.maritime.dot.gov/msci-advisories"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-19T09:33:13-05:00",
+  "last_checked_at": "2026-11-19T10:27:56-05:00",
   "last_check_status": "new_findings"
 }
