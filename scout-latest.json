@@ -1,8 +1,109 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-18T20:29:06-05:00",
-  "as_of_et": "November 18, 2026, 8:29 PM EST",
+  "generated_at": "2026-11-19T07:30:37-05:00",
+  "as_of_et": "November 19, 2026, 7:30 AM EST",
   "items": [
+    {
+      "id": "scout-20261119-0730-anthropic-ipo",
+      "observed_at": "2026-11-19T07:30:37-05:00",
+      "title": "Anthropic prices record IPO as Nasdaq futures and AI-linked equities rebound",
+      "summary": "Anthropic priced its expanded initial public offering above the marketed range, raising about $81 billion and valuing the company at roughly $1.5 trillion. Nasdaq futures gained around 2% early Thursday, alongside some European AI-related shares. The IPO confirms financing demand, not durable profitability or a sustained equity-market recovery.",
+      "tickers": [
+        "ANT",
+        "NVDA",
+        "ASML",
+        "QQQ"
+      ],
+      "sectors": [
+        "AI infrastructure",
+        "Software",
+        "Semiconductors",
+        "Cloud computing"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 18 IPO pricing, Reuters and AP",
+          "value": "$83/share; approximately $81.3B offering proceeds; approximately $1.5T fully diluted valuation; expected Nasdaq debut November 19, ticker ANT"
+        },
+        {
+          "label": "November 19, approximately 4:01 AM EST premarket, Reuters",
+          "value": "Nasdaq futures up approximately 2%; European ASML, Infineon and Siemens Energy shares approximately +3% in early reporting; not closing prices"
+        },
+        {
+          "label": "Fundamental context",
+          "value": "Strong investor demand versus unproven long-term profitability, very large AI infrastructure commitments and financing sensitivity"
+        },
+        {
+          "label": "Next checks and invalidation",
+          "value": "ANT opening and closing prices, AI breadth, 10-year yields, hyperscaler spending and margins; weak debut or deterioration in cash generation would challenge rebound"
+        }
+      ],
+      "key_finding": "Record AI IPO fundraising lifted market sentiment without proving infrastructure economics.",
+      "sources": [
+        {
+          "title": "Reuters November 19: Anthropic IPO and Nasdaq futures",
+          "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-jump-as-anthropics-record-ipo-pricing-fuels-hopes-for-strong-debut-5038156"
+        },
+        {
+          "title": "Associated Press November 19: Anthropic offering",
+          "url": "https://apnews.com/article/b6a74b8949021207dc162fcc876c4649"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261119-0730-riyadh-missile",
+      "observed_at": "2026-11-19T07:30:37-05:00",
+      "title": "Riyadh PIF Tower damaged after missile threat amid regional escalation",
+      "summary": "Saudi officials reported debris from a missile threat caused damage in Riyadh. Witness reporting carried by AP and the Financial Times identifies damage to the Public Investment Fund Tower. Attribution and any resulting energy infrastructure or export disruption are unconfirmed; the incident adds to regional security risk without proving a new oil-flow loss.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Energy",
+        "Maritime shipping",
+        "Geopolitical risk"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 19 early morning local incident",
+          "value": "Saudi coalition reported missile debris and material damage in Riyadh; AP and FT identified damage at PIF Tower"
+        },
+        {
+          "label": "Market move verification",
+          "value": "No independently verified incident-specific security or oil equity price move; crude approximately steady at 02:03 AM EST Reuters snapshot"
+        },
+        {
+          "label": "Verified physical-flow impact",
+          "value": "No new Saudi petroleum production, refinery or export interruption demonstrated from this incident"
+        },
+        {
+          "label": "Next checks and invalidation",
+          "value": "Official attribution, Saudi Aramco/terminal status, Houthi attacks, Red Sea transit, MARAD/UKMTO, Brent/WTI and freight premiums; uninterrupted operations or de-escalation weaken supply impact"
+        }
+      ],
+      "key_finding": "Confirmed damage in Riyadh expands regional security risk, with no verified new oil-production loss.",
+      "sources": [
+        {
+          "title": "AP November 19: Damage in Riyadh and Gulf incidents",
+          "url": "https://apnews.com/article/e72472c557057943cab32010666b29bf"
+        },
+        {
+          "title": "Financial Times: Saudi sovereign wealth fund headquarters damaged",
+          "url": "https://www.ft.com/content/05ed47a5-7cc1-402f-ad0d-826ba09a05c8"
+        },
+        {
+          "title": "MARAD active maritime security advisories",
+          "url": "https://www.maritime.dot.gov/msci-advisories"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261118-2029-us-blockade-transfers",
       "observed_at": "2026-11-18T20:29:06-05:00",
@@ -150,117 +251,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261118-1933-kirkuk-pipeline-restart",
-      "observed_at": "2026-11-18T19:33:26-05:00",
-      "title": "Iraq reports resumed Kirkuk-Ceyhan oil pumping via route bypassing Hormuz",
-      "summary": "Iraq's oil ministry said on November 17 that the original Kirkuk-Ceyhan pipeline restarted pumping after twelve years idle, initially at 120,000 barrels per day. The overland route bypasses Hormuz and could diversify Iraqi exports. Independently metered delivery volumes and whether the flow adds supply or displaces existing exports remain unverified.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Energy infrastructure",
-        "International oil flows"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Official operational announcement November 17",
-          "value": "Iraqi Oil Ministry reports 120,000 bpd initial pumping; gradual 500,000 bpd target without dated schedule; 960 km pipeline idle since 2014"
-        },
-        {
-          "label": "Physical-flow evidence grade",
-          "value": "Government-reported restart corroborated by multiple news organizations; independent delivery meter counts and confirmed incremental export volumes unavailable"
-        },
-        {
-          "label": "Significance",
-          "value": "Kirkuk-Ceyhan adds a route to Turkey's Mediterranean coast avoiding Hormuz shipping chokepoint; additional vs rerouted supply remains unresolved"
-        },
-        {
-          "label": "Risks and next checks",
-          "value": "Pipeline integrity, pressure testing, Ceyhan liftings, sustained metered throughput and alternative Kurdistan-route volumes; restart suspension or entirely displaced exports would undermine incremental supply impact"
-        }
-      ],
-      "key_finding": "A government-reported physical pipeline restart provides an alternate route around Hormuz, with net export impact unverified.",
-      "sources": [
-        {
-          "title": "Anadolu Agency November 17 Iraqi ministry announcement",
-          "url": "https://www.aa.com.tr/en/middle-east/iraq-resumes-crude-oil-exports-through-old-pipeline-to-turkiye/4127700"
-        },
-        {
-          "title": "Reuters report carried by Asharq Al-Awsat",
-          "url": "https://english.aawsat.com/node/5342260"
-        },
-        {
-          "title": "Euronews November 18 restart coverage",
-          "url": "https://www.euronews.com/2026/11/18/iraq-pumps-oil-to-turkey-again-after-12-years-to-bypass-hormuz-disruption"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261118-1829-panw-cyber-earnings",
-      "observed_at": "2026-11-18T18:29:03-05:00",
-      "title": "Palo Alto Networks beats, raises FY2027 guidance and agrees to acquire Applied Compute",
-      "summary": "Palo Alto Networks reported 39% quarterly revenue growth and 66% growth in next-generation security ARR, then raised its full-year outlook. It also agreed to acquire Applied Compute in a $4.5 billion all-stock transaction. Reported after-hours gains reflect strong demand but the deal adds integration and execution risk.",
-      "tickers": [
-        "PANW"
-      ],
-      "sectors": [
-        "Cybersecurity",
-        "Enterprise software",
-        "Artificial intelligence"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Official November 18 fiscal Q1 FY2027 results",
-          "value": "Revenue $3.44B, +39% YoY; NGS ARR $9.73B, +66% YoY; adjusted free cash flow $1.9B"
-        },
-        {
-          "label": "New FY2027 company outlook",
-          "value": "Revenue $14.52B-$14.57B; NGS ARR $11.475B-$11.525B; adjusted FCF margin 38%"
-        },
-        {
-          "label": "Acquisition agreement",
-          "value": "Applied Compute; all-stock $4.5B subject to adjustments and regulatory clearance; expected FY2027 Q3 close"
-        },
-        {
-          "label": "After-hours market indication",
-          "value": "Market digest published 4:30 PM ET listed PANW +9.05% after hours; quote timestamp and exchange tape not independently verified, not a closing price"
-        },
-        {
-          "label": "Next checks and invalidation",
-          "value": "Retention, ARR growth, deal approval, integration costs, cash flow and dilution; slower recurring-revenue growth or poor integration would weaken the outlook"
-        }
-      ],
-      "key_finding": "Fast-growing cybersecurity ARR supports outlook despite new $4.5B AI-platform integration risk.",
-      "sources": [
-        {
-          "title": "Palo Alto Networks November 18 fiscal Q1 results",
-          "url": "https://paloaltonetworks.gcs-web.com/news-releases/news-release-details/palo-alto-networks-reports-fiscal-first-quarter-2027-financial"
-        },
-        {
-          "title": "Palo Alto Networks acquisition announcement",
-          "url": "https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-acquire-applied-compute-bringing-secure-open"
-        },
-        {
-          "title": "November 18 market close and after-hours digest",
-          "url": "https://thetradesignal.com/brief/2026-11-18/close"
-        },
-        {
-          "title": "MarketWatch November 18 earnings reaction",
-          "url": "https://www.marketwatch.com/story/palo-alto-networks-stock-soars-as-earnings-show-ai-has-upped-the-stakes-for-cybersecurity-308e34b8"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-18T20:29:06-05:00",
+  "last_checked_at": "2026-11-19T07:30:37-05:00",
   "last_check_status": "new_findings"
 }
