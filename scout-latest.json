@@ -1,8 +1,106 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-18T19:33:26-05:00",
-  "as_of_et": "November 18, 2026, 7:33 PM EST",
+  "generated_at": "2026-11-18T20:29:06-05:00",
+  "as_of_et": "November 18, 2026, 8:29 PM EST",
   "items": [
+    {
+      "id": "scout-20261118-2029-us-blockade-transfers",
+      "observed_at": "2026-11-18T20:29:06-05:00",
+      "title": "US extends Iranian-port blockade enforcement to ship-to-ship cargo transfers",
+      "summary": "CENTCOM's November 18 maritime advisory says recipients of Iranian-loaded cargo transferred at sea may be treated as evading the US naval blockade, even without visiting Iranian ports. The policy creates new interception and insurance risks for shipping. No additional seizure or export-flow loss is established by this notice.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Maritime shipping",
+        "Energy logistics"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 18 policy action",
+          "value": "CENTCOM/JMIC advisory 017-26 expands potential blockade enforcement to receiving vessels involved in ship-to-ship transfers of Iranian-loaded cargo"
+        },
+        {
+          "label": "Potential enforcement",
+          "value": "Affected ships may face stopping, boarding, diversion or capture; neutral passage to and from non-Iranian ports remains permitted subject to checks"
+        },
+        {
+          "label": "Market and physical-flow response",
+          "value": "No verified post-advisory crude, XLE or XOP move; no confirmed incremental interdiction or export volume loss"
+        },
+        {
+          "label": "Risks and next checks",
+          "value": "Track boarding reports, transfer activity, actual Iranian cargo flows, insurance/freight and legal enforcement; limited enforcement or successful rerouting would reduce near-term supply threat"
+        }
+      ],
+      "key_finding": "The US broadened its Iran maritime blockade to offshore cargo transfers; physical-flow impact remains unverified.",
+      "sources": [
+        {
+          "title": "Reuters November 18: US targets offshore Iranian cargo transfers",
+          "url": "https://gcaptain.com/u-s-targets-ship-to-ship-transfers-in-expanded-iran-maritime-blockade/"
+        },
+        {
+          "title": "The Maritime Executive November 18: JMIC blockade update",
+          "url": "https://maritime-executive.com/index.php/article/u-s-naval-blockade-now-covers-vessels-that-load-iranian-cargo-at-sea"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261118-2029-tara-gas-drifting",
+      "observed_at": "2026-11-18T20:29:06-05:00",
+      "title": "Official navigation warning confirms TARA GAS on fire and drifting near Oman",
+      "summary": "NAVAREA IX warning 451/26 issued November 18 identifies the LPG tanker TARA GAS as burning and drifting southeast off Oman after earlier attacks. Reuters verified footage of a burning vessel but could not date the recording. This is a confirmed navigational hazard, not proof of a new attack or sustained regional oil-export loss.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "LPG shipping",
+        "Oil and gas",
+        "Maritime security"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Official navigational warning 451/26 at 15:00 UTC November 18",
+          "value": "TARA GAS burning and drifting southeast at 26-17.20N 056-20.60E, approximately 5.7 nautical miles from Khawr Ghub Ali, Oman"
+        },
+        {
+          "label": "Crew and visual evidence",
+          "value": "Omani authorities rescued 24 of 25; one seafarer reported missing; Reuters verified vessel and location in fire video but not filming time"
+        },
+        {
+          "label": "Leading shipping-capacity signal",
+          "value": "Tankertrackers estimate ~40% decline since end-August in empty VLCC/Suezmax capacity heading toward Middle East; estimate, not proven export loss"
+        },
+        {
+          "label": "Next checks and invalidation",
+          "value": "Fire containment, salvage, search and rescue, additional NAVAREA/UKMTO warnings, empty tanker arrivals, loading data, tanker rates and environmental damage; stable flows and salvage reduce threat"
+        }
+      ],
+      "key_finding": "The tanker remains a documented marine hazard, while actual regional export interruption is unverified.",
+      "sources": [
+        {
+          "title": "NAVAREA IX original text warning 451/26",
+          "url": "https://www.sealagom.com/navarea/9/message/25995/451-26-181500-utc-nov/"
+        },
+        {
+          "title": "gCaptain November 18 reporting with Reuters verification",
+          "url": "https://gcaptain.com/tara-gas-burning-off-oman-as-another-tanker-attack-leaves-11-injured/"
+        },
+        {
+          "title": "Bloomberg via gCaptain: fewer empty tankers",
+          "url": "https://gcaptain.com/gulf-oil-flow-at-risk-from-lack-of-empty-tankers-tracker-says/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261118-1933-medicare-audit-selloff",
       "observed_at": "2026-11-18T19:33:26-05:00",
@@ -161,113 +259,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261118-1829-everpure-earnings",
-      "observed_at": "2026-11-18T18:29:03-05:00",
-      "title": "Everpure lifts FY2027 guidance after record revenue and new hyperscaler design win",
-      "summary": "Everpure posted 51% quarterly revenue growth and raised its fiscal 2027 revenue outlook for a third consecutive quarter. It reported a second top-five hyperscaler design win and positive quarterly free cash flow. After-hours gains suggest a favorable initial response, although shipment conversion and customer concentration remain key risks.",
-      "tickers": [
-        "P"
-      ],
-      "sectors": [
-        "AI infrastructure",
-        "Enterprise storage",
-        "Data-center hardware"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Official November 18 fiscal Q3 FY2027 results",
-          "value": "Revenue $1.460B, +51% YoY; product revenue $948M, +77%; subscription services $512M, +19%; quarterly FCF $265M"
-        },
-        {
-          "label": "Raised FY2027 guidance",
-          "value": "Revenue $5.20B-$5.21B versus prior $5.03B-$5.07B; non-GAAP operating income $1.08B-$1.09B"
-        },
-        {
-          "label": "Customer validation",
-          "value": "New design win with second top-five hyperscaler; not equivalent to a disclosed shipment schedule or guaranteed revenue"
-        },
-        {
-          "label": "After-hours market indication",
-          "value": "November 18 post-close reports described roughly 4%-6% gains at differing unspecified quote times; preliminary extended-hours prices, not closing moves"
-        },
-        {
-          "label": "Next checks and invalidation",
-          "value": "Hyperscaler shipment conversion, gross margin, product costs, supply-chain capacity, customer concentration and free cash flow; deferred customer deployment or margin deterioration would weaken outlook"
-        }
-      ],
-      "key_finding": "AI-storage demand is translating into strong Everpure revenue and improved guidance, with deployment timing still uncertain.",
-      "sources": [
-        {
-          "title": "Everpure official November 18 fiscal Q3 results",
-          "url": "https://investor.everpuredata.com/news-and-events/press-releases/press-release-details/2026/Everpure-Announces-Third-Quarter-Fiscal-2027-Financial-Results/default.aspx"
-        },
-        {
-          "title": "Barron's November 18 Everpure earnings coverage",
-          "url": "https://www.barrons.com/articles/everpure-earnings-stock-price-f5bb32d2"
-        },
-        {
-          "title": "Investor's Business Daily Everpure earnings and aftermarket coverage",
-          "url": "https://www.investors.com/news/technology/everpure-stock-p-earnings-nov-2027-ai-stocks/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261118-1800-eia-oil-settlement",
-      "observed_at": "2026-11-18T18:00:25-05:00",
-      "title": "EIA inventory builds push crude sharply lower despite Hormuz security incidents",
-      "summary": "The EIA confirmed weekly US crude, gasoline and distillate inventory increases, each exceeding prevailing expectations. WTI and Brent settled lower as traders emphasized supply pressure despite continuing maritime security incidents. These are market-confirmed price declines and verified US inventories, not proof that Gulf shipping is secure.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Energy",
-        "Maritime shipping"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 18 regular settlement",
-          "value": "WTI $83.26/bbl (-3.2%); Brent $91.95/bbl (-1.28%); Reuters and PFL Petroleum"
-        },
-        {
-          "label": "EIA release 10:30 AM EST, week ended November 13",
-          "value": "Commercial crude +3.380M bbl to 417.797M bbl; gasoline +5.193M bbl; distillates +1.571M bbl"
-        },
-        {
-          "label": "Physical-flow interpretation",
-          "value": "EIA inventory figures verified; sustained Hormuz export losses not independently verified; security risks continue"
-        },
-        {
-          "label": "Risks and invalidation",
-          "value": "Verified cargo/export losses, refinery disruptions or renewed draws could reverse supply-pressure assessment; monitor UKMTO/MARAD, transit/freight, XLE/XOP, subsequent EIA and OPEC/IEA"
-        }
-      ],
-      "key_finding": "Official inventory builds and lower oil settlements confirm supply pressure despite unresolved Gulf shipping risk.",
-      "sources": [
-        {
-          "title": "EIA Weekly Petroleum Status Report, November 18",
-          "url": "https://www.eia.gov/petroleum/supply/weekly/"
-        },
-        {
-          "title": "Reuters: Oil prices settle lower on inventory builds",
-          "url": "https://live.euronext.com/en/financial-news/oil-prices-settle-lower-traders-weigh-surplus-supply-outlook"
-        },
-        {
-          "title": "PFL Petroleum November 18 market report",
-          "url": "https://pflpetroleum.com/reports/petroleum-daily-report-11-18-2026/"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261118-1528-wti-selloff"
     }
   ],
-  "last_checked_at": "2026-11-18T19:33:26-05:00",
+  "last_checked_at": "2026-11-18T20:29:06-05:00",
   "last_check_status": "new_findings"
 }
