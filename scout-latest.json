@@ -1,8 +1,58 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-19T08:30:09-05:00",
-  "as_of_et": "November 19, 2026, 8:30 AM EST",
+  "generated_at": "2026-11-19T09:33:13-05:00",
+  "as_of_et": "November 19, 2026, 9:33 AM EST",
   "items": [
+    {
+      "id": "scout-20261119-0933-sls-offering",
+      "observed_at": "2026-11-19T09:33:13-05:00",
+      "title": "SELLAS plunges premarket as $150M discounted stock offering follows positive Phase 3",
+      "summary": "SELLAS priced an $150 million equity offering at $13 per share after announcing favorable Phase 3 leukemia survival results. Shares fell sharply in November 19 premarket trading. The financing strengthens potential development resources but creates dilution, while FDA approval and commercial execution remain uncertain.",
+      "tickers": [
+        "SLS"
+      ],
+      "sectors": [
+        "Biotechnology",
+        "Oncology",
+        "Healthcare"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 19, 07:05 AM ET premarket quote (Benzinga)",
+          "value": "SLS $13.66, -23.9%; preliminary quote, not a confirmed closing return; snapshots from other sources/times differ"
+        },
+        {
+          "label": "November 18, 21:59 ET priced offering (company)",
+          "value": "11,538,462 new shares at $13/share; $150M gross proceeds before fees; underwriters' option for up to 1,730,769 additional shares; planned Nov 20 closing"
+        },
+        {
+          "label": "November 17 Phase 3 REGAL clinical topline (company and SEC)",
+          "value": "126 participants; median overall survival 24.0 vs 14.7 months; hazard ratio 0.59, two-sided p=0.035; FDA review and approval pending"
+        },
+        {
+          "label": "Risks and next checks",
+          "value": "New-equity dilution, FDA meeting and BLA timing, full trial data, commercialization costs, US regular-session price and volume; unfavorable regulatory path or cash needs would weaken clinical-versus-financing watch"
+        }
+      ],
+      "key_finding": "A sharp SLS repricing follows discounted financing despite positive pivotal survival data; regulatory and dilution risks remain.",
+      "sources": [
+        {
+          "title": "SELLAS official November 18 pricing announcement",
+          "url": "https://ir.sellaslifesciences.com/news/News-Details/2026/SELLAS-Life-Sciences-Announces-Pricing-of-150-0-Million-Underwritten-Public-Offering/default.aspx"
+        },
+        {
+          "title": "SEC Form 8-K and REGAL Phase 3 data",
+          "url": "https://www.sec.gov/Archives/edgar/data/1390478/000110465926128825/tm2629947d1_8k.htm"
+        },
+        {
+          "title": "Benzinga November 19 07:05 ET premarket movers",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63421765/12-health-care-stocks-moving-thursday-s-pre-market-session"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261119-0830-pdd-earnings",
       "observed_at": "2026-11-19T08:30:09-05:00",
@@ -204,55 +254,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261118-2029-us-blockade-transfers",
-      "observed_at": "2026-11-18T20:29:06-05:00",
-      "title": "US extends Iranian-port blockade enforcement to ship-to-ship cargo transfers",
-      "summary": "CENTCOM's November 18 maritime advisory says recipients of Iranian-loaded cargo transferred at sea may be treated as evading the US naval blockade, even without visiting Iranian ports. The policy creates new interception and insurance risks for shipping. No additional seizure or export-flow loss is established by this notice.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Maritime shipping",
-        "Energy logistics"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 18 policy action",
-          "value": "CENTCOM/JMIC advisory 017-26 expands potential blockade enforcement to receiving vessels involved in ship-to-ship transfers of Iranian-loaded cargo"
-        },
-        {
-          "label": "Potential enforcement",
-          "value": "Affected ships may face stopping, boarding, diversion or capture; neutral passage to and from non-Iranian ports remains permitted subject to checks"
-        },
-        {
-          "label": "Market and physical-flow response",
-          "value": "No verified post-advisory crude, XLE or XOP move; no confirmed incremental interdiction or export volume loss"
-        },
-        {
-          "label": "Risks and next checks",
-          "value": "Track boarding reports, transfer activity, actual Iranian cargo flows, insurance/freight and legal enforcement; limited enforcement or successful rerouting would reduce near-term supply threat"
-        }
-      ],
-      "key_finding": "The US broadened its Iran maritime blockade to offshore cargo transfers; physical-flow impact remains unverified.",
-      "sources": [
-        {
-          "title": "Reuters November 18: US targets offshore Iranian cargo transfers",
-          "url": "https://gcaptain.com/u-s-targets-ship-to-ship-transfers-in-expanded-iran-maritime-blockade/"
-        },
-        {
-          "title": "The Maritime Executive November 18: JMIC blockade update",
-          "url": "https://maritime-executive.com/index.php/article/u-s-naval-blockade-now-covers-vessels-that-load-iranian-cargo-at-sea"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-19T08:30:09-05:00",
+  "last_checked_at": "2026-11-19T09:33:13-05:00",
   "last_check_status": "new_findings"
 }
