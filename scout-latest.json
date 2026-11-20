@@ -1,8 +1,51 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-20T09:33:28-05:00",
-  "as_of_et": "November 20, 2026, 9:33 AM EST",
+  "generated_at": "2026-11-20T10:58:36-05:00",
+  "as_of_et": "November 20, 2026, 10:58 AM EST",
   "items": [
+    {
+      "id": "scout-20261120-1058-ukmto-213",
+      "observed_at": "2026-11-20T10:58:36-05:00",
+      "title": "UKMTO reports armed skiff firing on eastbound bulk carrier in Gulf of Aden",
+      "summary": "UKMTO warning 213-26 records a master-reported encounter southwest of Al Mukalla, Yemen. Six armed people approached an eastbound bulk carrier and fired four shots; shipboard security returned warning shots and the skiff withdrew. The vessel continued with no reported injuries or damage. No oil-cargo loss or sustained route disruption has been verified.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Maritime shipping",
+        "Gulf of Aden security",
+        "Energy logistics"
+      ],
+      "evidence_grade": "single-source",
+      "observations": [
+        {
+          "label": "Incident time and location",
+          "value": "November 20, 2026, 11:02 UTC / 6:02 AM EST; 95 nautical miles southwest of Al Mukalla, Yemen, in IRTC"
+        },
+        {
+          "label": "UKMTO official warning 213-26",
+          "value": "Bulk carrier approached by skiff with six armed people; four shots fired and warning shots returned; skiff withdrew; vessel continued eastbound"
+        },
+        {
+          "label": "Verified physical consequences",
+          "value": "Master reported no vessel damage and no crew injuries; vessel/assailant identities and attribution unverified; no confirmed oil-export or freight interruption"
+        },
+        {
+          "label": "Market assessment and next indicators",
+          "value": "No independently verified incident-specific XLE/XOP move; monitor UKMTO/MARAD follow-ups, additional encounters, Bab el-Mandeb transit volumes, insurance and freight costs; continued safe passage weakens disruption implication"
+        }
+      ],
+      "key_finding": "New official armed-encounter report raises Gulf of Aden security concern without evidence of interrupted cargo flows.",
+      "sources": [
+        {
+          "title": "UKMTO official warning 213-26, November 20",
+          "url": "https://www.ukmto.org/-/media/ukmto/products/20261120-ukmto_warning_213-26.pdf?rev=80e96f4329454560b7c7f2f47f0b953a"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261120-0933-ant-ipo-closed",
       "observed_at": "2026-11-20T09:33:28-05:00",
@@ -217,58 +260,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261120-0738-intu-guidance",
-      "observed_at": "2026-11-20T07:38:17-05:00",
-      "title": "Intuit cuts fiscal 2027 revenue outlook and agrees to sell Mailchimp",
-      "summary": "Intuit lowered its annual revenue outlook because of weaker Credit Karma expectations despite solid quarterly profit growth. The company also agreed to sell Mailchimp to Bending Spoons. Shares dropped sharply in premarket indications, making this a material software-growth versus valuation watch; transaction closing and future guidance remain uncertain.",
-      "tickers": [
-        "INTU"
-      ],
-      "sectors": [
-        "Software",
-        "Financial technology",
-        "Small-business services"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 20 5:09 AM EST premarket report",
-          "value": "INTU approximately $274.52, -11.4% indicated; premarket not closing move"
-        },
-        {
-          "label": "Intuit official November 19 Q1 FY27 earnings",
-          "value": "Revenue $4.4B, +12% YoY; online ecosystem revenue +20%; adjusted EPS $2.91"
-        },
-        {
-          "label": "FY27 guidance and divestiture",
-          "value": "Revenue $23.081B-$23.365B; Mailchimp sale ~$3.68B ($3.31B cash and $368M Bending Spoons shares), planned early-2027 close"
-        },
-        {
-          "label": "Risks and next checks",
-          "value": "Credit Karma business trajectory, organic software growth, customer retention, profitability and deal approvals; improved guidance and conversion would weaken selloff rationale"
-        }
-      ],
-      "key_finding": "Intuit's guidance reduction drove sharp premarket weakness despite operating growth and a major planned divestiture.",
-      "sources": [
-        {
-          "title": "Intuit official November 19 fiscal Q1 results and Mailchimp agreement",
-          "url": "https://investors.intuit.com/news-events/press-releases/detail/1331/intuit-reports-first-quarter-results-and-enters-agreement-to-sell-mailchimp-to-bending-spoons"
-        },
-        {
-          "title": "Intuit November 19 Form 10-Q",
-          "url": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000045/intu-20261031.htm"
-        },
-        {
-          "title": "MarketWatch November 20 outlook and price reaction",
-          "url": "https://www.marketwatch.com/story/intuits-downbeat-outlook-deepens-wall-streets-anxiety-about-software-companies-15b878e5"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-20T09:33:28-05:00",
+  "last_checked_at": "2026-11-20T10:58:36-05:00",
   "last_check_status": "new_findings"
 }
