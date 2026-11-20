@@ -1,8 +1,161 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-20T07:38:17-05:00",
-  "as_of_et": "November 20, 2026, 7:38 AM EST",
+  "generated_at": "2026-11-20T08:30:31-05:00",
+  "as_of_et": "November 20, 2026, 8:30 AM EST",
   "items": [
+    {
+      "id": "scout-20261120-0830-amd-short-selloff",
+      "observed_at": "2026-11-20T08:30:31-05:00",
+      "title": "AMD slides again in premarket after disputed China-related short report",
+      "summary": "AMD fell again in November 20 premarket trading after its steep November 19 decline, following allegations by Hunterbrook Media concerning China-linked server firmware. Hunterbrook's affiliated fund disclosed a short position, and AMD disputes the allegations. Neither an export-control violation nor weakened underlying AI-chip orders has been independently established.",
+      "tickers": [
+        "AMD"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "Export compliance"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 20, 5:04 AM EST premarket report",
+          "value": "AMD approximately -6% premarket; indicative snapshot, not a closing return"
+        },
+        {
+          "label": "November 19 regular-session context",
+          "value": "AMD down approximately 7.7%; market sources report slightly differing closing prices, so no precise closing price relied upon"
+        },
+        {
+          "label": "Catalyst and evidence distinction",
+          "value": "Hunterbrook alleged possible China Entity List-related firmware exposure; affiliated Hunterbrook Capital disclosed short position; AMD disputes claims and states compliance with US export controls; allegations unproven"
+        },
+        {
+          "label": "Significance and next checks",
+          "value": "Legal/compliance uncertainty adds valuation risk despite data-center growth; watch BIS/Commerce actions, AMD filings, independent firmware verification, customer orders, revenue and margins; exculpatory findings would weaken risk thesis"
+        }
+      ],
+      "key_finding": "AMD's additional premarket decline reflects disputed short-seller allegations and regulatory uncertainty, not a proven violation.",
+      "sources": [
+        {
+          "title": "Yahoo Finance November 20 AMD response and premarket report",
+          "url": "https://sg.finance.yahoo.com/news/amd-stock-gets-drilled-again-in-the-wake-of-surprise-short-seller-report-100450073.html"
+        },
+        {
+          "title": "Reuters November 19 AMD allegations and stock reaction",
+          "url": "https://www.investing.com/news/stock-market-news/amd-shares-slide-as-report-says-china-links-could-invite-us-scrutiny-5039625"
+        },
+        {
+          "title": "Barron's November 20 AMD China and financing concerns",
+          "url": "https://www.barrons.com/articles/amd-stock-price-nvidia-ai-chips-70de243a"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261120-0830-ant-ipo-followthrough",
+      "observed_at": "2026-11-20T08:30:31-05:00",
+      "title": "Anthropic slips after first-day IPO pop as AI funding concerns persist",
+      "summary": "Anthropic fell in early November 20 premarket trading after closing its debut up 17.1% versus the offering price. Investors remain concerned about AI compute commitments, financing costs and future profitability. The pullback is an early price signal rather than confirmation of a lasting decline or deteriorating operations.",
+      "tickers": [
+        "ANT",
+        "QQQ",
+        "NVDA"
+      ],
+      "sectors": [
+        "AI software",
+        "AI infrastructure",
+        "Cloud computing"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 20, 5:43 AM EST Reuters snapshot",
+          "value": "ANT -6.8% premarket relative to November 19 close; an intraday indication, not confirmed closing price"
+        },
+        {
+          "label": "November 19 debut context",
+          "value": "IPO offered at $83; shares opened around $111.50 and closed $97.17, approximately +17.1% versus offering price"
+        },
+        {
+          "label": "Cross-market context",
+          "value": "Reuters cited lower US futures, and FT reported ANT down as much as about 10% at a different premarket observation time; timing and price snapshots differ"
+        },
+        {
+          "label": "Fundamental assessment and invalidation",
+          "value": "IPO financing demand versus uncertain operating margins and large compute costs; watch ANT cash-session price, AI breadth, rates, cloud commitments and cash conversion; strengthening margins and sector recovery weaken concerns"
+        }
+      ],
+      "key_finding": "ANT's premarket reversal shows that strong IPO demand has not stabilized broader AI-sector sentiment.",
+      "sources": [
+        {
+          "title": "Reuters November 20 Anthropic premarket and US futures",
+          "url": "https://www.investing.com/news/economy-news/wall-st-futures-slip-as-anthropic-debut-fails-to-reassure-ai-investors-5041171"
+        },
+        {
+          "title": "Financial Times November 20 AI funding and Anthropic retreat",
+          "url": "https://www.ft.com/content/c7ad2e0c-efd1-40c2-a5a8-819ced8acf5b"
+        },
+        {
+          "title": "Barron's November 20 ANT debut follow-through",
+          "url": "https://www.barrons.com/articles/anthropic-stock-price-ipo-falling-04259c4c"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261119-0730-anthropic-ipo"
+    },
+    {
+      "id": "scout-20261120-0830-saudi-houthi-alerts",
+      "observed_at": "2026-11-20T08:30:31-05:00",
+      "title": "Saudi coalition reports fresh Houthi drone and missile interceptions as port threats rise",
+      "summary": "The Saudi-led coalition said Friday morning it intercepted five drones and one ballistic missile, with Riyadh among reported targets. AP reports the count and Reuters separately confirms the missile interception and southern drone alerts. Threats involving ports raise Red Sea logistics risk, but there is no verified new Saudi oil-production shutdown or sustained export loss.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Energy",
+        "Maritime shipping",
+        "Geopolitical risk"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 20 morning official report carried by AP",
+          "value": "Saudi-led coalition reported intercepting five drones and one ballistic missile; Riyadh reportedly among targets; count sourced to coalition, not independently verified"
+        },
+        {
+          "label": "Reuters November 20 independent reporting",
+          "value": "Reported ballistic missile interception toward southern Saudi Arabia and drone alerts for Jazan, Abha and Khamis Mushait"
+        },
+        {
+          "label": "Oil-market cross-check, 6:55 AM EST November 20",
+          "value": "January Brent about $91.42 (-0.61%) and January WTI about $82.23 (-0.25%), indicative market quotes; no newly established sustained export volume loss"
+        },
+        {
+          "label": "Risks and next checks",
+          "value": "Threats to ports and Red Sea maritime routes could raise freight or insurance cost; monitor Saudi Aramco operations, Yanbu pipeline, Bab el-Mandeb transits, UKMTO/MARAD, tanker loadings and export volumes; uninterrupted flows or de-escalation weaken supply-risk thesis"
+        }
+      ],
+      "key_finding": "Newly reported Saudi interceptions elevate maritime-security risk without verified incremental oil-flow loss.",
+      "sources": [
+        {
+          "title": "Associated Press November 20 Saudi drone and missile report",
+          "url": "https://apnews.com/article/saudi-yemen-war-iran-iraq-november-20-2026-16c39c487a23b53b73c5eabb7f0fd57a"
+        },
+        {
+          "title": "Reuters November 20 Saudi missile interception report",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/20/saudi-led-coalition-says-it-intercepted-houthi-missile-targeting-southern-region"
+        },
+        {
+          "title": "US MARAD active maritime advisories",
+          "url": "https://www.maritime.dot.gov/msci-advisories"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261120-0738-nvda-subpoena",
       "observed_at": "2026-11-20T07:38:17-05:00",
@@ -98,155 +251,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261120-0738-asia-chip-rout",
-      "observed_at": "2026-11-20T07:38:17-05:00",
-      "title": "Asia semiconductor-heavy markets drop over five percent as AI risk-off spreads globally",
-      "summary": "Taiwan, South Korea and Japan equities suffered sharp declines following a broad US technology selloff. Chipmakers, memory suppliers and semiconductor equipment names were among the hardest hit. This suggests cross-market risk reduction and valuation pressure, but does not independently demonstrate weakening chip orders or shipments.",
-      "tickers": [
-        "TSM",
-        "MU",
-        "NVDA",
-        "ASML",
-        "QQQ"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "International equities",
-        "AI infrastructure"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 20 Asia market close, local exchanges",
-          "value": "Taiwan Taiex approximately -6.2%; South Korea Kospi -5.2%; Japan Nikkei -5.1%; session closes reported by independent market coverage"
-        },
-        {
-          "label": "November 20 7:02 AM EST US futures",
-          "value": "Nasdaq-100 futures approximately -1.1%; intraday indication, not closing return"
-        },
-        {
-          "label": "Risks, fundamentals and next checks",
-          "value": "Cross-market deleveraging and valuation sensitivity versus still-substantial data-center demand; monitor TSMC bookings, chip orders, memory prices, Treasury yields, credit spreads and market breadth; improving demand and breadth weaken selloff thesis"
-        }
-      ],
-      "key_finding": "AI-led risk-off has broadened across Asia's major chip markets without verified semiconductor demand collapse.",
-      "sources": [
-        {
-          "title": "Guardian November 20 live global markets report",
-          "url": "https://www.theguardian.com/business/live/2026/nov/20/asia-stocks-worst-anthropic-ipo-ai-stock-market-latest-updates-news"
-        },
-        {
-          "title": "Libella November 20 regional market and futures data",
-          "url": "https://www.libella-group.com/morning/2026-11-20/"
-        },
-        {
-          "title": "Order Flow Futures November 20 global close observations",
-          "url": "https://orderflowfutures.com/en/sessions/es/2026-11-20"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261119-1027-intc-18ap-customer",
-      "observed_at": "2026-11-19T10:27:56-05:00",
-      "title": "Intel reports first external 18A-P customer and expanded Microsoft packaging agreement",
-      "summary": "Intel disclosed its first external customer for advanced 18A-P manufacturing and an expanded Azure infrastructure collaboration with Microsoft involving EMIB packaging. These developments provide commercial validation, but the customer identity, manufacturing volumes and contract economics remain undisclosed. Profitable production at scale is not yet established.",
-      "tickers": [
-        "INTC",
-        "MSFT",
-        "TSM"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "Advanced packaging",
-        "AI infrastructure"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 19, 8:08 AM EST premarket",
-          "value": "INTC $57.37, +4.94%; indicative premarket quote, not closing price"
-        },
-        {
-          "label": "Foundry announcement",
-          "value": "First external customer for 18A-P disclosed; identity, order size and economics unknown"
-        },
-        {
-          "label": "Microsoft agreement",
-          "value": "Expanded Azure collaboration involving EMIB advanced packaging and Xeon supply"
-        },
-        {
-          "label": "Risks and next checks",
-          "value": "Manufacturing yields, qualification timelines, named customers, volume production, capital expenditure and foundry operating losses; weak yields or contracts would invalidate thesis"
-        }
-      ],
-      "key_finding": "Intel has outside commercial foundry validation, but scale and profitability remain unproven.",
-      "sources": [
-        {
-          "title": "Intel-Microsoft infrastructure collaboration",
-          "url": "https://www.intel.com/content/www/us/en/newsroom/news/corporate/microsoft-azure-infrastructure-collaboration.html"
-        },
-        {
-          "title": "Benzinga external 18A customer coverage",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63420115/intel-secures-first-external-customer-for-advanced-18a-chips-marking-major-foundry-breakthrough"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261119-1027-iea-hormuz-outlook",
-      "observed_at": "2026-11-19T10:27:56-05:00",
-      "title": "IEA World Energy Outlook models long-run shift away from Hormuz exposure",
-      "summary": "The IEA's World Energy Outlook 2026 models lower future dependence on the Strait of Hormuz under a prolonged disruption scenario, partly through alternative pipelines and energy-system changes. These are conditional scenarios, not forecasts or newly observed shipment losses. The report raises longer-run questions about infrastructure investment and energy-security costs.",
-      "tickers": [
-        "XLE",
-        "XOP",
-        "XLU"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Energy security",
-        "Utilities and grid",
-        "Pipelines"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "IEA publication",
-          "value": "World Energy Outlook 2026 released November 19"
-        },
-        {
-          "label": "Scenario, not observed transit",
-          "value": "Approximately 20M barrels/day pre-crisis Hormuz oil transit versus modeled 8.5M in 2030 and below 2M in 2035 in an extreme scenario"
-        },
-        {
-          "label": "Proposed alternatives",
-          "value": "Approximately 7M barrels/day additional bypass-pipeline capacity under construction or proposed, not all completed"
-        },
-        {
-          "label": "Risks and next indicators",
-          "value": "Project approvals, funding, construction schedules, confirmed export flows, security of alternative routes, MARAD/UKMTO and Brent/WTI; de-escalation or delays change scenario"
-        }
-      ],
-      "key_finding": "IEA scenarios suggest major potential reconfiguration of oil routes, not verified new physical-flow changes.",
-      "sources": [
-        {
-          "title": "IEA World Energy Outlook November 19 announcement",
-          "url": "https://www.iea.org/news/as-an-unprecedented-shock-reshapes-the-energy-world-its-duration-will-determine-the-scale-of-the-change"
-        },
-        {
-          "title": "IEA World Energy Outlook 2026 executive summary",
-          "url": "https://www.iea.org/reports/world-energy-outlook-2026/executive-summary"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-20T07:38:17-05:00",
+  "last_checked_at": "2026-11-20T08:30:31-05:00",
   "last_check_status": "new_findings"
 }
