@@ -1,8 +1,154 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-19T10:27:56-05:00",
-  "as_of_et": "November 19, 2026, 10:28 AM EST",
+  "generated_at": "2026-11-20T07:38:17-05:00",
+  "as_of_et": "November 20, 2026, 7:38 AM EST",
   "items": [
+    {
+      "id": "scout-20261120-0738-nvda-subpoena",
+      "observed_at": "2026-11-20T07:38:17-05:00",
+      "title": "California attorney general subpoenas Nvidia amid China chip and disclosure inquiry",
+      "summary": "California's attorney general issued an investigative subpoena to Nvidia regarding whether advanced chips or confidential information reached China and whether investors were misled. The inquiry is confirmed, but wrongdoing has not been established. Nvidia shares declined in early premarket trading, adding legal uncertainty despite recent strong revenue growth.",
+      "tickers": [
+        "NVDA"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "Export controls"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 20 premarket indicative quote",
+          "value": "NVDA approximately $142.35, -2.49% versus prior close; time of individual quote not specified by quote provider; not a confirmed close"
+        },
+        {
+          "label": "November 19 official legal catalyst",
+          "value": "California DOJ investigative subpoena concerning possible transfer of advanced chips/confidential information to China and investor statements; no finding of violation"
+        },
+        {
+          "label": "Assessment, risks and invalidation",
+          "value": "Strong chip revenue versus governance, export compliance and legal costs; monitor Nvidia disclosures, California DOJ actions, congressional testimony and customer orders; exculpatory findings weaken legal risk"
+        }
+      ],
+      "key_finding": "Verified subpoena introduces compliance uncertainty, not proof of export violations or demand collapse.",
+      "sources": [
+        {
+          "title": "California DOJ official November 19 subpoena announcement",
+          "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-serves-investigative-subpoena-nvidia"
+        },
+        {
+          "title": "Associated Press November 20 Nvidia subpoena coverage",
+          "url": "https://apnews.com/article/94c179f5aed88c49b7f77670eae40013"
+        },
+        {
+          "title": "Investing.com November 20 premarket quote listing",
+          "url": "https://www.investing.com/equities/pre-market"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261120-0738-intu-guidance",
+      "observed_at": "2026-11-20T07:38:17-05:00",
+      "title": "Intuit cuts fiscal 2027 revenue outlook and agrees to sell Mailchimp",
+      "summary": "Intuit lowered its annual revenue outlook because of weaker Credit Karma expectations despite solid quarterly profit growth. The company also agreed to sell Mailchimp to Bending Spoons. Shares dropped sharply in premarket indications, making this a material software-growth versus valuation watch; transaction closing and future guidance remain uncertain.",
+      "tickers": [
+        "INTU"
+      ],
+      "sectors": [
+        "Software",
+        "Financial technology",
+        "Small-business services"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 20 5:09 AM EST premarket report",
+          "value": "INTU approximately $274.52, -11.4% indicated; premarket not closing move"
+        },
+        {
+          "label": "Intuit official November 19 Q1 FY27 earnings",
+          "value": "Revenue $4.4B, +12% YoY; online ecosystem revenue +20%; adjusted EPS $2.91"
+        },
+        {
+          "label": "FY27 guidance and divestiture",
+          "value": "Revenue $23.081B-$23.365B; Mailchimp sale ~$3.68B ($3.31B cash and $368M Bending Spoons shares), planned early-2027 close"
+        },
+        {
+          "label": "Risks and next checks",
+          "value": "Credit Karma business trajectory, organic software growth, customer retention, profitability and deal approvals; improved guidance and conversion would weaken selloff rationale"
+        }
+      ],
+      "key_finding": "Intuit's guidance reduction drove sharp premarket weakness despite operating growth and a major planned divestiture.",
+      "sources": [
+        {
+          "title": "Intuit official November 19 fiscal Q1 results and Mailchimp agreement",
+          "url": "https://investors.intuit.com/news-events/press-releases/detail/1331/intuit-reports-first-quarter-results-and-enters-agreement-to-sell-mailchimp-to-bending-spoons"
+        },
+        {
+          "title": "Intuit November 19 Form 10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000045/intu-20261031.htm"
+        },
+        {
+          "title": "MarketWatch November 20 outlook and price reaction",
+          "url": "https://www.marketwatch.com/story/intuits-downbeat-outlook-deepens-wall-streets-anxiety-about-software-companies-15b878e5"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261120-0738-asia-chip-rout",
+      "observed_at": "2026-11-20T07:38:17-05:00",
+      "title": "Asia semiconductor-heavy markets drop over five percent as AI risk-off spreads globally",
+      "summary": "Taiwan, South Korea and Japan equities suffered sharp declines following a broad US technology selloff. Chipmakers, memory suppliers and semiconductor equipment names were among the hardest hit. This suggests cross-market risk reduction and valuation pressure, but does not independently demonstrate weakening chip orders or shipments.",
+      "tickers": [
+        "TSM",
+        "MU",
+        "NVDA",
+        "ASML",
+        "QQQ"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "International equities",
+        "AI infrastructure"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 20 Asia market close, local exchanges",
+          "value": "Taiwan Taiex approximately -6.2%; South Korea Kospi -5.2%; Japan Nikkei -5.1%; session closes reported by independent market coverage"
+        },
+        {
+          "label": "November 20 7:02 AM EST US futures",
+          "value": "Nasdaq-100 futures approximately -1.1%; intraday indication, not closing return"
+        },
+        {
+          "label": "Risks, fundamentals and next checks",
+          "value": "Cross-market deleveraging and valuation sensitivity versus still-substantial data-center demand; monitor TSMC bookings, chip orders, memory prices, Treasury yields, credit spreads and market breadth; improving demand and breadth weaken selloff thesis"
+        }
+      ],
+      "key_finding": "AI-led risk-off has broadened across Asia's major chip markets without verified semiconductor demand collapse.",
+      "sources": [
+        {
+          "title": "Guardian November 20 live global markets report",
+          "url": "https://www.theguardian.com/business/live/2026/nov/20/asia-stocks-worst-anthropic-ipo-ai-stock-market-latest-updates-news"
+        },
+        {
+          "title": "Libella November 20 regional market and futures data",
+          "url": "https://www.libella-group.com/morning/2026-11-20/"
+        },
+        {
+          "title": "Order Flow Futures November 20 global close observations",
+          "url": "https://orderflowfutures.com/en/sessions/es/2026-11-20"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261119-1027-intc-18ap-customer",
       "observed_at": "2026-11-19T10:27:56-05:00",
@@ -99,159 +245,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261119-0933-sls-offering",
-      "observed_at": "2026-11-19T09:33:13-05:00",
-      "title": "SELLAS plunges premarket as $150M discounted stock offering follows positive Phase 3",
-      "summary": "SELLAS priced an $150 million equity offering at $13 per share after announcing favorable Phase 3 leukemia survival results. Shares fell sharply in November 19 premarket trading. The financing strengthens potential development resources but creates dilution, while FDA approval and commercial execution remain uncertain.",
-      "tickers": [
-        "SLS"
-      ],
-      "sectors": [
-        "Biotechnology",
-        "Oncology",
-        "Healthcare"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 19, 07:05 AM ET premarket quote (Benzinga)",
-          "value": "SLS $13.66, -23.9%; preliminary quote, not a confirmed closing return; snapshots from other sources/times differ"
-        },
-        {
-          "label": "November 18, 21:59 ET priced offering (company)",
-          "value": "11,538,462 new shares at $13/share; $150M gross proceeds before fees; underwriters' option for up to 1,730,769 additional shares; planned Nov 20 closing"
-        },
-        {
-          "label": "November 17 Phase 3 REGAL clinical topline (company and SEC)",
-          "value": "126 participants; median overall survival 24.0 vs 14.7 months; hazard ratio 0.59, two-sided p=0.035; FDA review and approval pending"
-        },
-        {
-          "label": "Risks and next checks",
-          "value": "New-equity dilution, FDA meeting and BLA timing, full trial data, commercialization costs, US regular-session price and volume; unfavorable regulatory path or cash needs would weaken clinical-versus-financing watch"
-        }
-      ],
-      "key_finding": "A sharp SLS repricing follows discounted financing despite positive pivotal survival data; regulatory and dilution risks remain.",
-      "sources": [
-        {
-          "title": "SELLAS official November 18 pricing announcement",
-          "url": "https://ir.sellaslifesciences.com/news/News-Details/2026/SELLAS-Life-Sciences-Announces-Pricing-of-150-0-Million-Underwritten-Public-Offering/default.aspx"
-        },
-        {
-          "title": "SEC Form 8-K and REGAL Phase 3 data",
-          "url": "https://www.sec.gov/Archives/edgar/data/1390478/000110465926128825/tm2629947d1_8k.htm"
-        },
-        {
-          "title": "Benzinga November 19 07:05 ET premarket movers",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63421765/12-health-care-stocks-moving-thursday-s-pre-market-session"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261119-0830-pdd-earnings",
-      "observed_at": "2026-11-19T08:30:09-05:00",
-      "title": "PDD ADR rebounds sharply on earnings beat despite flat revenue",
-      "summary": "PDD's November 19 results beat profitability expectations while revenue remained flat year over year and below consensus. Its US-listed ADR rose sharply before the open, reversing part of a sustained drawdown. Lower expenses supported profits, but transaction-service weakness and overseas regulation remain important risks.",
-      "tickers": [
-        "PDD"
-      ],
-      "sectors": [
-        "International ADRs",
-        "China e-commerce",
-        "Consumer internet"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 19 07:13 AM EST premarket observation",
-          "value": "PDD about $84.86, +9.6% before US cash open (Investing.com); intraday quote, not closing return"
-        },
-        {
-          "label": "November 19 company earnings release for Q3 2026",
-          "value": "Revenue RMB108.3B (approximately flat YoY); non-GAAP diluted EPS/ADR RMB21.04 versus approximately RMB18.54 consensus; operating profit RMB31.2B"
-        },
-        {
-          "label": "Balance sheet and business quality",
-          "value": "Cash, cash equivalents and short-term investments RMB455.4B; online marketing revenue +12%, transaction services -12%; sales/marketing spending lower"
-        },
-        {
-          "label": "Next indicators and invalidation",
-          "value": "Cash-session volume and price, Temu retention and EU regulatory issues, domestic consumption, revenue mix, operating cash conversion; renewed margin erosion or weak transaction services challenge rebound"
-        }
-      ],
-      "key_finding": "A profitability surprise drove a sharp PDD premarket rebound without confirming revenue reacceleration.",
-      "sources": [
-        {
-          "title": "PDD Holdings official November 19 Q3 earnings release",
-          "url": "https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-announces-third-quarter-2026-unaudited-financial"
-        },
-        {
-          "title": "Investing.com November 19 07:13 AM EST premarket observation",
-          "url": "https://www.investing.com/news/stock-market-news/why-is-pdd-holdings-stock-surging-today-93CH-5038667"
-        },
-        {
-          "title": "Wall Street Journal November 19 Temu parent report",
-          "url": "https://www.wsj.com/business/earnings/temu-owner-reports-flat-profit-revenue-as-challenges-continue-039f7d3e"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261119-0830-ukmto-212",
-      "observed_at": "2026-11-19T08:30:09-05:00",
-      "title": "UKMTO 212 documents another engine-room tanker strike near Khasab",
-      "summary": "UKMTO warning 212 reports a tanker hit by an unknown projectile while departing Hormuz on November 18, six nautical miles north of Khasab. The agency said the crew were safe and damage was not yet assessed. The report differs from warning 211, but the vessel identity and incremental export impact remain unverified.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Maritime shipping",
-        "Energy"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "UKMTO warning 212-26 and incident time",
-          "value": "Attack reported for November 18 16:45 UTC (11:45 AM EST); delayed warning around 22:30 UTC (5:30 PM EST)"
-        },
-        {
-          "label": "Reported physical security effect",
-          "value": "Unknown projectile struck outbound tanker engine room 6NM north of Khasab, Oman; crew safe; damage, cargo loss and attribution unknown"
-        },
-        {
-          "label": "Market confirmation",
-          "value": "No independently verified incident-specific XLE/XOP move or additional physical oil-flow loss as of November 19 08:30 AM EST; crude trading near $92-$93 Brent in early reports"
-        },
-        {
-          "label": "Next indicators and invalidation",
-          "value": "Vessel and cargo identity, comparison with UKMTO 211, salvage and crew status, MARAD/UKMTO follow-ups, Hormuz transits, freight/insurance, Brent/WTI; stable export volumes reduce supply-impact case"
-        }
-      ],
-      "key_finding": "A further agency-reported physical tanker attack adds security risk, not verified sustained oil-export loss.",
-      "sources": [
-        {
-          "title": "Anadolu Agency November 19: UKMTO warning 212",
-          "url": "https://www.aa.com.tr/en/middle-east/tanker-hit-by-unknown-projectile-near-strait-of-hormuz-uk-maritime-agency-says/4129910"
-        },
-        {
-          "title": "UKMTO official maritime incident register",
-          "url": "https://www.ukmto.org/recent-incidents"
-        },
-        {
-          "title": "UKMTO Operations Centre original notice",
-          "url": "https://x.com/UK_MTO/status/2123182021308559506"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-19T15:26:00-05:00",
-  "last_check_status": "no_new_findings"
+  "last_checked_at": "2026-11-20T07:38:17-05:00",
+  "last_check_status": "new_findings"
 }
