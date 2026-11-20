@@ -1,109 +1,125 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-20T08:30:31-05:00",
-  "as_of_et": "November 20, 2026, 8:30 AM EST",
+  "generated_at": "2026-11-20T09:33:28-05:00",
+  "as_of_et": "November 20, 2026, 9:33 AM EST",
   "items": [
     {
-      "id": "scout-20261120-0830-amd-short-selloff",
-      "observed_at": "2026-11-20T08:30:31-05:00",
-      "title": "AMD slides again in premarket after disputed China-related short report",
-      "summary": "AMD fell again in November 20 premarket trading after its steep November 19 decline, following allegations by Hunterbrook Media concerning China-linked server firmware. Hunterbrook's affiliated fund disclosed a short position, and AMD disputes the allegations. Neither an export-control violation nor weakened underlying AI-chip orders has been independently established.",
-      "tickers": [
-        "AMD"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "AI infrastructure",
-        "Export compliance"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 20, 5:04 AM EST premarket report",
-          "value": "AMD approximately -6% premarket; indicative snapshot, not a closing return"
-        },
-        {
-          "label": "November 19 regular-session context",
-          "value": "AMD down approximately 7.7%; market sources report slightly differing closing prices, so no precise closing price relied upon"
-        },
-        {
-          "label": "Catalyst and evidence distinction",
-          "value": "Hunterbrook alleged possible China Entity List-related firmware exposure; affiliated Hunterbrook Capital disclosed short position; AMD disputes claims and states compliance with US export controls; allegations unproven"
-        },
-        {
-          "label": "Significance and next checks",
-          "value": "Legal/compliance uncertainty adds valuation risk despite data-center growth; watch BIS/Commerce actions, AMD filings, independent firmware verification, customer orders, revenue and margins; exculpatory findings would weaken risk thesis"
-        }
-      ],
-      "key_finding": "AMD's additional premarket decline reflects disputed short-seller allegations and regulatory uncertainty, not a proven violation.",
-      "sources": [
-        {
-          "title": "Yahoo Finance November 20 AMD response and premarket report",
-          "url": "https://sg.finance.yahoo.com/news/amd-stock-gets-drilled-again-in-the-wake-of-surprise-short-seller-report-100450073.html"
-        },
-        {
-          "title": "Reuters November 19 AMD allegations and stock reaction",
-          "url": "https://www.investing.com/news/stock-market-news/amd-shares-slide-as-report-says-china-links-could-invite-us-scrutiny-5039625"
-        },
-        {
-          "title": "Barron's November 20 AMD China and financing concerns",
-          "url": "https://www.barrons.com/articles/amd-stock-price-nvidia-ai-chips-70de243a"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261120-0830-ant-ipo-followthrough",
-      "observed_at": "2026-11-20T08:30:31-05:00",
-      "title": "Anthropic slips after first-day IPO pop as AI funding concerns persist",
-      "summary": "Anthropic fell in early November 20 premarket trading after closing its debut up 17.1% versus the offering price. Investors remain concerned about AI compute commitments, financing costs and future profitability. The pullback is an early price signal rather than confirmation of a lasting decline or deteriorating operations.",
+      "id": "scout-20261120-0933-ant-ipo-closed",
+      "observed_at": "2026-11-20T09:33:28-05:00",
+      "title": "Anthropic completes $119.5B total IPO and placement financing as shares retreat toward issue price",
+      "summary": "Anthropic confirmed the full exercise of its IPO underwriters' option and closing of a $26 billion strategic private placement, taking aggregate gross proceeds including selling stockholder shares to about $119.5 billion. Shares fell sharply toward the $83 IPO price in Friday premarket trading. Liquidity improves, but profitability, massive compute commitments and concentrated supplier financing remain uncertain.",
       "tickers": [
         "ANT",
-        "QQQ",
-        "NVDA"
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MSFT",
+        "MU",
+        "TSM"
       ],
       "sectors": [
         "AI software",
         "AI infrastructure",
-        "Cloud computing"
+        "Cloud computing",
+        "Semiconductors"
       ],
       "evidence_grade": "corroborated",
       "observations": [
         {
-          "label": "November 20, 5:43 AM EST Reuters snapshot",
-          "value": "ANT -6.8% premarket relative to November 19 close; an intraday indication, not confirmed closing price"
+          "label": "November 20 pre-opening observation; Business Insider and Financial Times",
+          "value": "ANT approximately $84.84, down about 12.5% versus November 19 closing $97.17; FT reports as much as 13% lower premarket; not confirmed closing performance"
         },
         {
-          "label": "November 19 debut context",
-          "value": "IPO offered at $83; shares opened around $111.50 and closed $97.17, approximately +17.1% versus offering price"
+          "label": "November 20 confirmed IPO closing; company announcement and Reuters",
+          "value": "1,127,000,000 Class A shares at $83; gross offering $93.5B, including fully exercised 147M-share option and secondary proceeds; company receives ~$91.6B of offering gross"
         },
         {
-          "label": "Cross-market context",
-          "value": "Reuters cited lower US futures, and FT reported ANT down as much as about 10% at a different premarket observation time; timing and price snapshots differ"
+          "label": "November 20 completed private placement; Anthropic",
+          "value": "$26.0B Class N shares subscribed by AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC Partners; total aggregate gross offering plus placement ~$119.5B including selling shareholders' shares"
         },
         {
-          "label": "Fundamental assessment and invalidation",
-          "value": "IPO financing demand versus uncertain operating margins and large compute costs; watch ANT cash-session price, AI breadth, rates, cloud commitments and cash conversion; strengthening margins and sector recovery weaken concerns"
+          "label": "Fundamentals, risks and invalidation",
+          "value": "Liquidity improves but computing commitments, dilution, supplier financing concentration and operating losses persist; watch ANT near $83 issue price, revenue and margins, AI sector breadth and financing rates; better cash generation or demand confirmation weakens downside thesis"
         }
       ],
-      "key_finding": "ANT's premarket reversal shows that strong IPO demand has not stabilized broader AI-sector sentiment.",
+      "key_finding": "Record AI financing closed, but substantial premarket reversal underscores the gap between capital raised and proven cash economics.",
       "sources": [
         {
-          "title": "Reuters November 20 Anthropic premarket and US futures",
-          "url": "https://www.investing.com/news/economy-news/wall-st-futures-slip-as-anthropic-debut-fails-to-reassure-ai-investors-5041171"
+          "title": "Anthropic November 20 official IPO and private placement closing",
+          "url": "https://www.anthropic.com/news/ipo-close"
         },
         {
-          "title": "Financial Times November 20 AI funding and Anthropic retreat",
+          "title": "Reuters November 20 greenshoe and IPO proceeds",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-ipo-haul-rises-93-125302553.html"
+        },
+        {
+          "title": "Financial Times November 20 second-day premarket pullback",
           "url": "https://www.ft.com/content/c7ad2e0c-efd1-40c2-a5a8-819ced8acf5b"
         },
         {
-          "title": "Barron's November 20 ANT debut follow-through",
-          "url": "https://www.barrons.com/articles/anthropic-stock-price-ipo-falling-04259c4c"
+          "title": "Business Insider November 20 premarket quote",
+          "url": "https://www.businessinsider.com/anthropic-share-price-drops-after-its-blockbuster-ipo-2026-11"
         }
       ],
       "status": "updated",
-      "supersedes": "scout-20261119-0730-anthropic-ipo"
+      "supersedes": "scout-20261120-0830-ant-ipo-followthrough"
+    },
+    {
+      "id": "scout-20261120-0933-be-power-drawdown",
+      "observed_at": "2026-11-20T09:33:28-05:00",
+      "title": "Bloom Energy tumbles again despite strong growth and analyst upgrade",
+      "summary": "Bloom Energy slid further in Friday premarket trading, leaving shares over 50 percent below their June high, while BMO upgraded the stock to Outperform. October quarterly revenue grew 138 percent and management raised guidance. Negative quarterly free cash flow, customer concentration and data-center construction execution make valuation recovery uncertain.",
+      "tickers": [
+        "BE",
+        "ORCL",
+        "NBIS"
+      ],
+      "sectors": [
+        "Data-center power",
+        "Fuel cells",
+        "Energy infrastructure",
+        "Utilities and grid"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 20 premarket quote, Barron's",
+          "value": "BE approximately -7.3%, a non-closing premarket indication; more than 51% below June high, despite positive calendar-year performance"
+        },
+        {
+          "label": "November 19 BMO analyst assessment, multiple sources",
+          "value": "Upgrade to Outperform from Market Perform with target cut to $230 from $260; cites improved project execution but cost competitiveness and customer concentration remain risks"
+        },
+        {
+          "label": "October 22 company Q3 2026 results",
+          "value": "Revenue $1,235.8M, up 138.1% year on year; GAAP operating income $225.4M; FY26 revenue guidance $4.4B to $4.6B"
+        },
+        {
+          "label": "Cash flow and next indicators",
+          "value": "Q3 free cash flow around negative $181M and operating cash flow about negative $27M; monitor fourth-quarter billing, contract assets, cash conversion, Oracle/Nebius installations, and data-center build schedules; repeated cash burn or deployments delays weaken case"
+        }
+      ],
+      "key_finding": "Bloom shows strong revenue and operating growth but material valuation reset amid cash conversion and execution risk.",
+      "sources": [
+        {
+          "title": "Bloom Energy official October 22 quarterly results",
+          "url": "https://www.bloomenergy.com/news/bloom-energy-reports-record-third-quarter-2026-financial-results-and-raises-full-year-2026-guidance/"
+        },
+        {
+          "title": "Barron's November 20 Bloom premarket fall and BMO upgrade",
+          "url": "https://www.barrons.com/articles/bloom-energy-stock-ai-trade-ef008720"
+        },
+        {
+          "title": "Investing.com November 19 BMO analyst upgrade details",
+          "url": "https://www.investing.com/news/analyst-ratings/bmo-upgrades-bloom-energy-stock-rating-on-commercial-traction-93CH-5038726"
+        },
+        {
+          "title": "Investopedia Bloom quarterly cash-flow review",
+          "url": "https://www.investopedia.com/market-update-bloom-energy-stock-sinks-fuel-cell-data-centers-be-12190040"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
     },
     {
       "id": "scout-20261120-0830-saudi-houthi-alerts",
@@ -253,6 +269,6 @@
       "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-20T08:30:31-05:00",
+  "last_checked_at": "2026-11-20T09:33:28-05:00",
   "last_check_status": "new_findings"
 }
