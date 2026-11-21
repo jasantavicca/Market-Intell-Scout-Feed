@@ -1,8 +1,153 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-20T10:58:36-05:00",
-  "as_of_et": "November 20, 2026, 10:58 AM EST",
+  "generated_at": "2026-11-20T15:43:47-05:00",
+  "as_of_et": "November 20, 2026, 3:43 PM EST",
   "items": [
+    {
+      "id": "scout-20261120-1543-hormuz-tanker",
+      "observed_at": "2026-11-20T15:43:47-05:00",
+      "title": "UKMTO reports outbound tanker struck and burning in Strait of Hormuz",
+      "summary": "UKMTO warning 214-26 reports that an outbound tanker was struck by an unknown projectile north of Khasab, Oman, with a fire onboard. Reuters independently relayed the warning. Initial reporting states no casualties or environmental impact; there is no independently established sustained export or transit shutdown. The cause and damage assessment remain unresolved.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Maritime shipping",
+        "Strait of Hormuz security"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Incident time and place",
+          "value": "November 20, 2026, 15:00 UTC / 10:00 AM EST; 8 nautical miles north of Khasab, Oman; outbound Strait of Hormuz tanker"
+        },
+        {
+          "label": "UKMTO warning 214-26",
+          "value": "Port bow hit by unidentified projectile; company security officer reports onboard fire; initially no casualties or environmental impact reported"
+        },
+        {
+          "label": "Alternative attribution",
+          "value": "Reuters reports Iran's Revolutionary Guards attributed fire to mine, an unverified and disputed cause; no independent forensic confirmation"
+        },
+        {
+          "label": "Physical-flow evidence and next checks",
+          "value": "Tanker strike/fire reported, but no confirmed sustained oil throughput loss or strait closure; monitor UKMTO/MARAD, crew/ship identification, damage, AIS/transit, Yanbu loading, freight/insurance; confirmed normal flows weaken disruption signal"
+        }
+      ],
+      "key_finding": "Reported physical tanker attack and fire raise immediate Hormuz shipping risk; no verified sustained oil-flow loss.",
+      "sources": [
+        {
+          "title": "UKMTO official warning 214-26",
+          "url": "https://www.ukmto.org/-/media/ukmto/products/20261120-ukmto_warning_214-26.pdf?rev=15b89f479d88438e9399a9140c1e3de2"
+        },
+        {
+          "title": "Reuters November 20 tanker-fire report",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/20/tanker-catches-fire-after-projectile-strike-near-strait-of-hormuz-ukmto-says"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261120-1543-equity-selloff",
+      "observed_at": "2026-11-20T15:43:47-05:00",
+      "title": "Afternoon selling accelerates: Nasdaq over 4% lower as semiconductor rout continues",
+      "summary": "US selling accelerated during Friday afternoon, taking the Nasdaq well beyond its midday decline and pushing the S&P 500 deeper into correction territory intraday. Semiconductor shares remained especially weak. The dislocation reflects a sharp reassessment of AI valuations and financing assumptions, not verified uniform collapse in chip orders. Intraday moves are not closing returns.",
+      "tickers": [
+        "QQQ",
+        "SPY",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "SMH"
+      ],
+      "sectors": [
+        "US equity indexes",
+        "Semiconductors",
+        "AI infrastructure",
+        "Market breadth"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 20 afternoon intraday snapshot",
+          "value": "MarketWatch reported Nasdaq approximately -4.5% (about -1,080 points), S&P 500 about -3%, Dow about -1.4%; not closing figures"
+        },
+        {
+          "label": "Sector and intraday breadth",
+          "value": "Barron's reported PHLX semiconductor index approximately -9%, with losses accelerating after about 1:55 PM EST; technology concentration substantial"
+        },
+        {
+          "label": "Fundamental risks",
+          "value": "Hyperscaler AI capex returns, highly valued semiconductors, funding costs and possible leveraged-liquidation pressure; pricing alone does not prove earnings or demand impairment"
+        },
+        {
+          "label": "Next indicators / invalidation",
+          "value": "Closing breadth and prices, VIX, yields, credit spreads, semiconductor customer orders, earnings revisions; sustained market rebound alongside resilient orders weakens further downside assessment"
+        }
+      ],
+      "key_finding": "Afternoon selling intensified materially beyond midday levels; AI-chip valuation and funding concerns dominate.",
+      "sources": [
+        {
+          "title": "MarketWatch November 20 afternoon Nasdaq selloff",
+          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-anthropic-ipo-second-day-trading/card/stock-selloff-accelerates-as-nasdaq-s-loss-tops-1-000-points-JvZ1jAKoGwm3yh4PJkHX"
+        },
+        {
+          "title": "Barron's November 20 afternoon selloff accelerates",
+          "url": "https://www.barrons.com/livecoverage/stock-market-news-today-112026/card/the-selloff-is-gaining-speed-K5Yx2hhLqXCrX301TKPc"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261120-1329-chip-correction"
+    },
+    {
+      "id": "scout-20261120-1543-svra-fda",
+      "observed_at": "2026-11-20T15:43:47-05:00",
+      "title": "Savara sinks after FDA says molgramostim decision will miss November 22 target",
+      "summary": "Savara says the FDA will not decide on its molgramostim application by November 22 and gave no revised action date. Shares fell sharply during Friday trading. The regulatory delay extends cash-flow and financing uncertainty for the rare-lung-disease developer, but review continues and this is not an FDA rejection.",
+      "tickers": [
+        "SVRA"
+      ],
+      "sectors": [
+        "Biotechnology",
+        "Rare disease therapeutics",
+        "Healthcare"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 20, 12:25 PM EST indicative trading",
+          "value": "RTTNews reported SVRA around $4.39, -15.38%; intraday, not closing return"
+        },
+        {
+          "label": "Company disclosure November 20",
+          "value": "FDA will not take action by November 22, 2026 PDUFA date for molgramostim BLA for autoimmune pulmonary alveolar proteinosis; no revised date; review ongoing"
+        },
+        {
+          "label": "Fundamentals and risks",
+          "value": "Single important regulatory asset, timing uncertainty and possible financing needs; an extended wait or adverse review would worsen risk"
+        },
+        {
+          "label": "Next indicators and invalidation",
+          "value": "FDA communications, revised action date, manufacturing/CMC status, cash runway and regulatory decision; prompt favorable review changes thesis"
+        }
+      ],
+      "key_finding": "A confirmed FDA timing delay, not rejection, triggered a double-digit intraday SVRA decline.",
+      "sources": [
+        {
+          "title": "Savara official November 20 investor release",
+          "url": "https://investors.savarapharma.com/news/news-details/2026/Savara-Informed-That-FDA-Will-Not-Take-Action-on-the-Molgramostim-BLA-for-Autoimmune-Pulmonary-Alveolar-Proteinosis-Autoimmune-PAP-by-the-PDUFA-Date/default.aspx"
+        },
+        {
+          "title": "RTTNews November 20 SVRA price and FDA report",
+          "url": "https://www.rttnews.com/3716854/fda-delays-bla-decision-on-savara-s-molgramostim-for-lung-disease-shares-drop-15.aspx"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261120-1058-ukmto-213",
       "observed_at": "2026-11-20T10:58:36-05:00",
@@ -106,162 +251,8 @@
       ],
       "status": "updated",
       "supersedes": "scout-20261120-0830-ant-ipo-followthrough"
-    },
-    {
-      "id": "scout-20261120-0933-be-power-drawdown",
-      "observed_at": "2026-11-20T09:33:28-05:00",
-      "title": "Bloom Energy tumbles again despite strong growth and analyst upgrade",
-      "summary": "Bloom Energy slid further in Friday premarket trading, leaving shares over 50 percent below their June high, while BMO upgraded the stock to Outperform. October quarterly revenue grew 138 percent and management raised guidance. Negative quarterly free cash flow, customer concentration and data-center construction execution make valuation recovery uncertain.",
-      "tickers": [
-        "BE",
-        "ORCL",
-        "NBIS"
-      ],
-      "sectors": [
-        "Data-center power",
-        "Fuel cells",
-        "Energy infrastructure",
-        "Utilities and grid"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 20 premarket quote, Barron's",
-          "value": "BE approximately -7.3%, a non-closing premarket indication; more than 51% below June high, despite positive calendar-year performance"
-        },
-        {
-          "label": "November 19 BMO analyst assessment, multiple sources",
-          "value": "Upgrade to Outperform from Market Perform with target cut to $230 from $260; cites improved project execution but cost competitiveness and customer concentration remain risks"
-        },
-        {
-          "label": "October 22 company Q3 2026 results",
-          "value": "Revenue $1,235.8M, up 138.1% year on year; GAAP operating income $225.4M; FY26 revenue guidance $4.4B to $4.6B"
-        },
-        {
-          "label": "Cash flow and next indicators",
-          "value": "Q3 free cash flow around negative $181M and operating cash flow about negative $27M; monitor fourth-quarter billing, contract assets, cash conversion, Oracle/Nebius installations, and data-center build schedules; repeated cash burn or deployments delays weaken case"
-        }
-      ],
-      "key_finding": "Bloom shows strong revenue and operating growth but material valuation reset amid cash conversion and execution risk.",
-      "sources": [
-        {
-          "title": "Bloom Energy official October 22 quarterly results",
-          "url": "https://www.bloomenergy.com/news/bloom-energy-reports-record-third-quarter-2026-financial-results-and-raises-full-year-2026-guidance/"
-        },
-        {
-          "title": "Barron's November 20 Bloom premarket fall and BMO upgrade",
-          "url": "https://www.barrons.com/articles/bloom-energy-stock-ai-trade-ef008720"
-        },
-        {
-          "title": "Investing.com November 19 BMO analyst upgrade details",
-          "url": "https://www.investing.com/news/analyst-ratings/bmo-upgrades-bloom-energy-stock-rating-on-commercial-traction-93CH-5038726"
-        },
-        {
-          "title": "Investopedia Bloom quarterly cash-flow review",
-          "url": "https://www.investopedia.com/market-update-bloom-energy-stock-sinks-fuel-cell-data-centers-be-12190040"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261120-0830-saudi-houthi-alerts",
-      "observed_at": "2026-11-20T08:30:31-05:00",
-      "title": "Saudi coalition reports fresh Houthi drone and missile interceptions as port threats rise",
-      "summary": "The Saudi-led coalition said Friday morning it intercepted five drones and one ballistic missile, with Riyadh among reported targets. AP reports the count and Reuters separately confirms the missile interception and southern drone alerts. Threats involving ports raise Red Sea logistics risk, but there is no verified new Saudi oil-production shutdown or sustained export loss.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Energy",
-        "Maritime shipping",
-        "Geopolitical risk"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 20 morning official report carried by AP",
-          "value": "Saudi-led coalition reported intercepting five drones and one ballistic missile; Riyadh reportedly among targets; count sourced to coalition, not independently verified"
-        },
-        {
-          "label": "Reuters November 20 independent reporting",
-          "value": "Reported ballistic missile interception toward southern Saudi Arabia and drone alerts for Jazan, Abha and Khamis Mushait"
-        },
-        {
-          "label": "Oil-market cross-check, 6:55 AM EST November 20",
-          "value": "January Brent about $91.42 (-0.61%) and January WTI about $82.23 (-0.25%), indicative market quotes; no newly established sustained export volume loss"
-        },
-        {
-          "label": "Risks and next checks",
-          "value": "Threats to ports and Red Sea maritime routes could raise freight or insurance cost; monitor Saudi Aramco operations, Yanbu pipeline, Bab el-Mandeb transits, UKMTO/MARAD, tanker loadings and export volumes; uninterrupted flows or de-escalation weaken supply-risk thesis"
-        }
-      ],
-      "key_finding": "Newly reported Saudi interceptions elevate maritime-security risk without verified incremental oil-flow loss.",
-      "sources": [
-        {
-          "title": "Associated Press November 20 Saudi drone and missile report",
-          "url": "https://apnews.com/article/saudi-yemen-war-iran-iraq-november-20-2026-16c39c487a23b53b73c5eabb7f0fd57a"
-        },
-        {
-          "title": "Reuters November 20 Saudi missile interception report",
-          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/20/saudi-led-coalition-says-it-intercepted-houthi-missile-targeting-southern-region"
-        },
-        {
-          "title": "US MARAD active maritime advisories",
-          "url": "https://www.maritime.dot.gov/msci-advisories"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261120-0738-nvda-subpoena",
-      "observed_at": "2026-11-20T07:38:17-05:00",
-      "title": "California attorney general subpoenas Nvidia amid China chip and disclosure inquiry",
-      "summary": "California's attorney general issued an investigative subpoena to Nvidia regarding whether advanced chips or confidential information reached China and whether investors were misled. The inquiry is confirmed, but wrongdoing has not been established. Nvidia shares declined in early premarket trading, adding legal uncertainty despite recent strong revenue growth.",
-      "tickers": [
-        "NVDA"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "AI infrastructure",
-        "Export controls"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 20 premarket indicative quote",
-          "value": "NVDA approximately $142.35, -2.49% versus prior close; time of individual quote not specified by quote provider; not a confirmed close"
-        },
-        {
-          "label": "November 19 official legal catalyst",
-          "value": "California DOJ investigative subpoena concerning possible transfer of advanced chips/confidential information to China and investor statements; no finding of violation"
-        },
-        {
-          "label": "Assessment, risks and invalidation",
-          "value": "Strong chip revenue versus governance, export compliance and legal costs; monitor Nvidia disclosures, California DOJ actions, congressional testimony and customer orders; exculpatory findings weaken legal risk"
-        }
-      ],
-      "key_finding": "Verified subpoena introduces compliance uncertainty, not proof of export violations or demand collapse.",
-      "sources": [
-        {
-          "title": "California DOJ official November 19 subpoena announcement",
-          "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-serves-investigative-subpoena-nvidia"
-        },
-        {
-          "title": "Associated Press November 20 Nvidia subpoena coverage",
-          "url": "https://apnews.com/article/94c179f5aed88c49b7f77670eae40013"
-        },
-        {
-          "title": "Investing.com November 20 premarket quote listing",
-          "url": "https://www.investing.com/equities/pre-market"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-20T10:58:36-05:00",
+  "last_checked_at": "2026-11-20T15:43:47-05:00",
   "last_check_status": "new_findings"
 }
