@@ -1,8 +1,99 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-21T13:26:56-05:00",
-  "as_of_et": "November 21, 2026, 1:26 PM EST",
+  "generated_at": "2026-11-21T15:34:04-05:00",
+  "as_of_et": "November 21, 2026, 3:34 PM EST",
   "items": [
+    {
+      "id": "scout-20261121-1534-torkel-fire",
+      "observed_at": "2026-11-21T15:34:04-05:00",
+      "title": "NAVAREA IX identifies anchored tanker TORKEL with reported onboard fire in Strait of Hormuz",
+      "summary": "Pakistan's official NAVAREA IX warning 457/26 identifies the oil tanker TORKEL as anchored in the Strait of Hormuz following a security incident that caused a fire. It is unknown whether this vessel overlaps with UKMTO's earlier Saturday reports. Cargo loss, pollution, fire status and additional export disruption remain unverified.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Maritime shipping",
+        "Strait of Hormuz security"
+      ],
+      "evidence_grade": "single-source",
+      "observations": [
+        {
+          "label": "Official warning and timestamp",
+          "value": "Pakistan National Hydrographic Office NAVAREA IX 457/26, issued 21 Nov 2026 15:00 UTC / 10:00 AM EST; warning issue time, not incident time"
+        },
+        {
+          "label": "Named vessel, condition, position",
+          "value": "Oil tanker TORKEL reported involved in security incident causing onboard fire; anchored 26-23.4N 056-18.6E near Oman Strait of Hormuz approaches"
+        },
+        {
+          "label": "Verification and interpretation",
+          "value": "Official navigational report only; unclear whether TORKEL is one of UKMTO Warnings 215-26/216-26 or a separate casualty; no confirmed incremental crude export loss"
+        },
+        {
+          "label": "Risks, invalidation and next indicators",
+          "value": "Monitor UKMTO/MARAD reconciliation, crew safety, fire control, cargo condition, pollution, AIS route, tanker loadings and freight/insurance; safe departure and uninterrupted crude volumes weaken disruption implications"
+        }
+      ],
+      "key_finding": "Official navigation authority names a burning anchored Hormuz tanker, but incident overlap and export consequences remain unresolved.",
+      "sources": [
+        {
+          "title": "Pakistan National Hydrographic Office, NAVAREA IX warning 457/26 (official text)",
+          "url": "https://hydrography.paknavy.gov.pk/wp-content/plugins/navarea-warnings/custom_uploaded_warnings_for_navarea/20261121SEC%20457.txt"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261121-1534-crwd-zs-talks",
+      "observed_at": "2026-11-21T15:34:04-05:00",
+      "title": "Bloomberg and Reuters report CrowdStrike is in acquisition talks with Zscaler",
+      "summary": "Bloomberg and Reuters separately report talks in which CrowdStrike could acquire Zscaler, with no signed agreement or guaranteed transaction. Friday after-hours prices diverged sharply after the news. Combining endpoint defense and cloud zero-trust network security could create strategic scale, but financing, integration and regulatory risks are substantial.",
+      "tickers": [
+        "CRWD",
+        "ZS",
+        "PANW"
+      ],
+      "sectors": [
+        "Cybersecurity software",
+        "Network security",
+        "Enterprise software"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 20 2026 reports",
+          "value": "Bloomberg around 4:05 PM EST and Reuters around 4:46 PM EST each cited unnamed sources; both say negotiations continue, transaction not guaranteed; company confirmation absent"
+        },
+        {
+          "label": "November 20 Friday extended trading, Reuters",
+          "value": "ZS roughly +17% after-hours, CRWD roughly -8% after-hours; indicative extended-session observations, NOT confirmed regular-session closes"
+        },
+        {
+          "label": "Strategic significance",
+          "value": "CrowdStrike Falcon endpoint detection plus Zscaler zero-trust/network security could yield broad platform reach; reported market capitalizations around $233B for CRWD and $32-33.5B for ZS, not transaction valuation"
+        },
+        {
+          "label": "Risks, invalidation and next indicators",
+          "value": "Monitor formal disclosures, negotiated price, cash-vs-stock consideration, financing, major-customer overlap, antitrust review and integration costs; ended talks or denied reports invalidate deal thesis"
+        }
+      ],
+      "key_finding": "Two independent reports of possible cybersecurity megadeal explain a sharp after-hours CRWD/ZS split, but no transaction is agreed.",
+      "sources": [
+        {
+          "title": "Reuters November 20 report, CrowdStrike talks to acquire Zscaler",
+          "url": "https://www.investing.com/news/stock-market-news/crowdstrike-in-talks-to-acquire-zscaler-sources-say-5042720"
+        },
+        {
+          "title": "Bloomberg November 20 report on CrowdStrike-Zscaler discussions",
+          "url": "https://finance.yahoo.com/technology/articles/crowdstrike-talks-buy-cybersecurity-firm-210511823.html"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261121-1326-capr-fda-crl",
       "observed_at": "2026-11-21T13:26:56-05:00",
@@ -146,102 +237,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261121-0841-hormuz-traffic",
-      "observed_at": "2026-11-21T08:41:35-05:00",
-      "title": "Hormuz weekly transits fall 14.6%; tanker counts and preliminary oil flows also weaken",
-      "summary": "UKMTO counted 263 combined transits for November 12–18, down from 308 the previous week, with traffic still far below pre-conflict levels. The Financial Times separately reports fewer tanker passages and weaker preliminary oil flows. Vessel counts are not equivalent to oil barrels, and dark transits may lead to revisions.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Energy logistics",
-        "Oil and gas",
-        "Maritime shipping"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "UKMTO November 20 weekly report",
-          "value": "Nov 12–18: 115 outbound and 148 inbound = 263 combined transits; prior week 139 outbound and 169 inbound = 308; down 45 or 14.6%"
-        },
-        {
-          "label": "Comparison to pre-conflict baseline",
-          "value": "UKMTO estimates overall traffic around 65% below pre-conflict; some US-facilitated movements cannot be fully independently verified"
-        },
-        {
-          "label": "Financial Times independent report November 21",
-          "value": "Oil-tanker transits 37 vs 52 the prior week; preliminary second-week-November oil flows nearly half first-week levels, subject to dark-transit revisions"
-        },
-        {
-          "label": "Next indicators and invalidation",
-          "value": "Cross-check later AIS/UKMTO, Kpler/Vortexa oil volume, export loading and freight insurance; restored traffic and oil barrels would weaken physical-flow-disruption concern"
-        }
-      ],
-      "key_finding": "Observed vessel traffic is falling amid attacks; oil-flow magnitude remains preliminary and subject to revision.",
-      "sources": [
-        {
-          "title": "UKMTO November 20 weekly maritime overview",
-          "url": "https://www.ukmto.org/-/media/ukmto/products/20261120-ukmto_vra_overview_u.pdf?rev=5dbbfece42834c3896b685bc2223e1aa"
-        },
-        {
-          "title": "Financial Times November 21 Hormuz oil shipping report",
-          "url": "https://www.ft.com/content/5fbc2b9d-0360-4a1f-9e4a-3e86168cbbc5"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261120-2029-nvda-sec",
-      "observed_at": "2026-11-20T20:29:07-05:00",
-      "title": "Reuters sources say SEC examining potential Nvidia accounting issues",
-      "summary": "Reuters reported that SEC enforcement staff are scrutinizing possible Nvidia accounting matters, citing two people briefed on the inquiry. The SEC declined comment, and the practices under review are unspecified. Nvidia shares fell sharply Friday, but most of the slide preceded the report. An inquiry does not establish wrongdoing.",
-      "tickers": [
-        "NVDA",
-        "SMH"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "AI infrastructure",
-        "Corporate accounting and regulation"
-      ],
-      "evidence_grade": "single-source",
-      "observations": [
-        {
-          "label": "November 20, approximately 2:38 PM EST, Reuters",
-          "value": "Two people briefed on matter told Reuters SEC enforcement staff are examining potential Nvidia accounting issues; SEC declined comment; Nvidia response not available at publication"
-        },
-        {
-          "label": "Friday intraday market reaction",
-          "value": "Investing.com reports NVDA roughly -10% intraday and about -7% before Reuters accounting focus disclosure; incremental effect cannot be precisely attributed"
-        },
-        {
-          "label": "Fundamental assessment and limitations",
-          "value": "Actual accounting subject, timing, possible financial restatement and enforcement outcome are unknown; no wrongdoing proven; underlying AI chip orders not assessed by investigation report"
-        },
-        {
-          "label": "Next indicators / invalidation",
-          "value": "Nvidia SEC filings, auditor statements, investigation resolution, customer demand and revisions; closure without findings would weaken regulatory risk"
-        }
-      ],
-      "key_finding": "Reported SEC accounting focus compounds Nvidia uncertainty without establishing accounting violations.",
-      "sources": [
-        {
-          "title": "Reuters November 20 SEC inquiry report",
-          "url": "https://finance.yahoo.com/technology/articles/nvidia-accounting-under-sec-investigation-193823505.html"
-        },
-        {
-          "title": "Investing.com November 20 intraday market reaction",
-          "url": "https://www.investing.com/news/stock-market-news/nvidia-shares-fall-10-as-report-of-sec-accounting-probe-adds-to-pressure-5042464"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-21T14:27:14-05:00",
-  "last_check_status": "no_new_findings"
+  "last_checked_at": "2026-11-21T15:34:04-05:00",
+  "last_check_status": "new_findings"
 }
