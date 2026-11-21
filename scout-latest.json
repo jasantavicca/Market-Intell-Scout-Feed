@@ -1,8 +1,107 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-20T15:43:47-05:00",
-  "as_of_et": "November 20, 2026, 3:43 PM EST",
+  "generated_at": "2026-11-20T20:29:07-05:00",
+  "as_of_et": "November 20, 2026, 8:29 PM EST",
   "items": [
+    {
+      "id": "scout-20261120-2029-nvda-sec",
+      "observed_at": "2026-11-20T20:29:07-05:00",
+      "title": "Reuters sources say SEC examining potential Nvidia accounting issues",
+      "summary": "Reuters reported that SEC enforcement staff are scrutinizing possible Nvidia accounting matters, citing two people briefed on the inquiry. The SEC declined comment, and the practices under review are unspecified. Nvidia shares fell sharply Friday, but most of the slide preceded the report. An inquiry does not establish wrongdoing.",
+      "tickers": [
+        "NVDA",
+        "SMH"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "Corporate accounting and regulation"
+      ],
+      "evidence_grade": "single-source",
+      "observations": [
+        {
+          "label": "November 20, approximately 2:38 PM EST, Reuters",
+          "value": "Two people briefed on matter told Reuters SEC enforcement staff are examining potential Nvidia accounting issues; SEC declined comment; Nvidia response not available at publication"
+        },
+        {
+          "label": "Friday intraday market reaction",
+          "value": "Investing.com reports NVDA roughly -10% intraday and about -7% before Reuters accounting focus disclosure; incremental effect cannot be precisely attributed"
+        },
+        {
+          "label": "Fundamental assessment and limitations",
+          "value": "Actual accounting subject, timing, possible financial restatement and enforcement outcome are unknown; no wrongdoing proven; underlying AI chip orders not assessed by investigation report"
+        },
+        {
+          "label": "Next indicators / invalidation",
+          "value": "Nvidia SEC filings, auditor statements, investigation resolution, customer demand and revisions; closure without findings would weaken regulatory risk"
+        }
+      ],
+      "key_finding": "Reported SEC accounting focus compounds Nvidia uncertainty without establishing accounting violations.",
+      "sources": [
+        {
+          "title": "Reuters November 20 SEC inquiry report",
+          "url": "https://finance.yahoo.com/technology/articles/nvidia-accounting-under-sec-investigation-193823505.html"
+        },
+        {
+          "title": "Investing.com November 20 intraday market reaction",
+          "url": "https://www.investing.com/news/stock-market-news/nvidia-shares-fall-10-as-report-of-sec-accounting-probe-adds-to-pressure-5042464"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261120-2029-global-chip-selloff",
+      "observed_at": "2026-11-20T20:29:07-05:00",
+      "title": "Reuters documents global chip rout and defensive rotation in post-close review",
+      "summary": "Reuters reports a broad global technology reversal, with Taiwan equities and U.S. chipmakers both suffering steep weekly losses. Japanese and Korean markets also declined sharply. Anthropic ended its second trading day close to its issue price. The evidence points to global valuation repricing rather than a verified simultaneous collapse in chip orders.",
+      "tickers": [
+        "TSM",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "ANT",
+        "SMH"
+      ],
+      "sectors": [
+        "International equities and ADRs",
+        "Semiconductors",
+        "AI infrastructure",
+        "Market rotation"
+      ],
+      "evidence_grade": "single-source",
+      "observations": [
+        {
+          "label": "November 20, Reuters post-close global-market review",
+          "value": "Taiwan shares approximately -17% for week, worst since 1990; US chipmaker shares -10.7% Friday and -17.1% for week; Japan and Korea benchmark indexes down more than 5% overnight"
+        },
+        {
+          "label": "Anthropic November 20 post-close Reuters observation",
+          "value": "ANT $88.30, -9.1% Friday; traded as much as 14.5% below prior close intraday; IPO issue price $83"
+        },
+        {
+          "label": "Rotation and rates",
+          "value": "Reuters reports consumer staples was sole positive S&P 500 sector Friday; US 10-year Treasury yield saw biggest one-day fall in a month"
+        },
+        {
+          "label": "Assessment, risk and next checks",
+          "value": "Global chip valuation reset and financing sensitivity; investigate foundry capacity, foundry customer orders, ADR currency impacts, Taiwan supply-chain guidance and credit spreads; resilient orders and broad rebound weaken prolonged dislocation signal"
+        }
+      ],
+      "key_finding": "Post-close global data demonstrate semiconductor losses extending beyond the US, with defensives gaining relative strength.",
+      "sources": [
+        {
+          "title": "Reuters November 20 global markets post-close analysis",
+          "url": "https://www.marketscreener.com/news/tech-stocks-tumble-treasury-yields-fall-as-traders-seek-refuge-ce785ed3da81f423"
+        },
+        {
+          "title": "Reuters syndicated November 20 global chip market report",
+          "url": "https://www.lse.co.uk/news/global-markets-tech-leads-global-stocks-rout-treasury-yields-fall-whpwhcgftnu8g1y.html?mobile_view=desktop"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261120-1543-hormuz-tanker",
       "observed_at": "2026-11-20T15:43:47-05:00",
@@ -147,112 +246,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261120-1058-ukmto-213",
-      "observed_at": "2026-11-20T10:58:36-05:00",
-      "title": "UKMTO reports armed skiff firing on eastbound bulk carrier in Gulf of Aden",
-      "summary": "UKMTO warning 213-26 records a master-reported encounter southwest of Al Mukalla, Yemen. Six armed people approached an eastbound bulk carrier and fired four shots; shipboard security returned warning shots and the skiff withdrew. The vessel continued with no reported injuries or damage. No oil-cargo loss or sustained route disruption has been verified.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Maritime shipping",
-        "Gulf of Aden security",
-        "Energy logistics"
-      ],
-      "evidence_grade": "single-source",
-      "observations": [
-        {
-          "label": "Incident time and location",
-          "value": "November 20, 2026, 11:02 UTC / 6:02 AM EST; 95 nautical miles southwest of Al Mukalla, Yemen, in IRTC"
-        },
-        {
-          "label": "UKMTO official warning 213-26",
-          "value": "Bulk carrier approached by skiff with six armed people; four shots fired and warning shots returned; skiff withdrew; vessel continued eastbound"
-        },
-        {
-          "label": "Verified physical consequences",
-          "value": "Master reported no vessel damage and no crew injuries; vessel/assailant identities and attribution unverified; no confirmed oil-export or freight interruption"
-        },
-        {
-          "label": "Market assessment and next indicators",
-          "value": "No independently verified incident-specific XLE/XOP move; monitor UKMTO/MARAD follow-ups, additional encounters, Bab el-Mandeb transit volumes, insurance and freight costs; continued safe passage weakens disruption implication"
-        }
-      ],
-      "key_finding": "New official armed-encounter report raises Gulf of Aden security concern without evidence of interrupted cargo flows.",
-      "sources": [
-        {
-          "title": "UKMTO official warning 213-26, November 20",
-          "url": "https://www.ukmto.org/-/media/ukmto/products/20261120-ukmto_warning_213-26.pdf?rev=80e96f4329454560b7c7f2f47f0b953a"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261120-0933-ant-ipo-closed",
-      "observed_at": "2026-11-20T09:33:28-05:00",
-      "title": "Anthropic completes $119.5B total IPO and placement financing as shares retreat toward issue price",
-      "summary": "Anthropic confirmed the full exercise of its IPO underwriters' option and closing of a $26 billion strategic private placement, taking aggregate gross proceeds including selling stockholder shares to about $119.5 billion. Shares fell sharply toward the $83 IPO price in Friday premarket trading. Liquidity improves, but profitability, massive compute commitments and concentrated supplier financing remain uncertain.",
-      "tickers": [
-        "ANT",
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "MSFT",
-        "MU",
-        "TSM"
-      ],
-      "sectors": [
-        "AI software",
-        "AI infrastructure",
-        "Cloud computing",
-        "Semiconductors"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 20 pre-opening observation; Business Insider and Financial Times",
-          "value": "ANT approximately $84.84, down about 12.5% versus November 19 closing $97.17; FT reports as much as 13% lower premarket; not confirmed closing performance"
-        },
-        {
-          "label": "November 20 confirmed IPO closing; company announcement and Reuters",
-          "value": "1,127,000,000 Class A shares at $83; gross offering $93.5B, including fully exercised 147M-share option and secondary proceeds; company receives ~$91.6B of offering gross"
-        },
-        {
-          "label": "November 20 completed private placement; Anthropic",
-          "value": "$26.0B Class N shares subscribed by AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC Partners; total aggregate gross offering plus placement ~$119.5B including selling shareholders' shares"
-        },
-        {
-          "label": "Fundamentals, risks and invalidation",
-          "value": "Liquidity improves but computing commitments, dilution, supplier financing concentration and operating losses persist; watch ANT near $83 issue price, revenue and margins, AI sector breadth and financing rates; better cash generation or demand confirmation weakens downside thesis"
-        }
-      ],
-      "key_finding": "Record AI financing closed, but substantial premarket reversal underscores the gap between capital raised and proven cash economics.",
-      "sources": [
-        {
-          "title": "Anthropic November 20 official IPO and private placement closing",
-          "url": "https://www.anthropic.com/news/ipo-close"
-        },
-        {
-          "title": "Reuters November 20 greenshoe and IPO proceeds",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-ipo-haul-rises-93-125302553.html"
-        },
-        {
-          "title": "Financial Times November 20 second-day premarket pullback",
-          "url": "https://www.ft.com/content/c7ad2e0c-efd1-40c2-a5a8-819ced8acf5b"
-        },
-        {
-          "title": "Business Insider November 20 premarket quote",
-          "url": "https://www.businessinsider.com/anthropic-share-price-drops-after-its-blockbuster-ipo-2026-11"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261120-0830-ant-ipo-followthrough"
     }
   ],
-  "last_checked_at": "2026-11-20T15:43:47-05:00",
+  "last_checked_at": "2026-11-20T20:29:07-05:00",
   "last_check_status": "new_findings"
 }
