@@ -1,8 +1,112 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-21T15:34:04-05:00",
-  "as_of_et": "November 21, 2026, 3:34 PM EST",
+  "generated_at": "2026-11-21T17:29:50-05:00",
+  "as_of_et": "November 21, 2026, 5:29 PM EST",
   "items": [
+    {
+      "id": "scout-20261121-1729-iesc-buildout",
+      "observed_at": "2026-11-21T17:29:50-05:00",
+      "title": "IES Holdings drops despite record results and robust data-center construction backlog",
+      "summary": "IES Holdings reported quarterly revenue growth of 55% and operating income growth of 108%, but shares closed down about 6.5% Friday. Its September 30 backlog was $4.96 billion, before a separate October acquisition. The contrast highlights continued physical AI infrastructure construction despite market valuation pressure. Backlog is not guaranteed revenue.",
+      "tickers": [
+        "IESC"
+      ],
+      "sectors": [
+        "Data-center construction",
+        "Electrical infrastructure",
+        "Industrial services"
+      ],
+      "evidence_grade": "confirmed",
+      "observations": [
+        {
+          "label": "November 20, 2026 Nasdaq close, two independent market sources",
+          "value": "IESC $156.06, down $10.84 (-6.49%) from $166.90; independently matched by Investing.com and ChartExchange"
+        },
+        {
+          "label": "Company fiscal Q4 press release November 20, 7:45 AM EST",
+          "value": "Q4 revenue $1.39B (+55% YoY), operating income $217.2M (+108%); fiscal-year Communications revenue $1.69B (+48%), driven by data center work"
+        },
+        {
+          "label": "Contract visibility and acquisition accounting",
+          "value": "Sep 30 remaining performance obligations $3.48B; broader non-GAAP backlog $4.96B (some nonbinding); October 5 DBM Global acquisition added $2.6B further backlog NOT included in Sep 30 figure"
+        },
+        {
+          "label": "Risks and next indicators",
+          "value": "Customer concentration, project cancellations/timing, labor capacity, normalization of favorable one-off project margins, DBM integration and acquisition debt; monitor organic Communications orders, enforceable RPO, cash conversion and 2027 guidance"
+        }
+      ],
+      "key_finding": "Strong disclosed data-center construction growth contrasts with a confirmed 6.49% share decline, but backlog quality and integration risk matter.",
+      "sources": [
+        {
+          "title": "IES Holdings official fiscal Q4 2026 earnings release",
+          "url": "https://iesholdingsinc.gcs-web.com/news-releases/news-release-details/ies-holdings-reports-fiscal-2026-fourth-quarter-and-full-year"
+        },
+        {
+          "title": "IES Holdings SEC-filed earnings exhibit",
+          "url": "https://www.sec.gov/Archives/edgar/data/1048268/000104826826000176/q42026pressrelease-septemb.htm"
+        },
+        {
+          "title": "IESC November 20 close, Investing.com",
+          "url": "https://www.investing.com/equities/integrated-electr-historical-data"
+        },
+        {
+          "title": "IESC November 20 close, ChartExchange",
+          "url": "https://chartexchange.com/symbol/nasdaq-iesc/historical/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261121-1729-claude-math",
+      "observed_at": "2026-11-21T17:29:50-05:00",
+      "title": "Lean and Mathlib verify Claude-assisted Riemann hypothesis formal proof",
+      "summary": "Lean and Mathlib groups say they have validated a 17-million-line formal proof released by Anthropic mathematician Levent Alpöge, who credits Claude with helping develop it. This is striking evidence of AI-assisted research capability, not demonstrated revenue or an observed stock catalyst. The Clay Mathematics Institute has not formally accepted a solution, and a human-readable exposition is still pending.",
+      "tickers": [
+        "ANT"
+      ],
+      "sectors": [
+        "AI software",
+        "AI-assisted research",
+        "Mathematics and scientific computing"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 21 independent formal verification",
+          "value": "Joint Lean and Mathlib community statement, endorsed by Lean FRO and Mathlib Initiative: statement and 17-million-line formal proof checked using separate Lean-compatible checkers"
+        },
+        {
+          "label": "Original research claim",
+          "value": "Levent Alpöge released code November 20 after approximately six weeks using Claude; machine-checked correctness is not the same as independent human exposition or prize recognition"
+        },
+        {
+          "label": "Market observation",
+          "value": "No November 21 regular US equity trading; ANT previously closed November 20 at $88.30 per Reuters; no verified incremental market reaction to Saturday validation"
+        },
+        {
+          "label": "Significance, limitations and next indicators",
+          "value": "Potential evidence for AI's frontier research value, but no quantified sales or margin effect; follow mathematical community understanding, Clay Institute assessment, Anthropic disclosures and commercial research adoption; deficiencies in theorem interpretation or reproducibility would invalidate broader claim"
+        }
+      ],
+      "key_finding": "Independent formal verification offers major evidence of AI research capability without proving a near-term financial catalyst.",
+      "sources": [
+        {
+          "title": "Lean and Mathlib joint verification statement November 21",
+          "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
+        },
+        {
+          "title": "Associated Press November 21 independent mathematician and Clay perspective",
+          "url": "https://apnews.com/article/anthropic-claude-math-solution-ai-4fe8b69a891f160f9e7f0c85af8c55c8"
+        },
+        {
+          "title": "Guardian November 21 Lean validation reporting",
+          "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261121-1534-torkel-fire",
       "observed_at": "2026-11-21T15:34:04-05:00",
@@ -143,102 +247,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261121-1326-adnoc-oil-shuttle",
-      "observed_at": "2026-11-21T13:26:56-05:00",
-      "title": "WSJ reports UAE oil tanker shuttle strategy sustaining Hormuz shipments",
-      "summary": "The Wall Street Journal reports ADNOC is using nighttime tanker convoys and offshore cargo transfers to sustain crude exports through Hormuz despite security threats. Historical exports recovered materially earlier in 2026, but recent transit counts are falling. The specific shuttle operation is single-source reporting; its current throughput and ability to withstand new attacks remain uncertain.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Energy logistics",
-        "Strait of Hormuz shipping"
-      ],
-      "evidence_grade": "single-source",
-      "observations": [
-        {
-          "label": "November 21 WSJ reporting, observed 1:26 PM EST",
-          "value": "ADNOC-owned and chartered tankers reportedly shuttle crude at night across Hormuz and transfer offshore; WSJ reports UAE-linked strait exports reached about 2.1 million bpd in June versus 11,300 bpd in March"
-        },
-        {
-          "label": "Independent earlier regional-flow data",
-          "value": "Reuters November 3 citing Vortexa and another tracking provider reported broader Gulf oil/product exports averaging 17.1 million bpd in October vs 18.9 million in September; metrics and origins differ from WSJ UAE-specific series"
-        },
-        {
-          "label": "Latest maritime risk distinction",
-          "value": "UKMTO recorded 263 transits November 12-18 vs 308 prior week; lower visible vessel numbers do not establish proportional declines in cargo barrels because of AIS-dark voyages, load factors and offshore transfers"
-        },
-        {
-          "label": "Risks, invalidation and next indicators",
-          "value": "WSJ-specific operational detail not independently confirmed; monitor ADNOC statements, Kpler/Vortexa crude cargo flows, ship-to-ship activity, tanker incidents, UKMTO/MARAD, insurance costs; inability to sustain shuttle flow or clear new export declines weakens resilience assessment"
-        }
-      ],
-      "key_finding": "Single-source operational reporting helps explain why tanker counts may understate oil shipped, while recent physical-flow risks are rising.",
-      "sources": [
-        {
-          "title": "Wall Street Journal November 21 UAE oil shuttle report",
-          "url": "https://www.wsj.com/world/middle-east/the-u-a-e-is-shuttling-oil-past-iran-in-risky-hormuz-operation-9150693e"
-        },
-        {
-          "title": "Reuters November 3 regional Gulf crude and products data",
-          "url": "https://www.investing.com/news/commodities-news/gulf-oil-flows-dip-in-october-from-postiran-war-high-data-shows-4995807"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261121-0841-hormuz-attacks",
-      "observed_at": "2026-11-21T08:41:35-05:00",
-      "title": "Two additional UKMTO tanker strike notices near Khasab, Oman",
-      "summary": "UKMTO warning 215-26 reports a tanker hit on its stern north of Khasab at 05:00 UTC Saturday. A separate warning 216-26 describes an engine-room strike east of Khasab at 05:50 UTC. Whether these are separate vessels remains uncertain. Neither report establishes a sustained crude-export shutdown.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Maritime shipping",
-        "Strait of Hormuz"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Warning 215-26, November 21 05:00 UTC",
-          "value": "Outbound tanker hit on stern by unidentified projectile, 11 nautical miles north of Khasab; UKMTO says no casualties initially; environmental impact unconfirmed"
-        },
-        {
-          "label": "Warning 216-26, November 21 05:50 UTC",
-          "value": "Outbound tanker reportedly hit in engine room by unidentified projectile, 17 nautical miles east of Khasab; no casualties initially reported; environmental impact unconfirmed"
-        },
-        {
-          "label": "Independent corroboration and uncertainty",
-          "value": "UKMTO official warning 215 and Clearwater Dynamics report of UKMTO 216; no independent ship identification, damage confirmation, or proof these are two distinct vessels"
-        },
-        {
-          "label": "Next indicators and invalidation",
-          "value": "Vessel identities, UKMTO/MARAD follow-ups, AIS transits, insurance and freight rates, Kpler/Vortexa oil loadings; uninterrupted flows and no further attacks would weaken prolonged-disruption concern"
-        }
-      ],
-      "key_finding": "Two new official tanker strike reports elevate Hormuz shipping danger; vessel count and oil-cargo losses are not yet verified.",
-      "sources": [
-        {
-          "title": "UKMTO official Warning 215-26",
-          "url": "https://www.ukmto.org/-/media/ukmto/products/20261121-ukmto_warning_215-26.pdf?rev=9a51d7f51b3e4047b893b96473750588"
-        },
-        {
-          "title": "Clearwater Dynamics report on UKMTO Warning 216-26",
-          "url": "https://www.cwdynamics.com/alerts/alert/33661"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-21T16:28:27-05:00",
-  "last_check_status": "no_new_findings"
+  "last_checked_at": "2026-11-21T17:29:50-05:00",
+  "last_check_status": "new_findings"
 }
