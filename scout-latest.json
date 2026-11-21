@@ -1,8 +1,102 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-20T20:29:07-05:00",
-  "as_of_et": "November 20, 2026, 8:29 PM EST",
+  "generated_at": "2026-11-21T08:41:35-05:00",
+  "as_of_et": "November 21, 2026, 8:41 AM EST",
   "items": [
+    {
+      "id": "scout-20261121-0841-hormuz-attacks",
+      "observed_at": "2026-11-21T08:41:35-05:00",
+      "title": "Two additional UKMTO tanker strike notices near Khasab, Oman",
+      "summary": "UKMTO warning 215-26 reports a tanker hit on its stern north of Khasab at 05:00 UTC Saturday. A separate warning 216-26 describes an engine-room strike east of Khasab at 05:50 UTC. Whether these are separate vessels remains uncertain. Neither report establishes a sustained crude-export shutdown.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Maritime shipping",
+        "Strait of Hormuz"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Warning 215-26, November 21 05:00 UTC",
+          "value": "Outbound tanker hit on stern by unidentified projectile, 11 nautical miles north of Khasab; UKMTO says no casualties initially; environmental impact unconfirmed"
+        },
+        {
+          "label": "Warning 216-26, November 21 05:50 UTC",
+          "value": "Outbound tanker reportedly hit in engine room by unidentified projectile, 17 nautical miles east of Khasab; no casualties initially reported; environmental impact unconfirmed"
+        },
+        {
+          "label": "Independent corroboration and uncertainty",
+          "value": "UKMTO official warning 215 and Clearwater Dynamics report of UKMTO 216; no independent ship identification, damage confirmation, or proof these are two distinct vessels"
+        },
+        {
+          "label": "Next indicators and invalidation",
+          "value": "Vessel identities, UKMTO/MARAD follow-ups, AIS transits, insurance and freight rates, Kpler/Vortexa oil loadings; uninterrupted flows and no further attacks would weaken prolonged-disruption concern"
+        }
+      ],
+      "key_finding": "Two new official tanker strike reports elevate Hormuz shipping danger; vessel count and oil-cargo losses are not yet verified.",
+      "sources": [
+        {
+          "title": "UKMTO official Warning 215-26",
+          "url": "https://www.ukmto.org/-/media/ukmto/products/20261121-ukmto_warning_215-26.pdf?rev=9a51d7f51b3e4047b893b96473750588"
+        },
+        {
+          "title": "Clearwater Dynamics report on UKMTO Warning 216-26",
+          "url": "https://www.cwdynamics.com/alerts/alert/33661"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261121-0841-hormuz-traffic",
+      "observed_at": "2026-11-21T08:41:35-05:00",
+      "title": "Hormuz weekly transits fall 14.6%; tanker counts and preliminary oil flows also weaken",
+      "summary": "UKMTO counted 263 combined transits for November 12–18, down from 308 the previous week, with traffic still far below pre-conflict levels. The Financial Times separately reports fewer tanker passages and weaker preliminary oil flows. Vessel counts are not equivalent to oil barrels, and dark transits may lead to revisions.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Energy logistics",
+        "Oil and gas",
+        "Maritime shipping"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "UKMTO November 20 weekly report",
+          "value": "Nov 12–18: 115 outbound and 148 inbound = 263 combined transits; prior week 139 outbound and 169 inbound = 308; down 45 or 14.6%"
+        },
+        {
+          "label": "Comparison to pre-conflict baseline",
+          "value": "UKMTO estimates overall traffic around 65% below pre-conflict; some US-facilitated movements cannot be fully independently verified"
+        },
+        {
+          "label": "Financial Times independent report November 21",
+          "value": "Oil-tanker transits 37 vs 52 the prior week; preliminary second-week-November oil flows nearly half first-week levels, subject to dark-transit revisions"
+        },
+        {
+          "label": "Next indicators and invalidation",
+          "value": "Cross-check later AIS/UKMTO, Kpler/Vortexa oil volume, export loading and freight insurance; restored traffic and oil barrels would weaken physical-flow-disruption concern"
+        }
+      ],
+      "key_finding": "Observed vessel traffic is falling amid attacks; oil-flow magnitude remains preliminary and subject to revision.",
+      "sources": [
+        {
+          "title": "UKMTO November 20 weekly maritime overview",
+          "url": "https://www.ukmto.org/-/media/ukmto/products/20261120-ukmto_vra_overview_u.pdf?rev=5dbbfece42834c3896b685bc2223e1aa"
+        },
+        {
+          "title": "Financial Times November 21 Hormuz oil shipping report",
+          "url": "https://www.ft.com/content/5fbc2b9d-0360-4a1f-9e4a-3e86168cbbc5"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261120-2029-nvda-sec",
       "observed_at": "2026-11-20T20:29:07-05:00",
@@ -148,106 +242,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261120-1543-equity-selloff",
-      "observed_at": "2026-11-20T15:43:47-05:00",
-      "title": "Afternoon selling accelerates: Nasdaq over 4% lower as semiconductor rout continues",
-      "summary": "US selling accelerated during Friday afternoon, taking the Nasdaq well beyond its midday decline and pushing the S&P 500 deeper into correction territory intraday. Semiconductor shares remained especially weak. The dislocation reflects a sharp reassessment of AI valuations and financing assumptions, not verified uniform collapse in chip orders. Intraday moves are not closing returns.",
-      "tickers": [
-        "QQQ",
-        "SPY",
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "SMH"
-      ],
-      "sectors": [
-        "US equity indexes",
-        "Semiconductors",
-        "AI infrastructure",
-        "Market breadth"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 20 afternoon intraday snapshot",
-          "value": "MarketWatch reported Nasdaq approximately -4.5% (about -1,080 points), S&P 500 about -3%, Dow about -1.4%; not closing figures"
-        },
-        {
-          "label": "Sector and intraday breadth",
-          "value": "Barron's reported PHLX semiconductor index approximately -9%, with losses accelerating after about 1:55 PM EST; technology concentration substantial"
-        },
-        {
-          "label": "Fundamental risks",
-          "value": "Hyperscaler AI capex returns, highly valued semiconductors, funding costs and possible leveraged-liquidation pressure; pricing alone does not prove earnings or demand impairment"
-        },
-        {
-          "label": "Next indicators / invalidation",
-          "value": "Closing breadth and prices, VIX, yields, credit spreads, semiconductor customer orders, earnings revisions; sustained market rebound alongside resilient orders weakens further downside assessment"
-        }
-      ],
-      "key_finding": "Afternoon selling intensified materially beyond midday levels; AI-chip valuation and funding concerns dominate.",
-      "sources": [
-        {
-          "title": "MarketWatch November 20 afternoon Nasdaq selloff",
-          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-anthropic-ipo-second-day-trading/card/stock-selloff-accelerates-as-nasdaq-s-loss-tops-1-000-points-JvZ1jAKoGwm3yh4PJkHX"
-        },
-        {
-          "title": "Barron's November 20 afternoon selloff accelerates",
-          "url": "https://www.barrons.com/livecoverage/stock-market-news-today-112026/card/the-selloff-is-gaining-speed-K5Yx2hhLqXCrX301TKPc"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261120-1329-chip-correction"
-    },
-    {
-      "id": "scout-20261120-1543-svra-fda",
-      "observed_at": "2026-11-20T15:43:47-05:00",
-      "title": "Savara sinks after FDA says molgramostim decision will miss November 22 target",
-      "summary": "Savara says the FDA will not decide on its molgramostim application by November 22 and gave no revised action date. Shares fell sharply during Friday trading. The regulatory delay extends cash-flow and financing uncertainty for the rare-lung-disease developer, but review continues and this is not an FDA rejection.",
-      "tickers": [
-        "SVRA"
-      ],
-      "sectors": [
-        "Biotechnology",
-        "Rare disease therapeutics",
-        "Healthcare"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 20, 12:25 PM EST indicative trading",
-          "value": "RTTNews reported SVRA around $4.39, -15.38%; intraday, not closing return"
-        },
-        {
-          "label": "Company disclosure November 20",
-          "value": "FDA will not take action by November 22, 2026 PDUFA date for molgramostim BLA for autoimmune pulmonary alveolar proteinosis; no revised date; review ongoing"
-        },
-        {
-          "label": "Fundamentals and risks",
-          "value": "Single important regulatory asset, timing uncertainty and possible financing needs; an extended wait or adverse review would worsen risk"
-        },
-        {
-          "label": "Next indicators and invalidation",
-          "value": "FDA communications, revised action date, manufacturing/CMC status, cash runway and regulatory decision; prompt favorable review changes thesis"
-        }
-      ],
-      "key_finding": "A confirmed FDA timing delay, not rejection, triggered a double-digit intraday SVRA decline.",
-      "sources": [
-        {
-          "title": "Savara official November 20 investor release",
-          "url": "https://investors.savarapharma.com/news/news-details/2026/Savara-Informed-That-FDA-Will-Not-Take-Action-on-the-Molgramostim-BLA-for-Autoimmune-Pulmonary-Alveolar-Proteinosis-Autoimmune-PAP-by-the-PDUFA-Date/default.aspx"
-        },
-        {
-          "title": "RTTNews November 20 SVRA price and FDA report",
-          "url": "https://www.rttnews.com/3716854/fda-delays-bla-decision-on-savara-s-molgramostim-for-lung-disease-shares-drop-15.aspx"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-20T20:29:07-05:00",
+  "last_checked_at": "2026-11-21T08:41:35-05:00",
   "last_check_status": "new_findings"
 }
