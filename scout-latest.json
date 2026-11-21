@@ -1,8 +1,105 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-21T08:41:35-05:00",
-  "as_of_et": "November 21, 2026, 8:41 AM EST",
+  "generated_at": "2026-11-21T13:26:56-05:00",
+  "as_of_et": "November 21, 2026, 1:26 PM EST",
   "items": [
+    {
+      "id": "scout-20261121-1326-capr-fda-crl",
+      "observed_at": "2026-11-21T13:26:56-05:00",
+      "title": "FDA rejects Capricor deramiocel application over HOPE-3 data-integrity concerns",
+      "summary": "The FDA issued Capricor a Complete Response Letter for deramiocel in Duchenne muscular dystrophy, citing inadequate efficacy evidence and serious trial-data integrity problems. Capricor disputes that characterization and is reviewing options. Shares plunged in Friday after-hours indications, not a confirmed regular-session close. The setback sharply reduces near-term approval certainty.",
+      "tickers": [
+        "CAPR"
+      ],
+      "sectors": [
+        "Biotechnology",
+        "Rare disease therapeutics",
+        "Healthcare regulation"
+      ],
+      "evidence_grade": "confirmed",
+      "observations": [
+        {
+          "label": "FDA decision November 20, 2026",
+          "value": "FDA issued Complete Response Letter for resubmitted deramiocel BLA; agency said HOPE-3 data cannot be relied upon for approval because of unauthorized statistical-analysis changes, blinding breaches and protocol violations"
+        },
+        {
+          "label": "Company response and financial position",
+          "value": "Capricor says its HOPE-2/HOPE-3 trials met primary endpoints and contests FDA position; reported about $198.5 million cash, equivalents, restricted cash and marketable securities at September 30, 2026"
+        },
+        {
+          "label": "November 20 after-hours price observation (not official close)",
+          "value": "Reuters at approximately 6:44 PM EST reported CAPR down about 72% in extended trading; price moved further later in the evening; no Saturday US regular-session quote"
+        },
+        {
+          "label": "Risks, invalidation and next indicators",
+          "value": "Potential need for new reliable clinical evidence, prolonged approval delay and cash burn; company call November 23 at 8:30 AM EST, FDA correspondence and next study/remediation plan; new convincing data or altered FDA determination would change assessment"
+        }
+      ],
+      "key_finding": "FDA-confirmed rejection creates a severe regulatory and financing shock for CAPR; large share decline is after-hours, not a confirmed closing figure.",
+      "sources": [
+        {
+          "title": "FDA November 20 official statement on deramiocel application",
+          "url": "https://www.fda.gov/vaccines-blood-biologics/whats-new-biologics/statement-deramiocel-bla-duchenne-muscular-dystrophy"
+        },
+        {
+          "title": "Capricor November 20 official regulatory update",
+          "url": "https://www.capricor.com/investors/news-events/press-releases/detail/360/capricor-therapeutics-provides-regulatory-update-on"
+        },
+        {
+          "title": "Reuters November 20 CAPR extended-hours fall",
+          "url": "https://finance.yahoo.com/healthcare/articles/us-fda-declines-approve-capricors-234427845.html"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261121-1326-adnoc-oil-shuttle",
+      "observed_at": "2026-11-21T13:26:56-05:00",
+      "title": "WSJ reports UAE oil tanker shuttle strategy sustaining Hormuz shipments",
+      "summary": "The Wall Street Journal reports ADNOC is using nighttime tanker convoys and offshore cargo transfers to sustain crude exports through Hormuz despite security threats. Historical exports recovered materially earlier in 2026, but recent transit counts are falling. The specific shuttle operation is single-source reporting; its current throughput and ability to withstand new attacks remain uncertain.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Energy logistics",
+        "Strait of Hormuz shipping"
+      ],
+      "evidence_grade": "single-source",
+      "observations": [
+        {
+          "label": "November 21 WSJ reporting, observed 1:26 PM EST",
+          "value": "ADNOC-owned and chartered tankers reportedly shuttle crude at night across Hormuz and transfer offshore; WSJ reports UAE-linked strait exports reached about 2.1 million bpd in June versus 11,300 bpd in March"
+        },
+        {
+          "label": "Independent earlier regional-flow data",
+          "value": "Reuters November 3 citing Vortexa and another tracking provider reported broader Gulf oil/product exports averaging 17.1 million bpd in October vs 18.9 million in September; metrics and origins differ from WSJ UAE-specific series"
+        },
+        {
+          "label": "Latest maritime risk distinction",
+          "value": "UKMTO recorded 263 transits November 12-18 vs 308 prior week; lower visible vessel numbers do not establish proportional declines in cargo barrels because of AIS-dark voyages, load factors and offshore transfers"
+        },
+        {
+          "label": "Risks, invalidation and next indicators",
+          "value": "WSJ-specific operational detail not independently confirmed; monitor ADNOC statements, Kpler/Vortexa crude cargo flows, ship-to-ship activity, tanker incidents, UKMTO/MARAD, insurance costs; inability to sustain shuttle flow or clear new export declines weakens resilience assessment"
+        }
+      ],
+      "key_finding": "Single-source operational reporting helps explain why tanker counts may understate oil shipped, while recent physical-flow risks are rising.",
+      "sources": [
+        {
+          "title": "Wall Street Journal November 21 UAE oil shuttle report",
+          "url": "https://www.wsj.com/world/middle-east/the-u-a-e-is-shuttling-oil-past-iran-in-risky-hormuz-operation-9150693e"
+        },
+        {
+          "title": "Reuters November 3 regional Gulf crude and products data",
+          "url": "https://www.investing.com/news/commodities-news/gulf-oil-flows-dip-in-october-from-postiran-war-high-data-shows-4995807"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261121-0841-hormuz-attacks",
       "observed_at": "2026-11-21T08:41:35-05:00",
@@ -143,107 +240,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261120-2029-global-chip-selloff",
-      "observed_at": "2026-11-20T20:29:07-05:00",
-      "title": "Reuters documents global chip rout and defensive rotation in post-close review",
-      "summary": "Reuters reports a broad global technology reversal, with Taiwan equities and U.S. chipmakers both suffering steep weekly losses. Japanese and Korean markets also declined sharply. Anthropic ended its second trading day close to its issue price. The evidence points to global valuation repricing rather than a verified simultaneous collapse in chip orders.",
-      "tickers": [
-        "TSM",
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "ANT",
-        "SMH"
-      ],
-      "sectors": [
-        "International equities and ADRs",
-        "Semiconductors",
-        "AI infrastructure",
-        "Market rotation"
-      ],
-      "evidence_grade": "single-source",
-      "observations": [
-        {
-          "label": "November 20, Reuters post-close global-market review",
-          "value": "Taiwan shares approximately -17% for week, worst since 1990; US chipmaker shares -10.7% Friday and -17.1% for week; Japan and Korea benchmark indexes down more than 5% overnight"
-        },
-        {
-          "label": "Anthropic November 20 post-close Reuters observation",
-          "value": "ANT $88.30, -9.1% Friday; traded as much as 14.5% below prior close intraday; IPO issue price $83"
-        },
-        {
-          "label": "Rotation and rates",
-          "value": "Reuters reports consumer staples was sole positive S&P 500 sector Friday; US 10-year Treasury yield saw biggest one-day fall in a month"
-        },
-        {
-          "label": "Assessment, risk and next checks",
-          "value": "Global chip valuation reset and financing sensitivity; investigate foundry capacity, foundry customer orders, ADR currency impacts, Taiwan supply-chain guidance and credit spreads; resilient orders and broad rebound weaken prolonged dislocation signal"
-        }
-      ],
-      "key_finding": "Post-close global data demonstrate semiconductor losses extending beyond the US, with defensives gaining relative strength.",
-      "sources": [
-        {
-          "title": "Reuters November 20 global markets post-close analysis",
-          "url": "https://www.marketscreener.com/news/tech-stocks-tumble-treasury-yields-fall-as-traders-seek-refuge-ce785ed3da81f423"
-        },
-        {
-          "title": "Reuters syndicated November 20 global chip market report",
-          "url": "https://www.lse.co.uk/news/global-markets-tech-leads-global-stocks-rout-treasury-yields-fall-whpwhcgftnu8g1y.html?mobile_view=desktop"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261120-1543-hormuz-tanker",
-      "observed_at": "2026-11-20T15:43:47-05:00",
-      "title": "UKMTO reports outbound tanker struck and burning in Strait of Hormuz",
-      "summary": "UKMTO warning 214-26 reports that an outbound tanker was struck by an unknown projectile north of Khasab, Oman, with a fire onboard. Reuters independently relayed the warning. Initial reporting states no casualties or environmental impact; there is no independently established sustained export or transit shutdown. The cause and damage assessment remain unresolved.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Maritime shipping",
-        "Strait of Hormuz security"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Incident time and place",
-          "value": "November 20, 2026, 15:00 UTC / 10:00 AM EST; 8 nautical miles north of Khasab, Oman; outbound Strait of Hormuz tanker"
-        },
-        {
-          "label": "UKMTO warning 214-26",
-          "value": "Port bow hit by unidentified projectile; company security officer reports onboard fire; initially no casualties or environmental impact reported"
-        },
-        {
-          "label": "Alternative attribution",
-          "value": "Reuters reports Iran's Revolutionary Guards attributed fire to mine, an unverified and disputed cause; no independent forensic confirmation"
-        },
-        {
-          "label": "Physical-flow evidence and next checks",
-          "value": "Tanker strike/fire reported, but no confirmed sustained oil throughput loss or strait closure; monitor UKMTO/MARAD, crew/ship identification, damage, AIS/transit, Yanbu loading, freight/insurance; confirmed normal flows weaken disruption signal"
-        }
-      ],
-      "key_finding": "Reported physical tanker attack and fire raise immediate Hormuz shipping risk; no verified sustained oil-flow loss.",
-      "sources": [
-        {
-          "title": "UKMTO official warning 214-26",
-          "url": "https://www.ukmto.org/-/media/ukmto/products/20261120-ukmto_warning_214-26.pdf?rev=15b89f479d88438e9399a9140c1e3de2"
-        },
-        {
-          "title": "Reuters November 20 tanker-fire report",
-          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/20/tanker-catches-fire-after-projectile-strike-near-strait-of-hormuz-ukmto-says"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-21T12:28:09-05:00",
-  "last_check_status": "no_new_findings"
+  "last_checked_at": "2026-11-21T13:26:56-05:00",
+  "last_check_status": "new_findings"
 }
