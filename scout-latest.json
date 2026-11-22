@@ -1,8 +1,106 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-21T17:29:50-05:00",
-  "as_of_et": "November 21, 2026, 5:29 PM EST",
+  "generated_at": "2026-11-22T07:33:36-05:00",
+  "as_of_et": "November 22, 2026, 7:33 AM EST",
   "items": [
+    {
+      "id": "scout-20261122-0733-ai-server-repricing",
+      "observed_at": "2026-11-22T07:33:36-05:00",
+      "title": "Financial Times reports post-contract AI server price increases up to 45%",
+      "summary": "The Financial Times reports that Dell, HPE, Lenovo and Supermicro have sought 25–45% higher prices on some Nvidia-powered server orders after contracts were signed, citing surging memory costs. An Irish lawsuit disputes Dell's alleged additional charge on a large order. The reports signal supply-chain cost pressure and contracting risk, but no Sunday stock response is observable.",
+      "tickers": [
+        "DELL",
+        "HPE",
+        "SMCI",
+        "MU",
+        "NVDA"
+      ],
+      "sectors": [
+        "AI infrastructure",
+        "Server hardware",
+        "Memory and semiconductors"
+      ],
+      "evidence_grade": "single-source",
+      "observations": [
+        {
+          "label": "Financial Times report published November 22, 2026",
+          "value": "Some buyers reportedly faced 25–45% increases between signed agreements and shipment; amounts vary by customer, supplier and equipment and are not industry-wide quotes"
+        },
+        {
+          "label": "Reported component cost driver",
+          "value": "FT cites JPMorgan analysis that memory prices rose more than 400% since early 2024; GPU server prices reportedly at least 20–30% higher"
+        },
+        {
+          "label": "Legal dispute cited by FT",
+          "value": "XTX Markets alleges Dell requested an additional $62–70 million on a $549 million server deal despite separately paying $5 million for price certainty; allegations are contested and litigation ongoing"
+        },
+        {
+          "label": "Risk, market confirmation and watch points",
+          "value": "No Sunday US regular-session share move. Follow contract pass-through provisions, order deferrals, memory price trends, supplier gross margins, Dell/HPE disclosures and outcome of the reported court case"
+        }
+      ],
+      "key_finding": "Reported increases in AI server bills after contracting suggest powerful hardware demand and material capex, margin and legal uncertainty; independent confirmation is pending.",
+      "sources": [
+        {
+          "title": "Financial Times, November 22: Tech suppliers raise AI server prices up to 45% months after deals are signed",
+          "url": "https://www.ft.com/content/dd2a6594-6146-4ff1-ac8e-54749c1fc99f"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261122-0733-taiwan-short-selling-curbs",
+      "observed_at": "2026-11-22T07:33:36-05:00",
+      "title": "Taiwan broadens short-sale price-floor restrictions after AI-led market rout",
+      "summary": "Taiwan's Financial Supervisory Commission announced broader short-sale restrictions effective November 23, including a floor at the previous close and higher collateral requirements. The Taiex had fallen around 17.5% over five sessions as global technology shares sold off. This is a market-structure intervention, not evidence of an earnings recovery, and Monday's liquidity effects are uncertain.",
+      "tickers": [
+        "TSM",
+        "EWT",
+        "SOXX"
+      ],
+      "sectors": [
+        "Taiwan equities",
+        "Semiconductors and AI supply chain",
+        "International market structure"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Taiwan FSC announcement Saturday November 21, effective Monday November 23",
+          "value": "Short sales of listed/OTC equities and Taiwan depositary receipts prohibited below prior session close, with market-maker/hedging exemptions; collateral for short selling rises from 130% to 150%"
+        },
+        {
+          "label": "Additional FSC stabilization measures",
+          "value": "Suspension of new put-warrant listing applications; support for corporate buybacks and curbs on stock lending; NT$500 billion stabilization fund previously authorized to intervene"
+        },
+        {
+          "label": "Market move before restrictions, November 20 close",
+          "value": "Taipei CNA reports Taiex 36,033.29, down 2,393.60 (-6.23%) Friday; Bloomberg reports roughly -6.2% Friday and nearly -18% over week, matching 17.5% reported by others"
+        },
+        {
+          "label": "Significance, risks and next indicators",
+          "value": "No Sunday cash equity session. Monitor Taiwan Monday opening, foreign-investor outflows, volume, spreads, volatility, TSM supply chain, program implementation and possible disorderly moves despite curbs"
+        }
+      ],
+      "key_finding": "Regulators widened market-wide short-sale restrictions after a severe chip-heavy equity rout; Monday trading will test effectiveness and liquidity effects.",
+      "sources": [
+        {
+          "title": "Focus Taiwan (CNA), November 21, FSC expands short-sale restrictions",
+          "url": "https://focustaiwan.tw/business/202611210013"
+        },
+        {
+          "title": "Bloomberg via Mint, November 21, Taiwan widens short sale curbs",
+          "url": "https://www.livemint.com/market/taiwan-widens-short-sale-curbs-after-shares-plunge-on-ai-concern-11795255471195.html"
+        },
+        {
+          "title": "Taipei Times, November 22, regulator statement and market context",
+          "url": "https://www.taipeitimes.com/News/front/archives/2026/11/22/2003868166"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261121-1729-iesc-buildout",
       "observed_at": "2026-11-21T17:29:50-05:00",
@@ -149,106 +247,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261121-1534-crwd-zs-talks",
-      "observed_at": "2026-11-21T15:34:04-05:00",
-      "title": "Bloomberg and Reuters report CrowdStrike is in acquisition talks with Zscaler",
-      "summary": "Bloomberg and Reuters separately report talks in which CrowdStrike could acquire Zscaler, with no signed agreement or guaranteed transaction. Friday after-hours prices diverged sharply after the news. Combining endpoint defense and cloud zero-trust network security could create strategic scale, but financing, integration and regulatory risks are substantial.",
-      "tickers": [
-        "CRWD",
-        "ZS",
-        "PANW"
-      ],
-      "sectors": [
-        "Cybersecurity software",
-        "Network security",
-        "Enterprise software"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 20 2026 reports",
-          "value": "Bloomberg around 4:05 PM EST and Reuters around 4:46 PM EST each cited unnamed sources; both say negotiations continue, transaction not guaranteed; company confirmation absent"
-        },
-        {
-          "label": "November 20 Friday extended trading, Reuters",
-          "value": "ZS roughly +17% after-hours, CRWD roughly -8% after-hours; indicative extended-session observations, NOT confirmed regular-session closes"
-        },
-        {
-          "label": "Strategic significance",
-          "value": "CrowdStrike Falcon endpoint detection plus Zscaler zero-trust/network security could yield broad platform reach; reported market capitalizations around $233B for CRWD and $32-33.5B for ZS, not transaction valuation"
-        },
-        {
-          "label": "Risks, invalidation and next indicators",
-          "value": "Monitor formal disclosures, negotiated price, cash-vs-stock consideration, financing, major-customer overlap, antitrust review and integration costs; ended talks or denied reports invalidate deal thesis"
-        }
-      ],
-      "key_finding": "Two independent reports of possible cybersecurity megadeal explain a sharp after-hours CRWD/ZS split, but no transaction is agreed.",
-      "sources": [
-        {
-          "title": "Reuters November 20 report, CrowdStrike talks to acquire Zscaler",
-          "url": "https://www.investing.com/news/stock-market-news/crowdstrike-in-talks-to-acquire-zscaler-sources-say-5042720"
-        },
-        {
-          "title": "Bloomberg November 20 report on CrowdStrike-Zscaler discussions",
-          "url": "https://finance.yahoo.com/technology/articles/crowdstrike-talks-buy-cybersecurity-firm-210511823.html"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261121-1326-capr-fda-crl",
-      "observed_at": "2026-11-21T13:26:56-05:00",
-      "title": "FDA rejects Capricor deramiocel application over HOPE-3 data-integrity concerns",
-      "summary": "The FDA issued Capricor a Complete Response Letter for deramiocel in Duchenne muscular dystrophy, citing inadequate efficacy evidence and serious trial-data integrity problems. Capricor disputes that characterization and is reviewing options. Shares plunged in Friday after-hours indications, not a confirmed regular-session close. The setback sharply reduces near-term approval certainty.",
-      "tickers": [
-        "CAPR"
-      ],
-      "sectors": [
-        "Biotechnology",
-        "Rare disease therapeutics",
-        "Healthcare regulation"
-      ],
-      "evidence_grade": "confirmed",
-      "observations": [
-        {
-          "label": "FDA decision November 20, 2026",
-          "value": "FDA issued Complete Response Letter for resubmitted deramiocel BLA; agency said HOPE-3 data cannot be relied upon for approval because of unauthorized statistical-analysis changes, blinding breaches and protocol violations"
-        },
-        {
-          "label": "Company response and financial position",
-          "value": "Capricor says its HOPE-2/HOPE-3 trials met primary endpoints and contests FDA position; reported about $198.5 million cash, equivalents, restricted cash and marketable securities at September 30, 2026"
-        },
-        {
-          "label": "November 20 after-hours price observation (not official close)",
-          "value": "Reuters at approximately 6:44 PM EST reported CAPR down about 72% in extended trading; price moved further later in the evening; no Saturday US regular-session quote"
-        },
-        {
-          "label": "Risks, invalidation and next indicators",
-          "value": "Potential need for new reliable clinical evidence, prolonged approval delay and cash burn; company call November 23 at 8:30 AM EST, FDA correspondence and next study/remediation plan; new convincing data or altered FDA determination would change assessment"
-        }
-      ],
-      "key_finding": "FDA-confirmed rejection creates a severe regulatory and financing shock for CAPR; large share decline is after-hours, not a confirmed closing figure.",
-      "sources": [
-        {
-          "title": "FDA November 20 official statement on deramiocel application",
-          "url": "https://www.fda.gov/vaccines-blood-biologics/whats-new-biologics/statement-deramiocel-bla-duchenne-muscular-dystrophy"
-        },
-        {
-          "title": "Capricor November 20 official regulatory update",
-          "url": "https://www.capricor.com/investors/news-events/press-releases/detail/360/capricor-therapeutics-provides-regulatory-update-on"
-        },
-        {
-          "title": "Reuters November 20 CAPR extended-hours fall",
-          "url": "https://finance.yahoo.com/healthcare/articles/us-fda-declines-approve-capricors-234427845.html"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-21T18:29:06-05:00",
-  "last_check_status": "no_new_findings"
+  "last_checked_at": "2026-11-22T07:33:36-05:00",
+  "last_check_status": "new_findings"
 }
