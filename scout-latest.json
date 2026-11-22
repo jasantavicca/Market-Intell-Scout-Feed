@@ -1,8 +1,65 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-22T16:33:29-05:00",
-  "as_of_et": "November 22, 2026, 4:33 PM EST",
+  "generated_at": "2026-11-22T17:27:37-05:00",
+  "as_of_et": "November 22, 2026, 5:27 PM EST",
   "items": [
+    {
+      "id": "scout-20261122-1727-china-margin-easing",
+      "observed_at": "2026-11-22T17:27:37-05:00",
+      "title": "China's exchanges cut margin-financing floor to 80% amid widening Asian equity stabilization efforts",
+      "summary": "On November 22, China's Shanghai, Shenzhen and Beijing exchanges announced a reduction in the minimum collateral ratio for margin-financed stock purchases from 100% to 80%, effective November 30. State media estimate up to 400 billion yuan in potential additional borrowing capacity, not actual inflows. The move seeks to stabilize market liquidity alongside Taiwan and South Korea's interventions, but increases leverage risk.",
+      "tickers": [
+        "FXI",
+        "MCHI",
+        "KWEB"
+      ],
+      "sectors": [
+        "Chinese equities",
+        "International markets",
+        "Market liquidity",
+        "Technology"
+      ],
+      "evidence_grade": "confirmed",
+      "observations": [
+        {
+          "label": "Official decision, November 22, 2026",
+          "value": "Shanghai, Shenzhen and Beijing exchanges lowered the minimum financing margin ratio from 100% to 80%; rule takes effect November 30, 2026, reversing January 2026 tightening; authorized by CSRC."
+        },
+        {
+          "label": "Estimated impact (not actual flow)",
+          "value": "Xinhua citing regulators: potentially nearly CNY 400 billion (~USD 60 billion) in additional purchasing/financing capacity. This is theoretical and no capital deployment or rebound is confirmed."
+        },
+        {
+          "label": "Context / market move",
+          "value": "Recent margin lending reportedly roughly CNY 2.2 trillion, below June peak near CNY 3 trillion; CSI 300 in bear-market territory after earlier selloff. Mainland cash equities closed Sunday; no new official Sunday price reaction."
+        },
+        {
+          "label": "Fundamental assessment and significance",
+          "value": "Liquidity support addresses financing constraints but not weak domestic demand, property-sector debt, or AI valuation and earnings uncertainty; third major Asian market authority engaged in market stabilization."
+        },
+        {
+          "label": "Risks, invalidation and next indicators",
+          "value": "Watch CSI 300/Shanghai/ChiNext and FXI/MCHI/KWEB at next sessions, actual margin-financing balances after Nov 30, foreign outflows, chip-market breadth, growth/earnings revisions, and volatility. A sustained rebound without credit expansion or earnings recovery may prove short-lived; no actual uptake would weaken the liquidity effect."
+        }
+      ],
+      "key_finding": "China's confirmed 100%-to-80% margin rule change adds potential liquidity, not realized buying, to a regional technology-market stabilization response.",
+      "sources": [
+        {
+          "title": "Shanghai Stock Exchange November 22, 2026 official rule announcement",
+          "url": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/lawandrules/sselawsrules2025/trade/specific/margin/c/c_20261122_10838633.shtml"
+        },
+        {
+          "title": "Bloomberg November 22 via Mint: Asian stock rescue efforts",
+          "url": "https://www.livemint.com/market/asias-stock-rescue-efforts-gather-pace-after-wall-street-plunge-11795351882145.html"
+        },
+        {
+          "title": "Xinhua November 22 via The Star: China announces measures to steady stocks",
+          "url": "https://www.thestar.com.my/news/world/2026/11/23/2nd-ld-writethru-china-announces-measures-to-steady-stock-market"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261122-1633-gulf-oman-tanker",
       "observed_at": "2026-11-22T16:33:29-05:00",
@@ -227,68 +284,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261122-1130-hormuz-flows",
-      "observed_at": "2026-11-22T11:30:26-05:00",
-      "title": "UKMTO weekly Hormuz transit totals drop; preliminary Kpler data signal renewed oil-flow stress",
-      "summary": "UKMTO's November 20 overview counted 263 Strait of Hormuz transits for November 12–18, versus 308 the prior week, with AIS-observed movements down from 82 to 73. The Financial Times reports 37 oil-tanker transits versus 52 and preliminary Kpler indications of sharply lower oil volumes. Non-AIS facilitated transits are not independently verified; incremental barrel losses remain unconfirmed.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Maritime shipping",
-        "Strait of Hormuz",
-        "Energy logistics"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Official UKMTO November 20 weekly overview for November 12–18",
-          "value": "115 outbound plus 148 inbound = 263 combined transits, down from 139 plus 169 = 308 the prior week (-14.6%); AIS-observed transits 73 versus 82. UKMTO cannot independently verify US-facilitated non-AIS volumes in the total."
-        },
-        {
-          "label": "Financial Times November 21 tanker-count comparison",
-          "value": "37 oil tanker movements versus 52 prior week (-28.8%); earlier week also 37, so not a monotonic decline."
-        },
-        {
-          "label": "Preliminary Kpler oil-volume signal reported November 21",
-          "value": "Second week of November flows reportedly close to half first-week volume; potential upward revisions as dark transits become visible. Not yet verified as an incremental physical export loss."
-        },
-        {
-          "label": "Market context and significance",
-          "value": "Repeated November 20–21 tanker incidents increase war-risk, freight, vessel availability and delivery uncertainty, but Friday oil price action did not establish sustained supply loss; US markets closed Sunday."
-        },
-        {
-          "label": "Risks, invalidation and next indicators",
-          "value": "Monitor next UKMTO weekly summary, confirmed tanker loadings, independent Kpler/Vortexa barrel-flow revisions, AIS-dark-route reconciliation, tanker premiums, UKMTO/MARAD, Brent/WTI and XLE/XOP at the next session. Normalized flows or upward revisions weaken the disruption inference."
-        }
-      ],
-      "key_finding": "Official combined transits fell 14.6% and reported tanker movements 28.8%; preliminary barrel data warn of export strain without yet confirming losses.",
-      "sources": [
-        {
-          "title": "UKMTO official November 20 Voluntary Reporting Area weekly overview, page 2",
-          "url": "https://www.ukmto.org/-/media/ukmto/products/20261120-ukmto_vra_overview_u.pdf?rev=5dbbfece42834c3896b685bc2223e1aa"
-        },
-        {
-          "title": "Financial Times November 21: Oil shipped through Hormuz falls as Iranian strikes increase",
-          "url": "https://www.ft.com/content/5fbc2b9d-0360-4a1f-9e4a-3e86168cbbc5"
-        },
-        {
-          "title": "UKMTO official recent maritime incidents",
-          "url": "https://www.ukmto.org/recent-incidents"
-        },
-        {
-          "title": "Reuters November 20 oil market context",
-          "url": "https://live.euronext.com/en/financial-news/oil-gains-iran-war-worries-and-short-covering-ahead-thanksgiving-holiday"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-22T16:33:29-05:00",
+  "last_checked_at": "2026-11-22T17:27:37-05:00",
   "last_check_status": "new_findings"
 }
