@@ -1,8 +1,64 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-22T13:27:36-05:00",
-  "as_of_et": "November 22, 2026 at 1:27 PM EST",
+  "generated_at": "2026-11-22T14:31:17-05:00",
+  "as_of_et": "November 22, 2026, 2:31 PM EST",
   "items": [
+    {
+      "id": "scout-20261122-1431-korea-stabilization",
+      "observed_at": "2026-11-22T14:31:17-05:00",
+      "title": "South Korea prepares equity stabilization fund after 5.21% KOSPI rout; joins Taiwan in market intervention",
+      "summary": "South Korea's finance ministry said November 22 it is preparing to activate a market stabilization fund if conditions worsen, after the KOSPI's 5.21% fall on Friday. Officials will ease corporate share-repurchase limits starting November 24 and intensify short-selling surveillance. The fund has not been deployed. The measures signal widening Asia technology-market stress, not a resolution of underlying AI-sector valuation and funding risks.",
+      "tickers": [
+        "EWY",
+        "005930.KS",
+        "000660.KS"
+      ],
+      "sectors": [
+        "International equities",
+        "Semiconductors",
+        "Market liquidity"
+      ],
+      "evidence_grade": "confirmed",
+      "observations": [
+        {
+          "label": "Confirmed November 20 regular-session close (independent Korea Times and Aju Press)",
+          "value": "KOSPI 4,869.96, -267.93 points (-5.21%) Friday; -7.95% over five sessions; Samsung Electronics -7.01%, SK hynix -5.92% Friday"
+        },
+        {
+          "label": "November 22 ministry decision, reported by Reuters and Korean press",
+          "value": "Authorities prepare stock market stabilization fund for potential activation, not deployment; 3-month relaxation of corporate daily buyback limits begins Nov 24; 3-month enforcement focus on illegal short selling"
+        },
+        {
+          "label": "Cross-market confirmation and timing",
+          "value": "Taiwan separately restricted short selling; South Korean policy announced Sunday Nov 22 before Monday reopening. No Sunday regular-session equity price reaction."
+        },
+        {
+          "label": "Fundamental significance and risks/invalidation",
+          "value": "Stress in AI/HBM-heavy Korean equities may outrun disclosed changes in semiconductor demand; liquidity, forced selling and policy distortions could persist. Track Monday EWY/KOSPI and chipmaker volumes, foreign outflows, margin calls, actual fund deployment and earnings/order revisions; stabilization and sustained liquidity would weaken immediate stress signal."
+        }
+      ],
+      "key_finding": "A second major Asian chip-market authority is preparing stabilization measures, confirming wider liquidity stress without proving AI semiconductor earnings impairment.",
+      "sources": [
+        {
+          "title": "Reuters, November 22: South Korea readies market stabilisation funds",
+          "url": "https://www.business-standard.com/world-news/south-korea-readies-market-stabilisation-funds-as-kospi-hits-10-month-low-126112200807_1.html"
+        },
+        {
+          "title": "The Korea Times, November 22: emergency meeting and confirmed November 20 KOSPI close",
+          "url": "https://www.koreatimes.co.kr/economy/20261122/kospi-rout-fuels-calls-for-bolder-stabilization-measures"
+        },
+        {
+          "title": "Aju Press, November 20: KOSPI 5.21% closing decline and semiconductor leaders",
+          "url": "https://www.ajupress.com/view/20261120154822245"
+        },
+        {
+          "title": "Chosun Ilbo, November 22: ministry stock market stabilization measures",
+          "url": "https://www.chosun.com/english/market-money-en/2026/11/22/46VUQG6O2VC5FJ4OEKCD2G2VS4/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261122-1327-spacex-gpu-finance",
       "observed_at": "2026-11-22T13:27:36-05:00",
@@ -178,52 +234,6 @@
       "supersedes": null
     },
     {
-      "id": "scout-20261122-0733-ai-server-repricing",
-      "observed_at": "2026-11-22T07:33:36-05:00",
-      "title": "Financial Times reports post-contract AI server price increases up to 45%",
-      "summary": "The Financial Times reports that Dell, HPE, Lenovo and Supermicro have sought 25–45% higher prices on some Nvidia-powered server orders after contracts were signed, citing surging memory costs. An Irish lawsuit disputes Dell's alleged additional charge on a large order. The reports signal supply-chain cost pressure and contracting risk, but no Sunday stock response is observable.",
-      "tickers": [
-        "DELL",
-        "HPE",
-        "SMCI",
-        "MU",
-        "NVDA"
-      ],
-      "sectors": [
-        "AI infrastructure",
-        "Server hardware",
-        "Memory and semiconductors"
-      ],
-      "evidence_grade": "single-source",
-      "observations": [
-        {
-          "label": "Financial Times report published November 22, 2026",
-          "value": "Some buyers reportedly faced 25–45% increases between signed agreements and shipment; amounts vary by customer, supplier and equipment and are not industry-wide quotes"
-        },
-        {
-          "label": "Reported component cost driver",
-          "value": "FT cites JPMorgan analysis that memory prices rose more than 400% since early 2024; GPU server prices reportedly at least 20–30% higher"
-        },
-        {
-          "label": "Legal dispute cited by FT",
-          "value": "XTX Markets alleges Dell requested an additional $62–70 million on a $549 million server deal despite separately paying $5 million for price certainty; allegations are contested and litigation ongoing"
-        },
-        {
-          "label": "Risk, market confirmation and watch points",
-          "value": "No Sunday US regular-session share move. Follow contract pass-through provisions, order deferrals, memory price trends, supplier gross margins, Dell/HPE disclosures and outcome of the reported court case"
-        }
-      ],
-      "key_finding": "Reported increases in AI server bills after contracting suggest powerful hardware demand and material capex, margin and legal uncertainty; independent confirmation is pending.",
-      "sources": [
-        {
-          "title": "Financial Times, November 22: Tech suppliers raise AI server prices up to 45% months after deals are signed",
-          "url": "https://www.ft.com/content/dd2a6594-6146-4ff1-ac8e-54749c1fc99f"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
       "id": "scout-20261122-0733-taiwan-short-selling-curbs",
       "observed_at": "2026-11-22T07:33:36-05:00",
       "title": "Taiwan broadens short-sale price-floor restrictions after AI-led market rout",
@@ -276,6 +286,6 @@
       "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-22T13:27:36-05:00",
+  "last_checked_at": "2026-11-22T14:31:17-05:00",
   "last_check_status": "new_findings"
 }
