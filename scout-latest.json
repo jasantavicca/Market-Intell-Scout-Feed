@@ -1,8 +1,64 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-22T11:30:26-05:00",
-  "as_of_et": "November 22, 2026, 11:30 AM EST",
+  "generated_at": "2026-11-22T12:29:06-05:00",
+  "as_of_et": "November 22, 2026, 12:29 PM EST",
   "items": [
+    {
+      "id": "scout-20261122-1229-argentina-credit",
+      "observed_at": "2026-11-22T12:29:06-05:00",
+      "title": "Argentina sovereign borrowing spreads jump to roughly 1,070 basis points amid 2027 refinancing concerns",
+      "summary": "Independent Argentine market reports put the November 20 sovereign risk premium around 1,070 basis points, up roughly 140 points on Friday and 240 over the week. Financial Times reporting on November 22 highlights political uncertainty and major 2027 dollar debt maturities. Local export growth offers support, but market access and refinancing remain under pressure.",
+      "tickers": [
+        "ARGT",
+        "GGAL",
+        "YPF"
+      ],
+      "sectors": [
+        "Emerging-market sovereign credit",
+        "International equities and ADRs",
+        "Argentine financials"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Friday November 20, 2026, sovereign-risk market close",
+          "value": "Independent local analyses report JPMorgan EMBI Argentina around 1,070-1,071 bp; source rounding differs by 1 bp, so exact close is not asserted"
+        },
+        {
+          "label": "Scale of repricing as of Friday close",
+          "value": "About +140 bp November 20 versus 931 bp Thursday; about +240 bp over November 16-20; domestic dollar sovereign bonds lost approximately 8% on the week (local research estimate)"
+        },
+        {
+          "label": "Catalyst, fundamentals and significance",
+          "value": "2027 dollar-denominated refinancing pressure, 2027 election uncertainty, global risk aversion and reduced BCRA dollar purchases; October trade surplus $3.394B and export growth +26.4% YoY offer a partial fundamental offset, not a refinancing solution"
+        },
+        {
+          "label": "Risks, invalidation and next indicators",
+          "value": "Watch renewed reserve accumulation, Argentina sovereign bond prices and spreads, Treasury auctions and rollovers, 2027 budget progress, external financing and US/multilateral support; credible funding plan plus retreating spreads would soften stress signal; ADRs are sector proxies, not measured Sunday price reactions"
+        }
+      ],
+      "key_finding": "Argentina sovereign spreads near 1,070 bp flag a sharp, independently corroborated credit dislocation as 2027 refinancing approaches.",
+      "sources": [
+        {
+          "title": "Financial Times, Argentina borrowing costs and Milei political risk, November 22",
+          "url": "https://www.ft.com/content/f3ecede4-74a3-431a-89c5-a06fcd30812a"
+        },
+        {
+          "title": "Pizarra y Tasa independent weekly Argentina market figures, November 21",
+          "url": "https://pizarraytasa.com/informes/informe-semanal-2026-11-21/"
+        },
+        {
+          "title": "Becerra Bursatil sovereign-credit close November 20",
+          "url": "https://bbsa.com.ar/blog/cierre-de-mercados-20-noviembre-2026/"
+        },
+        {
+          "title": "Buenos Aires Herald sovereign-bond decline and political risk, November 20",
+          "url": "https://buenosairesherald.com/politics/country-risk-jumps-10-and-tops-1000-points-amid-another-bond-sell-off"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261122-1130-hormuz-flows",
       "observed_at": "2026-11-22T11:30:26-05:00",
@@ -214,58 +270,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261121-1729-claude-math",
-      "observed_at": "2026-11-21T17:29:50-05:00",
-      "title": "Lean and Mathlib verify Claude-assisted Riemann hypothesis formal proof",
-      "summary": "Lean and Mathlib groups say they have validated a 17-million-line formal proof released by Anthropic mathematician Levent Alpöge, who credits Claude with helping develop it. This is striking evidence of AI-assisted research capability, not demonstrated revenue or an observed stock catalyst. The Clay Mathematics Institute has not formally accepted a solution, and a human-readable exposition is still pending.",
-      "tickers": [
-        "ANT"
-      ],
-      "sectors": [
-        "AI software",
-        "AI-assisted research",
-        "Mathematics and scientific computing"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 21 independent formal verification",
-          "value": "Joint Lean and Mathlib community statement, endorsed by Lean FRO and Mathlib Initiative: statement and 17-million-line formal proof checked using separate Lean-compatible checkers"
-        },
-        {
-          "label": "Original research claim",
-          "value": "Levent Alpöge released code November 20 after approximately six weeks using Claude; machine-checked correctness is not the same as independent human exposition or prize recognition"
-        },
-        {
-          "label": "Market observation",
-          "value": "No November 21 regular US equity trading; ANT previously closed November 20 at $88.30 per Reuters; no verified incremental market reaction to Saturday validation"
-        },
-        {
-          "label": "Significance, limitations and next indicators",
-          "value": "Potential evidence for AI's frontier research value, but no quantified sales or margin effect; follow mathematical community understanding, Clay Institute assessment, Anthropic disclosures and commercial research adoption; deficiencies in theorem interpretation or reproducibility would invalidate broader claim"
-        }
-      ],
-      "key_finding": "Independent formal verification offers major evidence of AI research capability without proving a near-term financial catalyst.",
-      "sources": [
-        {
-          "title": "Lean and Mathlib joint verification statement November 21",
-          "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
-        },
-        {
-          "title": "Associated Press November 21 independent mathematician and Clay perspective",
-          "url": "https://apnews.com/article/anthropic-claude-math-solution-ai-4fe8b69a891f160f9e7f0c85af8c55c8"
-        },
-        {
-          "title": "Guardian November 21 Lean validation reporting",
-          "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-22T11:30:26-05:00",
+  "last_checked_at": "2026-11-22T12:29:06-05:00",
   "last_check_status": "new_findings"
 }
