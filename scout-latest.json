@@ -1,8 +1,63 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-22T14:31:17-05:00",
-  "as_of_et": "November 22, 2026, 2:31 PM EST",
+  "generated_at": "2026-11-22T16:33:29-05:00",
+  "as_of_et": "November 22, 2026, 4:33 PM EST",
   "items": [
+    {
+      "id": "scout-20261122-1633-gulf-oman-tanker",
+      "observed_at": "2026-11-22T16:33:29-05:00",
+      "title": "UKMTO reports tanker–military encounter in Gulf of Oman; Iran separately alleges mine strikes",
+      "summary": "UKMTO Advisory 217-26 reports a tanker encounter with military forces in the Gulf of Oman at 14:25 UTC Sunday; identities, damage and cargo effects are unspecified. Separately, Iran's IRGC Navy claims two supertankers struck mines, without independent verification or vessel matches. Maritime risk is heightened, but incremental oil-export losses are not established.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Maritime shipping",
+        "Gulf of Oman security"
+      ],
+      "evidence_grade": "single-source",
+      "observations": [
+        {
+          "label": "Official UKMTO observation",
+          "value": "Advisory 217-26: incident 22 Nov 2026 14:25 UTC / 09:25 EST; company security officer reported an encounter involving a tanker and military forces off Chabahar, Iran, in the Gulf of Oman."
+        },
+        {
+          "label": "Known and unknown",
+          "value": "Official classification is ADVISORY, not ATTACK; no named vessel, identified military party, cargo, damage assessment, casualties, or disruption figures; investigation ongoing."
+        },
+        {
+          "label": "Separate Iranian assertion",
+          "value": "IRGC Navy said Nov 22 that two supertankers struck naval mines near Hormuz and were halted; vessel identities and relation to UKMTO 217-26 or Nov 21 attacks remain unverified."
+        },
+        {
+          "label": "Market/physical-flow confirmation",
+          "value": "U.S. equities and regular oil futures closed Sunday; no verified Brent/WTI or XLE/XOP price reaction; no independently measured new export-volume loss."
+        },
+        {
+          "label": "Next signals and invalidation",
+          "value": "UKMTO/JMIC or MARAD updates, hull IDs and voyage status, salvage/insurance/freight, Kpler/Vortexa tanker loadings; safe vessel passage and stable verified flows would weaken disruption concern."
+        }
+      ],
+      "key_finding": "An officially reported tanker–military encounter adds Gulf maritime risk, while separate mine-strike claims remain unverified and no new export loss is established.",
+      "sources": [
+        {
+          "title": "UKMTO Advisory 217-26, 22 November 2026 (official)",
+          "url": "https://www.ukmto.org/-/media/ukmto/products/20261122_ukmto_-advisory_217-26.pdf?rev=564a29fc164b4b558b32e30dc68b4cf5"
+        },
+        {
+          "title": "UKMTO recent incidents register",
+          "url": "https://www.ukmto.org/recent-incidents"
+        },
+        {
+          "title": "Anadolu Agency: Iran's IRGC alleges two supertankers struck mines, Nov 22",
+          "url": "https://www.aa.com.tr/en/middle-east/iran-says-2-supertankers-struck-naval-mines-near-strait-of-hormuz/4133736"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261122-1431-korea-stabilization",
       "observed_at": "2026-11-22T14:31:17-05:00",
@@ -232,60 +287,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261122-0733-taiwan-short-selling-curbs",
-      "observed_at": "2026-11-22T07:33:36-05:00",
-      "title": "Taiwan broadens short-sale price-floor restrictions after AI-led market rout",
-      "summary": "Taiwan's Financial Supervisory Commission announced broader short-sale restrictions effective November 23, including a floor at the previous close and higher collateral requirements. The Taiex had fallen around 17.5% over five sessions as global technology shares sold off. This is a market-structure intervention, not evidence of an earnings recovery, and Monday's liquidity effects are uncertain.",
-      "tickers": [
-        "TSM",
-        "EWT",
-        "SOXX"
-      ],
-      "sectors": [
-        "Taiwan equities",
-        "Semiconductors and AI supply chain",
-        "International market structure"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Taiwan FSC announcement Saturday November 21, effective Monday November 23",
-          "value": "Short sales of listed/OTC equities and Taiwan depositary receipts prohibited below prior session close, with market-maker/hedging exemptions; collateral for short selling rises from 130% to 150%"
-        },
-        {
-          "label": "Additional FSC stabilization measures",
-          "value": "Suspension of new put-warrant listing applications; support for corporate buybacks and curbs on stock lending; NT$500 billion stabilization fund previously authorized to intervene"
-        },
-        {
-          "label": "Market move before restrictions, November 20 close",
-          "value": "Taipei CNA reports Taiex 36,033.29, down 2,393.60 (-6.23%) Friday; Bloomberg reports roughly -6.2% Friday and nearly -18% over week, matching 17.5% reported by others"
-        },
-        {
-          "label": "Significance, risks and next indicators",
-          "value": "No Sunday cash equity session. Monitor Taiwan Monday opening, foreign-investor outflows, volume, spreads, volatility, TSM supply chain, program implementation and possible disorderly moves despite curbs"
-        }
-      ],
-      "key_finding": "Regulators widened market-wide short-sale restrictions after a severe chip-heavy equity rout; Monday trading will test effectiveness and liquidity effects.",
-      "sources": [
-        {
-          "title": "Focus Taiwan (CNA), November 21, FSC expands short-sale restrictions",
-          "url": "https://focustaiwan.tw/business/202611210013"
-        },
-        {
-          "title": "Bloomberg via Mint, November 21, Taiwan widens short sale curbs",
-          "url": "https://www.livemint.com/market/taiwan-widens-short-sale-curbs-after-shares-plunge-on-ai-concern-11795255471195.html"
-        },
-        {
-          "title": "Taipei Times, November 22, regulator statement and market context",
-          "url": "https://www.taipeitimes.com/News/front/archives/2026/11/22/2003868166"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-22T15:33:00-05:00",
-  "last_check_status": "no_new_findings"
+  "last_checked_at": "2026-11-22T16:33:29-05:00",
+  "last_check_status": "new_findings"
 }
