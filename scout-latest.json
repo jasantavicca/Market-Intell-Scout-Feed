@@ -1,8 +1,66 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-22T12:29:06-05:00",
-  "as_of_et": "November 22, 2026, 12:29 PM EST",
+  "generated_at": "2026-11-22T13:27:36-05:00",
+  "as_of_et": "November 22, 2026 at 1:27 PM EST",
   "items": [
+    {
+      "id": "scout-20261122-1327-spacex-gpu-finance",
+      "observed_at": "2026-11-22T13:27:36-05:00",
+      "title": "Apollo and Goldman Sachs price $44 billion in SpaceX GPU financing at elevated yields",
+      "summary": "Apollo and Goldman Sachs announced on November 20 that they priced roughly $44 billion of debt for Nvidia Vera Rubin GPUs and related equipment leased to SpaceX. Reuters reports the largest $25.17 billion senior tranche yields 8.259%. Oversubscription signals financing appetite, while high funding costs and GPU obsolescence expose execution risk.",
+      "tickers": [
+        "SPCX",
+        "NVDA",
+        "APO",
+        "GS"
+      ],
+      "sectors": [
+        "AI infrastructure",
+        "Semiconductors",
+        "AI hardware finance",
+        "Private credit"
+      ],
+      "evidence_grade": "confirmed",
+      "observations": [
+        {
+          "label": "Disclosure date and status",
+          "value": "Nov 20, 2026: Apollo and Goldman Sachs formally announced approximately $44 billion priced, upsized, oversubscribed GPU and equipment financing; not a Sunday market-price move"
+        },
+        {
+          "label": "Reuters independently reported note pricing",
+          "value": "Largest senior secured A3 tranche approximately $25.17 billion at 8.259% yield, maturity April 2033; A2 $4.4 billion at 7.66%, subordinated B $2.564 billion at 8.36%"
+        },
+        {
+          "label": "Operational/cash-flow milestone",
+          "value": "Proceeds fund Nvidia Vera Rubin GPUs for terrestrial SpaceX compute; equipment leasing scheduled to start as equipment arrives in H1 2027; financing is not delivered GPU capacity or realized AI revenue"
+        },
+        {
+          "label": "Fundamental significance and risks",
+          "value": "Largest disclosed GPU financing underscores capital access and high AI infrastructure funding costs; execution depends on powered deployment, server utilization, lease payments, chip useful lives and refinancing; poor utilization or delivery delays would undermine economics"
+        },
+        {
+          "label": "Market observation and next indicators",
+          "value": "U.S. cash equities closed Sunday Nov 22; no Sunday share move attributed. Follow financing documents, shipment/delivery, power connection, installed capacity, lease coverage and later credit spreads"
+        }
+      ],
+      "key_finding": "Largest confirmed GPU financing highlights demand for AI compute and the cost and execution risks of debt-funded buildout.",
+      "sources": [
+        {
+          "title": "Apollo and Goldman Sachs official November 20 financing announcement",
+          "url": "https://ir.apollo.com/news-events/press-releases/detail/662/apollo-and-goldman-sachs-announce-pricing-of-44-billion"
+        },
+        {
+          "title": "Reuters November 20 financing and tranche-yield report",
+          "url": "https://www.investing.com/news/stock-market-news/apollo-goldman-lead-44-billion-spacex-gpu-debt-financing-5042346"
+        },
+        {
+          "title": "Financial Times November 20 lender-collateral terms reporting",
+          "url": "https://www.ft.com/content/33b5643c-2957-4d42-9116-5e34a3c54e29"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261122-1229-argentina-credit",
       "observed_at": "2026-11-22T12:29:06-05:00",
@@ -216,62 +274,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261121-1729-iesc-buildout",
-      "observed_at": "2026-11-21T17:29:50-05:00",
-      "title": "IES Holdings drops despite record results and robust data-center construction backlog",
-      "summary": "IES Holdings reported quarterly revenue growth of 55% and operating income growth of 108%, but shares closed down about 6.5% Friday. Its September 30 backlog was $4.96 billion, before a separate October acquisition. The contrast highlights continued physical AI infrastructure construction despite market valuation pressure. Backlog is not guaranteed revenue.",
-      "tickers": [
-        "IESC"
-      ],
-      "sectors": [
-        "Data-center construction",
-        "Electrical infrastructure",
-        "Industrial services"
-      ],
-      "evidence_grade": "confirmed",
-      "observations": [
-        {
-          "label": "November 20, 2026 Nasdaq close, two independent market sources",
-          "value": "IESC $156.06, down $10.84 (-6.49%) from $166.90; independently matched by Investing.com and ChartExchange"
-        },
-        {
-          "label": "Company fiscal Q4 press release November 20, 7:45 AM EST",
-          "value": "Q4 revenue $1.39B (+55% YoY), operating income $217.2M (+108%); fiscal-year Communications revenue $1.69B (+48%), driven by data center work"
-        },
-        {
-          "label": "Contract visibility and acquisition accounting",
-          "value": "Sep 30 remaining performance obligations $3.48B; broader non-GAAP backlog $4.96B (some nonbinding); October 5 DBM Global acquisition added $2.6B further backlog NOT included in Sep 30 figure"
-        },
-        {
-          "label": "Risks and next indicators",
-          "value": "Customer concentration, project cancellations/timing, labor capacity, normalization of favorable one-off project margins, DBM integration and acquisition debt; monitor organic Communications orders, enforceable RPO, cash conversion and 2027 guidance"
-        }
-      ],
-      "key_finding": "Strong disclosed data-center construction growth contrasts with a confirmed 6.49% share decline, but backlog quality and integration risk matter.",
-      "sources": [
-        {
-          "title": "IES Holdings official fiscal Q4 2026 earnings release",
-          "url": "https://iesholdingsinc.gcs-web.com/news-releases/news-release-details/ies-holdings-reports-fiscal-2026-fourth-quarter-and-full-year"
-        },
-        {
-          "title": "IES Holdings SEC-filed earnings exhibit",
-          "url": "https://www.sec.gov/Archives/edgar/data/1048268/000104826826000176/q42026pressrelease-septemb.htm"
-        },
-        {
-          "title": "IESC November 20 close, Investing.com",
-          "url": "https://www.investing.com/equities/integrated-electr-historical-data"
-        },
-        {
-          "title": "IESC November 20 close, ChartExchange",
-          "url": "https://chartexchange.com/symbol/nasdaq-iesc/historical/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-22T12:29:06-05:00",
+  "last_checked_at": "2026-11-22T13:27:36-05:00",
   "last_check_status": "new_findings"
 }
