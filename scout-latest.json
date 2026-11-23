@@ -1,8 +1,65 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-22T17:27:37-05:00",
-  "as_of_et": "November 22, 2026, 5:27 PM EST",
+  "generated_at": "2026-11-22T20:36:08-05:00",
+  "as_of_et": "November 22, 2026, 8:36 PM EST",
   "items": [
+    {
+      "id": "scout-20261122-2036-kospi-reopen",
+      "observed_at": "2026-11-22T20:36:08-05:00",
+      "title": "KOSPI opens 2.77% lower despite weekend stabilization measures; chip shares remain pressured",
+      "summary": "South Korea's KOSPI opened November 23 down 2.77% to 4,734.90, following Friday's 5.21% fall, despite weekend preparations for a stabilization fund. Samsung Electronics and SK Hynix also fell early. U.S. Nasdaq-100 futures rebounded about 2–3% Sunday evening, highlighting diverging market responses. The fund has not been reported deployed and intraday moves are not closing prices.",
+      "tickers": [
+        "EWY",
+        "005930.KS",
+        "000660.KS",
+        "NQ"
+      ],
+      "sectors": [
+        "International equities",
+        "Semiconductors",
+        "Market liquidity"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Monday November 23 KOSPI opening, 9:00 AM KST / Sunday 7:00 PM EST",
+          "value": "KOSPI 4,734.90, -135.06 points (-2.77%) vs Friday close 4,869.96; Korea Exchange figures independently reported by Seoul Economic Daily and Aju Press; opening, not close"
+        },
+        {
+          "label": "Chip shares, 9:04–9:15 AM KST",
+          "value": "Samsung Electronics down approximately 3.17–3.39%; SK Hynix down approximately 2.34–2.61%; indicative early-session reports, not settlement"
+        },
+        {
+          "label": "U.S. index futures, Sunday early evening EST",
+          "value": "Reuters reported Nasdaq-100 futures up roughly 2–3% and S&P 500 futures up about 1–2%; intraday indicative futures, not confirmed cash-market closes"
+        },
+        {
+          "label": "Policy status and fundamental interpretation",
+          "value": "South Korean authorities prepared a stabilization fund but no actual deployment confirmed. Price weakness is a liquidity/valuation signal, not direct proof of deterioration in semiconductor earnings or HBM demand"
+        },
+        {
+          "label": "Risks, invalidation, next indicators",
+          "value": "Watch KOSPI closing breadth, foreign and institutional flows, Samsung/SK Hynix earnings/orders, actual stabilization-fund deployment, and persistence of U.S. futures rebound. Strong breadth and sustained foreign inflows would weaken acute stress thesis"
+        }
+      ],
+      "key_finding": "Korean semiconductor-led selling persisted at Monday's open despite policy support, while U.S. equity futures rebounded; no closing confirmation yet.",
+      "sources": [
+        {
+          "title": "Seoul Economic Daily November 23: KOSPI opens down 2.77%, chip stocks and policy context",
+          "url": "https://en.sedaily.com/market/2026/11/23/kospi-opens-down-28-percent-as-emergency-measures-blunt"
+        },
+        {
+          "title": "Aju Press November 23: Korea Exchange opening figures",
+          "url": "https://www.ajupress.com/view/20261123090855874"
+        },
+        {
+          "title": "Reuters November 22 evening: U.S. futures bounce and Asia markets slide",
+          "url": "https://new.streetinsider.com/Reuters/US%2Bfutures%2Bbounce%2Bwhile%2BAsia%2Bmarkets%2Bbrace%2Bfor%2BAI%2Bwipeout/27383090.html"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261122-1431-korea-stabilization"
+    },
     {
       "id": "scout-20261122-1727-china-margin-easing",
       "observed_at": "2026-11-22T17:27:37-05:00",
@@ -110,62 +167,6 @@
         {
           "title": "Anadolu Agency: Iran's IRGC alleges two supertankers struck mines, Nov 22",
           "url": "https://www.aa.com.tr/en/middle-east/iran-says-2-supertankers-struck-naval-mines-near-strait-of-hormuz/4133736"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261122-1431-korea-stabilization",
-      "observed_at": "2026-11-22T14:31:17-05:00",
-      "title": "South Korea prepares equity stabilization fund after 5.21% KOSPI rout; joins Taiwan in market intervention",
-      "summary": "South Korea's finance ministry said November 22 it is preparing to activate a market stabilization fund if conditions worsen, after the KOSPI's 5.21% fall on Friday. Officials will ease corporate share-repurchase limits starting November 24 and intensify short-selling surveillance. The fund has not been deployed. The measures signal widening Asia technology-market stress, not a resolution of underlying AI-sector valuation and funding risks.",
-      "tickers": [
-        "EWY",
-        "005930.KS",
-        "000660.KS"
-      ],
-      "sectors": [
-        "International equities",
-        "Semiconductors",
-        "Market liquidity"
-      ],
-      "evidence_grade": "confirmed",
-      "observations": [
-        {
-          "label": "Confirmed November 20 regular-session close (independent Korea Times and Aju Press)",
-          "value": "KOSPI 4,869.96, -267.93 points (-5.21%) Friday; -7.95% over five sessions; Samsung Electronics -7.01%, SK hynix -5.92% Friday"
-        },
-        {
-          "label": "November 22 ministry decision, reported by Reuters and Korean press",
-          "value": "Authorities prepare stock market stabilization fund for potential activation, not deployment; 3-month relaxation of corporate daily buyback limits begins Nov 24; 3-month enforcement focus on illegal short selling"
-        },
-        {
-          "label": "Cross-market confirmation and timing",
-          "value": "Taiwan separately restricted short selling; South Korean policy announced Sunday Nov 22 before Monday reopening. No Sunday regular-session equity price reaction."
-        },
-        {
-          "label": "Fundamental significance and risks/invalidation",
-          "value": "Stress in AI/HBM-heavy Korean equities may outrun disclosed changes in semiconductor demand; liquidity, forced selling and policy distortions could persist. Track Monday EWY/KOSPI and chipmaker volumes, foreign outflows, margin calls, actual fund deployment and earnings/order revisions; stabilization and sustained liquidity would weaken immediate stress signal."
-        }
-      ],
-      "key_finding": "A second major Asian chip-market authority is preparing stabilization measures, confirming wider liquidity stress without proving AI semiconductor earnings impairment.",
-      "sources": [
-        {
-          "title": "Reuters, November 22: South Korea readies market stabilisation funds",
-          "url": "https://www.business-standard.com/world-news/south-korea-readies-market-stabilisation-funds-as-kospi-hits-10-month-low-126112200807_1.html"
-        },
-        {
-          "title": "The Korea Times, November 22: emergency meeting and confirmed November 20 KOSPI close",
-          "url": "https://www.koreatimes.co.kr/economy/20261122/kospi-rout-fuels-calls-for-bolder-stabilization-measures"
-        },
-        {
-          "title": "Aju Press, November 20: KOSPI 5.21% closing decline and semiconductor leaders",
-          "url": "https://www.ajupress.com/view/20261120154822245"
-        },
-        {
-          "title": "Chosun Ilbo, November 22: ministry stock market stabilization measures",
-          "url": "https://www.chosun.com/english/market-money-en/2026/11/22/46VUQG6O2VC5FJ4OEKCD2G2VS4/"
         }
       ],
       "status": "new",
@@ -286,6 +287,6 @@
       "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-22T17:27:37-05:00",
+  "last_checked_at": "2026-11-22T20:36:08-05:00",
   "last_check_status": "new_findings"
 }
