@@ -1,8 +1,66 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-23T12:35:35-05:00",
-  "as_of_et": "November 23, 2026, 12:35 PM EST",
+  "generated_at": "2026-11-23T13:27:03-05:00",
+  "as_of_et": "November 23, 2026, 1:27 PM EST",
   "items": [
+    {
+      "id": "scout-20261123-1327-capricor-fda-crl",
+      "observed_at": "2026-11-23T13:27:03-05:00",
+      "title": "Capricor plunges about 76% after FDA rejects deramiocel over efficacy and trial-data integrity",
+      "summary": "The FDA rejected Capricor's resubmitted deramiocel application November 20, citing insufficient efficacy evidence and serious HOPE-3 data-integrity violations. CAPR fell roughly 76% to $1.80 in November 23 intraday trading. Management postponed its scheduled investor call; September 30 cash stood near $198.5 million, but the program's regulatory path is highly uncertain.",
+      "tickers": [
+        "CAPR"
+      ],
+      "sectors": [
+        "Biotechnology",
+        "Healthcare",
+        "Drug regulation"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Nov 23 intraday share-price observation around 1 PM EST (not a close)",
+          "value": "Barron's reported CAPR near $1.80, approximately -76% versus Friday Nov 20 close $7.59; MarketWatch reported -72% to $2.12 earlier in the premarket."
+        },
+        {
+          "label": "Official FDA decision, Nov 20",
+          "value": "Complete Response Letter rejected deramiocel BLA for Duchenne muscular dystrophy; FDA cites inadequate evidence of efficacy and HOPE-3 data-integrity problems including unauthorized statistical-plan changes and blinding/protocol violations."
+        },
+        {
+          "label": "Company response and next action",
+          "value": "Nov 23 6:30 AM EST announcement rescheduled the previously planned Nov 23 conference call; revised call time not announced. Company says it supports the clinical data and is preparing its regulatory response."
+        },
+        {
+          "label": "Balance sheet and fundamental assessment",
+          "value": "Sept 30 reported cash, equivalents, restricted cash, and marketable securities approximately $198.5M; company previously projected at least 12 months of runway, subject to revised operating plans. The main asset faces fundamental regulatory impairment, not merely a market valuation shock."
+        },
+        {
+          "label": "Risk, invalidation, next evidence",
+          "value": "Track detailed regulatory correspondence, trial-design remediation, additional trial requirements, pipeline alternatives, commercial-partner response, potential burn-rate cuts and capital needs. A newly accepted credible regulatory pathway would temper the adverse assessment; neither FDA approval nor a recoverable path is established."
+        }
+      ],
+      "key_finding": "An FDA-confirmed efficacy and clinical-data integrity setback triggered an extraordinary CAPR decline and undermines the near-term approval outlook.",
+      "sources": [
+        {
+          "title": "FDA Nov 20 statement on deramiocel and HOPE-3 integrity",
+          "url": "https://www.fda.gov/vaccines-blood-biologics/whats-new-biologics/statement-deramiocel-bla-duchenne-muscular-dystrophy"
+        },
+        {
+          "title": "Capricor Nov 20 8-K on complete response letter",
+          "url": "https://www.capricor.com/investors/sec-filings/all-sec-filings/content/0001104659-26-130730/capr-20261120x8k.htm"
+        },
+        {
+          "title": "Capricor Nov 23 statement postponing investor update",
+          "url": "https://markets.businessinsider.com/news/stocks/capricor-therapeutics-reschedules-conference-call-to-provide-deramiocel-update-1036791385"
+        },
+        {
+          "title": "Barron's Nov 23 CAPR intraday decline and FDA rejection",
+          "url": "https://www.barrons.com/articles/capricor-stock-fda-drug-rejection-732832f7"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261123-1235-oracle-financing-rebound",
       "observed_at": "2026-11-23T12:35:35-05:00",
@@ -233,63 +291,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261123-1034-q-meridian-deal",
-      "observed_at": "2026-11-23T10:34:28-05:00",
-      "title": "Qnity jumps intraday after announcing $840 million semiconductor adhesives acquisition",
-      "summary": "Qnity agreed to acquire Meridian Adhesives Group's electronics business for $840 million in cash and borrowings. Its shares were up about 11.55% at 10:30:17 AM EST, an intraday indication. Meridian's unit is expected to generate about $100 million of 2026 revenue. Qnity expects the deal to improve adjusted margins and EPS after closing, but the valuation and integration are risks.",
-      "tickers": [
-        "Q"
-      ],
-      "sectors": [
-        "Semiconductor materials",
-        "Advanced packaging",
-        "Thermal management",
-        "Optical connectivity"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Quote Nov 23, 10:30:17 EST (intraday estimate)",
-          "value": "Cboe BZX via MarketScreener: Q $115.42, +11.55%; this is not a confirmed close"
-        },
-        {
-          "label": "Official transaction Nov 23",
-          "value": "Definitive agreement for $840 million; purchase financed with cash on hand and increased revolving-facility borrowings; expected Q1 2027 closing subject to conditions"
-        },
-        {
-          "label": "Target metrics",
-          "value": "Meridian electronics estimated 2026 sales around $100 million, double-digit 2027 growth expected, 97% 5-year revenue-based customer retention"
-        },
-        {
-          "label": "Strategic economics",
-          "value": "Adds advanced optical, electrically and thermally conductive adhesives; management expects adjusted gross and EBITDA margin, and adjusted EPS accretion upon closing"
-        },
-        {
-          "label": "Risks/invalidation and next indicators",
-          "value": "Price approximately 8.4x target 2026 estimated sales; watch antitrust clearance, debt financing, retention, photonics/cooling demand, synergistic revenue and post-close margins; weak orders or costly integration weaken assumptions"
-        }
-      ],
-      "key_finding": "Confirmed $840 million specialty-materials deal strengthens Qnity's AI packaging and cooling portfolio, coinciding with a large intraday stock gain.",
-      "sources": [
-        {
-          "title": "Official Qnity Nov 23 Meridian acquisition announcement",
-          "url": "https://ir.qnityelectronics.com/press-releases/detail/86/qnity-to-acquire-meridians-electronics-business-expands-advanced-packaging-and-thermal-management-capabilities"
-        },
-        {
-          "title": "MarketScreener November 23 intraday quote and acquisition report",
-          "url": "https://www.marketscreener.com/news/qnity-electronics-to-acquire-meridian-adhesives-group-s-electronics-business-for-840-million-ce7851dadb88ff20"
-        },
-        {
-          "title": "MarketWatch November 23 transaction reporting",
-          "url": "https://www.marketwatch.com/story/qnity-to-buy-meridian-s-electronics-business-for-840-million-2da668a1"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-23T12:35:35-05:00",
+  "last_checked_at": "2026-11-23T13:27:03-05:00",
   "last_check_status": "new_findings"
 }
