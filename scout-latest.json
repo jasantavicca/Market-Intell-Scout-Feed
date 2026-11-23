@@ -1,8 +1,68 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-23T14:29:00-05:00",
-  "as_of_et": "November 23, 2026, 2:29 PM EST",
+  "generated_at": "2026-11-23T16:32:15-05:00",
+  "as_of_et": "November 23, 2026, 4:32 PM EST",
   "items": [
+    {
+      "id": "scout-20261123-1632-us-ai-close-confirmation",
+      "observed_at": "2026-11-23T16:00:00-05:00",
+      "title": "U.S. Nasdaq closes up 6.51% and Nvidia 31.48% as broad AI-infrastructure rebound holds",
+      "summary": "Monday's U.S. session closed with the Nasdaq Composite up 6.51%, the S&P 500 up 4.73%, and Nvidia up 31.48%, independently reported by major financial outlets. AI hardware, servers, cloud computing and data-center power suppliers also rebounded sharply. Jensen Huang's reinstatement restores leadership continuity but does not resolve chip-export scrutiny, financing risk or AI valuations.",
+      "tickers": [
+        "NVDA",
+        "SOXX",
+        "DELL",
+        "CRWV",
+        "BE"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "Networking and servers",
+        "Data-center power",
+        "U.S. equities"
+      ],
+      "evidence_grade": "confirmed",
+      "observations": [
+        {
+          "label": "Nov 23 2026 4:00 PM EST U.S. regular-session close",
+          "value": "Nasdaq Composite 24,089.56 (+6.51%), S&P 500 7,237.17 (+4.73%), Dow 49,595.31 (+3.01%); corroborated by Wall Street Journal and MarketWatch/NY Post"
+        },
+        {
+          "label": "Nvidia regular-session close corroborated by WSJ and The Guardian",
+          "value": "NVDA $165.05, +31.48%; reported market capitalization increase approximately $950B; closing, not intraday"
+        },
+        {
+          "label": "Broader supply chain closing-market reaction",
+          "value": "WSJ reports CoreWeave approximately +22% and Dell approximately +20%; MarketWatch reports Bloom Energy approximately +19%; broad rebound across server, memory, networking and power suppliers"
+        },
+        {
+          "label": "Catalyst, fundamentals and significance",
+          "value": "Board reinstatement of Jensen Huang reduced acute Nvidia leadership uncertainty; broad US rebound held through the close after prior week's sharp selloff. This is market-price confirmation, not proof of higher chip orders, shipped capacity, or better AI infrastructure economics"
+        },
+        {
+          "label": "Risks, invalidation and next indicators",
+          "value": "Watch next-session breadth and follow-through, Treasury yields and credit spreads, Nvidia/export-control investigations and December 1–3 congressional hearings; rapid reversal or deteriorating project financing would weaken stabilization signal"
+        }
+      ],
+      "key_finding": "A historic closing-market reversal confirms broad AI-infrastructure buying, while underlying governance and capital-execution risks remain unresolved.",
+      "sources": [
+        {
+          "title": "Wall Street Journal, Nov 23: U.S. stocks jump as Huang return triggers AI rally",
+          "url": "https://www.wsj.com/finance/stocks/u-s-stocks-jump-as-huang-return-triggers-ai-rally-7c008308"
+        },
+        {
+          "title": "The Guardian, Nov 23: Nvidia closes +31.48% at $165.05; Nasdaq +6.5%",
+          "url": "https://www.theguardian.com/business/live/2026/nov/23/tech-sell-off-ai-stock-market-support-measures-deployed-south-korea-taiwan-china-ftse-nasdaq-latest-news-updates"
+        },
+        {
+          "title": "New York Post, Nov 23: Nasdaq and S&P 500 closing rally",
+          "url": "https://nypost.com/2026/11/23/business/nasdaq-surges-6-5-in-second-largest-one-day-gain-ever-as-nvidia-leads-tech-ai-stocks-higher/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261123-1429-arm-haas-retention",
       "observed_at": "2026-11-23T14:29:00-05:00",
@@ -230,72 +290,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261123-1133-sharara-restart-crude",
-      "observed_at": "2026-11-23T11:33:18-05:00",
-      "title": "Sharara crude pipeline reopened after major Libyan supply-risk warning as Brent falls below $90 intraday",
-      "summary": "Libya's NOC initially warned that an unlawful Sharara pipeline closure threatened roughly 350,000 barrels per day, but its chairman later told Reuters crude pumping had resumed to Zawiya storage. Around 10:54 AM EST, January Brent traded at $89.21 (-3.63%) and WTI at $80.53 (-3.45%), both intraday. Full production and export restoration remain unverified.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Energy",
-        "Physical crude supply",
-        "Oil transportation"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "NOC official November 23 closure notice",
-          "value": "An unauthorized valve shutdown threatened approximately 350,000 bpd Sharara production; separate Hamada closure accounted for around 15,000 bpd. The 365,000 bpd total was a stated potential/current disruption estimate, not independently measured sustained export losses."
-        },
-        {
-          "label": "Reported operational resolution, November 23 before 9:36 AM EST",
-          "value": "Reuters quoted Libya's NOC chairman that Sharara pipeline reopened and crude had begun moving into Akakus storage tanks at Zawiya. No later independent measurement of restored output, loading volumes or vessel departures was established."
-        },
-        {
-          "label": "Price observations, November 23 around 10:54 AM EST (intraday only)",
-          "value": "January Brent $89.21/bbl, -$3.36 (-3.63%) versus Friday settlement $92.57; January WTI $80.53/bbl (-3.45%), via ICE/TradingView market snapshot in Invezz. Earlier 9:36 AM EST Reuters snapshot: Brent $90.55 (-2.18%); WTI $81.82 (-1.91%). Not settlement prices."
-        },
-        {
-          "label": "Supply-versus-geopolitical context",
-          "value": "Oil fell despite Gulf shipping warnings; IEA forecasts approximately 1.7 million bpd fourth-quarter global supply surplus. UKMTO recent-incident search last identified Advisory 217-26 dated Nov 22; MARAD active Gulf advisory 2026-011 dated Sep 9; no new physical Hormuz export loss verified."
-        },
-        {
-          "label": "Fundamental significance, risks and next indicators",
-          "value": "Restart reduces immediate Libya pipeline-risk pressure but is vulnerable to renewed interference; separate Hamada route remained disrupted in the latest NOC statement. Watch NOC flows, Zawiya refinery and tanker loadings, UKMTO/MARAD incidents, freight/insurance, Brent/WTI settlements, and OPEC+ Nov 29 policy. Renewed blockade or verified Gulf export outage would overturn supply-relief interpretation."
-        }
-      ],
-      "key_finding": "An operator-reported restart eased a 350,000 bpd Libyan supply threat while oil futures fell more than 3% intraday despite Gulf security concerns.",
-      "sources": [
-        {
-          "title": "Libya National Oil Corporation Nov 23 official Sharara and Hamada closure statement",
-          "url": "https://noc.ly/en/national-oil-corporation-statement-on-the-closure-of-a-valve-on-the-sharara-oil-pipeline-by-an-outlaw-group-resulting-in-a-loss-of-350000-barrels-per-day-amid-the-continued-closure-of-the-hamada-pi/"
-        },
-        {
-          "title": "Reuters via Channel News Asia Nov 23: Libya Sharara reopens and Brent/WTI decline",
-          "url": "https://www.channelnewsasia.com/business/oil-falls-increased-middle-east-flows-libyan-pipeline-restart-6573726"
-        },
-        {
-          "title": "Invezz Nov 23: ICE/TradingView oil price snapshot and Sharara status",
-          "url": "https://invezz.com/news/2026/11/23/oil-price-today-brent-below-90-surplus-fears/"
-        },
-        {
-          "title": "MARAD US Maritime Advisory 2026-011 and active advisory register",
-          "url": "https://www.maritime.dot.gov/msci-advisories"
-        },
-        {
-          "title": "UKMTO recent incidents register",
-          "url": "https://www.ukmto.org/recent-incidents"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-23T15:34:20-05:00",
-  "last_check_status": "no_new_findings"
+  "last_checked_at": "2026-11-23T16:32:15-05:00",
+  "last_check_status": "new_findings"
 }
