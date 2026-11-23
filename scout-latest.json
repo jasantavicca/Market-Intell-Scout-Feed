@@ -1,8 +1,175 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-23T07:59:31-05:00",
-  "as_of_et": "November 23, 2026, 7:59 AM EST",
+  "generated_at": "2026-11-23T08:34:54-05:00",
+  "as_of_et": "November 23, 2026, 8:34 AM EST",
   "items": [
+    {
+      "id": "scout-20261123-0834-apld-hyperscaler-lease",
+      "observed_at": "2026-11-23T08:34:54-05:00",
+      "title": "Applied Digital signs $5.4 billion 18-year AI data-center lease and closes $300 million bridge financing",
+      "summary": "Applied Digital announced a 150 MW, 18-year hyperscaler lease representing about $5.4 billion in contracted base-term revenue, taking its lease portfolio above $41 billion. It also closed a $300 million one-year secured bridge loan for its Louisiana data-center campus. Premarket shares rose approximately 13.4% at 8:02 a.m. ET. Contracted revenue is not delivered capacity, and construction, grid access and financing risks remain.",
+      "tickers": [
+        "APLD"
+      ],
+      "sectors": [
+        "AI infrastructure",
+        "Data centers",
+        "Power and grid",
+        "Infrastructure finance"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Official company announcement, Nov 23, 8:00 AM EST",
+          "value": "18-year lease for 150 MW critical IT capacity with tier-one investment-grade hyperscaler; approximately $5.4B base-term contractual revenue, or ~$12.7B if all renewal options exercised; total portfolio contracted base revenue over $41B"
+        },
+        {
+          "label": "Financial facility, company press release Nov 23",
+          "value": "$300M senior secured delayed-draw bridge facility for Delta Forge 1, Louisiana; 364-day maturity at SOFR + 300 basis points; project collateral and conditions; additional financing required"
+        },
+        {
+          "label": "Premarket indicative market move, Nov 23 8:02 AM EST, StockTitan",
+          "value": "APLD approximately +13.40% versus Nov 20 regular-session close; premarket indication only; no confirmed Nov 23 closing price"
+        },
+        {
+          "label": "Fundamental importance",
+          "value": "Long-term hyperscaler contracting supports lease revenue visibility but requires grid-connected, completed, operational facilities; contracted value is not current income"
+        },
+        {
+          "label": "Risks, invalidation, next indicators",
+          "value": "Follow utility rate approvals and energization milestones, completion funding, debt refinancing, construction schedule, tenant credit and concentration, live MW utilization and regular-session market reaction; delays or lost lease would undermine thesis"
+        }
+      ],
+      "key_finding": "A new $5.4B AI infrastructure lease strengthens contracted demand while a 364-day $300M loan emphasizes execution and refinancing risk.",
+      "sources": [
+        {
+          "title": "Applied Digital 150 MW lease release, November 23",
+          "url": "https://www.stocktitan.net/news/APLD/applied-digital-secures-new-150-mw-18-year-lease-with-tier-one-eyghorn9ce7n.html"
+        },
+        {
+          "title": "Applied Digital official $300M bridge facility release",
+          "url": "https://ir.applieddigital.com/news-events/press-releases/detail/164/applied-digital-announces-300-million-senior-secured"
+        },
+        {
+          "title": "StockTitan November 23 timestamped premarket observation",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-23-2026"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261123-0834-kymr-phase2b",
+      "observed_at": "2026-11-23T08:34:54-05:00",
+      "title": "Kymera reports significant Phase 2b KT-621 eczema results; shares surge in premarket",
+      "summary": "Kymera's 244-patient BROADEN2 Phase 2b trial met primary and secondary endpoints for once-daily oral STAT6 degrader KT-621. At week 16, middle-dose patients had a 72% mean eczema-severity reduction versus 27% for placebo; Kymera plans Phase 3 in 2027. Shares rose around 32.7% at 8:02 a.m. ET premarket. Results are company-reported clinical data, not approval or Phase 3 validation.",
+      "tickers": [
+        "KYMR"
+      ],
+      "sectors": [
+        "Biotechnology",
+        "Healthcare",
+        "Clinical trials"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Official trial disclosure, Nov 23 7:00 AM EST",
+          "value": "BROADEN2 randomized blinded Phase 2b, N=244, 16 weeks; all doses met primary and secondary endpoints versus placebo"
+        },
+        {
+          "label": "Middle-dose Week 16 efficacy versus placebo",
+          "value": "Mean EASI improvement 72% vs 27% (placebo-adjusted 45 percentage points, p<0.0001); EASI-75 responders 62% vs 22%; itch response improvement also significant"
+        },
+        {
+          "label": "Premarket indicative price, 8:02 AM EST November 23",
+          "value": "KYMR +32.69% from Nov 20 cash close per StockTitan; Barron's independently reports +29.4% at a separate intraday observation; not a settlement close"
+        },
+        {
+          "label": "Safety and development",
+          "value": "Company says well tolerated over 16 weeks; conjunctivitis in 13.1% of middle-dose cohort; Phase 3 first trial targeted mid-2027 subject to regulators; longer-term durability unknown"
+        },
+        {
+          "label": "Risks, invalidation, next indicators",
+          "value": "Monitor full trial publication, detailed adverse events and long-term extension, regulatory Phase 3 alignment, payer/access outlook, Phase 3 replication and efficacy-versus-safety relative to available biologics"
+        }
+      ],
+      "key_finding": "Strong reported placebo-controlled Phase 2b results support an oral Type-2 inflammation drug candidate, but late-stage efficacy and safety are not established.",
+      "sources": [
+        {
+          "title": "Kymera official BROADEN2 Phase 2b results, November 23",
+          "url": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-positive-results-broaden2-phase-2b"
+        },
+        {
+          "title": "Barron's timestamped Nov 23 premarket movers",
+          "url": "https://www.barrons.com/articles/s-p-500-futures-climb-in-premarket-trading-kymera-therapeutics-zscaler-lead-199b54a0"
+        },
+        {
+          "title": "StockTitan Nov 23 8:02 AM premarket KYMR move",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-23-2026"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261123-0834-hormuz-fujairah-proxy",
+      "observed_at": "2026-11-23T08:34:54-05:00",
+      "title": "Fresh shipping-flow proxies flag renewed Hormuz stress despite weaker crude futures",
+      "summary": "Wall Street Journal reporting on November 23 says Hormuz transits in the week to November 21 were 42% below prewar levels, and QuantCube's Fujairah inflow proxy was 67% below its October peak. Earlier Financial Times/Kpler reporting corroborates the direction of weakening tanker flows, not those exact measures. Brent and WTI futures fell Monday morning. Neither proxy establishes a verified incremental loss of exported crude.",
+      "tickers": [
+        "XLE",
+        "XOP",
+        "BZ",
+        "CL"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Shipping",
+        "Maritime security",
+        "Energy markets"
+      ],
+      "evidence_grade": "single-source",
+      "observations": [
+        {
+          "label": "Shipping flow indicator, week ended November 21 (WSJ reporting)",
+          "value": "Hormuz vessel transits approximately 42% below prewar baseline; methodology/baseline differ from UKMTO vessel movement counts"
+        },
+        {
+          "label": "Oil-flow proxy, QuantCube cited by WSJ Nov 23",
+          "value": "Oil inflows to Fujairah 67% below their October peak; this is a proxy for waterborne flows, not independently verified crude exports or unobserved dark transits"
+        },
+        {
+          "label": "Directional cross-check, FT/Kpler Nov 21 article",
+          "value": "Week ending Nov 18: 263 vessels vs 308 previous week; oil tanker passages 37 vs 52; preliminary flow data second week Nov nearly half first week, subject to late classification"
+        },
+        {
+          "label": "Indicative Monday oil futures, WSJ morning report, no settlement",
+          "value": "Brent ~$91.05/bbl (-1.7%); WTI ~$82.17 (-1.5%). Prices reflect broader supply-surplus outlook and geopolitics; specific quote time not stated"
+        },
+        {
+          "label": "Risks, invalidation, next indicators",
+          "value": "Watch independent Kpler/Vortexa export loadings, AIS dark transit reconciliation, UKMTO/MARAD advisories, war-risk insurance/freight, refinery damage and next Brent/WTI settlement; rebound in reconciled crude exports or sustained safe transit would weaken warning"
+        }
+      ],
+      "key_finding": "New reported Gulf transit and Fujairah proxies suggest shipping deterioration, not a confirmed incremental physical crude-export loss.",
+      "sources": [
+        {
+          "title": "Wall Street Journal Nov 23 oil and shipping flow report",
+          "url": "https://www.wsj.com/finance/commodities-futures/oil-falls-amid-risk-off-sentiment-c478ebdc"
+        },
+        {
+          "title": "Financial Times / Kpler Nov 21 oil flow and tanker traffic",
+          "url": "https://www.ft.com/content/5fbc2b9d-0360-4a1f-9e4a-3e86168cbbc5"
+        },
+        {
+          "title": "U.S. MARAD active maritime advisories",
+          "url": "https://www.maritime.dot.gov/msci-advisories"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261123-0759-crwd-zs-merger",
       "observed_at": "2026-11-23T07:59:31-05:00",
@@ -120,178 +287,8 @@
       ],
       "status": "updated",
       "supersedes": "scout-20261122-2036-kospi-reopen"
-    },
-    {
-      "id": "scout-20261122-1727-china-margin-easing",
-      "observed_at": "2026-11-22T17:27:37-05:00",
-      "title": "China's exchanges cut margin-financing floor to 80% amid widening Asian equity stabilization efforts",
-      "summary": "On November 22, China's Shanghai, Shenzhen and Beijing exchanges announced a reduction in the minimum collateral ratio for margin-financed stock purchases from 100% to 80%, effective November 30. State media estimate up to 400 billion yuan in potential additional borrowing capacity, not actual inflows. The move seeks to stabilize market liquidity alongside Taiwan and South Korea's interventions, but increases leverage risk.",
-      "tickers": [
-        "FXI",
-        "MCHI",
-        "KWEB"
-      ],
-      "sectors": [
-        "Chinese equities",
-        "International markets",
-        "Market liquidity",
-        "Technology"
-      ],
-      "evidence_grade": "confirmed",
-      "observations": [
-        {
-          "label": "Official decision, November 22, 2026",
-          "value": "Shanghai, Shenzhen and Beijing exchanges lowered the minimum financing margin ratio from 100% to 80%; rule takes effect November 30, 2026, reversing January 2026 tightening; authorized by CSRC."
-        },
-        {
-          "label": "Estimated impact (not actual flow)",
-          "value": "Xinhua citing regulators: potentially nearly CNY 400 billion (~USD 60 billion) in additional purchasing/financing capacity. This is theoretical and no capital deployment or rebound is confirmed."
-        },
-        {
-          "label": "Context / market move",
-          "value": "Recent margin lending reportedly roughly CNY 2.2 trillion, below June peak near CNY 3 trillion; CSI 300 in bear-market territory after earlier selloff. Mainland cash equities closed Sunday; no new official Sunday price reaction."
-        },
-        {
-          "label": "Fundamental assessment and significance",
-          "value": "Liquidity support addresses financing constraints but not weak domestic demand, property-sector debt, or AI valuation and earnings uncertainty; third major Asian market authority engaged in market stabilization."
-        },
-        {
-          "label": "Risks, invalidation and next indicators",
-          "value": "Watch CSI 300/Shanghai/ChiNext and FXI/MCHI/KWEB at next sessions, actual margin-financing balances after Nov 30, foreign outflows, chip-market breadth, growth/earnings revisions, and volatility. A sustained rebound without credit expansion or earnings recovery may prove short-lived; no actual uptake would weaken the liquidity effect."
-        }
-      ],
-      "key_finding": "China's confirmed 100%-to-80% margin rule change adds potential liquidity, not realized buying, to a regional technology-market stabilization response.",
-      "sources": [
-        {
-          "title": "Shanghai Stock Exchange November 22, 2026 official rule announcement",
-          "url": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/lawandrules/sselawsrules2025/trade/specific/margin/c/c_20261122_10838633.shtml"
-        },
-        {
-          "title": "Bloomberg November 22 via Mint: Asian stock rescue efforts",
-          "url": "https://www.livemint.com/market/asias-stock-rescue-efforts-gather-pace-after-wall-street-plunge-11795351882145.html"
-        },
-        {
-          "title": "Xinhua November 22 via The Star: China announces measures to steady stocks",
-          "url": "https://www.thestar.com.my/news/world/2026/11/23/2nd-ld-writethru-china-announces-measures-to-steady-stock-market"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261122-1633-gulf-oman-tanker",
-      "observed_at": "2026-11-22T16:33:29-05:00",
-      "title": "UKMTO reports tanker–military encounter in Gulf of Oman; Iran separately alleges mine strikes",
-      "summary": "UKMTO Advisory 217-26 reports a tanker encounter with military forces in the Gulf of Oman at 14:25 UTC Sunday; identities, damage and cargo effects are unspecified. Separately, Iran's IRGC Navy claims two supertankers struck mines, without independent verification or vessel matches. Maritime risk is heightened, but incremental oil-export losses are not established.",
-      "tickers": [
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Maritime shipping",
-        "Gulf of Oman security"
-      ],
-      "evidence_grade": "single-source",
-      "observations": [
-        {
-          "label": "Official UKMTO observation",
-          "value": "Advisory 217-26: incident 22 Nov 2026 14:25 UTC / 09:25 EST; company security officer reported an encounter involving a tanker and military forces off Chabahar, Iran, in the Gulf of Oman."
-        },
-        {
-          "label": "Known and unknown",
-          "value": "Official classification is ADVISORY, not ATTACK; no named vessel, identified military party, cargo, damage assessment, casualties, or disruption figures; investigation ongoing."
-        },
-        {
-          "label": "Separate Iranian assertion",
-          "value": "IRGC Navy said Nov 22 that two supertankers struck naval mines near Hormuz and were halted; vessel identities and relation to UKMTO 217-26 or Nov 21 attacks remain unverified."
-        },
-        {
-          "label": "Market/physical-flow confirmation",
-          "value": "U.S. equities and regular oil futures closed Sunday; no verified Brent/WTI or XLE/XOP price reaction; no independently measured new export-volume loss."
-        },
-        {
-          "label": "Next signals and invalidation",
-          "value": "UKMTO/JMIC or MARAD updates, hull IDs and voyage status, salvage/insurance/freight, Kpler/Vortexa tanker loadings; safe vessel passage and stable verified flows would weaken disruption concern."
-        }
-      ],
-      "key_finding": "An officially reported tanker–military encounter adds Gulf maritime risk, while separate mine-strike claims remain unverified and no new export loss is established.",
-      "sources": [
-        {
-          "title": "UKMTO Advisory 217-26, 22 November 2026 (official)",
-          "url": "https://www.ukmto.org/-/media/ukmto/products/20261122_ukmto_-advisory_217-26.pdf?rev=564a29fc164b4b558b32e30dc68b4cf5"
-        },
-        {
-          "title": "UKMTO recent incidents register",
-          "url": "https://www.ukmto.org/recent-incidents"
-        },
-        {
-          "title": "Anadolu Agency: Iran's IRGC alleges two supertankers struck mines, Nov 22",
-          "url": "https://www.aa.com.tr/en/middle-east/iran-says-2-supertankers-struck-naval-mines-near-strait-of-hormuz/4133736"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261122-1327-spacex-gpu-finance",
-      "observed_at": "2026-11-22T13:27:36-05:00",
-      "title": "Apollo and Goldman Sachs price $44 billion in SpaceX GPU financing at elevated yields",
-      "summary": "Apollo and Goldman Sachs announced on November 20 that they priced roughly $44 billion of debt for Nvidia Vera Rubin GPUs and related equipment leased to SpaceX. Reuters reports the largest $25.17 billion senior tranche yields 8.259%. Oversubscription signals financing appetite, while high funding costs and GPU obsolescence expose execution risk.",
-      "tickers": [
-        "SPCX",
-        "NVDA",
-        "APO",
-        "GS"
-      ],
-      "sectors": [
-        "AI infrastructure",
-        "Semiconductors",
-        "AI hardware finance",
-        "Private credit"
-      ],
-      "evidence_grade": "confirmed",
-      "observations": [
-        {
-          "label": "Disclosure date and status",
-          "value": "Nov 20, 2026: Apollo and Goldman Sachs formally announced approximately $44 billion priced, upsized, oversubscribed GPU and equipment financing; not a Sunday market-price move"
-        },
-        {
-          "label": "Reuters independently reported note pricing",
-          "value": "Largest senior secured A3 tranche approximately $25.17 billion at 8.259% yield, maturity April 2033; A2 $4.4 billion at 7.66%, subordinated B $2.564 billion at 8.36%"
-        },
-        {
-          "label": "Operational/cash-flow milestone",
-          "value": "Proceeds fund Nvidia Vera Rubin GPUs for terrestrial SpaceX compute; equipment leasing scheduled to start as equipment arrives in H1 2027; financing is not delivered GPU capacity or realized AI revenue"
-        },
-        {
-          "label": "Fundamental significance and risks",
-          "value": "Largest disclosed GPU financing underscores capital access and high AI infrastructure funding costs; execution depends on powered deployment, server utilization, lease payments, chip useful lives and refinancing; poor utilization or delivery delays would undermine economics"
-        },
-        {
-          "label": "Market observation and next indicators",
-          "value": "U.S. cash equities closed Sunday Nov 22; no Sunday share move attributed. Follow financing documents, shipment/delivery, power connection, installed capacity, lease coverage and later credit spreads"
-        }
-      ],
-      "key_finding": "Largest confirmed GPU financing highlights demand for AI compute and the cost and execution risks of debt-funded buildout.",
-      "sources": [
-        {
-          "title": "Apollo and Goldman Sachs official November 20 financing announcement",
-          "url": "https://ir.apollo.com/news-events/press-releases/detail/662/apollo-and-goldman-sachs-announce-pricing-of-44-billion"
-        },
-        {
-          "title": "Reuters November 20 financing and tranche-yield report",
-          "url": "https://www.investing.com/news/stock-market-news/apollo-goldman-lead-44-billion-spacex-gpu-debt-financing-5042346"
-        },
-        {
-          "title": "Financial Times November 20 lender-collateral terms reporting",
-          "url": "https://www.ft.com/content/33b5643c-2957-4d42-9116-5e34a3c54e29"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-23T07:59:31-05:00",
+  "last_checked_at": "2026-11-23T08:34:54-05:00",
   "last_check_status": "new_findings"
 }
