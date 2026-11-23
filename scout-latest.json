@@ -1,8 +1,120 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-23T09:34:54-05:00",
-  "as_of_et": "November 23, 2026, 9:34 AM EST",
+  "generated_at": "2026-11-23T10:34:28-05:00",
+  "as_of_et": "November 23, 2026, 10:34 AM EST",
   "items": [
+    {
+      "id": "scout-20261123-1034-cms-ma-reform",
+      "observed_at": "2026-11-23T10:34:28-05:00",
+      "title": "Medicare Advantage insurers slide after CMS Star Ratings rule threatens future industry payments",
+      "summary": "CMS proposed Medicare Advantage Star Ratings revisions on November 20. At Monday's open, UnitedHealth fell about 4.5%, Humana 3.7% and CVS 3.5%, despite a technology-driven market rebound. Analysts estimate approximately $107 billion in lower industry payments during 2028-2037 if implemented. The rule remains a proposal, not an enacted cut.",
+      "tickers": [
+        "UNH",
+        "HUM",
+        "CVS",
+        "ELV"
+      ],
+      "sectors": [
+        "Healthcare",
+        "Managed care",
+        "Insurance regulation"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 23 U.S. opening session, not confirmed closes",
+          "value": "MarketWatch observed UNH -4.5%, HUM -3.7%, CVS -3.5%; price moves approximate and intraday"
+        },
+        {
+          "label": "Government policy source",
+          "value": "CMS issued Contract Year 2028 MA/Part D proposed rule CMS-4214-P2 on November 20, 2026, including Star Ratings changes; not final"
+        },
+        {
+          "label": "Potential industry impact, not realized losses",
+          "value": "Analyst estimate reported by market media: approximately $107 billion in lower total Medicare Advantage industry payments during 2028-2037, about $11.5 billion in 2031, contingent on final rule"
+        },
+        {
+          "label": "Fundamentals",
+          "value": "Lower quality ratings and bonus eligibility could pressure insurer revenue, margins, plans and member benefits; effect varies by contract and enrollment"
+        },
+        {
+          "label": "Risks/invalidation and next indicators",
+          "value": "Follow comments, final CMS text, company guidance, plan ratings, enrollment and benefit changes; significantly softened regulation, delayed dates, or offsetting quality improvements weaken risk"
+        }
+      ],
+      "key_finding": "A formal CMS proposal and corroborated sector selling highlight substantial potential future Medicare Advantage payment pressure.",
+      "sources": [
+        {
+          "title": "CMS official November 20 2026 proposal and Star Ratings details",
+          "url": "https://www.cms.gov/newsroom/fact-sheets/contract-year-2028-policy-technical-changes-medicare-advantage-program-medicare-prescription-drug"
+        },
+        {
+          "title": "MarketWatch November 23 insurer opening moves",
+          "url": "https://www.marketwatch.com/story/unitedhealth-humana-and-cvs-stocks-slide-as-u-s-targets-medicare-advantage-ratings-6c2be5bb"
+        },
+        {
+          "title": "Investing.com November 23 insurer rating impact estimate",
+          "url": "https://ph.investing.com/news/stock-market-news/health-insurer-stocks-slide-as-medicare-advantage-proposal-threatens-payments-2716704"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261123-1034-q-meridian-deal",
+      "observed_at": "2026-11-23T10:34:28-05:00",
+      "title": "Qnity jumps intraday after announcing $840 million semiconductor adhesives acquisition",
+      "summary": "Qnity agreed to acquire Meridian Adhesives Group's electronics business for $840 million in cash and borrowings. Its shares were up about 11.55% at 10:30:17 AM EST, an intraday indication. Meridian's unit is expected to generate about $100 million of 2026 revenue. Qnity expects the deal to improve adjusted margins and EPS after closing, but the valuation and integration are risks.",
+      "tickers": [
+        "Q"
+      ],
+      "sectors": [
+        "Semiconductor materials",
+        "Advanced packaging",
+        "Thermal management",
+        "Optical connectivity"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Quote Nov 23, 10:30:17 EST (intraday estimate)",
+          "value": "Cboe BZX via MarketScreener: Q $115.42, +11.55%; this is not a confirmed close"
+        },
+        {
+          "label": "Official transaction Nov 23",
+          "value": "Definitive agreement for $840 million; purchase financed with cash on hand and increased revolving-facility borrowings; expected Q1 2027 closing subject to conditions"
+        },
+        {
+          "label": "Target metrics",
+          "value": "Meridian electronics estimated 2026 sales around $100 million, double-digit 2027 growth expected, 97% 5-year revenue-based customer retention"
+        },
+        {
+          "label": "Strategic economics",
+          "value": "Adds advanced optical, electrically and thermally conductive adhesives; management expects adjusted gross and EBITDA margin, and adjusted EPS accretion upon closing"
+        },
+        {
+          "label": "Risks/invalidation and next indicators",
+          "value": "Price approximately 8.4x target 2026 estimated sales; watch antitrust clearance, debt financing, retention, photonics/cooling demand, synergistic revenue and post-close margins; weak orders or costly integration weaken assumptions"
+        }
+      ],
+      "key_finding": "Confirmed $840 million specialty-materials deal strengthens Qnity's AI packaging and cooling portfolio, coinciding with a large intraday stock gain.",
+      "sources": [
+        {
+          "title": "Official Qnity Nov 23 Meridian acquisition announcement",
+          "url": "https://ir.qnityelectronics.com/press-releases/detail/86/qnity-to-acquire-meridians-electronics-business-expands-advanced-packaging-and-thermal-management-capabilities"
+        },
+        {
+          "title": "MarketScreener November 23 intraday quote and acquisition report",
+          "url": "https://www.marketscreener.com/news/qnity-electronics-to-acquire-meridian-adhesives-group-s-electronics-business-for-840-million-ce7851dadb88ff20"
+        },
+        {
+          "title": "MarketWatch November 23 transaction reporting",
+          "url": "https://www.marketwatch.com/story/qnity-to-buy-meridian-s-electronics-business-for-840-million-2da668a1"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261123-0934-nvidia-ceo-return",
       "observed_at": "2026-11-23T09:34:54-05:00",
@@ -173,126 +285,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261123-0834-hormuz-fujairah-proxy",
-      "observed_at": "2026-11-23T08:34:54-05:00",
-      "title": "Fresh shipping-flow proxies flag renewed Hormuz stress despite weaker crude futures",
-      "summary": "Wall Street Journal reporting on November 23 says Hormuz transits in the week to November 21 were 42% below prewar levels, and QuantCube's Fujairah inflow proxy was 67% below its October peak. Earlier Financial Times/Kpler reporting corroborates the direction of weakening tanker flows, not those exact measures. Brent and WTI futures fell Monday morning. Neither proxy establishes a verified incremental loss of exported crude.",
-      "tickers": [
-        "XLE",
-        "XOP",
-        "BZ",
-        "CL"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Shipping",
-        "Maritime security",
-        "Energy markets"
-      ],
-      "evidence_grade": "single-source",
-      "observations": [
-        {
-          "label": "Shipping flow indicator, week ended November 21 (WSJ reporting)",
-          "value": "Hormuz vessel transits approximately 42% below prewar baseline; methodology/baseline differ from UKMTO vessel movement counts"
-        },
-        {
-          "label": "Oil-flow proxy, QuantCube cited by WSJ Nov 23",
-          "value": "Oil inflows to Fujairah 67% below their October peak; this is a proxy for waterborne flows, not independently verified crude exports or unobserved dark transits"
-        },
-        {
-          "label": "Directional cross-check, FT/Kpler Nov 21 article",
-          "value": "Week ending Nov 18: 263 vessels vs 308 previous week; oil tanker passages 37 vs 52; preliminary flow data second week Nov nearly half first week, subject to late classification"
-        },
-        {
-          "label": "Indicative Monday oil futures, WSJ morning report, no settlement",
-          "value": "Brent ~$91.05/bbl (-1.7%); WTI ~$82.17 (-1.5%). Prices reflect broader supply-surplus outlook and geopolitics; specific quote time not stated"
-        },
-        {
-          "label": "Risks, invalidation, next indicators",
-          "value": "Watch independent Kpler/Vortexa export loadings, AIS dark transit reconciliation, UKMTO/MARAD advisories, war-risk insurance/freight, refinery damage and next Brent/WTI settlement; rebound in reconciled crude exports or sustained safe transit would weaken warning"
-        }
-      ],
-      "key_finding": "New reported Gulf transit and Fujairah proxies suggest shipping deterioration, not a confirmed incremental physical crude-export loss.",
-      "sources": [
-        {
-          "title": "Wall Street Journal Nov 23 oil and shipping flow report",
-          "url": "https://www.wsj.com/finance/commodities-futures/oil-falls-amid-risk-off-sentiment-c478ebdc"
-        },
-        {
-          "title": "Financial Times / Kpler Nov 21 oil flow and tanker traffic",
-          "url": "https://www.ft.com/content/5fbc2b9d-0360-4a1f-9e4a-3e86168cbbc5"
-        },
-        {
-          "title": "U.S. MARAD active maritime advisories",
-          "url": "https://www.maritime.dot.gov/msci-advisories"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261123-0759-crwd-zs-merger",
-      "observed_at": "2026-11-23T07:59:31-05:00",
-      "title": "CrowdStrike confirms $43.9 billion all-stock acquisition of Zscaler",
-      "summary": "CrowdStrike and Zscaler signed a definitive all-stock agreement valued at $43.9 billion, offering 1.135 CrowdStrike shares for each Zscaler share. The implied premium is 34% to Zscaler's November 20 close. CrowdStrike reported 28% quarterly revenue growth and $6.26 billion ARR. Premarket reactions favor Zscaler, but integration, dilution and regulatory approval remain significant risks.",
-      "tickers": [
-        "CRWD",
-        "ZS"
-      ],
-      "sectors": [
-        "Cybersecurity",
-        "Software",
-        "Networking",
-        "Mergers and acquisitions"
-      ],
-      "evidence_grade": "confirmed",
-      "observations": [
-        {
-          "label": "Official announcement, Nov 23 2026",
-          "value": "Definitive $43.9B all-stock agreement; 1.135 CRWD shares per ZS share; $260.41 implied per ZS share at Nov 20 CRWD close; ~34% premium; board-approved, not completed"
-        },
-        {
-          "label": "Early Nov 23 premarket reaction (not closing prices)",
-          "value": "Associated Press reported CRWD approximately -7.4%, ZS approximately +18.6%; time-sensitive premarket indications, not confirmed settlement"
-        },
-        {
-          "label": "Fundamental context",
-          "value": "CrowdStrike Q3 FY27 revenue $1.58B, +28% YoY; ARR $6.26B, +27% YoY; net new ARR $419M; combined company expected over $10B annual recurring revenue"
-        },
-        {
-          "label": "Completion and conditions",
-          "value": "Expected H2 CrowdStrike FY2028; subject to ZS shareholder approval, regulatory clearances and customary conditions; companies remain independent until close"
-        },
-        {
-          "label": "Risks, invalidation and indicators",
-          "value": "Track integration/cross-sell progress, overlap and customer churn, dilution, regulatory review, combined margin/free cash flow outlook, shareholder vote, deal spread and regular-session prices; failed approvals or declining recurring revenue would undermine thesis"
-        }
-      ],
-      "key_finding": "A confirmed $43.9B cyber-platform merger materially reshapes endpoint and zero-trust security, with large strategic opportunity and integration risk.",
-      "sources": [
-        {
-          "title": "CrowdStrike official Nov 23 acquisition announcement",
-          "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-acquire-zscaler-bringing-network-security-and-zero"
-        },
-        {
-          "title": "SEC filed merger press release, Nov 23",
-          "url": "https://www.sec.gov/Archives/edgar/data/1535527/000110465926130801/tm2630454d2_ex99-1.htm"
-        },
-        {
-          "title": "CrowdStrike Q3 FY2027 earnings release",
-          "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-third-quarter-fiscal-year-2027-financial"
-        },
-        {
-          "title": "Associated Press Nov 23 U.S. futures and premarket reaction",
-          "url": "https://apnews.com/article/49ba1beba78fa4ed2bd5898029f79c91"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-23T09:34:54-05:00",
+  "last_checked_at": "2026-11-23T10:34:28-05:00",
   "last_check_status": "new_findings"
 }
