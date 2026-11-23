@@ -1,8 +1,70 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-23T08:34:54-05:00",
-  "as_of_et": "November 23, 2026, 8:34 AM EST",
+  "generated_at": "2026-11-23T09:34:54-05:00",
+  "as_of_et": "November 23, 2026, 9:34 AM EST",
   "items": [
+    {
+      "id": "scout-20261123-0934-nvidia-ceo-return",
+      "observed_at": "2026-11-23T09:34:54-05:00",
+      "title": "Nvidia reinstates Jensen Huang as CEO; shares surge nearly 29% premarket as AI stocks rebound",
+      "summary": "Nvidia's board unanimously reinstated Jensen Huang as president, CEO and director, reversing his November 12 resignation. Nvidia shares jumped approximately 28% before Monday's opening bell and Nasdaq-100 futures gained roughly 6–7%, according to contemporaneous market reporting. The decision reduces near-term leadership uncertainty, but an independent investigation and export-control risks remain unresolved.",
+      "tickers": [
+        "NVDA",
+        "SOXX",
+        "CRWV",
+        "NBIS"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "US equities",
+        "Corporate governance"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Official company announcement, Nov 23 2026",
+          "value": "Nvidia board unanimously reinstated Jensen Huang as President, Chief Executive Officer and board director effective immediately; Harvey C. Jones remains chair and Colette Kress CFO."
+        },
+        {
+          "label": "NVDA premarket, before 09:30 EST Nov 23 (not close)",
+          "value": "MarketWatch/Dow Jones Market Data reported NVDA roughly +28% to $161.88 versus the Nov 20 close; other sources showed up to +30% before the open. Indicative premarket, not confirmed settlement."
+        },
+        {
+          "label": "Related market indications, Monday morning Nov 23",
+          "value": "Financial Times and Barron's report Nasdaq-100 futures up approximately 6–7% and broad chip-stock strength; futures are not cash-session closing moves."
+        },
+        {
+          "label": "Fundamental assessment",
+          "value": "Nvidia reported fiscal Q3 2027 revenue around $116B, more than double prior year, with data-center revenue $107.6B. Leadership continuity does not eliminate valuation, financing, export-control or AI demand sustainability risk."
+        },
+        {
+          "label": "Unresolved risks and invalidation; next indicators",
+          "value": "Independent board investigation continues; a national-security/export-control committee and Chief Compliance Officer search are underway. Watch regular-session NVDA/SOXX breadth, AI infrastructure proxies, Treasury yields, export-control disclosures and investigation findings; a rapid rally reversal would weaken the stabilization signal."
+        }
+      ],
+      "key_finding": "Confirmed Huang reinstatement triggered an extraordinary premarket semiconductor rally while governance investigations remain active.",
+      "sources": [
+        {
+          "title": "Nvidia official Nov 23 board reinstatement release (PDF)",
+          "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/6b04462d3d63321add7499dc/"
+        },
+        {
+          "title": "Associated Press Nov 23: Nvidia board unanimously reinstates Huang",
+          "url": "https://apnews.com/article/39d4b34ffaa867b4e669893b5fd5028f"
+        },
+        {
+          "title": "MarketWatch Nov 23: Nvidia up 28% premarket to $161.88",
+          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-slides-tech-rout-anthropic-ipo/card/nvidia-shares-up-nearly-30-ahead-of-the-bell-on-track-for-biggest-jump-since-2016-Wu15haCJ8PIKxZVa1JOh"
+        },
+        {
+          "title": "Financial Times Nov 23: AI stocks, US futures rebound on reinstatement",
+          "url": "https://www.ft.com/content/0f5a7285-fbf1-4120-86df-c9cca29644fc"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261123-0834-apld-hyperscaler-lease",
       "observed_at": "2026-11-23T08:34:54-05:00",
@@ -229,66 +291,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261123-0759-asia-chip-divergence",
-      "observed_at": "2026-11-23T07:59:31-05:00",
-      "title": "KOSPI closes down 3.31% while Taiwan TAIEX rebounds 2.16% after stabilization measures",
-      "summary": "South Korea's KOSPI closed November 23 down 3.31% at 4,708.54, with 824 decliners against 71 gainers, despite announced market support. Taiwan's TAIEX rose 2.16% to 36,811.89, with TSMC gaining around 2%. The divergent closes suggest region-specific liquidity stress rather than uniform semiconductor weakness. Policy measures do not establish improved underlying AI demand.",
-      "tickers": [
-        "EWY",
-        "EWT",
-        "TSM",
-        "005930.KS",
-        "000660.KS"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "International equities",
-        "Market liquidity"
-      ],
-      "evidence_grade": "confirmed",
-      "observations": [
-        {
-          "label": "Nov 23 KOSPI regular-session close, Yonhap and MoneyToday",
-          "value": "4,708.54, -161.42 points (-3.31%); session low 4,586.80; 824 decliners versus 71 advancers; Korea stabilization fund prepared but deployment not confirmed"
-        },
-        {
-          "label": "Nov 23 Taiwan TAIEX regular-session close, Trading Economics and Financial News",
-          "value": "36,811.89, +2.16% (~+779 points); TSMC +2.0%; short-sale restriction effective Nov 23; independent closing figures agree within rounding"
-        },
-        {
-          "label": "Fundamental significance",
-          "value": "Semiconductor selloff diverges geographically amid government liquidity responses; does not by itself prove deterioration in HBM, foundry orders or AI capex"
-        },
-        {
-          "label": "Risks and next indicators",
-          "value": "Track foreign flows, market breadth, stabilization fund deployment, TSMC and memory order guidance, chip earnings revisions, credit conditions and next sessions; sustained Korean breadth recovery would weaken liquidity-stress signal"
-        }
-      ],
-      "key_finding": "Confirmed Monday closes show Korea semiconductor-market stress persisting while Taiwan rebounded, an important cross-market divergence.",
-      "sources": [
-        {
-          "title": "Yonhap November 23 KOSPI close",
-          "url": "https://en.yna.co.kr/view/AEN20261123006652320"
-        },
-        {
-          "title": "MoneyToday November 23 KOSPI breadth and close",
-          "url": "https://www.mt.co.kr/en/stock/2026/11/23/2026112315194830663"
-        },
-        {
-          "title": "Taiwan TAIEX close, Trading Economics November 23",
-          "url": "https://tradingeconomics.com/taiwan/stock-market/news/603413"
-        },
-        {
-          "title": "Taiwan close, Financial News November 23",
-          "url": "https://en.fnnews.com/news/202611231728589259"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261122-2036-kospi-reopen"
     }
   ],
-  "last_checked_at": "2026-11-23T08:34:54-05:00",
+  "last_checked_at": "2026-11-23T09:34:54-05:00",
   "last_check_status": "new_findings"
 }
