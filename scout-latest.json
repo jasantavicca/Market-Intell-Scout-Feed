@@ -1,8 +1,72 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-23T10:34:28-05:00",
-  "as_of_et": "November 23, 2026, 10:34 AM EST",
+  "generated_at": "2026-11-23T11:33:18-05:00",
+  "as_of_et": "November 23, 2026, 11:33 AM EST",
   "items": [
+    {
+      "id": "scout-20261123-1133-sharara-restart-crude",
+      "observed_at": "2026-11-23T11:33:18-05:00",
+      "title": "Sharara crude pipeline reopened after major Libyan supply-risk warning as Brent falls below $90 intraday",
+      "summary": "Libya's NOC initially warned that an unlawful Sharara pipeline closure threatened roughly 350,000 barrels per day, but its chairman later told Reuters crude pumping had resumed to Zawiya storage. Around 10:54 AM EST, January Brent traded at $89.21 (-3.63%) and WTI at $80.53 (-3.45%), both intraday. Full production and export restoration remain unverified.",
+      "tickers": [
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Energy",
+        "Physical crude supply",
+        "Oil transportation"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "NOC official November 23 closure notice",
+          "value": "An unauthorized valve shutdown threatened approximately 350,000 bpd Sharara production; separate Hamada closure accounted for around 15,000 bpd. The 365,000 bpd total was a stated potential/current disruption estimate, not independently measured sustained export losses."
+        },
+        {
+          "label": "Reported operational resolution, November 23 before 9:36 AM EST",
+          "value": "Reuters quoted Libya's NOC chairman that Sharara pipeline reopened and crude had begun moving into Akakus storage tanks at Zawiya. No later independent measurement of restored output, loading volumes or vessel departures was established."
+        },
+        {
+          "label": "Price observations, November 23 around 10:54 AM EST (intraday only)",
+          "value": "January Brent $89.21/bbl, -$3.36 (-3.63%) versus Friday settlement $92.57; January WTI $80.53/bbl (-3.45%), via ICE/TradingView market snapshot in Invezz. Earlier 9:36 AM EST Reuters snapshot: Brent $90.55 (-2.18%); WTI $81.82 (-1.91%). Not settlement prices."
+        },
+        {
+          "label": "Supply-versus-geopolitical context",
+          "value": "Oil fell despite Gulf shipping warnings; IEA forecasts approximately 1.7 million bpd fourth-quarter global supply surplus. UKMTO recent-incident search last identified Advisory 217-26 dated Nov 22; MARAD active Gulf advisory 2026-011 dated Sep 9; no new physical Hormuz export loss verified."
+        },
+        {
+          "label": "Fundamental significance, risks and next indicators",
+          "value": "Restart reduces immediate Libya pipeline-risk pressure but is vulnerable to renewed interference; separate Hamada route remained disrupted in the latest NOC statement. Watch NOC flows, Zawiya refinery and tanker loadings, UKMTO/MARAD incidents, freight/insurance, Brent/WTI settlements, and OPEC+ Nov 29 policy. Renewed blockade or verified Gulf export outage would overturn supply-relief interpretation."
+        }
+      ],
+      "key_finding": "An operator-reported restart eased a 350,000 bpd Libyan supply threat while oil futures fell more than 3% intraday despite Gulf security concerns.",
+      "sources": [
+        {
+          "title": "Libya National Oil Corporation Nov 23 official Sharara and Hamada closure statement",
+          "url": "https://noc.ly/en/national-oil-corporation-statement-on-the-closure-of-a-valve-on-the-sharara-oil-pipeline-by-an-outlaw-group-resulting-in-a-loss-of-350000-barrels-per-day-amid-the-continued-closure-of-the-hamada-pi/"
+        },
+        {
+          "title": "Reuters via Channel News Asia Nov 23: Libya Sharara reopens and Brent/WTI decline",
+          "url": "https://www.channelnewsasia.com/business/oil-falls-increased-middle-east-flows-libyan-pipeline-restart-6573726"
+        },
+        {
+          "title": "Invezz Nov 23: ICE/TradingView oil price snapshot and Sharara status",
+          "url": "https://invezz.com/news/2026/11/23/oil-price-today-brent-below-90-surplus-fears/"
+        },
+        {
+          "title": "MARAD US Maritime Advisory 2026-011 and active advisory register",
+          "url": "https://www.maritime.dot.gov/msci-advisories"
+        },
+        {
+          "title": "UKMTO recent incidents register",
+          "url": "https://www.ukmto.org/recent-incidents"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261123-1034-cms-ma-reform",
       "observed_at": "2026-11-23T10:34:28-05:00",
@@ -231,62 +295,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261123-0834-kymr-phase2b",
-      "observed_at": "2026-11-23T08:34:54-05:00",
-      "title": "Kymera reports significant Phase 2b KT-621 eczema results; shares surge in premarket",
-      "summary": "Kymera's 244-patient BROADEN2 Phase 2b trial met primary and secondary endpoints for once-daily oral STAT6 degrader KT-621. At week 16, middle-dose patients had a 72% mean eczema-severity reduction versus 27% for placebo; Kymera plans Phase 3 in 2027. Shares rose around 32.7% at 8:02 a.m. ET premarket. Results are company-reported clinical data, not approval or Phase 3 validation.",
-      "tickers": [
-        "KYMR"
-      ],
-      "sectors": [
-        "Biotechnology",
-        "Healthcare",
-        "Clinical trials"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Official trial disclosure, Nov 23 7:00 AM EST",
-          "value": "BROADEN2 randomized blinded Phase 2b, N=244, 16 weeks; all doses met primary and secondary endpoints versus placebo"
-        },
-        {
-          "label": "Middle-dose Week 16 efficacy versus placebo",
-          "value": "Mean EASI improvement 72% vs 27% (placebo-adjusted 45 percentage points, p<0.0001); EASI-75 responders 62% vs 22%; itch response improvement also significant"
-        },
-        {
-          "label": "Premarket indicative price, 8:02 AM EST November 23",
-          "value": "KYMR +32.69% from Nov 20 cash close per StockTitan; Barron's independently reports +29.4% at a separate intraday observation; not a settlement close"
-        },
-        {
-          "label": "Safety and development",
-          "value": "Company says well tolerated over 16 weeks; conjunctivitis in 13.1% of middle-dose cohort; Phase 3 first trial targeted mid-2027 subject to regulators; longer-term durability unknown"
-        },
-        {
-          "label": "Risks, invalidation, next indicators",
-          "value": "Monitor full trial publication, detailed adverse events and long-term extension, regulatory Phase 3 alignment, payer/access outlook, Phase 3 replication and efficacy-versus-safety relative to available biologics"
-        }
-      ],
-      "key_finding": "Strong reported placebo-controlled Phase 2b results support an oral Type-2 inflammation drug candidate, but late-stage efficacy and safety are not established.",
-      "sources": [
-        {
-          "title": "Kymera official BROADEN2 Phase 2b results, November 23",
-          "url": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-positive-results-broaden2-phase-2b"
-        },
-        {
-          "title": "Barron's timestamped Nov 23 premarket movers",
-          "url": "https://www.barrons.com/articles/s-p-500-futures-climb-in-premarket-trading-kymera-therapeutics-zscaler-lead-199b54a0"
-        },
-        {
-          "title": "StockTitan Nov 23 8:02 AM premarket KYMR move",
-          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-23-2026"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-23T10:34:28-05:00",
+  "last_checked_at": "2026-11-23T11:33:18-05:00",
   "last_check_status": "new_findings"
 }
