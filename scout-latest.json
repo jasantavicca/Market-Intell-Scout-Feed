@@ -1,64 +1,125 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-22T20:36:08-05:00",
-  "as_of_et": "November 22, 2026, 8:36 PM EST",
+  "generated_at": "2026-11-23T07:59:31-05:00",
+  "as_of_et": "November 23, 2026, 7:59 AM EST",
   "items": [
     {
-      "id": "scout-20261122-2036-kospi-reopen",
-      "observed_at": "2026-11-22T20:36:08-05:00",
-      "title": "KOSPI opens 2.77% lower despite weekend stabilization measures; chip shares remain pressured",
-      "summary": "South Korea's KOSPI opened November 23 down 2.77% to 4,734.90, following Friday's 5.21% fall, despite weekend preparations for a stabilization fund. Samsung Electronics and SK Hynix also fell early. U.S. Nasdaq-100 futures rebounded about 2–3% Sunday evening, highlighting diverging market responses. The fund has not been reported deployed and intraday moves are not closing prices.",
+      "id": "scout-20261123-0759-crwd-zs-merger",
+      "observed_at": "2026-11-23T07:59:31-05:00",
+      "title": "CrowdStrike confirms $43.9 billion all-stock acquisition of Zscaler",
+      "summary": "CrowdStrike and Zscaler signed a definitive all-stock agreement valued at $43.9 billion, offering 1.135 CrowdStrike shares for each Zscaler share. The implied premium is 34% to Zscaler's November 20 close. CrowdStrike reported 28% quarterly revenue growth and $6.26 billion ARR. Premarket reactions favor Zscaler, but integration, dilution and regulatory approval remain significant risks.",
       "tickers": [
-        "EWY",
-        "005930.KS",
-        "000660.KS",
-        "NQ"
+        "CRWD",
+        "ZS"
       ],
       "sectors": [
-        "International equities",
-        "Semiconductors",
-        "Market liquidity"
+        "Cybersecurity",
+        "Software",
+        "Networking",
+        "Mergers and acquisitions"
       ],
-      "evidence_grade": "corroborated",
+      "evidence_grade": "confirmed",
       "observations": [
         {
-          "label": "Monday November 23 KOSPI opening, 9:00 AM KST / Sunday 7:00 PM EST",
-          "value": "KOSPI 4,734.90, -135.06 points (-2.77%) vs Friday close 4,869.96; Korea Exchange figures independently reported by Seoul Economic Daily and Aju Press; opening, not close"
+          "label": "Official announcement, Nov 23 2026",
+          "value": "Definitive $43.9B all-stock agreement; 1.135 CRWD shares per ZS share; $260.41 implied per ZS share at Nov 20 CRWD close; ~34% premium; board-approved, not completed"
         },
         {
-          "label": "Chip shares, 9:04–9:15 AM KST",
-          "value": "Samsung Electronics down approximately 3.17–3.39%; SK Hynix down approximately 2.34–2.61%; indicative early-session reports, not settlement"
+          "label": "Early Nov 23 premarket reaction (not closing prices)",
+          "value": "Associated Press reported CRWD approximately -7.4%, ZS approximately +18.6%; time-sensitive premarket indications, not confirmed settlement"
         },
         {
-          "label": "U.S. index futures, Sunday early evening EST",
-          "value": "Reuters reported Nasdaq-100 futures up roughly 2–3% and S&P 500 futures up about 1–2%; intraday indicative futures, not confirmed cash-market closes"
+          "label": "Fundamental context",
+          "value": "CrowdStrike Q3 FY27 revenue $1.58B, +28% YoY; ARR $6.26B, +27% YoY; net new ARR $419M; combined company expected over $10B annual recurring revenue"
         },
         {
-          "label": "Policy status and fundamental interpretation",
-          "value": "South Korean authorities prepared a stabilization fund but no actual deployment confirmed. Price weakness is a liquidity/valuation signal, not direct proof of deterioration in semiconductor earnings or HBM demand"
+          "label": "Completion and conditions",
+          "value": "Expected H2 CrowdStrike FY2028; subject to ZS shareholder approval, regulatory clearances and customary conditions; companies remain independent until close"
         },
         {
-          "label": "Risks, invalidation, next indicators",
-          "value": "Watch KOSPI closing breadth, foreign and institutional flows, Samsung/SK Hynix earnings/orders, actual stabilization-fund deployment, and persistence of U.S. futures rebound. Strong breadth and sustained foreign inflows would weaken acute stress thesis"
+          "label": "Risks, invalidation and indicators",
+          "value": "Track integration/cross-sell progress, overlap and customer churn, dilution, regulatory review, combined margin/free cash flow outlook, shareholder vote, deal spread and regular-session prices; failed approvals or declining recurring revenue would undermine thesis"
         }
       ],
-      "key_finding": "Korean semiconductor-led selling persisted at Monday's open despite policy support, while U.S. equity futures rebounded; no closing confirmation yet.",
+      "key_finding": "A confirmed $43.9B cyber-platform merger materially reshapes endpoint and zero-trust security, with large strategic opportunity and integration risk.",
       "sources": [
         {
-          "title": "Seoul Economic Daily November 23: KOSPI opens down 2.77%, chip stocks and policy context",
-          "url": "https://en.sedaily.com/market/2026/11/23/kospi-opens-down-28-percent-as-emergency-measures-blunt"
+          "title": "CrowdStrike official Nov 23 acquisition announcement",
+          "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-acquire-zscaler-bringing-network-security-and-zero"
         },
         {
-          "title": "Aju Press November 23: Korea Exchange opening figures",
-          "url": "https://www.ajupress.com/view/20261123090855874"
+          "title": "SEC filed merger press release, Nov 23",
+          "url": "https://www.sec.gov/Archives/edgar/data/1535527/000110465926130801/tm2630454d2_ex99-1.htm"
         },
         {
-          "title": "Reuters November 22 evening: U.S. futures bounce and Asia markets slide",
-          "url": "https://new.streetinsider.com/Reuters/US%2Bfutures%2Bbounce%2Bwhile%2BAsia%2Bmarkets%2Bbrace%2Bfor%2BAI%2Bwipeout/27383090.html"
+          "title": "CrowdStrike Q3 FY2027 earnings release",
+          "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-third-quarter-fiscal-year-2027-financial"
+        },
+        {
+          "title": "Associated Press Nov 23 U.S. futures and premarket reaction",
+          "url": "https://apnews.com/article/49ba1beba78fa4ed2bd5898029f79c91"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261123-0759-asia-chip-divergence",
+      "observed_at": "2026-11-23T07:59:31-05:00",
+      "title": "KOSPI closes down 3.31% while Taiwan TAIEX rebounds 2.16% after stabilization measures",
+      "summary": "South Korea's KOSPI closed November 23 down 3.31% at 4,708.54, with 824 decliners against 71 gainers, despite announced market support. Taiwan's TAIEX rose 2.16% to 36,811.89, with TSMC gaining around 2%. The divergent closes suggest region-specific liquidity stress rather than uniform semiconductor weakness. Policy measures do not establish improved underlying AI demand.",
+      "tickers": [
+        "EWY",
+        "EWT",
+        "TSM",
+        "005930.KS",
+        "000660.KS"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "International equities",
+        "Market liquidity"
+      ],
+      "evidence_grade": "confirmed",
+      "observations": [
+        {
+          "label": "Nov 23 KOSPI regular-session close, Yonhap and MoneyToday",
+          "value": "4,708.54, -161.42 points (-3.31%); session low 4,586.80; 824 decliners versus 71 advancers; Korea stabilization fund prepared but deployment not confirmed"
+        },
+        {
+          "label": "Nov 23 Taiwan TAIEX regular-session close, Trading Economics and Financial News",
+          "value": "36,811.89, +2.16% (~+779 points); TSMC +2.0%; short-sale restriction effective Nov 23; independent closing figures agree within rounding"
+        },
+        {
+          "label": "Fundamental significance",
+          "value": "Semiconductor selloff diverges geographically amid government liquidity responses; does not by itself prove deterioration in HBM, foundry orders or AI capex"
+        },
+        {
+          "label": "Risks and next indicators",
+          "value": "Track foreign flows, market breadth, stabilization fund deployment, TSMC and memory order guidance, chip earnings revisions, credit conditions and next sessions; sustained Korean breadth recovery would weaken liquidity-stress signal"
+        }
+      ],
+      "key_finding": "Confirmed Monday closes show Korea semiconductor-market stress persisting while Taiwan rebounded, an important cross-market divergence.",
+      "sources": [
+        {
+          "title": "Yonhap November 23 KOSPI close",
+          "url": "https://en.yna.co.kr/view/AEN20261123006652320"
+        },
+        {
+          "title": "MoneyToday November 23 KOSPI breadth and close",
+          "url": "https://www.mt.co.kr/en/stock/2026/11/23/2026112315194830663"
+        },
+        {
+          "title": "Taiwan TAIEX close, Trading Economics November 23",
+          "url": "https://tradingeconomics.com/taiwan/stock-market/news/603413"
+        },
+        {
+          "title": "Taiwan close, Financial News November 23",
+          "url": "https://en.fnnews.com/news/202611231728589259"
         }
       ],
       "status": "updated",
-      "supersedes": "scout-20261122-1431-korea-stabilization"
+      "supersedes": "scout-20261122-2036-kospi-reopen"
     },
     {
       "id": "scout-20261122-1727-china-margin-easing",
@@ -229,64 +290,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261122-1229-argentina-credit",
-      "observed_at": "2026-11-22T12:29:06-05:00",
-      "title": "Argentina sovereign borrowing spreads jump to roughly 1,070 basis points amid 2027 refinancing concerns",
-      "summary": "Independent Argentine market reports put the November 20 sovereign risk premium around 1,070 basis points, up roughly 140 points on Friday and 240 over the week. Financial Times reporting on November 22 highlights political uncertainty and major 2027 dollar debt maturities. Local export growth offers support, but market access and refinancing remain under pressure.",
-      "tickers": [
-        "ARGT",
-        "GGAL",
-        "YPF"
-      ],
-      "sectors": [
-        "Emerging-market sovereign credit",
-        "International equities and ADRs",
-        "Argentine financials"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Friday November 20, 2026, sovereign-risk market close",
-          "value": "Independent local analyses report JPMorgan EMBI Argentina around 1,070-1,071 bp; source rounding differs by 1 bp, so exact close is not asserted"
-        },
-        {
-          "label": "Scale of repricing as of Friday close",
-          "value": "About +140 bp November 20 versus 931 bp Thursday; about +240 bp over November 16-20; domestic dollar sovereign bonds lost approximately 8% on the week (local research estimate)"
-        },
-        {
-          "label": "Catalyst, fundamentals and significance",
-          "value": "2027 dollar-denominated refinancing pressure, 2027 election uncertainty, global risk aversion and reduced BCRA dollar purchases; October trade surplus $3.394B and export growth +26.4% YoY offer a partial fundamental offset, not a refinancing solution"
-        },
-        {
-          "label": "Risks, invalidation and next indicators",
-          "value": "Watch renewed reserve accumulation, Argentina sovereign bond prices and spreads, Treasury auctions and rollovers, 2027 budget progress, external financing and US/multilateral support; credible funding plan plus retreating spreads would soften stress signal; ADRs are sector proxies, not measured Sunday price reactions"
-        }
-      ],
-      "key_finding": "Argentina sovereign spreads near 1,070 bp flag a sharp, independently corroborated credit dislocation as 2027 refinancing approaches.",
-      "sources": [
-        {
-          "title": "Financial Times, Argentina borrowing costs and Milei political risk, November 22",
-          "url": "https://www.ft.com/content/f3ecede4-74a3-431a-89c5-a06fcd30812a"
-        },
-        {
-          "title": "Pizarra y Tasa independent weekly Argentina market figures, November 21",
-          "url": "https://pizarraytasa.com/informes/informe-semanal-2026-11-21/"
-        },
-        {
-          "title": "Becerra Bursatil sovereign-credit close November 20",
-          "url": "https://bbsa.com.ar/blog/cierre-de-mercados-20-noviembre-2026/"
-        },
-        {
-          "title": "Buenos Aires Herald sovereign-bond decline and political risk, November 20",
-          "url": "https://buenosairesherald.com/politics/country-risk-jumps-10-and-tops-1000-points-amid-another-bond-sell-off"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-22T20:36:08-05:00",
+  "last_checked_at": "2026-11-23T07:59:31-05:00",
   "last_check_status": "new_findings"
 }
