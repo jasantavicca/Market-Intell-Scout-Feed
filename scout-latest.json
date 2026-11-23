@@ -1,8 +1,68 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-23T13:27:03-05:00",
-  "as_of_et": "November 23, 2026, 1:27 PM EST",
+  "generated_at": "2026-11-23T14:29:00-05:00",
+  "as_of_et": "November 23, 2026, 2:29 PM EST",
   "items": [
+    {
+      "id": "scout-20261123-1429-arm-haas-retention",
+      "observed_at": "2026-11-23T14:29:00-05:00",
+      "title": "Arm CEO Rene Haas extends leadership commitment through 2033; shares rebound sharply",
+      "summary": "Arm announced November 23 that CEO Rene Haas agreed to lead through 2033 and become SoftBank vice chairman on December 1. ARM traded at $177.86, up 16.86%, at 10:05 AM EST, an intraday indication amid a broad chip rally. The agreement reduces leadership uncertainty but does not validate sales growth; elements of the retention arrangement require shareholder approval.",
+      "tickers": [
+        "ARM",
+        "9984.T"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI computing",
+        "Processor intellectual property",
+        "Embedded systems"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Company announcement, Nov 23, 2026",
+          "value": "Arm confirmed CEO Rene Haas leadership commitment through 2033 and SoftBank Group vice-chairmanship effective Dec 1, 2026; Reuters corroborated"
+        },
+        {
+          "label": "ARM equity intraday quote, Nov 23, 10:05 AM EST",
+          "value": "$177.86, +16.86% relative to previous close (MarketScreener real-time Cboe BZX estimate); not settlement or confirmed closing price"
+        },
+        {
+          "label": "SEC filing, Nov 23",
+          "value": "Arm Form 6-K says elements of Haas retention arrangement will be submitted for shareholder approval at a later general meeting"
+        },
+        {
+          "label": "Fundamental significance",
+          "value": "Preserves continuity of the management driving Arm's move into data-center/AI computing architecture; doesn't establish increased royalties, order backlog or new chip demand"
+        },
+        {
+          "label": "Risks, invalidation and next indicators",
+          "value": "Watch retention-related shareholder vote, licensing/royalty growth, data-center chip revenue, customer concentration and margins; failed approval or worsening growth would weaken sentiment"
+        }
+      ],
+      "key_finding": "Arm officially retained its CEO through 2033, reducing leadership uncertainty amid a large chip-stock rebound; shareholder approval for some terms remains outstanding.",
+      "sources": [
+        {
+          "title": "Arm Newsroom official CEO commitment, Nov 23, 2026",
+          "url": "https://newsroom.arm.com/news/arm-ceo-rene-haas-long-term-commitment-to-lead-companys-next-phase-of-growth"
+        },
+        {
+          "title": "Arm SEC Form 6-K, Nov 23, 2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000155/arm-20261123.htm"
+        },
+        {
+          "title": "Reuters reporting on Haas agreement, Nov 23, 2026",
+          "url": "https://www.investing.com/news/stock-market-news/arms-haas-extends-contract-to-lead-chip-firm-through-2033-amid-nvidia-top-job-chatter-5045460"
+        },
+        {
+          "title": "Dow Jones ARM intraday stock move via MarketScreener",
+          "url": "https://ca.marketscreener.com/news/arm-stock-gains-as-ceo-rene-haas-extends-contract-ce7851dada81ff25"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261123-1327-capricor-fda-crl",
       "observed_at": "2026-11-23T13:27:03-05:00",
@@ -234,65 +294,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261123-1034-cms-ma-reform",
-      "observed_at": "2026-11-23T10:34:28-05:00",
-      "title": "Medicare Advantage insurers slide after CMS Star Ratings rule threatens future industry payments",
-      "summary": "CMS proposed Medicare Advantage Star Ratings revisions on November 20. At Monday's open, UnitedHealth fell about 4.5%, Humana 3.7% and CVS 3.5%, despite a technology-driven market rebound. Analysts estimate approximately $107 billion in lower industry payments during 2028-2037 if implemented. The rule remains a proposal, not an enacted cut.",
-      "tickers": [
-        "UNH",
-        "HUM",
-        "CVS",
-        "ELV"
-      ],
-      "sectors": [
-        "Healthcare",
-        "Managed care",
-        "Insurance regulation"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 23 U.S. opening session, not confirmed closes",
-          "value": "MarketWatch observed UNH -4.5%, HUM -3.7%, CVS -3.5%; price moves approximate and intraday"
-        },
-        {
-          "label": "Government policy source",
-          "value": "CMS issued Contract Year 2028 MA/Part D proposed rule CMS-4214-P2 on November 20, 2026, including Star Ratings changes; not final"
-        },
-        {
-          "label": "Potential industry impact, not realized losses",
-          "value": "Analyst estimate reported by market media: approximately $107 billion in lower total Medicare Advantage industry payments during 2028-2037, about $11.5 billion in 2031, contingent on final rule"
-        },
-        {
-          "label": "Fundamentals",
-          "value": "Lower quality ratings and bonus eligibility could pressure insurer revenue, margins, plans and member benefits; effect varies by contract and enrollment"
-        },
-        {
-          "label": "Risks/invalidation and next indicators",
-          "value": "Follow comments, final CMS text, company guidance, plan ratings, enrollment and benefit changes; significantly softened regulation, delayed dates, or offsetting quality improvements weaken risk"
-        }
-      ],
-      "key_finding": "A formal CMS proposal and corroborated sector selling highlight substantial potential future Medicare Advantage payment pressure.",
-      "sources": [
-        {
-          "title": "CMS official November 20 2026 proposal and Star Ratings details",
-          "url": "https://www.cms.gov/newsroom/fact-sheets/contract-year-2028-policy-technical-changes-medicare-advantage-program-medicare-prescription-drug"
-        },
-        {
-          "title": "MarketWatch November 23 insurer opening moves",
-          "url": "https://www.marketwatch.com/story/unitedhealth-humana-and-cvs-stocks-slide-as-u-s-targets-medicare-advantage-ratings-6c2be5bb"
-        },
-        {
-          "title": "Investing.com November 23 insurer rating impact estimate",
-          "url": "https://ph.investing.com/news/stock-market-news/health-insurer-stocks-slide-as-medicare-advantage-proposal-threatens-payments-2716704"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-23T13:27:03-05:00",
+  "last_checked_at": "2026-11-23T14:29:00-05:00",
   "last_check_status": "new_findings"
 }
