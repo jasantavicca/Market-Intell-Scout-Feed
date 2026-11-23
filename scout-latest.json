@@ -1,8 +1,118 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-23T11:33:18-05:00",
-  "as_of_et": "November 23, 2026, 11:33 AM EST",
+  "generated_at": "2026-11-23T12:35:35-05:00",
+  "as_of_et": "November 23, 2026, 12:35 PM EST",
   "items": [
+    {
+      "id": "scout-20261123-1235-oracle-financing-rebound",
+      "observed_at": "2026-11-23T12:35:35-05:00",
+      "title": "Oracle rebounds 13% at midday after stating OpenAI compute expansion financing is in place",
+      "summary": "Oracle shares rose 13.2% around noon ET November 23, after the company said it had secured financing for its OpenAI data-center contract. Oracle closed roughly $20 billion of equity and debt fundraising earlier in November, following a 19.3% share decline last week. Funding availability is company-reported, not proof of built capacity, customer utilization or future free cash flow.",
+      "tickers": [
+        "ORCL"
+      ],
+      "sectors": [
+        "Cloud software",
+        "AI infrastructure",
+        "Data centers",
+        "Capital markets"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Nov 23 2026 around noon EST (intraday, AP)",
+          "value": "Oracle shares +13.2%; first session reflecting the Nov 20 post-close financing statement; not closing price"
+        },
+        {
+          "label": "Opening response, Nov 23 9:30 AM EST (FinanceFeeds/TradingView)",
+          "value": "ORCL $116.24, +14.87% versus Nov 20 close $101.19; previous week approximately -19.3%"
+        },
+        {
+          "label": "Nov 20 official issuer statement and fundraising",
+          "value": "Oracle says all funding for OpenAI infrastructure contract secured, including vendor financing; November ~$20B stock and notes raise; remaining vendor discussions optional according to Oracle"
+        },
+        {
+          "label": "Infrastructure milestones and fundamental assessment",
+          "value": "Abilene nearly complete and Shackelford fully permitted by Oracle's account; Vera Rubin racks expected in coming weeks. Financing is not delivered compute or positive cash flow; management projects FCF positive H2 FY2028 and >$30B FY2029"
+        },
+        {
+          "label": "Risks, invalidation and indicators",
+          "value": "Track financing details and filings, power delivery, datacenter handover, Vera Rubin shipments, customer utilization and payments, leverage/credit spreads, execution delays and next earnings; funding shortfall or missed deployments would undermine the relief rally"
+        }
+      ],
+      "key_finding": "Oracle's issuer-reported AI funding readiness supported a double-digit equity rebound, but execution and free-cash-flow risks remain.",
+      "sources": [
+        {
+          "title": "Oracle official statement November 20, 2026",
+          "url": "https://www.oracle.com/news/announcement/oracle-statement-2026-11-20/"
+        },
+        {
+          "title": "Associated Press November 23 noon equity-market report",
+          "url": "https://apnews.com/article/stocks-markets-rates-technology-ai-anthropic-49ba1beba78fa4ed2bd5898029f79c91"
+        },
+        {
+          "title": "Reuters November 20 Oracle financing and $20B capital raise",
+          "url": "https://www.investing.com/news/stock-market-news/oracle-says-openai-infrastructure-deal-is-fully-funded-after-final-capital-raise-5042771"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261123-1235-tesla-fsd-v15",
+      "observed_at": "2026-11-23T12:35:35-05:00",
+      "title": "Tesla rebounds about 13% as FSD Supervised v15 begins limited AI4 deployment",
+      "summary": "Tesla traded about 13% higher at $391.42 near 11:32 AM EST on November 23 amid the broad technology rebound and a limited rollout of FSD (Supervised) v15 that began November 21. The release upgrades vision encoding, driving visualization, navigation and monitoring. Tesla's claimed 25-fold improvement in critical safety intervention handling has not been independently verified; supervised operation is still required.",
+      "tickers": [
+        "TSLA"
+      ],
+      "sectors": [
+        "Automotive technology",
+        "Embedded AI",
+        "Mobility",
+        "Software"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 23 11:32 AM EST, Dow Jones Newswires (intraday)",
+          "value": "TSLA $391.42, about +13% on the day, rebound coinciding with broader AI rally"
+        },
+        {
+          "label": "November 23 11:28:14 AM EST, Yahoo Finance (intraday)",
+          "value": "TSLA $390.46, +12.91%; independently supports size of the observed rise"
+        },
+        {
+          "label": "Technology rollout, November 21-23",
+          "value": "FSD (Supervised) v15.0.1 is rolling out initially to AI4 vehicles; upgraded video encoder, Reality View, parking, navigation and driver monitoring; early deployment not broad availability"
+        },
+        {
+          "label": "Fundamental distinction",
+          "value": "Software deployment confirms engineering release milestone, not proven higher paid subscription adoption, regulatory autonomy authorization or fleetwide safety improvement; 25x claim unvalidated"
+        },
+        {
+          "label": "Risks, invalidation and indicators",
+          "value": "Track independent miles per critical intervention, NHTSA investigations, releases to wider fleet, subscription conversion, customer disengagements, safety outcomes, and whether share recovery persists; adverse safety findings would weaken the thesis"
+        }
+      ],
+      "key_finding": "Tesla's limited FSD v15 release coincided with a roughly 13% intraday rebound, but its safety and commercial benefits are unproven.",
+      "sources": [
+        {
+          "title": "Dow Jones Newswires November 23 Tesla shares and FSD rollout",
+          "url": "https://ca.marketscreener.com/news/tesla-shares-gain-on-new-self-driving-software-amid-broader-market-rally-ce7851dadd8ef726"
+        },
+        {
+          "title": "The Verge November 23 FSD v15 release and NHTSA context",
+          "url": "https://www.theverge.com/transportation/1039919/tesla-fsd-v15-reality-view-gta-nhtsa-safety-rollout"
+        },
+        {
+          "title": "Tesla software rollout tracker",
+          "url": "https://www.notateslaapp.com/SOFTWARE-UPDATES/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261123-1133-sharara-restart-crude",
       "observed_at": "2026-11-23T11:33:18-05:00",
@@ -178,125 +288,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261123-0934-nvidia-ceo-return",
-      "observed_at": "2026-11-23T09:34:54-05:00",
-      "title": "Nvidia reinstates Jensen Huang as CEO; shares surge nearly 29% premarket as AI stocks rebound",
-      "summary": "Nvidia's board unanimously reinstated Jensen Huang as president, CEO and director, reversing his November 12 resignation. Nvidia shares jumped approximately 28% before Monday's opening bell and Nasdaq-100 futures gained roughly 6–7%, according to contemporaneous market reporting. The decision reduces near-term leadership uncertainty, but an independent investigation and export-control risks remain unresolved.",
-      "tickers": [
-        "NVDA",
-        "SOXX",
-        "CRWV",
-        "NBIS"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "AI infrastructure",
-        "US equities",
-        "Corporate governance"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Official company announcement, Nov 23 2026",
-          "value": "Nvidia board unanimously reinstated Jensen Huang as President, Chief Executive Officer and board director effective immediately; Harvey C. Jones remains chair and Colette Kress CFO."
-        },
-        {
-          "label": "NVDA premarket, before 09:30 EST Nov 23 (not close)",
-          "value": "MarketWatch/Dow Jones Market Data reported NVDA roughly +28% to $161.88 versus the Nov 20 close; other sources showed up to +30% before the open. Indicative premarket, not confirmed settlement."
-        },
-        {
-          "label": "Related market indications, Monday morning Nov 23",
-          "value": "Financial Times and Barron's report Nasdaq-100 futures up approximately 6–7% and broad chip-stock strength; futures are not cash-session closing moves."
-        },
-        {
-          "label": "Fundamental assessment",
-          "value": "Nvidia reported fiscal Q3 2027 revenue around $116B, more than double prior year, with data-center revenue $107.6B. Leadership continuity does not eliminate valuation, financing, export-control or AI demand sustainability risk."
-        },
-        {
-          "label": "Unresolved risks and invalidation; next indicators",
-          "value": "Independent board investigation continues; a national-security/export-control committee and Chief Compliance Officer search are underway. Watch regular-session NVDA/SOXX breadth, AI infrastructure proxies, Treasury yields, export-control disclosures and investigation findings; a rapid rally reversal would weaken the stabilization signal."
-        }
-      ],
-      "key_finding": "Confirmed Huang reinstatement triggered an extraordinary premarket semiconductor rally while governance investigations remain active.",
-      "sources": [
-        {
-          "title": "Nvidia official Nov 23 board reinstatement release (PDF)",
-          "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/6b04462d3d63321add7499dc/"
-        },
-        {
-          "title": "Associated Press Nov 23: Nvidia board unanimously reinstates Huang",
-          "url": "https://apnews.com/article/39d4b34ffaa867b4e669893b5fd5028f"
-        },
-        {
-          "title": "MarketWatch Nov 23: Nvidia up 28% premarket to $161.88",
-          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-slides-tech-rout-anthropic-ipo/card/nvidia-shares-up-nearly-30-ahead-of-the-bell-on-track-for-biggest-jump-since-2016-Wu15haCJ8PIKxZVa1JOh"
-        },
-        {
-          "title": "Financial Times Nov 23: AI stocks, US futures rebound on reinstatement",
-          "url": "https://www.ft.com/content/0f5a7285-fbf1-4120-86df-c9cca29644fc"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261123-0834-apld-hyperscaler-lease",
-      "observed_at": "2026-11-23T08:34:54-05:00",
-      "title": "Applied Digital signs $5.4 billion 18-year AI data-center lease and closes $300 million bridge financing",
-      "summary": "Applied Digital announced a 150 MW, 18-year hyperscaler lease representing about $5.4 billion in contracted base-term revenue, taking its lease portfolio above $41 billion. It also closed a $300 million one-year secured bridge loan for its Louisiana data-center campus. Premarket shares rose approximately 13.4% at 8:02 a.m. ET. Contracted revenue is not delivered capacity, and construction, grid access and financing risks remain.",
-      "tickers": [
-        "APLD"
-      ],
-      "sectors": [
-        "AI infrastructure",
-        "Data centers",
-        "Power and grid",
-        "Infrastructure finance"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Official company announcement, Nov 23, 8:00 AM EST",
-          "value": "18-year lease for 150 MW critical IT capacity with tier-one investment-grade hyperscaler; approximately $5.4B base-term contractual revenue, or ~$12.7B if all renewal options exercised; total portfolio contracted base revenue over $41B"
-        },
-        {
-          "label": "Financial facility, company press release Nov 23",
-          "value": "$300M senior secured delayed-draw bridge facility for Delta Forge 1, Louisiana; 364-day maturity at SOFR + 300 basis points; project collateral and conditions; additional financing required"
-        },
-        {
-          "label": "Premarket indicative market move, Nov 23 8:02 AM EST, StockTitan",
-          "value": "APLD approximately +13.40% versus Nov 20 regular-session close; premarket indication only; no confirmed Nov 23 closing price"
-        },
-        {
-          "label": "Fundamental importance",
-          "value": "Long-term hyperscaler contracting supports lease revenue visibility but requires grid-connected, completed, operational facilities; contracted value is not current income"
-        },
-        {
-          "label": "Risks, invalidation, next indicators",
-          "value": "Follow utility rate approvals and energization milestones, completion funding, debt refinancing, construction schedule, tenant credit and concentration, live MW utilization and regular-session market reaction; delays or lost lease would undermine thesis"
-        }
-      ],
-      "key_finding": "A new $5.4B AI infrastructure lease strengthens contracted demand while a 364-day $300M loan emphasizes execution and refinancing risk.",
-      "sources": [
-        {
-          "title": "Applied Digital 150 MW lease release, November 23",
-          "url": "https://www.stocktitan.net/news/APLD/applied-digital-secures-new-150-mw-18-year-lease-with-tier-one-eyghorn9ce7n.html"
-        },
-        {
-          "title": "Applied Digital official $300M bridge facility release",
-          "url": "https://ir.applieddigital.com/news-events/press-releases/detail/164/applied-digital-announces-300-million-senior-secured"
-        },
-        {
-          "title": "StockTitan November 23 timestamped premarket observation",
-          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-23-2026"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-23T11:33:18-05:00",
+  "last_checked_at": "2026-11-23T12:35:35-05:00",
   "last_check_status": "new_findings"
 }
