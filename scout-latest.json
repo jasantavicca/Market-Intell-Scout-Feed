@@ -1,8 +1,165 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-24T17:31:07-05:00",
-  "as_of_et": "November 24, 2026, 5:31 PM EST",
+  "generated_at": "2026-11-24T18:31:05-05:00",
+  "as_of_et": "November 24, 2026, 6:31 PM EST",
   "items": [
+    {
+      "id": "scout-20261124-1831-ambarella-memory",
+      "observed_at": "2026-11-24T18:31:05-05:00",
+      "title": "Ambarella plunges after hours as memory shortages force customers to cut outlooks",
+      "summary": "Ambarella reported record edge-AI revenue but weaker consumer IoT sales and worsening memory supply constraints. Next-quarter revenue guidance signals a major sequential decline. Shares fell sharply after hours, highlighting real supply-chain and demand risks for embedded electronics outside hyperscale data centers.",
+      "tickers": [
+        "AMBA"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "Edge AI",
+        "Embedded systems",
+        "Automotive",
+        "IoT"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "After-hours price, Nov 24 5:06 PM EST",
+          "value": "$27.50, -38.16% versus regular-session close; indicative, not closing data. StockMarketWatch showed -32.09% at 4:44 PM EST."
+        },
+        {
+          "label": "Official quarterly results",
+          "value": "Revenue $115.2M (+6.2% YoY), GAAP net loss $12.7M, cash and marketable debt securities $282.8M."
+        },
+        {
+          "label": "Official Q4 FY2027 outlook",
+          "value": "Revenue $70–75M; management cites escalating memory prices, scarcity and reduced customer forecasts."
+        },
+        {
+          "label": "Risks and indicators",
+          "value": "Monitor memory allocation and pricing, customer production, design wins and revenue revisions; sustained supply relief and customer forecast recovery would weaken the deterioration signal."
+        }
+      ],
+      "key_finding": "Memory shortages are translating into material revenue risk for an edge-AI semiconductor supplier despite record edge-AI sales.",
+      "sources": [
+        {
+          "title": "Ambarella official earnings release",
+          "url": "https://www.globenewswire.com/news-release/2026/11/24/3409869/0/en/ambarella-inc-announces-third-quarter-fiscal-year-2027-financial-results.html"
+        },
+        {
+          "title": "Stock Analysis AMBA quote",
+          "url": "https://stockanalysis.com/stocks/amba/"
+        },
+        {
+          "title": "StockMarketWatch AMBA after-hours quotes",
+          "url": "https://stockmarketwatch.com/stock/AMBA/afterhours"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261124-1831-goodrx-recovery",
+      "observed_at": "2026-11-24T18:31:05-05:00",
+      "title": "GoodRx rebounds approximately 23% after reporting improved cash flow and restating results",
+      "summary": "GoodRx raised annual guidance and filed delayed financial reports after strong growth in direct pharmaceutical programs. Cash generation improved, but legacy prescription revenue fell and earlier results required restatement following a control investigation. Nasdaq compliance confirmation and control remediation remain outstanding.",
+      "tickers": [
+        "GDRX"
+      ],
+      "sectors": [
+        "Healthcare technology",
+        "Pharmaceutical services"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "After-hours Nov 24 4:51 PM EST",
+          "value": "$3.69, +23.00% per Stock Analysis; StockMarketWatch $3.67, +22.37%; indicative quotes."
+        },
+        {
+          "label": "Official Q3 results",
+          "value": "Revenue $218.4M (+11% YoY), net income $16.4M, free cash flow $81.1M versus $58M."
+        },
+        {
+          "label": "Business mix",
+          "value": "Pharma Direct +93% YoY; subscriptions +41%; prescription transactions -20%."
+        },
+        {
+          "label": "Governance and next indicators",
+          "value": "Prior-period restatements followed findings of overridden controls; monitor Nasdaq compliance, remediation, customer retention and sustained cash generation."
+        }
+      ],
+      "key_finding": "GoodRx's business-model transition shows stronger cash generation, but accounting controls and legacy declines remain material risks.",
+      "sources": [
+        {
+          "title": "SEC official GoodRx earnings disclosure",
+          "url": "https://www.sec.gov/Archives/edgar/data/1809519/000180951926000231/gdrxq326-exx991pressrelease.htm"
+        },
+        {
+          "title": "StreetInsider restatement and results report",
+          "url": "https://www.streetinsider.com/Corporate%2BNews/GoodRx%2BQ3%2B2026%2Brevenue%2Brises%2B11%25%3B%2Bcompany%2Brestates%2Bearlier%2Bresults/27395688.html"
+        },
+        {
+          "title": "Stock Analysis GDRX price history and after-hours quote",
+          "url": "https://stockanalysis.com/stocks/gdrx/history/"
+        },
+        {
+          "title": "StockMarketWatch GDRX after-hours quote",
+          "url": "https://stockmarketwatch.com/stock/GDRX/afterhours"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261124-1831-oil-settlement",
+      "observed_at": "2026-11-24T18:31:05-05:00",
+      "title": "Oil settles more than 2% higher; separate UKMTO reports clarify previously reported Hormuz incidents",
+      "summary": "Reuters and the Wall Street Journal independently report higher Tuesday crude settlements. Additional UKMTO documentation details previously reported vessel strikes rather than three additional attacks. The price rebound is consistent with renewed geopolitical risk pricing, not verified incremental physical supply loss.",
+      "tickers": [
+        "XLE",
+        "XOP",
+        "CL",
+        "BRN"
+      ],
+      "sectors": [
+        "Energy",
+        "Maritime shipping"
+      ],
+      "evidence_grade": "confirmed",
+      "observations": [
+        {
+          "label": "Nov 24 settlement, Reuters and WSJ",
+          "value": "Brent $91.40 (+2.27%), WTI $82.05 (+2.35%)."
+        },
+        {
+          "label": "Maritime update",
+          "value": "UKMTO Warning 221-26 documents one of the previously reported vessel incidents dated Nov 22; crew accounted for and tanker continued voyage. Damage and environmental impact remain unknown."
+        },
+        {
+          "label": "Next indicators",
+          "value": "EIA report Nov 25, verified tanker flows, insurance costs, refinery throughput and price persistence; stable flows and rising stocks would weaken shortage thesis."
+        }
+      ],
+      "key_finding": "Corroborated oil settlements confirm a rebound without evidence of additional physical export losses.",
+      "sources": [
+        {
+          "title": "Reuters settlement figures via Forbes Middle East",
+          "url": "https://forbesmiddleeast.com/industry/energy/brent-crude-rises-227-to-9140-wti-gains-235-to-8205"
+        },
+        {
+          "title": "Wall Street Journal crude settlement report",
+          "url": "https://www.wsj.com/finance/commodities-futures/oil-futures-edge-higher-on-likely-technical-recovery-3d1650f7"
+        },
+        {
+          "title": "UKMTO Warning 221-26",
+          "url": "https://www.ukmto.org/-/media/ukmto/products/20261124-ukmto_warning_221-26.pdf?rev=26e3f50218144bbcb7ea1d5906b63bdd"
+        },
+        {
+          "title": "Crewboard incident documentation update",
+          "url": "https://crew-board.net/news/hormuz-gulf-ship-attacks-mid-october-2026"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261124-1420-hormuz-three-vessels"
+    },
     {
       "id": "scout-20261124-1731-nutanix-succession",
       "observed_at": "2026-11-24T17:31:07-05:00",
@@ -102,150 +259,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261124-1631-dell-ai-backlog",
-      "observed_at": "2026-11-24T16:31:01-05:00",
-      "title": "Dell raises FY2027 outlook as AI server backlog reaches $132.3 billion",
-      "summary": "Dell reported quarterly revenue of $54.94 billion and adjusted EPS of $9.45, substantially above expectations. AI orders and backlog reached record levels, and management raised annual revenue guidance to $202 billion. Shares recovered modestly after hours following a severe regular-session decline. Financing, power availability and backlog conversion remain key risks.",
-      "tickers": [
-        "DELL",
-        "NVDA"
-      ],
-      "sectors": [
-        "AI infrastructure",
-        "Networking",
-        "Servers"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 24 post-close earnings",
-          "value": "Revenue $54.94B; adjusted EPS $9.45 vs consensus approximately $6.60; quarterly AI orders $60.2B; backlog $132.3B."
-        },
-        {
-          "label": "Revenue outlook",
-          "value": "FY2027 revenue $202B vs prior $192B; AI server revenue guidance $78B vs $74B; traditional servers and networking quarterly revenue +235% YoY."
-        },
-        {
-          "label": "Reported price reaction, early after-hours November 24",
-          "value": "Investor's Business Daily reported more than 13% regular-session decline and more than 2% after-hours gain; not independently verified closing prices."
-        },
-        {
-          "label": "Risks and next indicators",
-          "value": "Customer financing, power and land readiness, order conversion, shipment timing, margins, cash generation and earnings call."
-        }
-      ],
-      "key_finding": "Record orders and raised guidance support continued AI infrastructure demand, while deployment and financing risks remain.",
-      "sources": [
-        {
-          "title": "Dell official third-quarter FY2027 results",
-          "url": "https://investors.delltechnologies.com/news-events/press-releases/detail/1665/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results"
-        },
-        {
-          "title": "Investor's Business Daily earnings and share reaction",
-          "url": "https://www.investors.com/news/technology/dell-stock-fiscal-q3-2027-earnings/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261124-1631-workday-ai-contracts",
-      "observed_at": "2026-11-24T16:31:01-05:00",
-      "title": "Workday reports tripling of new AI contract value and raises guidance",
-      "summary": "Workday reported nearly $150 million in new AI annual contract value, more than triple the year-earlier amount. Subscription revenue and free cash flow increased, and management raised annual subscription revenue and margin guidance. The disclosure indicates commercial enterprise AI adoption, but contract value is not recognized revenue.",
-      "tickers": [
-        "WDAY"
-      ],
-      "sectors": [
-        "Enterprise software",
-        "AI applications"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 24 4:02 PM EST earnings release",
-          "value": "Quarterly total revenue $2.705B (+11.2% YoY); subscription revenue $2.532B (+12.8%); adjusted EPS $2.82; free cash flow $691M vs $550M."
-        },
-        {
-          "label": "Commercial AI adoption",
-          "value": "Nearly $150M new AI annual contract value, over 3x year-earlier level; not recognized revenue."
-        },
-        {
-          "label": "Full-year guidance",
-          "value": "Subscription revenue $9.958B, +13%; adjusted operating margin 31.5%; both raised."
-        },
-        {
-          "label": "Price and risks",
-          "value": "Post-release share reaction not independently established; monitor contract conversion, renewal rates, deployment costs and margins."
-        }
-      ],
-      "key_finding": "Workday's AI contract growth supplies evidence of enterprise AI monetization beyond infrastructure spending.",
-      "sources": [
-        {
-          "title": "Workday earnings release via PRNewswire and MarketScreener",
-          "url": "https://www.marketscreener.com/news/workday-announces-fiscal-2027-third-quarter-financial-results-ce7851dbdd81f527"
-        },
-        {
-          "title": "24/7 Wall St. earnings coverage",
-          "url": "https://247wallst.com/cards/workday-q3-2027-earnings-wday-01m87nz6e3htxthz1pvw3sh3dh"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261124-1530-adi-dislocation",
-      "observed_at": "2026-11-24T15:30:27-05:00",
-      "title": "Analog Devices falls over 16% despite record revenue and $5.5 billion annual free cash flow",
-      "summary": "Analog Devices reported record fiscal-year revenue and substantial free cash flow, with most growth coming from non-AI markets. Shares fell sharply after a mixed forward outlook and inventory concerns. The dislocation merits monitoring, but elevated valuation and weaker future earnings remain risks.",
-      "tickers": [
-        "ADI"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "Industrial electronics",
-        "AI infrastructure"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Nov 24 12:56 PM EST intraday",
-          "value": "$316.75, -16.37%; not a closing price."
-        },
-        {
-          "label": "FY2026 results",
-          "value": "Revenue $15.2B, +38% YoY; free cash flow $5.5B, 36% of revenue; over two-thirds of growth came from non-AI-centric markets."
-        },
-        {
-          "label": "Forward outlook",
-          "value": "Q1 adjusted EPS midpoint $3.82 versus analyst estimate around $3.89; revenue midpoint $4.4B; inventory days reported at 141."
-        },
-        {
-          "label": "Next indicators",
-          "value": "Industrial and automotive orders, inventory normalization, margin guidance and earnings revisions; material deterioration would weaken the dislocation thesis."
-        }
-      ],
-      "key_finding": "Strong cash generation and diversified growth contrast with an outsized selloff, but forward profit and inventory risks are real.",
-      "sources": [
-        {
-          "title": "Analog Devices official FY2026 results",
-          "url": "https://www.analog.com/en/newsroom/press-releases/2026/11-24-26-adi-reports-record-4th-qtr-and-fiscal-2026-financial-results.html"
-        },
-        {
-          "title": "Investing.com timestamped price and earnings analysis",
-          "url": "https://www.investing.com/news/stock-market-news/analog-devices-earnings-analysis-questions-answered-and-next-catalysts-93CH-5048853"
-        },
-        {
-          "title": "Investor's Business Daily earnings and guidance",
-          "url": "https://www.investors.com/news/technology/adi-stock-analog-devices-fiscal-q4-2026-report/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-24T17:31:07-05:00",
+  "last_checked_at": "2026-11-24T18:31:05-05:00",
   "last_check_status": "new_findings"
 }
