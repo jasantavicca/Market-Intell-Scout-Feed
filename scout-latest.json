@@ -1,8 +1,160 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-23T16:32:15-05:00",
-  "as_of_et": "November 23, 2026, 4:32 PM EST",
+  "generated_at": "2026-11-24T14:20:29-05:00",
+  "as_of_et": "November 24, 2026, 2:20 PM EST",
   "items": [
+    {
+      "id": "scout-20261124-1420-hormuz-three-vessels",
+      "observed_at": "2026-11-24T14:20:29-05:00",
+      "title": "UKMTO verifies three-vessel Hormuz incident; oil rebounds from three-month lows",
+      "summary": "UKMTO reports three vessels were struck in Hormuz and continued their voyages. Reuters reported an oil rebound from three-month lows. A separate investigation into maritime cyberattacks remains unresolved; no additional physical export loss has been verified.",
+      "tickers": [
+        "XLE",
+        "XOP",
+        "CL",
+        "BRN"
+      ],
+      "sectors": [
+        "Energy",
+        "Maritime shipping"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "UKMTO warning 219-26",
+          "value": "Three vessels struck; all continued transit and crews accounted for; damage and environmental impact unknown."
+        },
+        {
+          "label": "Reuters 9:23 AM EST Nov 24",
+          "value": "Brent $90.42 +1.20%; WTI $81.18 +1.26%; intraday, not settlement."
+        },
+        {
+          "label": "Separate cyber investigation",
+          "value": "WSJ reports up to 50 vessels potentially affected; attribution unproven."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Verified loadings, voyage delays, damage, insurance and sustained price response; stable flows weaken disruption thesis."
+        }
+      ],
+      "key_finding": "Verified maritime incidents increase transport risk but do not establish additional oil supply loss.",
+      "sources": [
+        {
+          "title": "UKMTO warning 219-26",
+          "url": "https://www.ukmto.org/-/media/ukmto/products/20261124-ukmto_warning_219-26.pdf?rev=8d57662b37b844e3a680cf462d2cdac1"
+        },
+        {
+          "title": "Reuters oil report",
+          "url": "https://live.euronext.com/en/financial-news/oil-rebounds-three-month-lows-hormuz-threat"
+        },
+        {
+          "title": "WSJ maritime cyber investigation",
+          "url": "https://www.wsj.com/politics/national-security/iran-us-cyberattack-suspect-fed78942"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261124-1420-sanofi-insmed",
+      "observed_at": "2026-11-24T14:20:29-05:00",
+      "title": "Sanofi agrees to acquire Insmed for $41 billion in cash",
+      "summary": "Sanofi announced an agreement to acquire Insmed, adding commercial respiratory medicines and a late-stage pipeline. Insmed rose in intraday trading. The transaction offers a biotech valuation benchmark but depends on regulatory clearance, financing and commercial execution.",
+      "tickers": [
+        "SNY",
+        "INSM",
+        "XBI"
+      ],
+      "sectors": [
+        "Pharmaceuticals",
+        "Biotechnology"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Deal terms",
+          "value": "$41 billion; $175 per share in cash; 46% premium to unaffected Nov 18 close; targeted H1 2027 completion."
+        },
+        {
+          "label": "Intraday Nov 24 1:01 PM EST",
+          "value": "INSM +14.12%, not closing price."
+        },
+        {
+          "label": "Fundamentals",
+          "value": "Brinsupri revenue $1.09 billion through Sep 30 2026; Sanofi targets EPS accretion by end 2028."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Approvals, financing, drug sales, clinical trial progress and deal spread."
+        }
+      ],
+      "key_finding": "Large cash acquisition establishes a valuation benchmark for commercial rare-respiratory biotechnology.",
+      "sources": [
+        {
+          "title": "Sanofi official announcement",
+          "url": "https://www.sanofi.com/en/media-room/press-releases/2026/2026-11-24-06-30-00-3409002"
+        },
+        {
+          "title": "SEC merger filing",
+          "url": "https://www.sec.gov/Archives/edgar/data/1104506/000114036126045364/ef20086426_8-k.htm"
+        },
+        {
+          "title": "Stock Titan intraday market report",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-24-2026"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261124-1420-chip-reversal",
+      "observed_at": "2026-11-24T14:20:29-05:00",
+      "title": "Semiconductor relief rally partially reverses as Dow outperforms Nasdaq",
+      "summary": "Nvidia and semiconductor shares gave back part of Monday's leadership-driven rally while the Dow fund gained. Healthcare and defensive sectors showed relative strength. The divergence is an intraday rotation signal, not proof of a durable trend or worsening chip demand.",
+      "tickers": [
+        "NVDA",
+        "QQQ",
+        "SPY",
+        "DIA"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "Sector rotation"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Nov 24 1:01 PM EST intraday",
+          "value": "NVDA -6.91%, QQQ -1.66%, SPY -0.34%, DIA +0.84%."
+        },
+        {
+          "label": "Prior session context",
+          "value": "Reuters and AP report Nvidia surged approximately 31% following CEO reinstatement."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Dell, Workday, Autodesk earnings, PCE, Treasury yields and chip breadth; sustained broad chip recovery would weaken rotation signal."
+        }
+      ],
+      "key_finding": "Renewed chip selling alongside defensive relative strength raises doubts about the durability of Monday's relief rally.",
+      "sources": [
+        {
+          "title": "Stock Titan intraday market report",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-24-2026"
+        },
+        {
+          "title": "Reuters market context",
+          "url": "https://www.investing.com/news/commodities-news/morning-bid-jensensitivity-5047712"
+        },
+        {
+          "title": "AP Monday market report",
+          "url": "https://apnews.com/article/49ba1beba78fa4ed2bd5898029f79c91"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261123-1632-us-ai-close-confirmation"
+    },
     {
       "id": "scout-20261123-1632-us-ai-close-confirmation",
       "observed_at": "2026-11-23T16:00:00-05:00",
@@ -122,176 +274,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261123-1327-capricor-fda-crl",
-      "observed_at": "2026-11-23T13:27:03-05:00",
-      "title": "Capricor plunges about 76% after FDA rejects deramiocel over efficacy and trial-data integrity",
-      "summary": "The FDA rejected Capricor's resubmitted deramiocel application November 20, citing insufficient efficacy evidence and serious HOPE-3 data-integrity violations. CAPR fell roughly 76% to $1.80 in November 23 intraday trading. Management postponed its scheduled investor call; September 30 cash stood near $198.5 million, but the program's regulatory path is highly uncertain.",
-      "tickers": [
-        "CAPR"
-      ],
-      "sectors": [
-        "Biotechnology",
-        "Healthcare",
-        "Drug regulation"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Nov 23 intraday share-price observation around 1 PM EST (not a close)",
-          "value": "Barron's reported CAPR near $1.80, approximately -76% versus Friday Nov 20 close $7.59; MarketWatch reported -72% to $2.12 earlier in the premarket."
-        },
-        {
-          "label": "Official FDA decision, Nov 20",
-          "value": "Complete Response Letter rejected deramiocel BLA for Duchenne muscular dystrophy; FDA cites inadequate evidence of efficacy and HOPE-3 data-integrity problems including unauthorized statistical-plan changes and blinding/protocol violations."
-        },
-        {
-          "label": "Company response and next action",
-          "value": "Nov 23 6:30 AM EST announcement rescheduled the previously planned Nov 23 conference call; revised call time not announced. Company says it supports the clinical data and is preparing its regulatory response."
-        },
-        {
-          "label": "Balance sheet and fundamental assessment",
-          "value": "Sept 30 reported cash, equivalents, restricted cash, and marketable securities approximately $198.5M; company previously projected at least 12 months of runway, subject to revised operating plans. The main asset faces fundamental regulatory impairment, not merely a market valuation shock."
-        },
-        {
-          "label": "Risk, invalidation, next evidence",
-          "value": "Track detailed regulatory correspondence, trial-design remediation, additional trial requirements, pipeline alternatives, commercial-partner response, potential burn-rate cuts and capital needs. A newly accepted credible regulatory pathway would temper the adverse assessment; neither FDA approval nor a recoverable path is established."
-        }
-      ],
-      "key_finding": "An FDA-confirmed efficacy and clinical-data integrity setback triggered an extraordinary CAPR decline and undermines the near-term approval outlook.",
-      "sources": [
-        {
-          "title": "FDA Nov 20 statement on deramiocel and HOPE-3 integrity",
-          "url": "https://www.fda.gov/vaccines-blood-biologics/whats-new-biologics/statement-deramiocel-bla-duchenne-muscular-dystrophy"
-        },
-        {
-          "title": "Capricor Nov 20 8-K on complete response letter",
-          "url": "https://www.capricor.com/investors/sec-filings/all-sec-filings/content/0001104659-26-130730/capr-20261120x8k.htm"
-        },
-        {
-          "title": "Capricor Nov 23 statement postponing investor update",
-          "url": "https://markets.businessinsider.com/news/stocks/capricor-therapeutics-reschedules-conference-call-to-provide-deramiocel-update-1036791385"
-        },
-        {
-          "title": "Barron's Nov 23 CAPR intraday decline and FDA rejection",
-          "url": "https://www.barrons.com/articles/capricor-stock-fda-drug-rejection-732832f7"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261123-1235-oracle-financing-rebound",
-      "observed_at": "2026-11-23T12:35:35-05:00",
-      "title": "Oracle rebounds 13% at midday after stating OpenAI compute expansion financing is in place",
-      "summary": "Oracle shares rose 13.2% around noon ET November 23, after the company said it had secured financing for its OpenAI data-center contract. Oracle closed roughly $20 billion of equity and debt fundraising earlier in November, following a 19.3% share decline last week. Funding availability is company-reported, not proof of built capacity, customer utilization or future free cash flow.",
-      "tickers": [
-        "ORCL"
-      ],
-      "sectors": [
-        "Cloud software",
-        "AI infrastructure",
-        "Data centers",
-        "Capital markets"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Nov 23 2026 around noon EST (intraday, AP)",
-          "value": "Oracle shares +13.2%; first session reflecting the Nov 20 post-close financing statement; not closing price"
-        },
-        {
-          "label": "Opening response, Nov 23 9:30 AM EST (FinanceFeeds/TradingView)",
-          "value": "ORCL $116.24, +14.87% versus Nov 20 close $101.19; previous week approximately -19.3%"
-        },
-        {
-          "label": "Nov 20 official issuer statement and fundraising",
-          "value": "Oracle says all funding for OpenAI infrastructure contract secured, including vendor financing; November ~$20B stock and notes raise; remaining vendor discussions optional according to Oracle"
-        },
-        {
-          "label": "Infrastructure milestones and fundamental assessment",
-          "value": "Abilene nearly complete and Shackelford fully permitted by Oracle's account; Vera Rubin racks expected in coming weeks. Financing is not delivered compute or positive cash flow; management projects FCF positive H2 FY2028 and >$30B FY2029"
-        },
-        {
-          "label": "Risks, invalidation and indicators",
-          "value": "Track financing details and filings, power delivery, datacenter handover, Vera Rubin shipments, customer utilization and payments, leverage/credit spreads, execution delays and next earnings; funding shortfall or missed deployments would undermine the relief rally"
-        }
-      ],
-      "key_finding": "Oracle's issuer-reported AI funding readiness supported a double-digit equity rebound, but execution and free-cash-flow risks remain.",
-      "sources": [
-        {
-          "title": "Oracle official statement November 20, 2026",
-          "url": "https://www.oracle.com/news/announcement/oracle-statement-2026-11-20/"
-        },
-        {
-          "title": "Associated Press November 23 noon equity-market report",
-          "url": "https://apnews.com/article/stocks-markets-rates-technology-ai-anthropic-49ba1beba78fa4ed2bd5898029f79c91"
-        },
-        {
-          "title": "Reuters November 20 Oracle financing and $20B capital raise",
-          "url": "https://www.investing.com/news/stock-market-news/oracle-says-openai-infrastructure-deal-is-fully-funded-after-final-capital-raise-5042771"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261123-1235-tesla-fsd-v15",
-      "observed_at": "2026-11-23T12:35:35-05:00",
-      "title": "Tesla rebounds about 13% as FSD Supervised v15 begins limited AI4 deployment",
-      "summary": "Tesla traded about 13% higher at $391.42 near 11:32 AM EST on November 23 amid the broad technology rebound and a limited rollout of FSD (Supervised) v15 that began November 21. The release upgrades vision encoding, driving visualization, navigation and monitoring. Tesla's claimed 25-fold improvement in critical safety intervention handling has not been independently verified; supervised operation is still required.",
-      "tickers": [
-        "TSLA"
-      ],
-      "sectors": [
-        "Automotive technology",
-        "Embedded AI",
-        "Mobility",
-        "Software"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 23 11:32 AM EST, Dow Jones Newswires (intraday)",
-          "value": "TSLA $391.42, about +13% on the day, rebound coinciding with broader AI rally"
-        },
-        {
-          "label": "November 23 11:28:14 AM EST, Yahoo Finance (intraday)",
-          "value": "TSLA $390.46, +12.91%; independently supports size of the observed rise"
-        },
-        {
-          "label": "Technology rollout, November 21-23",
-          "value": "FSD (Supervised) v15.0.1 is rolling out initially to AI4 vehicles; upgraded video encoder, Reality View, parking, navigation and driver monitoring; early deployment not broad availability"
-        },
-        {
-          "label": "Fundamental distinction",
-          "value": "Software deployment confirms engineering release milestone, not proven higher paid subscription adoption, regulatory autonomy authorization or fleetwide safety improvement; 25x claim unvalidated"
-        },
-        {
-          "label": "Risks, invalidation and indicators",
-          "value": "Track independent miles per critical intervention, NHTSA investigations, releases to wider fleet, subscription conversion, customer disengagements, safety outcomes, and whether share recovery persists; adverse safety findings would weaken the thesis"
-        }
-      ],
-      "key_finding": "Tesla's limited FSD v15 release coincided with a roughly 13% intraday rebound, but its safety and commercial benefits are unproven.",
-      "sources": [
-        {
-          "title": "Dow Jones Newswires November 23 Tesla shares and FSD rollout",
-          "url": "https://ca.marketscreener.com/news/tesla-shares-gain-on-new-self-driving-software-amid-broader-market-rally-ce7851dadd8ef726"
-        },
-        {
-          "title": "The Verge November 23 FSD v15 release and NHTSA context",
-          "url": "https://www.theverge.com/transportation/1039919/tesla-fsd-v15-reality-view-gta-nhtsa-safety-rollout"
-        },
-        {
-          "title": "Tesla software rollout tracker",
-          "url": "https://www.notateslaapp.com/SOFTWARE-UPDATES/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-23T16:32:15-05:00",
+  "last_checked_at": "2026-11-24T14:20:29-05:00",
   "last_check_status": "new_findings"
 }
