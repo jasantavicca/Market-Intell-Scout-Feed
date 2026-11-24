@@ -1,8 +1,108 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-24T16:31:01-05:00",
-  "as_of_et": "November 24, 2026, 4:31 PM EST",
+  "generated_at": "2026-11-24T17:31:07-05:00",
+  "as_of_et": "November 24, 2026, 5:31 PM EST",
   "items": [
+    {
+      "id": "scout-20261124-1731-nutanix-succession",
+      "observed_at": "2026-11-24T17:31:07-05:00",
+      "title": "Nutanix falls after strong quarter as CEO succession and guidance create uncertainty",
+      "summary": "Nutanix reported 15% recurring revenue growth and sharply improved operating profitability. Its board announced a CEO search, while annual revenue guidance fell slightly short of consensus. Shares declined about 9% in early extended trading, with subsequent reports showing a smaller decline. Succession and forward demand remain key risks.",
+      "tickers": [
+        "NTNX"
+      ],
+      "sectors": [
+        "Enterprise software",
+        "Hybrid cloud",
+        "AI infrastructure"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Nov 24 after-hours report at 4:18 PM EST",
+          "value": "Approximately -9%; subsequent report approximately -6%; extended trading, not closing data."
+        },
+        {
+          "label": "Q1 FY2027",
+          "value": "Revenue $772.4M (+15% YoY); ARR $2.63B (+15%); GAAP operating margin 18.5% versus 7.4%; free cash flow $209.3M versus $174.5M."
+        },
+        {
+          "label": "FY2027 revenue guidance",
+          "value": "$3.18B–$3.23B, midpoint below reported $3.22B consensus."
+        },
+        {
+          "label": "Next indicators",
+          "value": "CEO succession, retention, bookings, recurring revenue and margins; sustained weakening of demand or leadership execution would undermine dislocation thesis."
+        }
+      ],
+      "key_finding": "Strong current operations contrast with succession uncertainty and a modest forward guidance shortfall.",
+      "sources": [
+        {
+          "title": "Nutanix Q1 FY2027 results",
+          "url": "https://www.marketscreener.com/news/nutanix-reports-first-quarter-fiscal-2027-financial-results-ce7851dbdd81f622"
+        },
+        {
+          "title": "SEC-filed CEO succession announcement",
+          "url": "https://www.sec.gov/Archives/edgar/data/1618732/000117184326007693/exh_992.htm"
+        },
+        {
+          "title": "Investing.com 4:18 PM extended-market report",
+          "url": "https://www.investing.com/news/earnings/nutanix-stock-drops-9-on-weak-fy-guidance-and-ceo-exit-5049045"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261124-1731-autodesk-dislocation",
+      "observed_at": "2026-11-24T17:31:07-05:00",
+      "title": "Autodesk beats estimates and raises outlook, but shares fall in extended trading",
+      "summary": "Autodesk reported revenue growth of 17%, strong cash generation and raised annual guidance. Engineering and construction demand supported results, while investors remain concerned about slowing growth in near-term contracted revenue and AI competition. Shares fell approximately 4% in early after-hours trading.",
+      "tickers": [
+        "ADSK"
+      ],
+      "sectors": [
+        "Engineering software",
+        "Construction",
+        "Manufacturing"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Nov 24 after-hours report at 4:10 PM EST",
+          "value": "Approximately -4%; Barron's subsequently reported around -3.5%; not a closing price."
+        },
+        {
+          "label": "Q3 FY2027",
+          "value": "Revenue $2.16B (+17% YoY); adjusted operating margin 39%; free cash flow $505M (+17%); adjusted EPS $3.20."
+        },
+        {
+          "label": "Demand and outlook",
+          "value": "Architecture, engineering and construction revenue +19%; manufacturing revenue +13%; FY revenue guidance $8.36B–$8.375B; near-term contracted revenue growth 10%."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Organic growth, renewals, current remaining performance obligations, engineering AI monetization, acquisition integration; deteriorating renewals or margins weaken the fundamental case."
+        }
+      ],
+      "key_finding": "Strong realized earnings and engineering demand contrast with concerns about forward subscription growth and AI competition.",
+      "sources": [
+        {
+          "title": "Autodesk official earnings release",
+          "url": "https://adsknews.autodesk.com/en/pressrelease/autodesk-inc-announces-fiscal-2027-third-quarter-results/"
+        },
+        {
+          "title": "Investing.com after-hours report",
+          "url": "https://www.investing.com/news/transcripts/autodesk-shares-fall-despite-q3-earnings-beat-strong-guidance-5049017"
+        },
+        {
+          "title": "Barron's earnings and forward-growth analysis",
+          "url": "https://www.barrons.com/articles/autodesk-earnings-stock-price-5387dd28"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261124-1631-dell-ai-backlog",
       "observed_at": "2026-11-24T16:31:01-05:00",
@@ -144,108 +244,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261124-1530-dy-fiber-slowdown",
-      "observed_at": "2026-11-24T15:30:27-05:00",
-      "title": "Dycom falls about 16% as fiber deployment slowdown overshadows record backlog",
-      "summary": "Dycom reported record quarterly revenue and backlog, but management said several major customers plan slower fiber-to-the-home construction. Shares fell sharply as investors reacted to softer fourth-quarter guidance. Data-center and other infrastructure demand may offset fiber weakness, but the magnitude remains uncertain.",
-      "tickers": [
-        "DY"
-      ],
-      "sectors": [
-        "Telecommunications infrastructure",
-        "Data-center construction",
-        "Utilities"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Nov 24 report at 12:07 PM EST",
-          "value": "DY $183.60, -15.9% intraday; not a closing price."
-        },
-        {
-          "label": "Fiscal Q3 2027 results",
-          "value": "Revenue $2.056B, +41.6% YoY, +11.2% organically; backlog $12.911B, +57%; adjusted EPS $5.23."
-        },
-        {
-          "label": "Forward catalyst",
-          "value": "Several major customers plan to moderate residential fiber programs; management expects FY2028 fiber-to-the-home revenue lower than FY2027."
-        },
-        {
-          "label": "Next indicators",
-          "value": "Backlog conversion, customer capital spending, data-center electrical contracting growth, organic growth and margins."
-        }
-      ],
-      "key_finding": "Record infrastructure demand coexists with a specific fiber deployment slowdown that could impair forward growth.",
-      "sources": [
-        {
-          "title": "Dycom official quarterly results",
-          "url": "https://www.globenewswire.com/news-release/2026/11/24/3409110/0/en/dycom-industries-inc-reports-fiscal-2027-third-quarter-results.html"
-        },
-        {
-          "title": "SEC earnings exhibit",
-          "url": "https://www.sec.gov/Archives/edgar/data/67215/000006721526000048/dyfy2027q3earningsreleasee.htm"
-        },
-        {
-          "title": "Investing.com price and outlook report",
-          "url": "https://www.investing.com/news/stock-market-news/why-is-dycom-industries-stock-tumbling-today-93CH-5048770"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261124-1530-megaspeed-export-controls",
-      "observed_at": "2026-11-24T15:30:27-05:00",
-      "title": "U.S. adds Megaspeed and six related entities to export-control Entity List",
-      "summary": "Multiple news organizations report that U.S. Commerce added seven Southeast Asian entities to its Entity List, citing advanced computing diversion risk. Export licenses face a presumption of denial. The action raises AI-chip distribution compliance risk, but its incremental revenue effect on Nvidia is not established.",
-      "tickers": [
-        "NVDA"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "AI infrastructure",
-        "Export controls"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Regulatory action",
-          "value": "Seven entities in Malaysia, Singapore and Thailand; final rule filed for public inspection Nov 23, reported Nov 24; license applications face presumption of denial."
-        },
-        {
-          "label": "Evidence boundary",
-          "value": "Regulatory risk designation is not a criminal finding; underlying allegations remain under investigation. Official raw text could not be retrieved directly during this pass."
-        },
-        {
-          "label": "Market context",
-          "value": "NVDA -6.91% at 1:01 PM EST, amid broader chip selloff; share move cannot be attributed exclusively to this action."
-        },
-        {
-          "label": "Next indicators",
-          "value": "License decisions, Nvidia customer and compliance disclosures, international revenue guidance, and scope of future restrictions."
-        }
-      ],
-      "key_finding": "The listing introduces a new regulatory constraint on AI-chip distribution beyond management-related market volatility.",
-      "sources": [
-        {
-          "title": "Al Jazeera November 24 export control report",
-          "url": "https://www.aljazeera.com/economy/2026/11/24/us-adds-megaspeed-firm-at-centre-of-nvidia-scandal-to-export-control-list"
-        },
-        {
-          "title": "The Verge November 24 independent report",
-          "url": "https://www.theverge.com/policy/1041270/nvidia-megaspeed-commerce-dept-entity-list"
-        },
-        {
-          "title": "Stock Titan timestamped intraday market report",
-          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-24-2026"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-24T16:31:01-05:00",
+  "last_checked_at": "2026-11-24T17:31:07-05:00",
   "last_check_status": "new_findings"
 }
