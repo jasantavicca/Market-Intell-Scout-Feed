@@ -1,12 +1,116 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-24T14:22:00-05:00",
-  "as_of_et": "November 24, 2026, 2:22 PM EST",
+  "generated_at": "2026-11-24T14:30:31-05:00",
+  "as_of_et": "November 24, 2026, 2:30 PM EST",
   "items": [
+    {
+      "id": "scout-20261124-1430-hpe-semtech-dislocation",
+      "observed_at": "2026-11-24T14:30:31-05:00",
+      "title": "HPE and Semtech sell off sharply despite strong reported revenue growth",
+      "summary": "HPE and Semtech reported quarterly revenue growth of 50% and 58%, respectively, but both fell about 16% intraday. HPE faces margin pressure despite raised annual revenue guidance, while Semtech posted record adjusted operating margin. The dislocation warrants monitoring, but does not establish undervaluation.",
+      "tickers": [
+        "HPE",
+        "SMTC"
+      ],
+      "sectors": [
+        "AI infrastructure",
+        "Networking",
+        "Semiconductors"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 24 1:01 PM EST intraday",
+          "value": "HPE -15.68%; SMTC -16.28%; not closing prices."
+        },
+        {
+          "label": "HPE fiscal Q4 results",
+          "value": "Revenue $14.5 billion, +50% YoY; FY2027 revenue outlook $59.4–63.1 billion; adjusted gross margin down 2.2 percentage points sequentially."
+        },
+        {
+          "label": "Semtech fiscal Q3 results",
+          "value": "Revenue $423 million, +58% YoY; adjusted EPS $1.17; adjusted operating margin 33%; next-quarter revenue guidance midpoint $480 million, including an additional week."
+        },
+        {
+          "label": "Next indicators",
+          "value": "AI networking orders, component costs, margin trajectory, earnings revisions and valuation stabilization."
+        }
+      ],
+      "key_finding": "Strong reported demand alongside substantial equity losses highlights valuation and profitability risks across AI infrastructure.",
+      "sources": [
+        {
+          "title": "Stock Titan November 24 intraday market report",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-24-2026"
+        },
+        {
+          "title": "HPE investor relations",
+          "url": "https://investors.hpe.com/"
+        },
+        {
+          "title": "Reuters HPE margin concerns",
+          "url": "https://www.investing.com/news/stock-market-news/hpe-shares-fall-as-margin-worries-overshadow-raised-outlook-5048068"
+        },
+        {
+          "title": "Semtech SEC earnings filing",
+          "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000045/smtc-10252026x8k991.htm"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261124-1430-fluence-backlog",
+      "observed_at": "2026-11-24T14:30:31-05:00",
+      "title": "Fluence Energy reports record $8.9 billion backlog despite manufacturing and margin setbacks",
+      "summary": "Fluence reported record storage orders and backlog, and shares rose approximately 12% intraday. Manufacturing delays, negative gross margin and annual losses complicate conversion of demand into profitable revenue. This is evidence of grid-storage demand, not proof of financial strength.",
+      "tickers": [
+        "FLNC"
+      ],
+      "sectors": [
+        "Grid infrastructure",
+        "Battery energy storage"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 24 1:01 PM EST intraday",
+          "value": "Approximately +12% (Stock Titan +11.97%; Motley Fool +12.5%); not closing prices."
+        },
+        {
+          "label": "Fiscal 2026 orders and backlog",
+          "value": "Q4 new orders $3.5 billion; FY-end backlog $8.9 billion versus $5.3 billion one year earlier."
+        },
+        {
+          "label": "Execution and financial risk",
+          "value": "Q4 GAAP gross margin -5.0%; annual net loss $273.9 million; total cash and liquidity approximately $0.9 billion versus $1.3 billion prior year."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Manufacturing recovery, backlog conversion, gross margins and cash generation."
+        }
+      ],
+      "key_finding": "Record contracted battery-storage demand contrasts with material company-specific execution and profitability risk.",
+      "sources": [
+        {
+          "title": "Fluence official fiscal 2026 results",
+          "url": "https://fluenceenergy.gcs-web.com/news-releases/news-release-details/fluence-energy-inc-reports-2026-financial-results"
+        },
+        {
+          "title": "Motley Fool November 24 intraday report",
+          "url": "https://www.fool.com/investing/2026/11/24/why-fluence-energy-stock-is-powering-higher-today/"
+        },
+        {
+          "title": "Stock Titan November 24 intraday market report",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-24-2026"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261124-1420-us-market-rotation-fade",
       "observed_at": "2026-11-24T14:22:00-05:00",
-      "title": "Monday's bounce fades in tech while Dow and most sectors hold \u2014 rotation, not full reversal",
+      "title": "Monday's bounce fades in tech while Dow and most sectors hold — rotation, not full reversal",
       "summary": "After Monday's surge (S&P 500 +4.73% to 7,237.17 at the close), Tuesday is mixed: the Dow is higher while the S&P 500 and Nasdaq are lower, with losses concentrated in technology and health care leading. The VIX spiked above 30 premarket, then eased back into the high 26s by early afternoon. Breadth outside tech is positive, so the session so far reads as a partial fade and rotation rather than a wholesale reversal.",
       "tickers": [
         "SPX",
@@ -43,7 +147,7 @@
           "value": "8 of 11 sectors higher; health care +2.4%, technology -3.5%"
         }
       ],
-      "key_finding": "Monday's bounce is fading where it was biggest \u2014 tech \u2014 while the Dow and most sectors hold gains; VIX back under 27 by early afternoon after a 30+ premarket spike.",
+      "key_finding": "Monday's bounce is fading where it was biggest — tech — while the Dow and most sectors hold gains; VIX back under 27 by early afternoon after a 30+ premarket spike.",
       "sources": [
         {
           "title": "The Trade Signal midday brief, Nov 24",
@@ -108,7 +212,7 @@
       "id": "scout-20261124-1420-hpe-margin-selloff",
       "observed_at": "2026-11-24T14:22:00-05:00",
       "title": "HPE beats and raises guidance on AI servers, but stock falls about 17% on margin outlook",
-      "summary": "Hewlett Packard Enterprise's fiscal Q4 (reported Monday after the bell) confirmed revenue +50% to $14.55B, server revenue +94.7% to $8.8B, adjusted EPS $1.43 vs about $1.28 expected, and FY27 revenue guidance raised to $59.4-63.1B. The stock fell anyway \u2014 about -17% intraday \u2014 because FY27 Cloud & AI operating margin is guided down to about 14% from 18.4% in Q4, and management warned memory and component supply stays constrained into at least H2 2028. Part of the drop also gives back Monday's +17% rally.",
+      "summary": "Hewlett Packard Enterprise's fiscal Q4 (reported Monday after the bell) confirmed revenue +50% to $14.55B, server revenue +94.7% to $8.8B, adjusted EPS $1.43 vs about $1.28 expected, and FY27 revenue guidance raised to $59.4-63.1B. The stock fell anyway — about -17% intraday — because FY27 Cloud & AI operating margin is guided down to about 14% from 18.4% in Q4, and management warned memory and component supply stays constrained into at least H2 2028. Part of the drop also gives back Monday's +17% rally.",
       "tickers": [
         "HPE"
       ],
@@ -136,7 +240,7 @@
           "value": "$39.92, -16.9%, after +17.4% Monday"
         }
       ],
-      "key_finding": "HPE's AI-server boom is real in revenue, but the market is repricing the margin cost of that growth \u2014 down about 17% despite a beat and a big guidance raise.",
+      "key_finding": "HPE's AI-server boom is real in revenue, but the market is repricing the margin cost of that growth — down about 17% despite a beat and a big guidance raise.",
       "sources": [
         {
           "title": "HPE fiscal 2026 Q4 results release, Nov 23",
@@ -149,228 +253,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261124-1420-best-buy-q3-beat",
-      "observed_at": "2026-11-24T14:22:00-05:00",
-      "title": "Best Buy posts strongest comparable sales in five years and raises full-year guidance",
-      "summary": "Best Buy's Q3 release (quarter ended Oct 31) confirms comparable sales +6.1% \u2014 the highest in five years, vs 2.3% consensus \u2014 revenue +5.8% to $10.24B, and adjusted EPS of $1.62. FY27 guidance was raised: revenue $43.0-43.3B, comparable sales +3.4-4.0%, adjusted EPS $6.90-7.05. Management attributed strength to AI-enabled phones and TVs, wearables and gaming ahead of the holidays \u2014 a genuine consumer-electronics demand signal.",
-      "tickers": [
-        "BBY"
-      ],
-      "sectors": [
-        "Consumer electronics retail",
-        "Consumer discretionary"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Q3 FY27 comparable sales",
-          "value": "+6.1% (domestic +6.2%) vs 2.3% consensus \u2014 best in five years"
-        },
-        {
-          "label": "Q3 revenue",
-          "value": "$10.24B, +5.8% year over year"
-        },
-        {
-          "label": "FY27 guidance raised",
-          "value": "Comparable sales +3.4-4.0% (from 1.9-3.0%); adjusted EPS $6.90-7.05 (from $6.70-6.90)"
-        },
-        {
-          "label": "BBY intraday, about 2:15 PM ET Nov 24",
-          "value": "About $101, +4.2% on the day"
-        }
-      ],
-      "key_finding": "Best Buy delivered the strongest consumer-electronics demand print in five years and raised full-year guidance; shares +3-4%.",
-      "sources": [
-        {
-          "title": "Best Buy Q3 results release (primary), Nov 24",
-          "url": "https://investors.bestbuy.com/News--Events/news/news-details/2026/Best-Buy-Reports-Third-Quarter-Results/default.aspx"
-        },
-        {
-          "title": "Reuters, Nov 24: Best Buy leans on AI-driven gadget cycle, lifts annual targets",
-          "url": "https://www.reuters.com/business/retail-consumer/best-buy-leans-ai-driven-gadget-update-cycle-lift-annual-targets-2026-11-24/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261124-1420-sanofi-insmed-deal",
-      "observed_at": "2026-11-24T14:22:00-05:00",
-      "title": "Sanofi to acquire Insmed for $41B cash \u2014 largest pharma deal since 2023",
-      "summary": "Sanofi announced Tuesday it will acquire Insmed for $175 per share in cash, about $41.0B equity value \u2014 a premium of about 17% to Monday's close and 46% to the Nov 18 unaffected price. Both boards approved; close is expected H1 2027. The deal brings Brinsupri and Arikayce and is Sanofi's largest in over two decades. Insmed rose about 14% to about $170 in early trade.",
-      "tickers": [
-        "SNY",
-        "INSM"
-      ],
-      "sectors": [
-        "Pharmaceuticals",
-        "Biotech",
-        "M&A"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Offer",
-          "value": "$175/share cash, about $41.0B total equity value (company release)"
-        },
-        {
-          "label": "Premium",
-          "value": "About 17% vs Monday close $149.09; about 46% vs Nov 18 unaffected price $119.90"
-        },
-        {
-          "label": "INSM early trade, Nov 24",
-          "value": "About +14% to $170"
-        },
-        {
-          "label": "Expected close",
-          "value": "H1 2027; EPS-accretive by end of 2028"
-        }
-      ],
-      "key_finding": "The reported $41B Sanofi-Insmed deal is real and announced \u2014 the largest pharma takeover since Pfizer-Seagen in 2023.",
-      "sources": [
-        {
-          "title": "Sanofi press release via PRNewswire, Nov 24",
-          "url": "https://www.tradingview.com/news/prnewswire:ff34dd8383afe:0-sanofi-to-acquire-insmed-in-strategic-step-that-strengthens-long-term-future/"
-        },
-        {
-          "title": "Wall Street Journal, Nov 24: Sanofi to buy Insmed for $41.0 billion",
-          "url": "https://www.wsj.com/business/deals/sanofi-to-buy-insmed-for-41-0-billion-36d6b07d"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261124-1420-china-minerals-extension",
-      "observed_at": "2026-11-24T14:22:00-05:00",
-      "title": "China extends critical-minerals export relief to Jan 27, 2027 \u2014 the Nov 27 cliff is off",
-      "summary": "China's Commerce Ministry announced Tuesday it will extend the suspension of its ban on U.S.-bound dual-use exports of gallium, germanium, antimony and superhard materials through Jan 27, 2027; the suspension had been due to expire Friday Nov 27. The ban on exports to U.S. military end-users remains in place, as do worldwide licensing requirements. The move follows the Nov 18-19 Xi-Trump meeting and aligns with the broader trade truce.",
-      "tickers": [
-        "MP",
-        "LAC"
-      ],
-      "sectors": [
-        "Critical minerals",
-        "Semiconductors",
-        "Trade policy"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "New expiry",
-          "value": "Jan 27, 2027 (was Nov 27, 2026) \u2014 MOFCOM statement, effective Nov 28"
-        },
-        {
-          "label": "Materials covered",
-          "value": "Gallium, germanium, antimony, superhard materials; graphite end-use reviews eased"
-        },
-        {
-          "label": "Still in force",
-          "value": "Ban on U.S. military end-use exports; global licensing regime"
-        }
-      ],
-      "key_finding": "The Nov 27 gallium/germanium deadline is off \u2014 U.S.-bound critical-minerals relief now runs to Jan 27, 2027.",
-      "sources": [
-        {
-          "title": "Reuters, Nov 24: China extends suspension of ban on U.S.-bound gallium, germanium, antimony exports",
-          "url": "https://www.reuters.com/markets/commodities/china-extends-suspension-ban-us-bound-gallium-germanium-antimony-exports-2026-11-24/"
-        },
-        {
-          "title": "Wall Street Journal, Nov 24: China to suspend some critical-material export curbs until January",
-          "url": "https://www.wsj.com/economy/trade/china-to-suspend-some-critical-material-export-curbs-to-u-s-until-january-35bc8dca"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261124-1420-pentagon-drone-talks",
-      "observed_at": "2026-11-24T14:22:00-05:00",
-      "title": "Pentagon in preliminary talks with GM, Ford and Magna on military drone production \u2014 no deals",
-      "summary": "The Wall Street Journal reported Tuesday that the Pentagon is in preliminary talks with GM, Ford, Magna International and others to mass-produce military drones, with automakers supplying parts such as motors, actuators and sensors rather than building complete aircraft. No deals have been finalized. Reuters carried the story but noted it could not independently verify it, and no company has confirmed \u2014 this item is single-origin reporting and graded accordingly. GM and Ford shares showed no clear reaction attributable to the story.",
-      "tickers": [
-        "GM",
-        "F",
-        "MGA"
-      ],
-      "sectors": [
-        "Autos",
-        "Defense",
-        "Drones"
-      ],
-      "evidence_grade": "reported",
-      "observations": [
-        {
-          "label": "Status",
-          "value": "Preliminary talks only; no finalized deals (WSJ, Nov 24)"
-        },
-        {
-          "label": "Pentagon's stated market size",
-          "value": "$20-30B annually for military drones"
-        },
-        {
-          "label": "Verification note",
-          "value": "Reuters explicitly could not independently verify; no GM/Ford/Magna confirmation as of this check"
-        }
-      ],
-      "key_finding": "Drone talks are reported but preliminary, with no deals signed and no independent verification yet.",
-      "sources": [
-        {
-          "title": "Wall Street Journal, Nov 24: Pentagon talks with GM, Ford on military drones",
-          "url": "https://www.wsj.com/politics/national-security/ford-general-motors-military-drones-c082d202"
-        },
-        {
-          "title": "Reuters, Nov 24: Pentagon in talks with GM, Ford on military drones, WSJ reports",
-          "url": "https://www.reuters.com/business/autos-transportation/pentagon-talks-with-general-motors-ford-military-drones-wsj-reports-2026-11-24/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261124-1420-amazon-decart-deal",
-      "observed_at": "2026-11-24T14:22:00-05:00",
-      "title": "Amazon signs Decart tech-and-team deal; reported $7.5B price is unconfirmed",
-      "summary": "Amazon announced Monday a signed agreement to acquire the technology behind Decart's Optimization Stack and hire its three co-founders and research/engineering team. Amazon clarified it is an asset purchase, not a full company acquisition, and did not disclose a price. The approximately $7.5B figure comes from a single Bloomberg source and is not confirmed by either company \u2014 the deal's existence and structure are corroborated; the price is reported only.",
-      "tickers": [
-        "AMZN"
-      ],
-      "sectors": [
-        "Cloud/AI infrastructure",
-        "M&A"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Status",
-          "value": "Signed agreement announced Nov 23 (Amazon blog post); asset purchase of Decart Optimization Stack technology plus team"
-        },
-        {
-          "label": "Price",
-          "value": "About $7.5B per a Bloomberg source; NOT confirmed by Amazon or Decart \u2014 treat as unverified"
-        },
-        {
-          "label": "Scope exclusions",
-          "value": "Decart's Lucy and Oasis models are not included"
-        }
-      ],
-      "key_finding": "Amazon-Decart is signed and real, but it is a tech-and-team asset purchase and the $7.5B headline number is single-source and unconfirmed.",
-      "sources": [
-        {
-          "title": "TechCrunch, Nov 23: Amazon snaps up Decart's AI optimization tech",
-          "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/"
-        },
-        {
-          "title": "Bloomberg Law, Nov 23: Amazon said to pay $7.5 billion for Decart tech",
-          "url": "https://news.bloomberglaw.com/artificial-intelligence/amazon-is-said-to-pay-7-5-billion-for-ai-startup-decarts-tech"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-24T14:22:00-05:00",
+  "last_checked_at": "2026-11-24T14:30:31-05:00",
   "last_check_status": "new_findings"
 }
