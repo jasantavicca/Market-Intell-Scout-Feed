@@ -1,8 +1,158 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-24T14:30:31-05:00",
-  "as_of_et": "November 24, 2026, 2:30 PM EST",
+  "generated_at": "2026-11-24T15:30:27-05:00",
+  "as_of_et": "November 24, 2026, 3:30 PM EST",
   "items": [
+    {
+      "id": "scout-20261124-1530-adi-dislocation",
+      "observed_at": "2026-11-24T15:30:27-05:00",
+      "title": "Analog Devices falls over 16% despite record revenue and $5.5 billion annual free cash flow",
+      "summary": "Analog Devices reported record fiscal-year revenue and substantial free cash flow, with most growth coming from non-AI markets. Shares fell sharply after a mixed forward outlook and inventory concerns. The dislocation merits monitoring, but elevated valuation and weaker future earnings remain risks.",
+      "tickers": [
+        "ADI"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "Industrial electronics",
+        "AI infrastructure"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Nov 24 12:56 PM EST intraday",
+          "value": "$316.75, -16.37%; not a closing price."
+        },
+        {
+          "label": "FY2026 results",
+          "value": "Revenue $15.2B, +38% YoY; free cash flow $5.5B, 36% of revenue; over two-thirds of growth came from non-AI-centric markets."
+        },
+        {
+          "label": "Forward outlook",
+          "value": "Q1 adjusted EPS midpoint $3.82 versus analyst estimate around $3.89; revenue midpoint $4.4B; inventory days reported at 141."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Industrial and automotive orders, inventory normalization, margin guidance and earnings revisions; material deterioration would weaken the dislocation thesis."
+        }
+      ],
+      "key_finding": "Strong cash generation and diversified growth contrast with an outsized selloff, but forward profit and inventory risks are real.",
+      "sources": [
+        {
+          "title": "Analog Devices official FY2026 results",
+          "url": "https://www.analog.com/en/newsroom/press-releases/2026/11-24-26-adi-reports-record-4th-qtr-and-fiscal-2026-financial-results.html"
+        },
+        {
+          "title": "Investing.com timestamped price and earnings analysis",
+          "url": "https://www.investing.com/news/stock-market-news/analog-devices-earnings-analysis-questions-answered-and-next-catalysts-93CH-5048853"
+        },
+        {
+          "title": "Investor's Business Daily earnings and guidance",
+          "url": "https://www.investors.com/news/technology/adi-stock-analog-devices-fiscal-q4-2026-report/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261124-1530-dy-fiber-slowdown",
+      "observed_at": "2026-11-24T15:30:27-05:00",
+      "title": "Dycom falls about 16% as fiber deployment slowdown overshadows record backlog",
+      "summary": "Dycom reported record quarterly revenue and backlog, but management said several major customers plan slower fiber-to-the-home construction. Shares fell sharply as investors reacted to softer fourth-quarter guidance. Data-center and other infrastructure demand may offset fiber weakness, but the magnitude remains uncertain.",
+      "tickers": [
+        "DY"
+      ],
+      "sectors": [
+        "Telecommunications infrastructure",
+        "Data-center construction",
+        "Utilities"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Nov 24 report at 12:07 PM EST",
+          "value": "DY $183.60, -15.9% intraday; not a closing price."
+        },
+        {
+          "label": "Fiscal Q3 2027 results",
+          "value": "Revenue $2.056B, +41.6% YoY, +11.2% organically; backlog $12.911B, +57%; adjusted EPS $5.23."
+        },
+        {
+          "label": "Forward catalyst",
+          "value": "Several major customers plan to moderate residential fiber programs; management expects FY2028 fiber-to-the-home revenue lower than FY2027."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Backlog conversion, customer capital spending, data-center electrical contracting growth, organic growth and margins."
+        }
+      ],
+      "key_finding": "Record infrastructure demand coexists with a specific fiber deployment slowdown that could impair forward growth.",
+      "sources": [
+        {
+          "title": "Dycom official quarterly results",
+          "url": "https://www.globenewswire.com/news-release/2026/11/24/3409110/0/en/dycom-industries-inc-reports-fiscal-2027-third-quarter-results.html"
+        },
+        {
+          "title": "SEC earnings exhibit",
+          "url": "https://www.sec.gov/Archives/edgar/data/67215/000006721526000048/dyfy2027q3earningsreleasee.htm"
+        },
+        {
+          "title": "Investing.com price and outlook report",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-dycom-industries-stock-tumbling-today-93CH-5048770"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261124-1530-megaspeed-export-controls",
+      "observed_at": "2026-11-24T15:30:27-05:00",
+      "title": "U.S. adds Megaspeed and six related entities to export-control Entity List",
+      "summary": "Multiple news organizations report that U.S. Commerce added seven Southeast Asian entities to its Entity List, citing advanced computing diversion risk. Export licenses face a presumption of denial. The action raises AI-chip distribution compliance risk, but its incremental revenue effect on Nvidia is not established.",
+      "tickers": [
+        "NVDA"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "Export controls"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Regulatory action",
+          "value": "Seven entities in Malaysia, Singapore and Thailand; final rule filed for public inspection Nov 23, reported Nov 24; license applications face presumption of denial."
+        },
+        {
+          "label": "Evidence boundary",
+          "value": "Regulatory risk designation is not a criminal finding; underlying allegations remain under investigation. Official raw text could not be retrieved directly during this pass."
+        },
+        {
+          "label": "Market context",
+          "value": "NVDA -6.91% at 1:01 PM EST, amid broader chip selloff; share move cannot be attributed exclusively to this action."
+        },
+        {
+          "label": "Next indicators",
+          "value": "License decisions, Nvidia customer and compliance disclosures, international revenue guidance, and scope of future restrictions."
+        }
+      ],
+      "key_finding": "The listing introduces a new regulatory constraint on AI-chip distribution beyond management-related market volatility.",
+      "sources": [
+        {
+          "title": "Al Jazeera November 24 export control report",
+          "url": "https://www.aljazeera.com/economy/2026/11/24/us-adds-megaspeed-firm-at-centre-of-nvidia-scandal-to-export-control-list"
+        },
+        {
+          "title": "The Verge November 24 independent report",
+          "url": "https://www.theverge.com/policy/1041270/nvidia-megaspeed-commerce-dept-entity-list"
+        },
+        {
+          "title": "Stock Titan timestamped intraday market report",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-24-2026"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261124-1430-hpe-semtech-dislocation",
       "observed_at": "2026-11-24T14:30:31-05:00",
@@ -106,155 +256,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261124-1420-us-market-rotation-fade",
-      "observed_at": "2026-11-24T14:22:00-05:00",
-      "title": "Monday's bounce fades in tech while Dow and most sectors hold — rotation, not full reversal",
-      "summary": "After Monday's surge (S&P 500 +4.73% to 7,237.17 at the close), Tuesday is mixed: the Dow is higher while the S&P 500 and Nasdaq are lower, with losses concentrated in technology and health care leading. The VIX spiked above 30 premarket, then eased back into the high 26s by early afternoon. Breadth outside tech is positive, so the session so far reads as a partial fade and rotation rather than a wholesale reversal.",
-      "tickers": [
-        "SPX",
-        "IXIC",
-        "DJIA",
-        "VIX",
-        "XLK",
-        "XLV"
-      ],
-      "sectors": [
-        "U.S. equities",
-        "Volatility"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "S&P 500 intraday, 12:58 PM ET Nov 24",
-          "value": "7,210.88, -0.36% on the day"
-        },
-        {
-          "label": "Nasdaq Composite intraday, 1:13 PM ET Nov 24",
-          "value": "23,727.27, -1.50%; Nasdaq-100 -1.86% at 12:30 PM ET"
-        },
-        {
-          "label": "Dow intraday, 1:13 PM ET Nov 24",
-          "value": "49,979.79, +0.78%"
-        },
-        {
-          "label": "VIX, Nov 24",
-          "value": "30.10 premarket (overnight high 32.38); 26.5-26.6 early afternoon, off the highs but above Monday's 26.62 close"
-        },
-        {
-          "label": "Breadth, mid-morning Nov 24",
-          "value": "8 of 11 sectors higher; health care +2.4%, technology -3.5%"
-        }
-      ],
-      "key_finding": "Monday's bounce is fading where it was biggest — tech — while the Dow and most sectors hold gains; VIX back under 27 by early afternoon after a 30+ premarket spike.",
-      "sources": [
-        {
-          "title": "The Trade Signal midday brief, Nov 24",
-          "url": "https://thetradesignal.com/"
-        },
-        {
-          "title": "IsTheDow live index trackers, Nov 24",
-          "url": "https://www.isthedow.com/sp500-up-or-down"
-        }
-      ],
-      "status": "new",
-      "supersedes": "scout-20261123-1632-us-ai-close-confirmation"
-    },
-    {
-      "id": "scout-20261124-1420-nvidia-giveback-testimony",
-      "observed_at": "2026-11-24T14:22:00-05:00",
-      "title": "Nvidia gives back about 7% intraday as Huang-return rally unwinds on political backlash; Dec 3 Senate testimony confirmed",
-      "summary": "Nvidia fell 5.2% premarket and slid to about -7% intraday after closing Monday up 31.5% on Jensen Huang's reinstatement. Bipartisan opposition is confirmed: Sen. Warren called the reinstatement reckless and sought export-compliance information; Sen. Cotton renewed calls for the Chip Security Act. Huang's public Senate Banking Committee testimony on export controls is confirmed for Dec 3, with a closed House interview Dec 1. The reinstatement itself stands; the give-back reflects governance and export-control repricing, including Commerce blacklisting Megaspeed and related entities.",
-      "tickers": [
-        "NVDA",
-        "SOXX"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "AI infrastructure",
-        "Corporate governance"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "NVDA premarket, Nov 24",
-          "value": "About $156.40, -5.2% vs Monday close $165.05 (Reuters)"
-        },
-        {
-          "label": "NVDA intraday, 12:30 PM ET Nov 24",
-          "value": "$153.26, -7.14%; most active name by volume"
-        },
-        {
-          "label": "Senate Banking hearing, confirmed",
-          "value": "Public hearing on export controls, Dec 3, 2026; closed transcribed interview with three House committees Dec 1"
-        },
-        {
-          "label": "Board actions",
-          "value": "New National Security & Export Control Committee formed; chief compliance officer being recruited; independent investigation continues"
-        }
-      ],
-      "key_finding": "NVDA -7% intraday as the Huang-return rally unwinds on bipartisan political backlash; Dec 3 Senate Banking testimony is confirmed and is the next dated catalyst.",
-      "sources": [
-        {
-          "title": "Reuters, Nov 24: Nvidia slips as investors assess risks surrounding Huang's return",
-          "url": "https://www.reuters.com/business/retail-consumer/nvidia-slips-investors-assess-risks-surrounding-huangs-return-ceo-2026-11-24/"
-        },
-        {
-          "title": "Reuters wrap-up via DevDiscourse, Nov 24",
-          "url": "https://www.devdiscourse.com/article/international/4011060-wrapup-1-huang-returns-as-nvidia-ceo-after-trump-intervention-in-abrupt-board-reversal?amp"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261124-1420-hpe-margin-selloff",
-      "observed_at": "2026-11-24T14:22:00-05:00",
-      "title": "HPE beats and raises guidance on AI servers, but stock falls about 17% on margin outlook",
-      "summary": "Hewlett Packard Enterprise's fiscal Q4 (reported Monday after the bell) confirmed revenue +50% to $14.55B, server revenue +94.7% to $8.8B, adjusted EPS $1.43 vs about $1.28 expected, and FY27 revenue guidance raised to $59.4-63.1B. The stock fell anyway — about -17% intraday — because FY27 Cloud & AI operating margin is guided down to about 14% from 18.4% in Q4, and management warned memory and component supply stays constrained into at least H2 2028. Part of the drop also gives back Monday's +17% rally.",
-      "tickers": [
-        "HPE"
-      ],
-      "sectors": [
-        "Enterprise hardware",
-        "AI servers",
-        "Semiconductor supply chain"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Q4 FY26 revenue",
-          "value": "$14.55B, +50% year over year (company release, Nov 23)"
-        },
-        {
-          "label": "Server revenue",
-          "value": "$8.8B, +94.7% year over year; Q4 AI orders $4.5B, AI backlog a record $10.5B"
-        },
-        {
-          "label": "Adjusted EPS",
-          "value": "$1.43 vs about $1.28-1.29 consensus"
-        },
-        {
-          "label": "HPE intraday, 12:30 PM ET Nov 24",
-          "value": "$39.92, -16.9%, after +17.4% Monday"
-        }
-      ],
-      "key_finding": "HPE's AI-server boom is real in revenue, but the market is repricing the margin cost of that growth — down about 17% despite a beat and a big guidance raise.",
-      "sources": [
-        {
-          "title": "HPE fiscal 2026 Q4 results release, Nov 23",
-          "url": "https://markets.financialcontent.com/bpas/article/bizwire-2026-11-23-hpe-reports-fiscal-2026-fourth-quarter-results"
-        },
-        {
-          "title": "Reuters, Nov 24: HPE shares fall as margin worries overshadow raised outlook",
-          "url": "https://www.reuters.com/business/hpe-shares-fall-margin-worries-overshadow-raised-outlook-2026-11-24/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-24T14:30:31-05:00",
+  "last_checked_at": "2026-11-24T15:30:27-05:00",
   "last_check_status": "new_findings"
 }
