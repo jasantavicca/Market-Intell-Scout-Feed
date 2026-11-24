@@ -1,8 +1,100 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-24T15:30:27-05:00",
-  "as_of_et": "November 24, 2026, 3:30 PM EST",
+  "generated_at": "2026-11-24T16:31:01-05:00",
+  "as_of_et": "November 24, 2026, 4:31 PM EST",
   "items": [
+    {
+      "id": "scout-20261124-1631-dell-ai-backlog",
+      "observed_at": "2026-11-24T16:31:01-05:00",
+      "title": "Dell raises FY2027 outlook as AI server backlog reaches $132.3 billion",
+      "summary": "Dell reported quarterly revenue of $54.94 billion and adjusted EPS of $9.45, substantially above expectations. AI orders and backlog reached record levels, and management raised annual revenue guidance to $202 billion. Shares recovered modestly after hours following a severe regular-session decline. Financing, power availability and backlog conversion remain key risks.",
+      "tickers": [
+        "DELL",
+        "NVDA"
+      ],
+      "sectors": [
+        "AI infrastructure",
+        "Networking",
+        "Servers"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 24 post-close earnings",
+          "value": "Revenue $54.94B; adjusted EPS $9.45 vs consensus approximately $6.60; quarterly AI orders $60.2B; backlog $132.3B."
+        },
+        {
+          "label": "Revenue outlook",
+          "value": "FY2027 revenue $202B vs prior $192B; AI server revenue guidance $78B vs $74B; traditional servers and networking quarterly revenue +235% YoY."
+        },
+        {
+          "label": "Reported price reaction, early after-hours November 24",
+          "value": "Investor's Business Daily reported more than 13% regular-session decline and more than 2% after-hours gain; not independently verified closing prices."
+        },
+        {
+          "label": "Risks and next indicators",
+          "value": "Customer financing, power and land readiness, order conversion, shipment timing, margins, cash generation and earnings call."
+        }
+      ],
+      "key_finding": "Record orders and raised guidance support continued AI infrastructure demand, while deployment and financing risks remain.",
+      "sources": [
+        {
+          "title": "Dell official third-quarter FY2027 results",
+          "url": "https://investors.delltechnologies.com/news-events/press-releases/detail/1665/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results"
+        },
+        {
+          "title": "Investor's Business Daily earnings and share reaction",
+          "url": "https://www.investors.com/news/technology/dell-stock-fiscal-q3-2027-earnings/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261124-1631-workday-ai-contracts",
+      "observed_at": "2026-11-24T16:31:01-05:00",
+      "title": "Workday reports tripling of new AI contract value and raises guidance",
+      "summary": "Workday reported nearly $150 million in new AI annual contract value, more than triple the year-earlier amount. Subscription revenue and free cash flow increased, and management raised annual subscription revenue and margin guidance. The disclosure indicates commercial enterprise AI adoption, but contract value is not recognized revenue.",
+      "tickers": [
+        "WDAY"
+      ],
+      "sectors": [
+        "Enterprise software",
+        "AI applications"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 24 4:02 PM EST earnings release",
+          "value": "Quarterly total revenue $2.705B (+11.2% YoY); subscription revenue $2.532B (+12.8%); adjusted EPS $2.82; free cash flow $691M vs $550M."
+        },
+        {
+          "label": "Commercial AI adoption",
+          "value": "Nearly $150M new AI annual contract value, over 3x year-earlier level; not recognized revenue."
+        },
+        {
+          "label": "Full-year guidance",
+          "value": "Subscription revenue $9.958B, +13%; adjusted operating margin 31.5%; both raised."
+        },
+        {
+          "label": "Price and risks",
+          "value": "Post-release share reaction not independently established; monitor contract conversion, renewal rates, deployment costs and margins."
+        }
+      ],
+      "key_finding": "Workday's AI contract growth supplies evidence of enterprise AI monetization beyond infrastructure spending.",
+      "sources": [
+        {
+          "title": "Workday earnings release via PRNewswire and MarketScreener",
+          "url": "https://www.marketscreener.com/news/workday-announces-fiscal-2027-third-quarter-financial-results-ce7851dbdd81f527"
+        },
+        {
+          "title": "24/7 Wall St. earnings coverage",
+          "url": "https://247wallst.com/cards/workday-q3-2027-earnings-wday-01m87nz6e3htxthz1pvw3sh3dh"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261124-1530-adi-dislocation",
       "observed_at": "2026-11-24T15:30:27-05:00",
@@ -152,112 +244,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261124-1430-hpe-semtech-dislocation",
-      "observed_at": "2026-11-24T14:30:31-05:00",
-      "title": "HPE and Semtech sell off sharply despite strong reported revenue growth",
-      "summary": "HPE and Semtech reported quarterly revenue growth of 50% and 58%, respectively, but both fell about 16% intraday. HPE faces margin pressure despite raised annual revenue guidance, while Semtech posted record adjusted operating margin. The dislocation warrants monitoring, but does not establish undervaluation.",
-      "tickers": [
-        "HPE",
-        "SMTC"
-      ],
-      "sectors": [
-        "AI infrastructure",
-        "Networking",
-        "Semiconductors"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 24 1:01 PM EST intraday",
-          "value": "HPE -15.68%; SMTC -16.28%; not closing prices."
-        },
-        {
-          "label": "HPE fiscal Q4 results",
-          "value": "Revenue $14.5 billion, +50% YoY; FY2027 revenue outlook $59.4–63.1 billion; adjusted gross margin down 2.2 percentage points sequentially."
-        },
-        {
-          "label": "Semtech fiscal Q3 results",
-          "value": "Revenue $423 million, +58% YoY; adjusted EPS $1.17; adjusted operating margin 33%; next-quarter revenue guidance midpoint $480 million, including an additional week."
-        },
-        {
-          "label": "Next indicators",
-          "value": "AI networking orders, component costs, margin trajectory, earnings revisions and valuation stabilization."
-        }
-      ],
-      "key_finding": "Strong reported demand alongside substantial equity losses highlights valuation and profitability risks across AI infrastructure.",
-      "sources": [
-        {
-          "title": "Stock Titan November 24 intraday market report",
-          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-24-2026"
-        },
-        {
-          "title": "HPE investor relations",
-          "url": "https://investors.hpe.com/"
-        },
-        {
-          "title": "Reuters HPE margin concerns",
-          "url": "https://www.investing.com/news/stock-market-news/hpe-shares-fall-as-margin-worries-overshadow-raised-outlook-5048068"
-        },
-        {
-          "title": "Semtech SEC earnings filing",
-          "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000045/smtc-10252026x8k991.htm"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261124-1430-fluence-backlog",
-      "observed_at": "2026-11-24T14:30:31-05:00",
-      "title": "Fluence Energy reports record $8.9 billion backlog despite manufacturing and margin setbacks",
-      "summary": "Fluence reported record storage orders and backlog, and shares rose approximately 12% intraday. Manufacturing delays, negative gross margin and annual losses complicate conversion of demand into profitable revenue. This is evidence of grid-storage demand, not proof of financial strength.",
-      "tickers": [
-        "FLNC"
-      ],
-      "sectors": [
-        "Grid infrastructure",
-        "Battery energy storage"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 24 1:01 PM EST intraday",
-          "value": "Approximately +12% (Stock Titan +11.97%; Motley Fool +12.5%); not closing prices."
-        },
-        {
-          "label": "Fiscal 2026 orders and backlog",
-          "value": "Q4 new orders $3.5 billion; FY-end backlog $8.9 billion versus $5.3 billion one year earlier."
-        },
-        {
-          "label": "Execution and financial risk",
-          "value": "Q4 GAAP gross margin -5.0%; annual net loss $273.9 million; total cash and liquidity approximately $0.9 billion versus $1.3 billion prior year."
-        },
-        {
-          "label": "Next indicators",
-          "value": "Manufacturing recovery, backlog conversion, gross margins and cash generation."
-        }
-      ],
-      "key_finding": "Record contracted battery-storage demand contrasts with material company-specific execution and profitability risk.",
-      "sources": [
-        {
-          "title": "Fluence official fiscal 2026 results",
-          "url": "https://fluenceenergy.gcs-web.com/news-releases/news-release-details/fluence-energy-inc-reports-2026-financial-results"
-        },
-        {
-          "title": "Motley Fool November 24 intraday report",
-          "url": "https://www.fool.com/investing/2026/11/24/why-fluence-energy-stock-is-powering-higher-today/"
-        },
-        {
-          "title": "Stock Titan November 24 intraday market report",
-          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-24-2026"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-24T15:30:27-05:00",
+  "last_checked_at": "2026-11-24T16:31:01-05:00",
   "last_check_status": "new_findings"
 }
