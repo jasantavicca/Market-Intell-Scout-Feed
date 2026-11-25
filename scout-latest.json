@@ -1,8 +1,123 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-25T14:28:31-05:00",
-  "as_of_et": "November 25, 2026, 2:28 PM EST",
+  "generated_at": "2026-11-25T15:30:31-05:00",
+  "as_of_et": "November 25, 2026, 3:30 PM EST",
   "items": [
+    {
+      "id": "scout-20261125-1530-nvda-creditwatch",
+      "observed_at": "2026-11-25T15:30:31-05:00",
+      "title": "S&P places Nvidia AA ratings on CreditWatch Negative",
+      "summary": "S&P Global Ratings placed Nvidia's existing AA credit ratings under negative review, citing governance and China-related risks. No downgrade has occurred, and the agency says its assessment of Nvidia's competitive and financial profile remains unchanged. The action extends scrutiny of AI infrastructure credit risk to its leading chip supplier.",
+      "tickers": [
+        "NVDA",
+        "SMH",
+        "CRWV",
+        "ORCL"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "Credit markets"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Official S&P action Nov 25 at 1:36 PM EST",
+          "value": "AA issuer and senior debt ratings placed on CreditWatch Negative; rating remains AA."
+        },
+        {
+          "label": "AP market snapshot approximately 1:55 PM EST",
+          "value": "NVDA -4.9% intraday; move not attributable solely to the ratings action."
+        },
+        {
+          "label": "Rating agency assessment",
+          "value": "Governance modifier changed from positive to neutral; board independence, executive oversight, succession and China-related risks cited. Competitive position and financial profile unchanged."
+        },
+        {
+          "label": "Review window and next indicators",
+          "value": "Potential downgrade likely limited to one notch over next 90 days unless further damaging disclosures emerge. Monitor governance remediation, export-control developments, credit spreads and customer financing."
+        }
+      ],
+      "key_finding": "Credit scrutiny now extends to Nvidia itself, although its AA rating and assessed financial fundamentals remain intact.",
+      "sources": [
+        {
+          "title": "S&P Global official ratings actions",
+          "url": "https://www.spglobal.com/ratings/en/regulatory/ratings-actions?app=sp&id=3238799"
+        },
+        {
+          "title": "Reuters reporting on Nvidia credit watch",
+          "url": "https://www.aol.com/articles/p-global-places-nvidia-rating-185615000.html"
+        },
+        {
+          "title": "Investing.com rating agency analysis",
+          "url": "https://ca.investing.com/news/stock-market-news/sp-puts-nvidia-on-creditwatch-over-governance-concerns-4981450"
+        },
+        {
+          "title": "Associated Press afternoon market report",
+          "url": "https://apnews.com/article/10044b4fb55d3ff20fde9ba9e9acaab1"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261125-1530-beige-book-datacenter",
+      "observed_at": "2026-11-25T15:30:31-05:00",
+      "title": "Fed district reports show continuing data-center construction labor demand despite credit stress",
+      "summary": "The November Beige Book describes skilled labor shortages associated with industrial and data-center development in the Atlanta district and employment strength in data-center construction in Dallas. National construction activity weakened amid higher costs and borrowing rates. The qualitative evidence distinguishes continuing physical investment activity from deteriorating AI financing sentiment.",
+      "tickers": [
+        "PWR",
+        "ETN",
+        "VRT",
+        "GEV"
+      ],
+      "sectors": [
+        "Data-center power",
+        "Grid infrastructure",
+        "Electrical equipment",
+        "Construction"
+      ],
+      "evidence_grade": "confirmed",
+      "observations": [
+        {
+          "label": "November 25 Beige Book national summary",
+          "value": "Eight of twelve districts reported slight to moderate growth; four unchanged. Construction activity declined overall."
+        },
+        {
+          "label": "Atlanta district",
+          "value": "Skilled and technical worker shortages linked to industrial and data-center development."
+        },
+        {
+          "label": "Dallas district",
+          "value": "Employment growth strength in manufacturing and data-center construction."
+        },
+        {
+          "label": "Evidence scope",
+          "value": "Qualitative contact reports collected through November 16; no company-specific orders, new power capacity or attributable stock move established."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Equipment backlog, cancellations, interconnection agreements, construction spending, project financing and future regional surveys."
+        }
+      ],
+      "key_finding": "Fed regional evidence indicates ongoing physical data-center activity even as financial-market financing risks rise.",
+      "sources": [
+        {
+          "title": "Federal Reserve national Beige Book summary",
+          "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202611-summary.htm"
+        },
+        {
+          "title": "Federal Reserve Atlanta district report",
+          "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202611-atlanta.htm"
+        },
+        {
+          "title": "Federal Reserve Dallas district report",
+          "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202611-dallas.htm"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261125-1428-breadth-reversal",
       "observed_at": "2026-11-25T14:28:31-05:00",
@@ -169,122 +284,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261125-1128-eia-inventory",
-      "observed_at": "2026-11-25T11:28:54-05:00",
-      "title": "EIA reports third consecutive crude inventory build; energy shares resilient",
-      "summary": "EIA reported a smaller-than-expected commercial crude inventory build, while gasoline and distillate stocks increased. Overall commercial petroleum inventories declined. Energy shares held near flat during broader equity selling, but incremental Middle Eastern export losses remain unverified.",
-      "tickers": [
-        "XLE",
-        "XOP",
-        "CL",
-        "BRN"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Energy"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Nov 25 10:30 AM EST EIA, week ending Nov 20",
-          "value": "Commercial crude +1.1M barrels to 418.9M, 3% below five-year average; consensus +2M; gasoline +1.7M, distillate +0.7M; total commercial petroleum -2.4M barrels."
-        },
-        {
-          "label": "Refining and imports",
-          "value": "97.5% utilization; crude inputs 17.3M b/d; crude imports 6.2M b/d, up 673,000 b/d."
-        },
-        {
-          "label": "Intraday ETF observations",
-          "value": "XLE +0.05% at 10:21 AM EST; XOP +0.08% at 10:32 AM EST. Different observation times; not settlements."
-        },
-        {
-          "label": "Next indicators",
-          "value": "Saudi refinery operations, actual tanker loadings, freight and insurance, Brent/WTI settlements, Nov 29 OPEC+ meeting."
-        }
-      ],
-      "key_finding": "US crude stocks are rebuilding, while low seasonal stocks and maritime risks leave supply vulnerable.",
-      "sources": [
-        {
-          "title": "EIA Weekly Petroleum Status Report",
-          "url": "https://www.eia.gov/petroleum/supply/weekly/"
-        },
-        {
-          "title": "OilPrice November 25 inventory report",
-          "url": "https://oilprice.com/Energy/Crude-Oil/Oil-Inventories-Continue-to-Rise-in-the-US.html"
-        },
-        {
-          "title": "Trading Economics inventory consensus",
-          "url": "https://tradingeconomics.com/united-states/crude-oil-stocks-change"
-        },
-        {
-          "title": "Yahoo Finance XLE intraday",
-          "url": "https://finance.yahoo.com/quote/XLE/history/"
-        },
-        {
-          "title": "Stock Analysis XOP intraday",
-          "url": "https://stockanalysis.com/etf/xop/history/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261125-1128-hpq-divergence",
-      "observed_at": "2026-11-25T11:28:54-05:00",
-      "title": "HP rises against broad technology selloff after earnings and dividend increase",
-      "summary": "HP shares rose sharply after better-than-expected quarterly results and a dividend increase. Higher-value PC sales supported revenue despite falling unit shipments. Tariff refunds, memory costs and a change in adjusted earnings methodology complicate the underlying earnings comparison.",
-      "tickers": [
-        "HPQ"
-      ],
-      "sectors": [
-        "Personal computing",
-        "Edge AI",
-        "Enterprise hardware"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Nov 25 10:05 AM EST Google Finance",
-          "value": "HPQ $30.97, +10.84%; intraday."
-        },
-        {
-          "label": "Nov 24 FY26 results",
-          "value": "Q4 revenue $16B, +9.3% YoY; adjusted EPS $0.83, including $0.15 tariff refunds; annual FCF $3.3B; quarterly dividend $0.31."
-        },
-        {
-          "label": "PC business",
-          "value": "Personal Systems revenue +14% YoY; units -29%; AI PCs nearly 60% of shipments; memory and storage cost pressures."
-        },
-        {
-          "label": "Guidance caveat",
-          "value": "FY27 non-GAAP EPS $3.15–3.45; new exclusion of stock-based compensation would add $0.38 to FY26 comparable EPS; FY27 FCF $2.9–3.1B."
-        },
-        {
-          "label": "Next indicators",
-          "value": "PC unit shipments, pricing, memory costs, margins, cash flow and normalized earnings."
-        }
-      ],
-      "key_finding": "HP's positive earnings reaction is an outlier in tech selling, but unit weakness and accounting changes warrant caution.",
-      "sources": [
-        {
-          "title": "HP official earnings release Nov 24",
-          "url": "https://www.hp.com/us-en/newsroom/press-releases/2026/hp-inc-reports-fiscal-2026-full-year-and-fourth-quarter-results.html"
-        },
-        {
-          "title": "Google Finance HPQ price observation",
-          "url": "https://www.google.com/finance/quote/HPQ%3ANYSE"
-        },
-        {
-          "title": "Wall Street Journal HP guidance and memory costs",
-          "url": "https://www.wsj.com/business/earnings/hp-offers-prudent-guidance-amid-rising-memory-costs-37c67b9d"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-25T14:28:31-05:00",
+  "last_checked_at": "2026-11-25T15:30:31-05:00",
   "last_check_status": "new_findings"
 }
