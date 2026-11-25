@@ -1,66 +1,180 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-24T20:30:44-05:00",
-  "as_of_et": "November 24, 2026, 8:30 PM EST",
+  "generated_at": "2026-11-25T07:33:01-05:00",
+  "as_of_et": "November 25, 2026, 7:33 AM EST",
   "items": [
     {
-      "id": "scout-20261124-2030-chip-asian-reversal",
-      "observed_at": "2026-11-24T20:30:44-05:00",
-      "title": "Semiconductor index closes down 7.88% as renewed selling reaches Wednesday's Tokyo session",
-      "summary": "The US semiconductor index gave back part of Monday's sharp rally, with renewed selling extending into early Wednesday trading in Japan. Analysts also lowered AI infrastructure spending forecasts, citing possible data-center delays. These are signs of continued valuation and execution risk, not proof of realized project cancellations.",
+      "id": "scout-20261125-0733-red-sea-export-risk",
+      "observed_at": "2026-11-25T07:33:01-05:00",
+      "title": "Saudi-Houthi escalation threatens alternative Red Sea export corridor",
+      "summary": "Saudi-led forces struck Yemen's Hodeidah port after Houthi threats against Saudi Red Sea ports. Saudi Arabia has used western export terminals and its East-West pipeline to mitigate Hormuz disruptions. Oil fell as surplus expectations outweighed the new risk. No incremental crude-export volume loss has been independently established.",
       "tickers": [
-        "SOXX",
-        "SMH",
-        "NVDA",
-        "EWJ",
-        "6857.T"
+        "XLE",
+        "XOP",
+        "CL",
+        "BRN"
       ],
       "sectors": [
-        "Semiconductors",
-        "AI infrastructure",
-        "International equities",
-        "Data-center power"
+        "Oil and gas",
+        "Maritime shipping",
+        "Energy infrastructure"
       ],
       "evidence_grade": "corroborated",
       "observations": [
         {
-          "label": "US regular-session changes, independently corroborated",
-          "value": "SOX Nov 20 -10.73%, Nov 23 +14.03%, Nov 24 -7.88%; Nov 24 closing level approximately 8,832.5, sources differ slightly in level."
+          "label": "November 25 escalation",
+          "value": "Reuters and WSJ report Saudi coalition action at Hodeidah after Houthi threats against Saudi Red Sea ports; threats do not establish port closures."
         },
         {
-          "label": "Tokyo November 25 early session (November 24 evening EST)",
-          "value": "WSJ reports Nikkei -2.8% at 57,008.52 and Advantest -12%; intraday, not confirmed closing figures. Fisco separately reports weak opening."
+          "label": "Reuters price observation 3:45 AM EST",
+          "value": "Brent $90.58 (-0.9%); WTI $80.96 (-1.3%); intraday, not settlement."
         },
         {
-          "label": "Analyst forecast, not realized cancellations",
-          "value": "IBD reports Mizuho 2027 and 2028 AI capex projections reduced to $1.4T and $1.8T, respectively, citing potential delays/cancellations affecting 5 GW."
+          "label": "Physical-flow assessment",
+          "value": "Saudi western ports and East-West pipeline provide an alternate export corridor; no new quantified cargo or export loss independently established."
         },
         {
-          "label": "Fundamental significance and next indicators",
-          "value": "Watch actual construction milestones, power interconnection, financing, chip orders and earnings revisions; continued strong deployments would weaken the slowdown thesis."
+          "label": "Advisories and next indicators",
+          "value": "MARAD active advisories unchanged; UKMTO dynamic register did not load incident list. Watch terminal operations, verified loadings, pipeline throughput, insurance, EIA at 10:30 AM ET and OPEC+ Nov 29."
         }
       ],
-      "key_finding": "Renewed international chip selling and lower analyst capex projections underscore infrastructure execution risk despite strong reported AI orders.",
+      "key_finding": "Red Sea escalation exposes an alternate oil export corridor while market prices continue to reflect expectations of surplus supply.",
       "sources": [
         {
-          "title": "Investing.com SOX historical data",
-          "url": "https://www.investing.com/indices/phlx-semiconductor-historical-data"
+          "title": "Reuters: Houthis threaten Saudi Red Sea ports and coalition strikes Hodeidah",
+          "url": "https://www.al-monitor.com/originals/2026/11/yemens-houthis-threaten-target-jeddah-and-other-saudi-red-sea-ports"
         },
         {
-          "title": "YCharts SOX historical data",
-          "url": "https://ycharts.com/indices/%5ESOX/level"
+          "title": "WSJ: oil prices and renewed Middle East tensions",
+          "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-supply-outlook-renewed-middle-east-tensions-182b1198"
         },
         {
-          "title": "WSJ Tokyo early-session market report",
-          "url": "https://www.wsj.com/finance/stocks/nikkei-falls-2-8-dragged-by-chip-related-stocks-79ef7a34"
+          "title": "Reuters: Wednesday oil prices",
+          "url": "https://live.euronext.com/en/financial-news/oil-slips-1-supply-glut-prospect-offsets-middle-east-disruption-fears"
         },
         {
-          "title": "Fisco Tokyo opening report November 25",
-          "url": "https://minkabu.jp/news/4671443"
+          "title": "MARAD active advisories",
+          "url": "https://www.maritime.dot.gov/msci-advisories"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261125-0733-asia-chip-close",
+      "observed_at": "2026-11-25T07:33:01-05:00",
+      "title": "Asian chip-heavy equity markets close sharply lower as relief rally fades",
+      "summary": "South Korea erased Tuesday's recovery and Taiwan suffered broad losses as semiconductor selling intensified. Japan also declined while Australia gained. Foreign selling and reported prospective U.S. tariffs compound AI valuation concerns, but the market action does not establish declining semiconductor orders.",
+      "tickers": [
+        "EWY",
+        "EWT",
+        "EWJ",
+        "TSM",
+        "NVDA",
+        "005930.KS",
+        "000660.KS"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "International equities"
+      ],
+      "evidence_grade": "confirmed",
+      "observations": [
+        {
+          "label": "November 25 local-market closing changes, independently corroborated",
+          "value": "KOSPI -6.16% to 4,697.51 (MoneyToday and Seoul Market Wire); TAIEX -4.80% to 38,195.43 (CNA and Financial Express); Nikkei -2.78% (SquawkNews and AP, rounded -2.8%)."
         },
         {
-          "title": "Investor's Business Daily AI capex forecast reporting",
-          "url": "https://www.investors.com/news/technology/chip-stocks-fall-data-center-spending-fears/"
+          "label": "Taiwan breadth and foreign flows, CNA",
+          "value": "39 advancers, 1,053 decliners; foreign institutions net sold NT$123.65 billion."
+        },
+        {
+          "label": "Fundamentals and next indicators",
+          "value": "Price stress reflects AI valuation, trade and liquidity risks, not demonstrated chip-order deterioration. Watch foreign flows, breadth, company order revisions, tariffs, PCE and Treasury yields. Sustained broad recovery would weaken stress signal."
+        }
+      ],
+      "key_finding": "Asian closing figures confirm the semiconductor-led reversal spread beyond early Tokyo trading.",
+      "sources": [
+        {
+          "title": "MoneyToday: Korea close",
+          "url": "https://www.mt.co.kr/en/stock/2026/11/25/2026112515564974919"
+        },
+        {
+          "title": "Seoul Market Wire: Korea close and foreign flows",
+          "url": "https://seoulmarketwire.com/posts/kospi-close-2026-11-25/"
+        },
+        {
+          "title": "CNA: Taiwan close and breadth",
+          "url": "https://www.cna.com.tw/news/afe/202611250141.aspx"
+        },
+        {
+          "title": "Focus Taiwan: foreign selling and chip moves",
+          "url": "https://focustaiwan.tw/business/202611250017"
+        },
+        {
+          "title": "Financial Express: Asian equity closes",
+          "url": "https://www.financialexpress.com/market/global-markets/ai-selloff-hits-asia-kospi-sinks-6-16-taiwan-drops-480-as-tech-stocks-tumble/4393364/"
+        },
+        {
+          "title": "Associated Press: global equity markets",
+          "url": "https://apnews.com/article/10044b4fb55d3ff20fde9ba9e9acaab1"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261124-2030-chip-asian-reversal"
+    },
+    {
+      "id": "scout-20261125-0733-section301-tariff-risk",
+      "observed_at": "2026-11-25T07:33:01-05:00",
+      "title": "Reports of imminent Section 301 tariff findings add manufacturing supply-chain risk",
+      "summary": "Reuters and Associated Press independently report preparations for additional U.S. tariffs following an industrial overcapacity investigation. USTR documents the original investigation covering major Asian, European and North American trading partners. Rates, product coverage and implementation timing are not yet confirmed.",
+      "tickers": [
+        "SOXX",
+        "SMH",
+        "EWT",
+        "EWY",
+        "EWJ",
+        "XLI"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "Automotive",
+        "Electronics manufacturing",
+        "International equities"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Official scope",
+          "value": "USTR March 11 initiated Section 301 investigations covering 16 economies including China, Taiwan, Korea, Japan, Mexico and EU."
+        },
+        {
+          "label": "November 25 reporting",
+          "value": "Reuters and AP cite people familiar with preparations for additional duties; no final rates or effective dates independently established."
+        },
+        {
+          "label": "Market context",
+          "value": "November 25 Asian closes: KOSPI -6.16%, TAIEX -4.80%, Nikkei approximately -2.8%; tariff reports are one of several catalysts, not sole cause."
+        },
+        {
+          "label": "Next indicators and invalidation",
+          "value": "Official findings, tariff schedules, exclusions, effective dates, supplier cost pass-through and corporate margin guidance. Delays or broad exclusions would reduce near-term risk."
+        }
+      ],
+      "key_finding": "Prospective additional duties represent a meaningful but not yet implemented manufacturing cost risk.",
+      "sources": [
+        {
+          "title": "USTR official original investigation",
+          "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/march/ustr-initiates-section-301-investigations-relating-structural-excess-capacity-and-production"
+        },
+        {
+          "title": "AP: prospective tariff announcement",
+          "url": "https://apnews.com/article/d97ed6f4017152ca4c18de5517db6d51"
+        },
+        {
+          "title": "Reuters: tariff preparations via Korea Times",
+          "url": "https://www.koreatimes.co.kr/world/20261125/us-poised-to-unveil-new-tariffs-targeting-s-korea-15-other-trading-partners"
         }
       ],
       "status": "new",
@@ -170,122 +284,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261124-1931-memory-cycle",
-      "observed_at": "2026-11-24T19:31:02-05:00",
-      "title": "Micron falls as future memory oversupply concerns contrast with current hardware cost pressure",
-      "summary": "BNP Paribas downgraded Micron on potential memory oversupply and data-center deployment delays. HP's evening earnings disclosure shows current memory and storage costs pressuring margins. These are distinct time horizons, underscoring the risk that capacity growth and future demand may diverge.",
-      "tickers": [
-        "MU",
-        "HPQ",
-        "AMBA",
-        "SNDK"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "Electronics manufacturing",
-        "AI infrastructure"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Micron regular-session close Nov 24, independently matched",
-          "value": "$629.79, -11.01%; Yahoo Finance and Investing.com historical prices agree."
-        },
-        {
-          "label": "BNP Paribas analyst forecast",
-          "value": "Target reduced from $1,700 to $775; possible DRAM/NAND supply-demand parity by mid-2027, not company guidance."
-        },
-        {
-          "label": "HP earnings and after-hours observation",
-          "value": "Quarterly revenue $16.0B, +9.3% YoY; memory/storage costs pressure margins; HPQ $27.85, -0.32% after hours at 6:01 PM EST, indicative."
-        },
-        {
-          "label": "Next indicators",
-          "value": "DRAM/NAND prices, capacity commitments, inventory, hyperscaler construction and power connections, and Micron earnings; sustained supply constraints and stronger deployment would challenge oversupply forecast."
-        }
-      ],
-      "key_finding": "Near-term memory scarcity can coexist with medium-term oversupply risk if production and AI deployment schedules diverge.",
-      "sources": [
-        {
-          "title": "Investing.com BNP downgrade report",
-          "url": "https://www.investing.com/news/stock-market-news/bnp-paribas-cuts-micron-rating-on-risks-to-2028-hyperscaler-capacity-plans-5048466"
-        },
-        {
-          "title": "Yahoo Finance Micron historical prices",
-          "url": "https://finance.yahoo.com/quote/MU/history/"
-        },
-        {
-          "title": "Investing.com Micron historical prices",
-          "url": "https://ph.investing.com/equities/micron-tech-historical-data"
-        },
-        {
-          "title": "HP official earnings release",
-          "url": "https://www.hp.com/us-en/newsroom/press-releases/2026/hp-inc-reports-fiscal-2026-full-year-and-fourth-quarter-results.html"
-        },
-        {
-          "title": "WSJ HP memory cost and margin report",
-          "url": "https://www.wsj.com/business/earnings/hp-offers-prudent-guidance-amid-rising-memory-costs-37c67b9d"
-        },
-        {
-          "title": "HPQ after-hours price",
-          "url": "https://stockanalysis.com/stocks/hpq/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261124-1931-bridgebio-approval",
-      "observed_at": "2026-11-24T19:31:02-05:00",
-      "title": "BridgeBio advances commercialization with first FDA-approved limb-girdle muscular dystrophy treatment",
-      "summary": "FDA granted traditional approval to BridgeBio's Welgemda on November 23, supported by Phase 3 clinical results. BridgeBio anticipates an immediate U.S. launch. Shares rose in Tuesday trading, although reported closing prices disagree. Commercial impact depends on patient identification, coverage and adoption.",
-      "tickers": [
-        "BBIO"
-      ],
-      "sectors": [
-        "Biotechnology",
-        "Rare disease therapeutics"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "FDA approval",
-          "value": "Nov 23, 2026; ribitol (Welgemda) for limb-girdle muscular dystrophy type 2I/R9; first approved therapy for a form of LGMD."
-        },
-        {
-          "label": "Nov 24 market reaction",
-          "value": "Reported approximately +7–9%; IBD reports $85.87 and StockQuote $85.03; exact close not confirmed."
-        },
-        {
-          "label": "Clinical and commercial context",
-          "value": "Traditional approval supported by FORTIFY Phase 3; company anticipates immediate U.S. launch and received priority review voucher."
-        },
-        {
-          "label": "Next indicators",
-          "value": "Launch uptake, payer coverage, patient identification, durability data and additional 2027 regulatory decisions."
-        }
-      ],
-      "key_finding": "FDA-confirmed approval materially broadens BridgeBio's commercial portfolio; revenue ramp remains uncertain.",
-      "sources": [
-        {
-          "title": "FDA 2026 novel drug approvals",
-          "url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026"
-        },
-        {
-          "title": "BridgeBio official approval announcement",
-          "url": "https://investor.bridgebio.com/news/news-details/2026/Welgemda-BBP-418-Ribitol-Receives-Traditional-Approval-as-the-First-and-Only-Treatment-for-Individuals-Living-with-LGMD2IR9/default.aspx"
-        },
-        {
-          "title": "IBD market reaction",
-          "url": "https://www.investors.com/news/technology/bridgebio-stock-halted-fda-approves-lgmd-treatment/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-24T20:30:44-05:00",
+  "last_checked_at": "2026-11-25T07:33:01-05:00",
   "last_check_status": "new_findings"
 }
