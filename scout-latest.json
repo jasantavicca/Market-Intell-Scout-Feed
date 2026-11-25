@@ -1,8 +1,174 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-24T18:31:05-05:00",
-  "as_of_et": "November 24, 2026, 6:31 PM EST",
+  "generated_at": "2026-11-24T19:31:02-05:00",
+  "as_of_et": "November 24, 2026, 7:31 PM EST",
   "items": [
+    {
+      "id": "scout-20261124-1931-hormuz-traffic",
+      "observed_at": "2026-11-24T19:31:02-05:00",
+      "title": "Separate vessel-tracking sources indicate severe Hormuz traffic restrictions",
+      "summary": "MarineTraffic figures reported on November 24 indicate a substantial decline in weekly vessel crossings. A separate AIS tracker also shows depressed commercial transits. The data support transportation disruption but do not quantify incremental crude export losses; vessels without AIS and differing coverage limit comparison.",
+      "tickers": [
+        "XLE",
+        "XOP",
+        "CL",
+        "BRN"
+      ],
+      "sectors": [
+        "Energy",
+        "Maritime transportation"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "MarineTraffic counts reported Nov 24",
+          "value": "226 vessels Nov 1–7 versus 125 Nov 17–23, a 44.7% decline; reported by UOL."
+        },
+        {
+          "label": "Separate AIS tracking snapshot Nov 24, 11:51 AM EST",
+          "value": "hormuz.now reports 7.4 commercial crossings/day over seven days and 2 in the prior 24 hours; differing coverage prevents direct comparison with MarineTraffic."
+        },
+        {
+          "label": "Physical oil-flow assessment",
+          "value": "Restricted vessel movement is corroborated; incremental crude cargo volume loss and Strait-wide closure are not established."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Tanker loadings, alternative pipeline volumes, insurance, EIA Nov 25, OPEC+ Nov 29; sustained traffic recovery would weaken the disruption signal."
+        }
+      ],
+      "key_finding": "Independent tracking indicates severe transportation disruption, but vessel counts cannot be translated directly into barrels of lost supply.",
+      "sources": [
+        {
+          "title": "UOL November 24 report citing MarineTraffic",
+          "url": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/11/24/trafego-em-hormuz-cai-mais-de-40-em-meio-a-ataques-a-petroleiros.ghtm"
+        },
+        {
+          "title": "Hormuz AIS tracking snapshot",
+          "url": "https://hormuz.now/traffic"
+        },
+        {
+          "title": "MARAD active advisories",
+          "url": "https://www.maritime.dot.gov/msci-advisories"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261124-1931-memory-cycle",
+      "observed_at": "2026-11-24T19:31:02-05:00",
+      "title": "Micron falls as future memory oversupply concerns contrast with current hardware cost pressure",
+      "summary": "BNP Paribas downgraded Micron on potential memory oversupply and data-center deployment delays. HP's evening earnings disclosure shows current memory and storage costs pressuring margins. These are distinct time horizons, underscoring the risk that capacity growth and future demand may diverge.",
+      "tickers": [
+        "MU",
+        "HPQ",
+        "AMBA",
+        "SNDK"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "Electronics manufacturing",
+        "AI infrastructure"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Micron regular-session close Nov 24, independently matched",
+          "value": "$629.79, -11.01%; Yahoo Finance and Investing.com historical prices agree."
+        },
+        {
+          "label": "BNP Paribas analyst forecast",
+          "value": "Target reduced from $1,700 to $775; possible DRAM/NAND supply-demand parity by mid-2027, not company guidance."
+        },
+        {
+          "label": "HP earnings and after-hours observation",
+          "value": "Quarterly revenue $16.0B, +9.3% YoY; memory/storage costs pressure margins; HPQ $27.85, -0.32% after hours at 6:01 PM EST, indicative."
+        },
+        {
+          "label": "Next indicators",
+          "value": "DRAM/NAND prices, capacity commitments, inventory, hyperscaler construction and power connections, and Micron earnings; sustained supply constraints and stronger deployment would challenge oversupply forecast."
+        }
+      ],
+      "key_finding": "Near-term memory scarcity can coexist with medium-term oversupply risk if production and AI deployment schedules diverge.",
+      "sources": [
+        {
+          "title": "Investing.com BNP downgrade report",
+          "url": "https://www.investing.com/news/stock-market-news/bnp-paribas-cuts-micron-rating-on-risks-to-2028-hyperscaler-capacity-plans-5048466"
+        },
+        {
+          "title": "Yahoo Finance Micron historical prices",
+          "url": "https://finance.yahoo.com/quote/MU/history/"
+        },
+        {
+          "title": "Investing.com Micron historical prices",
+          "url": "https://ph.investing.com/equities/micron-tech-historical-data"
+        },
+        {
+          "title": "HP official earnings release",
+          "url": "https://www.hp.com/us-en/newsroom/press-releases/2026/hp-inc-reports-fiscal-2026-full-year-and-fourth-quarter-results.html"
+        },
+        {
+          "title": "WSJ HP memory cost and margin report",
+          "url": "https://www.wsj.com/business/earnings/hp-offers-prudent-guidance-amid-rising-memory-costs-37c67b9d"
+        },
+        {
+          "title": "HPQ after-hours price",
+          "url": "https://stockanalysis.com/stocks/hpq/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261124-1931-bridgebio-approval",
+      "observed_at": "2026-11-24T19:31:02-05:00",
+      "title": "BridgeBio advances commercialization with first FDA-approved limb-girdle muscular dystrophy treatment",
+      "summary": "FDA granted traditional approval to BridgeBio's Welgemda on November 23, supported by Phase 3 clinical results. BridgeBio anticipates an immediate U.S. launch. Shares rose in Tuesday trading, although reported closing prices disagree. Commercial impact depends on patient identification, coverage and adoption.",
+      "tickers": [
+        "BBIO"
+      ],
+      "sectors": [
+        "Biotechnology",
+        "Rare disease therapeutics"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "FDA approval",
+          "value": "Nov 23, 2026; ribitol (Welgemda) for limb-girdle muscular dystrophy type 2I/R9; first approved therapy for a form of LGMD."
+        },
+        {
+          "label": "Nov 24 market reaction",
+          "value": "Reported approximately +7–9%; IBD reports $85.87 and StockQuote $85.03; exact close not confirmed."
+        },
+        {
+          "label": "Clinical and commercial context",
+          "value": "Traditional approval supported by FORTIFY Phase 3; company anticipates immediate U.S. launch and received priority review voucher."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Launch uptake, payer coverage, patient identification, durability data and additional 2027 regulatory decisions."
+        }
+      ],
+      "key_finding": "FDA-confirmed approval materially broadens BridgeBio's commercial portfolio; revenue ramp remains uncertain.",
+      "sources": [
+        {
+          "title": "FDA 2026 novel drug approvals",
+          "url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026"
+        },
+        {
+          "title": "BridgeBio official approval announcement",
+          "url": "https://investor.bridgebio.com/news/news-details/2026/Welgemda-BBP-418-Ribitol-Receives-Traditional-Approval-as-the-First-and-Only-Treatment-for-Individuals-Living-with-LGMD2IR9/default.aspx"
+        },
+        {
+          "title": "IBD market reaction",
+          "url": "https://www.investors.com/news/technology/bridgebio-stock-halted-fda-approves-lgmd-treatment/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261124-1831-ambarella-memory",
       "observed_at": "2026-11-24T18:31:05-05:00",
@@ -107,160 +273,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261124-1831-oil-settlement",
-      "observed_at": "2026-11-24T18:31:05-05:00",
-      "title": "Oil settles more than 2% higher; separate UKMTO reports clarify previously reported Hormuz incidents",
-      "summary": "Reuters and the Wall Street Journal independently report higher Tuesday crude settlements. Additional UKMTO documentation details previously reported vessel strikes rather than three additional attacks. The price rebound is consistent with renewed geopolitical risk pricing, not verified incremental physical supply loss.",
-      "tickers": [
-        "XLE",
-        "XOP",
-        "CL",
-        "BRN"
-      ],
-      "sectors": [
-        "Energy",
-        "Maritime shipping"
-      ],
-      "evidence_grade": "confirmed",
-      "observations": [
-        {
-          "label": "Nov 24 settlement, Reuters and WSJ",
-          "value": "Brent $91.40 (+2.27%), WTI $82.05 (+2.35%)."
-        },
-        {
-          "label": "Maritime update",
-          "value": "UKMTO Warning 221-26 documents one of the previously reported vessel incidents dated Nov 22; crew accounted for and tanker continued voyage. Damage and environmental impact remain unknown."
-        },
-        {
-          "label": "Next indicators",
-          "value": "EIA report Nov 25, verified tanker flows, insurance costs, refinery throughput and price persistence; stable flows and rising stocks would weaken shortage thesis."
-        }
-      ],
-      "key_finding": "Corroborated oil settlements confirm a rebound without evidence of additional physical export losses.",
-      "sources": [
-        {
-          "title": "Reuters settlement figures via Forbes Middle East",
-          "url": "https://forbesmiddleeast.com/industry/energy/brent-crude-rises-227-to-9140-wti-gains-235-to-8205"
-        },
-        {
-          "title": "Wall Street Journal crude settlement report",
-          "url": "https://www.wsj.com/finance/commodities-futures/oil-futures-edge-higher-on-likely-technical-recovery-3d1650f7"
-        },
-        {
-          "title": "UKMTO Warning 221-26",
-          "url": "https://www.ukmto.org/-/media/ukmto/products/20261124-ukmto_warning_221-26.pdf?rev=26e3f50218144bbcb7ea1d5906b63bdd"
-        },
-        {
-          "title": "Crewboard incident documentation update",
-          "url": "https://crew-board.net/news/hormuz-gulf-ship-attacks-mid-october-2026"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261124-1420-hormuz-three-vessels"
-    },
-    {
-      "id": "scout-20261124-1731-nutanix-succession",
-      "observed_at": "2026-11-24T17:31:07-05:00",
-      "title": "Nutanix falls after strong quarter as CEO succession and guidance create uncertainty",
-      "summary": "Nutanix reported 15% recurring revenue growth and sharply improved operating profitability. Its board announced a CEO search, while annual revenue guidance fell slightly short of consensus. Shares declined about 9% in early extended trading, with subsequent reports showing a smaller decline. Succession and forward demand remain key risks.",
-      "tickers": [
-        "NTNX"
-      ],
-      "sectors": [
-        "Enterprise software",
-        "Hybrid cloud",
-        "AI infrastructure"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Nov 24 after-hours report at 4:18 PM EST",
-          "value": "Approximately -9%; subsequent report approximately -6%; extended trading, not closing data."
-        },
-        {
-          "label": "Q1 FY2027",
-          "value": "Revenue $772.4M (+15% YoY); ARR $2.63B (+15%); GAAP operating margin 18.5% versus 7.4%; free cash flow $209.3M versus $174.5M."
-        },
-        {
-          "label": "FY2027 revenue guidance",
-          "value": "$3.18B–$3.23B, midpoint below reported $3.22B consensus."
-        },
-        {
-          "label": "Next indicators",
-          "value": "CEO succession, retention, bookings, recurring revenue and margins; sustained weakening of demand or leadership execution would undermine dislocation thesis."
-        }
-      ],
-      "key_finding": "Strong current operations contrast with succession uncertainty and a modest forward guidance shortfall.",
-      "sources": [
-        {
-          "title": "Nutanix Q1 FY2027 results",
-          "url": "https://www.marketscreener.com/news/nutanix-reports-first-quarter-fiscal-2027-financial-results-ce7851dbdd81f622"
-        },
-        {
-          "title": "SEC-filed CEO succession announcement",
-          "url": "https://www.sec.gov/Archives/edgar/data/1618732/000117184326007693/exh_992.htm"
-        },
-        {
-          "title": "Investing.com 4:18 PM extended-market report",
-          "url": "https://www.investing.com/news/earnings/nutanix-stock-drops-9-on-weak-fy-guidance-and-ceo-exit-5049045"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261124-1731-autodesk-dislocation",
-      "observed_at": "2026-11-24T17:31:07-05:00",
-      "title": "Autodesk beats estimates and raises outlook, but shares fall in extended trading",
-      "summary": "Autodesk reported revenue growth of 17%, strong cash generation and raised annual guidance. Engineering and construction demand supported results, while investors remain concerned about slowing growth in near-term contracted revenue and AI competition. Shares fell approximately 4% in early after-hours trading.",
-      "tickers": [
-        "ADSK"
-      ],
-      "sectors": [
-        "Engineering software",
-        "Construction",
-        "Manufacturing"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Nov 24 after-hours report at 4:10 PM EST",
-          "value": "Approximately -4%; Barron's subsequently reported around -3.5%; not a closing price."
-        },
-        {
-          "label": "Q3 FY2027",
-          "value": "Revenue $2.16B (+17% YoY); adjusted operating margin 39%; free cash flow $505M (+17%); adjusted EPS $3.20."
-        },
-        {
-          "label": "Demand and outlook",
-          "value": "Architecture, engineering and construction revenue +19%; manufacturing revenue +13%; FY revenue guidance $8.36B–$8.375B; near-term contracted revenue growth 10%."
-        },
-        {
-          "label": "Next indicators",
-          "value": "Organic growth, renewals, current remaining performance obligations, engineering AI monetization, acquisition integration; deteriorating renewals or margins weaken the fundamental case."
-        }
-      ],
-      "key_finding": "Strong realized earnings and engineering demand contrast with concerns about forward subscription growth and AI competition.",
-      "sources": [
-        {
-          "title": "Autodesk official earnings release",
-          "url": "https://adsknews.autodesk.com/en/pressrelease/autodesk-inc-announces-fiscal-2027-third-quarter-results/"
-        },
-        {
-          "title": "Investing.com after-hours report",
-          "url": "https://www.investing.com/news/transcripts/autodesk-shares-fall-despite-q3-earnings-beat-strong-guidance-5049017"
-        },
-        {
-          "title": "Barron's earnings and forward-growth analysis",
-          "url": "https://www.barrons.com/articles/autodesk-earnings-stock-price-5387dd28"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-24T18:31:05-05:00",
+  "last_checked_at": "2026-11-24T19:31:02-05:00",
   "last_check_status": "new_findings"
 }
