@@ -1,8 +1,66 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-25T12:26:39-05:00",
-  "as_of_et": "November 25, 2026, 12:26 PM EST",
+  "generated_at": "2026-11-25T13:28:24-05:00",
+  "as_of_et": "November 25, 2026, 1:28 PM EST",
   "items": [
+    {
+      "id": "scout-20261125-1328-india-inflows",
+      "observed_at": "2026-11-25T13:28:24-05:00",
+      "title": "Indian large caps rally as November foreign inflows reverse ten months of selling",
+      "summary": "Indian benchmark stocks rebounded while AI-heavy markets remained under pressure. Newly reported provisional institutional flows show foreign investors continued November net buying after ten months of net selling. Large-cap banks, consumer staples and pharmaceuticals led, but broader market breadth remained negative.",
+      "tickers": [
+        "INDA",
+        "INDY",
+        "HDB",
+        "IBN"
+      ],
+      "sectors": [
+        "International equities",
+        "Financials",
+        "Consumer staples",
+        "Pharmaceuticals"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 25 local market closes, independently corroborated",
+          "value": "Nifty 50 25,819.25 (+1.85%); Sensex 83,938.28 (+1.82%)."
+        },
+        {
+          "label": "Provisional institutional cash-market activity",
+          "value": "Foreign institutions net bought INR 4,479.08 crore; domestic institutions net bought INR 4,018.72 crore. November foreign net inflows approximately INR 1.18 trillion."
+        },
+        {
+          "label": "Breadth and fundamentals",
+          "value": "Large-cap private banks, staples and pharma led; broader NSE decliners outnumbered advancers. Foreign inflows support relative resilience, but do not establish a broad earnings recovery."
+        },
+        {
+          "label": "Risks and next indicators",
+          "value": "Monitor foreign cash flows, breadth, bank earnings, crude prices, proposed US tariffs and RBI policy meeting December 2–4. Renewed outflows or higher oil import costs would weaken the rotation signal."
+        }
+      ],
+      "key_finding": "Verified local closing gains and provisional institutional cash flows support an emerging diversification signal beyond AI-heavy equities, with narrow breadth a key caveat.",
+      "sources": [
+        {
+          "title": "Times of India: November 25 closing figures",
+          "url": "https://timesofindia.indiatimes.com/business/india-business/stock-market-today-sensex-jumps-over-1700-points-nifty-tops-25850-top-reasons-behind-rally/articleshow/136149156.cms"
+        },
+        {
+          "title": "Moneycontrol: November 25 provisional institutional flows",
+          "url": "https://www.moneycontrol.com/news/business/economy/diis-turn-net-buyers-for-only-a-second-time-in-nov-pick-up-rs-4-019-crore-while-fiis-buy-rs-4-479-crore-14089086.html"
+        },
+        {
+          "title": "Financial Express: November inflows and sector rotation",
+          "url": "https://www.financialexpress.com/market/fii-buying-continues-november-haul-nears-rs-1-20-lakh-crore-whats-changed-4393799/"
+        },
+        {
+          "title": "November 25 market breadth and exchange closing data",
+          "url": "https://buzzaroundbusiness.com/2026/11/sensex-nifty-close-25-november-2026/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261125-1226-ai-credit-stress",
       "observed_at": "2026-11-25T12:26:39-05:00",
@@ -226,68 +284,8 @@
       ],
       "status": "updated",
       "supersedes": "scout-20261125-0733-red-sea-export-risk"
-    },
-    {
-      "id": "scout-20261125-1028-pce-gdp-selloff",
-      "observed_at": "2026-11-25T10:28:04-05:00",
-      "title": "Hotter core inflation and upward GDP revision accompany accelerating technology selloff",
-      "summary": "The BEA reported October core PCE inflation of 3.3% and revised third-quarter annualized GDP growth to 4.3%. The Nasdaq fell sharply in early cash trading. Strong growth and sticky inflation reinforce tightening expectations, adding valuation and financing risk to AI infrastructure without demonstrating equivalent weakness in the underlying economy.",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "DIA",
-        "NVDA",
-        "AVGO",
-        "MSFT"
-      ],
-      "sectors": [
-        "Macroeconomics",
-        "Semiconductors",
-        "AI infrastructure",
-        "Software"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "BEA 8:30 AM EST releases",
-          "value": "October headline PCE +3.8% YoY; core +3.3% YoY and +0.3% MoM; Q3 real GDP +4.3% annualized versus advance +3.4%."
-        },
-        {
-          "label": "AP 9:50 AM EST market observation",
-          "value": "S&P 500 -3.0%, Nasdaq -4.3%, Dow -2.1% (1,033 points); NVDA -8.7%, AVGO -6.3%, MSFT -3.7%; intraday."
-        },
-        {
-          "label": "Rates",
-          "value": "AP 10-year yield near 4.83%; WSJ reports reinforced expectations of December tightening."
-        },
-        {
-          "label": "Next indicators",
-          "value": "Closing breadth, credit spreads, Treasury yields and December Fed expectations. Broad recovery and declining financing costs would weaken acute stress signal."
-        }
-      ],
-      "key_finding": "Official macro releases add a monetary-policy headwind to existing AI valuation and financing concerns.",
-      "sources": [
-        {
-          "title": "BEA October personal income and outlays",
-          "url": "https://bea.gov/news/2026/personal-income-and-outlays-october-2026"
-        },
-        {
-          "title": "BEA Q3 GDP second estimate",
-          "url": "https://bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026"
-        },
-        {
-          "title": "Associated Press 9:50 AM market report",
-          "url": "https://apnews.com/article/10044b4fb55d3ff20fde9ba9e9acaab1"
-        },
-        {
-          "title": "WSJ Treasury yields and macro data",
-          "url": "https://www.wsj.com/finance/investing/u-s-treasury-yields-fall-ahead-of-pce-inflation-data-dfeb7995"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-25T12:26:39-05:00",
+  "last_checked_at": "2026-11-25T13:28:24-05:00",
   "last_check_status": "new_findings"
 }
