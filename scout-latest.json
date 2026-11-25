@@ -1,8 +1,122 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-25T10:28:04-05:00",
-  "as_of_et": "November 25, 2026, 10:28 AM EST",
+  "generated_at": "2026-11-25T11:28:54-05:00",
+  "as_of_et": "November 25, 2026, 11:28 AM EST",
   "items": [
+    {
+      "id": "scout-20261125-1128-eia-inventory",
+      "observed_at": "2026-11-25T11:28:54-05:00",
+      "title": "EIA reports third consecutive crude inventory build; energy shares resilient",
+      "summary": "EIA reported a smaller-than-expected commercial crude inventory build, while gasoline and distillate stocks increased. Overall commercial petroleum inventories declined. Energy shares held near flat during broader equity selling, but incremental Middle Eastern export losses remain unverified.",
+      "tickers": [
+        "XLE",
+        "XOP",
+        "CL",
+        "BRN"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Energy"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Nov 25 10:30 AM EST EIA, week ending Nov 20",
+          "value": "Commercial crude +1.1M barrels to 418.9M, 3% below five-year average; consensus +2M; gasoline +1.7M, distillate +0.7M; total commercial petroleum -2.4M barrels."
+        },
+        {
+          "label": "Refining and imports",
+          "value": "97.5% utilization; crude inputs 17.3M b/d; crude imports 6.2M b/d, up 673,000 b/d."
+        },
+        {
+          "label": "Intraday ETF observations",
+          "value": "XLE +0.05% at 10:21 AM EST; XOP +0.08% at 10:32 AM EST. Different observation times; not settlements."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Saudi refinery operations, actual tanker loadings, freight and insurance, Brent/WTI settlements, Nov 29 OPEC+ meeting."
+        }
+      ],
+      "key_finding": "US crude stocks are rebuilding, while low seasonal stocks and maritime risks leave supply vulnerable.",
+      "sources": [
+        {
+          "title": "EIA Weekly Petroleum Status Report",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/"
+        },
+        {
+          "title": "OilPrice November 25 inventory report",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Oil-Inventories-Continue-to-Rise-in-the-US.html"
+        },
+        {
+          "title": "Trading Economics inventory consensus",
+          "url": "https://tradingeconomics.com/united-states/crude-oil-stocks-change"
+        },
+        {
+          "title": "Yahoo Finance XLE intraday",
+          "url": "https://finance.yahoo.com/quote/XLE/history/"
+        },
+        {
+          "title": "Stock Analysis XOP intraday",
+          "url": "https://stockanalysis.com/etf/xop/history/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261125-1128-hpq-divergence",
+      "observed_at": "2026-11-25T11:28:54-05:00",
+      "title": "HP rises against broad technology selloff after earnings and dividend increase",
+      "summary": "HP shares rose sharply after better-than-expected quarterly results and a dividend increase. Higher-value PC sales supported revenue despite falling unit shipments. Tariff refunds, memory costs and a change in adjusted earnings methodology complicate the underlying earnings comparison.",
+      "tickers": [
+        "HPQ"
+      ],
+      "sectors": [
+        "Personal computing",
+        "Edge AI",
+        "Enterprise hardware"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Nov 25 10:05 AM EST Google Finance",
+          "value": "HPQ $30.97, +10.84%; intraday."
+        },
+        {
+          "label": "Nov 24 FY26 results",
+          "value": "Q4 revenue $16B, +9.3% YoY; adjusted EPS $0.83, including $0.15 tariff refunds; annual FCF $3.3B; quarterly dividend $0.31."
+        },
+        {
+          "label": "PC business",
+          "value": "Personal Systems revenue +14% YoY; units -29%; AI PCs nearly 60% of shipments; memory and storage cost pressures."
+        },
+        {
+          "label": "Guidance caveat",
+          "value": "FY27 non-GAAP EPS $3.15–3.45; new exclusion of stock-based compensation would add $0.38 to FY26 comparable EPS; FY27 FCF $2.9–3.1B."
+        },
+        {
+          "label": "Next indicators",
+          "value": "PC unit shipments, pricing, memory costs, margins, cash flow and normalized earnings."
+        }
+      ],
+      "key_finding": "HP's positive earnings reaction is an outlier in tech selling, but unit weakness and accounting changes warrant caution.",
+      "sources": [
+        {
+          "title": "HP official earnings release Nov 24",
+          "url": "https://www.hp.com/us-en/newsroom/press-releases/2026/hp-inc-reports-fiscal-2026-full-year-and-fourth-quarter-results.html"
+        },
+        {
+          "title": "Google Finance HPQ price observation",
+          "url": "https://www.google.com/finance/quote/HPQ%3ANYSE"
+        },
+        {
+          "title": "Wall Street Journal HP guidance and memory costs",
+          "url": "https://www.wsj.com/business/earnings/hp-offers-prudent-guidance-amid-rising-memory-costs-37c67b9d"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261125-1028-red-sea-escalation",
       "observed_at": "2026-11-25T10:28:04-05:00",
@@ -170,107 +284,8 @@
       ],
       "status": "updated",
       "supersedes": "scout-20261125-0733-section301-tariff-risk"
-    },
-    {
-      "observed_at": "2026-11-25T10:03:17-05:00",
-      "evidence_grade": "corroborated",
-      "status": "new",
-      "supersedes": null,
-      "id": "scout-20261125-1003-amba-memory",
-      "title": "Ambarella warns memory scarcity is cutting customer outlooks",
-      "summary": "Ambarella reported record edge AI revenue but warned that memory scarcity and prices are causing customers to reduce forecasts. Next-quarter revenue guidance suggests a substantial sequential decline. The premarket selloff reflects a documented operating headwind rather than sentiment alone.",
-      "tickers": [
-        "AMBA"
-      ],
-      "sectors": [
-        "Edge AI",
-        "Semiconductors",
-        "Embedded systems"
-      ],
-      "observations": [
-        {
-          "label": "Nov 25 6:46 AM EST premarket",
-          "value": "AMBA -35.55%; not a closing price."
-        },
-        {
-          "label": "Nov 24 fiscal Q3 report",
-          "value": "Revenue $115.2M, +6.2% YoY; GAAP gross margin 57.8%; GAAP net loss $12.7M."
-        },
-        {
-          "label": "Next quarter guidance",
-          "value": "$70–75M revenue; midpoint approximately 37% below Q3."
-        },
-        {
-          "label": "Next indicators",
-          "value": "Memory prices, supply availability, customer forecasts and order recovery."
-        }
-      ],
-      "key_finding": "Memory shortages are now causing documented demand pressure downstream in edge AI.",
-      "sources": [
-        {
-          "title": "Ambarella earnings release",
-          "url": "https://www.ambarella.com/news/ambarella-inc-announces-third-quarter-fiscal-year-2027-financial-results/"
-        },
-        {
-          "title": "SEC exhibit",
-          "url": "https://www.sec.gov/Archives/edgar/data/1280263/000119312526475716/d912526dex991.htm"
-        },
-        {
-          "title": "Stock Titan morning market report",
-          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-25-2026"
-        }
-      ]
-    },
-    {
-      "observed_at": "2026-11-25T10:03:17-05:00",
-      "evidence_grade": "corroborated",
-      "status": "new",
-      "supersedes": null,
-      "id": "scout-20261125-1003-dell-dislocation",
-      "title": "Dell sells off despite record quarterly results and raised guidance",
-      "summary": "Dell more than doubled quarterly revenue and significantly raised its annual outlook. Shares traded lower before the open despite the strong results. Backlog conversion, financing and memory costs remain important risks.",
-      "tickers": [
-        "DELL"
-      ],
-      "sectors": [
-        "AI infrastructure",
-        "Enterprise hardware"
-      ],
-      "observations": [
-        {
-          "label": "Nov 25 7:45 AM EST premarket",
-          "value": "DELL $281.68, -4.6%; not closing data."
-        },
-        {
-          "label": "Q3 FY27",
-          "value": "Revenue $54.9B, +103% YoY; adjusted EPS $9.45; operating cash flow $4.5B."
-        },
-        {
-          "label": "AI backlog and guidance",
-          "value": "Approximately $132B AI backlog; FY27 revenue guide $202B."
-        },
-        {
-          "label": "Next indicators",
-          "value": "Order conversion, customer financing, cancellations, margins and cash generation."
-        }
-      ],
-      "key_finding": "Strong reported hardware fundamentals diverge from negative market sentiment; valuation and execution risks remain.",
-      "sources": [
-        {
-          "title": "Dell earnings release",
-          "url": "https://www.dell.com/en-us/newsroom/announcements/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results"
-        },
-        {
-          "title": "Unusual Whales premarket report",
-          "url": "https://unusualwhales.com/news/premarket-brief-stocks-futures-nutanix-workday-dell-2026-11-25"
-        },
-        {
-          "title": "MarketWatch Dell report",
-          "url": "https://www.marketwatch.com/story/dells-stock-rises-as-the-ai-boom-helps-sales-more-than-double-cfb8cf65"
-        }
-      ]
     }
   ],
-  "last_checked_at": "2026-11-25T10:28:04-05:00",
+  "last_checked_at": "2026-11-25T11:28:54-05:00",
   "last_check_status": "new_findings"
 }
