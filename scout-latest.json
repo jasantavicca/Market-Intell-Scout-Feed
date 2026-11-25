@@ -1,8 +1,62 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-25T11:28:54-05:00",
-  "as_of_et": "November 25, 2026, 11:28 AM EST",
+  "generated_at": "2026-11-25T12:26:39-05:00",
+  "as_of_et": "November 25, 2026, 12:26 PM EST",
   "items": [
+    {
+      "id": "scout-20261125-1226-ai-credit-stress",
+      "observed_at": "2026-11-25T12:26:39-05:00",
+      "title": "AI infrastructure credit stress deepens as CoreWeave bond yields approach 18%",
+      "summary": "Reuters reports record credit protection costs for several AI infrastructure companies, with CoreWeave's five-year credit default swap spread above 1,300 basis points. The Wall Street Journal independently corroborates elevated stress. Financing pressure could constrain future infrastructure expansion even if compute demand remains strong.",
+      "tickers": [
+        "CRWV",
+        "ORCL",
+        "SFTBY",
+        "NVDA"
+      ],
+      "sectors": [
+        "AI infrastructure",
+        "Corporate credit",
+        "Semiconductors",
+        "Data-center power and networking"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Reuters Nov 25 report updated 10:37 AM EST",
+          "value": "Five-year CDS: CoreWeave 1,314 bp; Oracle 356 bp; SoftBank 501 bp (widest since October 2022). Indicative observations, not closing prices."
+        },
+        {
+          "label": "Independent WSJ report Nov 25",
+          "value": "CoreWeave five-year CDS 1,332 bp; difference reflects separate observations. Oracle credit protection costs also elevated."
+        },
+        {
+          "label": "Bond market",
+          "value": "Reuters: CoreWeave 2031 bond yields approached 18%; 2030 bonds reached record low prices."
+        },
+        {
+          "label": "Fundamental significance",
+          "value": "Higher capital costs could delay marginal data-center projects and equipment orders; actual cancellations not established."
+        },
+        {
+          "label": "Risks and next indicators",
+          "value": "Monitor financing terms, customer-backed debt, capex revisions, cash generation and backlog conversion; sustained credit-spread compression would weaken warning."
+        }
+      ],
+      "key_finding": "Credit market stress adds independent evidence of financing risk beyond falling AI equity valuations.",
+      "sources": [
+        {
+          "title": "Reuters November 25, updated 10:37 AM EST",
+          "url": "https://ca.marketscreener.com/news/ai-credit-default-swap-spreads-widen-ce7851dbdf81f127"
+        },
+        {
+          "title": "Wall Street Journal November 25 credit-market report",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-25-2026/card/ai-credit-risks-seize-spotlight-from-jensen-huang-sideshow--RHjU4z76qAq7AltILV86"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261125-1128-eia-inventory",
       "observed_at": "2026-11-25T11:28:54-05:00",
@@ -232,60 +286,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261125-1028-ustr-tariff-proposal",
-      "observed_at": "2026-11-25T10:28:04-05:00",
-      "title": "USTR publishes proposed Section 301 tariffs covering 14 economies",
-      "summary": "USTR announced findings and proposed tariff measures covering fourteen economies, including major semiconductor-producing regions. Proposed rates vary by economy and include exemptions and existing-duty offsets. Public consultation and hearings remain ahead; the proposals are not effective duties. The announcement adds supply-chain cost uncertainty to technology and industrial markets.",
-      "tickers": [
-        "TSM",
-        "EWT",
-        "EWY",
-        "FXI",
-        "SMH",
-        "XLK"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "Networking",
-        "Industrial manufacturing",
-        "International equities"
-      ],
-      "evidence_grade": "confirmed",
-      "observations": [
-        {
-          "label": "USTR November 25 official proposal",
-          "value": "China up to 20%, Taiwan and Korea up to 15%, EU 15%, India up to 25%; subject to applicable offsets, exemptions and negotiations."
-        },
-        {
-          "label": "Status",
-          "value": "14 determinations; Mexico and Norway not determined. Proposed duties not yet in effect."
-        },
-        {
-          "label": "Market context",
-          "value": "AP reported Nasdaq -4.3% at 9:50 AM EST amid inflation, AI valuation and trade concerns; attribution to tariffs alone not established."
-        },
-        {
-          "label": "Next indicators",
-          "value": "Product annexes, country of origin, negotiations, comment deadline Jan 5 2027 and hearings starting Jan 25 2027. Exemptions or negotiated reductions could mitigate exposure."
-        }
-      ],
-      "key_finding": "Previously reported tariff risk has advanced to a formal proposal, increasing supply-chain uncertainty without imposing new duties today.",
-      "sources": [
-        {
-          "title": "USTR official Section 301 announcement",
-          "url": "https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural"
-        },
-        {
-          "title": "Financial Express proposal and consultation report",
-          "url": "https://www.financialexpress.com/world-news/us-proposes-tariffs-up-to-25-for-india-bangladesh-and-eu-to-face-up-to-20/4393679/"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261125-0733-section301-tariff-risk"
     }
   ],
-  "last_checked_at": "2026-11-25T11:28:54-05:00",
+  "last_checked_at": "2026-11-25T12:26:39-05:00",
   "last_check_status": "new_findings"
 }
