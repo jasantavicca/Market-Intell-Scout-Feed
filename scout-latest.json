@@ -1,8 +1,63 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-25T13:28:24-05:00",
-  "as_of_et": "November 25, 2026, 1:28 PM EST",
+  "generated_at": "2026-11-25T14:28:31-05:00",
+  "as_of_et": "November 25, 2026, 2:28 PM EST",
   "items": [
+    {
+      "id": "scout-20261125-1428-breadth-reversal",
+      "observed_at": "2026-11-25T14:28:31-05:00",
+      "title": "U.S. stocks pare steep losses as broad market participation improves",
+      "summary": "U.S. indexes recovered much of their morning decline by early afternoon, with the Dow turning positive and most S&P 500 constituents advancing. Major AI shares remained under pressure while Treasury yields fell. The divergence suggests possible rotation beyond AI, but holiday liquidity and unresolved financing risks limit the signal.",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "DIA",
+        "NVDA",
+        "IBM",
+        "NKE"
+      ],
+      "sectors": [
+        "U.S. equities",
+        "Sector rotation",
+        "AI infrastructure"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "AP November 25 1:55 PM EST intraday",
+          "value": "S&P 500 -0.2% after -3.2% earlier; Nasdaq -0.9% after -4.6%; Dow +0.7%; about three quarters of S&P 500 constituents advancing."
+        },
+        {
+          "label": "Major AI shares at AP observation",
+          "value": "NVDA -4.9%, AVGO -3.2%, MSFT -1.3%."
+        },
+        {
+          "label": "MarketWatch 2:18 PM EST intraday",
+          "value": "Dow +0.6% (296 points); IBM +4.0%, Nike +3.6%."
+        },
+        {
+          "label": "Rates and interpretation",
+          "value": "AP reported 10-year Treasury yield 4.84% versus 4.91% late Tuesday. Broadening participation may indicate rotation, not resolution of AI credit and inflation risks."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Closing breadth, equal-weight versus cap-weight S&P 500, semiconductor recovery and credit spreads; fading breadth would weaken rotation signal."
+        }
+      ],
+      "key_finding": "The broad market recovered substantially from morning lows despite persistent AI weakness; intraday breadth points to possible diversification.",
+      "sources": [
+        {
+          "title": "Associated Press afternoon market report, November 25",
+          "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-10044b4fb55d3ff20fde9ba9e9acaab1"
+        },
+        {
+          "title": "MarketWatch Dow update, 2:18 PM ET",
+          "url": "https://www.marketwatch.com/data-news/ibm-nike-share-gains-lead-dow-s-nearly-300-point-climb-86face7c-2ae57b3b11ae"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261125-1328-india-inflows",
       "observed_at": "2026-11-25T13:28:24-05:00",
@@ -228,64 +283,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261125-1028-red-sea-escalation",
-      "observed_at": "2026-11-25T10:28:04-05:00",
-      "title": "Saudi-Houthi escalation raises risk to Red Sea oil-export alternatives",
-      "summary": "Reuters reports the Saudi-led coalition struck Hodeidah port infrastructure after Houthi threats against Saudi Red Sea ports. The escalation threatens alternative export routes used amid Hormuz restrictions. Oil prices remain sensitive to both geopolitical risks and recovering supply; incremental Saudi export losses have not been verified.",
-      "tickers": [
-        "XLE",
-        "XOP",
-        "CL",
-        "BRN"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Maritime shipping"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 25 coalition statement",
-          "value": "Coalition reported strikes at Hodeidah after Houthi threats against Saudi Red Sea ports; damage and operational effects not independently established."
-        },
-        {
-          "label": "Oil market context",
-          "value": "WSJ reports Brent $91.10 (-0.3%) and WTI $81.50 (-0.7%) in Wednesday trading; precise observation time not specified, not settlement."
-        },
-        {
-          "label": "API estimate Nov 24",
-          "value": "Crude build 126,000 barrels versus 900,000 expected; secondary calendar source, pending EIA confirmation."
-        },
-        {
-          "label": "Next indicators",
-          "value": "Saudi terminal operations, independent tanker loadings, insurance and freight, EIA 10:30 AM EST release and Nov 29 OPEC+ meeting. Stable exports would weaken disruption concern."
-        }
-      ],
-      "key_finding": "Escalation threatens a critical alternative export corridor but does not establish incremental physical oil losses.",
-      "sources": [
-        {
-          "title": "Reuters report via Al-Monitor",
-          "url": "https://www.al-monitor.com/originals/2026/11/yemens-houthis-threaten-target-jeddah-and-other-saudi-red-sea-ports"
-        },
-        {
-          "title": "WSJ oil market report",
-          "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-supply-outlook-renewed-middle-east-tensions-182b1198"
-        },
-        {
-          "title": "API inventory calendar",
-          "url": "https://ca.investing.com/economic-calendar/api-weekly-crude-oil-stock-656"
-        },
-        {
-          "title": "EIA release schedule",
-          "url": "https://www.eia.gov/petroleum/supply/weekly/schedule.php"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261125-0733-red-sea-export-risk"
     }
   ],
-  "last_checked_at": "2026-11-25T13:28:24-05:00",
+  "last_checked_at": "2026-11-25T14:28:31-05:00",
   "last_check_status": "new_findings"
 }
