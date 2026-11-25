@@ -1,13 +1,159 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-25T07:33:01-05:00",
-  "as_of_et": "November 25, 2026, 7:33 AM EST",
+  "generated_at": "2026-11-25T10:03:17-05:00",
+  "as_of_et": "November 25, 2026, 10:03 AM EST",
   "items": [
     {
-      "id": "scout-20261125-0733-red-sea-export-risk",
-      "observed_at": "2026-11-25T07:33:01-05:00",
-      "title": "Saudi-Houthi escalation threatens alternative Red Sea export corridor",
-      "summary": "Saudi-led forces struck Yemen's Hodeidah port after Houthi threats against Saudi Red Sea ports. Saudi Arabia has used western export terminals and its East-West pipeline to mitigate Hormuz disruptions. Oil fell as surplus expectations outweighed the new risk. No incremental crude-export volume loss has been independently established.",
+      "observed_at": "2026-11-25T10:03:17-05:00",
+      "evidence_grade": "corroborated",
+      "status": "new",
+      "supersedes": null,
+      "id": "scout-20261125-1003-amba-memory",
+      "title": "Ambarella warns memory scarcity is cutting customer outlooks",
+      "summary": "Ambarella reported record edge AI revenue but warned that memory scarcity and prices are causing customers to reduce forecasts. Next-quarter revenue guidance suggests a substantial sequential decline. The premarket selloff reflects a documented operating headwind rather than sentiment alone.",
+      "tickers": [
+        "AMBA"
+      ],
+      "sectors": [
+        "Edge AI",
+        "Semiconductors",
+        "Embedded systems"
+      ],
+      "observations": [
+        {
+          "label": "Nov 25 6:46 AM EST premarket",
+          "value": "AMBA -35.55%; not a closing price."
+        },
+        {
+          "label": "Nov 24 fiscal Q3 report",
+          "value": "Revenue $115.2M, +6.2% YoY; GAAP gross margin 57.8%; GAAP net loss $12.7M."
+        },
+        {
+          "label": "Next quarter guidance",
+          "value": "$70–75M revenue; midpoint approximately 37% below Q3."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Memory prices, supply availability, customer forecasts and order recovery."
+        }
+      ],
+      "key_finding": "Memory shortages are now causing documented demand pressure downstream in edge AI.",
+      "sources": [
+        {
+          "title": "Ambarella earnings release",
+          "url": "https://www.ambarella.com/news/ambarella-inc-announces-third-quarter-fiscal-year-2027-financial-results/"
+        },
+        {
+          "title": "SEC exhibit",
+          "url": "https://www.sec.gov/Archives/edgar/data/1280263/000119312526475716/d912526dex991.htm"
+        },
+        {
+          "title": "Stock Titan morning market report",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-25-2026"
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-11-25T10:03:17-05:00",
+      "evidence_grade": "corroborated",
+      "status": "new",
+      "supersedes": null,
+      "id": "scout-20261125-1003-dell-dislocation",
+      "title": "Dell sells off despite record quarterly results and raised guidance",
+      "summary": "Dell more than doubled quarterly revenue and significantly raised its annual outlook. Shares traded lower before the open despite the strong results. Backlog conversion, financing and memory costs remain important risks.",
+      "tickers": [
+        "DELL"
+      ],
+      "sectors": [
+        "AI infrastructure",
+        "Enterprise hardware"
+      ],
+      "observations": [
+        {
+          "label": "Nov 25 7:45 AM EST premarket",
+          "value": "DELL $281.68, -4.6%; not closing data."
+        },
+        {
+          "label": "Q3 FY27",
+          "value": "Revenue $54.9B, +103% YoY; adjusted EPS $9.45; operating cash flow $4.5B."
+        },
+        {
+          "label": "AI backlog and guidance",
+          "value": "Approximately $132B AI backlog; FY27 revenue guide $202B."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Order conversion, customer financing, cancellations, margins and cash generation."
+        }
+      ],
+      "key_finding": "Strong reported hardware fundamentals diverge from negative market sentiment; valuation and execution risks remain.",
+      "sources": [
+        {
+          "title": "Dell earnings release",
+          "url": "https://www.dell.com/en-us/newsroom/announcements/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results"
+        },
+        {
+          "title": "Unusual Whales premarket report",
+          "url": "https://unusualwhales.com/news/premarket-brief-stocks-futures-nutanix-workday-dell-2026-11-25"
+        },
+        {
+          "title": "MarketWatch Dell report",
+          "url": "https://www.marketwatch.com/story/dells-stock-rises-as-the-ai-boom-helps-sales-more-than-double-cfb8cf65"
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-11-25T10:03:17-05:00",
+      "evidence_grade": "corroborated",
+      "status": "new",
+      "supersedes": null,
+      "id": "scout-20261125-1003-software-selling",
+      "title": "Nutanix succession and broader software weakness extend tech selloff",
+      "summary": "Nutanix fell sharply in premarket trading after announcing a CEO succession search, despite recurring revenue growth. Autodesk and Workday also fell after raising annual outlooks. The moves suggest broader risk aversion alongside company-specific uncertainty.",
+      "tickers": [
+        "NTNX",
+        "WDAY",
+        "ADSK",
+        "QQQ"
+      ],
+      "sectors": [
+        "Enterprise software",
+        "Cloud infrastructure"
+      ],
+      "observations": [
+        {
+          "label": "Nov 25 7:45 AM EST premarket",
+          "value": "NTNX -13.9%, ADSK -5.0%, WDAY -4.7%, QQQ -2.9%; not closing figures."
+        },
+        {
+          "label": "Nutanix Q1 results",
+          "value": "ARR $2.63B, +15% YoY; revenue $772.4M, +15%; CEO remains until successor takes role."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Succession progress, subscription growth, guidance and regular-session breadth."
+        }
+      ],
+      "key_finding": "Selling pressure extends into enterprise software despite positive reported operating trends.",
+      "sources": [
+        {
+          "title": "Nutanix SEC earnings exhibit",
+          "url": "https://www.sec.gov/Archives/edgar/data/1618732/000117184326007693/exh_991.htm"
+        },
+        {
+          "title": "Unusual Whales premarket report",
+          "url": "https://unusualwhales.com/news/premarket-brief-stocks-futures-nutanix-workday-dell-2026-11-25"
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-11-25T10:03:17-05:00",
+      "evidence_grade": "corroborated",
+      "status": "updated",
+      "supersedes": "scout-20261125-0733-red-sea-export-risk",
+      "id": "scout-20261125-1003-ras-tanura-risk",
+      "title": "Oil rises on unverified Ras Tanura refinery attack claim",
+      "summary": "Reuters reported oil prices rising after Houthis claimed an attack on Saudi Arabia's Ras Tanura refinery. Physical damage and lost production remain unverified. UKMTO separately split a previously reported Hormuz incident into three notices rather than three additional attacks.",
       "tickers": [
         "XLE",
         "XOP",
@@ -16,49 +162,37 @@
       ],
       "sectors": [
         "Oil and gas",
-        "Maritime shipping",
-        "Energy infrastructure"
+        "Maritime security"
       ],
-      "evidence_grade": "corroborated",
       "observations": [
         {
-          "label": "November 25 escalation",
-          "value": "Reuters and WSJ report Saudi coalition action at Hodeidah after Houthi threats against Saudi Red Sea ports; threats do not establish port closures."
+          "label": "Nov 25 7:32 AM EST Reuters",
+          "value": "Brent $92.22 +0.90%; WTI $82.42 +0.45%; intraday."
         },
         {
-          "label": "Reuters price observation 3:45 AM EST",
-          "value": "Brent $90.58 (-0.9%); WTI $80.96 (-1.3%); intraday, not settlement."
+          "label": "Physical flow status",
+          "value": "Ras Tanura attack claim not independently verified; no new measured production loss."
         },
         {
-          "label": "Physical-flow assessment",
-          "value": "Saudi western ports and East-West pipeline provide an alternate export corridor; no new quantified cargo or export loss independently established."
+          "label": "UKMTO",
+          "value": "219-26, 220-26 and 221-26 represent reclassification of previously reported incidents."
         },
         {
-          "label": "Advisories and next indicators",
-          "value": "MARAD active advisories unchanged; UKMTO dynamic register did not load incident list. Watch terminal operations, verified loadings, pipeline throughput, insurance, EIA at 10:30 AM ET and OPEC+ Nov 29."
+          "label": "Next indicators",
+          "value": "Official refinery operating status, tanker loadings, EIA inventories and insurance."
         }
       ],
-      "key_finding": "Red Sea escalation exposes an alternate oil export corridor while market prices continue to reflect expectations of surplus supply.",
+      "key_finding": "Oil risk premium rises without verified additional physical supply loss.",
       "sources": [
         {
-          "title": "Reuters: Houthis threaten Saudi Red Sea ports and coalition strikes Hodeidah",
-          "url": "https://www.al-monitor.com/originals/2026/11/yemens-houthis-threaten-target-jeddah-and-other-saudi-red-sea-ports"
+          "title": "Reuters oil market report",
+          "url": "https://live.euronext.com/en/financial-news/oil-rises-after-alleged-houthi-attack-saudi-refinery"
         },
         {
-          "title": "WSJ: oil prices and renewed Middle East tensions",
-          "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-supply-outlook-renewed-middle-east-tensions-182b1198"
-        },
-        {
-          "title": "Reuters: Wednesday oil prices",
-          "url": "https://live.euronext.com/en/financial-news/oil-slips-1-supply-glut-prospect-offsets-middle-east-disruption-fears"
-        },
-        {
-          "title": "MARAD active advisories",
-          "url": "https://www.maritime.dot.gov/msci-advisories"
+          "title": "UKMTO revised incident register",
+          "url": "https://www.ukmto.org/recent-incidents?gsid=046b18b6-7356-436b-8fd0-5c0524a68a3b"
         }
-      ],
-      "status": "new",
-      "supersedes": null
+      ]
     },
     {
       "id": "scout-20261125-0733-asia-chip-close",
@@ -123,169 +257,8 @@
       ],
       "status": "updated",
       "supersedes": "scout-20261124-2030-chip-asian-reversal"
-    },
-    {
-      "id": "scout-20261125-0733-section301-tariff-risk",
-      "observed_at": "2026-11-25T07:33:01-05:00",
-      "title": "Reports of imminent Section 301 tariff findings add manufacturing supply-chain risk",
-      "summary": "Reuters and Associated Press independently report preparations for additional U.S. tariffs following an industrial overcapacity investigation. USTR documents the original investigation covering major Asian, European and North American trading partners. Rates, product coverage and implementation timing are not yet confirmed.",
-      "tickers": [
-        "SOXX",
-        "SMH",
-        "EWT",
-        "EWY",
-        "EWJ",
-        "XLI"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "Automotive",
-        "Electronics manufacturing",
-        "International equities"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Official scope",
-          "value": "USTR March 11 initiated Section 301 investigations covering 16 economies including China, Taiwan, Korea, Japan, Mexico and EU."
-        },
-        {
-          "label": "November 25 reporting",
-          "value": "Reuters and AP cite people familiar with preparations for additional duties; no final rates or effective dates independently established."
-        },
-        {
-          "label": "Market context",
-          "value": "November 25 Asian closes: KOSPI -6.16%, TAIEX -4.80%, Nikkei approximately -2.8%; tariff reports are one of several catalysts, not sole cause."
-        },
-        {
-          "label": "Next indicators and invalidation",
-          "value": "Official findings, tariff schedules, exclusions, effective dates, supplier cost pass-through and corporate margin guidance. Delays or broad exclusions would reduce near-term risk."
-        }
-      ],
-      "key_finding": "Prospective additional duties represent a meaningful but not yet implemented manufacturing cost risk.",
-      "sources": [
-        {
-          "title": "USTR official original investigation",
-          "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/march/ustr-initiates-section-301-investigations-relating-structural-excess-capacity-and-production"
-        },
-        {
-          "title": "AP: prospective tariff announcement",
-          "url": "https://apnews.com/article/d97ed6f4017152ca4c18de5517db6d51"
-        },
-        {
-          "title": "Reuters: tariff preparations via Korea Times",
-          "url": "https://www.koreatimes.co.kr/world/20261125/us-poised-to-unveil-new-tariffs-targeting-s-korea-15-other-trading-partners"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261124-2030-workday-selloff",
-      "observed_at": "2026-11-24T20:30:44-05:00",
-      "title": "Workday falls after hours as subscription-growth guidance tempers earnings beat",
-      "summary": "Workday's earnings beat and growing AI contract value were overshadowed by softer near-term subscription guidance. Shares fell sharply in extended trading. Cash generation and profitability remain strong, but slowing contracted revenue growth warrants monitoring.",
-      "tickers": [
-        "WDAY"
-      ],
-      "sectors": [
-        "Enterprise software",
-        "AI monetization"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Extended-hours price observation Nov 24 at 6:30 PM EST",
-          "value": "WiseView reports $164.50, -8.22% versus regular-session reference of $179.23; Investing.com reported -7.9% at 5:58 PM. Indicative extended-hours prices, not confirmed closing data."
-        },
-        {
-          "label": "Official earnings disclosure",
-          "value": "Q3 total revenue $2.705B +11.2%, subscription revenue +12.8%, free cash flow $691M vs $550M, non-GAAP operating margin 31.4%; total subscription backlog +6.1%."
-        },
-        {
-          "label": "Forward guidance",
-          "value": "Q4 subscription revenue approximately $2.6B, +10%, versus 12.8% growth in Q3; near-term forecast slightly below analyst consensus."
-        },
-        {
-          "label": "Risk and next indicators",
-          "value": "Customer renewals, AI contract conversion, subscription backlog, margins and next regular-session price; reacceleration in subscription growth would weaken the slowdown concern."
-        }
-      ],
-      "key_finding": "A substantial extended-hours decline contrasts with strong cash generation, but softer subscription guidance is a real fundamental risk.",
-      "sources": [
-        {
-          "title": "Workday official earnings release",
-          "url": "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-Announces-Fiscal-2027-Third-Quarter-Financial-Results/default.aspx"
-        },
-        {
-          "title": "WiseView November 24 6:30 PM ET market snapshot",
-          "url": "https://wiseview.ai/news/earnings-after-the-bell-2026-11-24"
-        },
-        {
-          "title": "Investing.com Workday after-hours report",
-          "url": "https://www.investing.com/news/stock-market-news/why-is-workday-stock-tumbling-today-93CH-5049312"
-        },
-        {
-          "title": "SiliconANGLE earnings and guidance analysis",
-          "url": "https://siliconangle.com/2026/11/24/workday-shares-fall-as-soft-subscription-forecast-overshadows-third-quarter-beat/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261124-1931-hormuz-traffic",
-      "observed_at": "2026-11-24T19:31:02-05:00",
-      "title": "Separate vessel-tracking sources indicate severe Hormuz traffic restrictions",
-      "summary": "MarineTraffic figures reported on November 24 indicate a substantial decline in weekly vessel crossings. A separate AIS tracker also shows depressed commercial transits. The data support transportation disruption but do not quantify incremental crude export losses; vessels without AIS and differing coverage limit comparison.",
-      "tickers": [
-        "XLE",
-        "XOP",
-        "CL",
-        "BRN"
-      ],
-      "sectors": [
-        "Energy",
-        "Maritime transportation"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "MarineTraffic counts reported Nov 24",
-          "value": "226 vessels Nov 1–7 versus 125 Nov 17–23, a 44.7% decline; reported by UOL."
-        },
-        {
-          "label": "Separate AIS tracking snapshot Nov 24, 11:51 AM EST",
-          "value": "hormuz.now reports 7.4 commercial crossings/day over seven days and 2 in the prior 24 hours; differing coverage prevents direct comparison with MarineTraffic."
-        },
-        {
-          "label": "Physical oil-flow assessment",
-          "value": "Restricted vessel movement is corroborated; incremental crude cargo volume loss and Strait-wide closure are not established."
-        },
-        {
-          "label": "Next indicators",
-          "value": "Tanker loadings, alternative pipeline volumes, insurance, EIA Nov 25, OPEC+ Nov 29; sustained traffic recovery would weaken the disruption signal."
-        }
-      ],
-      "key_finding": "Independent tracking indicates severe transportation disruption, but vessel counts cannot be translated directly into barrels of lost supply.",
-      "sources": [
-        {
-          "title": "UOL November 24 report citing MarineTraffic",
-          "url": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/11/24/trafego-em-hormuz-cai-mais-de-40-em-meio-a-ataques-a-petroleiros.ghtm"
-        },
-        {
-          "title": "Hormuz AIS tracking snapshot",
-          "url": "https://hormuz.now/traffic"
-        },
-        {
-          "title": "MARAD active advisories",
-          "url": "https://www.maritime.dot.gov/msci-advisories"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-25T07:33:01-05:00",
+  "last_checked_at": "2026-11-25T10:03:17-05:00",
   "last_check_status": "new_findings"
 }
