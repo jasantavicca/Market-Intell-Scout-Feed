@@ -1,8 +1,124 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-24T19:31:02-05:00",
-  "as_of_et": "November 24, 2026, 7:31 PM EST",
+  "generated_at": "2026-11-24T20:30:44-05:00",
+  "as_of_et": "November 24, 2026, 8:30 PM EST",
   "items": [
+    {
+      "id": "scout-20261124-2030-chip-asian-reversal",
+      "observed_at": "2026-11-24T20:30:44-05:00",
+      "title": "Semiconductor index closes down 7.88% as renewed selling reaches Wednesday's Tokyo session",
+      "summary": "The US semiconductor index gave back part of Monday's sharp rally, with renewed selling extending into early Wednesday trading in Japan. Analysts also lowered AI infrastructure spending forecasts, citing possible data-center delays. These are signs of continued valuation and execution risk, not proof of realized project cancellations.",
+      "tickers": [
+        "SOXX",
+        "SMH",
+        "NVDA",
+        "EWJ",
+        "6857.T"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "International equities",
+        "Data-center power"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "US regular-session changes, independently corroborated",
+          "value": "SOX Nov 20 -10.73%, Nov 23 +14.03%, Nov 24 -7.88%; Nov 24 closing level approximately 8,832.5, sources differ slightly in level."
+        },
+        {
+          "label": "Tokyo November 25 early session (November 24 evening EST)",
+          "value": "WSJ reports Nikkei -2.8% at 57,008.52 and Advantest -12%; intraday, not confirmed closing figures. Fisco separately reports weak opening."
+        },
+        {
+          "label": "Analyst forecast, not realized cancellations",
+          "value": "IBD reports Mizuho 2027 and 2028 AI capex projections reduced to $1.4T and $1.8T, respectively, citing potential delays/cancellations affecting 5 GW."
+        },
+        {
+          "label": "Fundamental significance and next indicators",
+          "value": "Watch actual construction milestones, power interconnection, financing, chip orders and earnings revisions; continued strong deployments would weaken the slowdown thesis."
+        }
+      ],
+      "key_finding": "Renewed international chip selling and lower analyst capex projections underscore infrastructure execution risk despite strong reported AI orders.",
+      "sources": [
+        {
+          "title": "Investing.com SOX historical data",
+          "url": "https://www.investing.com/indices/phlx-semiconductor-historical-data"
+        },
+        {
+          "title": "YCharts SOX historical data",
+          "url": "https://ycharts.com/indices/%5ESOX/level"
+        },
+        {
+          "title": "WSJ Tokyo early-session market report",
+          "url": "https://www.wsj.com/finance/stocks/nikkei-falls-2-8-dragged-by-chip-related-stocks-79ef7a34"
+        },
+        {
+          "title": "Fisco Tokyo opening report November 25",
+          "url": "https://minkabu.jp/news/4671443"
+        },
+        {
+          "title": "Investor's Business Daily AI capex forecast reporting",
+          "url": "https://www.investors.com/news/technology/chip-stocks-fall-data-center-spending-fears/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261124-2030-workday-selloff",
+      "observed_at": "2026-11-24T20:30:44-05:00",
+      "title": "Workday falls after hours as subscription-growth guidance tempers earnings beat",
+      "summary": "Workday's earnings beat and growing AI contract value were overshadowed by softer near-term subscription guidance. Shares fell sharply in extended trading. Cash generation and profitability remain strong, but slowing contracted revenue growth warrants monitoring.",
+      "tickers": [
+        "WDAY"
+      ],
+      "sectors": [
+        "Enterprise software",
+        "AI monetization"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Extended-hours price observation Nov 24 at 6:30 PM EST",
+          "value": "WiseView reports $164.50, -8.22% versus regular-session reference of $179.23; Investing.com reported -7.9% at 5:58 PM. Indicative extended-hours prices, not confirmed closing data."
+        },
+        {
+          "label": "Official earnings disclosure",
+          "value": "Q3 total revenue $2.705B +11.2%, subscription revenue +12.8%, free cash flow $691M vs $550M, non-GAAP operating margin 31.4%; total subscription backlog +6.1%."
+        },
+        {
+          "label": "Forward guidance",
+          "value": "Q4 subscription revenue approximately $2.6B, +10%, versus 12.8% growth in Q3; near-term forecast slightly below analyst consensus."
+        },
+        {
+          "label": "Risk and next indicators",
+          "value": "Customer renewals, AI contract conversion, subscription backlog, margins and next regular-session price; reacceleration in subscription growth would weaken the slowdown concern."
+        }
+      ],
+      "key_finding": "A substantial extended-hours decline contrasts with strong cash generation, but softer subscription guidance is a real fundamental risk.",
+      "sources": [
+        {
+          "title": "Workday official earnings release",
+          "url": "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-Announces-Fiscal-2027-Third-Quarter-Financial-Results/default.aspx"
+        },
+        {
+          "title": "WiseView November 24 6:30 PM ET market snapshot",
+          "url": "https://wiseview.ai/news/earnings-after-the-bell-2026-11-24"
+        },
+        {
+          "title": "Investing.com Workday after-hours report",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-workday-stock-tumbling-today-93CH-5049312"
+        },
+        {
+          "title": "SiliconANGLE earnings and guidance analysis",
+          "url": "https://siliconangle.com/2026/11/24/workday-shares-fall-as-soft-subscription-forecast-overshadows-third-quarter-beat/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261124-1931-hormuz-traffic",
       "observed_at": "2026-11-24T19:31:02-05:00",
@@ -168,113 +284,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261124-1831-ambarella-memory",
-      "observed_at": "2026-11-24T18:31:05-05:00",
-      "title": "Ambarella plunges after hours as memory shortages force customers to cut outlooks",
-      "summary": "Ambarella reported record edge-AI revenue but weaker consumer IoT sales and worsening memory supply constraints. Next-quarter revenue guidance signals a major sequential decline. Shares fell sharply after hours, highlighting real supply-chain and demand risks for embedded electronics outside hyperscale data centers.",
-      "tickers": [
-        "AMBA"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "Edge AI",
-        "Embedded systems",
-        "Automotive",
-        "IoT"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "After-hours price, Nov 24 5:06 PM EST",
-          "value": "$27.50, -38.16% versus regular-session close; indicative, not closing data. StockMarketWatch showed -32.09% at 4:44 PM EST."
-        },
-        {
-          "label": "Official quarterly results",
-          "value": "Revenue $115.2M (+6.2% YoY), GAAP net loss $12.7M, cash and marketable debt securities $282.8M."
-        },
-        {
-          "label": "Official Q4 FY2027 outlook",
-          "value": "Revenue $70–75M; management cites escalating memory prices, scarcity and reduced customer forecasts."
-        },
-        {
-          "label": "Risks and indicators",
-          "value": "Monitor memory allocation and pricing, customer production, design wins and revenue revisions; sustained supply relief and customer forecast recovery would weaken the deterioration signal."
-        }
-      ],
-      "key_finding": "Memory shortages are translating into material revenue risk for an edge-AI semiconductor supplier despite record edge-AI sales.",
-      "sources": [
-        {
-          "title": "Ambarella official earnings release",
-          "url": "https://www.globenewswire.com/news-release/2026/11/24/3409869/0/en/ambarella-inc-announces-third-quarter-fiscal-year-2027-financial-results.html"
-        },
-        {
-          "title": "Stock Analysis AMBA quote",
-          "url": "https://stockanalysis.com/stocks/amba/"
-        },
-        {
-          "title": "StockMarketWatch AMBA after-hours quotes",
-          "url": "https://stockmarketwatch.com/stock/AMBA/afterhours"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261124-1831-goodrx-recovery",
-      "observed_at": "2026-11-24T18:31:05-05:00",
-      "title": "GoodRx rebounds approximately 23% after reporting improved cash flow and restating results",
-      "summary": "GoodRx raised annual guidance and filed delayed financial reports after strong growth in direct pharmaceutical programs. Cash generation improved, but legacy prescription revenue fell and earlier results required restatement following a control investigation. Nasdaq compliance confirmation and control remediation remain outstanding.",
-      "tickers": [
-        "GDRX"
-      ],
-      "sectors": [
-        "Healthcare technology",
-        "Pharmaceutical services"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "After-hours Nov 24 4:51 PM EST",
-          "value": "$3.69, +23.00% per Stock Analysis; StockMarketWatch $3.67, +22.37%; indicative quotes."
-        },
-        {
-          "label": "Official Q3 results",
-          "value": "Revenue $218.4M (+11% YoY), net income $16.4M, free cash flow $81.1M versus $58M."
-        },
-        {
-          "label": "Business mix",
-          "value": "Pharma Direct +93% YoY; subscriptions +41%; prescription transactions -20%."
-        },
-        {
-          "label": "Governance and next indicators",
-          "value": "Prior-period restatements followed findings of overridden controls; monitor Nasdaq compliance, remediation, customer retention and sustained cash generation."
-        }
-      ],
-      "key_finding": "GoodRx's business-model transition shows stronger cash generation, but accounting controls and legacy declines remain material risks.",
-      "sources": [
-        {
-          "title": "SEC official GoodRx earnings disclosure",
-          "url": "https://www.sec.gov/Archives/edgar/data/1809519/000180951926000231/gdrxq326-exx991pressrelease.htm"
-        },
-        {
-          "title": "StreetInsider restatement and results report",
-          "url": "https://www.streetinsider.com/Corporate%2BNews/GoodRx%2BQ3%2B2026%2Brevenue%2Brises%2B11%25%3B%2Bcompany%2Brestates%2Bearlier%2Bresults/27395688.html"
-        },
-        {
-          "title": "Stock Analysis GDRX price history and after-hours quote",
-          "url": "https://stockanalysis.com/stocks/gdrx/history/"
-        },
-        {
-          "title": "StockMarketWatch GDRX after-hours quote",
-          "url": "https://stockmarketwatch.com/stock/GDRX/afterhours"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-24T19:31:02-05:00",
+  "last_checked_at": "2026-11-24T20:30:44-05:00",
   "last_check_status": "new_findings"
 }
