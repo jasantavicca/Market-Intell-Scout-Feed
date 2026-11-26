@@ -1,8 +1,72 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-26T07:30:53-05:00",
-  "as_of_et": "November 26, 2026, 7:30 AM EST",
+  "generated_at": "2026-11-26T08:30:02-05:00",
+  "as_of_et": "November 26, 2026, 8:30 AM EST",
   "items": [
+    {
+      "id": "scout-20261126-0830-nvidia-export-disruption",
+      "observed_at": "2026-11-26T08:30:02-05:00",
+      "title": "New US export controls coincide with reported Nvidia server shipment halt in Southeast Asia",
+      "summary": "Financial Times reports Nvidia told server manufacturing partners to suspend shipments to four Southeast Asian countries. Reuters could not independently verify the halt. US licensing restrictions and seven Entity List additions are confirmed by Federal Register notices. The duration, affected order values and revenue impact remain unknown.",
+      "tickers": [
+        "NVDA",
+        "DELL",
+        "SMCI"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "Export controls"
+      ],
+      "evidence_grade": "single-source",
+      "observations": [
+        {
+          "label": "November 26 shipment report",
+          "value": "FT reports Dell and Supermicro buyers in Malaysia, Singapore, Thailand and Indonesia face suspended deliveries; Reuters could not independently verify; companies had not confirmed."
+        },
+        {
+          "label": "Confirmed November 19 BIS rule",
+          "value": "Licensing requirements for advanced semiconductors in five destinations including Brazil, with specified exceptions; new controls on remote computing access."
+        },
+        {
+          "label": "Confirmed November 25 Entity List publication",
+          "value": "Seven entities in Malaysia, Singapore and Thailand added; effective November 23; licenses subject to presumption of denial."
+        },
+        {
+          "label": "Nvidia reported Q3 FY27 fundamentals, November 17",
+          "value": "Revenue $115.8B (+103% YoY), data center $107.6B (+110%); Q4 guidance $130B +/-3%, excluding China data-center compute revenue."
+        },
+        {
+          "label": "Market reaction and next indicators",
+          "value": "US cash equities closed Thanksgiving November 26; no regular-session response to shipment report. Monitor company confirmation, licensing, shipments, cancellations, guidance and downstream deployment; prompt resumption would weaken disruption concern."
+        }
+      ],
+      "key_finding": "Confirmed export restrictions create a credible operating risk; the reported shipment halt is not independently verified.",
+      "sources": [
+        {
+          "title": "Financial Times November 26 shipment report",
+          "url": "https://www.ft.com/content/7838a715-07d4-4605-aa60-21f5af2b2370"
+        },
+        {
+          "title": "Reuters coverage and verification caveat",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/nvidia-halts-chip-shipments-to-southeast-asia-ft-reports/articleshow/136180352.cms"
+        },
+        {
+          "title": "Federal Register November 19 remote access rule",
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-11-19/html/2026-23529.htm"
+        },
+        {
+          "title": "Federal Register November 25 Entity List additions",
+          "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23999/additions-to-the-entity-list"
+        },
+        {
+          "title": "Nvidia November 17 earnings",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261126-0730-korea-rate-growth",
       "observed_at": "2026-11-26T07:30:53-05:00",
@@ -214,66 +278,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261125-1530-beige-book-datacenter",
-      "observed_at": "2026-11-25T15:30:31-05:00",
-      "title": "Fed district reports show continuing data-center construction labor demand despite credit stress",
-      "summary": "The November Beige Book describes skilled labor shortages associated with industrial and data-center development in the Atlanta district and employment strength in data-center construction in Dallas. National construction activity weakened amid higher costs and borrowing rates. The qualitative evidence distinguishes continuing physical investment activity from deteriorating AI financing sentiment.",
-      "tickers": [
-        "PWR",
-        "ETN",
-        "VRT",
-        "GEV"
-      ],
-      "sectors": [
-        "Data-center power",
-        "Grid infrastructure",
-        "Electrical equipment",
-        "Construction"
-      ],
-      "evidence_grade": "confirmed",
-      "observations": [
-        {
-          "label": "November 25 Beige Book national summary",
-          "value": "Eight of twelve districts reported slight to moderate growth; four unchanged. Construction activity declined overall."
-        },
-        {
-          "label": "Atlanta district",
-          "value": "Skilled and technical worker shortages linked to industrial and data-center development."
-        },
-        {
-          "label": "Dallas district",
-          "value": "Employment growth strength in manufacturing and data-center construction."
-        },
-        {
-          "label": "Evidence scope",
-          "value": "Qualitative contact reports collected through November 16; no company-specific orders, new power capacity or attributable stock move established."
-        },
-        {
-          "label": "Next indicators",
-          "value": "Equipment backlog, cancellations, interconnection agreements, construction spending, project financing and future regional surveys."
-        }
-      ],
-      "key_finding": "Fed regional evidence indicates ongoing physical data-center activity even as financial-market financing risks rise.",
-      "sources": [
-        {
-          "title": "Federal Reserve national Beige Book summary",
-          "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202611-summary.htm"
-        },
-        {
-          "title": "Federal Reserve Atlanta district report",
-          "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202611-atlanta.htm"
-        },
-        {
-          "title": "Federal Reserve Dallas district report",
-          "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202611-dallas.htm"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-26T07:30:53-05:00",
+  "last_checked_at": "2026-11-26T08:30:02-05:00",
   "last_check_status": "new_findings"
 }
