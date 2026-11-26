@@ -1,13 +1,67 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-25T16:32:46-05:00",
-  "as_of_et": "November 25, 2026, 4:32 PM EST",
+  "generated_at": "2026-11-26T07:30:53-05:00",
+  "as_of_et": "November 26, 2026, 7:30 AM EST",
   "items": [
     {
-      "id": "scout-20261125-1632-oil-settlement",
-      "observed_at": "2026-11-25T16:32:46-05:00",
-      "title": "Brent and WTI extend rebound as geopolitical risk offsets surplus expectations",
-      "summary": "Oil futures settled higher for a second consecutive session, with Brent outperforming WTI. Renewed Saudi-Houthi tensions and risks to Red Sea export routes are supporting prices despite rising U.S. commercial crude inventories. No additional physical export loss has been independently established.",
+      "id": "scout-20261126-0730-korea-rate-growth",
+      "observed_at": "2026-11-26T07:30:53-05:00",
+      "title": "Bank of Korea raises policy rate while upgrading chip-driven growth forecasts",
+      "summary": "South Korea raised its policy rate while upgrading its growth outlook on the strength of semiconductor exports and investment. Asian equities rebounded after Wednesday's selloff, although Korea lagged Taiwan. Strong export forecasts coexist with financing, inflation and demand risks.",
+      "tickers": [
+        "EWY",
+        "EWT",
+        "TSM",
+        "005930.KS",
+        "000660.KS"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "International equities",
+        "Monetary policy"
+      ],
+      "evidence_grade": "confirmed",
+      "observations": [
+        {
+          "label": "Bank of Korea November 26 official decision",
+          "value": "Rate +25 bp to 3.25%; 5–2 vote; 2026 GDP growth forecast 3.9% versus 3.3%, 2027 4.1% versus 2.9%."
+        },
+        {
+          "label": "November 26 Asian closing figures, News1 and CloseLook",
+          "value": "TAIEX +2.50% to 39,151.81; KOSPI +0.29%; Nikkei +0.86%."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Export orders, memory pricing, foreign flows, financing and further monetary tightening; weaker exports or downward growth revisions would challenge the outlook."
+        }
+      ],
+      "key_finding": "Official growth upgrades provide a counterpoint to semiconductor-market stress, but higher rates introduce financing and valuation pressure.",
+      "sources": [
+        {
+          "title": "Bank of Korea monetary policy decision",
+          "url": "https://www.bok.or.kr/eng/bbs/E0000634/view.do?depth=400423&menuNo=400423&nttId=11067086&programType=newsDataEng&relate=Y"
+        },
+        {
+          "title": "Reuters rate and growth report",
+          "url": "https://www.investing.com/news/economy-news/south-koreas-central-bank-raises-rates-upgrades-2027-growth-outlook-5051906"
+        },
+        {
+          "title": "News1 Asian market closes",
+          "url": "https://en.news1.kr/world/6384256"
+        },
+        {
+          "title": "CloseLook Asian market closes",
+          "url": "https://closelook.net/days/2026-11-26/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261126-0730-oil-inventory-context",
+      "observed_at": "2026-11-26T07:30:53-05:00",
+      "title": "EIA commercial stock build tempers oil supply fears; holiday futures retreat",
+      "summary": "Official U.S. inventory data show a commercial crude build alongside a strategic reserve decline. Oil futures pulled back after Wednesday's rebound, while Reuters reported recovering Middle Eastern exports despite shipping threats. Additional physical export losses remain unquantified.",
       "tickers": [
         "XLE",
         "XOP",
@@ -18,42 +72,38 @@
         "Oil and gas",
         "Maritime shipping"
       ],
-      "evidence_grade": "confirmed",
+      "evidence_grade": "corroborated",
       "observations": [
         {
-          "label": "November 25 settlements, WSJ and KVB",
-          "value": "Brent $94.61, +$3.21 (+3.51%); WTI $83.68, +$1.63 (+1.99%)."
+          "label": "EIA week ending November 20, released November 25",
+          "value": "Commercial crude +1.109 million barrels; SPR -2.896 million; gasoline +1.733 million."
         },
         {
-          "label": "Supply backdrop",
-          "value": "WSJ reports commercial US crude inventories +1.1 million barrels, SPR -2.9 million barrels, improving Persian Gulf exports; no new measured export loss established."
+          "label": "Reuters November 26 4:39 AM EST",
+          "value": "Brent $93.79, -0.87%; WTI $83.33, -0.42%; intraday only; no WTI settlement Thursday."
         },
         {
-          "label": "Maritime status",
-          "value": "MARAD active advisories remain unchanged; fresh tanker loading volumes and freight rates not independently verified."
-        },
-        {
-          "label": "Next indicators and invalidation",
-          "value": "Saudi Red Sea export operations, independently verified tanker loadings and November 29 OPEC+ meeting; sustained supply recovery would weaken the risk-premium signal. Conflicting XLE/XOP snapshots excluded from closing comparison."
+          "label": "Next indicators",
+          "value": "Verified tanker flows, refinery operations, insurance, freight and sustained price strength; stable flows weaken incremental shortage thesis."
         }
       ],
-      "key_finding": "Two-source settlement reporting confirms an oil rebound, not an additional physical supply loss.",
+      "key_finding": "Physical inventory data and reported export recovery counterbalance geopolitical risk signals without ruling out future disruption.",
       "sources": [
         {
-          "title": "Wall Street Journal November 25 oil market report",
-          "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-supply-outlook-renewed-middle-east-tensions-182b1198"
+          "title": "EIA weekly petroleum inventory data",
+          "url": "https://www.eia.gov/dnav/pet/pet_stoc_wstk_dcu_NUS_W.htm"
         },
         {
-          "title": "KVB November 25 settlement newsflash",
-          "url": "https://secure.kvbmaa.com/en/insights/newsflash"
+          "title": "Reuters November 26 oil update",
+          "url": "https://au.investing.com/news/commodities-news/oil-rises-on-supply-concerns-as-iran-claims-mine-strikes-on-ships-4797270"
         },
         {
-          "title": "MARAD active advisories",
-          "url": "https://www.maritime.dot.gov/msci-advisories"
+          "title": "Reuters report on export recovery",
+          "url": "https://live.euronext.com/en/financial-news/oil-little-changed-supply-concerns-linger-after-iran-claims-mine-strikes-ships"
         }
       ],
-      "status": "new",
-      "supersedes": null
+      "status": "updated",
+      "supersedes": "scout-20261125-1632-oil-settlement"
     },
     {
       "id": "scout-20261125-1632-closing-breadth",
@@ -222,66 +272,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261125-1328-india-inflows",
-      "observed_at": "2026-11-25T13:28:24-05:00",
-      "title": "Indian large caps rally as November foreign inflows reverse ten months of selling",
-      "summary": "Indian benchmark stocks rebounded while AI-heavy markets remained under pressure. Newly reported provisional institutional flows show foreign investors continued November net buying after ten months of net selling. Large-cap banks, consumer staples and pharmaceuticals led, but broader market breadth remained negative.",
-      "tickers": [
-        "INDA",
-        "INDY",
-        "HDB",
-        "IBN"
-      ],
-      "sectors": [
-        "International equities",
-        "Financials",
-        "Consumer staples",
-        "Pharmaceuticals"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 25 local market closes, independently corroborated",
-          "value": "Nifty 50 25,819.25 (+1.85%); Sensex 83,938.28 (+1.82%)."
-        },
-        {
-          "label": "Provisional institutional cash-market activity",
-          "value": "Foreign institutions net bought INR 4,479.08 crore; domestic institutions net bought INR 4,018.72 crore. November foreign net inflows approximately INR 1.18 trillion."
-        },
-        {
-          "label": "Breadth and fundamentals",
-          "value": "Large-cap private banks, staples and pharma led; broader NSE decliners outnumbered advancers. Foreign inflows support relative resilience, but do not establish a broad earnings recovery."
-        },
-        {
-          "label": "Risks and next indicators",
-          "value": "Monitor foreign cash flows, breadth, bank earnings, crude prices, proposed US tariffs and RBI policy meeting December 2–4. Renewed outflows or higher oil import costs would weaken the rotation signal."
-        }
-      ],
-      "key_finding": "Verified local closing gains and provisional institutional cash flows support an emerging diversification signal beyond AI-heavy equities, with narrow breadth a key caveat.",
-      "sources": [
-        {
-          "title": "Times of India: November 25 closing figures",
-          "url": "https://timesofindia.indiatimes.com/business/india-business/stock-market-today-sensex-jumps-over-1700-points-nifty-tops-25850-top-reasons-behind-rally/articleshow/136149156.cms"
-        },
-        {
-          "title": "Moneycontrol: November 25 provisional institutional flows",
-          "url": "https://www.moneycontrol.com/news/business/economy/diis-turn-net-buyers-for-only-a-second-time-in-nov-pick-up-rs-4-019-crore-while-fiis-buy-rs-4-479-crore-14089086.html"
-        },
-        {
-          "title": "Financial Express: November inflows and sector rotation",
-          "url": "https://www.financialexpress.com/market/fii-buying-continues-november-haul-nears-rs-1-20-lakh-crore-whats-changed-4393799/"
-        },
-        {
-          "title": "November 25 market breadth and exchange closing data",
-          "url": "https://buzzaroundbusiness.com/2026/11/sensex-nifty-close-25-november-2026/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-25T16:32:46-05:00",
+  "last_checked_at": "2026-11-26T07:30:53-05:00",
   "last_check_status": "new_findings"
 }
