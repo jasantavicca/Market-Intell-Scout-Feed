@@ -1,8 +1,64 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-26T11:34:07-05:00",
-  "as_of_et": "November 26, 2026, 11:34 AM EST",
+  "generated_at": "2026-11-26T12:33:54-05:00",
+  "as_of_et": "November 26, 2026, 12:33 PM EST",
   "items": [
+    {
+      "id": "scout-20261126-1233-boe-ai-credit-risk",
+      "observed_at": "2026-11-26T12:33:54-05:00",
+      "title": "Bank of England warns AI financing is increasing systemic financial interconnections",
+      "summary": "The Bank of England's November 26 policy record warns that rapidly expanding and increasingly complex AI borrowing could transmit stress across financial markets. Lower-quality AI credit spreads have widened sharply, while broader spillovers remain limited. The warning strengthens the case for monitoring funding costs and project execution alongside AI demand.",
+      "tickers": [
+        "CRWV",
+        "ORCL",
+        "NVDA",
+        "DELL",
+        "LQD",
+        "HYG"
+      ],
+      "sectors": [
+        "AI infrastructure",
+        "Semiconductors",
+        "Cloud computing",
+        "Corporate credit"
+      ],
+      "evidence_grade": "confirmed",
+      "observations": [
+        {
+          "label": "Official November 26 policy record",
+          "value": "Hyperscaler bond issuance projected to exceed $305 billion in 2026, approximately 8% of global investment-grade issuance; estimate, not final annual issuance."
+        },
+        {
+          "label": "Observed credit conditions",
+          "value": "Bank reports sharp spread widening in US CCC-rated and some lower-quality AI-related debt; higher-rated corporate spread widening more limited; cross-market spillovers limited so far."
+        },
+        {
+          "label": "Market timing",
+          "value": "US equity markets closed for Thanksgiving; no new regular-session equity move attributable to the report."
+        },
+        {
+          "label": "Fundamental implications and next indicators",
+          "value": "Watch new debt pricing, refinancing, customer commitments, operating cash flow, capex revisions and project delays. Stable credit spreads and successful funding would weaken the near-term contagion thesis; the warning is not evidence of a systemic crisis."
+        }
+      ],
+      "key_finding": "Official financial-stability assessment identifies AI financing complexity as a transmission risk, independently of end-market AI demand.",
+      "sources": [
+        {
+          "title": "Bank of England Financial Policy Committee record, November 26",
+          "url": "https://www.bankofengland.co.uk/financial-policy-committee-record/2026/november-2026"
+        },
+        {
+          "title": "Reuters November 26 coverage",
+          "url": "https://www.investing.com/news/economy-news/bank-of-england-sees-growing-financial-risks-as-ai-borrowing-surges-5052592"
+        },
+        {
+          "title": "Financial Times November 26 financial stability coverage",
+          "url": "https://www.ft.com/content/cf30cef5-0e35-4ebd-a456-797dbd1ad132"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261126-1134-bachem-growth",
       "observed_at": "2026-11-26T11:34:07-05:00",
@@ -240,72 +296,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261126-0830-nvidia-export-disruption",
-      "observed_at": "2026-11-26T08:30:02-05:00",
-      "title": "New US export controls coincide with reported Nvidia server shipment halt in Southeast Asia",
-      "summary": "Financial Times reports Nvidia told server manufacturing partners to suspend shipments to four Southeast Asian countries. Reuters could not independently verify the halt. US licensing restrictions and seven Entity List additions are confirmed by Federal Register notices. The duration, affected order values and revenue impact remain unknown.",
-      "tickers": [
-        "NVDA",
-        "DELL",
-        "SMCI"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "AI infrastructure",
-        "Export controls"
-      ],
-      "evidence_grade": "single-source",
-      "observations": [
-        {
-          "label": "November 26 shipment report",
-          "value": "FT reports Dell and Supermicro buyers in Malaysia, Singapore, Thailand and Indonesia face suspended deliveries; Reuters could not independently verify; companies had not confirmed."
-        },
-        {
-          "label": "Confirmed November 19 BIS rule",
-          "value": "Licensing requirements for advanced semiconductors in five destinations including Brazil, with specified exceptions; new controls on remote computing access."
-        },
-        {
-          "label": "Confirmed November 25 Entity List publication",
-          "value": "Seven entities in Malaysia, Singapore and Thailand added; effective November 23; licenses subject to presumption of denial."
-        },
-        {
-          "label": "Nvidia reported Q3 FY27 fundamentals, November 17",
-          "value": "Revenue $115.8B (+103% YoY), data center $107.6B (+110%); Q4 guidance $130B +/-3%, excluding China data-center compute revenue."
-        },
-        {
-          "label": "Market reaction and next indicators",
-          "value": "US cash equities closed Thanksgiving November 26; no regular-session response to shipment report. Monitor company confirmation, licensing, shipments, cancellations, guidance and downstream deployment; prompt resumption would weaken disruption concern."
-        }
-      ],
-      "key_finding": "Confirmed export restrictions create a credible operating risk; the reported shipment halt is not independently verified.",
-      "sources": [
-        {
-          "title": "Financial Times November 26 shipment report",
-          "url": "https://www.ft.com/content/7838a715-07d4-4605-aa60-21f5af2b2370"
-        },
-        {
-          "title": "Reuters coverage and verification caveat",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/nvidia-halts-chip-shipments-to-southeast-asia-ft-reports/articleshow/136180352.cms"
-        },
-        {
-          "title": "Federal Register November 19 remote access rule",
-          "url": "https://www.govinfo.gov/content/pkg/FR-2026-11-19/html/2026-23529.htm"
-        },
-        {
-          "title": "Federal Register November 25 Entity List additions",
-          "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23999/additions-to-the-entity-list"
-        },
-        {
-          "title": "Nvidia November 17 earnings",
-          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-26T11:34:07-05:00",
+  "last_checked_at": "2026-11-26T12:33:54-05:00",
   "last_check_status": "new_findings"
 }
