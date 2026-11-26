@@ -1,8 +1,72 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-26T08:30:02-05:00",
-  "as_of_et": "November 26, 2026, 8:30 AM EST",
+  "generated_at": "2026-11-26T09:27:26-05:00",
+  "as_of_et": "November 26, 2026, 9:27 AM EST",
   "items": [
+    {
+      "id": "scout-20261126-0927-lukoil-assets",
+      "observed_at": "2026-11-26T09:27:26-05:00",
+      "title": "US-backed consortium signs conditional agreement to acquire Lukoil international energy assets",
+      "summary": "An Eldridge-led consortium including the US development finance agency signed an agreement to acquire Lukoil's non-Russian energy assets. The portfolio includes major upstream operations and three European refineries. Separate OFAC authorization is required; no transfer of ownership or incremental physical production has occurred.",
+      "tickers": [
+        "LKOH",
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "European refining",
+        "Sanctions"
+      ],
+      "evidence_grade": "confirmed",
+      "observations": [
+        {
+          "label": "Agreement announced November 25; independently reported November 26",
+          "value": "Definitive conditional acquisition agreement; Eldridge, DFC, Catena and Xtellus; restricted-share exchange rather than direct cash payment to Russia."
+        },
+        {
+          "label": "Current upstream scale",
+          "value": "Approximately 350,000 barrels of oil equivalent per day across 11 countries, per consortium."
+        },
+        {
+          "label": "Refining capacity",
+          "value": "Approximately 350,000 barrels per day combined nameplate capacity across Burgas, Zeeland and Petrotel; capacity is not current throughput."
+        },
+        {
+          "label": "OFAC approval and timing",
+          "value": "GL 131L authorizes negotiation and contingent contracts through December 19, 2026, not actual transfer. Separate approval required; OFAC opposes upfront value or windfalls to Lukoil."
+        },
+        {
+          "label": "Market and physical impact",
+          "value": "US cash equities closed for Thanksgiving; no current-session XLE/XOP reaction. No verified incremental production or refinery throughput from the agreement."
+        },
+        {
+          "label": "Next indicators",
+          "value": "OFAC authorization, closing conditions, refinery utilization and operational continuity; rejection or delays weaken stabilization outlook."
+        }
+      ],
+      "key_finding": "A signed but unapproved transaction could stabilize sanctioned international energy assets; it does not add supply today.",
+      "sources": [
+        {
+          "title": "Consortium announcement via Business Wire, November 25",
+          "url": "https://www.sttinfo.fi/tiedote/72538179/american-led-consortium-announces-agreement-to-acquire-lukoil-internationals-global-energy-portfolio?lang=en&publisherId=58763726"
+        },
+        {
+          "title": "OFAC FAQ 1224, updated November 19",
+          "url": "https://ofac.treasury.gov/faqs/1224"
+        },
+        {
+          "title": "Reuters November 25 deal report",
+          "url": "https://www.investing.com/news/stock-market-news/exclusiveboehly-signs-usbacked-share-swap-deal-to-buy-lukoil-global-assets-5051129"
+        },
+        {
+          "title": "Financial Times November 26",
+          "url": "https://www.ft.com/content/643dc287-d112-4715-bdf1-aa49b98a4af7"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261126-0830-nvidia-export-disruption",
       "observed_at": "2026-11-26T08:30:02-05:00",
@@ -221,65 +285,8 @@
       ],
       "status": "updated",
       "supersedes": "scout-20261125-1428-breadth-reversal"
-    },
-    {
-      "id": "scout-20261125-1530-nvda-creditwatch",
-      "observed_at": "2026-11-25T15:30:31-05:00",
-      "title": "S&P places Nvidia AA ratings on CreditWatch Negative",
-      "summary": "S&P Global Ratings placed Nvidia's existing AA credit ratings under negative review, citing governance and China-related risks. No downgrade has occurred, and the agency says its assessment of Nvidia's competitive and financial profile remains unchanged. The action extends scrutiny of AI infrastructure credit risk to its leading chip supplier.",
-      "tickers": [
-        "NVDA",
-        "SMH",
-        "CRWV",
-        "ORCL"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "AI infrastructure",
-        "Credit markets"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Official S&P action Nov 25 at 1:36 PM EST",
-          "value": "AA issuer and senior debt ratings placed on CreditWatch Negative; rating remains AA."
-        },
-        {
-          "label": "AP market snapshot approximately 1:55 PM EST",
-          "value": "NVDA -4.9% intraday; move not attributable solely to the ratings action."
-        },
-        {
-          "label": "Rating agency assessment",
-          "value": "Governance modifier changed from positive to neutral; board independence, executive oversight, succession and China-related risks cited. Competitive position and financial profile unchanged."
-        },
-        {
-          "label": "Review window and next indicators",
-          "value": "Potential downgrade likely limited to one notch over next 90 days unless further damaging disclosures emerge. Monitor governance remediation, export-control developments, credit spreads and customer financing."
-        }
-      ],
-      "key_finding": "Credit scrutiny now extends to Nvidia itself, although its AA rating and assessed financial fundamentals remain intact.",
-      "sources": [
-        {
-          "title": "S&P Global official ratings actions",
-          "url": "https://www.spglobal.com/ratings/en/regulatory/ratings-actions?app=sp&id=3238799"
-        },
-        {
-          "title": "Reuters reporting on Nvidia credit watch",
-          "url": "https://www.aol.com/articles/p-global-places-nvidia-rating-185615000.html"
-        },
-        {
-          "title": "Investing.com rating agency analysis",
-          "url": "https://ca.investing.com/news/stock-market-news/sp-puts-nvidia-on-creditwatch-over-governance-concerns-4981450"
-        },
-        {
-          "title": "Associated Press afternoon market report",
-          "url": "https://apnews.com/article/10044b4fb55d3ff20fde9ba9e9acaab1"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-26T08:30:02-05:00",
+  "last_checked_at": "2026-11-26T09:27:26-05:00",
   "last_check_status": "new_findings"
 }
