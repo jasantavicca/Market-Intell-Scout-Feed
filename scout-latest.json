@@ -1,8 +1,130 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-26T09:27:26-05:00",
-  "as_of_et": "November 26, 2026, 9:27 AM EST",
+  "generated_at": "2026-11-26T10:30:13-05:00",
+  "as_of_et": "November 26, 2026, 10:30 AM EST",
   "items": [
+    {
+      "id": "scout-20261126-1030-bangchak-refinery",
+      "observed_at": "2026-11-26T10:30:13-05:00",
+      "title": "Bangchak halts 120,000 b/d Bangkok refinery after fire",
+      "summary": "Bangchak suspended all production units at its Phra Khanong refinery following a fire on November 26. The fire has been extinguished, but the company has not announced a restart date. Thailand's energy minister expects other domestic capacity to avert a national shortage.",
+      "tickers": [
+        "BCP.BK"
+      ],
+      "sectors": [
+        "Oil refining",
+        "Energy",
+        "International equities"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Company-reported operational status",
+          "value": "All production units shut; maximum refining capacity 120,000 b/d; combined company refining capacity about 300,000 b/d. Actual lost throughput and restart timeline not yet quantified."
+        },
+        {
+          "label": "Stock Exchange of Thailand closing quote, November 26, 18:23 ICT update",
+          "value": "THB 39.10, -5.10%; exchange-reported close, not independently corroborated as a closing figure."
+        },
+        {
+          "label": "Independent intraday report, November 26 15:45 ICT",
+          "value": "THB 39.50, -4.13%, according to MGR Online; intraday."
+        },
+        {
+          "label": "Fundamental assessment",
+          "value": "Insurance includes property damage and business interruption; remaining refinery capacity and domestic alternatives mitigate risk. Duration and repair costs remain uncertain."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Restart date, equipment damage, insurance claims, regional product inventories and refining margins; rapid restart would weaken outage impact."
+        }
+      ],
+      "key_finding": "A documented refinery shutdown creates real operational exposure, but lost throughput and national supply impact remain unquantified.",
+      "sources": [
+        {
+          "title": "Reuters via CNA: Bangchak shutdown",
+          "url": "https://www.channelnewsasia.com/business/thailands-bangchak-shuts-all-units-bangkok-refinery-after-fire-says-9-workers-injured-6584891"
+        },
+        {
+          "title": "Associated Press: refinery fire and energy ministry supply assessment",
+          "url": "https://apnews.com/article/e8098146bfb994dffc14448b1027c5d1"
+        },
+        {
+          "title": "Stock Exchange of Thailand BCP price",
+          "url": "https://www.set.or.th/en/market/product/stock/quote/bcp/price"
+        },
+        {
+          "title": "MGR Online intraday price report",
+          "url": "https://en.mgronline.com/economy/bcp-shares-plunge-after-explosion-at-refinery/"
+        },
+        {
+          "title": "Kaohoon: company disclosure and insurance coverage",
+          "url": "https://www.kaohooninternational.com/markets/595589"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261126-1030-ukmto-222-223",
+      "observed_at": "2026-11-26T10:30:13-05:00",
+      "title": "UKMTO adds two Gulf tanker incident notices; new mine claims remain unverified",
+      "summary": "UKMTO published notices concerning two separate tanker incidents on November 25, one attack and one suspicious activity report. Crews are accounted for. Separate Iranian claims of two tanker mine strikes on November 26 remain unverified, and additional physical export losses have not been established.",
+      "tickers": [
+        "XLE",
+        "XOP",
+        "CL",
+        "BRN"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Maritime shipping"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "UKMTO Warning 223-26",
+          "value": "November 25 outbound tanker struck in Hormuz; crew accounted for, environmental impact not reported."
+        },
+        {
+          "label": "UKMTO Warning 222-26",
+          "value": "November 25 near-tanker explosion off Dubai; crew safe, no damage or environmental impact reported."
+        },
+        {
+          "label": "Separate November 26 assertion",
+          "value": "Iran claims two tankers struck mines; independent confirmation and relation to other incidents absent."
+        },
+        {
+          "label": "Market and flow context",
+          "value": "US equity markets closed for Thanksgiving. WSJ reported mixed holiday oil trading and improved Gulf exports last week, with no established incremental physical loss from these incidents."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Verified tanker loadings and operational status, insurance/freight premiums, Saudi refinery operations and OPEC+ November 29 meeting; safe continued passage and stable flows weaken immediate shortage risk."
+        }
+      ],
+      "key_finding": "New official maritime incident notices increase transport risk but do not establish additional physical crude-export losses.",
+      "sources": [
+        {
+          "title": "UKMTO Warning 223-26",
+          "url": "https://www.ukmto.org/-/media/ukmto/products/20261125-ukmto_warning_223-26.pdf"
+        },
+        {
+          "title": "UKMTO Warning 222-26",
+          "url": "https://www.ukmto.org/-/media/ukmto/products/20261125-ukmto_warning-222-26.pdf"
+        },
+        {
+          "title": "The File: separate incident and mine-claim verification",
+          "url": "https://thefile.news/story/hormuz-tanker-struck-iran-mine-claim-nov26"
+        },
+        {
+          "title": "WSJ: oil market and Gulf flow context",
+          "url": "https://www.wsj.com/finance/commodities-futures/oil-rises-amid-ongoing-middle-east-tensions-c730426d"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261126-0927-lukoil-assets",
       "observed_at": "2026-11-26T09:27:26-05:00",
@@ -184,109 +306,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261126-0730-oil-inventory-context",
-      "observed_at": "2026-11-26T07:30:53-05:00",
-      "title": "EIA commercial stock build tempers oil supply fears; holiday futures retreat",
-      "summary": "Official U.S. inventory data show a commercial crude build alongside a strategic reserve decline. Oil futures pulled back after Wednesday's rebound, while Reuters reported recovering Middle Eastern exports despite shipping threats. Additional physical export losses remain unquantified.",
-      "tickers": [
-        "XLE",
-        "XOP",
-        "CL",
-        "BRN"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Maritime shipping"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "EIA week ending November 20, released November 25",
-          "value": "Commercial crude +1.109 million barrels; SPR -2.896 million; gasoline +1.733 million."
-        },
-        {
-          "label": "Reuters November 26 4:39 AM EST",
-          "value": "Brent $93.79, -0.87%; WTI $83.33, -0.42%; intraday only; no WTI settlement Thursday."
-        },
-        {
-          "label": "Next indicators",
-          "value": "Verified tanker flows, refinery operations, insurance, freight and sustained price strength; stable flows weaken incremental shortage thesis."
-        }
-      ],
-      "key_finding": "Physical inventory data and reported export recovery counterbalance geopolitical risk signals without ruling out future disruption.",
-      "sources": [
-        {
-          "title": "EIA weekly petroleum inventory data",
-          "url": "https://www.eia.gov/dnav/pet/pet_stoc_wstk_dcu_NUS_W.htm"
-        },
-        {
-          "title": "Reuters November 26 oil update",
-          "url": "https://au.investing.com/news/commodities-news/oil-rises-on-supply-concerns-as-iran-claims-mine-strikes-on-ships-4797270"
-        },
-        {
-          "title": "Reuters report on export recovery",
-          "url": "https://live.euronext.com/en/financial-news/oil-little-changed-supply-concerns-linger-after-iran-claims-mine-strikes-ships"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261125-1632-oil-settlement"
-    },
-    {
-      "id": "scout-20261125-1632-closing-breadth",
-      "observed_at": "2026-11-25T16:32:46-05:00",
-      "title": "Positive closing breadth validates afternoon rebound despite AI stock weakness",
-      "summary": "U.S. benchmarks recovered much of their early losses, with the Dow finishing higher while the S&P and Nasdaq remained slightly negative. MarketWatch reported strong advancing-stock breadth and gains across most sectors. The closing divergence strengthens the rotation hypothesis without resolving AI financing or inflation risks.",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "DIA",
-        "IWM"
-      ],
-      "sectors": [
-        "Broad equities",
-        "Sector rotation",
-        "AI infrastructure"
-      ],
-      "evidence_grade": "confirmed",
-      "observations": [
-        {
-          "label": "November 25 4 PM EST close, AP and Investor's Business Daily",
-          "value": "Dow +0.3%, S&P 500 -0.3%, Nasdaq -0.6%; AP separately reported Russell 2000 +0.7% (single-source figure)."
-        },
-        {
-          "label": "Closing breadth, MarketWatch",
-          "value": "NYSE 1,941 advancers versus 762 decliners; Nasdaq 2,944 versus 2,015; 8 of 11 S&P sectors higher; single-source breadth."
-        },
-        {
-          "label": "Fundamental context",
-          "value": "Recovery despite hotter inflation and AI financing concerns; holiday-week liquidity can exaggerate reversals."
-        },
-        {
-          "label": "Next indicators and invalidation",
-          "value": "Friday shortened session, semiconductor breadth, small-cap relative strength and AI credit spreads; renewed broad selling would weaken rotation thesis."
-        }
-      ],
-      "key_finding": "Closing index data corroborate the recovery; positive reported breadth supports an emerging rotation signal.",
-      "sources": [
-        {
-          "title": "Associated Press November 25 closing indexes",
-          "url": "https://apnews.com/article/94fdb0ecb060ec65c0b02879ce0d2d09"
-        },
-        {
-          "title": "Investor's Business Daily November 25 market and holiday hours",
-          "url": "https://www.investors.com/news/stock-market-hours-thanksgiving-black-friday-sp-500-nasdaq-dow-jones-nvidia/"
-        },
-        {
-          "title": "MarketWatch November 25 closing breadth",
-          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-investors-inflation-data-pce-nvidia/card/stocks-stage-a-big-comeback-with-the-dow-erasing-an-1-100-point-loss-to-close-higher-PFEPMbdPdjmek0aZKica"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261125-1428-breadth-reversal"
     }
   ],
-  "last_checked_at": "2026-11-26T09:27:26-05:00",
+  "last_checked_at": "2026-11-26T10:30:13-05:00",
   "last_check_status": "new_findings"
 }
