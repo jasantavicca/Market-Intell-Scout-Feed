@@ -1,8 +1,60 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-26T10:30:13-05:00",
-  "as_of_et": "November 26, 2026, 10:30 AM EST",
+  "generated_at": "2026-11-26T11:34:07-05:00",
+  "as_of_et": "November 26, 2026, 11:34 AM EST",
   "items": [
+    {
+      "id": "scout-20261126-1134-bachem-growth",
+      "observed_at": "2026-11-26T11:34:07-05:00",
+      "title": "Bachem falls 10–12% intraday as long-term growth targets disappoint",
+      "summary": "Swiss peptide manufacturer Bachem announced its 2031 financial targets and a substantial capacity expansion program. Its shares fell sharply as analysts flagged lower-than-expected growth and financing needs. The company remains exposed to growing peptide drug demand, but capital intensity and cash generation warrant further research.",
+      "tickers": [
+        "BANB.SW",
+        "LLY",
+        "NVO"
+      ],
+      "sectors": [
+        "Pharmaceutical manufacturing",
+        "Healthcare",
+        "Biotechnology supply chain"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 26 intraday reporting",
+          "value": "Investing.com reported a 12% decline at publication 3:57 AM EST; WSJ separately reported approximately 10%. Not closing prices."
+        },
+        {
+          "label": "Official Capital Markets Day targets",
+          "value": "2025–2031 annual sales growth 15–18% in local currencies; 2031 EBITDA margin 33–35%."
+        },
+        {
+          "label": "Capital requirements",
+          "value": "Planned investment 25–30% of sales in 2027–2031; annual R&D target CHF 40 million by 2031. Funding includes cash flow, customer advances, credit facilities and potential bonds."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Customer commitments, capacity utilization, free cash flow, debt, earnings revisions and valuation. Sustained weak utilization or financing stress would challenge the growth case."
+        }
+      ],
+      "key_finding": "A large pharmaceutical supply-chain selloff reflects expectations and funding concerns despite ambitious management growth targets.",
+      "sources": [
+        {
+          "title": "Bachem official November 26 capital markets announcement",
+          "url": "https://www.bachem.com/articles/news/ad-hoc/bachem-sets-the-course-for-its-next-phase-of-growth/"
+        },
+        {
+          "title": "Wall Street Journal November 26 market reaction",
+          "url": "https://www.wsj.com/business/earnings/lilly-novo-supplier-bachem-hit-by-share-drop-after-growth-plans-disappoint-d3bcf6fa"
+        },
+        {
+          "title": "Investing.com November 26 price and target report",
+          "url": "https://www.investing.com/news/stock-market-news/bachem-shares-drop-12-after-new-growth-targets-unveiled-5052265"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261126-1030-bangchak-refinery",
       "observed_at": "2026-11-26T10:30:13-05:00",
@@ -252,62 +304,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261126-0730-korea-rate-growth",
-      "observed_at": "2026-11-26T07:30:53-05:00",
-      "title": "Bank of Korea raises policy rate while upgrading chip-driven growth forecasts",
-      "summary": "South Korea raised its policy rate while upgrading its growth outlook on the strength of semiconductor exports and investment. Asian equities rebounded after Wednesday's selloff, although Korea lagged Taiwan. Strong export forecasts coexist with financing, inflation and demand risks.",
-      "tickers": [
-        "EWY",
-        "EWT",
-        "TSM",
-        "005930.KS",
-        "000660.KS"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "International equities",
-        "Monetary policy"
-      ],
-      "evidence_grade": "confirmed",
-      "observations": [
-        {
-          "label": "Bank of Korea November 26 official decision",
-          "value": "Rate +25 bp to 3.25%; 5–2 vote; 2026 GDP growth forecast 3.9% versus 3.3%, 2027 4.1% versus 2.9%."
-        },
-        {
-          "label": "November 26 Asian closing figures, News1 and CloseLook",
-          "value": "TAIEX +2.50% to 39,151.81; KOSPI +0.29%; Nikkei +0.86%."
-        },
-        {
-          "label": "Next indicators",
-          "value": "Export orders, memory pricing, foreign flows, financing and further monetary tightening; weaker exports or downward growth revisions would challenge the outlook."
-        }
-      ],
-      "key_finding": "Official growth upgrades provide a counterpoint to semiconductor-market stress, but higher rates introduce financing and valuation pressure.",
-      "sources": [
-        {
-          "title": "Bank of Korea monetary policy decision",
-          "url": "https://www.bok.or.kr/eng/bbs/E0000634/view.do?depth=400423&menuNo=400423&nttId=11067086&programType=newsDataEng&relate=Y"
-        },
-        {
-          "title": "Reuters rate and growth report",
-          "url": "https://www.investing.com/news/economy-news/south-koreas-central-bank-raises-rates-upgrades-2027-growth-outlook-5051906"
-        },
-        {
-          "title": "News1 Asian market closes",
-          "url": "https://en.news1.kr/world/6384256"
-        },
-        {
-          "title": "CloseLook Asian market closes",
-          "url": "https://closelook.net/days/2026-11-26/"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-26T10:30:13-05:00",
+  "last_checked_at": "2026-11-26T11:34:07-05:00",
   "last_check_status": "new_findings"
 }
