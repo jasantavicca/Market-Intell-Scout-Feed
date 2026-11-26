@@ -1,8 +1,68 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-26T12:33:54-05:00",
-  "as_of_et": "November 26, 2026, 12:33 PM EST",
+  "generated_at": "2026-11-26T13:29:35-05:00",
+  "as_of_et": "November 26, 2026, 1:29 PM EST",
   "items": [
+    {
+      "id": "scout-20261126-1329-ecb-tightening-risk",
+      "observed_at": "2026-11-26T13:29:35-05:00",
+      "title": "ECB minutes reveal substantial support for further tightening amid AI financing and energy risks",
+      "summary": "Newly released ECB minutes show many policymakers would have supported a rate increase in October, although all ultimately agreed to hold rates. The accounts cite expensive AI debt financing, tighter credit and energy inflation. European shares rebounded Thursday, but the monetary-policy outlook remains a risk for capital-intensive projects.",
+      "tickers": [
+        "ASML",
+        "IFNNY",
+        "ORCL",
+        "CRWV",
+        "VGK"
+      ],
+      "sectors": [
+        "Monetary policy",
+        "AI infrastructure",
+        "Semiconductors",
+        "Utilities",
+        "European equities"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Official ECB accounts released November 26, covering October 28–29",
+          "value": "Deposit facility rate held at 2.50%; a large number of members would have supported a hike, but all agreed to hold. No new rate decision today."
+        },
+        {
+          "label": "Financing conditions",
+          "value": "ECB accounts report tighter corporate credit standards and increased hyperscaler borrowing costs as of the October meeting; debt issuance was still absorbed by euro-area corporate bond markets."
+        },
+        {
+          "label": "European equities November 26",
+          "value": "Reuters reports STOXX 600 closed +1.8%; Financial Times independently reports a 1.8% gain. No U.S. regular-session equity reaction on Thanksgiving."
+        },
+        {
+          "label": "Next indicators and invalidation",
+          "value": "December ECB projections, inflation, credit spreads, lending standards and project capex revisions; sustained disinflation or easing financing costs would weaken tightening risk."
+        }
+      ],
+      "key_finding": "Official ECB accounts reinforce financing-cost risk for AI infrastructure and other capital-intensive sectors, despite a European equity rebound.",
+      "sources": [
+        {
+          "title": "ECB official monetary policy accounts, November 26",
+          "url": "https://www.ecb.europa.eu/press/accounts/2026/html/ecb.mg261126~ccf28c8071.en.html"
+        },
+        {
+          "title": "Reuters on ECB rate hike support",
+          "url": "https://www.investing.com/news/economy-news/ecb-already-had-large-support-for-rate-hike-in-oct-accounts-show-5052492"
+        },
+        {
+          "title": "Reuters European market close",
+          "url": "https://www.lse.co.uk/news/european-stocks-end-higher-on-easing-tariff-fears-ecb-leadership-continuity-z0175nyy40muk9k.html"
+        },
+        {
+          "title": "Financial Times global market report",
+          "url": "https://www.ft.com/content/6e217409-9fbb-456c-b405-2eb15bb69679"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261126-1233-boe-ai-credit-risk",
       "observed_at": "2026-11-26T12:33:54-05:00",
@@ -232,72 +292,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261126-0927-lukoil-assets",
-      "observed_at": "2026-11-26T09:27:26-05:00",
-      "title": "US-backed consortium signs conditional agreement to acquire Lukoil international energy assets",
-      "summary": "An Eldridge-led consortium including the US development finance agency signed an agreement to acquire Lukoil's non-Russian energy assets. The portfolio includes major upstream operations and three European refineries. Separate OFAC authorization is required; no transfer of ownership or incremental physical production has occurred.",
-      "tickers": [
-        "LKOH",
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "European refining",
-        "Sanctions"
-      ],
-      "evidence_grade": "confirmed",
-      "observations": [
-        {
-          "label": "Agreement announced November 25; independently reported November 26",
-          "value": "Definitive conditional acquisition agreement; Eldridge, DFC, Catena and Xtellus; restricted-share exchange rather than direct cash payment to Russia."
-        },
-        {
-          "label": "Current upstream scale",
-          "value": "Approximately 350,000 barrels of oil equivalent per day across 11 countries, per consortium."
-        },
-        {
-          "label": "Refining capacity",
-          "value": "Approximately 350,000 barrels per day combined nameplate capacity across Burgas, Zeeland and Petrotel; capacity is not current throughput."
-        },
-        {
-          "label": "OFAC approval and timing",
-          "value": "GL 131L authorizes negotiation and contingent contracts through December 19, 2026, not actual transfer. Separate approval required; OFAC opposes upfront value or windfalls to Lukoil."
-        },
-        {
-          "label": "Market and physical impact",
-          "value": "US cash equities closed for Thanksgiving; no current-session XLE/XOP reaction. No verified incremental production or refinery throughput from the agreement."
-        },
-        {
-          "label": "Next indicators",
-          "value": "OFAC authorization, closing conditions, refinery utilization and operational continuity; rejection or delays weaken stabilization outlook."
-        }
-      ],
-      "key_finding": "A signed but unapproved transaction could stabilize sanctioned international energy assets; it does not add supply today.",
-      "sources": [
-        {
-          "title": "Consortium announcement via Business Wire, November 25",
-          "url": "https://www.sttinfo.fi/tiedote/72538179/american-led-consortium-announces-agreement-to-acquire-lukoil-internationals-global-energy-portfolio?lang=en&publisherId=58763726"
-        },
-        {
-          "title": "OFAC FAQ 1224, updated November 19",
-          "url": "https://ofac.treasury.gov/faqs/1224"
-        },
-        {
-          "title": "Reuters November 25 deal report",
-          "url": "https://www.investing.com/news/stock-market-news/exclusiveboehly-signs-usbacked-share-swap-deal-to-buy-lukoil-global-assets-5051129"
-        },
-        {
-          "title": "Financial Times November 26",
-          "url": "https://www.ft.com/content/643dc287-d112-4715-bdf1-aa49b98a4af7"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-26T12:33:54-05:00",
+  "last_checked_at": "2026-11-26T13:29:35-05:00",
   "last_check_status": "new_findings"
 }
