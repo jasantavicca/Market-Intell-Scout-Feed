@@ -1,8 +1,119 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-26T13:29:35-05:00",
-  "as_of_et": "November 26, 2026, 1:29 PM EST",
+  "generated_at": "2026-11-26T14:57:34-05:00",
+  "as_of_et": "November 26, 2026, 2:57 PM EST",
   "items": [
+    {
+      "id": "scout-20261126-1457-oil-brent-96",
+      "observed_at": "2026-11-26T14:57:34-05:00",
+      "title": "Oil rises almost 2% to Brent $96.48 as Hormuz and Ras Tanura supply concerns persist",
+      "summary": "Crude oil rose almost 2% on Thursday in thin Thanksgiving trading after Yemen's Houthis said they hit Saudi Arabia's largest oil refinery and Iran's Revolutionary Guards said two tankers exploded after hitting sea mines in the Strait of Hormuz. The reported attacks are claims by the parties involved and have not been independently confirmed as physical export losses; the price move is reported fact. There is no WTI settlement on Thursday because of the U.S. Thanksgiving holiday.",
+      "tickers": [
+        "CL",
+        "BRN",
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Energy",
+        "Maritime shipping"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Reuters price report, November 26, 12:41 PM ET",
+          "value": "Brent crude futures up $1.87, or 1.98%, at $96.48 a barrel; WTI futures up $1.03, or 1.23%, at $84.71. No WTI settlement Thursday due to Thanksgiving."
+        },
+        {
+          "label": "Independent price corroboration, November 26, 14:25 GMT",
+          "value": "FinanceFeeds and TradersUnion, citing Reuters/Business Recorder pricing, report Brent up $1.64, or 1.73%, at $96.25 and WTI up $1.10, or 1.31%, at $84.78; WSJ separately reported Brent up 0.8% at $95.36 and WTI up 1.3% at $84.73."
+        },
+        {
+          "label": "Claims behind the move",
+          "value": "Houthis said they attacked Saudi Arabia's Ras Tanura refinery and Riyadh's financial district; Iran's Revolutionary Guards said two tankers exploded after hitting mines north of Oman's Khasab port, one a supertanker carrying more than 2 million barrels. Saudi government and Aramco did not respond to Reuters requests for comment; incremental physical export losses remain unestablished."
+        },
+        {
+          "label": "Supply and inventory context",
+          "value": "Reuters cites an initial estimate of last week's Middle East crude exports, including non-Hormuz routes, at 15.3 million b/d; U.S. crude stocks rose 1.1 million barrels to 418.9 million in the week ended November 20, less than the 1.5 million analysts expected."
+        },
+        {
+          "label": "Next indicators",
+          "value": "OPEC+ ministers meet Sunday, November 29 to decide 2027 output policy; two sources told Reuters the group may roll over current output targets for at least Q1 2027. Verified tanker loadings, Hormuz passage and Saudi refinery operations would confirm or weaken the supply-risk premium."
+        }
+      ],
+      "key_finding": "Oil's geopolitical risk premium rose again on Thursday, with Brent near $96.50, but the underlying tanker and refinery claims still do not establish additional physical crude-export losses.",
+      "sources": [
+        {
+          "title": "Reuters via LA Post: Oil prices rise after mine strikes on ships revive supply concerns, November 26",
+          "url": "https://www.lapost.com/content/oil-rises-on-supply-concerns-as-iran-claims-mine-strikes-on-ships"
+        },
+        {
+          "title": "Reuters: Oil rises on supply concerns as Iran claims mine strikes on ships, November 26",
+          "url": "https://www.reuters.com/business/energy/oil-rises-supply-concerns-iran-claims-mine-strikes-ships-2026-11-26/"
+        },
+        {
+          "title": "FinanceFeeds: Brent crude tops $96 on Ras Tanura, Hormuz tanker risks, November 26",
+          "url": "https://financefeeds.com/brent-crude-rises-above-96-as-middle-east-conflict-threatens-global-oil-flows/"
+        },
+        {
+          "title": "WSJ: Oil prices rise as traders weigh Middle East supply risks, OPEC+ meeting, November 26",
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-mixed-as-traders-weigh-middle-east-supply-risks-opec-meeting-c234598a"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261126-1457-slavyansk-refinery",
+      "observed_at": "2026-11-26T14:57:34-05:00",
+      "title": "Drone attack seriously damages Slavyansk ECO refinery in Russia's Krasnodar region",
+      "summary": "A fire broke out at the Slavyansk ECO oil refinery in Russia's southern Krasnodar region after a drone attack on November 26, inflicting serious damage, the company said. The plant was already in a maintenance stoppage following a September drone strike, which limits the immediate production impact; lost throughput from this attack has not been quantified.",
+      "tickers": [
+        "CL",
+        "BRN"
+      ],
+      "sectors": [
+        "Oil refining",
+        "Energy"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Company statement reported by Reuters, November 26",
+          "value": "An atmospheric crude oil distillation unit sustained significant damage; storage facilities for heavy petroleum products were destroyed and pipelines carrying heavy petroleum products and gasoline fractions were damaged."
+        },
+        {
+          "label": "Independent corroboration",
+          "value": "Ukrainian military intelligence (HUR) said its long-range drones struck the refinery's key production units, tank farm and transport pipelines and sparked a fire; multiple outlets reported the same company statement and damage list."
+        },
+        {
+          "label": "Operating status at the time",
+          "value": "The attack took place during a maintenance stoppage in place since a September drone strike, so the refinery was not operating; immediate crude-processing loss is therefore limited, while repair time and cost remain unknown."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Operator updates on repair timeline, regional fuel supply and export loadings; a prolonged repair would extend the outage of already-idled capacity rather than remove currently running throughput."
+        }
+      ],
+      "key_finding": "A corroborated drone strike seriously damaged a Russian refinery that was already shut for repairs, so the near-term supply effect is about extended downtime, not newly lost production.",
+      "sources": [
+        {
+          "title": "Reuters: Russian oil refinery in Krasnodar region on fire after drone attack, November 26",
+          "url": "https://www.reuters.com/business/energy/russian-oil-refinery-krasnodar-region-fire-after-drone-attack-2026-11-26/"
+        },
+        {
+          "title": "The Gaze: Ukrainian drones hit Slavyansk-ECO oil refinery in Kuban again, November 26",
+          "url": "https://thegaze.media/news/ukrainian-drones-hit-slavyansk-eco-oil-refinery-in-kuban-again-sparking-a-fire"
+        },
+        {
+          "title": "Devdiscourse: Russian oil refinery in Krasnodar region on fire after drone attack, November 26",
+          "url": "https://www.devdiscourse.com/article/international/4012700-russian-oil-refinery-in-krasnodar-region-on-fire-after-drone-attack"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261126-1329-ecb-tightening-risk",
       "observed_at": "2026-11-26T13:29:35-05:00",
@@ -294,6 +405,6 @@
       "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-26T13:29:35-05:00",
+  "last_checked_at": "2026-11-26T14:57:34-05:00",
   "last_check_status": "new_findings"
 }
