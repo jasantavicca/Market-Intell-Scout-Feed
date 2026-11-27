@@ -1,8 +1,111 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-27T14:29:19-05:00",
-  "as_of_et": "November 27, 2026, 2:29 PM EST",
+  "generated_at": "2026-11-27T15:34:55-05:00",
+  "as_of_et": "November 27, 2026, 3:34 PM EST",
   "items": [
+    {
+      "id": "scout-20261127-1534-oil-settlement-divergence",
+      "observed_at": "2026-11-27T15:34:55-05:00",
+      "title": "Brent posts weekly gain while WTI lags ahead of OPEC+ decision",
+      "summary": "Reported Friday settlements show a divergence between international and US crude benchmarks despite elevated Middle East supply risk. The weekly Brent gain suggests a regional risk premium, but US inventory builds and softer WTI temper the signal. Settlement figures are from a single retrieved source and are not independently verified.",
+      "tickers": [
+        "CL",
+        "BRN",
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Energy transportation"
+      ],
+      "evidence_grade": "single-source",
+      "observations": [
+        {
+          "label": "January Brent, Friday settlement reported by WSJ",
+          "value": "$95.44/bbl; -1.2% on the session, +3.1% on the week."
+        },
+        {
+          "label": "January WTI, Friday settlement reported by WSJ",
+          "value": "$83.08/bbl; -0.7% on the session, -0.4% on the week."
+        },
+        {
+          "label": "EIA week ended November 20, reported November 25",
+          "value": "US commercial crude inventories +1.1 million barrels; SPR stocks -2.9 million barrels."
+        },
+        {
+          "label": "Next indicators",
+          "value": "November 29 OPEC+ decision; January Brent expiration November 30; February-March spread; independently tracked tanker cargoes and Iraqi loading schedules."
+        }
+      ],
+      "key_finding": "International crude risk premium remains evident, but the US benchmark is not confirming a broad weekly oil rally.",
+      "sources": [
+        {
+          "title": "WSJ Friday oil futures settlement",
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-ahead-of-opec-meeting-as-middle-east-supply-risks-persist-63fbb550"
+        },
+        {
+          "title": "Reuters earlier Friday oil trading",
+          "url": "https://live.euronext.com/en/financial-news/oil-track-first-weekly-gain-november-supply-fears"
+        },
+        {
+          "title": "Rigzone November 27 EIA inventory report",
+          "url": "https://www.rigzone.com/news/usa_crude_oil_stocks_rise_week_on_week-27-nov-2026-185190-article/"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261127-1534-ai-imports-trade",
+      "observed_at": "2026-11-27T08:30:00-05:00",
+      "title": "US goods deficit substantially exceeds forecasts as equipment imports surge",
+      "summary": "October advance trade data show a substantial increase in goods imports and a wider deficit than economists expected. Reuters attributes part of the import strength to AI infrastructure investment. The figures support the equipment-demand thesis, but do not establish AI-specific import totals, domestic supplier margins or investment returns.",
+      "tickers": [
+        "SMH",
+        "NVDA",
+        "DELL",
+        "ETN",
+        "VRT"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "Industrial equipment",
+        "Macro"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "October goods deficit, Census release November 27 at 8:30 AM ET",
+          "value": "$149.5 billion, +10.7% month over month; Reuters consensus $133 billion."
+        },
+        {
+          "label": "October goods imports and exports",
+          "value": "Imports $365.3 billion, up $21.1 billion; exports $215.8 billion, up $6.7 billion."
+        },
+        {
+          "label": "Market implications",
+          "value": "No isolated ticker price impact established; import-intensive capital spending can support equipment demand while weighing on net exports."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Revised trade release, capital-goods orders, domestic supplier revenue and margins, data-center deployment and AI customer returns."
+        }
+      ],
+      "key_finding": "Official trade data provide tangible evidence of strong goods demand, while AI-specific attribution remains an analytical inference.",
+      "sources": [
+        {
+          "title": "US Census advance economic indicators, October 2026",
+          "url": "https://www.census.gov/econ/indicators/2026/advance_report2610.pdf"
+        },
+        {
+          "title": "Reuters November 27 trade deficit report",
+          "url": "https://www.investing.com/news/economic-indicators/us-goods-trade-deficit-widens-sharply-in-october-5053539"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261127-1429-jera-power-ai",
       "observed_at": "2026-11-27T14:29:19-05:00",
@@ -157,117 +260,8 @@
       ],
       "status": "updated",
       "supersedes": "scout-20261127-1025-ai-opening-fade"
-    },
-    {
-      "id": "scout-20261127-1329-blockade-enforcement",
-      "observed_at": "2026-11-27T13:29:16-05:00",
-      "title": "CENTCOM reports additional commercial vessel disabled during Iran blockade enforcement",
-      "summary": "US Central Command disclosed an additional blockade enforcement incident in the Gulf of Oman involving a commercial bulk carrier on November 26. The announcement reinforces ongoing maritime disruption risk. The vessel was not an oil tanker and the incident does not establish additional crude-export losses.",
-      "tickers": [
-        "CL",
-        "BRN",
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Maritime shipping"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Official CENTCOM announcement, November 27",
-          "value": "Commercial bulk carrier disabled November 26; civilian crew unharmed."
-        },
-        {
-          "label": "Enforcement totals reported by CENTCOM",
-          "value": "158 compliant commercial vessels redirected; six noncompliant vessels disabled during the current campaign."
-        },
-        {
-          "label": "Energy ETF observations",
-          "value": "Investing.com reports XLE +1.49% and XOP +1.40% in separate snapshots; not independently verified matching closing prices."
-        },
-        {
-          "label": "Next indicators",
-          "value": "Iraqi cargo loading schedules, independent tanker volumes, war-risk insurance premiums and November 29 OPEC+ decision; stable cargo flows would weaken the immediate crude-supply concern."
-        }
-      ],
-      "key_finding": "Officially reported blockade enforcement reinforces shipping risk without establishing incremental crude-export losses.",
-      "sources": [
-        {
-          "title": "CENTCOM public affairs statement",
-          "url": "https://www.dvidshub.net/news/580348/us-forces-disable-commercial-vessel-during-blockade-enforcement-against-iran"
-        },
-        {
-          "title": "Associated Press coverage",
-          "url": "https://apnews.com/article/800620518a351282f098faa9381b3375"
-        },
-        {
-          "title": "Investing.com XLE historical data",
-          "url": "https://ph.investing.com/etfs/spdr-energy-select-sector-fund-historical-data"
-        },
-        {
-          "title": "Investing.com XOP historical data",
-          "url": "https://ng.investing.com/etfs/spdr-s-p-oil--gas-explor---product-historical-data"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261127-1226-coreweave-financing",
-      "observed_at": "2026-11-27T12:26:11-05:00",
-      "title": "CoreWeave's proposed Meta-backed loan tests AI infrastructure funding",
-      "summary": "Banks are reportedly preparing a customer-backed loan sale for CoreWeave as early as next week. Management previously outlined the secured financing strategy, which could reduce borrowing costs relative to unsecured debt. The proposed deal is not yet closed and corporate credit risk remains.",
-      "tickers": [
-        "CRWV",
-        "META",
-        "MS",
-        "MUFG"
-      ],
-      "sectors": [
-        "AI infrastructure",
-        "Cloud computing",
-        "Credit markets"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Bloomberg November 25 report",
-          "value": "Proposed $4.5 billion GPU-secured loan; indicative yield 7–7.5%; terms and timing subject to change."
-        },
-        {
-          "label": "Unsecured credit comparison",
-          "value": "CoreWeave 9% senior notes due 2031 yielded 18% on November 25 according to TRACE data cited by Bloomberg."
-        },
-        {
-          "label": "Company Q3 results",
-          "value": "Revenue backlog approximately $132.5 billion as of September 30, 2026; contingent on delivery and service availability."
-        },
-        {
-          "label": "Next indicators",
-          "value": "Final syndication terms, ratings, demand, customer prepayments and interest expense; failure to close or higher borrowing costs would weaken the funding case."
-        }
-      ],
-      "key_finding": "Customer-backed secured financing may reduce project funding costs while leaving significant parent-company credit exposure.",
-      "sources": [
-        {
-          "title": "Bloomberg November 25 report via Yahoo Finance",
-          "url": "https://uk.finance.yahoo.com/news/coreweave-banks-sell-4-5-172523161.html"
-        },
-        {
-          "title": "CoreWeave quarterly results",
-          "url": "https://investors.coreweave.com/financials/quarterly-results/"
-        },
-        {
-          "title": "Barron's November earnings and financing coverage",
-          "url": "https://www.barrons.com/articles/coreweave-earnings-stock-price-7c0a24d8"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-27T14:29:19-05:00",
+  "last_checked_at": "2026-11-27T15:34:55-05:00",
   "last_check_status": "new_findings"
 }
