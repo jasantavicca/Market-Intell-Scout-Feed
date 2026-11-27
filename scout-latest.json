@@ -1,68 +1,187 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-26T14:57:34-05:00",
-  "as_of_et": "November 26, 2026, 2:57 PM EST",
+  "generated_at": "2026-11-27T07:30:01-05:00",
+  "as_of_et": "November 27, 2026, 7:30 AM EST",
   "items": [
     {
-      "id": "scout-20261126-1457-oil-brent-96",
-      "observed_at": "2026-11-26T14:57:34-05:00",
-      "title": "Oil rises almost 2% to Brent $96.48 as Hormuz and Ras Tanura supply concerns persist",
-      "summary": "Crude oil rose almost 2% on Thursday in thin Thanksgiving trading after Yemen's Houthis said they hit Saudi Arabia's largest oil refinery and Iran's Revolutionary Guards said two tankers exploded after hitting sea mines in the Strait of Hormuz. The reported attacks are claims by the parties involved and have not been independently confirmed as physical export losses; the price move is reported fact. There is no WTI settlement on Thursday because of the U.S. Thanksgiving holiday.",
+      "id": "scout-20261127-0730-asia-policy-rebound",
+      "observed_at": "2026-11-27T07:30:01-05:00",
+      "title": "China and South Korea surge on market-support signals as AI shares recover",
+      "summary": "China's State Council called for stronger state-backed market stabilization and shareholder returns. Asian chip-heavy indexes rallied sharply, with South Korean stocks also benefiting from hopes of an expanded stabilization fund. The rebound demonstrates improved risk appetite, not yet a recovery in corporate earnings or AI funding.",
+      "tickers": [
+        "FXI",
+        "KWEB",
+        "EWY",
+        "EWT",
+        "ASML",
+        "NVDA"
+      ],
+      "sectors": [
+        "International equities",
+        "Semiconductors",
+        "AI infrastructure"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 27 local market closes",
+          "value": "Shanghai Composite +3.73%, KOSPI +4.34%, Nikkei +2.11%; rounded gains independently reported by AP and MarketWatch."
+        },
+        {
+          "label": "China official policy",
+          "value": "State Council called for stronger stabilization mechanisms, Central Huijin liquidity support, dividends and buybacks; no quantified new purchase commitment announced."
+        },
+        {
+          "label": "US premarket",
+          "value": "Barron's reports SNDK +11%, BE +9%, MRVL +8.6%; morning report, not regular-session prices."
+        },
+        {
+          "label": "Next indicators",
+          "value": "US half-session breadth, volume, credit spreads, actual Chinese fund deployment and earnings revisions; reversal or absent policy follow-through would weaken the rebound."
+        }
+      ],
+      "key_finding": "Broad Asian relief rally and US technology premarket gains follow policy support signals, while underlying financing risks remain.",
+      "sources": [
+        {
+          "title": "Xinhua State Council meeting readout",
+          "url": "https://english.news.cn/20261127/d0c67d3f6d5441089f9e1e7558d2c5f1/c.html"
+        },
+        {
+          "title": "AP global markets",
+          "url": "https://apnews.com/article/c7ef10c1dbc5fa09668bd4fe0729c613"
+        },
+        {
+          "title": "MarketWatch Asian closing markets",
+          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-thanksgiving-holiday-shortened-black-friday-trading/card/china-leads-asian-stocks-higher-after-beijing-pledges-more-support-OV2FvI2UcsWdV2r84Q8U"
+        },
+        {
+          "title": "Barron's premarket movers",
+          "url": "https://www.barrons.com/articles/stock-movers-ac5937bf"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261127-0730-kioxia-ssd-memory",
+      "observed_at": "2026-11-27T07:30:01-05:00",
+      "title": "Kioxia and Nvidia demonstrate SSD-backed expansion of effective GPU memory",
+      "summary": "Kioxia's regional announcements describe a proof of concept that uses flash storage and Nvidia software to increase the effective memory accessible to AI workloads. The development broadens the potential role of enterprise NAND in AI infrastructure. It does not establish HBM replacement, commercial orders or incremental revenue.",
+      "tickers": [
+        "285A.T",
+        "NVDA",
+        "SNDK",
+        "MU",
+        "WDC"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "Enterprise storage"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Company demonstration announced Nov 25–27",
+          "value": "Approximately 1.1 PB raw SSD capacity in an NVL72 system with 144 SSDs; potential processing of 2 trillion vectors."
+        },
+        {
+          "label": "Stock reaction",
+          "value": "Investing.com reports Kioxia rose as much as 14.5% on November 26; Saxo reports further Friday gains of nearly 9% at its morning snapshot; neither is a confirmed close."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Independent performance and latency benchmarks, production adoption, NAND orders, margins and customer economics; poor performance or no deployment would weaken the commercial case."
+        }
+      ],
+      "key_finding": "A documented proof of concept expands the potential AI storage opportunity, but commercial economics and HBM substitution are unproven.",
+      "sources": [
+        {
+          "title": "Kioxia official US announcement",
+          "url": "https://americas.kioxia.com/en-us/business/news/2026/ssd-20261125-1.html"
+        },
+        {
+          "title": "Kioxia November 27 European announcement",
+          "url": "https://europe.kioxia.com/en-mea/business/news/2026/20261127-1.html"
+        },
+        {
+          "title": "Saxo November 27 market report",
+          "url": "https://www.home.saxo/en-sg/content/articles/macro/market-quick-take---brent-tops-usd-97-and-asian-stocks-extend-rebound---27-november-2026-27112026"
+        },
+        {
+          "title": "Investing.com November 26 Kioxia move",
+          "url": "https://za.investing.com/news/stock-market-news/kioxia-jumps-14-after-nvidia-collaboration-as-chip-stocks-rebound-4597990"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261127-0730-oil-curve-firming",
+      "observed_at": "2026-11-27T07:30:01-05:00",
+      "title": "Brent tops $97 and prompt premium widens before OPEC+ meeting",
+      "summary": "Oil extended its recovery as shipping and refinery risks supported nearby contracts. Russia also extended an existing jet-fuel export restriction, rather than introducing a new immediate supply cut. The futures curve signals rising near-term supply concern, but incremental crude export losses remain unquantified.",
       "tickers": [
         "CL",
         "BRN",
         "XLE",
-        "XOP"
+        "XOP",
+        "VLO",
+        "MPC"
       ],
       "sectors": [
         "Oil and gas",
-        "Energy",
+        "Refining",
         "Maritime shipping"
       ],
       "evidence_grade": "corroborated",
       "observations": [
         {
-          "label": "Reuters price report, November 26, 12:41 PM ET",
-          "value": "Brent crude futures up $1.87, or 1.98%, at $96.48 a barrel; WTI futures up $1.03, or 1.23%, at $84.71. No WTI settlement Thursday due to Thanksgiving."
+          "label": "November 27 3:54 AM EST WSJ intraday",
+          "value": "Brent $97.40 +0.9%; WTI $86.57 +2.4%; WTI had no Thursday settlement."
         },
         {
-          "label": "Independent price corroboration, November 26, 14:25 GMT",
-          "value": "FinanceFeeds and TradersUnion, citing Reuters/Business Recorder pricing, report Brent up $1.64, or 1.73%, at $96.25 and WTI up $1.10, or 1.31%, at $84.78; WSJ separately reported Brent up 0.8% at $95.36 and WTI up 1.3% at $84.73."
+          "label": "Prompt spread",
+          "value": "WSJ cites MUFG: near-term Brent premium $4.28/bbl versus approximately $2.50 earlier this week; exact contract pair not specified in retrieved report."
         },
         {
-          "label": "Claims behind the move",
-          "value": "Houthis said they attacked Saudi Arabia's Ras Tanura refinery and Riyadh's financial district; Iran's Revolutionary Guards said two tankers exploded after hitting mines north of Oman's Khasab port, one a supertanker carrying more than 2 million barrels. Saudi government and Aramco did not respond to Reuters requests for comment; incremental physical export losses remain unestablished."
+          "label": "Russian jet fuel policy",
+          "value": "Cabinet press service reports export ban extended Dec 1 through Mar 31, 2027, with exceptions; existing ban expires Nov 30."
         },
         {
-          "label": "Supply and inventory context",
-          "value": "Reuters cites an initial estimate of last week's Middle East crude exports, including non-Hormuz routes, at 15.3 million b/d; U.S. crude stocks rose 1.1 million barrels to 418.9 million in the week ended November 20, less than the 1.5 million analysts expected."
+          "label": "Physical and regulatory context",
+          "value": "Jazan partial operational halt previously reported; actual lost throughput unquantified. MARAD active advisory list unchanged; OFAC latest listed action Nov 23. US commercial crude stocks +1.1M barrels last reporting week."
         },
         {
           "label": "Next indicators",
-          "value": "OPEC+ ministers meet Sunday, November 29 to decide 2027 output policy; two sources told Reuters the group may roll over current output targets for at least Q1 2027. Verified tanker loadings, Hormuz passage and Saudi refinery operations would confirm or weaken the supply-risk premium."
+          "value": "OPEC+ Nov 29 quotas, verified tanker flows, refinery restart, product spreads, freight and US energy-sector relative strength; stable flows or narrowing prompt spread would weaken the scarcity signal."
         }
       ],
-      "key_finding": "Oil's geopolitical risk premium rose again on Thursday, with Brent near $96.50, but the underlying tanker and refinery claims still do not establish additional physical crude-export losses.",
+      "key_finding": "Price and prompt-spread strength indicate an increasing near-term risk premium, not verified incremental crude supply loss.",
       "sources": [
         {
-          "title": "Reuters via LA Post: Oil prices rise after mine strikes on ships revive supply concerns, November 26",
-          "url": "https://www.lapost.com/content/oil-rises-on-supply-concerns-as-iran-claims-mine-strikes-on-ships"
+          "title": "WSJ November 27 oil prices and curve",
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-ahead-of-opec-meeting-as-middle-east-supply-risks-persist-63fbb550"
         },
         {
-          "title": "Reuters: Oil rises on supply concerns as Iran claims mine strikes on ships, November 26",
-          "url": "https://www.reuters.com/business/energy/oil-rises-supply-concerns-iran-claims-mine-strikes-ships-2026-11-26/"
+          "title": "WSJ timestamped oil prices",
+          "url": "https://www.wsj.com/finance/commodities-futures/oil-mixed-as-markets-track-mideast-developments-u-s-inventories-6daf3fb1"
         },
         {
-          "title": "FinanceFeeds: Brent crude tops $96 on Ras Tanura, Hormuz tanker risks, November 26",
-          "url": "https://financefeeds.com/brent-crude-rises-above-96-as-middle-east-conflict-threatens-global-oil-flows/"
+          "title": "Reuters via Euronext",
+          "url": "https://live.euronext.com/en/financial-news/oil-track-snap-3-week-losing-streak-over-supply-fears"
         },
         {
-          "title": "WSJ: Oil prices rise as traders weigh Middle East supply risks, OPEC+ meeting, November 26",
-          "url": "https://www.wsj.com/business/energy-oil/oil-prices-mixed-as-traders-weigh-middle-east-supply-risks-opec-meeting-c234598a"
+          "title": "Interfax Russian cabinet announcement",
+          "url": "https://interfax.com/newsroom/top-stories/120057/"
+        },
+        {
+          "title": "MARAD active advisories",
+          "url": "https://www.maritime.dot.gov/msci-advisories"
         }
       ],
-      "status": "new",
-      "supersedes": null
+      "status": "updated",
+      "supersedes": "scout-20261126-1457-oil-brent-96"
     },
     {
       "id": "scout-20261126-1457-slavyansk-refinery",
@@ -173,238 +292,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261126-1233-boe-ai-credit-risk",
-      "observed_at": "2026-11-26T12:33:54-05:00",
-      "title": "Bank of England warns AI financing is increasing systemic financial interconnections",
-      "summary": "The Bank of England's November 26 policy record warns that rapidly expanding and increasingly complex AI borrowing could transmit stress across financial markets. Lower-quality AI credit spreads have widened sharply, while broader spillovers remain limited. The warning strengthens the case for monitoring funding costs and project execution alongside AI demand.",
-      "tickers": [
-        "CRWV",
-        "ORCL",
-        "NVDA",
-        "DELL",
-        "LQD",
-        "HYG"
-      ],
-      "sectors": [
-        "AI infrastructure",
-        "Semiconductors",
-        "Cloud computing",
-        "Corporate credit"
-      ],
-      "evidence_grade": "confirmed",
-      "observations": [
-        {
-          "label": "Official November 26 policy record",
-          "value": "Hyperscaler bond issuance projected to exceed $305 billion in 2026, approximately 8% of global investment-grade issuance; estimate, not final annual issuance."
-        },
-        {
-          "label": "Observed credit conditions",
-          "value": "Bank reports sharp spread widening in US CCC-rated and some lower-quality AI-related debt; higher-rated corporate spread widening more limited; cross-market spillovers limited so far."
-        },
-        {
-          "label": "Market timing",
-          "value": "US equity markets closed for Thanksgiving; no new regular-session equity move attributable to the report."
-        },
-        {
-          "label": "Fundamental implications and next indicators",
-          "value": "Watch new debt pricing, refinancing, customer commitments, operating cash flow, capex revisions and project delays. Stable credit spreads and successful funding would weaken the near-term contagion thesis; the warning is not evidence of a systemic crisis."
-        }
-      ],
-      "key_finding": "Official financial-stability assessment identifies AI financing complexity as a transmission risk, independently of end-market AI demand.",
-      "sources": [
-        {
-          "title": "Bank of England Financial Policy Committee record, November 26",
-          "url": "https://www.bankofengland.co.uk/financial-policy-committee-record/2026/november-2026"
-        },
-        {
-          "title": "Reuters November 26 coverage",
-          "url": "https://www.investing.com/news/economy-news/bank-of-england-sees-growing-financial-risks-as-ai-borrowing-surges-5052592"
-        },
-        {
-          "title": "Financial Times November 26 financial stability coverage",
-          "url": "https://www.ft.com/content/cf30cef5-0e35-4ebd-a456-797dbd1ad132"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261126-1134-bachem-growth",
-      "observed_at": "2026-11-26T11:34:07-05:00",
-      "title": "Bachem falls 10–12% intraday as long-term growth targets disappoint",
-      "summary": "Swiss peptide manufacturer Bachem announced its 2031 financial targets and a substantial capacity expansion program. Its shares fell sharply as analysts flagged lower-than-expected growth and financing needs. The company remains exposed to growing peptide drug demand, but capital intensity and cash generation warrant further research.",
-      "tickers": [
-        "BANB.SW",
-        "LLY",
-        "NVO"
-      ],
-      "sectors": [
-        "Pharmaceutical manufacturing",
-        "Healthcare",
-        "Biotechnology supply chain"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 26 intraday reporting",
-          "value": "Investing.com reported a 12% decline at publication 3:57 AM EST; WSJ separately reported approximately 10%. Not closing prices."
-        },
-        {
-          "label": "Official Capital Markets Day targets",
-          "value": "2025–2031 annual sales growth 15–18% in local currencies; 2031 EBITDA margin 33–35%."
-        },
-        {
-          "label": "Capital requirements",
-          "value": "Planned investment 25–30% of sales in 2027–2031; annual R&D target CHF 40 million by 2031. Funding includes cash flow, customer advances, credit facilities and potential bonds."
-        },
-        {
-          "label": "Next indicators",
-          "value": "Customer commitments, capacity utilization, free cash flow, debt, earnings revisions and valuation. Sustained weak utilization or financing stress would challenge the growth case."
-        }
-      ],
-      "key_finding": "A large pharmaceutical supply-chain selloff reflects expectations and funding concerns despite ambitious management growth targets.",
-      "sources": [
-        {
-          "title": "Bachem official November 26 capital markets announcement",
-          "url": "https://www.bachem.com/articles/news/ad-hoc/bachem-sets-the-course-for-its-next-phase-of-growth/"
-        },
-        {
-          "title": "Wall Street Journal November 26 market reaction",
-          "url": "https://www.wsj.com/business/earnings/lilly-novo-supplier-bachem-hit-by-share-drop-after-growth-plans-disappoint-d3bcf6fa"
-        },
-        {
-          "title": "Investing.com November 26 price and target report",
-          "url": "https://www.investing.com/news/stock-market-news/bachem-shares-drop-12-after-new-growth-targets-unveiled-5052265"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261126-1030-bangchak-refinery",
-      "observed_at": "2026-11-26T10:30:13-05:00",
-      "title": "Bangchak halts 120,000 b/d Bangkok refinery after fire",
-      "summary": "Bangchak suspended all production units at its Phra Khanong refinery following a fire on November 26. The fire has been extinguished, but the company has not announced a restart date. Thailand's energy minister expects other domestic capacity to avert a national shortage.",
-      "tickers": [
-        "BCP.BK"
-      ],
-      "sectors": [
-        "Oil refining",
-        "Energy",
-        "International equities"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Company-reported operational status",
-          "value": "All production units shut; maximum refining capacity 120,000 b/d; combined company refining capacity about 300,000 b/d. Actual lost throughput and restart timeline not yet quantified."
-        },
-        {
-          "label": "Stock Exchange of Thailand closing quote, November 26, 18:23 ICT update",
-          "value": "THB 39.10, -5.10%; exchange-reported close, not independently corroborated as a closing figure."
-        },
-        {
-          "label": "Independent intraday report, November 26 15:45 ICT",
-          "value": "THB 39.50, -4.13%, according to MGR Online; intraday."
-        },
-        {
-          "label": "Fundamental assessment",
-          "value": "Insurance includes property damage and business interruption; remaining refinery capacity and domestic alternatives mitigate risk. Duration and repair costs remain uncertain."
-        },
-        {
-          "label": "Next indicators",
-          "value": "Restart date, equipment damage, insurance claims, regional product inventories and refining margins; rapid restart would weaken outage impact."
-        }
-      ],
-      "key_finding": "A documented refinery shutdown creates real operational exposure, but lost throughput and national supply impact remain unquantified.",
-      "sources": [
-        {
-          "title": "Reuters via CNA: Bangchak shutdown",
-          "url": "https://www.channelnewsasia.com/business/thailands-bangchak-shuts-all-units-bangkok-refinery-after-fire-says-9-workers-injured-6584891"
-        },
-        {
-          "title": "Associated Press: refinery fire and energy ministry supply assessment",
-          "url": "https://apnews.com/article/e8098146bfb994dffc14448b1027c5d1"
-        },
-        {
-          "title": "Stock Exchange of Thailand BCP price",
-          "url": "https://www.set.or.th/en/market/product/stock/quote/bcp/price"
-        },
-        {
-          "title": "MGR Online intraday price report",
-          "url": "https://en.mgronline.com/economy/bcp-shares-plunge-after-explosion-at-refinery/"
-        },
-        {
-          "title": "Kaohoon: company disclosure and insurance coverage",
-          "url": "https://www.kaohooninternational.com/markets/595589"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261126-1030-ukmto-222-223",
-      "observed_at": "2026-11-26T10:30:13-05:00",
-      "title": "UKMTO adds two Gulf tanker incident notices; new mine claims remain unverified",
-      "summary": "UKMTO published notices concerning two separate tanker incidents on November 25, one attack and one suspicious activity report. Crews are accounted for. Separate Iranian claims of two tanker mine strikes on November 26 remain unverified, and additional physical export losses have not been established.",
-      "tickers": [
-        "XLE",
-        "XOP",
-        "CL",
-        "BRN"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Maritime shipping"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "UKMTO Warning 223-26",
-          "value": "November 25 outbound tanker struck in Hormuz; crew accounted for, environmental impact not reported."
-        },
-        {
-          "label": "UKMTO Warning 222-26",
-          "value": "November 25 near-tanker explosion off Dubai; crew safe, no damage or environmental impact reported."
-        },
-        {
-          "label": "Separate November 26 assertion",
-          "value": "Iran claims two tankers struck mines; independent confirmation and relation to other incidents absent."
-        },
-        {
-          "label": "Market and flow context",
-          "value": "US equity markets closed for Thanksgiving. WSJ reported mixed holiday oil trading and improved Gulf exports last week, with no established incremental physical loss from these incidents."
-        },
-        {
-          "label": "Next indicators",
-          "value": "Verified tanker loadings and operational status, insurance/freight premiums, Saudi refinery operations and OPEC+ November 29 meeting; safe continued passage and stable flows weaken immediate shortage risk."
-        }
-      ],
-      "key_finding": "New official maritime incident notices increase transport risk but do not establish additional physical crude-export losses.",
-      "sources": [
-        {
-          "title": "UKMTO Warning 223-26",
-          "url": "https://www.ukmto.org/-/media/ukmto/products/20261125-ukmto_warning_223-26.pdf"
-        },
-        {
-          "title": "UKMTO Warning 222-26",
-          "url": "https://www.ukmto.org/-/media/ukmto/products/20261125-ukmto_warning-222-26.pdf"
-        },
-        {
-          "title": "The File: separate incident and mine-claim verification",
-          "url": "https://thefile.news/story/hormuz-tanker-struck-iran-mine-claim-nov26"
-        },
-        {
-          "title": "WSJ: oil market and Gulf flow context",
-          "url": "https://www.wsj.com/finance/commodities-futures/oil-rises-amid-ongoing-middle-east-tensions-c730426d"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-26T14:57:34-05:00",
+  "last_checked_at": "2026-11-27T07:30:01-05:00",
   "last_check_status": "new_findings"
 }
