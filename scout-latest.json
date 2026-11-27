@@ -1,8 +1,75 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-27T07:30:01-05:00",
-  "as_of_et": "November 27, 2026, 7:30 AM EST",
+  "generated_at": "2026-11-27T08:30:29-05:00",
+  "as_of_et": "November 27, 2026, 8:30 AM EST",
   "items": [
+    {
+      "id": "scout-20261127-0830-vertex-vera-fda-delay",
+      "observed_at": "2026-11-27T08:30:29-05:00",
+      "title": "Vertex falls as kidney drug review is extended, while rival Vera gains",
+      "summary": "Vertex disclosed an FDA review extension for its experimental kidney disease treatment, povetacicept, giving Vera additional time to establish its competing product. The delay is not a rejection, and Vertex retains a growing established business. Friday premarket indications show the competitive dislocation remains significant.",
+      "tickers": [
+        "VRTX",
+        "VERA"
+      ],
+      "sectors": [
+        "Biotechnology",
+        "Healthcare",
+        "Kidney disease therapeutics"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 25 extended trading",
+          "value": "VRTX -7.3% to $523.14 at approximately 7:56 PM ET, reported by EBC; Zacks independently reports -7.3%. Not a regular-session close."
+        },
+        {
+          "label": "November 27 premarket snapshot",
+          "value": "VERA +17.36% to $34.62 per PreMarketPrice; exact quote time not supplied; not a closing figure."
+        },
+        {
+          "label": "FDA review",
+          "value": "Original target November 30, 2026; revised target no later than February 28, 2027 following classification of supplemental information as a major amendment."
+        },
+        {
+          "label": "Established business and competitor",
+          "value": "Vertex Q3 revenue $3.44 billion, +12% year over year; Vera reported $10.3 million Q3 net product revenue and approximately 700 patient start forms."
+        },
+        {
+          "label": "Next indicators and risks",
+          "value": "FDA communications, label or manufacturing requirements, revenue guidance and Vera adoption. A rejection or restrictive label would challenge the temporary-delay thesis; a timely approval would narrow Vera's head start."
+        }
+      ],
+      "key_finding": "A regulatory delay creates a significant competitive and valuation dislocation without establishing permanent impairment of Vertex's established franchise.",
+      "sources": [
+        {
+          "title": "Vertex company announcement via Business Wire",
+          "url": "https://www.streetinsider.com/Business%2BWire/Vertex%2BAnnounces%2BExtension%2Bof%2BPDUFA%2BTarget%2BAction%2BDate%2Bby%2Bup%2Bto%2BThree%2BMonths%2Bas%2BFDA%2BCompletes%2BReview%2Bof%2Bthe%2BBiologics%2BLicense%2BApplication%2Bfor%2BPovetacicept%2Bin%2BIgA%2BNephropathy/27402568.html"
+        },
+        {
+          "title": "Vertex third quarter results",
+          "url": "https://news.vrtx.com/node/35446"
+        },
+        {
+          "title": "Reuters regulatory report",
+          "url": "https://pharma.economictimes.indiatimes.com/amp/news/pharma-industry/us-fda-extends-review-of-vertexs-kidney-disease-drug/136203461"
+        },
+        {
+          "title": "Vera 8-K November 5",
+          "url": "https://ir.veratx.com/node/11136/ixbrl-viewer"
+        },
+        {
+          "title": "November 27 premarket movers",
+          "url": "https://premarketprice.com/premarket-gainers/2026-11-27"
+        },
+        {
+          "title": "EBC November 27 report",
+          "url": "https://www.ebc.com/forex/vertex-stock-fda-povetacicept-delay"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261127-0730-asia-policy-rebound",
       "observed_at": "2026-11-27T07:30:01-05:00",
@@ -232,68 +299,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261126-1329-ecb-tightening-risk",
-      "observed_at": "2026-11-26T13:29:35-05:00",
-      "title": "ECB minutes reveal substantial support for further tightening amid AI financing and energy risks",
-      "summary": "Newly released ECB minutes show many policymakers would have supported a rate increase in October, although all ultimately agreed to hold rates. The accounts cite expensive AI debt financing, tighter credit and energy inflation. European shares rebounded Thursday, but the monetary-policy outlook remains a risk for capital-intensive projects.",
-      "tickers": [
-        "ASML",
-        "IFNNY",
-        "ORCL",
-        "CRWV",
-        "VGK"
-      ],
-      "sectors": [
-        "Monetary policy",
-        "AI infrastructure",
-        "Semiconductors",
-        "Utilities",
-        "European equities"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Official ECB accounts released November 26, covering October 28–29",
-          "value": "Deposit facility rate held at 2.50%; a large number of members would have supported a hike, but all agreed to hold. No new rate decision today."
-        },
-        {
-          "label": "Financing conditions",
-          "value": "ECB accounts report tighter corporate credit standards and increased hyperscaler borrowing costs as of the October meeting; debt issuance was still absorbed by euro-area corporate bond markets."
-        },
-        {
-          "label": "European equities November 26",
-          "value": "Reuters reports STOXX 600 closed +1.8%; Financial Times independently reports a 1.8% gain. No U.S. regular-session equity reaction on Thanksgiving."
-        },
-        {
-          "label": "Next indicators and invalidation",
-          "value": "December ECB projections, inflation, credit spreads, lending standards and project capex revisions; sustained disinflation or easing financing costs would weaken tightening risk."
-        }
-      ],
-      "key_finding": "Official ECB accounts reinforce financing-cost risk for AI infrastructure and other capital-intensive sectors, despite a European equity rebound.",
-      "sources": [
-        {
-          "title": "ECB official monetary policy accounts, November 26",
-          "url": "https://www.ecb.europa.eu/press/accounts/2026/html/ecb.mg261126~ccf28c8071.en.html"
-        },
-        {
-          "title": "Reuters on ECB rate hike support",
-          "url": "https://www.investing.com/news/economy-news/ecb-already-had-large-support-for-rate-hike-in-oct-accounts-show-5052492"
-        },
-        {
-          "title": "Reuters European market close",
-          "url": "https://www.lse.co.uk/news/european-stocks-end-higher-on-easing-tariff-fears-ecb-leadership-continuity-z0175nyy40muk9k.html"
-        },
-        {
-          "title": "Financial Times global market report",
-          "url": "https://www.ft.com/content/6e217409-9fbb-456c-b405-2eb15bb69679"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-27T07:30:01-05:00",
+  "last_checked_at": "2026-11-27T08:30:29-05:00",
   "last_check_status": "new_findings"
 }
