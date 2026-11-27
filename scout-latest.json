@@ -1,8 +1,124 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-27T12:26:11-05:00",
-  "as_of_et": "November 27, 2026, 12:26 PM EST",
+  "generated_at": "2026-11-27T13:29:16-05:00",
+  "as_of_et": "November 27, 2026, 1:29 PM EST",
   "items": [
+    {
+      "id": "scout-20261127-1329-ai-close-rebound",
+      "observed_at": "2026-11-27T13:29:16-05:00",
+      "title": "AI infrastructure rebound accelerates into holiday-shortened market close",
+      "summary": "US stocks recovered from early volatility as technology shares led gains into the shortened session close. Storage, networking and data-center power shares participated in the rally. Elevated Treasury yields and concerns over AI profitability and financing remain unresolved.",
+      "tickers": [
+        "QQQ",
+        "SPY",
+        "SNDK",
+        "MRVL",
+        "BE",
+        "NVDA"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "Networking",
+        "Data-center power",
+        "AI infrastructure"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 27 1 PM ET close, AP and WSJ",
+          "value": "Nasdaq +2.3%, S&P 500 +1.6%, Dow +1.2%; independently reported."
+        },
+        {
+          "label": "Weekly performance, WSJ",
+          "value": "Nasdaq +6.7%, S&P 500 +5.6%, Dow +5.5%."
+        },
+        {
+          "label": "Barron's session observations",
+          "value": "SNDK +13%, MRVL +5.5%, BE +4.7%; not independently verified closing prices."
+        },
+        {
+          "label": "Risk context",
+          "value": "AP reports 10-year Treasury yield 4.93%; WSJ reports Nasdaq approximately 13% below October peak."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Monday normal-volume trading, semiconductor breadth, credit spreads and infrastructure spending commitments; renewed selling would weaken the recovery signal."
+        }
+      ],
+      "key_finding": "The technology rebound strengthened into the close, but holiday liquidity and unresolved funding risks limit evidence of a durable reversal.",
+      "sources": [
+        {
+          "title": "Associated Press market close",
+          "url": "https://apnews.com/article/c7ef10c1dbc5fa09668bd4fe0729c613"
+        },
+        {
+          "title": "Wall Street Journal market close",
+          "url": "https://www.wsj.com/finance/stocks/stocks-poised-to-end-week-strong-as-investors-take-break-from-ai-jitters-ce6b2846"
+        },
+        {
+          "title": "Barron's stock movers",
+          "url": "https://www.barrons.com/articles/stock-movers-ac5937bf"
+        }
+      ],
+      "status": "updated",
+      "supersedes": "scout-20261127-1025-ai-opening-fade"
+    },
+    {
+      "id": "scout-20261127-1329-blockade-enforcement",
+      "observed_at": "2026-11-27T13:29:16-05:00",
+      "title": "CENTCOM reports additional commercial vessel disabled during Iran blockade enforcement",
+      "summary": "US Central Command disclosed an additional blockade enforcement incident in the Gulf of Oman involving a commercial bulk carrier on November 26. The announcement reinforces ongoing maritime disruption risk. The vessel was not an oil tanker and the incident does not establish additional crude-export losses.",
+      "tickers": [
+        "CL",
+        "BRN",
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Maritime shipping"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Official CENTCOM announcement, November 27",
+          "value": "Commercial bulk carrier disabled November 26; civilian crew unharmed."
+        },
+        {
+          "label": "Enforcement totals reported by CENTCOM",
+          "value": "158 compliant commercial vessels redirected; six noncompliant vessels disabled during the current campaign."
+        },
+        {
+          "label": "Energy ETF observations",
+          "value": "Investing.com reports XLE +1.49% and XOP +1.40% in separate snapshots; not independently verified matching closing prices."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Iraqi cargo loading schedules, independent tanker volumes, war-risk insurance premiums and November 29 OPEC+ decision; stable cargo flows would weaken the immediate crude-supply concern."
+        }
+      ],
+      "key_finding": "Officially reported blockade enforcement reinforces shipping risk without establishing incremental crude-export losses.",
+      "sources": [
+        {
+          "title": "CENTCOM public affairs statement",
+          "url": "https://www.dvidshub.net/news/580348/us-forces-disable-commercial-vessel-during-blockade-enforcement-against-iran"
+        },
+        {
+          "title": "Associated Press coverage",
+          "url": "https://apnews.com/article/800620518a351282f098faa9381b3375"
+        },
+        {
+          "title": "Investing.com XLE historical data",
+          "url": "https://ph.investing.com/etfs/spdr-energy-select-sector-fund-historical-data"
+        },
+        {
+          "title": "Investing.com XOP historical data",
+          "url": "https://ng.investing.com/etfs/spdr-s-p-oil--gas-explor---product-historical-data"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261127-1226-coreweave-financing",
       "observed_at": "2026-11-27T12:26:11-05:00",
@@ -171,117 +287,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261127-1132-iraq-cargo-delays",
-      "observed_at": "2026-11-27T11:32:39-05:00",
-      "title": "Iraqi crude cargo delays reported, awaiting independent verification",
-      "summary": "Bloomberg-sourced reporting indicates that substantial Iraqi crude shipments scheduled for November may be delayed into December. Buyers are reportedly looking for replacement cargoes. Iraq's state oil marketer has not confirmed the volumes or cause, and delayed shipments are not necessarily permanently lost supply.",
-      "tickers": [
-        "BRN",
-        "CL",
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Maritime shipping"
-      ],
-      "evidence_grade": "single-source",
-      "observations": [
-        {
-          "label": "November 27 OilPrice reporting, citing Bloomberg",
-          "value": "20–30 million barrels reportedly delayed; some cargoes may load December 1–10. Multiple republications trace to the same original source."
-        },
-        {
-          "label": "Reuters November 27, 7:39 AM ET",
-          "value": "Brent $96.60, up $0.03; WTI $85.14, +1.7% versus Wednesday settlement. Intraday, not settlement."
-        },
-        {
-          "label": "Next indicators",
-          "value": "Official SOMO loading schedules, independently tracked departures, regional cargo premiums and November 29 OPEC+ meeting. Prompt rescheduling would weaken the shortage signal."
-        }
-      ],
-      "key_finding": "Reported cargo delays are a significant early warning but do not establish verified incremental physical export losses.",
-      "sources": [
-        {
-          "title": "OilPrice November 27 report citing Bloomberg",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Delays-Up-to-30-Million-Barrels-of-Crude-Oil-Shipments.html"
-        },
-        {
-          "title": "Reuters oil market report",
-          "url": "https://live.euronext.com/en/financial-news/oil-track-snap-3-week-losing-streak-over-supply-fears"
-        },
-        {
-          "title": "OPEC official meeting announcement",
-          "url": "https://www.opec.org/pr-detail/620-1-november-2026.html"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261127-1025-ai-opening-fade",
-      "observed_at": "2026-11-27T10:25:42-05:00",
-      "title": "AI relief rally fades after opening bell as Nvidia turns negative",
-      "summary": "US equities advanced in early Black Friday trading, but technology gains were smaller than premarket futures had suggested. Nvidia reversed its premarket rise while storage, networking and power infrastructure shares remained higher in early reports. The divergence underscores unresolved financing and valuation concerns.",
-      "tickers": [
-        "NVDA",
-        "SNDK",
-        "MRVL",
-        "BE",
-        "AVGO",
-        "MSFT"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "AI infrastructure",
-        "Networking",
-        "Data-center power",
-        "Software"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "AP regular session snapshot 9:51 AM ET",
-          "value": "S&P 500 +0.7%, Nasdaq Composite +0.9%, Dow +0.6%, Nvidia -1.7%; 10-year Treasury yield 4.89%."
-        },
-        {
-          "label": "Yahoo Finance early premarket",
-          "value": "Nvidia nearly +4%, Nasdaq-100 futures +2.8%; futures and cash index are different instruments."
-        },
-        {
-          "label": "Independent early-session reporting",
-          "value": "Business Insider reported Nvidia -2.5% at its snapshot; Barron's reported Sandisk +5.2%, Marvell +1.7%, Bloom Energy +0.9%. Intraday figures, not closes."
-        },
-        {
-          "label": "Next indicators",
-          "value": "Semiconductor breadth, trading volume, credit spreads and Nvidia's price into the 1 PM ET close; renewed broad strength would weaken the opening-fade signal."
-        }
-      ],
-      "key_finding": "The opening session shows a selective technology rebound rather than the broad surge suggested by premarket trading.",
-      "sources": [
-        {
-          "title": "AP 9:51 AM ET market snapshot",
-          "url": "https://apnews.com/article/c7ef10c1dbc5fa09668bd4fe0729c613"
-        },
-        {
-          "title": "Business Insider early-session market coverage",
-          "url": "https://markets.businessinsider.com/news/stocks/stock-market-news-thanksgiving-ai-spending-tech-rates-regulation-2026-11"
-        },
-        {
-          "title": "Barron's stock movers",
-          "url": "https://www.barrons.com/articles/stock-movers-ac5937bf"
-        },
-        {
-          "title": "Yahoo Finance premarket report",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-27T12:26:11-05:00",
+  "last_checked_at": "2026-11-27T13:29:16-05:00",
   "last_check_status": "new_findings"
 }
