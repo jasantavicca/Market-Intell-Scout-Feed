@@ -1,8 +1,126 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-27T09:32:55-05:00",
-  "as_of_et": "November 27, 2026, 9:32 AM EST",
+  "generated_at": "2026-11-27T10:25:42-05:00",
+  "as_of_et": "November 27, 2026, 10:25 AM EST",
   "items": [
+    {
+      "id": "scout-20261127-1025-ai-opening-fade",
+      "observed_at": "2026-11-27T10:25:42-05:00",
+      "title": "AI relief rally fades after opening bell as Nvidia turns negative",
+      "summary": "US equities advanced in early Black Friday trading, but technology gains were smaller than premarket futures had suggested. Nvidia reversed its premarket rise while storage, networking and power infrastructure shares remained higher in early reports. The divergence underscores unresolved financing and valuation concerns.",
+      "tickers": [
+        "NVDA",
+        "SNDK",
+        "MRVL",
+        "BE",
+        "AVGO",
+        "MSFT"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "Networking",
+        "Data-center power",
+        "Software"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "AP regular session snapshot 9:51 AM ET",
+          "value": "S&P 500 +0.7%, Nasdaq Composite +0.9%, Dow +0.6%, Nvidia -1.7%; 10-year Treasury yield 4.89%."
+        },
+        {
+          "label": "Yahoo Finance early premarket",
+          "value": "Nvidia nearly +4%, Nasdaq-100 futures +2.8%; futures and cash index are different instruments."
+        },
+        {
+          "label": "Independent early-session reporting",
+          "value": "Business Insider reported Nvidia -2.5% at its snapshot; Barron's reported Sandisk +5.2%, Marvell +1.7%, Bloom Energy +0.9%. Intraday figures, not closes."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Semiconductor breadth, trading volume, credit spreads and Nvidia's price into the 1 PM ET close; renewed broad strength would weaken the opening-fade signal."
+        }
+      ],
+      "key_finding": "The opening session shows a selective technology rebound rather than the broad surge suggested by premarket trading.",
+      "sources": [
+        {
+          "title": "AP 9:51 AM ET market snapshot",
+          "url": "https://apnews.com/article/c7ef10c1dbc5fa09668bd4fe0729c613"
+        },
+        {
+          "title": "Business Insider early-session market coverage",
+          "url": "https://markets.businessinsider.com/news/stocks/stock-market-news-thanksgiving-ai-spending-tech-rates-regulation-2026-11"
+        },
+        {
+          "title": "Barron's stock movers",
+          "url": "https://www.barrons.com/articles/stock-movers-ac5937bf"
+        },
+        {
+          "title": "Yahoo Finance premarket report",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261127-1025-brent-contract-roll",
+      "observed_at": "2026-11-27T10:25:42-05:00",
+      "title": "Brent contract roll explains divergent benchmark quotes ahead of OPEC+ meeting",
+      "summary": "Market reports show materially different Brent prices because some feeds quote January delivery and others February delivery. The nearer contract expires Monday and commands a substantial premium. The difference should not be interpreted as an abrupt reduction in geopolitical supply risk.",
+      "tickers": [
+        "BRN",
+        "CL",
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Energy",
+        "Commodity futures"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "FinanceFeeds citing ICE/CNBC, 8:00 AM ET",
+          "value": "January Brent $96.30; February Brent reported at $91.90 in the same morning report, approximately $4.40 lower. Intraday quotes, not settlements."
+        },
+        {
+          "label": "ICE contract expiration rule",
+          "value": "Trading ceases on the last business day of the second month before delivery; January 2027 Brent expires November 30, 2026."
+        },
+        {
+          "label": "Independent oil-market context",
+          "value": "WSJ reported a $4.28 near-month premium and mixed crude prices ahead of the November 29 OPEC+ meeting."
+        },
+        {
+          "label": "Next indicators",
+          "value": "February-March spread after the roll, official OPEC+ decision, actual cargo flows and refinery restarts. Narrowing spreads and recovering flows would weaken the scarcity signal."
+        }
+      ],
+      "key_finding": "Compare like-for-like Brent delivery months to distinguish genuine price changes from mechanical benchmark rolls.",
+      "sources": [
+        {
+          "title": "ICE Brent futures specifications",
+          "url": "https://www.ice.com/products/219/Brent-Crude-Futures/data-ICE"
+        },
+        {
+          "title": "FinanceFeeds contract-specific morning quotes",
+          "url": "https://financefeeds.com/brent-crude-oil-price-96-30-friday-opec-plus-set-to-hold-q1-output-sunday-bull-100-bear-92-57/"
+        },
+        {
+          "title": "Wall Street Journal oil market and prompt spread",
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-ahead-of-opec-meeting-as-middle-east-supply-risks-persist-63fbb550"
+        },
+        {
+          "title": "Oil Price Live contract roll explanation",
+          "url": "https://www.oilpricelive.com/news/january-brent-futures-expire-monday-february-cheaper"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261127-0932-brazil-financials",
       "observed_at": "2026-11-27T09:32:55-05:00",
@@ -149,134 +267,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261127-0830-vertex-vera-fda-delay",
-      "observed_at": "2026-11-27T08:30:29-05:00",
-      "title": "Vertex falls as kidney drug review is extended, while rival Vera gains",
-      "summary": "Vertex disclosed an FDA review extension for its experimental kidney disease treatment, povetacicept, giving Vera additional time to establish its competing product. The delay is not a rejection, and Vertex retains a growing established business. Friday premarket indications show the competitive dislocation remains significant.",
-      "tickers": [
-        "VRTX",
-        "VERA"
-      ],
-      "sectors": [
-        "Biotechnology",
-        "Healthcare",
-        "Kidney disease therapeutics"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 25 extended trading",
-          "value": "VRTX -7.3% to $523.14 at approximately 7:56 PM ET, reported by EBC; Zacks independently reports -7.3%. Not a regular-session close."
-        },
-        {
-          "label": "November 27 premarket snapshot",
-          "value": "VERA +17.36% to $34.62 per PreMarketPrice; exact quote time not supplied; not a closing figure."
-        },
-        {
-          "label": "FDA review",
-          "value": "Original target November 30, 2026; revised target no later than February 28, 2027 following classification of supplemental information as a major amendment."
-        },
-        {
-          "label": "Established business and competitor",
-          "value": "Vertex Q3 revenue $3.44 billion, +12% year over year; Vera reported $10.3 million Q3 net product revenue and approximately 700 patient start forms."
-        },
-        {
-          "label": "Next indicators and risks",
-          "value": "FDA communications, label or manufacturing requirements, revenue guidance and Vera adoption. A rejection or restrictive label would challenge the temporary-delay thesis; a timely approval would narrow Vera's head start."
-        }
-      ],
-      "key_finding": "A regulatory delay creates a significant competitive and valuation dislocation without establishing permanent impairment of Vertex's established franchise.",
-      "sources": [
-        {
-          "title": "Vertex company announcement via Business Wire",
-          "url": "https://www.streetinsider.com/Business%2BWire/Vertex%2BAnnounces%2BExtension%2Bof%2BPDUFA%2BTarget%2BAction%2BDate%2Bby%2Bup%2Bto%2BThree%2BMonths%2Bas%2BFDA%2BCompletes%2BReview%2Bof%2Bthe%2BBiologics%2BLicense%2BApplication%2Bfor%2BPovetacicept%2Bin%2BIgA%2BNephropathy/27402568.html"
-        },
-        {
-          "title": "Vertex third quarter results",
-          "url": "https://news.vrtx.com/node/35446"
-        },
-        {
-          "title": "Reuters regulatory report",
-          "url": "https://pharma.economictimes.indiatimes.com/amp/news/pharma-industry/us-fda-extends-review-of-vertexs-kidney-disease-drug/136203461"
-        },
-        {
-          "title": "Vera 8-K November 5",
-          "url": "https://ir.veratx.com/node/11136/ixbrl-viewer"
-        },
-        {
-          "title": "November 27 premarket movers",
-          "url": "https://premarketprice.com/premarket-gainers/2026-11-27"
-        },
-        {
-          "title": "EBC November 27 report",
-          "url": "https://www.ebc.com/forex/vertex-stock-fda-povetacicept-delay"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261127-0730-asia-policy-rebound",
-      "observed_at": "2026-11-27T07:30:01-05:00",
-      "title": "China and South Korea surge on market-support signals as AI shares recover",
-      "summary": "China's State Council called for stronger state-backed market stabilization and shareholder returns. Asian chip-heavy indexes rallied sharply, with South Korean stocks also benefiting from hopes of an expanded stabilization fund. The rebound demonstrates improved risk appetite, not yet a recovery in corporate earnings or AI funding.",
-      "tickers": [
-        "FXI",
-        "KWEB",
-        "EWY",
-        "EWT",
-        "ASML",
-        "NVDA"
-      ],
-      "sectors": [
-        "International equities",
-        "Semiconductors",
-        "AI infrastructure"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 27 local market closes",
-          "value": "Shanghai Composite +3.73%, KOSPI +4.34%, Nikkei +2.11%; rounded gains independently reported by AP and MarketWatch."
-        },
-        {
-          "label": "China official policy",
-          "value": "State Council called for stronger stabilization mechanisms, Central Huijin liquidity support, dividends and buybacks; no quantified new purchase commitment announced."
-        },
-        {
-          "label": "US premarket",
-          "value": "Barron's reports SNDK +11%, BE +9%, MRVL +8.6%; morning report, not regular-session prices."
-        },
-        {
-          "label": "Next indicators",
-          "value": "US half-session breadth, volume, credit spreads, actual Chinese fund deployment and earnings revisions; reversal or absent policy follow-through would weaken the rebound."
-        }
-      ],
-      "key_finding": "Broad Asian relief rally and US technology premarket gains follow policy support signals, while underlying financing risks remain.",
-      "sources": [
-        {
-          "title": "Xinhua State Council meeting readout",
-          "url": "https://english.news.cn/20261127/d0c67d3f6d5441089f9e1e7558d2c5f1/c.html"
-        },
-        {
-          "title": "AP global markets",
-          "url": "https://apnews.com/article/c7ef10c1dbc5fa09668bd4fe0729c613"
-        },
-        {
-          "title": "MarketWatch Asian closing markets",
-          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-thanksgiving-holiday-shortened-black-friday-trading/card/china-leads-asian-stocks-higher-after-beijing-pledges-more-support-OV2FvI2UcsWdV2r84Q8U"
-        },
-        {
-          "title": "Barron's premarket movers",
-          "url": "https://www.barrons.com/articles/stock-movers-ac5937bf"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-27T09:32:55-05:00",
+  "last_checked_at": "2026-11-27T10:25:42-05:00",
   "last_check_status": "new_findings"
 }
