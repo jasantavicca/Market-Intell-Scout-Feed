@@ -1,8 +1,103 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-27T13:29:16-05:00",
-  "as_of_et": "November 27, 2026, 1:29 PM EST",
+  "generated_at": "2026-11-27T14:29:19-05:00",
+  "as_of_et": "November 27, 2026, 2:29 PM EST",
   "items": [
+    {
+      "id": "scout-20261127-1429-jera-power-ai",
+      "observed_at": "2026-11-27T14:29:19-05:00",
+      "title": "JERA explores direct-power data centers with hyperscalers in Japan",
+      "summary": "JERA's chief told Nikkei that the utility is discussing data centers beside Tokyo-area power stations with major US technology companies. Its previously announced Chiba project integrates existing gas-fired power and compute infrastructure. New customer contracts have not been announced.",
+      "tickers": [
+        "DELL",
+        "META",
+        "AMZN",
+        "MSFT",
+        "GOOGL",
+        "APO"
+      ],
+      "sectors": [
+        "AI infrastructure",
+        "Power generation",
+        "International equities"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Existing Chiba project announced October 1",
+          "value": "Over $15 billion planned capital deployment; up to 400 MW; targeted operations around 2028."
+        },
+        {
+          "label": "November 27 development",
+          "value": "Reported talks with Meta, Anthropic, Amazon, Microsoft and Google; no binding customer commitments reported."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Signed customer contracts, financing closure, construction milestones and LNG costs."
+        }
+      ],
+      "key_finding": "Direct access to generation may shorten AI infrastructure deployment timelines; reported talks are preliminary.",
+      "sources": [
+        {
+          "title": "JERA official October 1 announcement",
+          "url": "https://www.jera.co.jp/en/news/information/20261001_2535"
+        },
+        {
+          "title": "Reuters report on November 27",
+          "url": "https://www.straitstimes.com/asia/east-asia/japans-jera-enters-talks-with-anthropic-meta-to-build-data-centres-nikkei-reports"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261127-1429-nvda-export-hold",
+      "observed_at": "2026-11-27T14:29:19-05:00",
+      "title": "Reported Nvidia Southeast Asian server shipment hold raises revenue timing risk",
+      "summary": "Financial Times and Wall Street Journal reporting indicates Nvidia asked manufacturing partners to pause shipments to four Southeast Asian countries following new US licensing rules. The duration and revenue impact are unknown. Nvidia lagged the broader semiconductor rebound, but retrieved reports disagree on its exact closing move.",
+      "tickers": [
+        "NVDA",
+        "DELL",
+        "SMCI"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "AI infrastructure",
+        "International trade"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Affected destinations reported November 26–27",
+          "value": "Malaysia, Singapore, Thailand and Indonesia."
+        },
+        {
+          "label": "Price observation",
+          "value": "November 27 session underperformance versus semiconductor peers; exact closing move disputed by retrieved sources."
+        },
+        {
+          "label": "Next indicators",
+          "value": "License approvals, shipment resumptions, customer cancellations and updated revenue guidance."
+        }
+      ],
+      "key_finding": "Reported compliance hold creates revenue timing uncertainty without demonstrating a decline in demand.",
+      "sources": [
+        {
+          "title": "Reuters citing Financial Times",
+          "url": "https://www.investing.com/news/stock-market-news/nvidia-halts-server-shipments-to-four-southeast-asian-countries-ft-reports-5053574"
+        },
+        {
+          "title": "Wall Street Journal reporting summarized by UOL",
+          "url": "https://www.uol.com.br/tilt/noticias/redacao/2026/11/27/nvidia-suspende-envio-de-chips-de-ia-para-o-sudeste-asiatico.ghtm"
+        },
+        {
+          "title": "Barron's market context",
+          "url": "https://www.barrons.com/articles/nvidia-stock-chip-server-southeast-asia-ad9b5d88"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261127-1329-ai-close-rebound",
       "observed_at": "2026-11-27T13:29:16-05:00",
@@ -171,124 +266,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261127-1226-hormuz-traffic-counterpoint",
-      "observed_at": "2026-11-27T12:26:11-05:00",
-      "title": "Energy tanker tracking provides counterpoint to rising Hormuz security risk",
-      "summary": "Vortexa tracking indicates energy tanker traffic improved earlier in November despite increasing maritime threats. The dataset covers a different vessel population and period than the latest assisted-transit figures. Larger tanker movements and high shipping costs remain concerns; incremental physical crude-export losses are not established.",
-      "tickers": [
-        "CL",
-        "BRN",
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Maritime shipping"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Vortexa data reported November 26 by Bloomberg",
-          "value": "Seven-day average energy tanker transits above 26 through November 19 versus below 25 on at least two-thirds of October days; larger crude carriers declined slightly while smaller vessel movements rose."
-        },
-        {
-          "label": "Shipping costs",
-          "value": "Freight and additional insurance fees reported near wartime highs; exact current rates not verified."
-        },
-        {
-          "label": "JMIC comparison, November 26",
-          "value": "US-assisted transits averaged approximately 32/day November 22–25 versus 38/day November 19–21; distinct population and interval."
-        },
-        {
-          "label": "Reuters November 27, 10:16 AM ET intraday",
-          "value": "Brent $95.20, down $1.42; WTI $83.74, up 0.06% versus Wednesday close."
-        },
-        {
-          "label": "Next indicators",
-          "value": "Actual cargo tonnage, Iraqi loading schedules, freight and insurance premiums, OPEC+ November 29; sustained flows would weaken the near-term scarcity case."
-        }
-      ],
-      "key_finding": "Rising maritime risk does not necessarily imply falling energy tanker counts or measurable incremental export losses.",
-      "sources": [
-        {
-          "title": "Bloomberg via gCaptain, November 26",
-          "url": "https://gcaptain.com/hormuz-tanker-traffic-rises-this-month-even-as-attacks-increase/"
-        },
-        {
-          "title": "Safety4Sea November 27",
-          "url": "https://safety4sea.com/strait-of-hormuz-tanker-traffic-rises-despite-escalating-attacks/"
-        },
-        {
-          "title": "JMIC official November 26 advisory",
-          "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_117_26-nov.pdf"
-        },
-        {
-          "title": "Reuters intraday oil report",
-          "url": "https://live.euronext.com/en/financial-news/oil-track-first-weekly-gain-november-supply-fears"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261127-1132-coherent-insider",
-      "observed_at": "2026-11-27T11:32:39-05:00",
-      "title": "Large Coherent insider purchases coincide with optical networking rebound",
-      "summary": "Recent regulatory disclosures describe substantial purchases of Coherent shares through a director-associated investment entity. The company has reported strong revenue growth and improving gross margins as optical connectivity demand increases. The purchases predate Friday's rebound and do not establish undervaluation.",
-      "tickers": [
-        "COHR",
-        "LITE",
-        "MRVL"
-      ],
-      "sectors": [
-        "Optical networking",
-        "AI infrastructure",
-        "Semiconductors"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Reported purchases November 20–24",
-          "value": "251,910 shares for approximately $49.9 million; filings November 24–25. Indirect ownership through an investment entity."
-        },
-        {
-          "label": "Friday premarket report updated 8:36 AM ET",
-          "value": "COHR +7.79%; not a closing figure."
-        },
-        {
-          "label": "November 4 fiscal Q1 results",
-          "value": "Revenue $2.37 billion, +50% year over year; GAAP gross margin 39.1%, up 254 basis points. Management expects fiscal 2027 pro forma revenue growth above 60%."
-        },
-        {
-          "label": "Next indicators",
-          "value": "Customer capital spending, manufacturing capacity, margins, valuation and new filings; weaker orders or margin execution would weaken the case."
-        }
-      ],
-      "key_finding": "Large disclosed insider purchases and strong operating results warrant further optical infrastructure research, without establishing a valuation anomaly.",
-      "sources": [
-        {
-          "title": "Quantisnow November 25 filing analysis",
-          "url": "https://www.quantisnow.com/articles/coherent-director-pagliuca-buys-34-7-million-more-stock-for-49-9-million-total"
-        },
-        {
-          "title": "Form 4 filing reproduction",
-          "url": "https://www.stocktitan.net/sec-filings/COHR/form-4-coherent-corp-insider-trading-activity-8329c2a7f0bb.html"
-        },
-        {
-          "title": "Coherent official earnings",
-          "url": "https://ir.coherent.com/news-releases/news-release-details/coherent-corp-reports-first-quarter-fiscal-2027-results"
-        },
-        {
-          "title": "Premarket price snapshot",
-          "url": "https://prebell.site/en/p/premarket-2026-11-27"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-27T13:29:16-05:00",
+  "last_checked_at": "2026-11-27T14:29:19-05:00",
   "last_check_status": "new_findings"
 }
