@@ -1,8 +1,61 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-27T15:34:55-05:00",
-  "as_of_et": "November 27, 2026, 3:34 PM EST",
+  "generated_at": "2026-11-27T16:32:47-05:00",
+  "as_of_et": "November 27, 2026, 4:32 PM EST",
   "items": [
+    {
+      "id": "scout-20261127-1632-panw-accounting-claims",
+      "observed_at": "2026-11-27T15:07:00-05:00",
+      "title": "Palo Alto Networks faces disputed accounting allegations despite share-price rebound",
+      "summary": "A former executive has sued Palo Alto Networks, alleging improper sales-booking practices. The company denies the allegations, which remain unproven. Recent reported revenue and cash flow growth contrast with declining GAAP operating income, making accounting quality and internal controls important research priorities.",
+      "tickers": [
+        "PANW"
+      ],
+      "sectors": [
+        "Cybersecurity",
+        "Enterprise software"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "November 25 extended trading",
+          "value": "Approximately -5%, reported by Stocktwits via Yahoo Finance."
+        },
+        {
+          "label": "November 27 3:07 PM EST extended-session snapshot",
+          "value": "$366.76, +2.98% versus Wednesday close, per MarketMinute; not a verified regular-session close."
+        },
+        {
+          "label": "Fiscal Q1 2027 reported November 18",
+          "value": "Revenue $3.44 billion (+39% YoY); operating cash flow $1.9 billion; GAAP operating income $96 million versus $309 million a year earlier."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Court filings, auditor disclosures, regulatory responses, revenue recognition and cash conversion; allegations remain contested and unproven."
+        }
+      ],
+      "key_finding": "The reported share-price rebound does not resolve disputed accounting allegations; investigate revenue quality and internal controls.",
+      "sources": [
+        {
+          "title": "Bloomberg Law reporting on lawsuit",
+          "url": "https://news.bloomberglaw.com/litigation/palo-alto-networks-accused-by-ex-executive-of-accounting-fraud"
+        },
+        {
+          "title": "Stocktwits via Yahoo Finance: company denial and share reaction",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/panw-stock-slips-hours-former-232552463.html"
+        },
+        {
+          "title": "Palo Alto Networks official earnings release",
+          "url": "https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-reports-fiscal-first-quarter-2027-financial"
+        },
+        {
+          "title": "MarketMinute extended-session price observation",
+          "url": "https://www.marketminute.com/quote/NQ%3APANW/historical"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261127-1534-oil-settlement-divergence",
       "observed_at": "2026-11-27T15:34:55-05:00",
@@ -200,68 +253,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261127-1329-ai-close-rebound",
-      "observed_at": "2026-11-27T13:29:16-05:00",
-      "title": "AI infrastructure rebound accelerates into holiday-shortened market close",
-      "summary": "US stocks recovered from early volatility as technology shares led gains into the shortened session close. Storage, networking and data-center power shares participated in the rally. Elevated Treasury yields and concerns over AI profitability and financing remain unresolved.",
-      "tickers": [
-        "QQQ",
-        "SPY",
-        "SNDK",
-        "MRVL",
-        "BE",
-        "NVDA"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "Networking",
-        "Data-center power",
-        "AI infrastructure"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 27 1 PM ET close, AP and WSJ",
-          "value": "Nasdaq +2.3%, S&P 500 +1.6%, Dow +1.2%; independently reported."
-        },
-        {
-          "label": "Weekly performance, WSJ",
-          "value": "Nasdaq +6.7%, S&P 500 +5.6%, Dow +5.5%."
-        },
-        {
-          "label": "Barron's session observations",
-          "value": "SNDK +13%, MRVL +5.5%, BE +4.7%; not independently verified closing prices."
-        },
-        {
-          "label": "Risk context",
-          "value": "AP reports 10-year Treasury yield 4.93%; WSJ reports Nasdaq approximately 13% below October peak."
-        },
-        {
-          "label": "Next indicators",
-          "value": "Monday normal-volume trading, semiconductor breadth, credit spreads and infrastructure spending commitments; renewed selling would weaken the recovery signal."
-        }
-      ],
-      "key_finding": "The technology rebound strengthened into the close, but holiday liquidity and unresolved funding risks limit evidence of a durable reversal.",
-      "sources": [
-        {
-          "title": "Associated Press market close",
-          "url": "https://apnews.com/article/c7ef10c1dbc5fa09668bd4fe0729c613"
-        },
-        {
-          "title": "Wall Street Journal market close",
-          "url": "https://www.wsj.com/finance/stocks/stocks-poised-to-end-week-strong-as-investors-take-break-from-ai-jitters-ce6b2846"
-        },
-        {
-          "title": "Barron's stock movers",
-          "url": "https://www.barrons.com/articles/stock-movers-ac5937bf"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261127-1025-ai-opening-fade"
     }
   ],
-  "last_checked_at": "2026-11-27T15:34:55-05:00",
+  "last_checked_at": "2026-11-27T16:32:47-05:00",
   "last_check_status": "new_findings"
 }
