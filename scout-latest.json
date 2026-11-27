@@ -1,8 +1,121 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-27T11:32:39-05:00",
-  "as_of_et": "November 27, 2026, 11:32 AM EST",
+  "generated_at": "2026-11-27T12:26:11-05:00",
+  "as_of_et": "November 27, 2026, 12:26 PM EST",
   "items": [
+    {
+      "id": "scout-20261127-1226-coreweave-financing",
+      "observed_at": "2026-11-27T12:26:11-05:00",
+      "title": "CoreWeave's proposed Meta-backed loan tests AI infrastructure funding",
+      "summary": "Banks are reportedly preparing a customer-backed loan sale for CoreWeave as early as next week. Management previously outlined the secured financing strategy, which could reduce borrowing costs relative to unsecured debt. The proposed deal is not yet closed and corporate credit risk remains.",
+      "tickers": [
+        "CRWV",
+        "META",
+        "MS",
+        "MUFG"
+      ],
+      "sectors": [
+        "AI infrastructure",
+        "Cloud computing",
+        "Credit markets"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Bloomberg November 25 report",
+          "value": "Proposed $4.5 billion GPU-secured loan; indicative yield 7–7.5%; terms and timing subject to change."
+        },
+        {
+          "label": "Unsecured credit comparison",
+          "value": "CoreWeave 9% senior notes due 2031 yielded 18% on November 25 according to TRACE data cited by Bloomberg."
+        },
+        {
+          "label": "Company Q3 results",
+          "value": "Revenue backlog approximately $132.5 billion as of September 30, 2026; contingent on delivery and service availability."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Final syndication terms, ratings, demand, customer prepayments and interest expense; failure to close or higher borrowing costs would weaken the funding case."
+        }
+      ],
+      "key_finding": "Customer-backed secured financing may reduce project funding costs while leaving significant parent-company credit exposure.",
+      "sources": [
+        {
+          "title": "Bloomberg November 25 report via Yahoo Finance",
+          "url": "https://uk.finance.yahoo.com/news/coreweave-banks-sell-4-5-172523161.html"
+        },
+        {
+          "title": "CoreWeave quarterly results",
+          "url": "https://investors.coreweave.com/financials/quarterly-results/"
+        },
+        {
+          "title": "Barron's November earnings and financing coverage",
+          "url": "https://www.barrons.com/articles/coreweave-earnings-stock-price-7c0a24d8"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261127-1226-hormuz-traffic-counterpoint",
+      "observed_at": "2026-11-27T12:26:11-05:00",
+      "title": "Energy tanker tracking provides counterpoint to rising Hormuz security risk",
+      "summary": "Vortexa tracking indicates energy tanker traffic improved earlier in November despite increasing maritime threats. The dataset covers a different vessel population and period than the latest assisted-transit figures. Larger tanker movements and high shipping costs remain concerns; incremental physical crude-export losses are not established.",
+      "tickers": [
+        "CL",
+        "BRN",
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Maritime shipping"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Vortexa data reported November 26 by Bloomberg",
+          "value": "Seven-day average energy tanker transits above 26 through November 19 versus below 25 on at least two-thirds of October days; larger crude carriers declined slightly while smaller vessel movements rose."
+        },
+        {
+          "label": "Shipping costs",
+          "value": "Freight and additional insurance fees reported near wartime highs; exact current rates not verified."
+        },
+        {
+          "label": "JMIC comparison, November 26",
+          "value": "US-assisted transits averaged approximately 32/day November 22–25 versus 38/day November 19–21; distinct population and interval."
+        },
+        {
+          "label": "Reuters November 27, 10:16 AM ET intraday",
+          "value": "Brent $95.20, down $1.42; WTI $83.74, up 0.06% versus Wednesday close."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Actual cargo tonnage, Iraqi loading schedules, freight and insurance premiums, OPEC+ November 29; sustained flows would weaken the near-term scarcity case."
+        }
+      ],
+      "key_finding": "Rising maritime risk does not necessarily imply falling energy tanker counts or measurable incremental export losses.",
+      "sources": [
+        {
+          "title": "Bloomberg via gCaptain, November 26",
+          "url": "https://gcaptain.com/hormuz-tanker-traffic-rises-this-month-even-as-attacks-increase/"
+        },
+        {
+          "title": "Safety4Sea November 27",
+          "url": "https://safety4sea.com/strait-of-hormuz-tanker-traffic-rises-despite-escalating-attacks/"
+        },
+        {
+          "title": "JMIC official November 26 advisory",
+          "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_117_26-nov.pdf"
+        },
+        {
+          "title": "Reuters intraday oil report",
+          "url": "https://live.euronext.com/en/financial-news/oil-track-first-weekly-gain-november-supply-fears"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261127-1132-coherent-insider",
       "observed_at": "2026-11-27T11:32:39-05:00",
@@ -167,122 +280,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261127-1025-brent-contract-roll",
-      "observed_at": "2026-11-27T10:25:42-05:00",
-      "title": "Brent contract roll explains divergent benchmark quotes ahead of OPEC+ meeting",
-      "summary": "Market reports show materially different Brent prices because some feeds quote January delivery and others February delivery. The nearer contract expires Monday and commands a substantial premium. The difference should not be interpreted as an abrupt reduction in geopolitical supply risk.",
-      "tickers": [
-        "BRN",
-        "CL",
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Energy",
-        "Commodity futures"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "FinanceFeeds citing ICE/CNBC, 8:00 AM ET",
-          "value": "January Brent $96.30; February Brent reported at $91.90 in the same morning report, approximately $4.40 lower. Intraday quotes, not settlements."
-        },
-        {
-          "label": "ICE contract expiration rule",
-          "value": "Trading ceases on the last business day of the second month before delivery; January 2027 Brent expires November 30, 2026."
-        },
-        {
-          "label": "Independent oil-market context",
-          "value": "WSJ reported a $4.28 near-month premium and mixed crude prices ahead of the November 29 OPEC+ meeting."
-        },
-        {
-          "label": "Next indicators",
-          "value": "February-March spread after the roll, official OPEC+ decision, actual cargo flows and refinery restarts. Narrowing spreads and recovering flows would weaken the scarcity signal."
-        }
-      ],
-      "key_finding": "Compare like-for-like Brent delivery months to distinguish genuine price changes from mechanical benchmark rolls.",
-      "sources": [
-        {
-          "title": "ICE Brent futures specifications",
-          "url": "https://www.ice.com/products/219/Brent-Crude-Futures/data-ICE"
-        },
-        {
-          "title": "FinanceFeeds contract-specific morning quotes",
-          "url": "https://financefeeds.com/brent-crude-oil-price-96-30-friday-opec-plus-set-to-hold-q1-output-sunday-bull-100-bear-92-57/"
-        },
-        {
-          "title": "Wall Street Journal oil market and prompt spread",
-          "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-ahead-of-opec-meeting-as-middle-east-supply-risks-persist-63fbb550"
-        },
-        {
-          "title": "Oil Price Live contract roll explanation",
-          "url": "https://www.oilpricelive.com/news/january-brent-futures-expire-monday-february-cheaper"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261127-0932-brazil-financials",
-      "observed_at": "2026-11-27T09:32:55-05:00",
-      "title": "Brazilian financial ADRs surge following finance minister appointment",
-      "summary": "Bradesco chairman Luiz Carlos Trabuco accepted the finance minister role for 2027. Brazilian financial shares rallied in US premarket trading as investors anticipated improved fiscal credibility. Actual fiscal reforms and sustainable debt stabilization remain unproven.",
-      "tickers": [
-        "BBD",
-        "XP",
-        "STNE",
-        "PAGS",
-        "EWZ"
-      ],
-      "sectors": [
-        "International equities",
-        "Financials"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Premarket November 27, StockTitan",
-          "value": "XP +19.74% at 6:35 AM ET; BBD +18.11% at 6:37 AM ET."
-        },
-        {
-          "label": "Separate premarket snapshot",
-          "value": "STNE +16.58%, PAGS +12.99%, XP +15.36%; snapshot time not specified."
-        },
-        {
-          "label": "Policy context",
-          "value": "Reuters reports policy rate 13.75%, government debt near 83% of GDP."
-        },
-        {
-          "label": "Next indicators",
-          "value": "Fiscal reform, currency strength, rates and legislative support; absent fiscal follow-through would undermine the rally."
-        }
-      ],
-      "key_finding": "Policy optimism is driving broad Brazilian financial-sector repricing, not yet demonstrated earnings improvement.",
-      "sources": [
-        {
-          "title": "Reuters: Trabuco accepts finance ministry",
-          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/27/brazil-s-lula-sounds-out-bradesco-chairman-as-finance-minister-sources-say"
-        },
-        {
-          "title": "Financial Times",
-          "url": "https://www.ft.com/content/94f93408-476b-479c-be0e-d7f7942f9491"
-        },
-        {
-          "title": "StockTitan premarket quotes",
-          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-27-2026"
-        },
-        {
-          "title": "PremarketPrice snapshot",
-          "url": "https://premarketprice.com/premarket-gainers/2026-11-27"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-27T11:32:39-05:00",
+  "last_checked_at": "2026-11-27T12:26:11-05:00",
   "last_check_status": "new_findings"
 }
