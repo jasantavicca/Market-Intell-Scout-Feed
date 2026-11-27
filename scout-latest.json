@@ -1,8 +1,125 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-27T16:32:47-05:00",
-  "as_of_et": "November 27, 2026, 4:32 PM EST",
+  "generated_at": "2026-11-27T17:35:11-05:00",
+  "as_of_et": "November 27, 2026, 5:35 PM EST",
   "items": [
+    {
+      "id": "scout-20261127-1735-iraq-opec-quota",
+      "observed_at": "2026-11-27T17:35:11-05:00",
+      "title": "Iraq seeks higher OPEC quota as export recovery complicates supply-risk outlook",
+      "summary": "Iraq's oil minister said Baghdad is negotiating a higher production ceiling ahead of Sunday's OPEC+ meeting and reported a recovery in crude exports. These statements provide a counterweight to near-term disruption fears, but actual cargo movements and future quota changes still require verification.",
+      "tickers": [
+        "CL",
+        "BRN",
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "International energy"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Minister's reported crude export rate",
+          "value": "3.6 million barrels/day, announced November 26 and reported November 27; not independently measured."
+        },
+        {
+          "label": "Production capacity review",
+          "value": "Reuters reports a preliminary estimate of 4.9 million barrels/day, disputed by Iraq."
+        },
+        {
+          "label": "Policy timing",
+          "value": "OPEC+ meets November 29; no new quota approved yet."
+        },
+        {
+          "label": "Separate Reuters investigation",
+          "value": "US reportedly encouraged Iraq and Venezuela to consider leaving OPEC earlier this year; not independently corroborated and neither departure established."
+        },
+        {
+          "label": "Next indicators",
+          "value": "OPEC+ communiqué, independently measured Iraqi loadings and pipeline flows, actual quota compliance and replacement cargo premiums."
+        }
+      ],
+      "key_finding": "Iraq's stated export recovery and quota request introduce a medium-term supply counterweight to near-term shipping risk.",
+      "sources": [
+        {
+          "title": "Reuters on Iraqi quota negotiations",
+          "url": "https://www.investing.com/news/commodities-news/iraq-in-talks-with-opec-for-higher-oil-quota-minister-says-before-opec-meeting-5053712"
+        },
+        {
+          "title": "Rudaw coverage of minister's press conference",
+          "url": "https://www.rudaw.net/english/categories/economic/1080351"
+        },
+        {
+          "title": "Shafaq News local reporting",
+          "url": "https://www.shafaq.com/en/Economy/Baghdad-seeks-higher-OPEC-quota-US-oil-investment"
+        },
+        {
+          "title": "Reuters investigation of OPEC pressure",
+          "url": "https://www.investing.com/news/commodities-news/exclusiveus-pushed-venezuela-iraq-to-consider-leaving-opec-sources-say-5052970"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261127-1735-bangchak-refinery",
+      "observed_at": "2026-11-27T17:35:11-05:00",
+      "title": "Thailand orders full Bangchak refinery shutdown following fire",
+      "summary": "Thailand's government confirmed all production units at Bangchak's Bangkok refinery were shut following a November 26 fire. Local reporting indicates a temporary closure order through early January, subject to safety review. The disruption concerns fuel processing, not crude production, and authorities expect domestic supply to remain adequate.",
+      "tickers": [
+        "BCP.BK",
+        "VLO",
+        "MPC",
+        "XLE"
+      ],
+      "sectors": [
+        "Refining",
+        "Oil and gas",
+        "Asian energy"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Refinery nameplate capacity",
+          "value": "120,000 barrels/day per Reuters and AP; actual lost throughput not disclosed."
+        },
+        {
+          "label": "Government update November 27",
+          "value": "All units shut; restart requires safety clearance."
+        },
+        {
+          "label": "Closure duration",
+          "value": "Thairath reports an order from November 27 through January 8, 2027; exact date not independently corroborated."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Repair schedule, official restart authorization, regional diesel margins and replacement fuel imports; other domestic refineries may offset the interruption."
+        }
+      ],
+      "key_finding": "A documented regional refining outage adds product-supply risk without establishing a global crude shortage.",
+      "sources": [
+        {
+          "title": "Thailand government incident update",
+          "url": "https://www.thailand.go.th/public/event-detail/update-bangchak-refinery-fire-phra-khanong-bangkok-as-of-27-nov-1000-am"
+        },
+        {
+          "title": "Reuters on refinery capacity and shutdown",
+          "url": "https://www.tbsnews.net/worldbiz/asia/thailands-bangchak-shuts-all-units-bangkok-refinery-after-fire-1614821"
+        },
+        {
+          "title": "AP refinery reporting",
+          "url": "https://apnews.com/article/e8098146bfb994dffc14448b1027c5d1"
+        },
+        {
+          "title": "Thairath closure order reporting",
+          "url": "https://en.thairath.co.th/news/local/2975034"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261127-1632-panw-accounting-claims",
       "observed_at": "2026-11-27T15:07:00-05:00",
@@ -158,103 +275,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261127-1429-jera-power-ai",
-      "observed_at": "2026-11-27T14:29:19-05:00",
-      "title": "JERA explores direct-power data centers with hyperscalers in Japan",
-      "summary": "JERA's chief told Nikkei that the utility is discussing data centers beside Tokyo-area power stations with major US technology companies. Its previously announced Chiba project integrates existing gas-fired power and compute infrastructure. New customer contracts have not been announced.",
-      "tickers": [
-        "DELL",
-        "META",
-        "AMZN",
-        "MSFT",
-        "GOOGL",
-        "APO"
-      ],
-      "sectors": [
-        "AI infrastructure",
-        "Power generation",
-        "International equities"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Existing Chiba project announced October 1",
-          "value": "Over $15 billion planned capital deployment; up to 400 MW; targeted operations around 2028."
-        },
-        {
-          "label": "November 27 development",
-          "value": "Reported talks with Meta, Anthropic, Amazon, Microsoft and Google; no binding customer commitments reported."
-        },
-        {
-          "label": "Next indicators",
-          "value": "Signed customer contracts, financing closure, construction milestones and LNG costs."
-        }
-      ],
-      "key_finding": "Direct access to generation may shorten AI infrastructure deployment timelines; reported talks are preliminary.",
-      "sources": [
-        {
-          "title": "JERA official October 1 announcement",
-          "url": "https://www.jera.co.jp/en/news/information/20261001_2535"
-        },
-        {
-          "title": "Reuters report on November 27",
-          "url": "https://www.straitstimes.com/asia/east-asia/japans-jera-enters-talks-with-anthropic-meta-to-build-data-centres-nikkei-reports"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261127-1429-nvda-export-hold",
-      "observed_at": "2026-11-27T14:29:19-05:00",
-      "title": "Reported Nvidia Southeast Asian server shipment hold raises revenue timing risk",
-      "summary": "Financial Times and Wall Street Journal reporting indicates Nvidia asked manufacturing partners to pause shipments to four Southeast Asian countries following new US licensing rules. The duration and revenue impact are unknown. Nvidia lagged the broader semiconductor rebound, but retrieved reports disagree on its exact closing move.",
-      "tickers": [
-        "NVDA",
-        "DELL",
-        "SMCI"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "AI infrastructure",
-        "International trade"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Affected destinations reported November 26–27",
-          "value": "Malaysia, Singapore, Thailand and Indonesia."
-        },
-        {
-          "label": "Price observation",
-          "value": "November 27 session underperformance versus semiconductor peers; exact closing move disputed by retrieved sources."
-        },
-        {
-          "label": "Next indicators",
-          "value": "License approvals, shipment resumptions, customer cancellations and updated revenue guidance."
-        }
-      ],
-      "key_finding": "Reported compliance hold creates revenue timing uncertainty without demonstrating a decline in demand.",
-      "sources": [
-        {
-          "title": "Reuters citing Financial Times",
-          "url": "https://www.investing.com/news/stock-market-news/nvidia-halts-server-shipments-to-four-southeast-asian-countries-ft-reports-5053574"
-        },
-        {
-          "title": "Wall Street Journal reporting summarized by UOL",
-          "url": "https://www.uol.com.br/tilt/noticias/redacao/2026/11/27/nvidia-suspende-envio-de-chips-de-ia-para-o-sudeste-asiatico.ghtm"
-        },
-        {
-          "title": "Barron's market context",
-          "url": "https://www.barrons.com/articles/nvidia-stock-chip-server-southeast-asia-ad9b5d88"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-27T16:32:47-05:00",
+  "last_checked_at": "2026-11-27T17:35:11-05:00",
   "last_check_status": "new_findings"
 }
