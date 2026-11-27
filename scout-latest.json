@@ -1,8 +1,112 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-27T10:25:42-05:00",
-  "as_of_et": "November 27, 2026, 10:25 AM EST",
+  "generated_at": "2026-11-27T11:32:39-05:00",
+  "as_of_et": "November 27, 2026, 11:32 AM EST",
   "items": [
+    {
+      "id": "scout-20261127-1132-coherent-insider",
+      "observed_at": "2026-11-27T11:32:39-05:00",
+      "title": "Large Coherent insider purchases coincide with optical networking rebound",
+      "summary": "Recent regulatory disclosures describe substantial purchases of Coherent shares through a director-associated investment entity. The company has reported strong revenue growth and improving gross margins as optical connectivity demand increases. The purchases predate Friday's rebound and do not establish undervaluation.",
+      "tickers": [
+        "COHR",
+        "LITE",
+        "MRVL"
+      ],
+      "sectors": [
+        "Optical networking",
+        "AI infrastructure",
+        "Semiconductors"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Reported purchases November 20–24",
+          "value": "251,910 shares for approximately $49.9 million; filings November 24–25. Indirect ownership through an investment entity."
+        },
+        {
+          "label": "Friday premarket report updated 8:36 AM ET",
+          "value": "COHR +7.79%; not a closing figure."
+        },
+        {
+          "label": "November 4 fiscal Q1 results",
+          "value": "Revenue $2.37 billion, +50% year over year; GAAP gross margin 39.1%, up 254 basis points. Management expects fiscal 2027 pro forma revenue growth above 60%."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Customer capital spending, manufacturing capacity, margins, valuation and new filings; weaker orders or margin execution would weaken the case."
+        }
+      ],
+      "key_finding": "Large disclosed insider purchases and strong operating results warrant further optical infrastructure research, without establishing a valuation anomaly.",
+      "sources": [
+        {
+          "title": "Quantisnow November 25 filing analysis",
+          "url": "https://www.quantisnow.com/articles/coherent-director-pagliuca-buys-34-7-million-more-stock-for-49-9-million-total"
+        },
+        {
+          "title": "Form 4 filing reproduction",
+          "url": "https://www.stocktitan.net/sec-filings/COHR/form-4-coherent-corp-insider-trading-activity-8329c2a7f0bb.html"
+        },
+        {
+          "title": "Coherent official earnings",
+          "url": "https://ir.coherent.com/news-releases/news-release-details/coherent-corp-reports-first-quarter-fiscal-2027-results"
+        },
+        {
+          "title": "Premarket price snapshot",
+          "url": "https://prebell.site/en/p/premarket-2026-11-27"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261127-1132-iraq-cargo-delays",
+      "observed_at": "2026-11-27T11:32:39-05:00",
+      "title": "Iraqi crude cargo delays reported, awaiting independent verification",
+      "summary": "Bloomberg-sourced reporting indicates that substantial Iraqi crude shipments scheduled for November may be delayed into December. Buyers are reportedly looking for replacement cargoes. Iraq's state oil marketer has not confirmed the volumes or cause, and delayed shipments are not necessarily permanently lost supply.",
+      "tickers": [
+        "BRN",
+        "CL",
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil and gas",
+        "Maritime shipping"
+      ],
+      "evidence_grade": "single-source",
+      "observations": [
+        {
+          "label": "November 27 OilPrice reporting, citing Bloomberg",
+          "value": "20–30 million barrels reportedly delayed; some cargoes may load December 1–10. Multiple republications trace to the same original source."
+        },
+        {
+          "label": "Reuters November 27, 7:39 AM ET",
+          "value": "Brent $96.60, up $0.03; WTI $85.14, +1.7% versus Wednesday settlement. Intraday, not settlement."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Official SOMO loading schedules, independently tracked departures, regional cargo premiums and November 29 OPEC+ meeting. Prompt rescheduling would weaken the shortage signal."
+        }
+      ],
+      "key_finding": "Reported cargo delays are a significant early warning but do not establish verified incremental physical export losses.",
+      "sources": [
+        {
+          "title": "OilPrice November 27 report citing Bloomberg",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Delays-Up-to-30-Million-Barrels-of-Crude-Oil-Shipments.html"
+        },
+        {
+          "title": "Reuters oil market report",
+          "url": "https://live.euronext.com/en/financial-news/oil-track-snap-3-week-losing-streak-over-supply-fears"
+        },
+        {
+          "title": "OPEC official meeting announcement",
+          "url": "https://www.opec.org/pr-detail/620-1-november-2026.html"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261127-1025-ai-opening-fade",
       "observed_at": "2026-11-27T10:25:42-05:00",
@@ -177,98 +281,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261127-0932-alvotech-injunction",
-      "observed_at": "2026-11-27T09:32:55-05:00",
-      "title": "Alvotech falls after US biosimilar injunction",
-      "summary": "A US court granted a preliminary injunction relating to Alvotech's proposed golimumab biosimilar. Alvotech plans an appeal and says demand for existing approved products remains strong. The order creates launch-timing and legal uncertainty rather than establishing a company-wide demand deterioration.",
-      "tickers": [
-        "ALVO",
-        "TEVA"
-      ],
-      "sectors": [
-        "Biotechnology",
-        "Biosimilars"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Premarket move",
-          "value": "StockTitan reports ALVO -8.79% at 6:18 AM ET on November 27; Unusual Whales reports approximately -10% in its 7:45 AM update."
-        },
-        {
-          "label": "Company disclosure",
-          "value": "November 26 announcement; November 27 6-K; injunction concerns a manufacturing-process patent; company intends expedited appeal."
-        },
-        {
-          "label": "Next indicators",
-          "value": "Appeal docket, launch timing, cash flow and existing product demand; prolonged injunction could impair growth."
-        }
-      ],
-      "key_finding": "A specific legal setback creates a material product-launch risk while existing demand remains strong according to management.",
-      "sources": [
-        {
-          "title": "Alvotech official release",
-          "url": "https://www.globenewswire.com/news-release/2026/11/26/3410693/0/en/alvotech-to-appeal-us-preliminary-injunction-decision-relating-to-avt05.html"
-        },
-        {
-          "title": "StockTitan premarket report",
-          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-27-2026"
-        },
-        {
-          "title": "Unusual Whales premarket update",
-          "url": "https://unusualwhales.com/news/premarket-brief-stocks-rebound-thanksgiving-vertex-2026-11-27"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261127-0932-amuay-refinery",
-      "observed_at": "2026-11-27T09:32:55-05:00",
-      "title": "Venezuela refinery fire adds regional fuel-supply uncertainty",
-      "summary": "PDVSA confirmed a fire at the Amuay refinery on Thursday and said domestic fuel distribution was unaffected. Reuters sources reported a temporary processing interruption, which PDVSA did not confirm. Actual output losses and restart timing remain unknown.",
-      "tickers": [
-        "CL",
-        "BRN",
-        "XLE",
-        "XOP"
-      ],
-      "sectors": [
-        "Oil refining",
-        "Energy"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Refinery capacity and reported throughput",
-          "value": "645,000 barrels/day nameplate; approximately 67,000 barrels/day actual processing before incident, per Reuters."
-        },
-        {
-          "label": "Operational status",
-          "value": "Fire extinguished; temporary interruption reported by a worker; PDVSA did not confirm processing status."
-        },
-        {
-          "label": "Next indicators",
-          "value": "Restart and actual throughput, product exports and refining margins; rapid restart would limit impact."
-        }
-      ],
-      "key_finding": "Confirmed refinery fire adds supply-chain risk, but lost output is unquantified and crude-export loss is not established.",
-      "sources": [
-        {
-          "title": "Reuters via Straits Times",
-          "url": "https://www.straitstimes.com/world/fire-prompts-worker-evacuation-at-venezuelas-amuay-refinery-sources-say"
-        },
-        {
-          "title": "Reuters oil market overview",
-          "url": "https://au.investing.com/news/commodities-news/brent-trades-near-months-high-as-mideast-conflict-threatens-supply-4798151"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-27T10:25:42-05:00",
+  "last_checked_at": "2026-11-27T11:32:39-05:00",
   "last_check_status": "new_findings"
 }
