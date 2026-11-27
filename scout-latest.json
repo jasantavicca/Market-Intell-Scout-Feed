@@ -1,8 +1,155 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-27T08:30:29-05:00",
-  "as_of_et": "November 27, 2026, 8:30 AM EST",
+  "generated_at": "2026-11-27T09:32:55-05:00",
+  "as_of_et": "November 27, 2026, 9:32 AM EST",
   "items": [
+    {
+      "id": "scout-20261127-0932-brazil-financials",
+      "observed_at": "2026-11-27T09:32:55-05:00",
+      "title": "Brazilian financial ADRs surge following finance minister appointment",
+      "summary": "Bradesco chairman Luiz Carlos Trabuco accepted the finance minister role for 2027. Brazilian financial shares rallied in US premarket trading as investors anticipated improved fiscal credibility. Actual fiscal reforms and sustainable debt stabilization remain unproven.",
+      "tickers": [
+        "BBD",
+        "XP",
+        "STNE",
+        "PAGS",
+        "EWZ"
+      ],
+      "sectors": [
+        "International equities",
+        "Financials"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Premarket November 27, StockTitan",
+          "value": "XP +19.74% at 6:35 AM ET; BBD +18.11% at 6:37 AM ET."
+        },
+        {
+          "label": "Separate premarket snapshot",
+          "value": "STNE +16.58%, PAGS +12.99%, XP +15.36%; snapshot time not specified."
+        },
+        {
+          "label": "Policy context",
+          "value": "Reuters reports policy rate 13.75%, government debt near 83% of GDP."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Fiscal reform, currency strength, rates and legislative support; absent fiscal follow-through would undermine the rally."
+        }
+      ],
+      "key_finding": "Policy optimism is driving broad Brazilian financial-sector repricing, not yet demonstrated earnings improvement.",
+      "sources": [
+        {
+          "title": "Reuters: Trabuco accepts finance ministry",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/27/brazil-s-lula-sounds-out-bradesco-chairman-as-finance-minister-sources-say"
+        },
+        {
+          "title": "Financial Times",
+          "url": "https://www.ft.com/content/94f93408-476b-479c-be0e-d7f7942f9491"
+        },
+        {
+          "title": "StockTitan premarket quotes",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-27-2026"
+        },
+        {
+          "title": "PremarketPrice snapshot",
+          "url": "https://premarketprice.com/premarket-gainers/2026-11-27"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261127-0932-alvotech-injunction",
+      "observed_at": "2026-11-27T09:32:55-05:00",
+      "title": "Alvotech falls after US biosimilar injunction",
+      "summary": "A US court granted a preliminary injunction relating to Alvotech's proposed golimumab biosimilar. Alvotech plans an appeal and says demand for existing approved products remains strong. The order creates launch-timing and legal uncertainty rather than establishing a company-wide demand deterioration.",
+      "tickers": [
+        "ALVO",
+        "TEVA"
+      ],
+      "sectors": [
+        "Biotechnology",
+        "Biosimilars"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Premarket move",
+          "value": "StockTitan reports ALVO -8.79% at 6:18 AM ET on November 27; Unusual Whales reports approximately -10% in its 7:45 AM update."
+        },
+        {
+          "label": "Company disclosure",
+          "value": "November 26 announcement; November 27 6-K; injunction concerns a manufacturing-process patent; company intends expedited appeal."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Appeal docket, launch timing, cash flow and existing product demand; prolonged injunction could impair growth."
+        }
+      ],
+      "key_finding": "A specific legal setback creates a material product-launch risk while existing demand remains strong according to management.",
+      "sources": [
+        {
+          "title": "Alvotech official release",
+          "url": "https://www.globenewswire.com/news-release/2026/11/26/3410693/0/en/alvotech-to-appeal-us-preliminary-injunction-decision-relating-to-avt05.html"
+        },
+        {
+          "title": "StockTitan premarket report",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-27-2026"
+        },
+        {
+          "title": "Unusual Whales premarket update",
+          "url": "https://unusualwhales.com/news/premarket-brief-stocks-rebound-thanksgiving-vertex-2026-11-27"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
+    {
+      "id": "scout-20261127-0932-amuay-refinery",
+      "observed_at": "2026-11-27T09:32:55-05:00",
+      "title": "Venezuela refinery fire adds regional fuel-supply uncertainty",
+      "summary": "PDVSA confirmed a fire at the Amuay refinery on Thursday and said domestic fuel distribution was unaffected. Reuters sources reported a temporary processing interruption, which PDVSA did not confirm. Actual output losses and restart timing remain unknown.",
+      "tickers": [
+        "CL",
+        "BRN",
+        "XLE",
+        "XOP"
+      ],
+      "sectors": [
+        "Oil refining",
+        "Energy"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "Refinery capacity and reported throughput",
+          "value": "645,000 barrels/day nameplate; approximately 67,000 barrels/day actual processing before incident, per Reuters."
+        },
+        {
+          "label": "Operational status",
+          "value": "Fire extinguished; temporary interruption reported by a worker; PDVSA did not confirm processing status."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Restart and actual throughput, product exports and refining margins; rapid restart would limit impact."
+        }
+      ],
+      "key_finding": "Confirmed refinery fire adds supply-chain risk, but lost output is unquantified and crude-export loss is not established.",
+      "sources": [
+        {
+          "title": "Reuters via Straits Times",
+          "url": "https://www.straitstimes.com/world/fire-prompts-worker-evacuation-at-venezuelas-amuay-refinery-sources-say"
+        },
+        {
+          "title": "Reuters oil market overview",
+          "url": "https://au.investing.com/news/commodities-news/brent-trades-near-months-high-as-mideast-conflict-threatens-supply-4798151"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261127-0830-vertex-vera-fda-delay",
       "observed_at": "2026-11-27T08:30:29-05:00",
@@ -128,179 +275,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261127-0730-kioxia-ssd-memory",
-      "observed_at": "2026-11-27T07:30:01-05:00",
-      "title": "Kioxia and Nvidia demonstrate SSD-backed expansion of effective GPU memory",
-      "summary": "Kioxia's regional announcements describe a proof of concept that uses flash storage and Nvidia software to increase the effective memory accessible to AI workloads. The development broadens the potential role of enterprise NAND in AI infrastructure. It does not establish HBM replacement, commercial orders or incremental revenue.",
-      "tickers": [
-        "285A.T",
-        "NVDA",
-        "SNDK",
-        "MU",
-        "WDC"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "AI infrastructure",
-        "Enterprise storage"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Company demonstration announced Nov 25–27",
-          "value": "Approximately 1.1 PB raw SSD capacity in an NVL72 system with 144 SSDs; potential processing of 2 trillion vectors."
-        },
-        {
-          "label": "Stock reaction",
-          "value": "Investing.com reports Kioxia rose as much as 14.5% on November 26; Saxo reports further Friday gains of nearly 9% at its morning snapshot; neither is a confirmed close."
-        },
-        {
-          "label": "Next indicators",
-          "value": "Independent performance and latency benchmarks, production adoption, NAND orders, margins and customer economics; poor performance or no deployment would weaken the commercial case."
-        }
-      ],
-      "key_finding": "A documented proof of concept expands the potential AI storage opportunity, but commercial economics and HBM substitution are unproven.",
-      "sources": [
-        {
-          "title": "Kioxia official US announcement",
-          "url": "https://americas.kioxia.com/en-us/business/news/2026/ssd-20261125-1.html"
-        },
-        {
-          "title": "Kioxia November 27 European announcement",
-          "url": "https://europe.kioxia.com/en-mea/business/news/2026/20261127-1.html"
-        },
-        {
-          "title": "Saxo November 27 market report",
-          "url": "https://www.home.saxo/en-sg/content/articles/macro/market-quick-take---brent-tops-usd-97-and-asian-stocks-extend-rebound---27-november-2026-27112026"
-        },
-        {
-          "title": "Investing.com November 26 Kioxia move",
-          "url": "https://za.investing.com/news/stock-market-news/kioxia-jumps-14-after-nvidia-collaboration-as-chip-stocks-rebound-4597990"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
-    },
-    {
-      "id": "scout-20261127-0730-oil-curve-firming",
-      "observed_at": "2026-11-27T07:30:01-05:00",
-      "title": "Brent tops $97 and prompt premium widens before OPEC+ meeting",
-      "summary": "Oil extended its recovery as shipping and refinery risks supported nearby contracts. Russia also extended an existing jet-fuel export restriction, rather than introducing a new immediate supply cut. The futures curve signals rising near-term supply concern, but incremental crude export losses remain unquantified.",
-      "tickers": [
-        "CL",
-        "BRN",
-        "XLE",
-        "XOP",
-        "VLO",
-        "MPC"
-      ],
-      "sectors": [
-        "Oil and gas",
-        "Refining",
-        "Maritime shipping"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "November 27 3:54 AM EST WSJ intraday",
-          "value": "Brent $97.40 +0.9%; WTI $86.57 +2.4%; WTI had no Thursday settlement."
-        },
-        {
-          "label": "Prompt spread",
-          "value": "WSJ cites MUFG: near-term Brent premium $4.28/bbl versus approximately $2.50 earlier this week; exact contract pair not specified in retrieved report."
-        },
-        {
-          "label": "Russian jet fuel policy",
-          "value": "Cabinet press service reports export ban extended Dec 1 through Mar 31, 2027, with exceptions; existing ban expires Nov 30."
-        },
-        {
-          "label": "Physical and regulatory context",
-          "value": "Jazan partial operational halt previously reported; actual lost throughput unquantified. MARAD active advisory list unchanged; OFAC latest listed action Nov 23. US commercial crude stocks +1.1M barrels last reporting week."
-        },
-        {
-          "label": "Next indicators",
-          "value": "OPEC+ Nov 29 quotas, verified tanker flows, refinery restart, product spreads, freight and US energy-sector relative strength; stable flows or narrowing prompt spread would weaken the scarcity signal."
-        }
-      ],
-      "key_finding": "Price and prompt-spread strength indicate an increasing near-term risk premium, not verified incremental crude supply loss.",
-      "sources": [
-        {
-          "title": "WSJ November 27 oil prices and curve",
-          "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-ahead-of-opec-meeting-as-middle-east-supply-risks-persist-63fbb550"
-        },
-        {
-          "title": "WSJ timestamped oil prices",
-          "url": "https://www.wsj.com/finance/commodities-futures/oil-mixed-as-markets-track-mideast-developments-u-s-inventories-6daf3fb1"
-        },
-        {
-          "title": "Reuters via Euronext",
-          "url": "https://live.euronext.com/en/financial-news/oil-track-snap-3-week-losing-streak-over-supply-fears"
-        },
-        {
-          "title": "Interfax Russian cabinet announcement",
-          "url": "https://interfax.com/newsroom/top-stories/120057/"
-        },
-        {
-          "title": "MARAD active advisories",
-          "url": "https://www.maritime.dot.gov/msci-advisories"
-        }
-      ],
-      "status": "updated",
-      "supersedes": "scout-20261126-1457-oil-brent-96"
-    },
-    {
-      "id": "scout-20261126-1457-slavyansk-refinery",
-      "observed_at": "2026-11-26T14:57:34-05:00",
-      "title": "Drone attack seriously damages Slavyansk ECO refinery in Russia's Krasnodar region",
-      "summary": "A fire broke out at the Slavyansk ECO oil refinery in Russia's southern Krasnodar region after a drone attack on November 26, inflicting serious damage, the company said. The plant was already in a maintenance stoppage following a September drone strike, which limits the immediate production impact; lost throughput from this attack has not been quantified.",
-      "tickers": [
-        "CL",
-        "BRN"
-      ],
-      "sectors": [
-        "Oil refining",
-        "Energy"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "Company statement reported by Reuters, November 26",
-          "value": "An atmospheric crude oil distillation unit sustained significant damage; storage facilities for heavy petroleum products were destroyed and pipelines carrying heavy petroleum products and gasoline fractions were damaged."
-        },
-        {
-          "label": "Independent corroboration",
-          "value": "Ukrainian military intelligence (HUR) said its long-range drones struck the refinery's key production units, tank farm and transport pipelines and sparked a fire; multiple outlets reported the same company statement and damage list."
-        },
-        {
-          "label": "Operating status at the time",
-          "value": "The attack took place during a maintenance stoppage in place since a September drone strike, so the refinery was not operating; immediate crude-processing loss is therefore limited, while repair time and cost remain unknown."
-        },
-        {
-          "label": "Next indicators",
-          "value": "Operator updates on repair timeline, regional fuel supply and export loadings; a prolonged repair would extend the outage of already-idled capacity rather than remove currently running throughput."
-        }
-      ],
-      "key_finding": "A corroborated drone strike seriously damaged a Russian refinery that was already shut for repairs, so the near-term supply effect is about extended downtime, not newly lost production.",
-      "sources": [
-        {
-          "title": "Reuters: Russian oil refinery in Krasnodar region on fire after drone attack, November 26",
-          "url": "https://www.reuters.com/business/energy/russian-oil-refinery-krasnodar-region-fire-after-drone-attack-2026-11-26/"
-        },
-        {
-          "title": "The Gaze: Ukrainian drones hit Slavyansk-ECO oil refinery in Kuban again, November 26",
-          "url": "https://thegaze.media/news/ukrainian-drones-hit-slavyansk-eco-oil-refinery-in-kuban-again-sparking-a-fire"
-        },
-        {
-          "title": "Devdiscourse: Russian oil refinery in Krasnodar region on fire after drone attack, November 26",
-          "url": "https://www.devdiscourse.com/article/international/4012700-russian-oil-refinery-in-krasnodar-region-on-fire-after-drone-attack"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-27T08:30:29-05:00",
+  "last_checked_at": "2026-11-27T09:32:55-05:00",
   "last_check_status": "new_findings"
 }
