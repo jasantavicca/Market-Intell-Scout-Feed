@@ -1,8 +1,62 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-28T10:56:19-05:00",
-  "as_of_et": "November 28, 2026, 10:56 AM EST",
+  "generated_at": "2026-11-28T11:56:05-05:00",
+  "as_of_et": "November 28, 2026, 11:56 AM EST",
   "items": [
+    {
+      "id": "scout-20261128-1156-gulf-aden-hijack-update",
+      "observed_at": "2026-11-28T11:56:05-05:00",
+      "title": "UKMTO: Armed group vacates hijacked cargo vessel off Yemen, crew safe",
+      "summary": "UK Maritime Trade Operations issued Update 001 to Warning 225-26 stating the unauthorized armed persons who boarded a cargo vessel off southern Yemen earlier on November 28 have vacated the vessel, the crew are safe, and the vessel is proceeding to its next port of call. Reuters-syndicated reporting carried the same UKMTO update. UKMTO did not disclose who was behind the boarding or why the group left, and those points remain unresolved. The update reduces the immediate incident risk from the earlier hijack report, but no oil cargo loss or supply disruption had been established in either report.",
+      "tickers": [
+        "FRO",
+        "DHT",
+        "XLE",
+        "XOP",
+        "BRN",
+        "CL"
+      ],
+      "sectors": [
+        "Maritime transportation",
+        "Oil and gas"
+      ],
+      "evidence_grade": "corroborated",
+      "observations": [
+        {
+          "label": "UKMTO update",
+          "value": "Warning 225-26, Update 001, November 28: unauthorized persons have vacated the vessel, crew are safe, vessel proceeding to its next port of call."
+        },
+        {
+          "label": "Earlier incident",
+          "value": "Boarding reported at 0630 GMT, 64 nautical miles southwest of Balhaf, Yemen; vessel master reported armed persons in control."
+        },
+        {
+          "label": "Unresolved",
+          "value": "Identity of the armed group and circumstances of their departure not disclosed by UKMTO; reports naming the vessel and attackers rest on regional officials and are not independently confirmed."
+        },
+        {
+          "label": "Market confirmation",
+          "value": "US equity markets closed for the weekend; no new price reaction established."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Further UKMTO/MARAD updates, vessel arrival at next port, shipping restrictions or insurance changes, and the November 29 OPEC+ decision."
+        }
+      ],
+      "key_finding": "The Gulf of Aden hijack reported this morning has ended per UKMTO: attackers off the vessel, crew safe, ship under way \u2014 immediate shipping-incident risk eased, cause still unresolved.",
+      "sources": [
+        {
+          "title": "UKMTO recent incidents",
+          "url": "https://www.ukmto.org/recent-incidents"
+        },
+        {
+          "title": "Reuters via Devdiscourse: armed individuals exit ship, crew safe",
+          "url": "https://www.devdiscourse.com/article/international/4013467-armed-individuals-exit-ship-off-yemen-with-crew-safe-says-uk-agency"
+        }
+      ],
+      "status": "new",
+      "supersedes": "scout-20261128-0808-gulf-aden-hijack"
+    },
     {
       "id": "scout-20261128-0808-gulf-aden-hijack",
       "observed_at": "2026-11-28T08:08:42-05:00",
@@ -92,7 +146,7 @@
         },
         {
           "label": "Next indicators",
-          "value": "OPEC+ communiqué, independently measured Iraqi loadings and pipeline flows, actual quota compliance and replacement cargo premiums."
+          "value": "OPEC+ communiqu\u00e9, independently measured Iraqi loadings and pipeline flows, actual quota compliance and replacement cargo premiums."
         }
       ],
       "key_finding": "Iraq's stated export recovery and quota request introduce a medium-term supply counterweight to near-term shipping risk.",
@@ -280,6 +334,6 @@
       "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-28T10:56:19-05:00",
-  "last_check_status": "no_new_findings"
+  "last_checked_at": "2026-11-28T11:56:05-05:00",
+  "last_check_status": "new_findings"
 }
