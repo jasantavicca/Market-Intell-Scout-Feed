@@ -1,8 +1,62 @@
 {
   "feed_version": "scout-feed-v1",
-  "generated_at": "2026-11-27T17:35:11-05:00",
-  "as_of_et": "November 27, 2026, 5:35 PM EST",
+  "generated_at": "2026-11-28T08:08:42-05:00",
+  "as_of_et": "November 28, 2026, 8:08 AM EST",
   "items": [
+    {
+      "id": "scout-20261128-0808-gulf-aden-hijack",
+      "observed_at": "2026-11-28T08:08:42-05:00",
+      "title": "UKMTO reports cargo vessel hijacking off southern Yemen",
+      "summary": "UK Maritime Trade Operations issued a new warning after the master of a commercial cargo ship reported its seizure off Yemen. Reuters reported the official warning. The incident adds to Gulf of Aden shipping risk, but neither oil cargo losses nor an incremental crude supply disruption have been established.",
+      "tickers": [
+        "FRO",
+        "DHT",
+        "XLE",
+        "XOP",
+        "BRN",
+        "CL"
+      ],
+      "sectors": [
+        "Maritime transportation",
+        "Oil and gas"
+      ],
+      "evidence_grade": "single-source",
+      "observations": [
+        {
+          "label": "Official warning",
+          "value": "UKMTO 225-26, November 28; vessel master reports unauthorized persons in control. Reuters coverage relies on UKMTO."
+        },
+        {
+          "label": "Market confirmation",
+          "value": "US equity markets closed for weekend; no new price reaction established."
+        },
+        {
+          "label": "MARAD",
+          "value": "Existing regional advisories remain active; no new advisory identified."
+        },
+        {
+          "label": "Next indicators",
+          "value": "Vessel recovery, shipping restrictions, insurance premiums, cargo movements and November 29 OPEC+ decision."
+        }
+      ],
+      "key_finding": "New official maritime incident report adds to shipping security risk without establishing incremental oil supply losses.",
+      "sources": [
+        {
+          "title": "UKMTO recent incidents",
+          "url": "https://www.ukmto.org/recent-incidents"
+        },
+        {
+          "title": "Reuters via Arab News",
+          "url": "https://www.arabnews.com/middle-east/armed-group-boards-cargo-ship-off-yemen-and-takes-control-ukmto-says-3014353"
+        },
+        {
+          "title": "MARAD active advisories",
+          "url": "https://www.maritime.dot.gov/msci-advisories"
+        }
+      ],
+      "status": "new",
+      "supersedes": null
+    },
     {
       "id": "scout-20261127-1735-iraq-opec-quota",
       "observed_at": "2026-11-27T17:35:11-05:00",
@@ -224,59 +278,8 @@
       ],
       "status": "new",
       "supersedes": null
-    },
-    {
-      "id": "scout-20261127-1534-ai-imports-trade",
-      "observed_at": "2026-11-27T08:30:00-05:00",
-      "title": "US goods deficit substantially exceeds forecasts as equipment imports surge",
-      "summary": "October advance trade data show a substantial increase in goods imports and a wider deficit than economists expected. Reuters attributes part of the import strength to AI infrastructure investment. The figures support the equipment-demand thesis, but do not establish AI-specific import totals, domestic supplier margins or investment returns.",
-      "tickers": [
-        "SMH",
-        "NVDA",
-        "DELL",
-        "ETN",
-        "VRT"
-      ],
-      "sectors": [
-        "Semiconductors",
-        "AI infrastructure",
-        "Industrial equipment",
-        "Macro"
-      ],
-      "evidence_grade": "corroborated",
-      "observations": [
-        {
-          "label": "October goods deficit, Census release November 27 at 8:30 AM ET",
-          "value": "$149.5 billion, +10.7% month over month; Reuters consensus $133 billion."
-        },
-        {
-          "label": "October goods imports and exports",
-          "value": "Imports $365.3 billion, up $21.1 billion; exports $215.8 billion, up $6.7 billion."
-        },
-        {
-          "label": "Market implications",
-          "value": "No isolated ticker price impact established; import-intensive capital spending can support equipment demand while weighing on net exports."
-        },
-        {
-          "label": "Next indicators",
-          "value": "Revised trade release, capital-goods orders, domestic supplier revenue and margins, data-center deployment and AI customer returns."
-        }
-      ],
-      "key_finding": "Official trade data provide tangible evidence of strong goods demand, while AI-specific attribution remains an analytical inference.",
-      "sources": [
-        {
-          "title": "US Census advance economic indicators, October 2026",
-          "url": "https://www.census.gov/econ/indicators/2026/advance_report2610.pdf"
-        },
-        {
-          "title": "Reuters November 27 trade deficit report",
-          "url": "https://www.investing.com/news/economic-indicators/us-goods-trade-deficit-widens-sharply-in-october-5053539"
-        }
-      ],
-      "status": "new",
-      "supersedes": null
     }
   ],
-  "last_checked_at": "2026-11-27T17:35:11-05:00",
+  "last_checked_at": "2026-11-28T08:08:42-05:00",
   "last_check_status": "new_findings"
 }
